@@ -1,0 +1,30 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
+.obsidian/*.log
+
+# Obsidian plugins - 忽略所有插件
+.obsidian/plugins/
+
+# Claude Code
+.claude/cache/
+.claude/plugins/cache/
+.claude/plugins/installed_plugins.json
+.claude/history/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+~$*
