@@ -1,0 +1,3 @@
+[submodule "system_prompts_leaks"]
+	path = system_prompts_leaks
+	url = https://github.com/duanbiao2000/system_prompts_leaks.git
