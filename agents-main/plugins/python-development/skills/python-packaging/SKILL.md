@@ -736,7 +736,7 @@ result = something.do_stuff()
 
 ## Documentation
 
-Full documentation: https://my-package.readthedocs.io
+Full documentation: <https://my-package.readthedocs.io>
 
 ## Development
 
@@ -867,12 +867,12 @@ recursive-exclude * *.py[co]
 
 ## Resources
 
-- **Python Packaging Guide**: https://packaging.python.org/
-- **PyPI**: https://pypi.org/
-- **TestPyPI**: https://test.pypi.org/
-- **setuptools documentation**: https://setuptools.pypa.io/
-- **build**: https://pypa-build.readthedocs.io/
-- **twine**: https://twine.readthedocs.io/
+- **Python Packaging Guide**: <https://packaging.python.org/>
+- **PyPI**: <https://pypi.org/>
+- **TestPyPI**: <https://test.pypi.org/>
+- **setuptools documentation**: <https://setuptools.pypa.io/>
+- **build**: <https://pypa-build.readthedocs.io/>
+- **twine**: <https://twine.readthedocs.io/>
 
 ## Best Practices Summary
 

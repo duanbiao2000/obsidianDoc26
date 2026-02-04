@@ -454,7 +454,7 @@ graph LR
     style E2 fill:#90EE90
 ````
 
-### Key Changes:
+### Key Changes
 
 1. Added caching layer for performance
 2. Introduced API gateway for better routing

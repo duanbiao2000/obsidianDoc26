@@ -23,12 +23,12 @@ Execute tasks from a track's implementation plan, following the workflow rules d
 
 ## Track Selection
 
-### If argument provided:
+### If argument provided
 
 - Validate track exists: `conductor/tracks/{argument}/plan.md`
 - If not found: Search for partial matches, suggest corrections
 
-### If no argument:
+### If no argument
 
 1. Read `conductor/tracks.md`
 2. Parse for incomplete tracks (status `[ ]` or `[~]`)

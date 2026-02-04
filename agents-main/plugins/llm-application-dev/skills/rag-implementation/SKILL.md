@@ -37,6 +37,7 @@ Master Retrieval-Augmented Generation (RAG) to build LLM applications that provi
 **Purpose**: Convert text to numerical vectors for similarity search
 
 **Models (2026):**
+
 | Model | Dimensions | Best For |
 |-------|------------|----------|
 | **voyage-3-large** | 1024 | Claude apps (Anthropic recommended) |

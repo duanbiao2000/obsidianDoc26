@@ -20,13 +20,13 @@ Review existing UI code for design issues, usability problems, and improvement o
 
 ## Target Identification
 
-### If argument provided:
+### If argument provided
 
 - If file path: Validate file exists, read the file
 - If component name: Search codebase for matching component files
 - If not found: Display error with suggestions
 
-### If no argument:
+### If no argument
 
 Ask user to specify target:
 

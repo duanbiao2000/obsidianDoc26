@@ -144,7 +144,8 @@ gpt5_optimized = """
 {"structured": "response"}
 ````
 
-##EXAMPLES##
+## EXAMPLES ##
+
 {few_shot_examples}
 """
 

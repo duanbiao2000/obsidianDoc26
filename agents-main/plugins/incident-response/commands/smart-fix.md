@@ -118,10 +118,10 @@ Deliverables:
    git bisect run ./test_reproduction.sh
 ````
 
-5. Dependency compatibility matrix: version combinations that work/fail
-6. Configuration analysis: environment variables, feature flags, deployment configs
-7. Timing and race condition analysis: async operations, event ordering, locks
-8. Memory and resource analysis: leaks, exhaustion, contention
+1. Dependency compatibility matrix: version combinations that work/fail
+2. Configuration analysis: environment variables, feature flags, deployment configs
+3. Timing and race condition analysis: async operations, event ordering, locks
+4. Memory and resource analysis: leaks, exhaustion, contention
 
 Modern investigation techniques:
 

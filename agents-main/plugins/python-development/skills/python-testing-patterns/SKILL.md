@@ -1029,8 +1029,8 @@ exclude_lines = [
 
 ## Resources
 
-- **pytest documentation**: https://docs.pytest.org/
-- **unittest.mock**: https://docs.python.org/3/library/unittest.mock.html
+- **pytest documentation**: <https://docs.pytest.org/>
+- **unittest.mock**: <https://docs.python.org/3/library/unittest.mock.html>
 - **hypothesis**: Property-based testing
 - **pytest-asyncio**: Testing async code
 - **pytest-cov**: Coverage reporting

@@ -37,7 +37,7 @@ Revert changes by logical work unit with full git awareness. Supports reverting 
 
 ## Target Selection
 
-### If argument provided:
+### If argument provided
 
 Parse the argument format:
 
@@ -56,7 +56,7 @@ Parse the argument format:
 - Example: `auth_20250115:task2.3`
 - Reverts commits for task X.Y only
 
-### If no argument:
+### If no argument
 
 Display guided selection menu:
 
@@ -238,12 +238,12 @@ After successful git reverts, update plan.md:
 
 ## Track Status Updates
 
-### If reverting entire track:
+### If reverting entire track
 
 - In tracks.md: Change `[x]` or `[~]` to `[ ]`
 - Consider offering to delete the track directory entirely
 
-### If reverting to incomplete state:
+### If reverting to incomplete state
 
 - In tracks.md: Ensure marked as `[~]` if partially complete, `[ ]` if fully reverted
 

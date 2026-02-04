@@ -62,6 +62,7 @@ claude -p "Use dotnet-backend-patterns skill to implement a repository with Dapp
    ```
 
 3. **Architecture Decision**
+
    ```
    Act as dotnet-architect. Should I use EF Core or Dapper for this high-throughput
    read scenario? Explain trade-offs.

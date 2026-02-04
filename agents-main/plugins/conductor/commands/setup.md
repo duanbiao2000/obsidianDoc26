@@ -18,6 +18,7 @@ Initialize or resume Conductor project setup. This command creates foundational 
    - **Brownfield (existing project)**: Any of the above exist
 
 3. Load or create `conductor/setup_state.json`:
+
    ```json
    {
      "status": "in_progress",

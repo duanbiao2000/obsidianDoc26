@@ -309,6 +309,7 @@ Type 'YES' to proceed, or anything else to cancel:
      ```
 
 5. Git commit:
+
    ```bash
    git add conductor/tracks/_archive/{track-id} conductor/tracks.md
    git commit -m "chore(conductor): Archive track '{title}'"
@@ -435,6 +436,7 @@ Type 'YES' to proceed, or anything else to cancel:
 
 - Archive each track sequentially
 - Single git commit for all:
+
   ```bash
   git add conductor/tracks/_archive/ conductor/tracks.md
   git commit -m "chore(conductor): Archive {N} completed tracks"
@@ -531,6 +533,7 @@ Type 'YES' to proceed, or anything else to cancel:
    - Add entry to Completed Tracks section
 
 4. Git commit:
+
    ```bash
    git add conductor/tracks/{track-id} conductor/tracks.md
    git commit -m "chore(conductor): Restore track '{title}'"
@@ -675,6 +678,7 @@ Type 'DELETE' to permanently remove, or anything else to cancel:
    - Remove entry from appropriate section (Active, Completed, or Archived)
 
 3. Git commit:
+
    ```bash
    git add conductor/tracks.md
    git commit -m "chore(conductor): Delete track '{title}'"
@@ -829,6 +833,7 @@ Type 'YES' to proceed, or anything else to cancel:
    - Update folder link path
 
 5. Git commit:
+
    ```bash
    git add conductor/tracks/{new-id} conductor/tracks.md
    git commit -m "chore(conductor): Rename track '{old-id}' to '{new-id}'"

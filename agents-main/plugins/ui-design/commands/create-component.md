@@ -367,7 +367,7 @@ Would you like to:
 Enter number:
 ```
 
-### If modifications requested:
+### If modifications requested
 
 ```
 What would you like to modify?

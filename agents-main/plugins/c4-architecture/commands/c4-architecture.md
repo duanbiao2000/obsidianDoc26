@@ -267,8 +267,6 @@ For each identified component:
      - For each key feature and persona:
        - Journey name: [Feature Name] - [Persona Name] Journey
        - Step-by-step journey:
-         1. [Step 1]: [Description]
-         2. [Step 2]: [Description]
             ...
        - Include all system touchpoints
      - For programmatic users (external systems, APIs):

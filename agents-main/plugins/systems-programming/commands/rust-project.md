@@ -390,25 +390,25 @@ async fn main() {
 .PHONY: build test lint fmt run clean bench
 
 build:
-	cargo build
+ cargo build
 
 test:
-	cargo test
+ cargo test
 
 lint:
-	cargo clippy -- -D warnings
+ cargo clippy -- -D warnings
 
 fmt:
-	cargo fmt --check
+ cargo fmt --check
 
 run:
-	cargo run
+ cargo run
 
 clean:
-	cargo clean
+ cargo clean
 
 bench:
-	cargo bench
+ cargo bench
 ```
 
 **rustfmt.toml**:

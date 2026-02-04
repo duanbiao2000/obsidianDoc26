@@ -26,28 +26,28 @@ Master PCI DSS (Payment Card Industry Data Security Standard) compliance for sec
 
 ### Protect Cardholder Data
 
-3. Protect stored cardholder data
-4. Encrypt transmission of cardholder data across public networks
+1. Protect stored cardholder data
+2. Encrypt transmission of cardholder data across public networks
 
 ### Maintain Vulnerability Management
 
-5. Protect systems against malware
-6. Develop and maintain secure systems and applications
+1. Protect systems against malware
+2. Develop and maintain secure systems and applications
 
 ### Implement Strong Access Control
 
-7. Restrict access to cardholder data by business need-to-know
-8. Identify and authenticate access to system components
-9. Restrict physical access to cardholder data
+1. Restrict access to cardholder data by business need-to-know
+2. Identify and authenticate access to system components
+3. Restrict physical access to cardholder data
 
 ### Monitor and Test Networks
 
-10. Track and monitor all access to network resources and cardholder data
-11. Regularly test security systems and processes
+1. Track and monitor all access to network resources and cardholder data
+2. Regularly test security systems and processes
 
 ### Maintain Information Security Policy
 
-12. Maintain a policy that addresses information security
+1. Maintain a policy that addresses information security
 
 ## Compliance Levels
 

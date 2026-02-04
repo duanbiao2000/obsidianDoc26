@@ -736,7 +736,7 @@ async def test_with_timeout():
 
 ## Resources
 
-- **Python asyncio documentation**: https://docs.python.org/3/library/asyncio.html
+- **Python asyncio documentation**: <https://docs.python.org/3/library/asyncio.html>
 - **aiohttp**: Async HTTP client/server
 - **FastAPI**: Modern async web framework
 - **asyncpg**: Async PostgreSQL driver

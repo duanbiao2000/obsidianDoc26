@@ -1042,7 +1042,7 @@ See `javascript-testing-patterns` skill for comprehensive testing guidance.
 
 ## Resources
 
-- **Node.js Best Practices**: https://github.com/goldbergyoni/nodebestpractices
-- **Express.js Guide**: https://expressjs.com/en/guide/
-- **Fastify Documentation**: https://www.fastify.io/docs/
-- **TypeScript Node Starter**: https://github.com/microsoft/TypeScript-Node-Starter
+- **Node.js Best Practices**: <https://github.com/goldbergyoni/nodebestpractices>
+- **Express.js Guide**: <https://expressjs.com/en/guide/>
+- **Fastify Documentation**: <https://www.fastify.io/docs/>
+- **TypeScript Node Starter**: <https://github.com/microsoft/TypeScript-Node-Starter>

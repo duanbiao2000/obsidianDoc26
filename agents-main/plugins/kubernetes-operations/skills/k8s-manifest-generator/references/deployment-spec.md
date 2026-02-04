@@ -417,6 +417,7 @@ resources:
    ```
 
 3. **readinessProbe** - Controls traffic routing
+
    ```yaml
    readinessProbe:
      httpGet:

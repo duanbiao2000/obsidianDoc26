@@ -325,6 +325,7 @@ workflow.apply_async()
 Choose the right tool for your needs.
 
 **RQ (Redis Queue)**: Simple, Redis-based
+
 ```python
 from rq import Queue
 from redis import Redis
@@ -334,6 +335,7 @@ job = queue.enqueue(send_email, "user@example.com", "Subject", "Body")
 ```
 
 **Dramatiq**: Modern Celery alternative
+
 ```python
 import dramatiq
 from dramatiq.brokers.redis import RedisBroker
@@ -346,6 +348,7 @@ def send_email(to: str, subject: str, body: str) -> None:
 ```
 
 **Cloud-native options:**
+
 - AWS SQS + Lambda
 - Google Cloud Tasks
 - Azure Functions

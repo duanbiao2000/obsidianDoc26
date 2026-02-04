@@ -6,28 +6,28 @@ Curated list of credible sources for market research and sizing analysis.
 
 ### Premium Research Firms
 
-**Gartner** (https://www.gartner.com)
+**Gartner** (<https://www.gartner.com>)
 
 - Technology market forecasts and sizing
 - Magic Quadrants for competitive positioning
 - Typical cost: $5K-$50K per report
 - Best for: Enterprise software, IT services, emerging tech
 
-**Forrester** (https://www.forrester.com)
+**Forrester** (<https://www.forrester.com>)
 
 - Business technology and digital transformation
 - Wave evaluations for vendor comparison
 - Typical cost: $3K-$30K per report
 - Best for: Marketing tech, customer experience, B2B
 
-**IDC** (https://www.idc.com)
+**IDC** (<https://www.idc.com>)
 
 - IT market intelligence and sizing
 - Detailed segment breakdowns
 - Typical cost: $4K-$40K per report
 - Best for: Hardware, software, IT services
 
-**McKinsey** (https://www.mckinsey.com/featured-insights)
+**McKinsey** (<https://www.mckinsey.com/featured-insights>)
 
 - Free insights and reports
 - Strategic industry analysis
@@ -35,25 +35,25 @@ Curated list of credible sources for market research and sizing analysis.
 
 ### Accessible Research
 
-**Statista** (https://www.statista.com)
+**Statista** (<https://www.statista.com>)
 
 - Cost: $39/month individual, $199/month business
 - Coverage: 80,000+ topics across industries
 - Best for: Quick market size estimates, charts, trends
 
-**CB Insights** (https://www.cbinsights.com)
+**CB Insights** (<https://www.cbinsights.com>)
 
 - Cost: Custom pricing (typically $10K+/year)
 - Coverage: Venture capital, startup markets
 - Best for: Emerging markets, competitive intelligence
 
-**PitchBook** (https://pitchbook.com)
+**PitchBook** (<https://pitchbook.com>)
 
 - Cost: Institutional pricing
 - Coverage: Private company valuations, M&A, VC
 - Best for: Startup valuations, funding trends
 
-**Grand View Research** (https://www.grandviewresearch.com)
+**Grand View Research** (<https://www.grandviewresearch.com>)
 
 - Cost: $2K-$5K per report
 - Coverage: B2C and emerging markets
@@ -63,25 +63,25 @@ Curated list of credible sources for market research and sizing analysis.
 
 ### U.S. Government Sources
 
-**U.S. Census Bureau** (https://www.census.gov)
+**U.S. Census Bureau** (<https://www.census.gov>)
 
 - Free, authoritative demographic data
 - Economic census every 5 years
 - Best for: Business counts, demographics, spending
 
-**Bureau of Labor Statistics** (https://www.bls.gov)
+**Bureau of Labor Statistics** (<https://www.bls.gov>)
 
 - Free employment and economic data
 - Industry-specific statistics
 - Best for: Employment trends, wages, productivity
 
-**SEC EDGAR** (https://www.sec.gov/edgar)
+**SEC EDGAR** (<https://www.sec.gov/edgar>)
 
 - Free public company filings
 - 10-K, 10-Q reports with segment revenue
 - Best for: Validating market size with public company data
 
-**Data.gov** (https://www.data.gov)
+**Data.gov** (<https://www.data.gov>)
 
 - Free government datasets
 - Aggregates across agencies
@@ -89,17 +89,17 @@ Curated list of credible sources for market research and sizing analysis.
 
 ### International Sources
 
-**OECD** (https://data.oecd.org)
+**OECD** (<https://data.oecd.org>)
 
 - Free international economic data
 - Best for: Cross-country comparisons
 
-**World Bank** (https://data.worldbank.org)
+**World Bank** (<https://data.worldbank.org>)
 
 - Free global development data
 - Best for: Emerging markets, macro trends
 
-**Eurostat** (https://ec.europa.eu/eurostat)
+**Eurostat** (<https://ec.europa.eu/eurostat>)
 
 - Free European Union statistics
 - Best for: European market sizing
@@ -182,13 +182,13 @@ Industry associations often publish market research:
 
 ### Market Research Aggregators
 
-**Research and Markets** (https://www.researchandmarkets.com)
+**Research and Markets** (<https://www.researchandmarkets.com>)
 
 - Aggregates reports from 100+ publishers
 - $500-$10K per report
 - Search across all major research firms
 
-**MarketsandMarkets** (https://www.marketsandmarkets.com)
+**MarketsandMarkets** (<https://www.marketsandmarkets.com>)
 
 - Custom and syndicated research
 - $4K-$10K per report
@@ -196,17 +196,17 @@ Industry associations often publish market research:
 
 ### Free Search Tools
 
-**Google Scholar** (https://scholar.google.com)
+**Google Scholar** (<https://scholar.google.com>)
 
 - Free academic research
 - Best for: Emerging technologies, academic validation
 
-**SSRN** (https://www.ssrn.com)
+**SSRN** (<https://www.ssrn.com>)
 
 - Free working papers
 - Best for: Financial services, economics
 
-**arXiv** (https://arxiv.org)
+**arXiv** (<https://arxiv.org>)
 
 - Free preprints in CS, physics, etc.
 - Best for: AI/ML, scientific markets

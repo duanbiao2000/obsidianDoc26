@@ -389,38 +389,38 @@ echo "All tests passed!"
 .PHONY: setup test test-unit test-integration coverage clean
 
 setup:
-	docker-compose up -d
-	pip install -r requirements.txt
-	python scripts/health_check.py
+ docker-compose up -d
+ pip install -r requirements.txt
+ python scripts/health_check.py
 
 test:
-	pytest --cov=src --cov-report=term-missing
+ pytest --cov=src --cov-report=term-missing
 
 test-unit:
-	pytest -m unit --verbose
+ pytest -m unit --verbose
 
 test-integration:
-	pytest -m integration --verbose
+ pytest -m integration --verbose
 
 test-replay:
-	pytest -m replay --verbose
+ pytest -m replay --verbose
 
 test-parallel:
-	pytest -n auto --cov=src
+ pytest -n auto --cov=src
 
 coverage:
-	pytest --cov=src --cov-report=html
-	open htmlcov/index.html
+ pytest --cov=src --cov-report=html
+ open htmlcov/index.html
 
 clean:
-	docker-compose down -v
-	rm -rf .pytest_cache htmlcov .coverage
+ docker-compose down -v
+ rm -rf .pytest_cache htmlcov .coverage
 
 ci:
-	docker-compose up -d
-	sleep 10  # Wait for Temporal to start
-	pytest --cov=src --cov-fail-under=80
-	docker-compose down
+ docker-compose up -d
+ sleep 10  # Wait for Temporal to start
+ pytest --cov=src --cov-fail-under=80
+ docker-compose down
 ```
 
 ### CI/CD Example

@@ -595,19 +595,19 @@ jobs:
 .PHONY: test test-verbose test-tap
 
 test:
-	bats tests/*.bats
+ bats tests/*.bats
 
 test-verbose:
-	bats tests/*.bats --verbose
+ bats tests/*.bats --verbose
 
 test-tap:
-	bats tests/*.bats --tap
+ bats tests/*.bats --tap
 
 test-parallel:
-	bats tests/*.bats --parallel 4
+ bats tests/*.bats --parallel 4
 
 coverage: test
-	# Optional: Generate coverage reports
+ # Optional: Generate coverage reports
 ```
 
 ## Best Practices
@@ -625,7 +625,7 @@ coverage: test
 
 ## Resources
 
-- **Bats GitHub**: https://github.com/bats-core/bats-core
-- **Bats Documentation**: https://bats-core.readthedocs.io/
-- **TAP Protocol**: https://testanything.org/
-- **Test-Driven Development**: https://en.wikipedia.org/wiki/Test-driven_development
+- **Bats GitHub**: <https://github.com/bats-core/bats-core>
+- **Bats Documentation**: <https://bats-core.readthedocs.io/>
+- **TAP Protocol**: <https://testanything.org/>
+- **Test-Driven Development**: <https://en.wikipedia.org/wiki/Test-driven_development>

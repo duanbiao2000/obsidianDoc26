@@ -534,6 +534,6 @@ check_dependencies
 
 ## Resources
 
-- **Bash Strict Mode**: http://redsymbol.net/articles/unofficial-bash-strict-mode/
-- **Google Shell Style Guide**: https://google.github.io/styleguide/shellguide.html
-- **Defensive BASH Programming**: https://www.lifepipe.net/
+- **Bash Strict Mode**: <http://redsymbol.net/articles/unofficial-bash-strict-mode/>
+- **Google Shell Style Guide**: <https://google.github.io/styleguide/shellguide.html>
+- **Defensive BASH Programming**: <https://www.lifepipe.net/>

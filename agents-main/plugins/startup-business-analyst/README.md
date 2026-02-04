@@ -206,7 +206,7 @@ Business model coverage:
 ## Contributing
 
 Found an issue or have suggestions? Please open an issue or PR at:
-https://github.com/wshobson/agents
+<https://github.com/wshobson/agents>
 
 ## License
 

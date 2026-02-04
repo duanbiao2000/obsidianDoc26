@@ -320,14 +320,14 @@ CEO
 
 ## Full-Time vs. Contract
 
-### Use Full-Time for:
+### Use Full-Time for
 
 - Core product development
 - Sales (revenue-generating roles)
 - Mission-critical operations
 - Institutional knowledge roles
 
-### Use Contractors for:
+### Use Contractors for
 
 - Specialized short-term needs (legal, accounting)
 - Variable workload (design, marketing campaigns)

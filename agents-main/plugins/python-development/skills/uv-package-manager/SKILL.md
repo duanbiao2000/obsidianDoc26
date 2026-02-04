@@ -814,11 +814,11 @@ uv --version                # Show version
 
 ## Resources
 
-- **Official documentation**: https://docs.astral.sh/uv/
-- **GitHub repository**: https://github.com/astral-sh/uv
-- **Astral blog**: https://astral.sh/blog
-- **Migration guides**: https://docs.astral.sh/uv/guides/
-- **Comparison with other tools**: https://docs.astral.sh/uv/pip/compatibility/
+- **Official documentation**: <https://docs.astral.sh/uv/>
+- **GitHub repository**: <https://github.com/astral-sh/uv>
+- **Astral blog**: <https://astral.sh/blog>
+- **Migration guides**: <https://docs.astral.sh/uv/guides/>
+- **Comparison with other tools**: <https://docs.astral.sh/uv/pip/compatibility/>
 
 ## Best Practices Summary
 

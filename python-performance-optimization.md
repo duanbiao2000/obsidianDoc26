@@ -12,11 +12,10 @@
 ## 核心内容结构
 
 - Profiling 类型：CPU profiling、memory profiling、line profiling、call graph（调用关系可视化）。[[skills](https://skills.sh/wshobson/agents/python-performance-optimization)]​
-    
+
 - 常见性能指标：执行时间、内存使用、CPU 利用率、I/O 等待时间。[[skills](https://skills.sh/wshobson/agents/python-performance-optimization)]​
-    
+
 - 优化策略分类：算法与数据结构、代码实现技巧、并行化、缓存、以及用 C/Rust 等原生扩展加速关键路径。[[skills](https://skills.sh/wshobson/agents/python-performance-optimization)]​
-    
 
 ## 主要工具与模式示例
 

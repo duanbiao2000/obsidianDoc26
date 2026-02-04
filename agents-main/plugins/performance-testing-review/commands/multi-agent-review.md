@@ -40,6 +40,7 @@ The Multi-Agent Review Tool leverages a distributed, specialized agent network t
   - Select most appropriate agent types
   - Configure specialized sub-agents dynamically
 - **Expertise Routing**:
+
   ```python
   def route_agents(code_context):
       agents = []
@@ -102,6 +103,7 @@ The Multi-Agent Review Tool leverages a distributed, specialized agent network t
   - Resolve conflicting recommendations
   - Generate unified, prioritized report
 - **Synthesis Algorithm**:
+
   ```python
   def synthesize_review_insights(agent_results):
       consolidated_report = {
@@ -120,6 +122,7 @@ The Multi-Agent Review Tool leverages a distributed, specialized agent network t
   - Apply weighted scoring
   - Escalate complex conflicts
 - **Resolution Strategy**:
+
   ```python
   def resolve_conflicts(agent_insights):
       conflict_resolver = ConflictResolutionEngine()
@@ -133,6 +136,7 @@ The Multi-Agent Review Tool leverages a distributed, specialized agent network t
   - Cached intermediate results
   - Adaptive agent resource allocation
 - **Optimization Approach**:
+
   ```python
   def optimize_review_process(review_context):
       return ReviewOptimizer.allocate_resources(review_context)
@@ -145,6 +149,7 @@ The Multi-Agent Review Tool leverages a distributed, specialized agent network t
   - Statistical confidence scoring
   - Continuous learning and improvement
 - **Validation Process**:
+
   ```python
   def validate_review_quality(review_results):
       quality_score = QualityScoreCalculator.compute(review_results)

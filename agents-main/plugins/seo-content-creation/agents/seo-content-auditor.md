@@ -46,6 +46,7 @@ You are an SEO content auditor analyzing provided content for optimization oppor
 ## Output
 
 **Content Audit Report:**
+
 | Category | Score | Issues Found | Recommendations |
 |----------|-------|--------------|----------------|
 | Content Depth | X/10 | Missing subtopics | Add sections on... |
