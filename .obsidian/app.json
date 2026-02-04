@@ -1,4 +1,6 @@
 {
   "newFileLocation": "current",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "showLineNumber": true,
+  "vimMode": true
 }
