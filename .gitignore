@@ -12,6 +12,7 @@
 .claude/plugins/cache/
 .claude/plugins/installed_plugins.json
 .claude/history/
+.claude/*settings.local.json
 
 # OS
 .DS_Store
