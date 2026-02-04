@@ -1,3 +1,6 @@
 [submodule "system_prompts_leaks"]
 	path = system_prompts_leaks
 	url = https://github.com/duanbiao2000/system_prompts_leaks.git
+[submodule "DocFramework/Diataxis/01-Original"]
+	path = DocFramework/Diataxis/01-Original
+	url = https://github.com/duanbiao2000/diataxis-documentation-framework.git
