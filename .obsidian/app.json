@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "showLineNumber": true,
-  "vimMode": true
+  "vimMode": true,
+  "spellcheck": false
 }
