@@ -20,9 +20,9 @@ Welcome to the Documentation Framework Learning Hub! This is a systematic collec
 
 | 框架 | Framework | 来源 | Source | 核心关注 | Focus | 难度 | Difficulty | 状态 | Status |
 |------|-----------|------|--------|---------|-------|------|------------|------|--------|
-| [[Diataxis/00-Index\|Diataxis]] | [diataxis.fr](https://diataxis.fr/) | 文档分类与受众 | Doc classification & audience | 初级 | Beginner | 🟡 | 待开始 | Not Started |
-| [[Google-Style-Guide/00-Index\|Google Style Guide]] | [Google Developers](https://developers.google.com/tech-writing) | 以用户为中心 | User-centered | 中级 | Intermediate | 🟡 | 待开始 | Not Started |
-| [[Microsoft-Style-Guide/00-Index\|Microsoft Style Guide]] | [Microsoft Docs](https://docs.microsoft.com/en-us/style-guide/) | 简洁一致 | Concise & consistent | 中级 | Intermediate | 🟡 | 待开始 | Not Started |
+| [[Diataxis/00-Index\|Diataxis]] | [diataxis.fr](https://diataxis.fr/) | 文档分类与受众 | Doc classification & audience | 初级 | Beginner | 🟢 | 进行中 | In Progress |
+| [[Google-Style-Guide/00-Index\|Google Style Guide]] | [Google Developers](https://developers.google.com/tech-writing) | 以用户为中心 | User-centered | 中级 | Intermediate | 🟢 | 进行中 | In Progress |
+| [[Microsoft-Style-Guide/00-Index\|Microsoft Style Guide]] | [Microsoft Docs](https://docs.microsoft.com/en-us/style-guide/) | 简洁一致 | Concise & consistent | 中级 | Intermediate | 🟢 | 进行中 | In Progress |
 | [[Write-The-Docs/00-Index\|Write the Docs]] | [Write the Docs](https://www.writethedocs.org/) | 文档实践 | Documentation practice | 高级 | Advanced | ⚪ | 计划中 | Planned |
 
 ---
@@ -35,9 +35,9 @@ Welcome to the Documentation Framework Learning Hub! This is a systematic collec
 
 For beginners, quickly grasp core concepts of documentation standards.
 
-1. ⬜ [[Diataxis/02-Annotated/overview\|Diataxis 框架概述]] - 理解四个维度 | Understand the four dimensions
-2. ⬜ [[Diataxis/02-Annotated/practical-application\|Diataxis 实际应用]] - 如何应用到实际项目
-3. ⬜ [[Google-Style-Guide/02-Annotated/getting-started\|Google 基础]] - Google 文档原则入门
+1. ✅ [[Diataxis/02-Annotated/start-here\|Diataxis 框架概述]] - 理解四个维度 | Understand the four dimensions
+2. ✅ [[Google-Style-Guide/02-Annotated/highlights\|Google 基础]] - Google 文档原则入门
+3. ✅ [[Microsoft-Style-Guide/02-Annotated/welcome\|Microsoft 基础]] - Microsoft 文档风格入门
 
 ### 路径二：深入学习 | Deep Dive (4-6 weeks)
 
@@ -145,10 +145,8 @@ GROUP BY source_type
 
 ### 写作原则 | Writing Principles
 
-- [[Google-Style-Guide/02-Annotated/clarity\|清晰写作 | Writing Clearly]] - Google 清晰原则
-- [[Google-Style-Guide/02-Annotated/scannability\|可扫描性 | Scannability]] - 结构化组织
-- [[Microsoft-Style-Guide/02-Annotated/voice-and-tone\|语气与语调 | Voice and Tone]] - Microsoft 风格指南
-- [[Microsoft-Style-Guide/02-Annotated/word-choice\|用词选择 | Word Choice]] - 精准用词
+- [[Google-Style-Guide/02-Annotated/highlights\|重点摘要 | Highlights]] - Google 文档原则概览
+- [[Microsoft-Style-Guide/02-Annotated/welcome\|欢迎 | Welcome]] - Microsoft 风格指南入门
 
 ---
 
