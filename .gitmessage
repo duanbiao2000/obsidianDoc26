@@ -1,0 +1,14 @@
+# <type>(<scope>): <subject>
+#
+# Type: docs|chore|feat|fix|refactor|style|perf|test
+# Subject: 简短描述（不超过50字符，使用祈使句现在时态）
+#
+# 空行后是详细说明（可选）：
+# - 变更内容 (what)
+# - 变更原因 (why)
+# - 影响范围 (how)
+#
+# Footer（可选）：
+# - Closes #123
+# - BREAKING CHANGE: ...
+# - Co-Authored-By: ...
