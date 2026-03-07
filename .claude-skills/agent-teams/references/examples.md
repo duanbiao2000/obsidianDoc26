@@ -46,6 +46,7 @@ agents:
 ```
 
 **执行流程：**
+
 1. 三个 agent 同时启动
 2. 各自独立完成开发任务
 3. 失败不影响其他 team 成员
@@ -108,6 +109,7 @@ reporting:
 ```
 
 **执行流程：**
+
 ```
 Researcher → Analyst → Writer
    ↓             ↓          ↓
@@ -187,6 +189,7 @@ reporting:
 ```
 
 **依赖图：**
+
 ```
 [product] ───┐
 [tech]    ───┴──> [report-compiler]
@@ -260,6 +263,7 @@ reporting:
 ```
 
 **使用方式：**
+
 ```bash
 /team-launch code-review --target-branch "feature/user-auth"
 ```
@@ -692,6 +696,7 @@ reporting:
 ```
 
 **使用方式：**
+
 ```bash
 /team-create blog-post --topic "AI Agent 编排" --tone technical --word-count 2500
 ```
@@ -705,6 +710,7 @@ reporting:
 **用户请求：** "帮我调研 Python、Go、Rust 的性能"
 
 **自动生成的团队配置：**
+
 ```yaml
 name: auto-performance-research
 mode: parallel
@@ -733,6 +739,7 @@ agents:
 **用户请求：** "先分析竞品，再给出产品建议"
 
 **自动生成的团队配置：**
+
 ```yaml
 name: auto-competitive-analysis
 mode: pipeline

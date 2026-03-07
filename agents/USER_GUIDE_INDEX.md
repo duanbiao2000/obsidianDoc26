@@ -7,15 +7,18 @@
 ## 🎯 新用户？从这里开始
 
 ### 1. 系统概览
+
 首先了解系统是什么，能做什么：
 
 📖 **[README - 系统概述](./README.md)**
+
 - 系统介绍和特性
 - 快速开始指南
 - 核心组件说明
 - 使用示例
 
 ### 2. 验证安装
+
 确保系统正常运行：
 
 ```bash
@@ -23,6 +26,7 @@ bash scripts/orchestration/test-agents.sh
 ```
 
 ### 3. 第一次使用
+
 启动您的研究任务：
 
 ```bash
@@ -53,7 +57,7 @@ bash scripts/orchestration/research-launcher.sh \
 
 ## 🚀 快速导航
 
-### 我想...
+### 我想
 
 #### 🎯 使用系统进行研究
 
@@ -107,6 +111,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 ### 系统文档
 
 #### [README.md](./README.md)
+
 - 系统概述
 - 目录结构
 - 快速开始
@@ -116,6 +121,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 - 扩展和定制
 
 #### [QUICK_REFERENCE.md](./QUICK_REFERENCE.md)
+
 - 快速开始
 - 常用命令
 - Python API速查
@@ -126,6 +132,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 - 配置参考
 
 #### [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md)
+
 1. [系统架构](./DEVELOPER_GUIDE.md#1-系统架构)
 2. [开发环境设置](./DEVELOPER_GUIDE.md#2-开发环境设置)
 3. [核心API参考](./DEVELOPER_GUIDE.md#3-核心api参考)
@@ -139,6 +146,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 11. [贡献指南](./DEVELOPER_GUIDE.md#11-贡献指南)
 
 #### [IMPLEMENTATION_SUMMARY.md](../IMPLEMENTATION_SUMMARY.md)
+
 - 实施概览
 - 核心功能实现
 - 文件结构
@@ -149,12 +157,14 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 ### Agent定义
 
 #### 研究类Agents (R-Series)
+
 - [EMP_R001_research-planner](./definitions/EMP_R001_research-planner.md) - 研究规划
 - [EMP_R101_web-researcher](./definitions/EMP_R101_web-researcher.md) - Web搜索
 - [EMP_R102_academic-searcher](./definitions/EMP_R102_academic-searcher.md) - 学术搜索
 - [EMP_R103_codebase-analyzer](./definitions/EMP_R103_codebase-analyzer.md) - 代码分析
 
 #### 综合类Agents (S-Series)
+
 - [EMP_S001_information-synthesizer](./definitions/EMP_S001_information-synthesizer.md) - 信息综合
 - [EMP_S003_report-generator](./definitions/EMP_S003_report-generator.md) - 报告生成
 
@@ -212,16 +222,19 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 ### 常见问题
 
 **Q: 如何开始第一个研究任务？**
+
 ```bash
 bash scripts/orchestration/research-launcher.sh "你的研究问题"
 ```
 
 **Q: 如何查看所有可用的agents？**
+
 ```bash
 python3 scripts/orchestration/agent-team-coordinator.py --list-agents
 ```
 
 **Q: Agent执行失败怎么办？**
+
 1. 查看日志: `cat .agent-state/collaboration-logs/coordinator.log`
 2. 检查tmux: `tmux ls`
 3. 参考: [故障排除](./DEVELOPER_GUIDE.md#9-故障排除)
@@ -241,12 +254,14 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-agents
 ## 🔄 文档更新
 
 ### 最新更新
+
 - **2025-02-13**: 初始版本发布
   - 完整的开发者指南
   - 快速参考指南
   - 文档导航
 
 ### 文档版本
+
 - README.md: v1.0.0
 - QUICK_REFERENCE.md: v1.0.0
 - DEVELOPER_GUIDE.md: v1.0.0
@@ -275,12 +290,14 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-agents
 ## 📊 系统状态
 
 ### 当前版本
+
 - **版本**: 1.0.0
 - **状态**: ✅ 生产就绪
 - **测试**: ✅ 11/11 通过
 - **文档**: ✅ 完整
 
 ### 可用资源
+
 - **Agents**: 6个
 - **工作流**: 2个
 - **核心脚本**: 3个

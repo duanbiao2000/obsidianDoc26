@@ -15,6 +15,7 @@
 **适用场景：** 中小型产品开发，需要完整的前后端+DevOps 能力
 
 **团队配置：**
+
 ```yaml
 name: fullstack-dev-team-small
 description: 小型全栈开发团队（5 人）
@@ -75,6 +76,7 @@ agents:
 ```
 
 **协作流程：**
+
 ```
 1. [前端架构师] 提出前端方案
    ↓
@@ -92,6 +94,7 @@ agents:
 ```
 
 **为什么这个配置有效：**
+
 - **2 名架构师**：前端和后端各有专家，深度覆盖技术栈
 - **1 名批判者**：足够的批判火力，避免技术盲点
 - **1 名改进者**：专注于流程优化，持续提升效率
@@ -104,6 +107,7 @@ agents:
 **适用场景：** 快速迭代的产品开发，需要平衡创新和稳定性
 
 **团队配置：**
+
 ```yaml
 name: product-iteration-team
 description: 产品迭代团队（6 人）
@@ -175,6 +179,7 @@ agents:
 ```
 
 **协作流程：**
+
 ```
 ┌────────────────────────────────────────┐
 │         产品假设竞争对话                 │
@@ -200,6 +205,7 @@ agents:
 ```
 
 **为什么这个配置有效：**
+
 - **2 名批判者**：技术和业务双重视角，避免盲点
 - **2 名构建者**：产品和技术平衡，确保可执行
 - **1 名创新者**：持续注入新想法，避免停滞
@@ -212,6 +218,7 @@ agents:
 **适用场景：** 技术调研、竞品分析、新领域探索等需要深度思考的任务
 
 **团队配置：**
+
 ```yaml
 name: research-exploration-team
 description: 研究探索团队（7 人 - 上限配置）
@@ -293,6 +300,7 @@ agents:
 ```
 
 **协作流程：**
+
 ```
 ┌──────────────────────────────────────────────┐
 │        研究质量保证流程                     │
@@ -319,12 +327,14 @@ agents:
 ```
 
 **为什么这个配置有效：**
+
 - **2 名研究员**：覆盖不同领域，提供多视角
 - **2 名批判者**：技术+方法论双保险，确保研究质量
 - **2 名改进者**：实践+创新双驱动，平衡稳健和前沿
 - **1 名综合者**：需要强大的跨领域整合能力
 
 **为什么 7 人是上限：**
+
 - 沟通复杂度：7 人有 21 条沟通渠道，已经是管理极限
 - 决策效率：超过 7 人，达成共识需要显著更多时间
 - 角色重叠：容易出現职责边界模糊
@@ -336,6 +346,7 @@ agents:
 **适用场景：** 快速交付、短周期迭代、需要快速响应变化
 
 **团队配置：**
+
 ```yaml
 name: agile-delivery-team
 description: 敏捷交付团队（5 人）- 最精简配置
@@ -393,6 +404,7 @@ agents:
 ```
 
 **为什么这个配置有效：**
+
 - **2 名开发者**：核心交付能力，并行开发
 - **1 名批判者**：快速反馈，避免重大错误
 - **1 名改进者**：持续优化流程，提升效率
@@ -409,12 +421,14 @@ agents:
 | **7 人（上限）** | 跨度探索、跨领域 | ✅ 覆盖最广<br>✅ 批判最全<br>❌ 沟通复杂<br>❌ 决策较慢 | 研究探索团队 |
 
 **超过 7 人的问题：**
+
 - 需要 **Subteam 结构**（Team of Teams）
 - 引入 **中间管理角色**（Team Lead → Squad Lead）
 - 显著增加 **协调成本**（会议、文档、对齐）
 - 出现 **社交怠惰**（Social Loafing）
 
 **处理更大项目的策略：**
+
 ```yaml
 # 不推荐：直接扩大到 10+ 人
 name: large-team-anti-pattern  # ❌ 反模式
@@ -485,6 +499,7 @@ coordination:
 **配置示例：**
 
 **适用场景：**
+
 - 需要动态调整策略
 - 复杂的异常处理逻辑
 - 需要人工介入决策
@@ -492,6 +507,7 @@ coordination:
 - 多阶段、多分支的复osten工作流
 
 **配置示例：**
+
 ```yaml
 name: orchestrated-research-team
 mode: orchestrated
@@ -621,6 +637,7 @@ leader:
 ```
 
 **执行逻辑：**
+
 1. 持续监控所有 worker 的负载状态
 2. 新任务到来时，选择负载最轻的 worker
 3. 定期（如 30s）重新评估和调整任务分配
@@ -1006,6 +1023,7 @@ reporting:
 **何时使用 Leader 模式：**
 
 ✅ **推荐使用：**
+
 - 执行过程中需要调整策略
 - 异常处理逻辑复杂
 - 需要人工在关键点决策
@@ -1014,6 +1032,7 @@ reporting:
 - 需要质量保证和结果验证
 
 ❌ **不推荐使用：**
+
 - 简单的固定流程（用 Parallel/Pipeline）
 - 无需人工介入（用 DAG）
 - 超级敏感（Leader 会增加延迟）
@@ -1028,6 +1047,7 @@ reporting:
 **核心概念：** 在团队中引入一个专门的"批判者"角色，负责质疑假设、提出替代方案、识别潜在风险。这是保证发散性思考和避免群体思维（Groupthink）的关键机制，类似于 Six Thinking Hats 中的黑帽角色。
 
 **适用场景：**
+
 - 需要避免群体思维
 - 重要决策需要多角度审视
 - 复杂项目需要风险识别
@@ -1035,6 +1055,7 @@ reporting:
 - 需要确保考虑替代方案
 
 **配置示例：**
+
 ```yaml
 name: critical-thinking-team
 mode: orchestrated
@@ -1136,6 +1157,7 @@ agents:
 **目标：** 识别方案背后的隐含假设，并质疑其有效性。
 
 **执行策略：**
+
 ```yaml
 devils-advocate:
   assumption_challenges:
@@ -1158,6 +1180,7 @@ devils-advocate:
 ```
 
 **输出示例：**
+
 ```markdown
 ## 假设性质疑
 
@@ -1190,6 +1213,7 @@ devils-advocate:
 **目标：** 从多个维度识别方案的风险。
 
 **风险矩阵：**
+
 ```yaml
 devils-advocate:
   risk_identification:
@@ -1241,6 +1265,7 @@ devils-advocate:
 ```
 
 **输出示例：**
+
 ```markdown
 ## 风险评估
 
@@ -1259,6 +1284,7 @@ devils-advocate:
 **目标：** 提供不同的技术路径和实施策略。
 
 **方案类型：**
+
 ```yaml
 devils-advocate:
   alternative_proposals:
@@ -1300,6 +1326,7 @@ devils-advocate:
 ```
 
 **输出示例：**
+
 ```markdown
 ## 替代方案
 
@@ -1340,6 +1367,7 @@ devils-advocate:
 **目标：** 通过极端场景测试方案的鲁棒性。
 
 **压力测试类型：**
+
 ```yaml
 devils-advocate:
   stress_tests:
@@ -1387,6 +1415,7 @@ devils-advocate:
 ```
 
 **输出示例：**
+
 ```markdown
 ## 压力测试
 
@@ -1478,6 +1507,7 @@ decision_points:
 ```
 
 **执行流程：**
+
 ```
 1. Product Manager 提出方案
    ↓
@@ -1509,6 +1539,7 @@ decision_points:
 **何时使用 Devil's Advocate：**
 
 ✅ **推荐使用：**
+
 - 重要决策（技术选型、架构设计、产品方向）
 - 高风险项目（大额投资、关键客户、长周期）
 - 需要创新（探索新技术、新市场）
@@ -1516,6 +1547,7 @@ decision_points:
 - 需要多角度审视
 
 ❌ **不推荐使用：**
+
 - 简单执行任务（如代码实现、测试）
 - 低风险场景（如小的功能迭代）
 - 紧急决策（Devil's Advocate 会增加时间）
@@ -1548,11 +1580,13 @@ decision_points:
 ### 1. Parallel Pattern（并行模式）
 
 **适用场景：**
+
 - 独立任务，无依赖关系
 - 需要最大化并行度
 - 可容错，部分失败不影响整体
 
 **配置示例：**
+
 ```yaml
 name: parallel-research-team
 mode: parallel
@@ -1575,11 +1609,13 @@ agents:
 ```
 
 **执行特点：**
+
 - 所有 agent 同时启动
 - 无等待时间
 - 总耗时 = max(agent_1耗时, agent_2耗时, ...)
 
 **注意事项：**
+
 - 资源竞争：多个 agent 同时消耗 CPU/内存
 - 输出冲突：确保输出文件路径不重叠
 - 错误隔离：单个 agent 失败不影响其他
@@ -1589,11 +1625,13 @@ agents:
 ### 2. Pipeline Pattern（流水线模式）
 
 **适用场景：**
+
 - 前后任务有明确依赖
 - 每个 agent 的输出是下一个的输入
 - 需要顺序处理，如 ETL 流程
 
 **配置示例：**
+
 ```yaml
 name: etl-pipeline
 mode: pipeline
@@ -1622,11 +1660,13 @@ agents:
 ```
 
 **执行特点：**
+
 - 严格顺序执行
 - 每个 agent 等待上游完成
 - 总耗时 = sum(agent_1耗时, agent_2耗时, ...)
 
 **注意事项：**
+
 - 性能瓶颈：流水线速度取决于最慢的 agent
 - 错误传播：上游失贩会导致下游无法执行
 - 中间状态：合理设计中问数据格式
@@ -1636,11 +1676,13 @@ agents:
 ### 3. DAG Pattern（有向无环图模式）
 
 **适用场景：**
+
 - 复杂依赖关系
 - 多对多依赖
 - 需要优化执行顺序
 
 **配置示例：**
+
 ```yaml
 name: microservices-analysis
 mode: dag
@@ -1694,6 +1736,7 @@ agents:
 ```
 
 **依赖图：**
+
 ```
     [frontend] ───┐
     [backend]  ───┼──> [performance] ───┐
@@ -1705,11 +1748,13 @@ agents:
 ```
 
 **执行特点：**
+
 - 智能调度：自动识别可并行的层级
 - 依赖感知：上游完成自动触发下游
 - 优化顺序：最小化总执行时间
 
 **注意事项：**
+
 - 依赖完整性：确保所有依赖都存在
 - 无环检测：避免循环依赖导致死锁
 - 层级深度：过深的依赖链会增加等待时间
@@ -1719,11 +1764,13 @@ agents:
 ### 4. Fan-Out/Fan-In Pattern（扇出扇入模式）
 
 **适用场景：**
+
 - MapReduce 风格
 - 批量数据处理
 - 聚合多源信息
 
 **配置示例：**
+
 ```yaml
 name: mapreduce-team
 mode: dag
@@ -1759,6 +1806,7 @@ agents:
 ```
 
 **执行特点：**
+
 - 并行 map，顺序 reduce
 - 适合 embarrassingly parallel 问题
 
@@ -1767,11 +1815,13 @@ agents:
 ### 5. Divide and Conquer Pattern（分治模式）
 
 **适用场景：**
+
 - 大任务分解
 - 递归式问题求解
 - 需要中间结果聚合
 
 **配置示例：**
+
 ```yaml
 name: divide-conquer-team
 mode: dag
@@ -1830,17 +1880,20 @@ agents:
 ### FIFO（First In, First Out）
 
 **特点：**
+
 - 简单公平
 - 无优先级
 - 适合同级任务
 
 **配置：**
+
 ```yaml
 scheduling:
   queue_strategy: fifo
 ```
 
 **适用场景：**
+
 - 任务同等重要
 - 先到先服务原则
 - 无资源竞争问题
@@ -1850,11 +1903,13 @@ scheduling:
 ### Priority（优先级调度）
 
 **特点：**
+
 - 优先级高的先执行
 - 支持动态优先级
 - 适合有紧急任务
 
 **配置：**
+
 ```yaml
 scheduling:
   queue_strategy: priority
@@ -1871,6 +1926,7 @@ agents:
 ```
 
 **适用场景：**
+
 - 有主次任务
 - 需要保证关键路径
 - 有 SLA 要求
@@ -1880,11 +1936,13 @@ agents:
 ### Dependency-Aware（依赖感知调度）
 
 **特点：**
+
 - 智能分析依赖图
 - 最大化并行度
 - 最小化总执行时间
 
 **配置：**
+
 ```yaml
 scheduling:
   queue_strategy: dependency_aware
@@ -1892,12 +1950,14 @@ scheduling:
 ```
 
 **执行逻辑：**
+
 1. 构建依赖图
 2. 计算拓扑层级
 3. 每层内并行执行
 4. 层间顺序执行
 
 **适用场景：**
+
 - 复杂依赖关系
 - 需要优化执行时间
 - DAG 模式的默认策略
@@ -1907,11 +1967,13 @@ scheduling:
 ### Resource-Aware Scheduling（资源感知调度）
 
 **特点：**
+
 - 监控系统资源
 - 动态调整并行度
 - 避免资源耗尽
 
 **配置：**
+
 ```yaml
 scheduling:
   resource_aware: true
@@ -1924,11 +1986,13 @@ scheduling:
 ```
 
 **执行逻辑：**
+
 1. 持续检查资源使用
 2. 超出阈值时暂停启动新 agent
 3. 资源释放后恢复调度
 
 **适用场景：**
+
 - 资源受限环境
 - 与其他进程共存
 - 长时间运行
@@ -1940,11 +2004,13 @@ scheduling:
 ### Round Robin
 
 **特点：**
+
 - 轮询分配
 - 无状态
 - 适合同质 agent
 
 **配置：**
+
 ```yaml
 load_balancing:
   strategy: round_robin
@@ -1955,11 +2021,13 @@ load_balancing:
 ### Least Loaded
 
 **特点：**
+
 - 分配给当前负载最轻的 agent
 - 需要负载监控
 - 适合异质 agent
 
 **配置：**
+
 ```yaml
 load_balancing:
   strategy: least_loaded
@@ -1975,11 +2043,13 @@ load_balancing:
 ### Dynamic（动态负载均衡）
 
 **特点：**
+
 - 实时调整
 - 预测型分配
 - 最优性能
 
 **配置：**
+
 ```yaml
 load_balancing:
   strategy: dynamic
@@ -1994,11 +2064,13 @@ load_balancing:
 ### Retry with Exponential Backoff
 
 **适用场景：**
+
 - 网络操作
 - 外部 API 调用
 - 临时性错误
 
 **配置：**
+
 ```yaml
 error_handling:
   retry_policy:
@@ -2009,6 +2081,7 @@ error_handling:
 ```
 
 **延迟序列：**
+
 - 第 1 次：立即重试
 - 第 2 次：等待 5s
 - 第 3 次：等待 10s
@@ -2019,11 +2092,13 @@ error_handling:
 ### Fallback Pattern
 
 **适用场景：**
+
 - 多实现可用
 - 主方案失贩
 - 需要降级服务
 
 **配置：**
+
 ```yaml
 agents:
   - name: primary-agent
@@ -2042,11 +2117,13 @@ agents:
 ### Continue on Error
 
 **适用场景：**
+
 - 部分独立的任务
 - 部分失败可接受
 - 需要最大化完成率
 
 **配置：**
+
 ```yaml
 error_handling:
   on_failure: continue
@@ -2065,11 +2142,13 @@ agents:
 ### 1. 依赖图可视化
 
 **方法：**
+
 ```bash
 /team-status <team-name> --graph
 ```
 
 **输出示例：**
+
 ```
 Dependency Graph:
 ┌─ [agent-1] (completed)
@@ -2083,6 +2162,7 @@ Dependency Graph:
 ### 2. 逐个执行调试
 
 **方法：**
+
 ```yaml
 scheduling:
   max_parallel: 1      # 串行执行
@@ -2094,6 +2174,7 @@ scheduling:
 ### 3. 人工检查点
 
 **方法：**
+
 ```yaml
 agents:
   - name: agent-1
@@ -2107,6 +2188,7 @@ agents:
 ### 4. 诊断模式
 
 **方法：**
+
 ```yaml
 reporting:
   format: markdown
@@ -2123,6 +2205,7 @@ reporting:
 ### 5. 状态快照
 
 **方法：**
+
 ```yaml
 shared_state:
   type: file
@@ -2131,6 +2214,7 @@ shared_state:
 ```
 
 恢复：
+
 ```bash
 /team-resume <team-name> --snapshot .team-state/state.json.20240213-143000
 ```
@@ -2142,6 +2226,7 @@ shared_state:
 ### 1. 并行度优化
 
 **分析：**
+
 ```yaml
 reporting:
   include:
@@ -2150,6 +2235,7 @@ reporting:
 ```
 
 **调整：**
+
 ```yaml
 scheduling:
   max_parallel: 4        # 根据系统资源调整
@@ -2162,6 +2248,7 @@ scheduling:
 **问题：** 大文件传递增加开销
 
 **方案 1：增量传递**
+
 ```yaml
 agents:
   - name: producer
@@ -2172,6 +2259,7 @@ agents:
 ```
 
 **方案 2：共享状态**
+
 ```yaml
 shared_state:
   database: .team-state/state.json
@@ -2189,10 +2277,12 @@ agents:
 ### 3. 资源限制
 
 **预防问题：**
+
 - 某个 agent 耗尽资源
 - 总成本超限
 
 **配置：**
+
 ```yaml
 resource_limits:
   per_agent:
@@ -2211,6 +2301,7 @@ resource_limits:
 ### 1. 过度依赖
 
 **问题：**
+
 ```yaml
 agents:
   - name: agent-1
@@ -2218,10 +2309,12 @@ agents:
 ```
 
 **后果：**
+
 - agent-1 需要等很久
 - 阻塞其他 agent
 
 **改进：**
+
 - 重新设计依赖关系
 - 引入中间聚合 agent
 
@@ -2230,6 +2323,7 @@ agents:
 ### 2. 钻环依赖
 
 **问题：**
+
 ```yaml
 agents:
   - name: agent-1
@@ -2239,10 +2333,12 @@ agents:
 ```
 
 **后果：**
+
 - 歴锁
 - 无法执行
 
 **检测：**
+
 ```bash
 /team-validate <team-name> --detect-cycles
 ```
@@ -2252,6 +2348,7 @@ agents:
 ### 3. 不必要的数据传递
 
 **问题：**
+
 ```yaml
 agents:
   - name: agent-1
@@ -2264,6 +2361,7 @@ agents:
 ```
 
 **改进：**
+
 - 只传递必要字段
 - 使用共享状态的查询接口
 - 分解为多个小文件
@@ -2273,6 +2371,7 @@ agents:
 ### 4. 忽略资源限制
 
 **问题：**
+
 ```yaml
 agents:
   - name: heavy-agent
@@ -2281,11 +2380,13 @@ agents:
 ```
 
 **后果：**
+
 - 超时
 - 成本过高
 - 阻塞其他任务
 
 **改进：**
+
 - 分解为多个 agent
 - 使用循环模式
 - 添加资源限制

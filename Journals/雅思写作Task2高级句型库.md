@@ -21,11 +21,13 @@ source: 基于《可抄可改写作句库.md》改写
 ## 📋 使用指南
 
 **难度等级说明**:
+
 - ⭐⭐ (6.0-6.5): 基础升级版,适合稳定得分
 - ⭐⭐⭐ (7.0-7.5): 高分必备句型
 - ⭐⭐⭐⭐ (8.0+): 顶级表达,冲击band 8+
 
 **功能索引**:
+
 - 引言段反驳 = 用 1、5、10
 - 主体段主题句 = 用 2、6、7
 - 因果论证 = 用 3、11、12
@@ -43,6 +45,7 @@ source: 基于《可抄可改写作句库.md》改写
 **适用题目**: 教育、科技、环境、社会类通用
 
 #### 核心模板
+
 ```
 [Subject] is not about [Surface Factor]. It is about [Deeper Factor].
 ```
@@ -73,6 +76,7 @@ source: 基于《可抄可改写作句库.md》改写
 > *Ex: Digital literacy has less to do with application knowledge than with critically evaluating technological impact.*
 
 #### 使用注意事项
+
 - ✅ 用于引言段末句,引出你的论点
 - ✅ 用具体名词替换抽象概念
 - ❌ 避免过于绝对化,保留论证空间
@@ -86,6 +90,7 @@ source: 基于《可抄可改写作句库.md》改写
 **适用题目**: 教育、科技、工作、社会政策
 
 #### 核心模板
+
 ```
 The secret/key to [Outcome] is not [Single Factor]. The secret/key is [Factor A], [Factor B], and [Factor C].
 ```
@@ -116,6 +121,7 @@ The secret/key to [Outcome] is not [Single Factor]. The secret/key is [Factor A]
 > *Ex: Social cohesion cannot be achieved through shared language alone; it requires mutual respect, shared responsibility, and inclusive institutions.*
 
 #### 使用注意事项
+
 - ✅ 三个因素要有层次感,不要平行重复
 - ✅ 可用于主体段首句或论证展开
 - ❌ 避免因素之间逻辑重叠
@@ -129,6 +135,7 @@ The secret/key to [Outcome] is not [Single Factor]. The secret/key is [Factor A]
 **适用题目**: 问题解决型、政策建议型题目
 
 #### 核心模板
+
 ```
 Everything changes when individuals/societies begin to [Action].
 ```
@@ -159,6 +166,7 @@ Everything changes when individuals/societies begin to [Action].
 > *Ex: Fundamental change occurs when organizations stop asking "What can technology do?" and start asking "What should technology do for well-being?"*
 
 #### 使用注意事项
+
 - ✅ 用于提出解决方案段落的起始
 - ✅ 前后要有铺垫,不要突兀
 - ❌ 避免用于复杂技术论证
@@ -174,6 +182,7 @@ Everything changes when individuals/societies begin to [Action].
 **适用题目**: 教育、能力发展、社会价值观
 
 #### 核心模板
+
 ```
 [Quality/Outcome] does not live in [Surface Location]. It lives in [Deeper Source].
 ```
@@ -204,6 +213,7 @@ Everything changes when individuals/societies begin to [Action].
 > *Ex: It is in accumulated experience handling real challenges, not in credentials, that professional competence is to be found.*
 
 #### 使用注意事项
+
 - ✅ 非常适合主体段首句(topic sentence)
 - ✅ 用具体名词替换抽象概念
 - ❌ 避免过于诗意化
@@ -217,6 +227,7 @@ Everything changes when individuals/societies begin to [Action].
 **适用题目**: 教育、政策评估、价值判断
 
 #### 核心模板
+
 ```
 [Plural Noun] that [Verb] are [Noun] that [Condition].
 ```
@@ -247,6 +258,7 @@ Everything changes when individuals/societies begin to [Action].
 > *Ex: What characterizes social policies that succeed is not theoretical elegance, but accounting for human behavior in practice.*
 
 #### 使用注意事项
+
 - ✅ 用于论证展开,增强说服力
 - ✅ 前后分句要有递进关系
 - ❌ 避免结构过于复杂影响清晰度
@@ -260,6 +272,7 @@ Everything changes when individuals/societies begin to [Action].
 **适用题目**: 科技影响、教育问题、政策效果
 
 #### 核心模板
+
 ```
 Imagine [Scenario]. That is what [Subject] does to [Target].
 ```
@@ -290,6 +303,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 > *Ex: Constant notifications function like background noise during reading, disrupting the deep focus required for complex comprehension.*
 
 #### 使用注意事项
+
 - ✅ 类比要贴切,避免牵强
 - ✅ 后一句必须明确点出类比意义
 - ❌ 一篇文章中不超过1-2次
@@ -303,6 +317,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 **适用题目**: 教育、科技、社会制度
 
 #### 核心模板
+
 ```
 [Subject] is the [Metaphor] for [Purpose/Context].
 ```
@@ -333,6 +348,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 > *Ex: If the economy is an engine, then education is the fuel powering it, not merely a credentialing system for employment.*
 
 #### 使用注意事项
+
 - ✅ 隐喻要恰当且易懂
 - ✅ 适合段首或段尾强调句
 - ❌ 避免过于文学化或诗意
@@ -346,6 +362,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 **适用题目**: 行为解释、社会现象、心理问题
 
 #### 核心模板
+
 ```
 [Phenomenon] is not a [Negative Judgment]. It is [System] doing exactly what it was designed to do.
 ```
@@ -376,6 +393,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 > *Ex: What appears to be test anxiety is actually the nervous system executing its threat response when exposed to evaluation perceived as challenging social status.*
 
 #### 使用注意事项
+
 - ✅ 用于分析段,展示理解深度
 - ✅ 保持学术客观性
 - ❌ 避免过度辩护或推卸责任
@@ -391,6 +409,7 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 **适用题目**: 观点题、讨论题通用
 
 #### 核心模板
+
 ```
 To some extent, [Concession Point]. However, [Main Argument].
 ```
@@ -425,6 +444,7 @@ To some extent, [Concession Point]. However, [Main Argument].
 > *Ex: Technology's benefits notwithstanding, concerns about privacy erosion, digital addiction, and misinformation proliferation cannot be ignored.*
 
 #### 使用注意事项
+
 - ✅ 用于主体段论证展开
 - ✅ 让步部分要简洁,重点在转折
 - ❌ 避免让步过多削弱主论点
@@ -438,6 +458,7 @@ To some extent, [Concession Point]. However, [Main Argument].
 **适用题目**: 数据论证、趋势分析、社会变化
 
 #### 核心模板
+
 ```
 It is becoming clear that [Observation/Trend].
 ```
@@ -472,6 +493,7 @@ It is becoming clear that [Observation/Trend].
 > *Ex: A consensus is emerging that artificial intelligence represents a fundamental transformation of knowledge creation and decision-making.*
 
 #### 使用注意事项
+
 - ✅ 用于总结论证段或引出结论
 - ✅ 配合具体证据使用
 - ❌ 避免空泛断言
@@ -485,6 +507,7 @@ It is becoming clear that [Observation/Trend].
 **适用题目**: 沟通、政策、教育、技术
 
 #### 核心模板
+
 ```
 The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerges.
 ```
@@ -519,6 +542,7 @@ The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerge
 > *Ex: The contradiction between technological potential and ethical constraints constitutes the core of AI governance challenges.*
 
 #### 使用注意事项
+
 - ✅ 用于分析段,展示洞察力
 - ✅ 适合复杂题目分析
 - ❌ 确保A和B之间确实存在gap
@@ -532,6 +556,7 @@ The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerge
 **适用题目**: 比较、定义、评价类题目
 
 #### 核心模板
+
 ```
 What separates [A] from [B] is [Key Difference].
 ```
@@ -566,6 +591,7 @@ What separates [A] from [B] is [Key Difference].
 > *Ex: The line separating effective managers from inspiring leaders is drawn at the capacity to articulate compelling visions motivating beyond material incentives.*
 
 #### 使用注意事项
+
 - ✅ 用于定义或比较段
 - ✅ 区别要具体且有意义
 - ❌ 避免过于主观或个人化
@@ -581,6 +607,7 @@ What separates [A] from [B] is [Key Difference].
 **适用题目**: 政策建议、教育改革、社会愿景
 
 #### 核心模板
+
 ```
 The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Alternative].
 ```
@@ -615,6 +642,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 > *Ex: What should be prioritized is making sustainability convenient and affordable rather than demanding rare sacrifice from the conscientious.*
 
 #### 使用注意事项
+
 - ✅ 用于结论段,升华主题
 - ✅ 隐喻要积极且易懂
 - ❌ 避免过于理想化不切实际
@@ -628,6 +656,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 **适用题目**: 个人发展、社会变革、能力培养
 
 #### 核心模板
+
 ```
 [Outcome] is not something that happens to you. It is something you [Process] [Adverb].
 ```
@@ -662,6 +691,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 > *Ex: Professional satisfaction accumulates through aligning work with values and developing skills, not through chance discovery or inherited connections.*
 
 #### 使用注意事项
+
 - ✅ 非常适合结论段最后一句
 - ✅ 体现主动性和过程感
 - ❌ 避免过于说教化
@@ -675,6 +705,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 **适用题目**: 语言、教育、文化、技术影响
 
 #### 核心模板
+
 ```
 [Subject] is not merely/in just [Surface Function]. It is [Deeper Function/Meaning].
 ```
@@ -709,6 +740,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 > *Ex: The true significance of critical thinking lies not in academic problem-solving but in enabling democratic citizenship through navigating complexity and evaluating evidence.*
 
 #### 使用注意事项
+
 - ✅ 仅用于结论段升华
 - ✅ 必须与前文论证有逻辑联系
 - ❌ 避免空泛哲学讨论
@@ -720,21 +752,25 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 ### 📚 教育类话题高频句型
 
 **引言段推荐**:
+
 - #1 驳斥常识型 ("Academic success is not about...")
 - #2 驳斥表面原因型 ("The secret of effective education...")
 
 **主体段推荐**:
+
 - #4 真正所在型 ("Real learning does not live in...")
 - #5 原则定义型 ("Educational reforms that endure...")
 - #8 因果论证型 ("Test anxiety is not...")
 
 **结论段推荐**:
+
 - #13 目标状态型 ("The goal should be to make curiosity...")
 - #14 过程构建型 ("Genuine expertise is not something...")
 
 #### 📖 教育类核心词汇库
 
 **名词**:
+
 - **curriculum** (课程) → curriculum reform / design / implementation
 - **pedagogy** (教学法) → innovative pedagogy / traditional pedagogy
 - **literacy** (读写能力) → digital literacy / academic literacy
@@ -745,6 +781,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **credentialism** (学历主义) → credentialism in education
 
 **动词**:
+
 - **cultivate** (培养) → cultivate critical thinking / curiosity
 - **foster** (促进) → foster creativity / intellectual growth
 - **instill** (灌输) → instill values / discipline
@@ -754,6 +791,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **internalize** (内化) → internalize principles / knowledge
 
 **形容词**:
+
 - **holistic** (全面的) → holistic development / approach
 - **interdisciplinary** (跨学科的) → interdisciplinary learning
 - **experiential** (体验的) → experiential learning
@@ -763,6 +801,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **intrinsic** (内在的) → intrinsic motivation / value
 
 **高频片语**:
+
 - **knowledge acquisition** (知识获取)
 - **critical thinking skills** (批判性思维技能)
 - **lifelong learning** (终身学习)
@@ -785,6 +824,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **collaborative learning** (协作学习)
 
 **常用搭配句型**:
+
 - Education should go beyond **mere knowledge transmission** to foster **critical thinking**
 - **Standardized tests** often fail to measure **genuine understanding**
 - **Rote learning** inhibits **creativity** and **intellectual curiosity**
@@ -797,21 +837,25 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 ### 💻 科技类话题高频句型
 
 **引言段推荐**:
+
 - #1 驳斥常识型 ("Digital literacy is not about...")
 - #3 转折点型 ("Everything changes when organizations...")
 
 **主体段推荐**:
+
 - #6 类比说明型 ("Imagine trying to read... That is what notifications do...")
 - #8 因果论证型 ("Social media addiction is not...")
 - #11 关系揭示型 ("The gap between technological capabilities...")
 
 **结论段推荐**:
+
 - #13 目标状态型 ("The aim of technology governance...")
 - #15 升华总结型 ("Artificial intelligence represents not just...")
 
 #### 💡 科技类核心词汇库
 
 **名词**:
+
 - **innovation** (创新) → technological innovation / disruptive innovation
 - **automation** (自动化) → workplace automation / process automation
 - **algorithm** (算法) → algorithmic decision-making / recommendation algorithms
@@ -822,6 +866,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **disruption** (颠覆) → digital disruption / industry disruption
 
 **动词**:
+
 - **transform** (转变) → transform industries / ways of working
 - **revolutionize** (彻底改变) → revolutionize communication / education
 - **facilitate** (促进) → facilitate communication / collaboration
@@ -832,6 +877,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **render** (使变得) → render certain skills obsolete / unnecessary
 
 **形容词**:
+
 - **unprecedented** (前所未有的) → unprecedented access / transformation
 - **ubiquitous** (无处不在的) → ubiquitous technology / connectivity
 - **detrimental** (有害的) → detrimental effects on concentration / social skills
@@ -841,6 +887,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **invasive** (侵入性的) → invasive surveillance / data collection
 
 **高频片语**:
+
 - **technological advancement** (技术进步)
 - **digital transformation** (数字化转型)
 - **artificial intelligence** (人工智能)
@@ -863,6 +910,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **ethical governance** (伦理治理)
 
 **常用搭配句型**:
+
 - Technology has **revolutionized** the way we **communicate** and **access information**
 - **Social media** can create **echo chambers** that reinforce **existing beliefs**
 - **Algorithmic curation** often leads to **information bubbles** and **polarization**
@@ -877,20 +925,24 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 ### 🌍 环境类话题高频句型
 
 **引言段推荐**:
+
 - #1 驳斥常识型 ("Environmental responsibility is not about...")
 - #3 转折点型 ("Everything changes when consumers...")
 
 **主体段推荐**:
+
 - #6 类比说明型 (climate change类比)
 - #9 让步转折型 ("To some extent, development has benefits...")
 
 **结论段推荐**:
+
 - #13 目标状态型 ("The aim should be to make sustainability...")
 - #15 升华总结型 (biodiversity as "biological insurance")
 
 #### 🌱 环境类核心词汇库
 
 **名词**:
+
 - **sustainability** (可持续性) → environmental sustainability / sustainable development
 - **biodiversity** (生物多样性) → biodiversity loss / conservation
 - **ecosystem** (生态系统) → ecosystem services / degradation
@@ -901,6 +953,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **resilience** (韧性) → climate resilience / ecosystem resilience
 
 **动词**:
+
 - **mitigate** (减缓) → mitigate climate change / environmental impact
 - **preserve** (保护) → preserve biodiversity / natural resources
 - **deplete** (耗尽) → deplete resources / fossil fuels
@@ -911,6 +964,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **transition** (转型) → transition to renewable energy / green economy
 
 **形容词**:
+
 - **renewable** (可再生的) → renewable energy / resources
 - **finite** (有限的) → finite resources / fossil fuels
 - **irreversible** (不可逆的) → irreversible damage / environmental change
@@ -920,6 +974,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **unsustainable** (不可持续的) → unsustainable practices / consumption
 
 **高频片语**:
+
 - **climate change** (气候变化)
 - **global warming** (全球变暖)
 - **carbon footprint** (碳足迹)
@@ -945,6 +1000,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **unchecked exploitation** (无节制的开发)
 
 **常用搭配句型**:
+
 - **Climate change** poses **immediate threats** rather than **distant risks**
 - **Carbon emissions** from **fossil fuels** contribute significantly to **global warming**
 - **Biodiversity loss** undermines **ecosystem services** essential for **human survival**
@@ -959,20 +1015,24 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 ### 👥 社会类话题高频句型
 
 **引言段推荐**:
+
 - #2 驳斥表面原因型 ("The foundation of cohesive society...")
 
 **主体段推荐**:
+
 - #8 因果论证型 ("Procrastination is not merely...")
 - #11 关系揭示型 ("The disconnect between policy intentions...")
 - #12 价值区分型 ("What separates competent from exceptional...")
 
 **结论段推荐**:
+
 - #14 过程构建型 ("Social change is not something...")
 - #15 升华总结型 (Critical thinking for citizenship)
 
 #### 🏛️ 社会类核心词汇库
 
 **名词**:
+
 - **cohesion** (凝聚力) → social cohesion / community cohesion
 - **inequality** (不平等) → social inequality / economic inequality
 - **diversity** (多样性) → cultural diversity / diversity of perspectives
@@ -983,6 +1043,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **stratification** (分层) → social stratification / class stratification
 
 **动词**:
+
 - **segregate** (隔离) → segregate communities / populations
 - **discriminate** (歧视) → discriminate against minorities / vulnerable groups
 - **stigmatize** (污名化) → stigmatize mental health / poverty
@@ -993,6 +1054,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **foster** (培养) → foster social cohesion / inclusion
 
 **形容词**:
+
 - **marginalized** (边缘化的) → marginalized communities / groups
 - **vulnerable** (脆弱的) → vulnerable populations / groups
 - **inclusive** (包容的) → inclusive society / policies
@@ -1002,6 +1064,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **systemic** (系统的) → systemic inequality / discrimination
 
 **高频片语**:
+
 - **social cohesion** (社会凝聚力)
 - **social inequality** (社会不平等)
 - **cultural diversity** (文化多样性)
@@ -1030,6 +1093,7 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 - **collective decision-making** (集体决策)
 
 **常用搭配句型**:
+
 - **Social cohesion** depends on **mutual respect** and **shared responsibility**
 - **Systemic inequality** often **perpetuates** across **generations**
 - **Marginalized groups** frequently face **barriers** to **social integration**
@@ -1060,14 +1124,17 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 ### 📊 难度渐进建议
 
 **Band 6.0-6.5目标**:
+
 - 掌握 #3, #9, #10 (基础型)
 - 每篇文章使用2-3个
 
 **Band 7.0-7.5目标**:
+
 - 掌握 #1, #2, #4, #5, #6, #13 (核心型)
 - 每篇文章使用3-4个
 
 **Band 8.0+目标**:
+
 - 全部掌握,熟练运用 #7, #8, #11, #12, #15 (顶级型)
 - 自然融合,看不出刻意痕迹
 
@@ -1078,15 +1145,19 @@ The goal/aim should be to make [Positive Value] the [Metaphor], not [Negative Al
 **题目**: Some people think that social media has negative effects on society. To what extent do you agree or disagree?
 
 ### 引言段
+>
 > The debate over social media's impact often focuses on surface-level concerns about screen time or distraction. **Digital literacy is not about knowing more applications or owning sophisticated devices. It is about thinking critically about how technology shapes human interaction and influences decision-making processes.** (#1) This essay argues that while social media presents genuine challenges, its effects are fundamentally shaped by how users and platforms choose to engage with these technologies.
 
 ### 主体段1 (负面影响)
+>
 > **To some extent, critics are justified in their concerns about social media's psychological and social costs.** (#9) Research has documented associations between heavy platform use and increased anxiety, depression, and social isolation. **Imagine trying to read a complex book while someone nearby shouts random phrases every thirty seconds. That is what constant smartphone notifications do to deep concentration and learning capacity.** (#6) Furthermore, algorithmic content curation can create echo chambers that reinforce existing beliefs and expose users to increasingly extreme content, undermining the ideal of informed democratic discourse.
 
 ### 主体段2 (正面影响与解决方案)
+>
 > **However, it is becoming clear that social media also enables unprecedented forms of connection, learning, and collective action.** (#10) Activists have used these platforms to organize social movements, marginalized communities have found spaces for visibility and support, and educational content has reached audiences who would otherwise lack access. **The gap between technological capabilities and ethical frameworks is where most controversies about social media emerge, suggesting that solutions lie not in rejecting these technologies but in developing better governance mechanisms.** (#11) Platform design changes, digital literacy education, and thoughtful regulation can mitigate harms while preserving benefits.
 
 ### 结论段
+>
 > In conclusion, social media's impact on society is neither uniformly negative nor inherently positive. **The aim of technology governance should be to make ethical considerations the default framework for platform design, not an afterthought added only after problems emerge.** (#13) Rather than viewing social media as a force that happens to us, **we should recognize that how these platforms evolve is something societies actively shape through organized effort, strategic advocacy, and the choices of individual users.** (#14) **Ultimately, social media represents not just another communication technology but a fundamental transformation of how human communities form, interact, and make collective decisions.** (#15)
 
 ---

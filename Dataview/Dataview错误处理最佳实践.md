@@ -23,6 +23,7 @@ WHERE created >= date(today) - dur(7 days)
 ```
 
 **错误信息**:
+
 ```
 Dataview: Every row during operation 'where' failed with an error;
 - Cannot call type 'null' as a function

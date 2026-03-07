@@ -9,7 +9,8 @@ rating:
 completed: false
 due:
 ---
-http://github.com/openai/openai-cookbook/blob/main/images/2.2_model_evolution.png
+<http://github.com/openai/openai-cookbook/blob/main/images/2.2_model_evolution.png>
+
 ## 两条产品线的根本差异
 
 |维度|Reasoning o-series|Non-reasoning GPT family|
@@ -27,17 +28,16 @@ http://github.com/openai/openai-cookbook/blob/main/images/2.2_model_evolution.pn
 **核心理念：用"计算换准确率"——让模型多花时间思考，提升复杂任务的正确率。**
 
 - `o1`：旗舰推理模型，能力最强，是整条线的"能力锚点"。
-    
+
 - `o1-pro`：o1 的增强版，给需要"更多推理算力"的场景用，定位高端。
-    
+
 - `o3`：o1-pro 的下一代，能力进一步提升。
-    
+
 - `o1-mini`：从 o1 直接衍生，保留推理能力，压缩体积，降低成本和延迟。
-    
+
 - `o3-mini`：o1-mini 的下一代，在 mini 尺寸上延续推理能力的迭代。
-    
+
 - `o4-mini`：目前这条线最新的小模型，延续"高效推理"路线。
-    
 
 **设计模式：两条并行演化的子线——"旗舰线（o1→o1-pro→o3）"追求极限能力，"mini 线（o1-mini→o3-mini→o4-mini）"追求性价比推理。**
 
@@ -50,15 +50,14 @@ http://github.com/openai/openai-cookbook/blob/main/images/2.2_model_evolution.pn
 **核心理念：用"尺寸梯度"覆盖不同成本/速度需求，同时保持强大的指令跟随和工具调用能力。**
 
 - `GPT-4o`：旗舰多模态模型，文本 + 图像 + 音频，能力全面，是这条线的"能力锚点"。
-    
+
 - `GPT-4.1`：从 GPT-4o 衍生，专门优化了指令跟随、长上下文（1M tokens）、Agent 工具调用，定位"生产级工程模型"。
-    
+
 - `GPT-4o mini`：从 GPT-4o 直接衍生，保留多模态能力，大幅压缩成本。
-    
+
 - `GPT-4.1 mini`：GPT-4.1 和 GPT-4o mini 都指向它，是"平衡性价比"的主力模型，适合大多数常规任务。
-    
+
 - `GPT-4.1 nano`：整条线最轻量，极低成本、极低延迟，适合简单分类、路由、高频低价值调用等场景。
-    
 
 **设计模式：以 GPT-4.1 mini 为"中心节点"，往上走能力，往下走极致轻量，形成一个完整的成本梯队。**
 
@@ -106,4 +105,3 @@ graph TD
       - → **GPT-4.1 nano**
 
 **一句话总结：o-series 是"慢想型"，GPT family 是"快反型"，两条线不是竞争关系，而是互补关系，按任务性质选择比按能力排名选择更重要。**
-

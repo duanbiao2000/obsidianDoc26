@@ -26,6 +26,7 @@
 | EMP_S003 | report-generator | `EMP_S003_report-generator.md` | 9.3KB | ✅ 完成 |
 
 **Agent分类**:
+
 - 📊 研究类 (R-Series): 4个
 - 🔄 综合类 (S-Series): 2个
 
@@ -262,18 +263,21 @@ result = coordinator.start_agent_team(
 ## 🔜 后续计划
 
 ### 短期 (1-2周)
+
 - [ ] 添加更多research agents
 - [ ] 实现Web UI监控
 - [ ] 集成更多MCP工具
 - [ ] 性能分析工具
 
 ### 中期 (1-2月)
+
 - [ ] 分布式执行支持
 - [ ] Agent性能指标
 - [ ] 自动agent选择
 - [ ] Loki Mode集成
 
 ### 长期 (3-6月)
+
 - [ ] Agent marketplace
 - [ ] Agent学习和适应
 - [ ] 可视化编辑器

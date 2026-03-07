@@ -16,6 +16,7 @@ Agent Teams 是 Claude Code 的多 Agent 协同编排系统，通过实验性功
 **核心理念：** 对于中型以下项目，团队规模应维持在 **5-7 个 agent**。这是基于以下理论和实践验证的最佳实践：
 
 **理论依据：**
+
 - **亚马逊"两个披萨"原则**：一个团队不应该大于两个披萨能喂饱的人数（约 6-8 人）
 - **邓巴数理论**：5±2 规则是最优的社交协作规模
 - **沟通复杂度**：n 人团队的沟通渠道是 n(n-1)/2，超过 7 人时沟通开销激增
@@ -29,10 +30,11 @@ Agent Teams 是 Claude Code 的多 Agent 协同编排系统，通过实验性功
 
 **规模上限原因：**
 ❌ **超过 7 人**：
-   - 需要引入管理层次（Team Lead → Subteams）
-   - 沟通成本显著上升（会议、文档、对齐）
-   - 出现"社交怠惰"（Social Loafing）
-   - 角色边界模糊，责任分散
+
+- 需要引入管理层次（Team Lead → Subteams）
+- 沟通成本显著上升（会议、文档、对齐）
+- 出现"社交怠惰"（Social Loafing）
+- 角色边界模糊，责任分散
 
 **典型 5-7 人团队配置见 [Optimal Team Configs](patterns.md#最佳团队配置)**
 
@@ -47,6 +49,7 @@ Agent Teams 是 Claude Code 的多 Agent 协同编排系统，通过实验性功
 ```
 
 Claude 会自动：
+
 1. 理解任务需求
 2. 识别可并行/串行的任务
 3. 启动相应的 agent 子进程
@@ -301,6 +304,7 @@ team_dynamics:
 #### 协同模式
 
 **并行模式 (Parallel)**
+
 ```yaml
 mode: parallel
 agents:
@@ -308,9 +312,11 @@ agents:
   - name: agent-b
   - name: agent-c
 ```
+
 所有 agent 同时启动，适用于独立任务。
 
 **流水线模式 (Pipeline)**
+
 ```yaml
 mode: pipeline
 agents:
@@ -320,9 +326,11 @@ agents:
     next: writer-agent
   - name: writer-agent
 ```
+
 顺序执行，每个 agent 的输出传递给下一个。
 
 **依赖图模式 (DAG)**
+
 ```yaml
 mode: dag
 agents:
@@ -334,6 +342,7 @@ agents:
   - name: writer
     depends_on: [analzer-a, analzer-b]
 ```
+
 复杂依赖关系，支持多对多。
 
 详细协同时式和策略见 [Coordination Patterns](patterns.md)。
@@ -343,6 +352,7 @@ agents:
 Agent 间传递数据的三种方式：
 
 **1. 文件传递（推荐）**
+
 ```yaml
 agents:
   - name: producer
@@ -352,6 +362,7 @@ agents:
 ```
 
 **2. 任务结果传递**
+
 ```yaml
 agents:
   - name: upstream
@@ -361,6 +372,7 @@ agents:
 ```
 
 **3. 共享状态**
+
 ```yaml
 shared_state:
   database: .team-state/db.json
@@ -404,6 +416,7 @@ agents:
 ```
 
 **调度策略：**
+
 - `fifo`: 先进先出
 - `priority`: 基于优先级
 - `dependency-aware`: 智能依赖感知调度
@@ -423,6 +436,7 @@ load_balancing:
 #### 实时状态追踪
 
 每个 Agent 有以下状态：
+
 - `pending`: 等待启动
 - `running`: 执行中
 - `completed`: 成功完成
@@ -432,16 +446,19 @@ load_balancing:
 #### 监控接口
 
 **查看团队状态：**
+
 ```
 /team-status
 ```
 
 **查看单个 Agent：**
+
 ```
 /team-status <team-name> --agent <agent-name>
 ```
 
 **实时日志：**
+
 ```
 /team-logs <team-name> --follow
 ```
@@ -510,18 +527,21 @@ agents:
 #### 内置模板
 
 **全栈调研团队**
+
 ```yaml
 template: fullstack-research
 # 自动配置前端、后端、DevOps、文档四个 agent
 ```
 
 **代码审查团队**
+
 ```yaml
 template: code-review
 # 自动配置安全、性能、架构、测试四个审查维度
 ```
 
 **竞品分析团队**
+
 ```yaml
 template: competitive-analisis
 # 自动配置产品、技术、市场、体验四个分析维度
@@ -549,6 +569,7 @@ agents:
 ```
 
 使用：
+
 ```
 /team-create my-custom-team --focus-area "人工智能"
 ```
@@ -649,6 +670,7 @@ agents:
 ## Examples
 
 完整示例配置见 [examples.md](examples.md)，包含：
+
 - 全栈开发团队
 - 文献综述团队
 - 竞品分析团队
@@ -658,16 +680,19 @@ agents:
 ## Troubleshooting
 
 **问题：Agent 启动失贩**
+
 - 检查 `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=true`
 - 确认可执行 `claude` 命令
 - 查看错误日志：`/team-logs <team> --agent <agent>`
 
 **问题：Agent 卡在 blocked 状态**
+
 - 检查依赖配置：`depends_on`
 - 确认上游 agent 是否完成
 - 使用 `/team-status` 查看完整依赖链
 
 **问题：并行度不足**
+
 - 调整 `max_parallel` 参数
 - 检查系统资源限制
 - 优化 agent 间依赖关系

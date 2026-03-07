@@ -22,6 +22,7 @@
 末尾有**选取框架**：建议每季度从不同领域各取一个O，形成"输出 + 能力 + 基础设施"的三角结构——这是MIT精英人士最常见的配置模式。
 
 # 100 MIT-Level OKRs
+
 ## Objectives & Key Results Reference Library
 
 > Curated from patterns observed across PhD researchers, founders, engineers, and operators
@@ -31,6 +32,7 @@
 ---
 
 ## DOMAIN 01 — Research & Academic Output
+
 *For PhD students, postdocs, research scientists*
 
 ---
@@ -91,6 +93,7 @@
 ---
 
 ## DOMAIN 02 — Career & Professional Development
+
 *For early-career professionals, PhDs entering industry, ambitious ICs*
 
 ---
@@ -152,6 +155,7 @@
 ---
 
 ## DOMAIN 03 — Deep Work & Cognitive Performance
+
 *The infrastructure layer — protects all other objectives*
 
 ---
@@ -190,6 +194,7 @@
 ---
 
 ## DOMAIN 04 — Leadership & Influence
+
 *For PIs, team leads, founders, senior researchers*
 
 ---
@@ -228,6 +233,7 @@
 ---
 
 ## DOMAIN 05 — Health & Physical Performance
+
 *Non-negotiable infrastructure. Cognitive output degrades without it.*
 
 ---
@@ -435,6 +441,7 @@
 ---
 
 ## DOMAIN 12 — Impact & Contribution
+
 *The layer beyond personal output*
 
 ---
@@ -475,6 +482,7 @@ If you consistently score below 0.4, your Objectives are disconnected from your 
 Both are diagnostic signals — not failures.
 
 **Quarterly selection template:**
+
 ```
 O1: [One from Research / Career / Creative]
   KR1: ___ · Scoring: 0.3 / 0.7 / 1.0 = ___

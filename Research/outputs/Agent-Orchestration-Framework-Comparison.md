@@ -59,6 +59,7 @@ graph TD
 **概述**: LangGraph是LangChain生态系统中的有向图框架，用于构建有状态的多agent应用。
 
 **核心特性**:
+
 - ✅ **强大的控制流**: 支持循环、条件分支、并行执行
 - ✅ **状态管理**: 内置持久化和检查点机制
 - ✅ **类型安全**: 使用TypedDict定义状态模式
@@ -66,11 +67,13 @@ graph TD
 - ⚠️ **学习曲线**: 相对陡峭，需要理解图概念
 
 **适用场景**:
+
 - 复杂的多步骤工作流
 - 需要人机协作的应用
 - 状态必须持久化的场景
 
 **代码示例**:
+
 ```python
 from langgraph.graph import StateGraph, END
 
@@ -94,6 +97,7 @@ app = workflow.compile()
 ```
 
 **社区数据** (2025-02):
+
 - GitHub Stars: 9,800+
 - 维护状态: 活跃
 - 版本: 0.2.x (快速迭代)
@@ -107,6 +111,7 @@ app = workflow.compile()
 **概述**: 微软开发的multi-agent框架，专注于通过对话实现agent协作。
 
 **核心特性**:
+
 - ✅ **对话模式**: 独特的agent对话范式
 - ✅ **代码执行**: 内置代码解释器
 - ✅ **Teachable Agents**: 支持从对话中学习
@@ -114,11 +119,13 @@ app = workflow.compile()
 - ⚠️ **调试困难**: 对话模式难以追踪
 
 **适用场景**:
+
 - 需要agent间复杂对话的应用
 - 代码生成和审查场景
 - 教育和研究项目
 
 **代码示例**:
+
 ```python
 import autogen
 
@@ -139,6 +146,7 @@ user_proxy.initiate_chat(
 ```
 
 **社区数据**:
+
 - GitHub Stars: 27,000+
 - 维护状态: 非常活跃（微软官方支持）
 - 版本: 0.2.x
@@ -152,6 +160,7 @@ user_proxy.initiate_chat(
 **概述**: 专注于简化agent团队编排的框架，最易上手。
 
 **核心特性**:
+
 - ✅ **极简API**: 最快的学习曲线
 - ✅ **角色定义**: 直观的Agent角色系统
 - ✅ **进程监控**: 内置crew执行监控
@@ -159,11 +168,13 @@ user_proxy.initiate_chat(
 - ⚠️ **功能有限**: 高级特性较少
 
 **适用场景**:
+
 - 快速原型开发
 - 小型项目
 - 学习agent orchestration概念
 
 **代码示例**:
+
 ```python
 from crewai import Agent, Task, Crew
 
@@ -188,6 +199,7 @@ crew.kickoff()
 ```
 
 **社区数据**:
+
 - GitHub Stars: 8,500+
 - 维护状态: 活跃（快速迭代）
 - 版本: 0.1.x → 0.28.x (快速成长)
@@ -201,6 +213,7 @@ crew.kickoff()
 **概述**: 企业级AI应用开发SDK，提供轻量级的orchestration能力。
 
 **核心特性**:
+
 - ✅ **企业集成**: 与Azure深度集成
 - ✅ **多语言支持**: Python, C#, Java
 - ✅ **Planner模式**: 基于目标的任务规划
@@ -208,11 +221,13 @@ crew.kickoff()
 - ⚠️ **较重**: 相对重量级
 
 **适用场景**:
+
 - 企业级应用
 - 需要多语言支持
 - Azure生态用户
 
 **社区数据**:
+
 - GitHub Stars: 19,000+
 - 维护状态: 非常活跃
 - 版本: 1.0+ (稳定)
@@ -226,17 +241,20 @@ crew.kickoff()
 **概述**: 专注于NLP和RAG应用的框架，提供agent orchestration能力。
 
 **核心特性**:
+
 - ✅ **RAG专注**: 在文档问答场景表现优异
 - ✅ **Pipeline模式**: 直观的流水线设计
 - ✅ **组件丰富**: 丰富的NLP组件
 - ⚠️ **场景局限**: 主要面向RAG应用
 
 **适用场景**:
+
 - 文档问答系统
 - RAG应用
 - NLP密集型应用
 
 **社区数据**:
+
 - GitHub Stars: 13,000+
 - 维护状态: 活跃
 - 版本: 2.0+
@@ -302,39 +320,49 @@ crew.kickoff()
 ### 推荐建议
 
 #### 场景1: 生产级多agent应用
+
 **推荐**: LangGraph
 **理由**:
+
 - 最完整的控制流和状态管理
 - 活跃的社区和持续的维护
 - 与LangChain生态无缝集成
 
 **实施建议**:
+
 1. 从简单的线性workflow开始
 2. 逐步引入循环和条件分支
 3. 使用LangSmith进行调试和监控
 
 #### 场景2: 快速原型验证
+
 **推荐**: CrewAI
 **理由**:
+
 - 学习曲线最平缓
 - 快速看到结果
 - 易于迭代
 
 **实施建议**:
+
 1. 定义清晰的Agent角色
 2. 使用sequential crew开始
 3. 验证概念后再考虑迁移到其他框架
 
 #### 场景3: 企业级应用
+
 **推荐**: Semantic Kernel 或 LangGraph
 **理由**:
+
 - 企业级支持和稳定性
 - 与企业系统集成良好
 - 符合企业安全和合规要求
 
 #### 场景4: 研究和教育
+
 **推荐**: AutoGen
 **理由**:
+
 - 独特的对话范式
 - 适合教学agent概念
 - 丰富的示例和教程
@@ -361,6 +389,7 @@ crew.kickoff()
 ## 📚 参考资源
 
 ### 官方文档
+
 - [LangGraph](https://langchain-ai.github.io/langgraph/)
 - [AutoGen](https://microsoft.github.io/autogen/)
 - [CrewAI](https://docs.crewai.com/)
@@ -368,6 +397,7 @@ crew.kickoff()
 - [Haystack](https://docs.haystack.deepset.ai/)
 
 ### GitHub仓库
+
 - [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) - 9.8k stars
 - [microsoft/autogen](https://github.com/microsoft/autogen) - 27k stars
 - [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI) - 8.5k stars
@@ -375,6 +405,7 @@ crew.kickoff()
 - [deepset-ai/haystack](https://github.com/deepset-ai/haystack) - 13k stars
 
 ### 学术论文
+
 - "AutoGen: Enabling LLM Agents to Collaborate and Interact"
 - "LangGraph: Building Stateful Agents with Graphs"
 - "CrewAI: Framework for Orchestrating Role-Playing AI Agents"
@@ -411,6 +442,7 @@ crew.kickoff()
 | RAG | Retrieval-Augmented Generation，检索增强生成 |
 
 ### B. 相关笔记
+
 - `[[Multi-Agent Systems]]`
 - `[[LangChain学习笔记]]`
 - `[[AI Agent设计模式]]`

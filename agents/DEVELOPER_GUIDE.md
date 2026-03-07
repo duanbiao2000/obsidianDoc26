@@ -764,6 +764,7 @@ agent_output:
     query_used: "搜索查询"
     results_filtered: 100
 ```
+
 ```
 
 #### 4. 使用代码块示例
@@ -781,12 +782,13 @@ agent_output:
    site:fastapi.tiangolo.com performance
    ```
 
-2. **信息源选择**:
+1. **信息源选择**:
    - 官方文档: ⭐⭐⭐⭐⭐
    - TechEmpower基准: ⭐⭐⭐⭐⭐
    - 社区博客: ⭐⭐⭐
 
-3. **输出**:
+2. **输出**:
+
    ```yaml
    key_findings:
      - finding:
@@ -797,6 +799,7 @@ agent_output:
            - "官方文档声称接近NodeJS性能"
          insight: "FastAPI是高性能异步框架，适合高并发场景"
    ```
+
 ````
 
 ### 4.3 Agent类型分类

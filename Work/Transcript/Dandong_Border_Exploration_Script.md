@@ -1,4 +1,5 @@
 # China-North Korea Border: A Gaze Across the Yalu River
+
 ## Dandong Exploration - English Script for Voiceover
 
 > **Based on**: [[中国_丹东_鸭绿江畔的凝视]].md
@@ -98,6 +99,7 @@
 "The mysteries left by this history—you can still find traces in the steel skeleton of the Broken Bridge, in the scarce trucks on the Friendship Bridge, in the silence across the river."
 
 **Key Points**:
+
 - 1950: Korean War—militarization and ideologization of the border
 - 1990s-2019: "Open border" period—labor export, family reunions
 - 2020-present: "Hyper-closure" period—border reconstruction
@@ -133,6 +135,7 @@
 "Even more thought-provoking: standing on the Chinese side, you can see the outline of Sinuiju, North Korea. This visual accessibility yet practical inaccessibility forms the most exquisite metaphor for contemporary China-North Korea relations."
 
 **Why It's Special**:
+
 - One of the few war-destroyed bridges worldwide kept in its original state—this preservation itself is a political narrative
 - The break sits exactly at the main channel center, becoming a de facto "extension of the national border in water"
 - Best exploration time: dusk—when lights on the opposite shore reveal differences in electrical systems (North Korea's side far dimmer)
@@ -253,6 +256,7 @@
 "Let's talk about food. You must try Dandong's 'cross-border cuisine'—these dishes are Korean in form but fused with Chinese elements in ingredients and cooking methods."
 
 **Food Introduction**:
+
 - **Dandong cold noodles**: Different from Pyongyang style—uses Chinese Northeast buckwheat noodles, lighter broth, Chinese-style beef
 - **Cultural context**: These dishes themselves embody 'cultural hybridity'—the border isn't where culture ends, but where it recombines
 
@@ -296,6 +300,7 @@
 "Standing at the break point of the Yalu River's Broken Bridge, I saw not just war history, but an eternal question about 'connection': how do humans find possibilities for crossing boundaries in a divided world?"
 
 **Reflection Dimensions**:
+
 - **Value of niche travel**: Border travel isn't curiosity-seeking, but critical reflection on the nation-state framework
 - **What exploration inspired**: Border studies taught me that in the age of globalization, the most interesting stories happen at boundaries, not centers
 - **Message for viewers**: Next time you see a national border on a map, try imagining the lives, families, memories severed by that line
@@ -310,6 +315,7 @@
 "If you also want to explore Dandong, here's some key information:"
 
 **Exploration Suggestions**:
+
 - **Best time**: October-November (autumn, clear weather, better visibility across the river) or winter (unique frozen river landscape)
 - **How to get there**: High-speed train directly to Dandong Station (3 hours from Shenyang, 6 hours from Beijing)
 - **Difficulty**: Low (infrastructure complete), but entering certain areas requires political sensitivity
@@ -346,6 +352,7 @@
 ## Production Notes (Exploration-Specific)
 
 ### Filming Checklist
+
 - [ ] Aerial shot of Broken Bridge fracture point
 - [ ] Cross-border truck passage record on Friendship Bridge
 - [ ] Paektu Mountain panorama and Heaven Lake
@@ -355,6 +362,7 @@
 - [ ] Cross-border goods in border markets
 
 ### Exploration Ethics
+
 - [ ] Don't reveal specific identities that might endanger locals
 - [ ] Don't encourage any illegal cross-border activities
 - [ ] Avoid "spectacle-izing" the North Korean side
@@ -362,6 +370,7 @@
 - [ ] Acknowledge observer limitations (outsider status)
 
 ### Post-Production Focus
+
 - **Exploration feel**: Add map animations, mark geopolitical significance of observation points
 - **Academic rigor**: Insert theoretical framework subtitles at key observations (e.g., "symbolic bordering")
 - **Ethical sensitivity**: Blur or distance shots of sensitive scenes (poverty across the river)
@@ -381,6 +390,7 @@
 ## Appendix: Key Terminology
 
 **Geopolitical Terms**:
+
 - Borderland / border region (边境地带)
 - Symbolic bordering (象征性边界化)
 - Materialization of trauma (创伤的物质化)
@@ -389,6 +399,7 @@
 - Visible invisibility (可见的不可见性)
 
 **Place Names**:
+
 - Dandong (丹东) - Chinese border city
 - Yalu River (鸭绿江) - Border river
 - Broken Bridge (断桥) - War-damaged bridge
@@ -399,6 +410,7 @@
 - Heaven Lake (天池) - Crater lake
 
 **Historical Terms**:
+
 - Korean War (1950-53) (朝鲜战争)
 - Colonial period (1910-1945) (殖民时期)
 - COVID-19 pandemic (新冠疫情)

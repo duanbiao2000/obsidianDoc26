@@ -64,9 +64,11 @@ monitoring:
 ## Stage 1: 问题定义 (Problem Definition)
 
 ### 目标
+
 清晰定义要解决的技术问题，明确约束条件和成功标准。
 
 ### 活动
+
 1. **问题边界**
    - 什么是决策范围？
    - 什么不在范围内？
@@ -83,6 +85,7 @@ monitoring:
    - 最低要求是什么？
 
 ### 输出格式
+
 ```markdown
 ## 决策问题: [标题]
 
@@ -111,9 +114,11 @@ monitoring:
 ## Stage 2: 选项生成 (Option Generation)
 
 ### 目标
+
 生成多个可行的候选方案，并进行初步筛选。
 
 ### 活动
+
 1. **头脑风暴**
    - 列出所有可能的方案
    - 不做判断，追求数量
@@ -130,6 +135,7 @@ monitoring:
    - 典型用例
 
 ### 输出格式
+
 ```markdown
 ## 候选方案
 
@@ -153,11 +159,13 @@ monitoring:
 ## Stage 3: 并行评估 (Parallel Evaluation)
 
 ### 目标
+
 从多个维度深入分析每个候选方案。
 
 ### 评估维度
 
 #### 3.1 成本分析 (Cost Analysis)
+
 ```yaml
 cost_evaluation:
   选项A:
@@ -174,6 +182,7 @@ cost_evaluation:
 ```
 
 #### 3.2 性能评估 (Performance Evaluation)
+
 ```yaml
 performance_evaluation:
   评估指标:
@@ -190,6 +199,7 @@ performance_evaluation:
 ```
 
 #### 3.3 可维护性评估 (Maintainability Assessment)
+
 ```yaml
 maintainability_evaluation:
   评估维度:
@@ -209,6 +219,7 @@ maintainability_evaluation:
 ```
 
 #### 3.4 风险分析 (Risk Analysis)
+
 ```yaml
 risk_evaluation:
   选项A:
@@ -231,6 +242,7 @@ risk_evaluation:
 ```
 
 ### 执行模式
+
 **PARALLEL** - 四个评估维度可以同时进行（如果有足够资源）
 
 ---
@@ -238,6 +250,7 @@ risk_evaluation:
 ## Stage 4: 推荐决策 (Recommendation)
 
 ### 目标
+
 综合所有评估结果，应用决策框架，生成最终推荐。
 
 ### 决策框架: 加权决策矩阵
@@ -261,6 +274,7 @@ risk_evaluation:
 ```
 
 ### 推荐输出
+
 ```markdown
 ## 推荐决策
 
@@ -462,6 +476,7 @@ python3 scripts/orchestration/agent-team-coordinator.py \
 ### 其他可用的决策框架
 
 #### 1. SWOT分析
+
 ```markdown
 | | 有利 | 不利 |
 |---|------|------|
@@ -470,12 +485,14 @@ python3 scripts/orchestration/agent-team-coordinator.py \
 ```
 
 #### 2. 技术雷达
+
 - 采用 (Adopt)
 - 试验 (Trial)
 - 评估 (Assess)
 - 暂缓 (Hold)
 
 #### 3. Kepner-Tregoe决策分析
+
 - 必须满足的目标
 - 想要满足的目标
 - 权重评分

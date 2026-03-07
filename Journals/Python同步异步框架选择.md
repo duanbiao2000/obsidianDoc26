@@ -15,11 +15,11 @@ due:
 ## 概念和典型框架
 
 - 同步（sync）
-    - 处理模型：每个请求同步执行，I/O 时阻塞当前线程/进程。builtin+1
-    - 典型：Flask、Django（默认模式）、Requests 等。[[dev](https://dev.to/engrmark/synchronous-vs-asynchronous-in-python-understanding-the-key-differences-d7g)]​
+  - 处理模型：每个请求同步执行，I/O 时阻塞当前线程/进程。builtin+1
+  - 典型：Flask、Django（默认模式）、Requests 等。[[dev](https://dev.to/engrmark/synchronous-vs-asynchronous-in-python-understanding-the-key-differences-d7g)]​
 - 异步（async）
-    - 处理模型：基于事件循环，I/O 使用非阻塞调用，可以在等待期间切换处理其他请求。superfastpython+1
-    - 典型：FastAPI、Sanic、aiohttp、Django+ASGI（Channels）、基于 asyncio 的各类框架。geekflare+2
+  - 处理模型：基于事件循环，I/O 使用非阻塞调用，可以在等待期间切换处理其他请求。superfastpython+1
+  - 典型：FastAPI、Sanic、aiohttp、Django+ASGI（Channels）、基于 asyncio 的各类框架。geekflare+2
 
 ## 能力和特点对比
 
@@ -36,11 +36,11 @@ due:
 更适合同步框架的情况：reddit+1
 
 - 小中型 Web 应用 / 内部管理后台：
-    - 请求量不算很大，主要是经典 CRUD + 常规数据库访问。
+  - 请求量不算很大，主要是经典 CRUD + 常规数据库访问。
 - CPU 密集任务主导的服务：
-    - 例如本地跑模型、做复杂计算，瓶颈在 CPU 而不是 I/O；这类场景 async 帮不上忙。
+  - 例如本地跑模型、做复杂计算，瓶颈在 CPU 而不是 I/O；这类场景 async 帮不上忙。
 - 团队经验以同步为主、希望代码简单易读：
-    - 同步代码更好 debug，也更适合新人快速上手。
+  - 同步代码更好 debug，也更适合新人快速上手。
 
 实践上：很多公司后端业务仍大量使用 Flask / Django 同步模式，只在需要时局部引入异步组件。
 
@@ -49,14 +49,14 @@ due:
 更适合异步框架的情况：burr.apache+2
 
 - 高并发 I/O 密集型服务：
-    - 例如：
-        - 网关 / BFF 层，需要同时调用多个下游 HTTP 服务。
-        - 对外 API，大量短连接请求。
-        - 爬虫、批量 HTTP 请求任务，动辄成百上千并发。
+  - 例如：
+    - 网关 / BFF 层，需要同时调用多个下游 HTTP 服务。
+    - 对外 API，大量短连接请求。
+    - 爬虫、批量 HTTP 请求任务，动辄成百上千并发。
 - 需要长连接 / 实时通信：
-    - WebSocket、实时推送、聊天系统、在线协作、SSE 等，需要维护大量长连接。[[superfastpython](https://superfastpython.com/python-async-web-servers-and-frameworks/)]​
+  - WebSocket、实时推送、聊天系统、在线协作、SSE 等，需要维护大量长连接。[[superfastpython](https://superfastpython.com/python-async-web-servers-and-frameworks/)]​
 - 下游依赖有高延迟 I/O：
-    - 调用外部第三方 API、慢数据库、云存储等，等待时间长，async 可以在等待时处理其他请求。hataftech+1
+  - 调用外部第三方 API、慢数据库、云存储等，等待时间长，async 可以在等待时处理其他请求。hataftech+1
 
 这些情况下，同样硬件上 async 一般能比 sync 扛更多并发，资源利用率更好。
 
@@ -71,10 +71,10 @@ due:
 可以简单按下面规则来：
 
 - 优先选同步框架（Flask / Django）：
-    - 业务逻辑为主、并发不极端、团队经验以同步为主。
+  - 业务逻辑为主、并发不极端、团队经验以同步为主。
 - 考虑选异步框架（FastAPI / aiohttp / Sanic）：
-    - 需求中明确有：高并发 I/O、重度外部 API 调用、实时服务、WebSocket。
+  - 需求中明确有：高并发 I/O、重度外部 API 调用、实时服务、WebSocket。
 - 你也可以组合：
-    - 用同步框架做主业务，用专门的异步服务或任务队列（Celery + aiohttp 等）处理高并发 I/O 场景。
+  - 用同步框架做主业务，用专门的异步服务或任务队列（Celery + aiohttp 等）处理高并发 I/O 场景。
 
 如果你把自己一个具体项目（比如“高并发网关” / “内部管理后台” / “爬虫系统”等）说一下，我可以给到“同步 vs 异步”的具体推荐 + 框架选择。

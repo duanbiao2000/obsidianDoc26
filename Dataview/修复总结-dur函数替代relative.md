@@ -10,15 +10,19 @@ tags: [dataview, fix, dur-function]
 ## ✅ 问题已解决
 
 ### 问题
+
 Dataview 查询中使用 `.relative()` 函数时报错：
+
 ```
 Cannot call type 'null' as a function
 ```
 
 ### 根本原因
+
 `.relative()` 函数在 Dataview 的某些版本中不稳定或已废弃。
 
 ### 解决方案
+
 **使用 `dur()` 函数替代**：
 
 | 旧语法（不工作） | 新语法（工作） |

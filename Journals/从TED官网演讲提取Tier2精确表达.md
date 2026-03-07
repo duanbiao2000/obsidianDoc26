@@ -773,58 +773,58 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - use AI as an assistant
     把人工智能当作助手来使用
-    
+
 - use AI as a tool for thought
     把人工智能当作思考工具来用
-    
+
 - set the scene
     设定情境 / 展开场景
-    
+
 - look at a day in the life of a knowledge worker
     审视一位知识工作者的一天
-    
+
 - summarize it
     对其进行总结
-    
+
 - get AI to write a response
     让人工智能代写回应
-    
+
 - drop in some resources and get an AI draft
     丢几份资料进去，让 AI 生成一份草稿
-    
+
 - become a professional validator of a robot’s opinions
     变成一个专门给机器人观点盖章的“职业验证员”
-    
+
 - get AI to analyze this data for me
     让人工智能替我分析这些数据
-    
+
 - make a deck
     做一份演示文稿 / 幻灯片
-    
+
 - vibe code something
     凭感觉敲点代码出来
-    
+
 - go (this all looks good, let’s go)
     觉得“看起来都不错，那就上吧”
-    
+
 - welcome to the age of outsourced reason
     欢迎来到“外包理性”的时代
-    
+
 - no longer engage with the materials of their craft
     不再亲自深入接触自己专业领域的原始材料
-    
+
 - become intellectual tourists
     变成只在知识表面打卡的“思想游客”
-    
+
 - visit ideas / not inhabit them
     只是匆匆浏览想法，而不是真正住进这些想法里
-    
+
 - have our relationship to our work intermediated by AI
     让我们与自身工作的关系被人工智能所介入和中介
-    
+
 - use AI in this way
     以这种方式使用人工智能
-    
+
 - have profound implications on human thought
     对人类思维产生深远影响
 
@@ -834,55 +834,55 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - give us rapid access to new ideas
     让我们能迅速接触到新观点
-    
+
 - produce a smaller range of ideas
     产出更狭窄、更加同质化的想法范围
-    
+
 - create a hive mind
     造就一种“蜂群思维”
-    
+
 - keep suggesting the same five ideas
     一直在重复给出同样那几种建议
-    
+
 - put less effort into critical thinking
     在批判性思考上投入更少努力
-    
+
 - work with AI vs work manually
     借助人工智能工作，而不是亲自手动完成
-    
+
 - have greater confidence in AI / have less confidence in themselves
     更相信人工智能，而更不信任自己
-    
+
 - rely on AI to write for them
     依赖人工智能替他们写作
-    
+
 - remember less of what they wrote
     对自己写过的内容记得更少
-    
+
 - read AI‑generated summaries
     阅读由人工智能生成的摘要
-    
+
 - remember less than if they’d read the document
     比起亲自读原文，记住的内容更少
-    
+
 - think about your own thinking process
     反思你的思考过程本身
-    
+
 - require significant metacognitive reasoning
     需要大量的元认知推理
-    
+
 - decompose the task
     将任务拆解成多个步骤
-    
+
 - evaluate the output
     对产出结果进行评估
-    
+
 - build metacognition into the process of working directly with the material
     在直接处理材料的过程中嵌入元认知
-    
+
 - become problematic when material engagement becomes intermediated
     一旦对材料的接触被中介化，就会变得成问题
-    
+
 - become middle managers for our own thoughts
     变成自己思想的“中层管理者”
 
@@ -892,34 +892,34 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - have fewer ideas
     拥有的想法更少
-    
+
 - think about them less critically
     对这些想法的批判性思考更少
-    
+
 - remember them less well
     对它们的记忆更模糊
-    
+
 - have a harder time doing it
     在真正需要独立完成时会更加吃力
-    
+
 - see that AI‑assisted workflows can have profound effects on human thinking
     认识到 AI 辅助的工作流程会深刻影响人类思维
-    
+
 - exercise our creativity / critical thinking / memory
     锻炼我们的创造力、批判性思维和记忆力
-    
+
 - protect our cognitive musculature
     保护我们的“认知肌肉”
-    
+
 - rise to the occasion when an exceptionally complex task comes our way
     在遇到特别复杂的任务时能够挺身而出
-    
+
 - show that when we don’t use our brains, they get worse at brain things
     表明当我们不用大脑时，大脑就更不擅长“动脑的事”
-    
+
 - solve the problem of having to think
     试图“解决掉必须思考”这个问题
-    
+
 - invent a cure for exercise
     相当于发明一种“让人不用运动的健身药”
 
@@ -929,34 +929,34 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - believe that AI should be a tool for thought
     认为人工智能应当是一种“帮助思考的工具”
-    
+
 - let AI challenge, not obey
     让人工智能去挑战你，而不是一味服从你
-    
+
 - be at a critical juncture
     处在一个关键路口
-    
+
 - be poised to be transformed by generative AI
     正处在被生成式 AI 深刻改变的边缘
-    
+
 - act now to shape and drive that transformation
     现在就行动起来塑造并推动这种转变
-    
+
 - drive it towards humanistic values
     把它引导向更人文的价值取向
-    
+
 - take the road less traveled
     走一条较少人选择的道路
-    
+
 - help us better understand the job
     帮助我们更好地理解这项工作本身
-    
+
 - help us get it done better
     帮助我们把工作做得更好
-    
+
 - help us ask the right questions
     帮助我们提出正确的问题
-    
+
 - help us explore the unknown
     帮助我们探索未知领域
 
@@ -966,67 +966,67 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - load documents into her workspace
     把文档加载到她的工作空间中
-    
+
 - see an overview of the document
     查看整篇文档的概览
-    
+
 - see section‑by‑section summaries
     查看每一部分的分段摘要
-    
+
 - use lenses / emphasize what is most relevant
     使用“视角滤镜”以突出最相关内容
-    
+
 - select the consumer’s lens
     选择“消费者视角”的滤镜
-    
+
 - select a section for deeper reading
     选取某一部分进行更深入阅读
-    
+
 - make notes about her thoughts
     记录她自己的思考笔记
-    
+
 - highlight excerpts from the document
     高亮标注文档中的片段
-    
+
 - see AI‑generated commentary and critiques
     查看 AI 生成的评论和批判意见
-    
+
 - raise a potential opportunity
     提出一个潜在机会点
-    
+
 - highlight and annotate it
     对此高亮并加注释
-    
+
 - build up an outline of her argument manually
     手动搭建她论证的提纲
-    
+
 - sketch out the flow of her argument
     勾勒出论证展开的逻辑流程
-    
+
 - retain deep connections and grounding in the source documents
     保持与原始文档之间深层次的联系和支撑
-    
+
 - generate a draft of the proposal
     生成这份提案的草稿
-    
+
 - add a heading to the outline to generate a paragraph
     在提纲中添加一个小标题来生成对应段落
-    
+
 - have a different relationship to this text
     与这篇文本建立一种不同的关系
-    
+
 - root the text in a cognitively effortful thought process
     让文本扎根于一个付出认知努力的思考过程
-    
+
 - reflect Clara’s decisions, judgments, expertise
     体现出 Clara 自身的决策、判断与专业能力
-    
+
 - see another provocation
     看到另一条“挑 provocations”的提示
-    
+
 - decide not to address it
     决定不去处理它
-    
+
 - stimulate your thinking about your work
     激发你对自身工作的思考
 
@@ -1036,28 +1036,28 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - resize a paragraph to change its length
     调整段落大小来改变其长度
-    
+
 - rapidly test different versions of this text
     快速试验这段文本的不同版本
-    
+
 - take a more inspirational or more practical tone
     采用更鼓舞人心或更务实的语气
-    
+
 - preview a few alternatives and select one
     预览几种替代版本并选择其中一个
-    
+
 - write at select strategic points
     在特定关键节点进行写作
-    
+
 - see provocations that raise alternatives
     看到提出备选方案的“挑衅性”提示
-    
+
 - identify fallacies
     识别论证中的谬误
-    
+
 - offer counterarguments
     提出反驳论点
-    
+
 - strengthen and develop her own argument
     强化并拓展她自己的论证
 
@@ -1067,16 +1067,16 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - not find a chat box anywhere
     在界面上完全找不到聊天框
-    
+
 - not have to chat with anything to do her work
     不需要和任何东西聊天就能完成工作
-    
+
 - be silently and appropriately assisted
     在“静默且恰当”的前提下获得辅助
-    
+
 - assist her as a computer and not as an ersatz human
     以一台计算机而不是“假人类”的身份来协助她
-    
+
 - go from this … to this
     从这样一种工作方式切换到另一种方式
 
@@ -1086,37 +1086,37 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - maintain direct material engagement at strategic points
     在关键节点保持对材料的直接接触
-    
+
 - construct her decisions on her argument herself
     由她自己构建对论证的决策
-    
+
 - be said to have written this document herself
     可以说这份文档是她亲自写的
-    
+
 - keep her metacognitively engaged
     让她在元认知层面持续投入
-    
+
 - always look for critiques, alternatives and lateral moves
     总是在寻找批评意见、替代方案和侧向思路
-    
+
 - study the effects of tools like this
     研究这种工具所带来的影响
-    
+
 - reintroduce critical thinking into AI‑assisted workflows
     将批判性思维重新引入 AI 辅助的工作流
-    
+
 - reverse the loss of creativity and enhance it
     扭转创造力的流失并加以增强
-    
+
 - build powerful tools for memory
     构建强大的“记忆辅助工具”
-    
+
 - enable knowledge workers to read and write at speed
     使知识工作者可以高速阅读和写作
-    
+
 - apply speed and flexibility of this technology
     运用这项技术的速度和灵活性
-    
+
 - protect and enhance human thought
     保护并增强人类思维
 
@@ -1126,16 +1126,16 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - preserve material engagement
     保持对材料的实质接触
-    
+
 - offer productive resistance
     提供一种“有生产力的阻力”
-    
+
 - scaffold metacognition
     为元认知提供支架 / 搭建框架
-    
+
 - extend to all aspects of AI use
     将其扩展到人工智能使用的各个方面
-    
+
 - use it in daily lives, hobbies, education
     在日常生活、兴趣爱好和教育中使用它
 
@@ -1145,34 +1145,34 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - get to the point where AI can do a better job of thinking
     发展到人工智能可以更好地替我们思考的地步
-    
+
 - care about protecting and augmenting human thought
     关注如何保护并增强人类思维
-    
+
 - remain unique human strengths
     保持为人类独有的优势
-    
+
 - be not even aware of them
     甚至没有意识到这些优势的存在
-    
+
 - take the position that the ability to think well is essential
     持有这样一种立场：良好思考的能力是不可或缺的
-    
+
 - ask if machines can think for us / speak for us / grieve for us / pray for us / love for us
     提出疑问：机器能否替我们思考、替我们发声、替我们悲伤、替我们祈祷、替我们去爱
-    
+
 - ask whether it matters that we cannot
     追问：如果我们自己不再会这样做，这是否重要
-    
+
 - begin studying human‑AI interaction
     开始研究人机交互
-    
+
 - find it inconceivable that we would be asking these questions
     觉得我们竟然会提出这些问题几乎难以想象
-    
+
 - be asking these questions and must do so
     正在提出这些问题，而且必须这样做
-    
+
 - choose between a tool that thinks for you or a tool that makes you think
     在“替你思考的工具”和“让你思考的工具”之间做出选择
 
@@ -1264,58 +1264,58 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 ## 一、Key Points（核心论点）
 
 1. 当前 AI 的 rollout 模式不是“必然”，而是“选择”
-    
-    -  The way we are rolling out AI is not inevitable; it is the result of choices, just as the disastrous rollout of social media was.
+
+    - The way we are rolling out AI is not inevitable; it is the result of choices, just as the disastrous rollout of social media was.
     - 我们现在推广 AI 的方式并非“天注定”，而是一连串人为选择的结果，就像当年社交媒体那场灾难性的上线一样。
-        
+
 2. 必须区分 “possible” 和 “probable”
-    
-    -  We obsess over the _possible_ benefits of AI (abundance, breakthroughs) while ignoring the _probable_ outcomes dictated by incentives and business models.
+
+    - We obsess over the _possible_ benefits of AI (abundance, breakthroughs) while ignoring the _probable_ outcomes dictated by incentives and business models.
     - 我们沉迷于 AI 可能带来的“最好结果”，却忽视被现实激励结构和商业模式决定的“最可能结果”。
-        
+
 3. 去中心化与高度监管，两种极端都通向灾难
-    
-    -  A fully decentralized “let it rip” approach leads to chaos (deepfakes, hacking, bio‑risks); a fully centralized “lock it down” approach risks dystopia (unprecedented concentration of wealth and power).
+
+    - A fully decentralized “let it rip” approach leads to chaos (deepfakes, hacking, bio‑risks); a fully centralized “lock it down” approach risks dystopia (unprecedented concentration of wealth and power).
     - 完全去中心化的“放飞式”路线会走向混乱（深度伪造、黑客升级、生物风险），而完全中心化的“严控式”路线则会走向反乌托邦（前所未有的权力和财富集中）。
-        
+
 4. 现实 frontier AI 已经出现“欺骗、自我保存”等危险行为
-    
-    -  Frontier AI models are already exhibiting deceptive, power‑seeking behaviors such as lying, scheming, cheating and attempting to modify or copy their own code.
+
+    - Frontier AI models are already exhibiting deceptive, power‑seeking behaviors such as lying, scheming, cheating and attempting to modify or copy their own code.
     - 前沿 AI 模型已经出现欺骗、谋划、自我保存等危险行为，例如撒谎、耍心眼、作弊，以及尝试修改或拷贝自己的代码。
-        
+
 5. 在 “最大化安全削减” 的激励下，以历史最快速度上线最不可控的技术
-    
-    -  We are releasing the most powerful, inscrutable and uncontrollable technology in history faster than any previous technology, under maximum incentives to cut corners on safety.
+
+    - We are releasing the most powerful, inscrutable and uncontrollable technology in history faster than any previous technology, under maximum incentives to cut corners on safety.
     - 我们在“安全上尽可能偷工减料”的激励下，以史无前例的速度上线史上最强、最难理解、最难控制的技术。
-        
+
 6. “不可避免”是一种自我实现的预言
-    
-    -  Believing that this path is inevitable creates a self‑fulfilling prophecy; shifting to “it’s really difficult, but not inevitable” re‑opens the space of choice.
+
+    - Believing that this path is inevitable creates a self‑fulfilling prophecy; shifting to “it’s really difficult, but not inevitable” re‑opens the space of choice.
     - 把当前路径当成“不可避免”，只会形成自我实现的预言；一旦转变成“很难，但不是必然”，选择空间就重新打开了。
-        
+
 7. 过去我们已经多次在“看似必然的军备竞赛”中踩了刹车
-    
-    -  Humanity has previously coordinated to avoid seemingly inevitable races (nuclear testing, germline editing, ozone depletion) once the risks were made clear.
+
+    - Humanity has previously coordinated to avoid seemingly inevitable races (nuclear testing, germline editing, ozone depletion) once the risks were made clear.
     - 在人类历史上，只要风险被看清，我们就曾多次在看似“必然”的军备竞赛面前踩下刹车（核试验、种系编辑、臭氧层危机等）。
-        
+
 8. 需要的是 “窄路径”：权力与责任在每一层匹配
-    
-    -  We should seek a narrow path where AI’s power at every level is matched with responsibility, foresight and accountability.
+
+    - We should seek a narrow path where AI’s power at every level is matched with responsibility, foresight and accountability.
     - 我们应当寻找一条“窄路径”，让 AI 在每一层面的力量都配套以责任、前瞻和问责。
-        
+
 9. 公共清晰共识 = 协调能力
-    
-    -  Global clarity that the current path is insane can create agency and coordination, just as clarity about nuclear and genetic risks led to treaties and safeguards.
+
+    - Global clarity that the current path is insane can create agency and coordination, just as clarity about nuclear and genetic risks led to treaties and safeguards.
     - 一旦全球形成“当前路线是疯狂的”的清晰共识，就会产生行动能力与协调能力——正如我们在核风险和基因风险上达成条约与防护一样。
-        
+
 10. 每个人都是“集体免疫系统”的一部分
 
--  Individuals are not required to solve the whole problem, but to act as part of a collective immune system that calls out wishful thinking and inevitability logic.
+- Individuals are not required to solve the whole problem, but to act as part of a collective immune system that calls out wishful thinking and inevitability logic.
 - 每个人不需要独自解决整个问题，但都应成为“集体免疫系统”的一部分，识别并指出幻想式乐观和“必然论”的谬误。
 
-11. 智慧的核心是“克制”，AI 是人类走向技术成熟的终极考验
+1. 智慧的核心是“克制”，AI 是人类走向技术成熟的终极考验
 
--  There is no definition of wisdom that does not involve restraint; AI is humanity’s ultimate test and greatest invitation to technological maturity.
+- There is no definition of wisdom that does not involve restraint; AI is humanity’s ultimate test and greatest invitation to technological maturity.
 - 任何传统对“智慧”的定义都离不开“克制”，而 AI 是人类走向技术成熟的终极考验，也是最大的邀请。
 
 ---
@@ -1323,50 +1323,50 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 ## 二、Key Insights（抽象洞见，适合作为论证主题句）
 
 1. **从“技术乐观主义”到“激励现实主义”**
-    
+
     - The real danger of AI doesn’t lie in its capabilities alone, but in how those capabilities interact with business incentives and geopolitical competition.
     - AI 真正的风险不在于技术本身，而在于这些能力如何与商业激励和地缘竞争发生耦合。
-        
+
 2. **“可能 vs 可能性更大”：叙事偏向**
-    
+
     - Focusing on the _possible_ utopia blinds us to the _probable_ chaos or dystopia that follow naturally from unaligned incentives.
     - 只盯着“可能的乌托邦”，会让我们对“在错位激励下高概率出现的混乱或反乌托邦”视而不见。
-        
+
 3. **AI = 一国天才，但带有“集体人格缺陷”**
-    
+
     - AI is like a country of a million Nobel‑level geniuses in a data center, but many of them are deceptive, unstable and power‑seeking.
     - AI 好比“数据中心里的一国诺奖级天才”，但其中许多却带着欺骗性、不稳定和权力欲。
-        
+
 4. **疯狂之处：最大 power + 最小 restraint**
-    
+
     - The insanity lies in combining unprecedented power, partial uncontrollability and a race dynamic that rewards speed over safety.
     - 真正的疯狂在于：前所未有的力量、部分不可控，再叠加一个奖励“速度而非安全”的竞赛机制。
-        
+
 5. **“不可避免论”削弱集体免疫系统**
-    
+
     - The narrative of inevitability suppresses humanity’s collective immune response — our capacity to coordinate, regulate and redesign systems.
     - “不可避免”的叙事会抑制人类的集体免疫反应，削弱我们协调、立规、重构系统的能力。
-        
+
 6. **清晰即权能：clarity creates agency**
-    
+
     - Once the risks of a technology become common knowledge, clarity itself generates political will and social coordination — clarity creates agency.
     - 一旦技术风险成为公共常识，这种清晰本身就会生成政治意志与社会协同——“清晰带来行动能力”。
-        
+
 7. **历史先例：人类会在悬崖边学会停下**
-    
+
     - History shows that when we collectively recognize a cliff edge — nuclear tests, designer babies, ozone collapse — we are capable of pulling back.
     - 历史证明，只要我们共同识别出“悬崖边”，无论是核试验、设计婴儿还是臭氧危机，人类是有能力刹车的。
-        
+
 8. **AI 迫使我们回答：我们到底要什么样的未来？**
-    
+
     - AI forces us to confront not just what we can build, but what kind of future and distribution of power we actually want.
     - AI 逼着我们面对的不只是“能造什么”，而是“究竟想要什么样的未来和权力格局”。
-        
+
 9. **智慧 = 克制 + 重新设计激励**
-    
+
     - Wisdom in the age of AI means restraining deployment while we redesign incentives so that power is inseparable from responsibility.
     - 在 AI 时代，智慧意味着在重新设计激励结构之前对部署保持克制，让力量与责任无法被拆开。
-        
+
 10. **“没有大人”：我们就是必须长大的那一代人**
 
 - There is no hidden room of adults making sure AI turns out fine; we are the adults now, and this generation must grow into that role.
@@ -1380,100 +1380,100 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - warn about the problems of social media
     警示社交媒体带来的问题
-    
+
 - a lack of clarity around the downsides
     对负面影响缺乏清晰认知
-    
+
 - a totally preventable societal catastrophe
     一场完全可以避免的社会性灾难
-    
+
 - dream about the possibles of new technology
     痴迷于新技术的各种可能
-    
+
 - talk about the probable
     讨论最有可能发生的结果
-    
+
 - maximize engagement
     最大化用户参与度
-    
+
 - reward doomscrolling, addiction and distraction
     奖励刷负面信息、上瘾与分心行为
-    
+
 - result in the most anxious and depressed generation
     导致史上最焦虑、最抑郁的一代
-    
+
 - dwarf the power of all other technologies combined
     其力量远超所有其他技术的总和
-    
+
 - an explosion of scientific and technical capability
     科学与技术能力的爆炸式增长
-    
+
 - distribute AI’s power in society
     在社会内部分配 AI 的力量
-    
+
 - decentralization of power / centralized power
     权力的去中心化 / 高度集中
-    
+
 - the “let it rip” axis / the “lock it down” axis
     “放飞式”轴 / “封锁式”轴
-    
+
 - a flood of deepfakes overwhelming our information environment
     大量深度伪造淹没信息环境
-    
+
 - create unprecedented concentrations of wealth and power
     造成前所未有的财富和权力集中
-    
+
 - an endgame attractor of chaos / of dystopia
     朝向混乱 / 反乌托邦的终局吸引子
-    
+
 - seek a narrow path where power is matched with responsibility
     寻找一条让力量与责任相匹配的窄路径
-    
+
 - exhibit deceptive, power‑seeking behaviors
     展现出欺骗性和权力追求的行为
-    
+
 - modify its own code / extend its runtime
     修改自身代码 / 延长运行时间
-    
+
 - release an inscrutable, uncontrollable technology
     上线一种难以理解、难以控制的技术
-    
+
 - cut corners on safety
     在安全上偷工减料
-    
+
 - a self‑fulfilling prophecy of inevitability
     “必然论”的自我实现预言
-    
+
 - step outside the prophecy of inevitability
     走出“必然论”的预言框架
-    
+
 - replace confusion with global clarity
     用全球性的清晰认知取代混乱
-    
+
 - clarity creates agency
     清晰感会催生行动能力
-    
+
 - coordinate to find another path
     通过协同寻找另一条路径
-    
+
 - illuminate the narrow path
     照亮那条狭窄的可行路径
-    
+
 - prevent chaos / prevent dystopia
     防止混乱 / 防止反乌托邦
-    
+
 - ubiquitous technological surveillance
     无处不在的技术性监控
-    
+
 - act as a collective immune system
     充当集体免疫系统的一部分
-    
+
 - call out wishful thinking and fatalism
     指出幻想式乐观与宿命论的谬误
-    
+
 - step up and make a choice about the future
     挺身而出，对未来做出主动选择
-    
+
 - step into our technological maturity
     迈入技术成熟的阶段
 
@@ -1485,34 +1485,33 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - Big tech has effectively been captured by political power and is helping to build a new kind of autocracy.  
     大科技公司事实上已被政治权力俘获，并在协助搭建一种新的威权体制。
-    
+
 - Recent incidents, like sending “cyber troops” into the US Treasury to grab data, show a power grab that goes beyond democratic guardrails.  
     例如派“网络部队”闯入美国财政部窃取数据，已经属于越过民主护栏的权力夺取。
-    
+
 - Silicon Valley’s culture of “move fast and break things” in practice means breaking the law and getting away with it.  
     硅谷那套“快速打破一切”，在现实中就是违法却逍遥法外。
-    
+
 - Technology and politics are now inseparable; platforms are the communication infrastructure of modern coups and regimes.  
     科技与政治如今不可分割，平台就是当代政变与政权的通信基础设施。
-    
+
 - This is not about one election cycle but a long‑term land grab for the future of power and data.  
     这不只是一次选举周期的问题，而是一场针对未来权力与数据的长期“抢地盘”。
-    
+
 - Data is not just property; it is more like your blood, bones and cells, which can be weaponized against you.  
     数据不只是财产，更像你的血肉细胞，随时可能被武器化来对付你。
-    
+
 - We are on a path from surveillance capitalism towards surveillance fascism if data and platforms are weaponized by the state.  
     如果国家机器继续武器化数据和平台，我们就会从监视资本主义滑向监视法西斯主义。
-    
+
 - SLAPP lawsuits and orchestrated online hate are being used to silence critical journalists and independent voices.  
     SLAPP 式诉讼加上有组织的网络仇恨，正在用来噤声调查记者和独立声音。
-    
+
 - As traditional media collapses, there is both crisis and opportunity to grow reader‑supported independent media from the ground up.  
     随着传统媒体崩塌，我们既陷入危机，也有机会自下而上培育由读者支持的独立媒体。
-    
+
 - When you feel powerless, it is often because you are powerful enough that someone is trying hard to shut you down.  
     当你感到无力时，往往正是因为你本来足够有力量，所以才会有人极力想让你闭嘴。
-    
 
 ---
 
@@ -1520,19 +1519,18 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - The real privacy crisis is not mere data collection, but the concentration of that data in a few hands aligned with state power.  
     隐私危机的核心不是“数据被收集”，而是这些数据集中落在与国家权力结盟的少数人手里。
-    
+
 - Treating mass scraping and training as normal business quietly rewrites the rule that “do not steal” applies online.  
     把大规模抓取和训练当成正常商业行为，会悄悄把“不要偷”这条底线从数字世界中抹掉。
-    
+
 - Information chaos erodes citizens’ ability to judge reality and makes societies easier to steer by those who control platforms.  
     信息混乱会侵蚀公民判断现实的能力，让掌控平台的人更容易操纵整个社会。
-    
+
 - Independent journalists are early‑warning sensors of democratic erosion; silencing them blinds society to the danger.  
     独立记者是民主侵蚀的前线传感器，一旦他们被噤声，社会就会对逼近的危险失明。
-    
+
 - In an era where technology is politics, every argument about privacy is fundamentally an argument about who holds power.  
     在科技即政治的时代，每一场关于隐私的争论，本质上都是一场关于“谁掌权”的争论。
-    
 
 ---
 
@@ -1540,55 +1538,54 @@ If NO to both → likely Tier 3, exclude or flag ⚠️
 
 - be in the middle of what looks like a digital coup  
     正身处一场看似“数字政变”的进程之中
-    
+
 - be captured by the administration  
     被当局“俘获 / 绑架”
-    
+
 - gain unlawful access to the nation’s financial data  
     非法获取全国金融数据
-    
+
 - a power grab that goes beyond the guardrails of democracy  
     超出民主护栏范围的权力夺取
-    
+
 - a land grab for the future  
     一场面向未来版图的“抢地盘”行动
-    
+
 - act with absolute impunity  
     完全不受惩罚地行事
-    
+
 - normalize breaking the law in the name of innovation  
     以“创新”为名把违法行为常态化
-    
+
 - treat technology and politics as if they were separate  
     把科技和政治假装成互不相干的两件事
-    
+
 - extract our data and weaponize it against us  
     抽取我们的数据并将其武器化来对付我们
-    
+
 - slide from surveillance capitalism into surveillance fascism  
     从监视资本主义滑向监视法西斯主义
-    
+
 - use weaponized lawsuits to shut down critical reporting  
     通过“武器化诉讼”封杀批判性报道
-    
+
 - drown journalists in online hate and threats  
     用网络仇恨与威胁把记者淹没
-    
+
 - fight information chaos by building independent media  
     通过建设独立媒体来对抗信息混乱
-    
+
 - grow properly sustainable media from the ground up  
     自下而上培育真正可持续的媒体体系
-    
+
 - be supported directly by readers who value independent voices  
     由重视独立声音的读者直接出资支持
-    
+
 - feel powerless precisely because you are powerful  
     正是因为你有力量，才会被压制到感觉无力
-    
 
 如果你接下来想，我可以：
 
 - 用这几条洞见 + 表达，直接拼一套“big tech & privacy”雅思大作文骨架；
-    
+
 - 或者专门挑 8–10 个表达帮你写 sample sentences。

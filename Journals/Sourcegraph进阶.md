@@ -65,11 +65,11 @@ panic\(.*\)
 ### GitHub Search
 
 - 支持：
-    - language:
-    - path:
-    - repo:
-    - org:
-    - symbol:
+  - language:
+  - path:
+  - repo:
+  - org:
+  - symbol:
 - 支持正则（新版 Code Search）
 
 示例：

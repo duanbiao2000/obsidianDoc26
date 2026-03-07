@@ -19,7 +19,6 @@ Mechanics
 Your facility with the conventions of standard written English,
 including grammar, syntax (sentence structure), and word usage
 
-
 ## 2. 总体命中率大致评估
 
 用一个粗略表来总结（5 星制，只是经验估计，方便你心里有数）：
@@ -58,20 +57,18 @@ including grammar, syntax (sentence structure), and word usage
 ## 支持传统/从众(Pro-tradition)
 
 - **文化认同与社会凝聚力**: 传统习俗(customs)是民族身份(cultural identity)的核心,节日、仪式能增强归属感(sense of belonging),维持代际联系(intergenerational bonds)。blog.babycode+1
-    
+
 - **社会稳定**: 共同价值观(shared values)减少冲突,提供行为规范(behavioral norms),让社会运作更可预测。[[blog.babycode](https://blog.babycode.org/2025-01-19-ielts-writing-task-2-agree-disagree-culture-idea-bank-examples-collocations/)]​
-    
+
 - **道德传承**: 传统蕴含祖先智慧(ancestral wisdom),能传递道德标准(ethical standards)和生活技能(practical skills)。[[blog.babycode](https://blog.babycode.org/2025-08-20-ielts-writing-task-2-opinion-culture-topic-specific-vocabulary-and-collocations/)]​
-    
 
 ## 支持个性/创新(Pro-individuality)
 
 - **社会进步**: 盲目遵从阻碍创新(stifle innovation),只有质疑传统(question traditions)才能改革过时做法(outdated practices)。[[blog.babycode](https://blog.babycode.org/2025-01-19-ielts-writing-task-2-agree-disagree-culture-idea-bank-examples-collocations/)]​
-    
+
 - **个人自由与幸福**: 强制从众限制自我表达(self-expression),压抑个性(suppress individuality),导致心理压力。
-    
+
 - **适应现代社会**: 全球化(globalization)要求灵活性(flexibility),传统可能与当代价值观(contemporary values)冲突(如性别平等)。[blog.babycode](https://blog.babycode.org/2025-08-20-ielts-writing-task-2-opinion-culture-band-9-sample-analysis/)
-    
 
 ## 英文高分词组
 
@@ -104,13 +101,12 @@ including grammar, syntax (sentence structure), and word usage
 ## 平衡短语(Balancing phrases)
 
 - **strike a balance between** tradition and modernity
-    
+
 - **navigate competing pressures** of conformity and individuality[[blog.babycode](https://blog.babycode.org/2025-08-20-ielts-writing-task-2-opinion-culture-topic-specific-vocabulary-and-collocations/)]​
-    
+
 - **respect traditional knowledge while enabling participation** in global communities[[blog.babycode](https://blog.babycode.org/2025-08-20-ielts-writing-task-2-opinion-culture-topic-specific-vocabulary-and-collocations/)]​
-    
+
 - **cultural adaptation** without losing core identity
-    
 
 ## 万能例子
 
@@ -131,20 +127,18 @@ including grammar, syntax (sentence structure), and word usage
 ## 支持实用性(Pro-practicality)
 
 - **就业竞争力**: 学习职业技能(vocational skills)如编程、会计,能直接提高就业率(employability),满足劳动力市场需求(labor market demands)。[[trueielts](https://trueielts.vn/real-ielts-writing-task-2-topic-government-and-technology-education-sample-band-85)]​
-    
+
 - **经济回报**: 实用教育投资回报率高(high ROI),毕业生能快速经济独立(financial independence)。
-    
+
 - **社会需求**: 国家发展需要工程师、医生等实用人才,艺术类过剩可能导致失业(unemployment)。
-    
 
 ## 支持创造力/个人发展(Pro-creativity)
 
 - **全面发展**: 只重视实用会培养"工具人"(narrow specialists),缺乏批判性思维(critical thinking)和创新能力。
-    
+
 - **心理健康**: 追求兴趣(pursue interests)能提升幸福感(well-being)和工作满意度(job satisfaction),降低职业倦怠(burnout)。
-    
+
 - **长期创新**: 艺术、人文培养创造力(creativity)和跨学科思维(interdisciplinary thinking),这是未来经济的核心(knowledge economy)。[[blog.babycode](https://blog.babycode.org/2025-08-21-ielts-writing-task-2-technology-band-8-sample-answer-analysis/)]​
-    
 
 ## 英文高分词组
 
@@ -177,11 +171,10 @@ including grammar, syntax (sentence structure), and word usage
 ## 平衡短语
 
 - **integrate practical skills with creative thinking**
-    
+
 - **balance vocational training and intellectual development**
-    
+
 - **combine technical competence with humanistic values**
-    
 
 ## 万能例子
 
@@ -202,20 +195,18 @@ including grammar, syntax (sentence structure), and word usage
 ## 支持保护文化认同(Pro-preservation)
 
 - **身份归属**: 文化习俗(cultural customs)提供归属感(sense of belonging),尤其对移民、少数民族重要,避免身份混乱(identity confusion)。[[blog.babycode](https://blog.babycode.org/2025-01-19-ielts-writing-task-2-agree-disagree-culture-idea-bank-examples-collocations/)]​
-    
+
 - **多样性价值**: 全球化导致文化同质化(cultural homogenization),保护本土文化能维持人类多样性(cultural diversity),如语言、传统艺术。blog.babycode+1
-    
+
 - **社会稳定**: 共同文化价值观(shared cultural values)是社会凝聚力(social cohesion)的基础,减少族群冲突。
-    
 
 ## 质疑过度强调文化认同(Critique)
 
 - **阻碍融合**: 过度强调本族文化可能形成文化孤岛(cultural enclaves),阻碍移民融入主流社会(mainstream society integration)。[[blog.babycode](https://blog.babycode.org/2025-01-19-ielts-writing-task-2-agree-disagree-culture-idea-bank-examples-collocations/)]​
-    
+
 - **限制个人自由**: 强制遵守文化规范(cultural norms)可能压制个体选择,如强迫婚姻(arranged marriages)等传统。
-    
+
 - **经济障碍**: 某些传统做法(如禁忌、节日安排)可能与现代商业社会(modern business practices)冲突。
-    
 
 ## 英文高分词组
 
@@ -271,22 +262,20 @@ including grammar, syntax (sentence structure), and word usage
 ## 努力与技能(Hard work & skills)
 
 - **个人责任**: 勤奋(diligence)、自律(self-discipline)、持续学习(continuous learning)是成功基础,个人可控。
-    
+
 - **技能培养**: 专业技能(professional skills)、软技能(如沟通能力 communication skills)决定职场竞争力。
-    
+
 - **成长心态**: 面对挫折的韧性(resilience)和适应能力(adaptability)比天赋更重要。
-    
 
 ## 外部因素(External factors)
 
 - **家庭背景**: 父母教育水平(parental education)、经济资源(economic capital)、社会关系网(social networks)影响起点。
-    
+
 - **教育机会**: 优质教育(quality education)获取不平等,富裕地区学校资源更好。
-    
+
 - **运气与时机**: 经济周期(economic cycles)、行业趋势(industry trends)、个人际遇(serendipity)也起作用。
-    
+
 - **系统性障碍**: 性别歧视(gender discrimination)、种族偏见(racial bias)等结构性不平等(structural inequality)。
-    
 
 ## 英文高分词组
 
@@ -319,11 +308,10 @@ including grammar, syntax (sentence structure), and word usage
 ## 综合短语
 
 - **combination of personal effort and favorable circumstances**
-    
+
 - **level the playing field** through education
-    
+
 - **talent alone is insufficient without opportunity**
-    
 
 ## 万能例子
 
@@ -344,22 +332,20 @@ including grammar, syntax (sentence structure), and word usage
 ## 经济增长定义(Economic growth)
 
 - **物质繁荣**: GDP 增长(GDP growth)、人均收入(per capita income)提高是进步标志,能减少贫困(poverty reduction)。
-    
+
 - **基础设施**: 交通、通信、医疗系统完善提升生活质量(quality of life)。
-    
+
 - **就业机会**: 经济发展创造工作岗位,降低失业率(unemployment rate)。
-    
 
 ## 社会福祉定义(Social well-being)
 
 - **教育与健康**: 识字率(literacy rate)、预期寿命(life expectancy)、医疗可及性(healthcare accessibility)比 GDP 更能反映真实进步。
-    
+
 - **平等与公正**: 性别平等(gender equality)、种族公正(racial justice)、贫富差距缩小(narrowing wealth gap)是进步核心。
-    
+
 - **环境可持续性**: 纯经济增长若破坏环境(environmental degradation),危及后代,不算真进步。
-    
+
 - **幸福与自由**: 公民政治自由(political freedom)、言论自由(freedom of speech)、主观幸福感(subjective well-being)也是指标。
-    
 
 ## 英文高分词组
 
@@ -399,11 +385,10 @@ including grammar, syntax (sentence structure), and word usage
 ## 综合短语
 
 - **redefine progress beyond economic metrics**
-    
+
 - **holistic measures of societal advancement**
-    
+
 - **balance material prosperity with social well-being**
-    
 
 ## 万能例子
 
@@ -424,29 +409,26 @@ including grammar, syntax (sentence structure), and word usage
 ## 传统知识获取(Traditional methods)
 
 - **正规教育**: 学校、大学提供系统知识(systematic knowledge)和批判性思维训练(critical thinking training)。
-    
+
 - **书籍与学术研究**: 经同行评审(peer-reviewed)的研究是可靠知识来源,书籍提供深度(depth)。
-    
+
 - **师徒传承**: 技艺类知识(craft knowledge)通过学徒制(apprenticeship)代代相传。
-    
 
 ## 现代知识获取(Modern methods)
 
 - **互联网**: 在线课程(online courses)、维基百科(Wikipedia)、YouTube 教程让知识民主化(democratize knowledge),任何人可学习。[[blog.babycode](https://blog.babycode.org/2025-08-21-ielts-writing-task-2-technology-band-8-sample-answer-analysis/)]​
-    
+
 - **人工智能**: AI 可以快速筛选海量信息(vast information),辅助研究和学习。
-    
+
 - **协作与众包**: 开源社区(open-source communities)、论坛讨论促进集体智慧(collective intelligence)。
-    
 
 ## 知识的性质(Nature of knowledge)
 
 - **客观 vs 主观**: 科学知识(scientific knowledge)基于实证(empirical evidence),而价值观(values)、艺术理解是主观的。
-    
+
 - **理论 vs 实践**: 知道理论(know-what)与会应用(know-how)是不同层次的知识。
-    
+
 - **知识更新**: 科技时代知识快速过时(rapid obsolescence),学习能力(learning ability)比储存知识更重要。
-    
 
 ## 英文高分词组
 
@@ -512,22 +494,20 @@ including grammar, syntax (sentence structure), and word usage
 ## 教育目标争论(Educational objectives)
 
 - **就业准备**: 学校应教授市场需要的技能(market-relevant skills),确保学生就业(employability)。
-    
+
 - **全面发展**: 教育应培养批判性思维(critical thinking)、创造力(creativity)、道德品格(moral character),而非仅是职业训练。
-    
+
 - **公民教育**: 培养负责任公民(responsible citizens),理解民主价值(democratic values)、社会责任(social responsibility)。
-    
+
 - **社会平等**: 教育是社会流动(social mobility)的阶梯,应缩小阶级差距(class divide)。
-    
 
 ## 教学方法争论(Teaching methods)
 
 - **传统课堂 vs 在线学习**: 面授有师生互动(teacher-student interaction),在线学习灵活但缺乏监督(lack of supervision)。[[trueielts](https://trueielts.vn/real-ielts-writing-task-2-topic-government-and-technology-education-sample-band-85)]​
-    
+
 - **标准化考试 vs 个性化评估**: 统一考试公平但可能扼杀创造力;个性化评估(personalized assessment)更全面但难以标准化。
-    
+
 - **理论 vs 实践**: 纯讲授(lecture-based)易脱离实际,项目式学习(project-based learning)更能培养应用能力。
-    
 
 ## 英文高分词组
 
@@ -585,24 +565,22 @@ including grammar, syntax (sentence structure), and word usage
 ## 支持学习历史(Pro-history)
 
 - **理解现在**: 当代问题(如民族冲突、政治制度)根源在历史,了解历史才能理解现状(understand present)。
-    
+
 - **避免重蹈覆辙**: 学习历史教训(historical lessons)如战争、经济危机,避免重复错误(repeat mistakes)。
-    
+
 - **文化认同**: 历史是民族记忆(collective memory),学习历史增强身份认同(identity)和爱国情感(patriotism)。
-    
+
 - **批判性思维**: 分析历史事件培养因果分析(causal analysis)、多角度思考(multiple perspectives)能力。
-    
 
 ## 质疑历史价值(Critique)
 
 - **实用性低**: 历史知识不能直接转化为职业技能(career skills),对就业帮助有限。
-    
+
 - **过时信息**: 过去经验可能不适用于快速变化的现代社会(rapidly changing society)。
-    
+
 - **选择性记忆**: 历史常被政治操纵(politically manipulated),教科书有偏见(biased),可能传播错误叙事(false narratives)。
-    
+
 - **机会成本**: 时间有限,学生应多学 STEM 等更有用学科。
-    
 
 ## 英文高分词组
 
@@ -632,11 +610,10 @@ including grammar, syntax (sentence structure), and word usage
 ## 平衡短语
 
 - **history informs present decision-making**
-    
+
 - **balance historical knowledge with future-oriented skills**
-    
+
 - **critical engagement with historical narratives**
-    
 
 ## 万能例子
 
@@ -657,26 +634,24 @@ including grammar, syntax (sentence structure), and word usage
 ## 正面影响(Positive impacts)
 
 - **效率提升**: 自动化(automation)、AI 提高生产力(productivity),释放人类从事创造性工作。[[blog.babycode](https://blog.babycode.org/2025-08-21-ielts-writing-task-2-technology-band-8-sample-answer-analysis/)]​
-    
+
 - **信息获取**: 互联网让知识民主化(democratize knowledge),任何人可学习、创业。
-    
+
 - **沟通便利**: 社交媒体、视频通话打破地理限制(geographical barriers),维系远距离关系。
-    
+
 - **医疗进步**: 远程医疗(telemedicine)、AI 诊断提高医疗可及性(healthcare accessibility)。
-    
 
 ## 负面影响(Negative impacts)
 
 - **失业风险**: 自动化取代蓝领工作(blue-collar jobs),AI 甚至威胁白领(white-collar jobs),加剧不平等(inequality)。[[blog.babycode](https://blog.babycode.org/2025-08-21-ielts-writing-task-2-technology-band-8-sample-answer-analysis/)]​
-    
+
 - **隐私侵犯**: 数据收集(data collection)、监控(surveillance)威胁个人隐私(personal privacy)。
-    
+
 - **社会孤立**: 过度依赖虚拟交流(virtual communication)削弱面对面互动(face-to-face interaction),导致孤独(loneliness)。
-    
+
 - **信息茧房**: 算法推荐(algorithm-driven recommendations)强化偏见(reinforce biases),制造回音室(echo chambers)。[[blog.babycode](https://blog.babycode.org/2025-08-21-ielts-writing-task-2-technology-band-8-sample-answer-analysis/)]​
-    
+
 - **心理健康**: 社交媒体上瘾(social media addiction)、网络欺凌(cyberbullying)损害青少年心理。
-    
 
 ## 英文高分词组
 
@@ -735,29 +710,26 @@ including grammar, syntax (sentence structure), and word usage
 ## 传统英雄(Traditional heroes)
 
 - **军事/政治领袖**: 历史上国王、将军、革命者因保卫国家、推动变革被崇拜(admired)。
-    
+
 - **科学家/发明家**: 爱因斯坦、居里夫人因智力成就(intellectual achievements)受尊敬。
-    
+
 - **道德榜样**: 甘地、马丁·路德·金因无私奉献(selfless dedication)、道德勇气(moral courage)成为偶像。
-    
 
 ## 当代英雄转变(Contemporary shift)
 
 - **娱乐明星**: 演员、歌手、体育明星因财富、名气成为偶像,但贡献有限(limited contribution)。
-    
+
 - **企业家**: 乔布斯、马斯克因创新(innovation)、商业成功被追捧,体现资本主义价值观(capitalist values)。
-    
+
 - **社交媒体网红**: 影响力者(influencers)因粉丝数被视为成功,但往往缺乏实质成就(lack substantial achievements)。
-    
+
 - **草根英雄**: 疫情期间医护人员、消防员等普通人(ordinary people)的奉献被重新重视。
-    
 
 ## 反思(Reflection)
 
 - **媒体塑造**: 英雄形象常被媒体操纵(media manipulation),真实贡献被夸大或忽略。
-    
+
 - **多元标准**: 不同文化、时代对英雄定义不同,应避免单一标准(avoid monolithic standards)。
-    
 
 ## 英文高分词组
 
@@ -813,27 +785,24 @@ including grammar, syntax (sentence structure), and word usage
 ## 艺术的价值(Value of art)
 
 - **个人层面**: 艺术提供情感表达(emotional expression)、审美享受(aesthetic pleasure)、心理慰藉(psychological comfort)。
-    
+
 - **社会层面**: 艺术反映文化(reflect culture)、批判社会问题(critique social issues)、促进文化认同(cultural identity)。
-    
+
 - **经济层面**: 创意产业(creative industries)创造就业,旅游、电影、设计产生经济价值(economic value)。
-    
 
 ## 科学的价值(Value of science)
 
 - **实用层面**: 科学推动技术进步(technological advancement),解决实际问题(practical problems)如疾病、能源。
-    
+
 - **认知层面**: 科学揭示自然规律(natural laws),满足人类求知欲(intellectual curiosity)。
-    
+
 - **社会层面**: 科学方法(scientific method)培养理性思维(rational thinking),对抗迷信(combat superstition)。
-    
 
 ## 艺术 vs 科学争论(Debate)
 
 - **资金分配**: 政府应优先资助科学研究还是艺术项目?科学有明确回报(tangible returns),艺术难量化(hard to quantify)。
-    
+
 - **互补性**: 艺术与科学并非对立,艺术激发创造力(inspire creativity),科学需要想象力(imagination);二者结合产生创新(如设计、建筑)。
-    
 
 ## 英文高分词组
 
@@ -900,40 +869,36 @@ including grammar, syntax (sentence structure), and word usage
 ## 政府责任(Government role)
 
 - **公共服务**: 提供教育、医疗、基础设施等公共产品(public goods),市场无法有效提供。[[trueielts](https://trueielts.vn/real-ielts-writing-task-2-topic-government-and-technology-education-sample-band-85)]​
-    
+
 - **监管**: 制定法规保护消费者(consumer protection)、环境(environment)、劳工权益(labor rights),防止企业滥用(corporate abuse)。
-    
+
 - **再分配**: 通过税收(taxation)、福利(welfare)缩小贫富差距(wealth gap),保障社会公平(social equity)。
-    
+
 - **危机应对**: 应对疫情、自然灾害等只有政府有能力协调(coordinate)全社会资源。
-    
 
 ## 企业责任(Business role)
 
 - **经济引擎**: 创造就业(job creation)、驱动创新(drive innovation)、产生税收是企业核心贡献。
-    
+
 - **企业社会责任(CSR)**: 企业应超越利润(beyond profit),关注环境(environment)、员工福利(employee welfare)、社区发展(community development)。
-    
+
 - **自我监管**: 行业应建立自律标准(self-regulation),减少政府干预(government intervention)成本。
-    
 
 ## 个人责任(Individual role)
 
 - **自力更生**: 个人应通过工作、储蓄对自己负责,不过度依赖福利(welfare dependency)。
-    
+
 - **公民参与**: 投票、志愿服务(volunteering)、纳税是公民义务(civic duty)。
-    
+
 - **环保行为**: 个人消费选择(consumer choices)、生活方式(lifestyle)影响环境,应承担个人环保责任(personal environmental responsibility)。
-    
 
 ## 角色争论(Role debate)
 
 - **政府 vs 市场**: 自由市场派(free-market advocates)认为政府干预扼杀效率(stifle efficiency);福利国家派(welfare state supporters)认为市场导致不平等,需政府纠正(correct)。
-    
+
 - **企业 vs 监管**: 企业抱怨过度监管(overregulation)增加成本;环保派认为企业若无监管会破坏环境(environmental degradation)。
-    
+
 - **集体 vs 个人**: 集体主义(collectivism)强调社会责任,个人主义(individualism)强调自由与自主。
-    
 
 ## 英文高分词组
 
@@ -1001,18 +966,17 @@ including grammar, syntax (sentence structure), and word usage
 ## 使用建议
 
 1. **写作 Task 2**: 每篇文章选 2–3 个相关词组,自然融入主体段(body paragraphs),不要堆砌。比如讨论"政府是否应资助艺术",可以用:
-    
+
     - "cultural heritage preservation"
-        
+
     - "tangible benefits vs cultural investment"
-        
+
     - "public funding allocation"
-        
+
 2. **口语 Part 3**: 这些短语稍显正式,口语时可以简化,但保留核心概念。比如不说"intergenerational transmission",可以说"passing traditions from older to younger generations"。
-    
+
 3. **例子灵活改编**: 我给的例子你可以记框架,比如"北欧福利国家"例子,你可以换成"加拿大医保系统",原理一样。
-    
+
 4. **中文思路先清晰**: 考场上先用中文快速列出正反论点,再套英文词组,避免直接用英文卡壳。
-    
 
 需要我把这 12 页整理成一个 PDF 文件或者 Word 文档发给你吗?还是你想针对某几个主题做更深入的练习题目?
