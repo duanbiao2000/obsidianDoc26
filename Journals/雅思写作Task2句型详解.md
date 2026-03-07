@@ -23,16 +23,19 @@ source: 基于《雅思写作Task2高级句型库.md》重构
 ### 🎯 15天速成计划
 
 **Week 1: 基础夯实（Days 1-5）**
+
 - Day 1-2: 学习基础句型 (#3, #9, #10)
 - Day 3-4: 练习基础句型（写5个句子）
 - Day 5: 复习巩固
 
 **Week 2: 核心突破（Days 6-10）**
+
 - Day 6-8: 学习核心句型 (#1, #2, #4, #5, #6, #13)
 - Day 9: 练习核心句型（写10个句子）
 - Day 10: 复习巩固
 
 **Week 3: 顶级提升（Days 11-15）**
+
 - Day 11-13: 学习顶级句型 (#7, #8, #11, #12, #14, #15)
 - Day 14: 写一篇完整文章
 - Day 15: 复习总结
@@ -42,16 +45,19 @@ source: 基于《雅思写作Task2高级句型库.md》重构
 ### 📊 按Band目标分层
 
 **Band 6.0-6.5目标**:
+
 - ✅ 掌握: #3, #9, #10（基础型）
 - ✅ 每篇文章使用: 2-3个句型
 - ✅ 重点: 确保语法正确，逻辑清晰
 
 **Band 7.0-7.5目标**:
+
 - ✅ 掌握: #1, #2, #4, #5, #6, #13（核心型）
 - ✅ 每篇文章使用: 3-4个句型
 - ✅ 重点: 句型与论证内容匹配，有替换意识
 
 **Band 8.0+目标**:
+
 - ✅ 掌握: 全部15个句型
 - ✅ 熟练运用: #7, #8, #11, #12, #14, #15（顶级型）
 - ✅ 重点: 自然融合，看不出刻意痕迹
@@ -83,11 +89,13 @@ source: 基于《雅思写作Task2高级句型库.md》重构
 **一句话说明**: 强调某个关键认知或改变带来的转折
 
 **核心模板**:
+
 ```
 Everything changes when [Subject] [Verb].
 ```
 
 **使用场景**:
+
 - 引言段强调问题本质
 - 主体段引出关键论点
 - 强调意识转变的重要性
@@ -104,10 +112,12 @@ Everything changes when [Subject] [Verb].
 > Everything changes when consumers understand that their daily choices collectively determine environmental outcomes.
 
 **关联词汇**:
+
 - recognize, realize, understand, acknowledge
 - transformation, paradigm shift, fundamental change
 
 **替换表达**:
+
 - The moment arrives when...
 - Nothing matters until...
 - [Subject] represents a turning point when...
@@ -125,11 +135,13 @@ Everything changes when [Subject] [Verb].
 **一句话说明**: 展示辩证思维，避免极端化立场
 
 **核心模板**:
+
 ```
 To some extent, [Concession Point]. However, [Main Argument].
 ```
 
 **使用场景**:
+
 - 主体段论证展开
 - 平衡正反观点
 - 展示批判性思维
@@ -146,10 +158,12 @@ To some extent, [Concession Point]. However, [Main Argument].
 > Economic development inevitably generates environmental impact. Yet this does not justify unchecked exploitation, as sustainable models demonstrate prosperity and ecological stewardship can be mutually reinforcing.
 
 **关联词汇**:
+
 - weigh against, balance, justify, mutual reinforcement
 - privacy erosion, digital addiction, spontaneous interaction
 
 **替换表达**:
+
 - While..., [Main Argument].
 - Although..., [Main Argument].
 - Admittedly, [Concession]. Nevertheless, [Main Argument].
@@ -168,11 +182,13 @@ To some extent, [Concession Point]. However, [Main Argument].
 **一句话说明**: 总结趋势或证据，增强论证说服力
 
 **核心模板**:
+
 ```
 It is becoming clear that [Observation/Trend].
 ```
 
 **使用场景**:
+
 - 总结论证段
 - 引出结论
 - 强调趋势的确定性
@@ -189,10 +205,12 @@ It is becoming clear that [Observation/Trend].
 > Evidence indicates remote work may permanently alter urban economies, residential patterns, and work-life boundaries—unanticipated before the pandemic accelerated this shift.
 
 **关联词汇**:
+
 - increasingly evident, accumulating evidence, emerging consensus
 - fundamental transformation, immediate threats, permanent alteration
 
 **替换表达**:
+
 - [Trend/Observation] is increasingly apparent.
 - Accumulating evidence suggests that [Observation].
 - A consensus is emerging that [Observation].
@@ -214,11 +232,13 @@ It is becoming clear that [Observation/Trend].
 **一句话说明**: 在引言段反驳题目中的简单化观点，展示辩证思维
 
 **核心模板**:
+
 ```
 [Subject] is not about [Surface Factor]. It is about [Deeper Factor].
 ```
 
 **使用场景**:
+
 - 引言段反驳常识性观点
 - 展示深度理解
 - 为全文论证定调
@@ -235,10 +255,12 @@ It is becoming clear that [Observation/Trend].
 > Environmental responsibility is not about grand gestures or symbolic statements, but consistent daily choices that collectively reduce ecological footprints.
 
 **关联词汇**:
+
 - accumulate credentials, cultivate thinking, evaluate critically
 - consistent choices, ecological footprints, grand gestures
 
 **替换表达**:
+
 - [Subject] consists not in [A], but in [B].
 - Far from being [A], [Subject] is fundamentally about [B].
 - [Subject] lies not in [A], but in [B].
@@ -256,11 +278,13 @@ It is becoming clear that [Observation/Trend].
 **一句话说明**: 揭示事物背后的真正原因或基础
 
 **核心模板**:
+
 ```
 The secret of [Subject] lies not in [Surface Factor], but in [Deeper Source].
 ```
 
 **使用场景**:
+
 - 分析问题根源
 - 揭示成功要素
 - 反驳表面化解释
@@ -277,10 +301,12 @@ The secret of [Subject] lies not in [Surface Factor], but in [Deeper Source].
 > The true source of professional competence lies not in credentials, but in accumulated experience handling real challenges.
 
 **关联词汇**:
+
 - pedagogical approach, cohesive society, mutual respect
 - professional competence, accumulated experience, credentials
 
 **替换表达**:
+
 - The true source of [Subject] lies not in [A], but in [B].
 - The foundation of [Subject] rests not on [A], but on [B].
 - Real [Subject] does not live in [A], but in [B].
@@ -298,11 +324,13 @@ The secret of [Subject] lies not in [Surface Factor], but in [Deeper Source].
 **一句话说明**: 强调事物的真正所在或本质
 
 **核心模板**:
+
 ```
 Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 ```
 
 **使用场景**:
+
 - 主体段主题句
 - 强调本质而非表象
 - 纠正错误认知
@@ -319,10 +347,12 @@ Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 > True innovation does not live in technological sophistication, but in solving genuine problems that matter to people.
 
 **关联词汇**:
+
 - genuine expertise, technological sophistication, novel challenges
 - unfamiliar problems, certificates, degrees
 
 **替换表达**:
+
 - The essence of [Subject] is found not in [A], but in [B].
 - It is in [B], not in [A], that [Quality] is to be found.
 
@@ -339,11 +369,13 @@ Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 **一句话说明**: 定义某事物的有效性标准，展示抽象思维能力
 
 **核心模板**:
+
 ```
 [Plural Noun] that [Verb] are [Noun] that [Condition].
 ```
 
 **使用场景**:
+
 - 论证展开
 - 定义标准
 - 增强说服力
@@ -360,10 +392,12 @@ Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 > Social policies that succeed are those accounting for human behavior in practice rather than theory, and including mechanisms for adaptation based on real-world feedback.
 
 **关联词汇**:
+
 - endure, widespread adoption, seamless integration
 - diverse classrooms, genuine problems, real-world feedback
 
 **替换表达**:
+
 - Only those [Plural Noun] that [Condition] can truly [Main Verb].
 - What characterizes [Plural Noun] that [Verb] is not [Surface Trait], but [Deeper Trait].
 
@@ -380,11 +414,13 @@ Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 **一句话说明**: 用类比解释抽象问题，增强论证形象性
 
 **核心模板**:
+
 ```
 Imagine [Scenario]. That is what [Subject] does to [Target].
 ```
 
 **使用场景**:
+
 - 解释复杂概念
 - 增强论证形象性
 - 帮助读者理解
@@ -401,10 +437,12 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 > Imagine an orchestra where the conductor interrupts every measure to correct individual musicians—that is what excessive micromanagement does to team productivity.
 
 **关联词汇**:
+
 - concentration, communicative competence, micromanagement
 - notifications, test-focused education, team productivity
 
 **替换表达**:
+
 - [Subject] to [Target] is analogous to [Analogy].
 - Just as [Analogy Scenario], so too does [Subject] [Action] to [Target].
 - [Subject] functions like [Metaphor], [Explanation].
@@ -422,11 +460,13 @@ Imagine [Scenario]. That is what [Subject] does to [Target].
 **一句话说明**: 描述理想状态，适合结论段升华
 
 **核心模板**:
+
 ```
 The goal should be to make [Positive Value] the [Metaphor], not [Negative Alternative].
 ```
 
 **使用场景**:
+
 - 结论段升华
 - 政策建议
 - 描述愿景
@@ -443,10 +483,12 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 > The aim of environmental policy should be making sustainability the convenient, affordable choice for consumers, not a rare sacrifice demanded of the particularly conscientious.
 
 **关联词汇**:
+
 - lifelong learning, ethical considerations, sustainability
 - default framework, convenient choice, conscientious
 
 **替换表达**:
+
 - The objective should be establishing [Positive Value] as [Standard], not [Alternative].
 - [Positive Value] should be transformed from [Current State] into [Desired State].
 - What should be prioritized is [Positive Value] rather than [Negative Alternative].
@@ -468,11 +510,13 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 **一句话说明**: 用隐喻将抽象概念可视化，展示语言掌控力
 
 **核心模板**:
+
 ```
 [Subject] is the [Metaphor] for [Purpose/Context].
 ```
 
 **使用场景**:
+
 - 引言段或结论段
 - 概念可视化
 - 展示语言能力
@@ -489,10 +533,12 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 > Biodiversity functions as biological insurance enabling ecosystems to withstand environmental shocks and adapt to changing conditions—a service technological solutions cannot replicate.
 
 **关联词汇**:
+
 - training ground, public square, biological insurance
 - democratic citizenship, political discourse, environmental shocks
 
 **替换表达**:
+
 - [Subject] serves as [Metaphor] in [Context].
 - [Subject] functions as [Metaphor], [Effect].
 - If [Context] is [Broad Metaphor], then [Subject] is [Specific Metaphor].
@@ -510,11 +556,13 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 **一句话说明**: 为看似负面现象提供系统性解释，展示深度思维
 
 **核心模板**:
+
 ```
 [Phenomenon] is not a [Negative Judgment]. It is [System] doing exactly what it was designed to do.
 ```
 
 **使用场景**:
+
 - 分析段
 - 解释行为或现象
 - 展示理解深度
@@ -531,10 +579,12 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 > Test anxiety is not an indication of inadequate preparation, but the nervous system activating its evolutionary threat response, perceiving evaluation as challenging social status and survival.
 
 **关联词汇**:
+
 - procrastination, willpower, protective mechanism
 - engagement-maximizing algorithms, evolutionary threat response, social status
 
 **替换表达**:
+
 - Rather than [Negative Judgment], [Phenomenon] represents [System] functioning as designed, albeit in [Context].
 - [Phenomenon] is not [Negative Judgment], but an adaptive response that [Function].
 
@@ -551,11 +601,13 @@ The goal should be to make [Positive Value] the [Metaphor], not [Negative Altern
 **一句话说明**: 揭示两个概念之间的矛盾或关系，展示抽象思维
 
 **核心模板**:
+
 ```
 The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerges.
 ```
 
 **使用场景**:
+
 - 分析段
 - 展示洞察力
 - 适合复杂题目
@@ -572,10 +624,12 @@ The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerge
 > The disconnect between policy intentions and implementation realities is where many well-intentioned programs fail, highlighting the importance of involving frontline practitioners in design phases.
 
 **关联词汇**:
+
 - credentials vs competencies, capabilities vs ethical frameworks
 - policy intentions vs implementation realities, alignment, governance mechanisms
 
 **替换表达**:
+
 - The tension between [A] and [B] is where [Problem/Solution] manifests.
 - At the intersection of [A] and [B] lies [Problem/Solution].
 - The disconnect separating [A] from [B] is precisely where [Problem/Solution] occurs.
@@ -593,11 +647,13 @@ The gap/divergence between [A] and [B] is where [Problem/Solution] occurs/emerge
 **一句话说明**: 定义两个相似概念的关键区别
 
 **核心模板**:
+
 ```
 What separates [A] from [B] is [Key Difference].
 ```
 
 **使用场景**:
+
 - 定义或比较段
 - 展示精确理解
 - 区分相似概念
@@ -614,10 +670,12 @@ What separates [A] from [B] is [Key Difference].
 > What separates effective managers from inspiring leaders is the capacity to articulate compelling visions motivating others beyond material incentives or positional authority.
 
 **关联词汇**:
+
 - competent vs exceptional, useful vs transformative
 - effective vs inspiring, predetermined plans, compelling visions
 
 **替换表达**:
+
 - The distinction between [A] and [B] lies in [Key Difference].
 - What distinguishes [A] from [B] is [Key Difference].
 - The line separating [A] from [B] is drawn at [Key Difference].
@@ -635,11 +693,13 @@ What separates [A] from [B] is [Key Difference].
 **一句话说明**: 强调主动性和过程性，适合结论段收束
 
 **核心模板**:
+
 ```
 [Outcome] is not something that happens to you. It is something you [Process] [Adverb].
 ```
 
 **使用场景**:
+
 - 结论段最后一句
 - 强调主动性和过程感
 - 升华主题
@@ -656,10 +716,12 @@ What separates [A] from [B] is [Key Difference].
 > Professional satisfaction is not something discovered by chance or inherited through connections, but cultivated by aligning work with personal values, continuously developing skills, and seeking roles leveraging individual strengths.
 
 **关联词汇**:
+
 - deliberate practice, reflective experience, organized effort
 - strategic advocacy, entrenched interests, personal values
 
 **替换表达**:
+
 - [Outcome] requires not passive reception but active construction through [Process].
 - Far from being [Static Description], [Outcome] represents a dynamic process of [Process].
 - [Outcome] is not a destination but a journey characterized by [Process].
@@ -677,11 +739,13 @@ What separates [A] from [B] is [Key Difference].
 **一句话说明**: 将具体问题上升到哲学层面，展示思想深度
 
 **核心模板**:
+
 ```
 [Subject] is not merely/in just [Surface Function]. It is [Deeper Function/Meaning].
 ```
 
 **使用场景**:
+
 - 结论段升华
 - 必须与前文论证有逻辑联系
 - 适合哲学性话题
@@ -698,10 +762,12 @@ What separates [A] from [B] is [Key Difference].
 > Critical thinking functions not simply as an academic skill for problem-solving, but as the foundation for democratic citizenship, enabling individuals to navigate complexity, evaluate evidence, and participate meaningfully in collective decision-making.
 
 **关联词汇**:
+
 - medium of thought, fundamental transformation, democratic citizenship
 - navigate complexity, evaluate evidence, collective decision-making
 
 **替换表达**:
+
 - [Subject] serves not only as [Surface Function] but also as [Deeper Function].
 - Beyond its [Surface Function], [Subject] constitutes [Deeper Function].
 - The true significance of [Subject] lies not in [Surface Function] but in [Deeper Function].
@@ -715,11 +781,13 @@ What separates [A] from [B] is [Key Difference].
 ### 📚 教育类话题
 
 **推荐句型组合**:
+
 - 引言: #1 驳斥常识型, #2 驳斥表面原因型
 - 主体: #4 真正所在型, #5 原则定义型, #8 因果论证型
 - 结论: #13 目标状态型, #14 过程构建型
 
 **核心词汇（TOP20）**:
+
 1. curriculum (课程) / pedagogy (教学法)
 2. critical thinking (批判性思维)
 3. lifelong learning (终身学习)
@@ -742,12 +810,14 @@ What separates [A] from [B] is [Key Difference].
 20. cognitive development (认知发展)
 
 **常见论点**:
+
 1. **教育的目的**: 培养批判性思维而非仅积累资历
 2. **在线学习**: 提供灵活性但缺乏互动
 3. **标准化考试**: 无法衡量真实理解
 4. **终身学习**: 应成为自然习惯而非临时义务
 
 **万能论证框架**:
+
 ```
 引言: #1 驳斥常识型（"Academic success is not about..."）
 主体1: #9 让步转折型（承认现状，提出问题）
@@ -763,11 +833,13 @@ What separates [A] from [B] is [Key Difference].
 ### 💻 科技类话题
 
 **推荐句型组合**:
+
 - 引言: #1 驳斥常识型, #3 转折点型
 - 主体: #6 类比说明型, #8 因果论证型, #11 关系揭示型
 - 结论: #13 目标状态型, #15 升华总结型
 
 **核心词汇（TOP20）**:
+
 1. artificial intelligence (人工智能)
 2. social media platforms (社交媒体平台)
 3. algorithmic curation (算法策展)
@@ -790,12 +862,14 @@ What separates [A] from [B] is [Key Difference].
 20. gig economy (零工经济)
 
 **常见论点**:
+
 1. **社交媒体**: 连接人们但造成分心和焦虑
 2. **人工智能**: 转变知识创造但带来伦理挑战
 3. **自动化**: 提高效率但威胁就业
 4. **数字素养**: 不仅是使用工具，而是批判性思考
 
 **万能论证框架**:
+
 ```
 引言: #1 驳斥常识型（"Digital literacy is not about..."）
 主体1: #6 类比说明型（"Imagine trying to read..."）
@@ -811,11 +885,13 @@ What separates [A] from [B] is [Key Difference].
 ### 🌍 环境类话题
 
 **推荐句型组合**:
+
 - 引言: #1 驳斥常识型, #3 转折点型
 - 主体: #6 类比说明型, #9 让步转折型
 - 结论: #13 目标状态型, #15 升华总结型
 
 **核心词汇（TOP20）**:
+
 1. climate change (气候变化)
 2. carbon footprint (碳足迹)
 3. greenhouse gas emissions (温室气体排放)
@@ -838,12 +914,14 @@ What separates [A] from [B] is [Key Difference].
 20. immediate threats (即时威胁)
 
 **常见论点**:
+
 1. **气候变化**: 即时威胁而非远期风险
 2. **个人责任**: 日常选择比宏大姿态更重要
 3. **可持续发展**: 平衡经济增长与环境保护
 4. **生物多样性**: 生态系统无法技术替代的保险
 
 **万能论证框架**:
+
 ```
 引言: #1 驳斥常识型（"Environmental responsibility is not about..."）
 主体1: #10 渐进意识型（"It is becoming clear that..."）
@@ -859,11 +937,13 @@ What separates [A] from [B] is [Key Difference].
 ### 👥 社会类话题
 
 **推荐句型组合**:
+
 - 引言: #2 驳斥表面原因型
 - 主体: #8 因果论证型, #11 关系揭示型, #12 价值区分型
 - 结论: #14 过程构建型, #15 升华总结型
 
 **核心词汇（TOP20）**:
+
 1. social cohesion (社会凝聚力)
 2. social inequality (社会不平等)
 3. cultural diversity (文化多样性)
@@ -886,12 +966,14 @@ What separates [A] from [B] is [Key Difference].
 20. strategic advocacy (战略倡导)
 
 **常见论点**:
+
 1. **社会凝聚力**: 基于相互尊重而非强制同化
 2. **不平等**: 系统性而非个人失败
 3. **社会进步**: 通过有组织的努力而非自然演化
 4. **民主公民身份**: 需要批判性思维和参与
 
 **万能论证框架**:
+
 ```
 引言: #2 驳斥表面原因型（"The foundation of cohesive society..."）
 主体1: #8 因果论证型（解释行为或现象）
@@ -911,11 +993,13 @@ What separates [A] from [B] is [Key Difference].
 **快速参考**: 引用《雅思写作Task2速查卡.md》
 
 **按难度查找**:
+
 - ⭐⭐ 基础型 (#3, #9, #10) → Band 6.0-6.5
 - ⭐⭐⭐ 核心型 (#1, #2, #4, #5, #6, #13) → Band 7.0-7.5
 - ⭐⭐⭐⭐ 顶级型 (#7, #8, #11, #12, #14, #15) → Band 8.0+
 
 **按功能查找**:
+
 - 引言段反驳 → #1, #2, #3
 - 主体段主题句 → #2, #4, #5, #6
 - 因果论证 → #3, #8, #11
@@ -960,16 +1044,19 @@ What separates [A] from [B] is [Key Difference].
 ### 📅 复习计划
 
 **每周复习**（30分钟）:
+
 1. 随机选择5个句型，默写模板
 2. 为每个句型写1个新示例
 3. 复习1个话题的TOP20词汇
 
 **每月复习**（1小时）:
+
 1. 完成句型掌握自测表
 2. 完成词汇掌握自测表
 3. 用3-4个句型写一篇完整文章
 
 **考前冲刺**（考前1周）:
+
 1. 每天复习《速查卡》1个话题
 2. 每天练习5个句型的快速组合
 3. 模拟考试：40分钟写1篇完整文章

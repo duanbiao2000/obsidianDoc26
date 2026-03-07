@@ -1,6 +1,6 @@
 # Agent Teams - 快速入门指南
 
-## 技能已就绪！
+## 技能已就绪
 
 📍 **位置**：`~/.agents/skills/agent-teams/`
 📦 **打包**：`/tmp/agent-teams.skill`
@@ -81,6 +81,7 @@ agents:
 ```
 
 然后运行：
+
 ```bash
 /team-launch product-research-team
 ```
@@ -140,19 +141,23 @@ agents:
 ## 角色速查表
 
 ### 构建者（Builders）
+
 - **Solution Architect**：架构设计
 - **Feature Developer**：功能实现
 - **Domain Researcher**：领域研究
 
 ### 批判者（Critics）
+
 - **Devil's Critic**：技术批判（what-if 场景）
 - **Risk Analyst**：风险分析
 
 ### 改进者（Improvers）
+
 - **Issue Improver**：流程优化
 - **New Feature Specialist**：创新探索
 
 ### 整合者（Synthesizers）
+
 - **Decision Facilitator**：促进决策
 - **Result Synthesizer**：综合结果
 
@@ -170,14 +175,17 @@ agents:
 ## 故障排查
 
 **问题：技能未触发**
+
 - 检查 `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=true`
 - 确认技能路径正确
 
 **问题：Agent 启动失贩**
+
 - 使用 `/team-status` 查看状态
 - 使用 `/team-logs` 查看日志
 
 **问题：沟通效率低**
+
 - 检查团队规模（建议 5-7 人）
 - 确认角色配置平衡（避免过多同类角色）
 

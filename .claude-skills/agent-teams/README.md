@@ -54,6 +54,7 @@
 ### 3. 5-7 人黄金法则
 
 **理论基础**：
+
 - 亚马逊"两个披萨"原则（Two-Piza Rule）
 - 邓巴数理论（Dunbar's Number: 5±2）
 - 沟通复杂度公式：n(n-1)/2 条渠道
@@ -77,6 +78,7 @@
 **四种协同模式**：
 
 #### 模式 1：Parallel Pattern（并行模式）
+
 ```yaml
 mode: parallel
 
@@ -85,10 +87,12 @@ agents:
   - name: worker-b
   - name: worker-c
 ```
+
 **特点**：所有 agent 同时启动，总耗时 = max(各 agent 耗时)
 **适用**：独立任务，需最大化并行度
 
 #### 模式 2：Pipeline Pattern（流水线模式）
+
 ```yaml
 mode: pipeline
 
@@ -99,10 +103,12 @@ agents:
     next: loader
   - name: loader
 ```
+
 **特点**：顺序执行，每个 agent 输出是下一个的输入
 **适用**：ETL 流程、前后任务有明确依赖
 
 #### 模式 3：DAG Pattern（有向无环图模式）
+
 ```yaml
 mode: dag
 
@@ -115,10 +121,12 @@ agents:
   - name: writer
     depends_on: [analyst-a, analyst-b]
 ```
+
 **特点**：支持复杂依赖关系，自动拓扑排序
 **适用**：多对多依赖、需要优化执行顺序
 
 #### 模式 4：Critical Collaboration（批判性协作模式）
+
 ```yaml
 mode: orchestrated  # 或 critical_collaboration
 
@@ -138,6 +146,7 @@ agents:
   - name: decision-facilitator
     role: 整合者
 ```
+
 **特点**：对等协作 + 假设竞争对话 + 内置批判思维
 **适用**：重要决策、复杂项目、需多角度审视
 
@@ -167,6 +176,7 @@ agents:
 ### 能力 3：团队状态监控
 
 **Agent 状态**：
+
 - `pending`：等待启动
 - `running`：执行中
 - `completed`：成功完成
@@ -174,6 +184,7 @@ agents:
 - `blocked`：等待依赖
 
 **监控接口**：
+
 ```bash
 /team-status                          # 查看团队状态
 /team-status <team> --agent <agent>  # 查看单个 agent
@@ -181,6 +192,7 @@ agents:
 ```
 
 **结果聚合**：
+
 - 支持多种格式（Markdown/JSON/HTML）
 - 可包含执行轨迹、资源使用、依赖图
 - 支持人工验证和决策记录
@@ -190,11 +202,13 @@ agents:
 ### 能力 4：Agent 团队模板
 
 **内置模板**：
+
 - `fullstack-research`：全栈调研团队（前端+后端+DevOps+文档）
 - `code-review`：代码审查团队（安全+性能+架构+测试）
 - `competitive-analysis`：竞品分析团队（产品+技术+市场+体验）
 
 **自定义模板**：
+
 ```yaml
 # ~/.claude/teams/templates/my-team.template.yaml
 name: my-custom-team
@@ -211,6 +225,7 @@ agents:
 ```
 
 **模板继承**：
+
 ```yaml
 name: my-review-team
 extends: code-review
@@ -359,6 +374,7 @@ agent-teams/
 ```
 
 Claude 会：
+
 1. 理解需要 2 名研究员、2 名批判者、1 名改进者、1 名综合者
 2. 按照 Critical Collaboration 模式配置
 3. 启动假设竞争对话机制
@@ -394,6 +410,7 @@ agents:
 ```
 
 运行：
+
 ```bash
 /team-launch react-research-team
 ```
@@ -464,6 +481,7 @@ agents:
 ## 🔧 故障排查
 
 **问题：Agent 启动失败**
+
 ```
 ✅ 检查：CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=true
 ✅ 检查：技能路径 ~/.agents/skills/agent-teams/
@@ -471,6 +489,7 @@ agents:
 ```
 
 **问题：Agent 卡在 blocked 状态**
+
 ```
 ✅ 检查依赖配置：depends_on
 ✅ 确认上游 agent 是否完成
@@ -478,6 +497,7 @@ agents:
 ```
 
 **问题：沟通效率低**
+
 ```
 ✅ 检查团队规模（建议 5-7 人）
 ✅ 确认角色配置平衡
@@ -507,14 +527,17 @@ agents:
 此技能整合了用户的三个关键洞察：
 
 ### 贡献 1：去中心化协作
+
 **从**：单一 Leader 协调所有
 **到**：多角色互补 + 假设竞争对话
 
 ### 贡献 2：内置批判思维
+
 **从**：只有单一批判者角色
 **到**：所有角色内置批判性视角
 
 ### 贡献 3：5-7 人黄金法则
+
 **从**：无规模指导
 **到**：明确最佳实践 + 4 种验证配置
 

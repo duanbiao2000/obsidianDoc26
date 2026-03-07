@@ -24,6 +24,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### ⭐⭐ 基础句型（Band 6.0-6.5）
 
 #### #3 转折点型
+
 **模板**: Everything changes when [Subject] [Verb].
 **示例**: Everything changes when students recognize that grades measure test performance, not genuine understanding.
 **话题**: 教育/科技/环境通用
@@ -32,6 +33,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #9 让步转折型
+
 **模板**: To some extent, [Concession Point]. However, [Main Argument].
 **示例**: To some extent, technology has facilitated unprecedented access to information. However, these benefits must be weighed against privacy erosion.
 **话题**: 观点题、讨论题通用
@@ -40,6 +42,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #10 渐进意识型
+
 **模板**: It is becoming clear that [Observation/Trend].
 **示例**: It is becoming clear that automation will fundamentally transform labor markets.
 **话题**: 数据论证、趋势分析
@@ -50,6 +53,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### ⭐⭐⭐ 核心句型（Band 7.0-7.5）
 
 #### #1 驳斥常识型
+
 **模板**: [Subject] is not about [A], but about [B].
 **示例**: Academic success is not about credential accumulation, but cultivating critical thinking.
 **话题**: 教育/科技/环境/社会通用
@@ -58,6 +62,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #2 驳斥表面原因型
+
 **模板**: The secret of [Subject] lies not in [Surface Factor], but in [Deeper Source].
 **示例**: The secret of effective education lies not in funding or facilities, but in teacher quality and pedagogical approach.
 **话题**: 教育改革、政策分析
@@ -66,6 +71,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #4 真正所在型
+
 **模板**: Real [Subject] does not live in [Surface Location], but in [Deeper Source].
 **示例**: Real learning does not live in textbooks or classrooms, but in the struggle to apply knowledge to unfamiliar problems.
 **话题**: 教育/能力/价值判断
@@ -74,6 +80,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #5 原则定义型
+
 **模板**: [Plural Noun] that [Verb] are [Noun] that [Condition].
 **示例**: Educational reforms that endure are those tested in diverse classrooms, not merely approved by theoretical experts.
 **话题**: 政策评估、价值判断
@@ -82,6 +89,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #6 类比说明型
+
 **模板**: Imagine [Scenario]. That is what [Subject] does to [Target].
 **示例**: Imagine trying to read while someone shouts every thirty seconds—that is what notifications do to concentration.
 **话题**: 科技影响、教育问题
@@ -90,6 +98,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #13 目标状态型
+
 **模板**: The goal should be to make [Positive Value] the [Metaphor], not [Negative Alternative].
 **示例**: The goal should be to make lifelong learning the natural habit, not merely a temporary obligation.
 **话题**: 政策建议、教育改革
@@ -100,6 +109,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### ⭐⭐⭐⭐ 顶级句型（Band 8.0+）
 
 #### #7 隐喻定位型
+
 **模板**: [Subject] is the [Metaphor] for [Purpose/Context].
 **示例**: University education is the training ground for democratic citizenship, not merely a credentialing system.
 **话题**: 教育、科技、社会制度
@@ -108,6 +118,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #8 因果论证型
+
 **模板**: [Phenomenon] is not a [Negative Judgment]. It is [System] doing what it was designed to do.
 **示例**: Procrastination is not a character flaw. It is the brain attempting to avoid short-term discomfort.
 **话题**: 行为解释、社会现象
@@ -116,6 +127,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #11 关系揭示型
+
 **模板**: The gap between [A] and [B] is where [Problem/Solution] occurs.
 **示例**: The gap between credentials and competencies is where graduates encounter employment difficulties.
 **话题**: 沟通、政策、教育
@@ -124,6 +136,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #12 价值区分型
+
 **模板**: What separates [A] from [B] is [Key Difference].
 **示例**: What separates competent from exceptional teaching is adapting to struggling students.
 **话题**: 比较、定义、评价
@@ -132,6 +145,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #14 过程构建型
+
 **模板**: [Outcome] is not something that happens to you. It is something you [Process] [Adverb].
 **示例**: Genuine expertise is not transmitted through instruction, but constructed through deliberate practice.
 **话题**: 个人发展、社会变革
@@ -140,6 +154,7 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ---
 
 #### #15 升华总结型
+
 **模板**: [Subject] is not merely [Surface Function]. It is [Deeper Function].
 **示例**: Language is not merely a communication tool, but a medium of thought shaping perception.
 **话题**: 语言、教育、文化
@@ -152,18 +167,22 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 📚 教育类（TOP25）
 
 **核心名词**:
+
 - curriculum (课程) / pedagogy (教学法) / literacy (读写能力)
 - competence (能力) / assessment (评估) / credentialism (学历主义)
 
 **核心动词**:
+
 - cultivate (培养) / foster (促进) / facilitate (促进)
 - assimilate (吸收) / reinforce (强化) / internalize (内化)
 
 **核心形容词**:
+
 - holistic (全面的) / interdisciplinary (跨学科的) / theoretical (理论的)
 - pragmatic (实用的) / intrinsic (内在的)
 
 **高频片语**:
+
 - critical thinking skills (批判性思维)
 - lifelong learning (终身学习)
 - rote memorization (死记硬背)
@@ -177,18 +196,22 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 💻 科技类（TOP25）
 
 **核心名词**:
+
 - innovation (创新) / automation (自动化) / algorithm (算法)
 - connectivity (连接性) / disruption (颠覆) / proliferation (扩散)
 
 **核心动词**:
+
 - transform (转变) / revolutionize (彻底改变) / enhance (增强)
 - erode (侵蚀) / outpace (超过) / render (使变得)
 
 **核心形容词**:
+
 - unprecedented (前所未有的) / ubiquitous (无处不在的)
 - detrimental (有害的) / autonomous (自动的) / sophisticated (复杂的)
 
 **高频片语**:
+
 - artificial intelligence (人工智能)
 - social media platforms (社交媒体平台)
 - algorithmic curation (算法策展)
@@ -203,18 +226,22 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 🌍 环境类（TOP25）
 
 **核心名词**:
+
 - sustainability (可持续性) / biodiversity (生物多样性) / ecosystem (生态系统)
 - conservation (保护) / emissions (排放) / degradation (退化)
 
 **核心动词**:
+
 - mitigate (减缓) / preserve (保护) / deplete (耗尽)
 - jeopardize (危及) / exacerbate (加剧) / transition (转型)
 
 **核心形容词**:
+
 - renewable (可再生的) / finite (有限的) / irreversible (不可逆的)
 - ecological (生态的) / unsustainable (不可持续的)
 
 **高频片语**:
+
 - climate change (气候变化)
 - carbon footprint (碳足迹)
 - greenhouse gas emissions (温室气体排放)
@@ -229,18 +256,22 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 👥 社会类（TOP25）
 
 **核心名词**:
+
 - cohesion (凝聚力) / inequality (不平等) / diversity (多样性)
 - integration (融合) / marginalization (边缘化) / polarization (两极分化)
 
 **核心动词**:
+
 - segregate (隔离) / discriminate (歧视) / stigmatize (污名化)
 - marginalize (边缘化) / perpetuate (延续) / foster (培养)
 
 **核心形容词**:
+
 - marginalized (边缘化的) / vulnerable (脆弱的) / inclusive (包容的)
 - cohesive (有凝聚力的) / systemic (系统的)
 
 **高频片语**:
+
 - social cohesion (社会凝聚力)
 - social inequality (社会不平等)
 - cultural diversity (文化多样性)
@@ -257,15 +288,18 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 引言段万能组合（3个）
 
 **组合1: 驳斥常识型 (#1)**
+
 - 教育类: "Academic success is not about..."
 - 科技类: "Digital literacy is not about..."
 - 环境类: "Environmental responsibility is not about..."
 
 **组合2: 驳斥表面原因型 (#2)**
+
 - "The secret of effective [Topic] lies not in..."
 - "The foundation of cohesive society lies not in..."
 
 **组合3: 转折点型 (#3)**
+
 - "Everything changes when [Subject] recognize/realize/understand..."
 
 ---
@@ -273,22 +307,27 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 主体段万能组合（5个）
 
 **组合1: 类比说明型 (#6) + 让步转折型 (#9)**
+
 - "To some extent, [Concession]. However, [Main Argument]."
 - "Imagine [Scenario]. That is what [Subject] does..."
 
 **组合2: 渐进意识型 (#10) + 关系揭示型 (#11)**
+
 - "It is becoming clear that [Trend]."
 - "The gap between [A] and [B] is where [Problem] occurs."
 
 **组合3: 真正所在型 (#4) + 原则定义型 (#5)**
+
 - "Real [Subject] does not live in [Surface Location]."
 - "[Plural Noun] that [Verb] are [Noun] that [Condition]."
 
 **组合4: 价值区分型 (#12) + 驳斥表面原因型 (#2)**
+
 - "What separates [A] from [B] is [Key Difference]."
 - "The secret of [Subject] lies not in..."
 
 **组合5: 因果论证型 (#8) + 让步转折型 (#9)**
+
 - "[Phenomenon] is not [Negative Judgment]. It is [System] doing as designed."
 - "To some extent, [Concession]. However, [Main Argument]."
 
@@ -297,14 +336,17 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ### 结论段万能组合（3个）
 
 **组合1: 目标状态型 (#13) + 过程构建型 (#14)**
+
 - "The goal should be to make [Positive Value] the [Metaphor]."
 - "[Outcome] is not something that happens to you. It is something you [Process]."
 
 **组合2: 升华总结型 (#15) + 过程构建型 (#14)**
+
 - "[Subject] is not merely [Surface Function]. It is [Deeper Function]."
 - "[Outcome] is constructed through [Process]."
 
 **组合3: 目标状态型 (#13) + 升华总结型 (#15)**
+
 - "The aim should be to make [Value] the default."
 - "[Subject] represents a fundamental transformation of..."
 
@@ -342,11 +384,13 @@ source: 基于《雅思写作Task2高级句型库.md》精简版
 ## 使用提醒
 
 ✅ **最佳实践**:
+
 - 每篇文章使用3-4个不同句型
 - 难度混合: 基础 + 高级 + 顶级
 - 按文章结构搭配: 引言(1) + 主体(2-3) + 结论(1)
 
 ❌ **常见错误**:
+
 - 过度使用: 一段塞进多个复杂句型
 - 强行套用: 句型与论证内容不匹配
 - 忽视连接: 句型之间缺乏逻辑过渡

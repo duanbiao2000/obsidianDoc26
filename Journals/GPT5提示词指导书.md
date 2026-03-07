@@ -15,20 +15,26 @@ source: https://github.com/openai/openai-cookbook/blob/main/examples/gpt-5/gpt-5
 为了帮你建立一个全景式的理解，我将这份笔记的核心内容拆解为以下三个关键部分：
 
 ### 1. 利用自我反思提升输出质量
+
 在“从零到一”构建应用时，单纯给模型一个任务往往是不够的。笔记介绍了一个强大的策略：**让模型先“暗中”制定一套卓越标准**。
+
 - 模型会先花时间思考并建立一个包含 5-7 个维度的评分标准。
 - 然后，它会依据这个标准在内部进行反复的思考和迭代，直到达到高质量标准才输出结果。
 - 这种方法利用了 GPT-5 的深度规划和自省能力，能显著提高单次生成的代码质量。
 
 ### 2. 制定代码库的“游戏规则”
+
 为了让 GPT-5 写出的代码能完美融入现有的项目，我们需要给它提供明确的“上下文”和“规矩”。
+
 - **指导原则**：强调模块化、一致性、简洁性和视觉质量。
 - **技术栈与目录结构**：明确指定使用的框架（如 Next.js）、样式库（如 TailwindCSS）以及文件夹的具体组织方式。
 - **UI/UX 最佳实践**：规定排版层级、颜色使用、间距规范以及无障碍标准。
 通过这些详细的 `<code_editing_rules>`，模型不仅能写出功能正确的代码，还能写出风格统一、易于维护的代码。
 
 ### 3. 生产环境中的实战调优
+
 这部分来自 Cursor 团队的实战经验，主要关注如何在长期任务中平衡模型的自主性与可控性。
+
 - **控制冗长度**：他们通过 API 参数降低了状态更新的废话，但在提示词中强烈要求**代码部分必须详细和易读**（避免单字母变量名），从而实现了高效的沟通。
 - **鼓励主动行动**：为了减少交互摩擦，提示词指示模型**直接提出修改方案供用户批准**，而不是一直问“我该不该这样做？”。这能显著加快长任务的处理流程。
 - **精准的上下文理解**：相比旧模型需要拼命强调“最大化上下文”，GPT-5 本身就很聪明。因此，提示词语言被软化了，避免模型过度使用搜索工具，提高了效率。
@@ -42,7 +48,7 @@ source: https://github.com/openai/openai-cookbook/blob/main/examples/gpt-5/gpt-5
 2. **关于规则的定义**：在 `<code_editing_rules>` 中，详细定义了目录结构和 UI 细节。你认为为什么明确的“结构化信息”（比如具体的文件夹路径）比模糊的描述（比如“把代码放整齐”）更能帮助 GPT-5 生成准确的结果？
 3. **关于主动性与许可**：Cursor 团队发现，让模型直接展示修改结果比“请求许可”效率更高。但这是否适用于所有场景？你能想象出在什么情况下，你**不希望**AI 主动采取行动，而是希望它先停下来询问你的意见吗？
 
-https://github.com/openai/openai-cookbook/blob/main/examples/gpt-5/gpt-5_prompting_guide.ipynb
+<https://github.com/openai/openai-cookbook/blob/main/examples/gpt-5/gpt-5_prompting_guide.ipynb>
 
 #### Zero-to-one app generation
 
@@ -135,7 +141,7 @@ Be THOROUGH when gathering information. Make sure you have the FULL picture befo
 
 While this worked well with older models that needed encouragement to analyze context thoroughly, they found it counterproductive with GPT-5, which is already naturally introspective and proactive at gathering context. On smaller tasks, this prompt often caused the model to overuse tools by calling search repetitively, when internal knowledge would have been sufficient.
 
-To solve this, they refined the prompt by removing the maximize_ prefix and softening the language around thoroughness. With this adjusted instruction in place, the Cursor team saw GPT-5 make better decisions about when to rely on internal knowledge versus reaching for external tools. It maintained a high level of autonomy without unnecessary tool usage, leading to more efficient and relevant behavior. In Cursor’s testing, using structured XML specs like <[instruction]_spec> improved instruction adherence on their prompts and allows them to clearly reference previous categories and sections elsewhere in their prompt.
+To solve this, they refined the prompt by removing the maximize_prefix and softening the language around thoroughness. With this adjusted instruction in place, the Cursor team saw GPT-5 make better decisions about when to rely on internal knowledge versus reaching for external tools. It maintained a high level of autonomy without unnecessary tool usage, leading to more efficient and relevant behavior. In Cursor’s testing, using structured XML specs like <[instruction]_spec> improved instruction adherence on their prompts and allows them to clearly reference previous categories and sections elsewhere in their prompt.
 
 ```
 <context_understanding>

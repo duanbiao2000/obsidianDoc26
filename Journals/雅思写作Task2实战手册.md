@@ -23,21 +23,25 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 ### 如何使用范文（4步法）
 
 **Step 1: 通读全文（5分钟）**
+
 - 不看任何标注，通读完整文章
 - 理解文章结构和论证逻辑
 - 标出你认为是高级句型的句子
 
 **Step 2: 逐句分析（10分钟）**
+
 - 对照句型标注，理解每个句型的使用
 - 注意句型与论证内容的匹配
 - 理解句型之间的逻辑连接
 
 **Step 3: 替换练习（15分钟）**
+
 - 尝试用替换表达改写句型
 - 保持论证内容不变，改变表达方式
 - 对比原句，体会细微差别
 
 **Step 4: 模仿写作（30分钟）**
+
 - 选择类似题目，模仿范文结构
 - 尝试使用相同的句型组合
 - 对比范文，找出差距
@@ -56,6 +60,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > [#9 让步转折型] To some extent, critics are justified...
 
 **标注意义**:
+
 - 快速识别句型
 - 理解句型功能
 - 学习句型位置
@@ -726,6 +731,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 5. **对比版**: [Subject] has less to do with [A] than with [B].
 
 **应用示例** (教育类):
+
 - Academic success is not about grades, but understanding.
 - Academic achievement consists not in test scores, but in intellectual growth.
 - Far from being credential accumulation, education is fundamentally about developing critical thinking.
@@ -743,6 +749,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 5. **Notwithstanding版**: [Concession] notwithstanding, [Main Argument].
 
 **应用示例** (科技类):
+
 - To some extent, technology has benefits. However, it also poses risks.
 - While technology facilitates communication, it also creates privacy concerns.
 - Although digital tools enhance productivity, they can also cause distraction.
@@ -760,6 +767,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 5. **不可逆转版**: It is becoming evident that [Observation] is not reversible.
 
 **应用示例** (环境类):
+
 - It is becoming clear that climate change poses immediate threats.
 - Climate change's immediacy is increasingly apparent.
 - Accumulating evidence suggests that global warming is accelerating.
@@ -777,6 +785,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 5. **contradiction版**: The contradiction between [A] and [B] constitutes the core of [Problem/Solution].
 
 **应用示例** (教育类):
+
 - The gap between credentials and competencies is where graduates struggle.
 - The tension between theory and practice is where learning breaks down.
 - The disconnect separating policy from practice is precisely where reform fails.
@@ -794,6 +803,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 5. **prioritize版**: What should be prioritized is [Positive Value] rather than [Negative Alternative].
 
 **应用示例** (教育类):
+
 - The goal should be making curiosity the driver, not grades.
 - The objective should be establishing learning as the priority, not passing tests.
 - Curiosity should be transformed from occasional interest into habitual engagement.
@@ -812,6 +822,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > [#1] Education is not about... [#2] The secret lies not in... [#4] Real learning does not live in... [#5] Reforms that endure are those... (全部在同一段)
 
 **修正原则**:
+
 - ✅ 每篇文章使用3-4个不同句型
 - ✅ 按文章结构分配: 引言(1个) + 主体(2-3个) + 结论(1个)
 - ✅ 难度混合: 基础 + 高级 + 顶级
@@ -832,6 +843,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > Imagine trying to read a book... That is what mathematics does to students. (类比不当)
 
 **修正原则**:
+
 - ✅ 确保句型与论证内容逻辑一致
 - ✅ 类比要贴切，避免牵强
 - ✅ 句型服务于论证，而非反之
@@ -849,6 +861,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > [#1] Education is not about grades. [#4] Real learning does not live in textbooks. (缺乏连接词)
 
 **修正原则**:
+
 - ✅ 使用连接词连接句型
 - ✅ 确保句型之间有逻辑关系
 - ✅ 保持段落主题一致性
@@ -866,6 +879,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > Educational reforms that endure is those tested in classrooms. (主谓不一致)
 
 **修正原则**:
+
 - ✅ 复杂句型更要确保语法正确
 - ✅ 检查主谓一致、时态、从句结构
 - ✅ 不确定的句型先用简单表达
@@ -883,6 +897,7 @@ source: 基于《雅思写作Task2高级句型库.md》扩展
 > Education is not about grades. Real learning does not live in grades. The goal should be to minimize grades. (grades重复3次)
 
 **修正原则**:
+
 - ✅ 同一概念使用不同表达
 - ✅ 利用同义词增加词汇多样性
 - ✅ 展示词汇掌控能力

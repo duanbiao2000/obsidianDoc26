@@ -1,5 +1,4 @@
-https://claude.ai/share/91563095-933d-47cb-a348-4ecd743bde35
-
+<https://claude.ai/share/91563095-933d-47cb-a348-4ecd743bde35>
 
 用户在 WSL 环境中遇到 openclaw 自动重启问题，想了解这条命令的作用及其影响——这是一个 **systemd 用户服务持久化** 的问题。
 
@@ -59,6 +58,4 @@ systemctl status openclaw-gateway  # 对比用户级和系统级
 
 **关键判断**：如果不想要自动重启行为，`disable-linger` 是最直接的方案。
 
-
 ---
-

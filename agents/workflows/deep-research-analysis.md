@@ -63,17 +63,21 @@ monitoring:
 ## Phase 1: 研究规划 (Planning Phase)
 
 ### 目标
+
 制定系统性研究计划，明确研究范围、信息源和执行路径。
 
 ### 执行Agent
+
 - **主Agent**: `EMP_R001_research-planner`
 
 ### 输入
+
 - 用户的研究问题/主题
 - 研究背景和上下文
 - 可用的研究资源（时间、访问权限等）
 
 ### 输出
+
 ```yaml
 research_plan:
   problem_analysis:
@@ -116,6 +120,7 @@ research_plan:
 ```
 
 ### 成功标准
+
 - ✅ 研究问题清晰分解
 - ✅ 信息源具体且可访问
 - ✅ 时间估算合理
@@ -126,20 +131,24 @@ research_plan:
 ## Phase 2: 并行调研 (Investigation Phase)
 
 ### 目标
+
 从多个维度并行收集信息，实现广度覆盖和深度探索。
 
 ### 执行Agents
+
 - **Web Researcher**: `EMP_R101_web-researcher`
 - **Academic Searcher**: `EMP_R102_academic-searcher`
 - **Codebase Analyzer**: `EMP_R103_codebase-analyzer`
 
 ### 执行模式
+
 **PARALLEL** - 三个agents同时工作，各自专注于不同的信息维度。
 
 #### 2.1 Web Researcher任务
 
 **输入**: 从research-planner接收的搜索策略
 **输出**:
+
 ```markdown
 web_research_output:
   topic_overview: "主题的总体概览"
@@ -157,6 +166,7 @@ web_research_output:
 ```
 
 **搜索重点**:
+
 - 官方文档和教程
 - 技术博客和文章
 - 社区讨论（Stack Overflow, Reddit）
@@ -167,6 +177,7 @@ web_research_output:
 
 **输入**: 研究主题的学术关键词
 **输出**:
+
 ```markdown
 academic_research_output:
   key_papers:
@@ -189,6 +200,7 @@ academic_research_output:
 ```
 
 **研究重点**:
+
 - arXiv预印本（最新研究）
 - 顶级会议论文
 - 期刊综述文章
@@ -199,6 +211,7 @@ academic_research_output:
 
 **输入**: 相关的开源项目或代码库
 **输出**:
+
 ```markdown
 codebase_analysis_output:
   projects_analyzed:
@@ -222,6 +235,7 @@ codebase_analysis_output:
 ```
 
 **分析重点**:
+
 - 主流开源项目的实现
 - 架构设计模式
 - 关键算法和数据处理
@@ -229,6 +243,7 @@ codebase_analysis_output:
 - 实际应用案例
 
 ### 并行协调
+
 - 三个agents独立工作，无需等待
 - 每个agent有自己的超时时间（15-20分钟）
 - 通过Context Bridge共享进度（可选）
@@ -239,12 +254,15 @@ codebase_analysis_output:
 ## Phase 3: 信息综合 (Synthesis Phase)
 
 ### 目标
+
 整合三个维度的调研结果，提取关键洞察，生成连贯的分析。
 
 ### 执行Agent
+
 - **主Agent**: `EMP_S001_information-synthesizer`
 
 ### 输入
+
 - 从Phase 2获得的三个调研输出
 - 从Phase 1获得的研究计划
 
@@ -278,6 +296,7 @@ codebase_analysis_output:
 ```
 
 ### 输出
+
 ```markdown
 synthesis_output:
   executive_summary: "2-3段话总结"
@@ -336,6 +355,7 @@ synthesis_output:
 ```
 
 ### 成功标准
+
 - ✅ 信息整合完整，无重大遗漏
 - ✅ 冲突信息得到处理和标注
 - ✅ 洞察有深度，超越表面信息
@@ -346,16 +366,20 @@ synthesis_output:
 ## Phase 4: 报告生成 (Reporting Phase)
 
 ### 目标
+
 将综合分析转化为结构化、易读的Obsidian Markdown文档。
 
 ### 执行Agent
+
 - **主Agent**: `EMP_S003_report-generator`
 
 ### 输入
+
 - Phase 3的综合输出
 - Phase 1的研究计划
 
 ### 报告结构
+
 1. **标题页**: 标题、日期、作者、版本
 2. **执行摘要**: 核心发现和建议
 3. **研究背景**: 问题和动机
@@ -367,6 +391,7 @@ synthesis_output:
 9. **附录**: 参考资料、术语表、相关笔记
 
 ### Obsidian集成
+
 - 使用YAML frontmatter存储元数据
 - 添加相关标签（#research, #topic）
 - 创建wikilinks到相关笔记
@@ -374,6 +399,7 @@ synthesis_output:
 - 包含Mermaid图表可视化
 
 ### 输出文件
+
 ```bash
 Research/outputs/{project_name}/{date}_research_report.md
 ```
@@ -383,6 +409,7 @@ Research/outputs/{project_name}/{date}_research_report.md
 ## 执行时间和资源估算
 
 ### 时间估算
+
 | Phase | 预计时间 | 备注 |
 |-------|---------|------|
 | Phase 1: 规划 | 5-10分钟 | 取决于问题复杂度 |
@@ -392,6 +419,7 @@ Research/outputs/{project_name}/{date}_research_report.md
 | **总计** | **35-55分钟** | 典型情况 |
 
 ### 资源需求
+
 - **网络**: 需要稳定的网络连接（搜索和读取在线资源）
 - **计算**: 标准CPU即可，无特殊GPU需求
 - **存储**: 研究输出约1-5MB
@@ -403,21 +431,25 @@ Research/outputs/{project_name}/{date}_research_report.md
 ### Phase间质量门禁
 
 **Phase 1 → Phase 2**:
+
 - ✅ 研究计划是否完整？
 - ✅ 信息源是否具体？
 - ✅ 时间估算是否合理？
 
 **Phase 2 → Phase 3**:
+
 - ✅ 每个维度都有输出？
 - ✅ 信息源可信度已评估？
 - ✅ 原始信息已保存？
 
 **Phase 3 → Phase 4**:
+
 - ✅ 所有信息已整合？
 - ✅ 冲突已标注？
 - ✅ 洞察有证据支持？
 
 **最终输出**:
+
 - ✅ 报告结构完整
 - ✅ 链接可点击
 - ✅ 引用格式正确
@@ -459,17 +491,22 @@ claude agent agents/definitions/EMP_S003_report-generator.md
 ## 扩展和定制
 
 ### 添加新的调研维度
+
 在工作流中添加新的agent（如`security-analyzer`）：
+
 1. 创建新的agent定义
 2. 在Phase 2中添加该agent
 3. 更新Phase 3的整合逻辑
 
 ### 调整执行模式
+
 将某些phase改为顺序或并行：
+
 - 修改`pattern`字段
 - 调整agents列表和依赖关系
 
 ### 自定义输出格式
+
 修改Phase 4的报告模板以适应特定需求。
 
 ---
@@ -477,11 +514,13 @@ claude agent agents/definitions/EMP_S003_report-generator.md
 ## 监控和调试
 
 ### 进度追踪
+
 - 每个phase的输出保存在`.agent-state/`
 - Collaboration log记录所有事件
 - Context cache存储中间结果
 
 ### 调试提示
+
 - 如果某个agent失败，检查其日志
 - 使用`--status`参数查看tmux会话
 - 查看collaboration-log.jsonl了解执行流程
