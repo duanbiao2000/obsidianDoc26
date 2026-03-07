@@ -1,0 +1,17 @@
+filters:
+  and:
+    - and:
+        - file.ext == "md"
+        - file.mtime >= today() - duration("1month")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 260

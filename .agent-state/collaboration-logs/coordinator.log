@@ -1,0 +1,22 @@
+2026-02-13 21:59:58,261 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 21:59:58,263 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 21:59:58,392 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 21:59:58,393 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:09,386 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:09,386 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:09,525 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:09,525 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:24,914 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:24,915 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:25,050 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:25,051 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:28,228 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:28,228 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:00:29,239 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:00:29,240 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:10:35,679 - __main__ - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:10:35,680 - __main__ - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:10:50,204 - agent_team_coordinator - INFO - 协调器初始化完成 - 工作空间: /mnt/d/MyDocs/obsidianDoc26
+2026-02-13 22:10:50,205 - agent_team_coordinator - INFO - 已加载 6 个agents, 2 个工作流
+2026-02-13 22:10:50,205 - agent_team_coordinator - INFO - 🚀 启动工作流: Deep Research Analysis
+2026-02-13 22:10:50,205 - agent_team_coordinator - INFO -    模式: hybrid

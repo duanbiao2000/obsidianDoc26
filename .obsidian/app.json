@@ -3,5 +3,10 @@
   "showUnsupportedFiles": true,
   "showLineNumber": true,
   "vimMode": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "tabSize": 2,
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./Attachments",
+  "trashOption": "local"
 }

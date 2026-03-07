@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"8132447d665873da","x":-125,"y":63,"width":345,"height":317,"type":"text","text":""},
+		{"id":"e9be74d2bcab88eb","x":-620,"y":-100,"width":400,"height":400,"type":"file","file":"Journals/What not 文档.md"}
+	],
+	"edges":[]
+}

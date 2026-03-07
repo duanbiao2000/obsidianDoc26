@@ -3,6 +3,15 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date": "date"
+    "date": "date",
+    "related": "multitext",
+    "born": "date",
+    "died": "date",
+    "nationality": "multitext",
+    "occupation": "multitext",
+    "fields": "multitext",
+    "core_concepts": "multitext",
+    "created": "date",
+    "classification": "multitext"
   }
 }
