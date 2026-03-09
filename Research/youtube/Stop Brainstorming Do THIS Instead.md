@@ -47,4 +47,3 @@
 - **Assumptions（假设）**：各角色对客户、项目的默认预设（重视稳定/功能/成本等）。​
 - **Stakeholders / Different stakeholders（利益相关者）**：工程师、产品、项目经理、客户等不同角色。​
 - **Empathy mapping（共情映射）**：为不同 Stakeholder 画不同 frame 和 context，理解“他们怎么看这个中心主题”。​
-
