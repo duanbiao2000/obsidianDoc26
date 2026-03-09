@@ -2,6 +2,8 @@
 
 ## Dandong Exploration - English Script for Voiceover
 
+![Where CHINA meets NORTH KOREA 🇨🇳🇰🇵 I S2, EP96 - YouTube](https://www.youtube.com/watch?v=9XHAx8gkOOM)
+
 > **Based on**: [[中国_丹东_鸭绿江畔的凝视]].md
 > **Style**: Exploratory travelogue
 > **Tone**: Observational, reflective, human

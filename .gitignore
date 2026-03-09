@@ -1,12 +1,4 @@
 # Obsidian
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspace
-.obsidian/*.log
-
-# Obsidian plugins - 忽略所有插件
-.obsidian/plugins/
-.obsidian/community-plugins.json
 
 # Claude Code
 .claude/cache/
@@ -31,6 +23,5 @@ Desktop.ini
 *.temp
 ~$*
 
-.obsidian/community-plugins.json
-
-/.obsidian.vimrc
+.obsidian/
+.obsidian.vimrc
