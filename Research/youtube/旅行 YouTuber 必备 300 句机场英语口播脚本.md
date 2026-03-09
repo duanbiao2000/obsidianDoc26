@@ -402,5 +402,3 @@ Where is passport control?
 Is this the line for security?
 Which terminal is my flight in?
 Where is the boarding gate?
-
-
