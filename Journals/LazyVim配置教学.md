@@ -5,13 +5,14 @@ tags: [LazyVim, Neovim, 配置, 插件]
 
 # LazyVim 配置教学笔记
 
-> ⚠️ **注意：** LazyVim 持续更新中，部分插件可能被替换或更新。请以 https://lazyvim.org 官方文档为准。
+> ⚠️ **注意：** LazyVim 持续更新中，部分插件可能被替换或更新。请以 <https://lazyvim.org> 官方文档为准。
 
 ## 一、什么是 LazyVim
 
 LazyVim 是基于 Neovim 的发行版，使用 lazy.nvim 作为插件管理器，开箱即用，配置简洁。
 
 **特点：**
+
 - 🚀 开箱即用，预设了常用插件
 - 📦 使用 lazy.nvim 管理插件，加载速度快
 - 🎨 预设美观的配色和主题
@@ -52,6 +53,7 @@ nvim
 ### 3. 首次启动
 
 首次启动时，LazyVim 会自动：
+
 - 下载并安装所有插件
 - 生成 LSP 服务器配置
 - 创建必要的配置文件
@@ -87,7 +89,8 @@ nvim
 
 ### 📁 文件导航
 
-** telescope.nvim** - 模糊查找器
+**telescope.nvim** - 模糊查找器
+
 ```lua
 -- 已默认安装，常用快捷键
 <leader>ff    -- 查找文件
@@ -96,7 +99,8 @@ nvim
 <leader>fh    -- 查找帮助
 ```
 
-** oil.nvim** - 文件浏览器（LazyVim 3.0+ 替代 neo-tree）
+**oil.nvim** - 文件浏览器（LazyVim 3.0+ 替代 neo-tree）
+
 ```lua
 -- 已默认安装，常用快捷键
 <leader>e     -- 打开/关闭文件浏览器
@@ -108,13 +112,15 @@ nvim
 
 ### 💻 代码编辑
 
-** nvim-cmp** - 自动补全
+**nvim-cmp** - 自动补全
+
 ```lua
 -- 已默认安装
 -- 支持 LSP、路径、buffer、命令补全
 ```
 
-** nvim-lspconfig** - LSP 配置
+**nvim-lspconfig** - LSP 配置
+
 ```lua
 -- 已默认安装
 -- 支持多种语言的 LSP 服务器
@@ -124,14 +130,16 @@ nvim
 
 ### 🎨 界面美化
 
-** tokyonight.nvim** - 主题（默认）
+**tokyonight.nvim** - 主题（默认）
+
 ```lua
 -- 修改主题
 -- colorscheme = "tokyonight"
 -- 可选: tokyonight-night, tokyonight-storm, tokyonight-day
 ```
 
-** lualine.nvim** - 状态栏
+**lualine.nvim** - 状态栏
+
 ```lua
 -- 已默认安装
 -- 显示模式、文件信息、Git 状态等
@@ -139,7 +147,8 @@ nvim
 
 ### 🛠️ 开发工具
 
-** nvim-treesitter** - 语法高亮
+**nvim-treesitter** - 语法高亮
+
 ```lua
 -- 已默认安装
 -- 提供：
@@ -149,7 +158,8 @@ nvim
 -- - 代码导航
 ```
 
-** git-conflict.nvim** - Git 冲突解决
+**git-conflict.nvim** - Git 冲突解决
+
 ```lua
 -- 已默认安装
 -- 快速解决 Git 合并冲突
@@ -157,7 +167,8 @@ nvim
 
 ### 📝 笔记工具
 
-** nvim-surround** - 快速包围符号
+**nvim-surround** - 快速包围符号
+
 ```lua
 -- 已默认安装
 -- cs"'      -- 将双引号改为单引号
@@ -165,7 +176,8 @@ nvim
 -- ds"       -- 删除双引号
 ```
 
-** nvim-comment** - 快速注释
+**nvim-comment** - 快速注释
+
 ```lua
 -- 已默认安装
 -- gc        -- 注释/取消注释
@@ -179,8 +191,6 @@ nvim
 - 可视模式选中后 `gc` — 注释选中行
 
 如果你用 LazyVim，`mini.comment` 已内置，开箱即用。
-
-
 
 ---
 
@@ -389,22 +399,24 @@ return {
 
 ## 十、资源链接
 
-- **LazyVim 官方文档:** https://lazyvim.org
-- **LazyVim GitHub:** https://github.com/LazyVim/LazyVim
-- **Neovim 文档:** https://neovim.io/doc/
-- **Lazy.nvim 文档:** https://github.com/folke/lazy.nvim
+- **LazyVim 官方文档:** <https://lazyvim.org>
+- **LazyVim GitHub:** <https://github.com/LazyVim/LazyVim>
+- **Neovim 文档:** <https://neovim.io/doc/>
+- **Lazy.nvim 文档:** <https://github.com/folke/lazy.nvim>
 
 ---
 
 ## 十一、总结
 
 LazyVim 的优势：
+
 - ✅ 开箱即用，配置简单
 - ✅ 插件管理高效
 - ✅ 性能优秀，启动速度快
 - ✅ 社区活跃，插件丰富
 
 适合人群：
+
 - 🎯 想要快速上手 Neovim 的用户
 - 🎯 不想花费太多时间配置的用户
 - 🎯 需要高效率编辑器的开发者
@@ -447,23 +459,27 @@ git log --oneline --decorate --graph
 当 LazyVim 有重大版本更新时：
 
 1. **备份当前配置**
+
 ```bash
 cp -r ~/.config/nvim ~/.config/nvim.backup
 ```
 
-2. **拉取最新代码**
+1. **拉取最新代码**
+
 ```bash
 cd ~/.config/nvim
 git pull
 ```
 
-3. **同步插件**
+1. **同步插件**
+
 ```bash
 nvim
 :Lazy sync
 ```
 
-4. **检查兼容性**
+1. **检查兼容性**
+
 ```bash
 # 查看是否有冲突的配置
 nvim
@@ -472,7 +488,7 @@ nvim
 
 ### 社区资源
 
-- **LazyVim 更新日志:** https://github.com/LazyVim/LazyVim/commits/main
-- **LazyVim Discussions:** https://github.com/LazyVim/LazyVim/discussions
-- **Neovim 文档:** https://neovim.io/doc/
+- **LazyVim 更新日志:** <https://github.com/LazyVim/LazyVim/commits/main>
+- **LazyVim Discussions:** <https://github.com/LazyVim/LazyVim/discussions>
+- **Neovim 文档:** <https://neovim.io/doc/>
 - **Reddit:** r/neovim

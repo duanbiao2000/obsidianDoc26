@@ -24,4 +24,3 @@ source:
 
 - **苹果用户** — Apple 内置的 Passwords app 完全免费，iOS 18 起提供，支持 Apple 设备和 Windows。
 - **跨平台需求** — Bitwarden 有功能完整的永久免费版，支持全平台。
-
