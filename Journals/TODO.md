@@ -2,4 +2,4 @@
 - [ ] writing
 - [ ] 创建对应仓库的技能,设置必要的agents
 - [ ] the missing readme
-- [ ] 
+- [ ] [[OS迁移方案 Omarchy 3 Technical Operation Guide for Engineers]] -today (需要提前考虑防火墙-共享方案) - 应对方案: 先完成第二笔记本迁移试用 [[Omarchy中文用户须知]]

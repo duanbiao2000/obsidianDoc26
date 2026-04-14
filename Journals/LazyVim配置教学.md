@@ -172,6 +172,16 @@ nvim
 -- gcc       -- 注释当前行
 ```
 
+装 `mini.comment` 或 `Comment.nvim`，然后：
+
+- `gcc` — 注释当前行
+- `gc` + 移动 — 注释多行（如 `gc3j`）
+- 可视模式选中后 `gc` — 注释选中行
+
+如果你用 LazyVim，`mini.comment` 已内置，开箱即用。
+
+
+
 ---
 
 ## 五、常用快捷键
