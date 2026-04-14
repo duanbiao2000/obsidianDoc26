@@ -34,7 +34,6 @@
 | skill-developer               | 创建和管理 Claude Code skills（遵循 Anthropic 最佳实践）               |
 | writing-clearly-and-concisely | 清晰简洁写作（应用 Strunk 的规则编写文档、提交信息、错误信息）                       |
 
-
 ## 已安装的 Plugins 及其 Skills
 
 ### 统计概览

@@ -25,6 +25,7 @@ source:
 ## 必须提前了解的差异
 
 ### 1. 包管理器
+
 ```bash
 # Ubuntu
 apt install / apt update && apt upgrade
@@ -38,6 +39,7 @@ pacman -Rns        # 卸载+清依赖（推荐）
 ```
 
 **AUR（Arch User Repository）**：Ubuntu 没有对应概念，这是 Arch 最大优势，几乎所有软件都能找到：
+
 ```bash
 yay -S 软件名    # AUR 助手，用法同 pacman
 ```
@@ -49,6 +51,7 @@ yay -S 软件名    # AUR 助手，用法同 pacman
 Arch 是**滚动发行版**，没有"版本升级"概念，`pacman -Syu` 就是永远最新。
 
 **实际影响：**
+
 - 软件版本永远最新 ✅
 - 偶尔更新后某个包出问题 ⚠️
 
@@ -78,10 +81,12 @@ systemctl start/stop/enable/disable/status 服务名
 ### 5. 没有 sudo 预装
 
 纯净 Arch 装完默认没有 sudo，需要：
+
 ```bash
 pacman -S sudo
 visudo    # 添加你的用户
 ```
+
 omarchy 安装脚本会处理这一步，了解即可。
 
 ---
@@ -155,7 +160,6 @@ Arch Wiki 质量极高，大多数问题直接有答案，包括 fcitx5、Hyprla
 
 # 保留现有数据分区的前提
 
-
 ## 可行的前提
 
 **330G 的分区格式是 NTFS**，Linux 可以直接读写 NTFS，无需格式化。
@@ -176,11 +180,13 @@ Arch Wiki 质量极高，大多数问题直接有答案，包括 fcitx5、Hyprla
 ## 330G 在 omarchy 下如何挂载
 
 **手动挂载（临时）：**
+
 ```bash
 mount /dev/sdxY /mnt/data
 ```
 
 **开机自动挂载（写入 fstab）：**
+
 ```bash
 # 先查 UUID
 blkid /dev/sdxY
@@ -190,6 +196,7 @@ UUID=你的UUID  /mnt/data  ntfs-3g  defaults,uid=1000,gid=1000  0 0
 ```
 
 安装 NTFS 支持：
+
 ```bash
 pacman -S ntfs-3g
 ```
@@ -201,6 +208,7 @@ pacman -S ntfs-3g
 安装 Arch 时分区操作要**非常小心**，确认格式化的是 145G 那个盘，**不要误操作 330G**。
 
 建议安装前用 `lsblk` 确认两个分区的设备名：
+
 ```bash
 lsblk
 # 看清 sda/sdb 以及对应容量再操作

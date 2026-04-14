@@ -1,10 +1,13 @@
 # 标准化worktree创建流程
+
 在实际开发中，“退回到代码仓库上一级目录创建 worktree” 的核心目的是**避免 worktree 嵌套（Git 禁止/不推荐）、统一目录结构、降低多任务/多分支管理的混乱风险**。以下是可落地的**标准化规则**（含目录设计、创建流程、团队约定、自动化校验），适配个人开发和团队协作场景。
 
 ---
 
 ## 一、先明确：为什么要定“退到上一级创建”的规则？
+
 Git worktree 的核心限制是：**不能在原仓库的子目录中创建 worktree**（会触发 `fatal: '/xxx/project-main' is inside a git repository` 报错），且嵌套目录会导致：
+
 1. Git 识别异常，无法正确区分主仓库和 worktree；
 2. 多任务目录混杂，团队成员难以定位对应任务的 worktree；
 3. 误操作风险高（比如在主仓库目录下直接开发，破坏主分支纯净性）。
@@ -14,8 +17,11 @@ Git worktree 的核心限制是：**不能在原仓库的子目录中创建 work
 ---
 
 ## 二、现实开发中的标准化规则设计
+
 ### 1. 基础目录结构规则（核心）
+
 先统一所有仓库/ worktree 的根目录，让主仓库和所有任务 worktree 处于**同一层级**（非嵌套），示例如下：
+
 ```
 # 推荐的目录结构（所有开发者统一遵循）
 /opt/dev-workspaces/          # 【固定】所有项目的总根目录（可自定义，如 ~/workspaces）
@@ -24,15 +30,19 @@ Git worktree 的核心限制是：**不能在原仓库的子目录中创建 work
 ├── project-task-456/         # 【任务worktree】任务ID-456（订单修复），对应分支 task/456-order-fix
 └── project-hotfix-789/       # 【热修复worktree】热修复ID-789，对应分支 hotfix/789-payment
 ```
+
 **规则要点**：
+
 - 总根目录（如 `/opt/dev-workspaces/`）：团队统一路径（或个人固定路径），所有 worktree 都放在这里；
 - 主仓库（`project-main/`）：仅克隆一次，用于管理分支、合并代码，**禁止在主仓库内直接开发**；
 - worktree 目录命名：`项目前缀-任务类型-任务ID`（如 `project-task-123`），与分支名强关联（分支名：`task/123-user`），一眼能识别对应任务。
 
 ### 2. 标准化的 worktree 创建流程（团队统一命令）
+
 所有开发者必须按以下步骤创建 worktree，避免目录混乱：
 
 #### 步骤 1：初始化总根目录（仅首次执行）
+
 ```bash
 # 1. 创建总根目录（团队统一路径，比如公司内网约定 /data/workspaces）
 mkdir -p /opt/dev-workspaces
@@ -43,6 +53,7 @@ git clone git@github.com:your-team/project.git project-main
 ```
 
 #### 步骤 2：退到总根目录，创建任务 worktree（核心规则落地）
+
 ```bash
 # 关键：必须回到总根目录（主仓库的上一级/同级），而非主仓库内部
 cd /opt/dev-workspaces
@@ -58,13 +69,16 @@ git worktree add -b task/123-user project-task-123 origin/main
 ```
 
 #### 步骤 3：进入 worktree 开发（隔离任务）
+
 ```bash
 cd /opt/dev-workspaces/project-task-123
 # 后续开发、提交、测试都在这个隔离目录中，不影响主仓库和其他 worktree
 ```
 
 ### 3. 团队协作的补充规则（避免混乱）
+
 #### 规则 1：分支与 worktree 命名强绑定
+
 | 任务类型       | 分支名格式          | worktree 目录名格式       | 示例                          |
 |----------------|---------------------|---------------------------|-------------------------------|
 | 常规任务       | task/[任务ID]-[描述] | project-task-[任务ID]     | task/123-user → project-task-123 |
@@ -72,9 +86,11 @@ cd /opt/dev-workspaces/project-task-123
 | 迭代开发       | develop/[迭代号]-[模块] | project-develop-[迭代号]  | develop/v2.1-order → project-develop-v2.1 |
 
 #### 规则 2：禁止违规操作（团队公约）
+
 1. 禁止在主仓库（`project-main/`）内直接修改代码、提交变更；
 2. 禁止在 worktree 目录内再创建子 worktree（嵌套）；
 3. 任务合并完成后，必须在 24 小时内清理对应的 worktree（避免目录膨胀）：
+
    ```bash
    # 清理命令（总根目录执行）
    cd /opt/dev-workspaces
@@ -84,11 +100,13 @@ cd /opt/dev-workspaces/project-task-123
    ```
 
 #### 规则 3：权限与访问规则（多人协作）
+
 - 总根目录 `/opt/dev-workspaces/`：团队成员可读可写（通过权限组配置）；
 - 每个 worktree 目录：仅任务负责人可修改（避免误改他人任务）；
 - 主仓库：仅技术负责人/架构师有权限合并代码到 `main/develop` 分支。
 
 ### 4. 自动化校验（可选，强制规则落地）
+
 为避免团队成员违规创建 worktree（比如嵌套创建），可编写简单的校验脚本，集成到团队开发流程中：
 
 ```bash
@@ -135,6 +153,7 @@ exit 0
 ```
 
 **使用方式**：
+
 ```bash
 # 合法创建（校验通过）
 bash check_worktree_rule.sh project-task-123
@@ -146,6 +165,7 @@ bash check_worktree_rule.sh /opt/dev-workspaces/project-main/task-123
 ---
 
 ### 总结
+
 1. **核心规则**：所有 worktree 必须创建在主仓库的**同级目录**（总根目录），禁止嵌套，本质是规避 Git 限制+统一目录结构；
 2. **落地关键**：标准化目录命名（关联任务ID/分支名）+ 统一创建命令 + 团队公约（禁止主仓库开发、及时清理）；
 3. **进阶保障**：通过自动化脚本校验违规操作，确保所有开发者遵循规则，尤其适合多任务/多Agent协作的隔离场景。
