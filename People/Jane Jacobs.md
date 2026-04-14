@@ -46,19 +46,22 @@ Jane Jacobs 认为充满活力的城市街道必须具备四个条件:
 **核心概念**: 城市街道的日常自组织秩序——居民、店主、行人、工人等形成复杂的非正式社会网络，创造出安全、活力的公共空间。
 
 **关键洞察**:
+
 - 公共空间的**自然监控**(natural surveillance)源于持续的街道活动
 - 熟人网络比正式监管更有效
 - 城市安全性来自**"街道眼"**(eyes on the street)
 
 ### 3. 对现代主义规划的批判
 
-#### 反对对象:
+#### 反对对象
+
 - **Le Corbusier** 的"塔楼城市"(Radiant City)理念
 - **Robert Moses** 的大规模城市更新项目
 - 功能分区(zoning)导致的单一用途死区
 - 以车为中心的城市设计
 
-#### 核心批判:
+#### 核心批判
+>
 > "There is a quality even meaner than outright ugliness or disorder, and this meaner quality is the dishonest mask of pretended order, achieved by ignoring or suppressing the real order that is struggling to exist and to be served."
 
 ### 4. 城市经济的进化论视角
@@ -86,6 +89,7 @@ Jane Jacobs 认为充满活力的城市街道必须具备四个条件:
 **背景**: Robert Moses 计划修建高速公路穿过格林威治村和 SoHo，拆迁数千户
 
 **Jacobs 的策略**:
+
 - 组织社区联盟
 - 利用媒体舆论
 - 法律挑战
@@ -102,16 +106,19 @@ Jane Jacobs 认为充满活力的城市街道必须具备四个条件:
 ## 影响与遗产
 
 ### 学术影响
+
 - 城市研究从"上帝视角"转向"街道视角"
 - 催生**新城市主义**(New Urbanism)运动
 - 影响 Jan Gehl、Andrés Duany 等后继者
 
 ### 批评与争议
+
 - 被指责缺乏正式学术训练
 - 部分经济学家质疑其理论严谨性
 - "Jacobs vs. Moses" 被过度简化为二元对立
 
 ### 相关概念
+
 - [[Tactical Urbanism]]
 - [[Walkable City]]
 - [[Mixed-use development]]
@@ -121,14 +128,17 @@ Jane Jacobs 认为充满活力的城市街道必须具备四个条件:
 ## 深入阅读建议
 
 ### 初阶
+
 1. *The Death and Life* 第1-4章(城市活力的四要素)
 2. [Jane Jacobs's NYC walks](https://janejacobswalk.org/)
 
 ### 进阶
+
 1. *The Economy of Cities* 第4-5章(城市与经济发展的关系)
 2. Robert Caro的*The Power Broker*中关于 Jacobs 的章节
 
 ### 批判视角
+
 1. Jill Lepore, "The City and the Secret"(*The New Yorker*)
 2. Peter L. Rothman, *Jane Jacobs: The Last Interview and Other Conversations*
 

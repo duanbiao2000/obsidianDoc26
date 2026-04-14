@@ -50,6 +50,7 @@ image: https://i.ytimg.com/vi/BIaG32Siar8/maxresdefault.jpg
 
 要不要我把这份总结精简成**3句话速览版**，方便快速查阅？
 
+[[Omarchy快捷指令]]
 # OMAKUB 与 OMARCHY 的核心区别
 
 **OMAKUB**是基于Ubuntu的**开发环境配置脚本**，而**OMARCHY**是基于Arch Linux的**完整操作系统发行版**。两者都由DHH（David Heinemeier Hansson，Ruby on Rails创始人）为37signals团队创建，遵循"omakase"(厨师精选)理念，提供无需手动配置的开箱即用体验。
