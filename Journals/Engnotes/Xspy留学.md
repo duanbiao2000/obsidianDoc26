@@ -14,7 +14,6 @@ langr-pos: "1"
 
 the examiner is specifically listening for **naturalness, lexical range, and spontaneous elaboration** — not just correct answers.
 
-
 **Work**
 
 _Have you found anything interesting in your work recently?_
@@ -25,7 +24,6 @@ _What do you dislike most about working?_
 
 > "Probably the context-switching — jumping between tasks constantly without ever getting into a real flow state. I find it genuinely draining. I'd much rather go deep on one thing than skim across ten."
 
-
 **Study**
 
 _Have you learned anything interesting recently in your studies?_
@@ -35,7 +33,6 @@ _Have you learned anything interesting recently in your studies?_
 _What do you dislike most about studying?_
 
 > "The gap between understanding something and actually being able to use it. You can read about a concept, feel like you've got it, then completely freeze when it comes to applying it. That frustration never really goes away."
-
 
 **Where you live**
 
@@ -50,7 +47,6 @@ _How long have you lived in your area?_
 _What do you like about the area you're living in?_
 
 > "The energy mostly. It's dense and a bit chaotic but there's always something happening. I think I'd go a bit ==stir-crazy== somewhere too quiet."
-
 
 **Why these answers score 8.0+**
 
@@ -162,7 +158,6 @@ _Who are the elders you usually spend time with?_
 
 > "Mainly my grandparents ==when I visit family==. There's ==a quality of conversation== you can only get from someone who's lived through genuinely different eras — the perspective shift is valuable in a way that peers can't really offer."
 
-
 _What do you think ==are the benefits of spending time with elders?==_
 
 > "Perspective, mainly. ==People who've lived through genuinely different circumstances have a kind of pattern recognition you simply can't get from peers==. ==They've already made the mistakes you're about to make==. Whether you actually listen is another question."
@@ -259,7 +254,6 @@ _What kind of things do you like to share with others?_
 
 > "Ideas and recommendations mostly — a good book, a podcast, ==something I read that reframed how I think about something==. ==Material things less so. I find sharing something that genuinely changed my perspective feels more meaningful than splitting a meal.=="
 
-
 ^^^words
-+ **ever** : 始终
 
++ **ever** : 始终

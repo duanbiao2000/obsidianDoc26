@@ -3,19 +3,18 @@
 ## 值得摘的表达
 
 - “we're going to keep it simple”——这是很好的教学型诚实：他承认词典定义可能更技术化，但这期先给一个够用、可操作的定义，不装复杂。
-    
+
 - “I'm going to be honest with you”——这是显性元话语，先告诉你他在做真实取舍，而不是假装“唯一正确答案”。
-    
+
 - “we don't use that that often”——这句尤其聪明，因为它把“词对不对”提升到“词常不常用”；高级表达不等于生僻表达。
-    
+
 - “it's quite extreme, it's quite strong”——这是在诚实标记语气强度，提醒学习者别把高级词误用到不合适场景里。
-    
+
 - “I'm not very good at selling myself or marketing”——这是典型的低姿态真诚表达，先承认自己的不擅长，再轻轻带出课程推荐，不让人觉得油滑。
-    
+
 - “I recommend you expand on that”——这也很诚实，因为他不是只给漂亮表达，而是直接指出考试里仅说一句还不够，需要继续展开。
-    
+
 - “it's good to see them in real context”——这句话聪明在于它把词汇学习从“背定义”转向“看真实语境”，方法论上很扎实。
-    
 
 ## 为什么它们显得高级
 
@@ -26,15 +25,14 @@
 你如果想把这类表达转成自己能复用的“聪明且诚实”句型，可以优先记这几种框架：
 
 - “To be honest, …”
-    
+
 - “[[We don’t use that very often_结论越快越聪明]].”
-    
+
 - “It’s a bit too strong for this context.”
-    
+
 - “Let’s keep it simple.”
-    
+
 - “I’d recommend you expand on that.”
-    
 
 ## 使用提醒
 

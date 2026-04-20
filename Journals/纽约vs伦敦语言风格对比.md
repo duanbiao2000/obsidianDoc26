@@ -329,5 +329,3 @@ If a brand wants to grab attention quickly, a New York‑inspired approach may b
 
 - 写一段专门的「口语 Part 2：Describe a city you would like to work in」里，用纽约 vs 伦敦做对比，或者
 - 做一个对比表（纽约 / 伦敦）+ 一套 10 句可以交替替换的高分句型，方便你拆开来用。
-
-
