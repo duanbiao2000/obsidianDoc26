@@ -35,6 +35,7 @@
 ```
 
 ### 🔍 深挖：`in the event of` vs `in the unlikely event of`
+
 - `In the event of` = 万一，如果（中性）
 - `In the unlikely event of` = 在不太可能发生的情况下（隐含"请放心，这很少发生"的安抚意味）
 - **拓展用法**：`In the event that + 从句` / `Should + 主语 + V`（更正式）

@@ -6,44 +6,40 @@
 ## 1. 总体：伦敦创意工作室 / 伦敦气质
 
 - DixonBaxi is a London studio that feels both global and very local, combining international ambition with a distinctly British sense of humour.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - The way they work reflects a modern London mindset: open, collaborative and culturally curious, but also disciplined and highly professional.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - Their studio feels like a micro‑version of London itself, where people from different backgrounds share one space and build something together.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
 
 ---
 
 ## 2. 伦敦式的「温和 + 专业」氛围
 
 - Compared with New York’s louder, more aggressive energy, the London atmosphere in this studio feels calmer, more reflective and slightly understated.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - The founders speak with warmth and modesty, which mirrors a very British way of showing confidence without being overly dramatic.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - What stands out is their ability to be relaxed and informal while maintaining extremely high standards in the work.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
 
 ---
 
 ## 3. 关于「文化、多元、包容」的伦敦表达
 
 - The team looks genuinely diverse, which echoes London’s identity as a city built on migration, mixed cultures and overlapping communities.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - People in the studio seem encouraged to bring their own personality, accent and taste into the projects, rather than hiding behind a single corporate voice.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - This reflects a very London idea of design: it should be open to different stories and perspectives instead of following one narrow tradition.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
 
 ---
 
 ## 4. 工作方式里体现的伦敦风格
 
 - Their process appears structured but not rigid: there is a clear framework, yet plenty of room for experimentation and play.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - Meetings feel more like thoughtful conversations than top‑down instructions, which creates a sense of shared ownership over the work.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
+
 - In my view, this balance between creative freedom and thoughtful organisation is a key feature of London’s design culture.[youtube](https://www.youtube.com/watch?v=2arfvuRFptY)
-    
 
 ---
 
@@ -52,9 +48,8 @@
 你可以直接背下面这一段，用在：
 
 - 口语 Part 2：描述一个你喜欢的 design studio / workplace
-    
+
 - 写作：谈「城市气质如何影响创意工作」
-    
 
 **英文段落**
 
@@ -78,8 +73,7 @@ For me, this captures the spirit of London: diverse, reflective and highly profe
 
 - 你更想拿它对比「纽约 vs 伦敦」风格，  
     还是
-    
+
 - 单独用来讲「伦敦创意人/伦敦职场」，
-    
 
 我可以再帮你写一段专门的对比段或者 Task 2 大作文段落。

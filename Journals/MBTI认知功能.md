@@ -93,4 +93,3 @@ Fi主导（INFP/ISFP）——价值观极其主观，反而不倾向于输出给
 
 > Fi-dominant (INFP/ISFP) — values are deeply personal and inward; they have little impulse to impose them on others.
 > The opposite of dad energy isn't gentleness — it's simply **not caring whether you're right in someone else's eyes.**
-
