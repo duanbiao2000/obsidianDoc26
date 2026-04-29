@@ -12,7 +12,6 @@ dependencies: openpyxl, pandas
 
 ### Zero Formula Errors
 
-
 ### Preserve Existing Templates (when updating templates)
 
 - Study and EXACTLY match existing format, style, and conventions when modifying files
@@ -149,6 +148,7 @@ This applies to ALL calculations - totals, percentages, ratios, differences, etc
 ```bash
    python recalc.py output.xlsx
 ```
+
 1. **Verify and fix any errors**:
    - The script returns JSON with error details
    - If `status` is `errors_found`, check `error_summary` for specific error types and locations
