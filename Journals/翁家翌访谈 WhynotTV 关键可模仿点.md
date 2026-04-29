@@ -14,11 +14,11 @@ excalidraw-plugin: parsed
 
 https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
-**卡片：翁家翌访谈（WhynotTV #4）– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
+**卡片：翁家翌访谈（WhynotTV 4）– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 
 ***
 
-### 1. 价值观：Impact > 履历
+ 1. 价值观：Impact > 履历
 
 - 关注问题：我的东西**有多少真实用户 / 真实影响**，而不是能写多少条履历。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
-### 2. 用开源项目当“长期资产”
+ 2. 用开源项目当“长期资产”
 
 - 代表：Tianshou、tuixue 等开源工具，降低别人做 RL、申请学校的门槛。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
-### 3. 早练 Infra 和工程系统
+ 3. 早练 Infra 和工程系统
 
 - 重点：大规模训练、后训练流水线、监控、部署，这些 infra 决定“模型跑不跑得起来”。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
-### 4. 松绑“名校 / 头衔”执念
+ 4. 松绑“名校 / 头衔”执念
 
 - 事实：传统评价体系（名校、排名）不完美，容易把人锁在“追标签”而不是“做事情”。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
-### 5. 把后训练当成“产品工程”
+ 5. 把后训练当成“产品工程”
 
 - 观点：GPT 类模型的好用程度，很大程度在 RLHF / 后训练阶段，而不只是参数规模。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
-### 6. 目标画像：研究 × 工程 × 产品的“综合体”
+ 6. 目标画像：研究 × 工程 × 产品的“综合体”
 
 - 环境：OpenAI 这种高密度团队里，纯研究 / 纯工程都不够吃香，“能把三者串起来的人”空间更大。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -82,9 +82,9 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
-# Excalidraw Data
+ Excalidraw Data
 
-## Text Elements
+ Text Elements
 1. **信息差是可以被个人系统性缩小的** ^9MY5KUlN
 
 - 在清华公开作业、整理资料、做 tuixue，这些都说明：即使还是学生，也可以通过开源把整一代人的“信息差痛苦”显著降低，而不必等“体制来改”。​ ^vqMF5Lak
@@ -133,11 +133,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 - 即便主持人给了很多“核心贡献者”“关键跃迁”的标签，他讲自己的工作时语气很平实，经常把功劳摊回团队、基础设施和长时间积累上，这种叙述方式本身也很值得学。  ^w1nVqXpW
 
-## Element Links
-3Hw84H78: [[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md#2. 用开源项目当“长期资产”]]
+ Element Links
+3Hw84H78: [[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md2. 用开源项目当“长期资产”]]
 
 %%
-## Drawing
+ Drawing
 ```json
 {
 	"type": "excalidraw",
@@ -152,8 +152,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 364.0199890136719,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -193,8 +193,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 645.0399780273438,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -234,8 +234,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 449.47998046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -275,8 +275,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 643.5999145507812,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -316,8 +316,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 258.8199768066406,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -357,8 +357,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 633.0199584960938,
 			"height": 50,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -397,8 +397,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 267.47998046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -438,8 +438,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 636.7999877929688,
 			"height": 50,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -478,8 +478,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 342.4399719238281,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -519,8 +519,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 642.760009765625,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -559,8 +559,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 325.17999267578125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -600,8 +600,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 636.7999877929688,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -640,8 +640,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 496.63995361328125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -681,8 +681,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 363.5799560546875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -722,8 +722,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 256.199951171875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -763,8 +763,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 342.09991455078125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -804,8 +804,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 333.75994873046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -845,8 +845,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 562.6995849609375,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -885,8 +885,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 312.5599060058594,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -926,8 +926,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 638.6400756835938,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -966,8 +966,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 561.4400024414062,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1007,8 +1007,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 627.7860653094439,
 			"height": 73.05955024686861,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1047,8 +1047,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 266.1999816894531,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1088,8 +1088,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 640,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "#fab005",
+			"strokeColor": "1e1e1e",
+			"backgroundColor": "fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1128,7 +1128,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 471.00308123787954,
 			"height": 154.29290118382124,
 			"angle": 0,
-			"strokeColor": "#000000",
+			"strokeColor": "000000",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1143,7 +1143,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"isDeleted": false,
 			"groupIds": [],
 			"boundElements": [],
-			"link": "[[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md#2. 用开源项目当“长期资产”]]",
+			"link": "[[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md2. 用开源项目当“长期资产”]]",
 			"locked": false,
 			"frameId": null,
 			"hasTextLink": false,
@@ -1156,10 +1156,10 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 					"useObsidianDefaults": false,
 					"backgroundMatchCanvas": false,
 					"backgroundMatchElement": true,
-					"backgroundColor": "#fff",
+					"backgroundColor": "fff",
 					"backgroundOpacity": 60,
 					"borderMatchElement": true,
-					"borderColor": "#fff",
+					"borderColor": "fff",
 					"borderOpacity": 0,
 					"filenameVisible": false
 				}
@@ -1179,7 +1179,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 1413.4598388671875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "#1e1e1e",
+			"strokeColor": "1e1e1e",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1208,9 +1208,9 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 	],
 	"appState": {
 		"theme": "light",
-		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
-		"currentItemBackgroundColor": "#fab005",
+		"viewBackgroundColor": "ffffff",
+		"currentItemStrokeColor": "1e1e1e",
+		"currentItemBackgroundColor": "fab005",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
