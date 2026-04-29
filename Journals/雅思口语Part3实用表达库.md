@@ -77,7 +77,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 2. 保留意见型 (I can see that..., but...)
+ 1. 保留意见型 (I can see that..., but...)
 
 **自然度**: ⭐⭐⭐⭐ (完全地道)
 **使用场景**: 同意对方部分观点,但有不同看法
@@ -111,7 +111,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 3. 渐进观点型 (I'm starting to realize that...)
+ 1. 渐进观点型 (I'm starting to realize that...)
 
 **自然度**: ⭐⭐⭐ (自然且有深度)
 **使用场景**: 展示思考过程和观点演进
@@ -147,7 +147,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
  二、展开论述句型 (Developing Ideas)
 
- 4. 举例说明型 (Take... for example)
+ 1. 举例说明型 (Take... for example)
 
 **自然度**: ⭐⭐⭐⭐ (母语者常用)
 **使用场景**: 需要具体例子支撑抽象观点
@@ -181,7 +181,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 5. 因果解释型 (That's mainly because...)
+ 1. 因果解释型 (That's mainly because...)
 
 **自然度**: ⭐⭐⭐ (清晰且自然)
 **使用场景**: 解释现象背后的原因
@@ -217,7 +217,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 6. 对比比较型 (On the other hand...)
+ 1. 对比比较型 (On the other hand...)
 
 **自然度**: ⭐⭐⭐ (展示辩证思维)
 **使用场景**: 需要展示事物的两面性
@@ -255,7 +255,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
  三、展示思考深度句型 (Showing Critical Thinking)
 
- 7. 反思型 (I've been reflecting on...)
+ 1. 反思型 (I've been reflecting on...)
 
 **自然度**: ⭐⭐⭐⭐ (成熟且有深度)
 **使用场景**: 展示对问题的深入思考
@@ -291,7 +291,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 8. 渐进意识型 (It's becoming clear that...)
+ 1. 渐进意识型 (It's becoming clear that...)
 
 **自然度**: ⭐⭐⭐ (观察型表达)
 **使用场景**: 总结趋势或观察
@@ -327,7 +327,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 9. 复杂关系型 (The gap between... is where...)
+ 1. 复杂关系型 (The gap between... is where...)
 
 **自然度**: ⭐⭐⭐⭐ (展示抽象思维)
 **使用场景**: 分析两个概念之间的矛盾或关系
@@ -367,7 +367,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
  四、自然互动句型 (Natural Interaction)
 
- 10. 争取思考时间型 (That's an interesting question...)
+ 1. 争取思考时间型 (That's an interesting question...)
 
 **自然度**: ⭐⭐⭐⭐ (完全自然)
 **使用场景**: 需要时间思考,不想冷场
@@ -405,7 +405,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 11. 请求澄清型 (If I understand correctly...)
+ 1. 请求澄清型 (If I understand correctly...)
 
 **自然度**: ⭐⭐⭐⭐ (展示积极参与)
 **使用场景**: 确保理解问题,避免答非所问
@@ -445,7 +445,7 @@ source: 基于《可抄可改写作句库.md》口语化改造
 
 ---
 
- 12. 展示不确定型 (It's hard to say, but...)
+ 1. 展示不确定型 (It's hard to say, but...)
 
 **自然度**: ⭐⭐⭐⭐ (诚实且有策略)
 **使用场景**: 问题太复杂或没有明确答案时

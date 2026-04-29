@@ -17,5 +17,3 @@
 第二，sprinkle之后跟普通句子。"From my perspective… I just think it's a really good way to relax." 高低搭配，反而显得自然。如果每句都是高级词，考官听到的是机器，不是人。
 
 第三，先替换最高频的坏习惯词。大多数人的核心问题是三个词：`I think`、`very`、`good`。把这三个替换掉，80%的提升已经实现了——`I'd argue that`、去掉very直接加具体细节、换成`beneficial / enjoyable / effective`。
-
-

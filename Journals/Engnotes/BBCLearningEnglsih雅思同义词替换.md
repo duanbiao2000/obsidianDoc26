@@ -14,65 +14,63 @@ source: https://www.youtube.com/@bbclearningenglish
 
 下面我按「词汇→同义替换→可迁移表达」来整理，方便你做笔记和套用。
 
-
-
 ---
 
 ## 一、核心词汇 & 典型雅思语境
 
 1. **a lone gunman**（独行枪手）
-    
+
     - 雅思可用场景：犯罪、社会安全、枪支暴力
     - 同类表达：
         - a **single** attacker
         - an **individual** shooter
         - an armed **individual**
-            
+
 2. **historic Teotihuacan pyramids / UNESCO World Heritage Site**
-    
+
     - 雅思话题：旅游、文化遗产、政府保护
     - 同义/近义表达：
         - historic site → **ancient / historic** site
         - UNESCO World Heritage Site → **internationally recognised** heritage site / **protected** cultural site
-            
+
 3. **tourist attractions / one of the most visited tourist attractions in the country**
-    
+
     - 雅思大热门：旅游 & 城市发展
     - 同义替换：
         - tourist attractions → **tourist destinations / tourist spots**
         - most visited → **highly popular / heavily visited / a major draw for tourists**
-            
+
 4. **mass shooting / deadly gun attack**
-    
+
     - 雅思社会问题、犯罪类作文非常常见
     - 同义/改写：
         - mass shooting → **large-scale shooting / shooting spree / mass gun attack**
         - deadly gun attack → **fatal shooting incident / lethal gun attack**
-            
+
 5. **wounded / injured**
-    
+
     - 视频里专门讲了：wounded = injured, especially by something breaking the skin（子弹、刀等）
     - 雅思写作里可以：
         - wounded people → **the injured / victims of the attack**
         - suffer serious wounds → **sustain serious injuries**
-            
+
 6. **open fire / return fire**
-    
+
     - open fire = start shooting（开火）
     - return fire = shoot back（还击）
     - 雅思改写：
         - The gunman **opened fire on** tourists. → The gunman **started shooting at** tourists.
         - The police **returned fire**. → The police **shot back / responded with gunfire**.
-            
+
 7. **chilling**（令人不寒而栗的、可怕的）
-    
+
     - 解释：frightening, distressing, making you feel uneasy（令人害怕、压抑）
     - 雅思高分词，可用在：犯罪、战争、环境、未来风险：
         - a **chilling** story → a **deeply disturbing** story
         - chilling reality → **grim reality / alarming reality**
-            
+
 8. **inspired by / influenced by**（受…启发/影响）
-    
+
     - 文中：the attacker appears to have been **influenced by** the Columbine murders.
     - 雅思可用于：媒体影响、暴力模仿、名人效应：
         - be inspired by → be **motivated / influenced** by
@@ -85,38 +83,38 @@ source: https://www.youtube.com/@bbclearningenglish
 结合视频解释，我给你整理几个「一看就能套用」的雅思写作/口语句型：
 
 1. **wounded / injured 类**
-    
+
     - 原型：The crash left 50 people **wounded**.
     - 雅思写作改写模板：
         - The accident **left** 50 people **injured**.
         - 50 people **sustained injuries** in the accident.
         - 50 people were **hurt** in the crash.
-            
+
 2. **open fire 类**
-    
+
     - 原型：The guards **opened fire on** the intruder.
     - 同义改写模板：
         - The guards **started shooting at** the intruder.
         - The guards **fired shots at** the intruder.
-            
+
 3. **chilling 类**
-    
+
     - 原型：The **chilling reality** is that these violent incidents are hard to stop.
     - 雅思社会类大杀器：
         - The **alarming / disturbing reality** is that …
         - The **grim truth** is that …
         - It is a **chilling reminder** that …
-            
+
 4. **rare attack / safety 类**
-    
+
     - 原文含义：Attacks of this kind are very rare in the country.
     - 雅思旅游/治安写作可用：
         - Such incidents are **relatively rare**.
         - Violent attacks **of this nature** are **uncommon**.
         - The country is **generally considered safe** for tourists.
-            
+
 5. **tourism + negative event 的写法**
-    
+
     - 结构：重大事件 + 引发担忧 + 但统计上仍然安全
     - 套用句：
         - Although the recent **shooting incident** has raised **concerns** about tourist safety, such events **remain extremely rare**.
@@ -128,20 +126,20 @@ source: https://www.youtube.com/@bbclearningenglish
 
 1. **Writing Task 2：旅游 + 安全 / 犯罪**
     可以从视频中抽象出的立意：
-    
+
     - 大量游客涌入著名景点 → 安全压力上升
     - 政府责任：安保、监控、紧急医疗系统
     - 媒体报道暴力事件对旅游业的影响（people may be frightened away）
-        
+
 2. **Writing Task 2：媒体暴力模仿 / copycat crimes**
     视频里提到嫌犯可能受 Columbine 案件影响，是典型「模仿犯罪」素材。
     可用论点：
-    
+
     - Detailed media coverage of mass shootings may **inspire copycat attacks**.
     - Social media and AI-generated images can **glorify** attackers.
-        
+
 3. **Speaking Part 3：旅游、世界遗产、政府责任**
-    
+
     - Why do people visit **ancient sites** like pyramids?
     - How should governments **protect** cultural heritage and tourists?
     - Should visitors be allowed free access, or should there be **strict security checks**?

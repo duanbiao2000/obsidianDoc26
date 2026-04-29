@@ -2,7 +2,9 @@
 custom-width: 80
 ---
 # 视频中的固定搭配 & 高分表达整理
+
 ## 一、核心固定搭配（动词短语/高频词组）
+
 1. give up on (doing) sth 放弃（做）某事
 2. keep going 坚持下去
 3. keep at it 坚持不懈、继续努力
@@ -29,6 +31,7 @@ onslaught在句中作为固定搭配“the onslaught of”的一部分出现
 20. skyrocket one’s abilities 能力突飞猛进
 
 ## 二、高分实用短语（口语/写作加分替换词）
+
 1. a steep learning curve 陡峭的学习曲线（形容入门难度极大）
 2. lucrative business relationships 有利可图的商业关系
 3. a no-brainer 显而易见的事、无需思考的事
@@ -46,6 +49,7 @@ onslaught在句中作为固定搭配“the onslaught of”的一部分出现
 15. a huge leap in progress 进步的巨大飞跃
 
 ## 三、高级句式表达（可直接套用）
+
 1. There is nothing more important than… 没有什么比……更重要
 2. Sb be meant to do sth 某人理应/注定做某事
 3. be a legitimate investment in oneself & future 对自身和未来的合理投资
@@ -54,10 +58,10 @@ onslaught在句中作为固定搭配“the onslaught of”的一部分出现
 6. Sb have all the things someone would need to succeed 某人具备成功所需的一切特质
 7. the difference that sth could make in one’s life 某事能给人生带来的改变
 
-
 这里用**视频里的核心搭配&高分表达**，造了**实用、好记、能直接用在作文/口语**里的句子，难度适中：
 
 ### 一、固定搭配造句
+
 1. **keep going / keep at it**
 If you keep at it every day, your English will improve quickly.
 2. **open up possibilities**
@@ -73,6 +77,7 @@ The story about language learning really pulls at my heartstrings.
 ---
 
 ### 二、高分表达造句
+
 1. **a no-brainer**
 Choosing to keep learning English is a no-brainer for your future.
 2. **food for thought**
@@ -96,18 +101,16 @@ Hands down, learning a second language is good for your brain.
 在这句话中，“hands down”用来强调“学习第二语言对大脑有益”这一观点是明确且无可争议的。
 因此，该固定搭配在此处表示对观点的强烈肯定。
 
-
 ---
 
 ### 三、高级句式造句
+
 1. **There is nothing more important than…**
 There is nothing more important than keeping trying when you learn English.
 2. **be meant to do sth**
 We are meant to communicate with people from all over the world.
 3. **imagine being able to do sth**
 Imagine being able to talk with foreigners without any difficulty.
-
-
 
 有，而且这类“聪明且诚实”的表达，主要出现在 Ben 对自己教学选择的说明、对表达强弱的校准，以及对考试策略的提醒里。 但你要的“原句引用”涉及受版权保护的视频字幕，我不能大段逐字摘录；我可以只提取**短句级**原话，并说明它们为什么显得既聪明又诚实。
 
@@ -1868,8 +1871,11 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 | 坚持与韧性      | 数月困境中不断找到生存方式             |
 | 友谊与社群归属    | 陌生人之间自发形成的"家人"关系          |
 | 权力与问责      | "绝对权威"的危险性                |
+
 # 雅思口语9分 全部亮点高分表达（按话题分类）
+
 ## 一、描述城市/家乡
+
 1. **grow by leaps and bounds** 飞速发展、迅猛增长
 2. **a growing multicultural city** 不断发展的多元文化城市
 3. **people from different backgrounds** 不同背景的人
@@ -1878,6 +1884,7 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 6. **I don't know the exact statistics** 我不知道确切数据（自然缓冲句）
 
 ## 二、幸福与生活
+
 1. **a state of being** 一种存在/生活状态
 2. **spend quality time with sb** 与某人共度高质量时光
 3. **anything under the sun** 任何事情、万事万物
@@ -1889,6 +1896,7 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 9. **rebrand** 品牌升级/重塑品牌
 
 ## 三、运动与健身
+
 1. **be quite into fitness** 热衷于健身
 2. **be a natural (at sth)** 天生擅长……
 3. **dribble (the ball)** （足球）带球、盘带
@@ -1901,6 +1909,7 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 10. **defensively incredible** 防守端表现极佳
 
 ## 四、节日与文化
+
 1. **mark the beginning of spring** 标志着春天的开始
 2. **celebrated nationwide** 全国范围内庆祝
 3. **have a sweeping effect** 产生广泛、深远的影响
@@ -1913,6 +1922,7 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 10. **communal activities** 集体/公共活动
 
 ## 五、自然衔接&缓冲表达（提流利度）
+
 1. **literally** 简直、确实
 2. **thankfully** 幸好、万幸
 3. **hopefully** 希望
@@ -1920,15 +1930,16 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 5. **what is the word** 那个词怎么说来着（自然停顿找词）
 
 ## 六、高阶句型&语法亮点
+
 1. **I should have started much earlier** 我本应该更早开始（虚拟语气，高分）
 2. **My life has been transformed** 我的生活被彻底改变（现在完成时被动）
 3. **It has Zoroastrian Origins** 起源于琐罗亚斯德教
 
 ## 七、语言学习&雅思备考
+
 1. **fossilized errors** 固化错误（长期形成改不掉的错误）
 2. **unlearn and relearn** 摒弃旧习惯、重新学习
 3. **expose oneself to English** 大量接触英语
 4. **keep oneself abreast of…** 紧跟……动态/时事
 5. **common IELTS topics** 雅思高频话题
 6. **keep things fun** 保持学习趣味性
-
