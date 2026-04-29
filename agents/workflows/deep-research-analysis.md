@@ -20,9 +20,9 @@ monitoring:
   quality_threshold: 0.8
 ---
 
-# 深度研究分析工作流 (Deep Research Analysis)
+ 深度研究分析工作流 (Deep Research Analysis)
 
-## 工作流概述
+ 工作流概述
 
 这是一个混合式研究工作流，结合了顺序规划和并行执行的策略，适用于需要多维度信息收集的复杂技术主题研究。
 
@@ -60,23 +60,23 @@ monitoring:
 
 ---
 
-## Phase 1: 研究规划 (Planning Phase)
+ Phase 1: 研究规划 (Planning Phase)
 
-### 目标
+ 目标
 
 制定系统性研究计划，明确研究范围、信息源和执行路径。
 
-### 执行Agent
+ 执行Agent
 
 - **主Agent**: `EMP_R001_research-planner`
 
-### 输入
+ 输入
 
 - 用户的研究问题/主题
 - 研究背景和上下文
 - 可用的研究资源（时间、访问权限等）
 
-### 输出
+ 输出
 
 ```yaml
 research_plan:
@@ -119,7 +119,7 @@ research_plan:
     - "提供可操作的建议"
 ```
 
-### 成功标准
+ 成功标准
 
 - ✅ 研究问题清晰分解
 - ✅ 信息源具体且可访问
@@ -128,23 +128,23 @@ research_plan:
 
 ---
 
-## Phase 2: 并行调研 (Investigation Phase)
+ Phase 2: 并行调研 (Investigation Phase)
 
-### 目标
+ 目标
 
 从多个维度并行收集信息，实现广度覆盖和深度探索。
 
-### 执行Agents
+ 执行Agents
 
 - **Web Researcher**: `EMP_R101_web-researcher`
 - **Academic Searcher**: `EMP_R102_academic-searcher`
 - **Codebase Analyzer**: `EMP_R103_codebase-analyzer`
 
-### 执行模式
+ 执行模式
 
 **PARALLEL** - 三个agents同时工作，各自专注于不同的信息维度。
 
-#### 2.1 Web Researcher任务
+ 2.1 Web Researcher任务
 
 **输入**: 从research-planner接收的搜索策略
 **输出**:
@@ -173,7 +173,7 @@ web_research_output:
 - GitHub项目和issues
 - 实战案例和示例
 
-#### 2.2 Academic Searcher任务
+ 2.2 Academic Searcher任务
 
 **输入**: 研究主题的学术关键词
 **输出**:
@@ -207,7 +207,7 @@ academic_research_output:
 - 引用网络分析
 - 研究方法论评估
 
-#### 2.3 Codebase Analyzer任务
+ 2.3 Codebase Analyzer任务
 
 **输入**: 相关的开源项目或代码库
 **输出**:
@@ -242,7 +242,7 @@ codebase_analysis_output:
 - 代码质量和可维护性
 - 实际应用案例
 
-### 并行协调
+ 并行协调
 
 - 三个agents独立工作，无需等待
 - 每个agent有自己的超时时间（15-20分钟）
@@ -251,22 +251,22 @@ codebase_analysis_output:
 
 ---
 
-## Phase 3: 信息综合 (Synthesis Phase)
+ Phase 3: 信息综合 (Synthesis Phase)
 
-### 目标
+ 目标
 
 整合三个维度的调研结果，提取关键洞察，生成连贯的分析。
 
-### 执行Agent
+ 执行Agent
 
 - **主Agent**: `EMP_S001_information-synthesizer`
 
-### 输入
+ 输入
 
 - 从Phase 2获得的三个调研输出
 - 从Phase 1获得的研究计划
 
-### 处理流程
+ 处理流程
 
 ```
 1. 信息清洗和分类
@@ -295,7 +295,7 @@ codebase_analysis_output:
    - 确保逻辑连贯
 ```
 
-### 输出
+ 输出
 
 ```markdown
 synthesis_output:
@@ -354,7 +354,7 @@ synthesis_output:
         priority: "high"
 ```
 
-### 成功标准
+ 成功标准
 
 - ✅ 信息整合完整，无重大遗漏
 - ✅ 冲突信息得到处理和标注
@@ -363,22 +363,22 @@ synthesis_output:
 
 ---
 
-## Phase 4: 报告生成 (Reporting Phase)
+ Phase 4: 报告生成 (Reporting Phase)
 
-### 目标
+ 目标
 
 将综合分析转化为结构化、易读的Obsidian Markdown文档。
 
-### 执行Agent
+ 执行Agent
 
 - **主Agent**: `EMP_S003_report-generator`
 
-### 输入
+ 输入
 
 - Phase 3的综合输出
 - Phase 1的研究计划
 
-### 报告结构
+ 报告结构
 
 1. **标题页**: 标题、日期、作者、版本
 2. **执行摘要**: 核心发现和建议
@@ -390,15 +390,15 @@ synthesis_output:
 8. **后续研究**: 已识别的缺口
 9. **附录**: 参考资料、术语表、相关笔记
 
-### Obsidian集成
+ Obsidian集成
 
 - 使用YAML frontmatter存储元数据
-- 添加相关标签（#research, #topic）
+- 添加相关标签（research, topic）
 - 创建wikilinks到相关笔记
 - 使用callouts突出重要信息
 - 包含Mermaid图表可视化
 
-### 输出文件
+ 输出文件
 
 ```bash
 Research/outputs/{project_name}/{date}_research_report.md
@@ -406,9 +406,9 @@ Research/outputs/{project_name}/{date}_research_report.md
 
 ---
 
-## 执行时间和资源估算
+ 执行时间和资源估算
 
-### 时间估算
+ 时间估算
 
 | Phase | 预计时间 | 备注 |
 |-------|---------|------|
@@ -418,7 +418,7 @@ Research/outputs/{project_name}/{date}_research_report.md
 | Phase 4: 报告 | 5-10分钟 | 报告长度 |
 | **总计** | **35-55分钟** | 典型情况 |
 
-### 资源需求
+ 资源需求
 
 - **网络**: 需要稳定的网络连接（搜索和读取在线资源）
 - **计算**: 标准CPU即可，无特殊GPU需求
@@ -426,9 +426,9 @@ Research/outputs/{project_name}/{date}_research_report.md
 
 ---
 
-## 质量保证
+ 质量保证
 
-### Phase间质量门禁
+ Phase间质量门禁
 
 **Phase 1 → Phase 2**:
 
@@ -457,40 +457,40 @@ Research/outputs/{project_name}/{date}_research_report.md
 
 ---
 
-## 使用示例
+ 使用示例
 
-### 启动工作流
+ 启动工作流
 
 ```bash
-# 使用协调器启动
+ 使用协调器启动
 python3 scripts/orchestration/agent-team-coordinator.py \
   --workflow deep-research-analysis \
   --context '{"research_question": "2024年最新的Agent Orchestration框架对比"}'
 ```
 
-### 直接调用agents
+ 直接调用agents
 
 ```bash
-# Phase 1: 规划
+ Phase 1: 规划
 claude agent agents/definitions/EMP_R001_research-planner.md
 
-# Phase 2: 并行调研（在tmux中）
+ Phase 2: 并行调研（在tmux中）
 tmux new-session -s web-research -d "claude agent agents/definitions/EMP_R101_web-researcher.md"
 tmux new-session -s academic-research -d "claude agent agents/definitions/EMP_R102_academic-searcher.md"
 tmux new-session -s code-analysis -d "claude agent agents/definitions/EMP_R103_codebase-analyzer.md"
 
-# Phase 3: 综合（等待Phase 2完成）
+ Phase 3: 综合（等待Phase 2完成）
 claude agent agents/definitions/EMP_S001_information-synthesizer.md
 
-# Phase 4: 报告
+ Phase 4: 报告
 claude agent agents/definitions/EMP_S003_report-generator.md
 ```
 
 ---
 
-## 扩展和定制
+ 扩展和定制
 
-### 添加新的调研维度
+ 添加新的调研维度
 
 在工作流中添加新的agent（如`security-analyzer`）：
 
@@ -498,28 +498,28 @@ claude agent agents/definitions/EMP_S003_report-generator.md
 2. 在Phase 2中添加该agent
 3. 更新Phase 3的整合逻辑
 
-### 调整执行模式
+ 调整执行模式
 
 将某些phase改为顺序或并行：
 
 - 修改`pattern`字段
 - 调整agents列表和依赖关系
 
-### 自定义输出格式
+ 自定义输出格式
 
 修改Phase 4的报告模板以适应特定需求。
 
 ---
 
-## 监控和调试
+ 监控和调试
 
-### 进度追踪
+ 进度追踪
 
 - 每个phase的输出保存在`.agent-state/`
 - Collaboration log记录所有事件
 - Context cache存储中间结果
 
-### 调试提示
+ 调试提示
 
 - 如果某个agent失败，检查其日志
 - 使用`--status`参数查看tmux会话

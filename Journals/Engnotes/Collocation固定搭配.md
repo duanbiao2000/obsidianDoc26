@@ -1,6 +1,113 @@
 ---
 custom-width: 80
 ---
+# 视频中的固定搭配 & 高分表达整理
+## 一、核心固定搭配（动词短语/高频词组）
+1. give up on (doing) sth 放弃（做）某事
+2. keep going 坚持下去
+3. keep at it 坚持不懈、继续努力
+4. go on dates with sb 和某人约会
+5. get to know sb deeply 深入了解某人
+6. as a result of 由于、作为……的结果
+7. pass a conversation 短暂交谈、闲聊
+8. command a wage premium 获得薪资溢价
+9. offer better packages 提供更优薪酬待遇
+10. delay the onslaught of 延缓……的发作/侵袭
+onslaught在句中作为固定搭配“the onslaught of”的一部分出现
+该短语意为“……的猛烈攻击”或“……的密集冲击”
+在此语境下指代大量信息突然且密集地涌入造成的压力
+因此整句含义为“延迟这种信息轰炸般的密集冲击”
+11. cram information 死记硬背知识
+12. pull at one’s heartstrings 触动心弦
+13. in spite of 尽管、虽然
+14. conquer English 攻克英语、精通英语
+15. make progress 取得进步
+16. open up possibilities 开启更多可能性
+17. bring the world closer 拉近世界距离
+18. fortify one’s mind 强化心智
+19. secure brain health 保障大脑健康
+20. skyrocket one’s abilities 能力突飞猛进
+
+## 二、高分实用短语（口语/写作加分替换词）
+1. a steep learning curve 陡峭的学习曲线（形容入门难度极大）
+2. lucrative business relationships 有利可图的商业关系
+3. a no-brainer 显而易见的事、无需思考的事
+4. hands down 毫无疑问、绝对地
+5. food for thought 引人深思的观点
+6. on top of that 除此之外、再者
+7. heaps and heaps of / a plethora of 大量的、许许多多的（高级替换 many）
+8. social cognition 社会认知能力
+9. attention control 注意力管控能力
+10. problem-solving skills 解决问题的能力
+11. be ironclad 坚不可摧的
+12. reignite one’s motivation 重燃学习动力
+13. broaden one’s horizons 开阔眼界
+14. unlock new doors 打开新的机遇之门
+15. a huge leap in progress 进步的巨大飞跃
+
+## 三、高级句式表达（可直接套用）
+1. There is nothing more important than… 没有什么比……更重要
+2. Sb be meant to do sth 某人理应/注定做某事
+3. be a legitimate investment in oneself & future 对自身和未来的合理投资
+4. imagine being able to do sth 想象自己能够做某事
+5. in spite of all that, sb never gave up 尽管如此，某人从未放弃
+6. Sb have all the things someone would need to succeed 某人具备成功所需的一切特质
+7. the difference that sth could make in one’s life 某事能给人生带来的改变
+
+
+这里用**视频里的核心搭配&高分表达**，造了**实用、好记、能直接用在作文/口语**里的句子，难度适中：
+
+### 一、固定搭配造句
+1. **keep going / keep at it**
+If you keep at it every day, your English will improve quickly.
+2. **open up possibilities**
+Learning English can open up possibilities for your future career.
+3. **command a wage premium**
+People with good English skills usually command a wage premium.
+4. **pull at one’s heartstrings**
+The story about language learning really pulls at my heartstrings.
+"heartstrings"是“心弦”的意思，常用来比喻人内心深处的情感或情感的触动。
+在固定搭配“my heartstrings”中，表示“我内心深处的情感”或“我被深深触动的感情”。
+整句“my heartstrings”意指说话者内心被强烈情感所牵动，通常用于表达悲伤、感动、思念等强烈情绪。
+
+---
+
+### 二、高分表达造句
+1. **a no-brainer**
+Choosing to keep learning English is a no-brainer for your future.
+2. **food for thought**
+His words about language learning give us much food for thought.
+3. **on top of that**
+English helps you get better jobs. On top of that, it protects your brain.
+4. **broaden one’s horizons**
+Travelling and learning languages can broaden your horizons.
+5. **a huge leap in progress**
+Reading English books brought a huge leap in his vocabulary.
+6. **hands down**
+Hands down, learning a second language is good for your brain.
+"no-brainer"在此处为固定搭配，字面意思为“不需要动脑子的”。
+在句中它指代的是“显而易见且无需犹豫的决定”。
+整句话的含义是：选择继续学习英语对你未来而言是一个毫无疑问的正确选择。
+“food for thought”是一个固定搭配。
+该搭配的意思是“引人深思的事物”或“值得认真思考的问题”。
+在句中，它用来形容他关于语言学习的话具有启发性和深度。
+因此，“food”在此并非指实际的食物，而是比喻意义，表示思想上的养分。
+“hands down”是一个英语固定搭配，意思是“毫无疑问地”或“毫无争议地”。
+在这句话中，“hands down”用来强调“学习第二语言对大脑有益”这一观点是明确且无可争议的。
+因此，该固定搭配在此处表示对观点的强烈肯定。
+
+
+---
+
+### 三、高级句式造句
+1. **There is nothing more important than…**
+There is nothing more important than keeping trying when you learn English.
+2. **be meant to do sth**
+We are meant to communicate with people from all over the world.
+3. **imagine being able to do sth**
+Imagine being able to talk with foreigners without any difficulty.
+
+
 
 有，而且这类“聪明且诚实”的表达，主要出现在 Ben 对自己教学选择的说明、对表达强弱的校准，以及对考试策略的提醒里。 但你要的“原句引用”涉及受版权保护的视频字幕，我不能大段逐字摘录；我可以只提取**短句级**原话，并说明它们为什么显得既聪明又诚实。
 
@@ -1761,3 +1868,67 @@ A: I think many people **come this close** to breakthrough moments but abandon t
 | 坚持与韧性      | 数月困境中不断找到生存方式             |
 | 友谊与社群归属    | 陌生人之间自发形成的"家人"关系          |
 | 权力与问责      | "绝对权威"的危险性                |
+# 雅思口语9分 全部亮点高分表达（按话题分类）
+## 一、描述城市/家乡
+1. **grow by leaps and bounds** 飞速发展、迅猛增长
+2. **a growing multicultural city** 不断发展的多元文化城市
+3. **people from different backgrounds** 不同背景的人
+4. **affluent parts of the city** 城市的富裕/繁华区域
+5. **incredible architecture** 令人惊叹的建筑
+6. **I don't know the exact statistics** 我不知道确切数据（自然缓冲句）
+
+## 二、幸福与生活
+1. **a state of being** 一种存在/生活状态
+2. **spend quality time with sb** 与某人共度高质量时光
+3. **anything under the sun** 任何事情、万事万物
+4. **a carefree childhood** 无忧无虑的童年
+5. **derive a lot of pleasure from…** 从……中获得极大乐趣/满足感
+6. **people from all walks of life** 各行各业的人
+7. **settle down** 安定下来、成家立业
+8. **expand one's business** 拓展业务
+9. **rebrand** 品牌升级/重塑品牌
+
+## 三、运动与健身
+1. **be quite into fitness** 热衷于健身
+2. **be a natural (at sth)** 天生擅长……
+3. **dribble (the ball)** （足球）带球、盘带
+4. **not to toot my own horn** 不自吹自擂（地道习语）
+5. **be in shape** 身材好、身体健康
+6. **release endorphins** 分泌内啡肽
+7. **feel more energetic** 更有活力
+8. **root for…** 支持（球队/某人）
+9. **win a treble** 拿下三冠王
+10. **defensively incredible** 防守端表现极佳
+
+## 四、节日与文化
+1. **mark the beginning of spring** 标志着春天的开始
+2. **celebrated nationwide** 全国范围内庆祝
+3. **have a sweeping effect** 产生广泛、深远的影响
+4. **be in tune with their own culture** 贴合/接轨自身本土文化
+5. **improve unity and solidarity** 增强民族凝聚力与团结
+6. **a sense of belonging** 归属感
+7. **take pride in…** 为……感到自豪
+8. **an obscene amount of money** （花费）巨额、多得离谱的钱
+9. **financially struggling** 经济拮据、陷入财务困境
+10. **communal activities** 集体/公共活动
+
+## 五、自然衔接&缓冲表达（提流利度）
+1. **literally** 简直、确实
+2. **thankfully** 幸好、万幸
+3. **hopefully** 希望
+4. **I'm not too sure about it** 我对此不太确定
+5. **what is the word** 那个词怎么说来着（自然停顿找词）
+
+## 六、高阶句型&语法亮点
+1. **I should have started much earlier** 我本应该更早开始（虚拟语气，高分）
+2. **My life has been transformed** 我的生活被彻底改变（现在完成时被动）
+3. **It has Zoroastrian Origins** 起源于琐罗亚斯德教
+
+## 七、语言学习&雅思备考
+1. **fossilized errors** 固化错误（长期形成改不掉的错误）
+2. **unlearn and relearn** 摒弃旧习惯、重新学习
+3. **expose oneself to English** 大量接触英语
+4. **keep oneself abreast of…** 紧跟……动态/时事
+5. **common IELTS topics** 雅思高频话题
+6. **keep things fun** 保持学习趣味性
+
