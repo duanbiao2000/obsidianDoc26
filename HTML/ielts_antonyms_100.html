@@ -1,0 +1,201 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans); }
+.wrap { padding: 1rem 0; }
+.controls { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; align-items: center; }
+.controls select, .controls input { font-size: 13px; padding: 6px 10px; border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); background: var(--color-background-primary); color: var(--color-text-primary); }
+.controls input { flex: 1; min-width: 140px; }
+.stat { font-size: 13px; color: var(--color-text-secondary); margin-left: auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 12px 14px; cursor: pointer; transition: border-color 0.15s; position: relative; }
+.card:hover { border-color: var(--color-border-secondary); }
+.card.learned { border-left: 3px solid #1D9E75; }
+.tag { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 4px; margin-bottom: 6px; font-weight: 500; }
+.tag.adj { background: #EEEDFE; color: #3C3489; }
+.tag.v { background: #E1F5EE; color: #085041; }
+.tag.n { background: #FAECE7; color: #712B13; }
+.tag.adv { background: #E6F1FB; color: #0C447C; }
+.tag.phrase { background: #FAEEDA; color: #633806; }
+.word { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+.arrow { font-size: 12px; color: var(--color-text-tertiary); margin: 2px 0; }
+.antonym { font-size: 14px; color: var(--color-text-secondary); }
+.meaning { font-size: 11px; color: var(--color-text-tertiary); margin-top: 4px; display: none; }
+.card.open .meaning { display: block; }
+.learn-btn { position: absolute; top: 8px; right: 8px; font-size: 11px; padding: 2px 7px; border: 0.5px solid var(--color-border-tertiary); border-radius: 4px; background: transparent; color: var(--color-text-secondary); cursor: pointer; }
+.learn-btn:hover { background: var(--color-background-secondary); }
+.card.learned .learn-btn { color: #1D9E75; border-color: #1D9E75; }
+.tab-bar { display: flex; gap: 4px; margin-bottom: 12px; }
+.tab { font-size: 13px; padding: 5px 12px; border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); background: transparent; color: var(--color-text-secondary); cursor: pointer; }
+.tab.active { background: var(--color-background-secondary); color: var(--color-text-primary); }
+</style>
+<div class="wrap">
+  <h2 class="sr-only">雅思反义词训练 100组</h2>
+  <div class="tab-bar" id="tabs">
+    <button class="tab active" data-tab="all">全部</button>
+    <button class="tab" data-tab="adj">形容词</button>
+    <button class="tab" data-tab="v">动词</button>
+    <button class="tab" data-tab="n">名词</button>
+    <button class="tab" data-tab="adv">副词</button>
+    <button class="tab" data-tab="phrase">短语</button>
+    <button class="tab" data-tab="learned">已掌握</button>
+  </div>
+  <div class="controls">
+    <input type="text" id="search" placeholder="搜索单词..." />
+    <span class="stat" id="stat"></span>
+  </div>
+  <div class="grid" id="grid"></div>
+</div>
+<script>
+const data = [
+  {w:"abundant",a:"scarce",pos:"adj",m:"丰富的 ↔ 匮乏的"},
+  {w:"accelerate",a:"decelerate",pos:"v",m:"加速 ↔ 减速"},
+  {w:"accurate",a:"inaccurate",pos:"adj",m:"准确的 ↔ 不准确的"},
+  {w:"affluent",a:"impoverished",pos:"adj",m:"富裕的 ↔ 贫困的"},
+  {w:"aggressive",a:"passive",pos:"adj",m:"进攻性的 ↔ 被动的"},
+  {w:"ancient",a:"contemporary",pos:"adj",m:"古老的 ↔ 当代的"},
+  {w:"amplify",a:"diminish",pos:"v",m:"放大 ↔ 减少"},
+  {w:"apparent",a:"obscure",pos:"adj",m:"明显的 ↔ 模糊的"},
+  {w:"approve",a:"condemn",pos:"v",m:"批准/赞成 ↔ 谴责"},
+  {w:"arid",a:"fertile",pos:"adj",m:"干旱的 ↔ 肥沃的"},
+  {w:"ascend",a:"descend",pos:"v",m:"上升 ↔ 下降"},
+  {w:"beneficial",a:"detrimental",pos:"adj",m:"有益的 ↔ 有害的"},
+  {w:"bias",a:"objectivity",pos:"n",m:"偏见 ↔ 客观性"},
+  {w:"bold",a:"timid",pos:"adj",m:"大胆的 ↔ 胆小的"},
+  {w:"boom",a:"recession",pos:"n",m:"繁荣 ↔ 衰退"},
+  {w:"brevity",a:"verbosity",pos:"n",m:"简洁 ↔ 冗长"},
+  {w:"centralize",a:"decentralize",pos:"v",m:"集权 ↔ 分权"},
+  {w:"chaos",a:"order",pos:"n",m:"混乱 ↔ 秩序"},
+  {w:"chronic",a:"acute",pos:"adj",m:"慢性的 ↔ 急性的"},
+  {w:"cohesive",a:"fragmented",pos:"adj",m:"凝聚的 ↔ 分裂的"},
+  {w:"complex",a:"straightforward",pos:"adj",m:"复杂的 ↔ 简单明了的"},
+  {w:"compulsory",a:"voluntary",pos:"adj",m:"强制性的 ↔ 自愿的"},
+  {w:"conceal",a:"reveal",pos:"v",m:"隐藏 ↔ 揭示"},
+  {w:"conservative",a:"progressive",pos:"adj",m:"保守的 ↔ 进步的"},
+  {w:"construct",a:"demolish",pos:"v",m:"建造 ↔ 拆除"},
+  {w:"controversial",a:"uncontested",pos:"adj",m:"有争议的 ↔ 无争议的"},
+  {w:"converge",a:"diverge",pos:"v",m:"收敛/趋同 ↔ 发散/趋异"},
+  {w:"costly",a:"economical",pos:"adj",m:"昂贵的 ↔ 经济的"},
+  {w:"credible",a:"dubious",pos:"adj",m:"可信的 ↔ 可疑的"},
+  {w:"cultivate",a:"neglect",pos:"v",m:"培养 ↔ 忽视"},
+  {w:"dense",a:"sparse",pos:"adj",m:"密集的 ↔ 稀疏的"},
+  {w:"deteriorate",a:"improve",pos:"v",m:"恶化 ↔ 改善"},
+  {w:"domestic",a:"international",pos:"adj",m:"国内的 ↔ 国际的"},
+  {w:"dominant",a:"subordinate",pos:"adj",m:"主导的 ↔ 从属的"},
+  {w:"drought",a:"flood",pos:"n",m:"干旱 ↔ 洪涝"},
+  {w:"durable",a:"fragile",pos:"adj",m:"耐用的 ↔ 易碎的"},
+  {w:"efficient",a:"wasteful",pos:"adj",m:"高效的 ↔ 浪费的"},
+  {w:"emit",a:"absorb",pos:"v",m:"排放 ↔ 吸收"},
+  {w:"empirical",a:"theoretical",pos:"adj",m:"实证的 ↔ 理论的"},
+  {w:"enforce",a:"repeal",pos:"v",m:"执行/强制 ↔ 废除"},
+  {w:"enhance",a:"undermine",pos:"v",m:"增强 ↔ 削弱"},
+  {w:"equality",a:"inequality",pos:"n",m:"平等 ↔ 不平等"},
+  {w:"essential",a:"trivial",pos:"adj",m:"必要的 ↔ 微不足道的"},
+  {w:"ethical",a:"unethical",pos:"adj",m:"道德的 ↔ 不道德的"},
+  {w:"excessive",a:"moderate",pos:"adj",m:"过度的 ↔ 适度的"},
+  {w:"explicit",a:"implicit",pos:"adj",m:"明确的 ↔ 隐含的"},
+  {w:"exploit",a:"preserve",pos:"v",m:"开发/剥削 ↔ 保护"},
+  {w:"exterior",a:"interior",pos:"n",m:"外部 ↔ 内部"},
+  {w:"extinct",a:"thriving",pos:"adj",m:"灭绝的 ↔ 繁盛的"},
+  {w:"flexible",a:"rigid",pos:"adj",m:"灵活的 ↔ 僵硬的"},
+  {w:"formal",a:"informal",pos:"adj",m:"正式的 ↔ 非正式的"},
+  {w:"genuine",a:"artificial",pos:"adj",m:"真实的 ↔ 人工的/虚假的"},
+  {w:"gradual",a:"abrupt",pos:"adj",m:"逐步的 ↔ 突然的"},
+  {w:"harmony",a:"conflict",pos:"n",m:"和谐 ↔ 冲突"},
+  {w:"homogeneous",a:"diverse",pos:"adj",m:"同质的 ↔ 多元的"},
+  {w:"idealistic",a:"pragmatic",pos:"adj",m:"理想主义的 ↔ 务实的"},
+  {w:"impose",a:"lift",pos:"v",m:"施加/强制 ↔ 取消/解除"},
+  {w:"increase",a:"decrease",pos:"v",m:"增加 ↔ 减少"},
+  {w:"independent",a:"dependent",pos:"adj",m:"独立的 ↔ 依赖的"},
+  {w:"indigenous",a:"foreign",pos:"adj",m:"土著的/本地的 ↔ 外来的"},
+  {w:"inevitable",a:"avoidable",pos:"adj",m:"不可避免的 ↔ 可避免的"},
+  {w:"innovate",a:"stagnate",pos:"v",m:"创新 ↔ 停滞"},
+  {w:"instinctive",a:"deliberate",pos:"adj",m:"本能的 ↔ 深思熟虑的"},
+  {w:"integrate",a:"segregate",pos:"v",m:"整合 ↔ 分离/隔离"},
+  {w:"intensive",a:"extensive",pos:"adj",m:"密集的 ↔ 广泛的"},
+  {w:"isolated",a:"connected",pos:"adj",m:"孤立的 ↔ 联系的"},
+  {w:"lenient",a:"strict",pos:"adj",m:"宽松的 ↔ 严格的"},
+  {w:"literate",a:"illiterate",pos:"adj",m:"有文化的 ↔ 文盲的"},
+  {w:"local",a:"global",pos:"adj",m:"本地的 ↔ 全球的"},
+  {w:"logical",a:"irrational",pos:"adj",m:"逻辑的 ↔ 非理性的"},
+  {w:"long-term",a:"short-term",pos:"phrase",m:"长期的 ↔ 短期的"},
+  {w:"majority",a:"minority",pos:"n",m:"多数 ↔ 少数"},
+  {w:"mandatory",a:"optional",pos:"adj",m:"强制性的 ↔ 可选的"},
+  {w:"manual",a:"automated",pos:"adj",m:"手动的 ↔ 自动化的"},
+  {w:"maximize",a:"minimize",pos:"v",m:"最大化 ↔ 最小化"},
+  {w:"merit",a:"drawback",pos:"n",m:"优点 ↔ 缺点"},
+  {w:"mitigate",a:"aggravate",pos:"v",m:"减轻 ↔ 加剧"},
+  {w:"mobile",a:"stationary",pos:"adj",m:"流动的 ↔ 固定的"},
+  {w:"natural",a:"artificial",pos:"adj",m:"自然的 ↔ 人工的"},
+  {w:"objective",a:"subjective",pos:"adj",m:"客观的 ↔ 主观的"},
+  {w:"optimistic",a:"pessimistic",pos:"adj",m:"乐观的 ↔ 悲观的"},
+  {w:"original",a:"derivative",pos:"adj",m:"原创的 ↔ 衍生的"},
+  {w:"permanent",a:"temporary",pos:"adj",m:"永久的 ↔ 临时的"},
+  {w:"plentiful",a:"limited",pos:"adj",m:"充足的 ↔ 有限的"},
+  {w:"positive",a:"negative",pos:"adj",m:"积极的 ↔ 消极的"},
+  {w:"private",a:"public",pos:"adj",m:"私人的 ↔ 公共的"},
+  {w:"productive",a:"counterproductive",pos:"adj",m:"有成效的 ↔ 适得其反的"},
+  {w:"promote",a:"hinder",pos:"v",m:"促进 ↔ 阻碍"},
+  {w:"rational",a:"emotional",pos:"adj",m:"理性的 ↔ 感性的"},
+  {w:"renewable",a:"non-renewable",pos:"adj",m:"可再生的 ↔ 不可再生的"},
+  {w:"rural",a:"urban",pos:"adj",m:"农村的 ↔ 城市的"},
+  {w:"simplify",a:"complicate",pos:"v",m:"简化 ↔ 复杂化"},
+  {w:"stable",a:"volatile",pos:"adj",m:"稳定的 ↔ 不稳定的"},
+  {w:"subsidize",a:"tax",pos:"v",m:"补贴 ↔ 征税"},
+  {w:"supply",a:"demand",pos:"n",m:"供给 ↔ 需求"},
+  {w:"sustainable",a:"unsustainable",pos:"adj",m:"可持续的 ↔ 不可持续的"},
+  {w:"transparent",a:"opaque",pos:"adj",m:"透明的 ↔ 不透明的"},
+  {w:"urban",a:"suburban",pos:"adj",m:"城市的 ↔ 郊区的"},
+  {w:"virtual",a:"physical",pos:"adj",m:"虚拟的 ↔ 实体的"},
+  {w:"widespread",a:"rare",pos:"adj",m:"广泛的 ↔ 罕见的"},
+];
+
+let learned = new Set(JSON.parse(localStorage.getItem('ielts_learned')||'[]').filter(x=>x));
+let activeTab = 'all';
+let query = '';
+
+function save() { try { localStorage.setItem('ielts_learned', JSON.stringify([...learned])); } catch(e){} }
+
+function render() {
+  let filtered = data.filter(d => {
+    const matchTab = activeTab === 'all' || activeTab === d.pos || (activeTab === 'learned' && learned.has(d.w));
+    const matchQ = !query || d.w.includes(query) || d.a.includes(query);
+    return matchTab && matchQ;
+  });
+  document.getElementById('stat').textContent = filtered.length + ' / ' + data.length + ' 组';
+  const grid = document.getElementById('grid');
+  grid.innerHTML = filtered.map(d => `
+    <div class="card${learned.has(d.w)?' learned':''}" data-w="${d.w}" onclick="toggle('${d.w}',event)">
+      <button class="learn-btn" onclick="toggleLearn('${d.w}',event)">${learned.has(d.w)?'✓ 已掌握':'标记掌握'}</button>
+      <span class="tag ${d.pos}">${{adj:'形容词',v:'动词',n:'名词',adv:'副词',phrase:'短语'}[d.pos]}</span>
+      <div class="word">${d.w}</div>
+      <div class="arrow">↕</div>
+      <div class="antonym">${d.a}</div>
+      <div class="meaning">${d.m}</div>
+    </div>
+  `).join('');
+}
+
+function toggle(w, e) {
+  if(e.target.classList.contains('learn-btn')) return;
+  const card = document.querySelector(`[data-w="${w}"]`);
+  card.classList.toggle('open');
+}
+
+function toggleLearn(w, e) {
+  e.stopPropagation();
+  if(learned.has(w)) learned.delete(w); else learned.add(w);
+  save(); render();
+}
+
+document.getElementById('tabs').addEventListener('click', e => {
+  if(!e.target.dataset.tab) return;
+  activeTab = e.target.dataset.tab;
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === activeTab));
+  render();
+});
+
+document.getElementById('search').addEventListener('input', e => { query = e.target.value.toLowerCase(); render(); });
+
+render();
+</script>

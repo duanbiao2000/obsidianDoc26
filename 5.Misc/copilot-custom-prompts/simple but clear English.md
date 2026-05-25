@@ -1,3 +1,10 @@
+---
+copilot-command-context-menu-enabled: true
+copilot-command-slash-enabled: true
+copilot-command-context-menu-order: 0
+copilot-command-model-key: ""
+copilot-command-last-used: 0
+---
 ## Style prompt for “simple but clear border‑documentary English”
 
 Write in a calm, descriptive tone, using mostly **common, concrete words**. Avoid fancy vocabulary and long academic sentences.​
