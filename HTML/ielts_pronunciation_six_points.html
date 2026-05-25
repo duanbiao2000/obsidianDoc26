@@ -1,0 +1,288 @@
+
+<style>
+  * { box-sizing: border-box; }
+  .nav { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .nav-btn { font-size: 12px; padding: 5px 12px; border-radius: 20px; border: 0.5px solid var(--color-border-secondary); background: transparent; color: var(--color-text-secondary); cursor: pointer; transition: all 0.15s; }
+  .nav-btn.active { background: var(--color-text-primary); color: var(--color-background-primary); border-color: transparent; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 12px; }
+  .card-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .card-sub { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 12px; line-height: 1.6; }
+  .tag { display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 4px; margin: 2px 2px 2px 0; font-weight: 500; }
+  .tag-rule { background: #EEEDFE; color: #3C3489; }
+  .tag-warn { background: #FAECE7; color: #712B13; }
+  .tag-ok { background: #E1F5EE; color: #085041; }
+  .example-row { display: flex; align-items: baseline; gap: 10px; padding: 8px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .example-row:last-child { border-bottom: none; }
+  .ex-en { font-size: 14px; color: var(--color-text-primary); font-weight: 500; flex: 1; }
+  .ex-note { font-size: 12px; color: var(--color-text-secondary); min-width: 160px; text-align: right; }
+  .ex-mark { font-size: 12px; color: #534AB7; background: #EEEDFE; padding: 1px 6px; border-radius: 3px; }
+  .section-label { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); letter-spacing: 0.06em; text-transform: uppercase; margin: 1rem 0 6px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .mini-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .mini-title { font-size: 12px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .mini-body { font-size: 12px; color: var(--color-text-secondary); line-height: 1.6; }
+  .compare-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 8px; }
+  .wrong-box { background: #FCEBEB; border-radius: var(--border-radius-md); padding: 8px 12px; }
+  .right-box { background: #E1F5EE; border-radius: var(--border-radius-md); padding: 8px 12px; }
+  .box-label { font-size: 10px; font-weight: 500; letter-spacing: 0.05em; margin-bottom: 4px; text-transform: uppercase; }
+  .wrong-box .box-label { color: #A32D2D; }
+  .right-box .box-label { color: #085041; }
+  .box-text { font-size: 13px; font-weight: 500; }
+  .wrong-box .box-text { color: #791F1F; }
+  .right-box .box-text { color: #0F6E56; }
+  .box-ipa { font-size: 11px; margin-top: 2px; }
+  .wrong-box .box-ipa { color: #A32D2D; }
+  .right-box .box-ipa { color: #085041; }
+  .tip-row { display: flex; gap: 8px; align-items: flex-start; padding: 8px 0; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  .tip-row:last-child { border-bottom: none; }
+  .tip-dot { width: 6px; height: 6px; border-radius: 50%; margin-top: 5px; flex-shrink: 0; }
+  .tip-text { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+  .tip-text strong { color: var(--color-text-primary); font-weight: 500; }
+  .ipa { font-family: var(--font-mono); font-size: 12px; }
+  .drill-item { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 14px; margin-bottom: 8px; }
+  .drill-en { font-size: 14px; color: var(--color-text-primary); font-weight: 500; margin-bottom: 3px; }
+  .drill-focus { font-size: 12px; color: var(--color-text-secondary); }
+  .drill-focus span { color: #534AB7; font-weight: 500; background: #EEEDFE; padding: 0px 4px; border-radius: 3px; }
+  .header-row { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
+  .num-badge { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 500; flex-shrink: 0; }
+  .heading-text { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+  .heading-en { font-size: 12px; color: var(--color-text-secondary); margin-top: 1px; }
+</style>
+
+<div style="padding: 1rem 0">
+
+<div class="nav">
+  <button class="nav-btn active" onclick="show(0)">① 元音饱满</button>
+  <button class="nav-btn" onclick="show(1)">② 失去爆破</button>
+  <button class="nav-btn" onclick="show(2)">③ 弱化</button>
+  <button class="nav-btn" onclick="show(3)">④ 连读</button>
+  <button class="nav-btn" onclick="show(4)">⑤ 重音</button>
+  <button class="nav-btn" onclick="show(5)">⑥ 连贯性</button>
+</div>
+
+<div id="p0" class="panel active">
+  <div class="header-row">
+    <div class="num-badge" style="background:#EEEDFE; color:#3C3489;">1</div>
+    <div><div class="heading-text">元音饱满程度</div><div class="heading-en">Vowel fullness / clarity</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">英语元音需要充分发音——嘴型到位、气流充足、时值完整。中国考生常见问题是元音"短促化"：把长元音发成短元音，把双元音发成单元音。</div>
+    <span class="tag tag-rule">长元音保持时长</span>
+    <span class="tag tag-rule">双元音滑动到位</span>
+    <span class="tag tag-warn">不可压缩元音时值</span>
+  </div>
+  <div class="section-label">关键对比：发饱满 vs 发短促</div>
+  <div class="compare-row">
+    <div class="wrong-box"><div class="box-label">不饱满</div><div class="box-text">see /sɪ/</div><div class="box-ipa">只发短 /ɪ/</div></div>
+    <div class="right-box"><div class="box-label">饱满</div><div class="box-text">see /siː/</div><div class="box-ipa">拉长 /iː/，嘴角展开</div></div>
+  </div>
+  <div class="compare-row">
+    <div class="wrong-box"><div class="box-label">不饱满</div><div class="box-text">go /gɒ/</div><div class="box-ipa">发成单元音 /ɒ/</div></div>
+    <div class="right-box"><div class="box-label">饱满</div><div class="box-text">go /ɡəʊ/</div><div class="box-ipa">双元音 /əʊ/ 滑动完整</div></div>
+  </div>
+  <div class="compare-row">
+    <div class="wrong-box"><div class="box-label">不饱满</div><div class="box-text">now /nɒ/</div><div class="box-ipa">没有滑向 /ʊ/</div></div>
+    <div class="right-box"><div class="box-label">饱满</div><div class="box-text">now /naʊ/</div><div class="box-ipa">从 /a/ 滑向 /ʊ/，嘴收圆</div></div>
+  </div>
+  <div class="section-label">练习句（标注需饱满的元音）</div>
+  <div class="drill-item"><div class="drill-en">I hope to go home soon.</div><div class="drill-focus">重点：<span>/əʊ/ × 3</span> 每个都要完整滑动</div></div>
+  <div class="drill-item"><div class="drill-en">She needs to see the scene.</div><div class="drill-focus">重点：<span>/iː/ × 3</span> 保持长元音时值</div></div>
+  <div class="drill-item"><div class="drill-en">How loud is the sound around town?</div><div class="drill-focus">重点：<span>/aʊ/ × 4</span> 双元音不可简化</div></div>
+</div>
+
+<div id="p1" class="panel">
+  <div class="header-row">
+    <div class="num-badge" style="background:#FAECE7; color:#712B13;">2</div>
+    <div><div class="heading-text">失去爆破</div><div class="heading-en">Incomplete plosion / unreleased stops</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">当爆破音（p b t d k g）出现在另一个辅音之前，或在词尾时，不完整释放气流——只做"封闭"动作，不爆出声音。这是自然流利英语的重要特征，而非"吃字"。</div>
+    <span class="tag tag-rule">辅音前爆破音不释放</span>
+    <span class="tag tag-rule">词尾爆破音常不爆出</span>
+    <span class="tag tag-warn">仍需做封闭口型动作</span>
+  </div>
+  <div class="section-label">失去爆破触发规则</div>
+  <div class="grid2">
+    <div class="mini-card"><div class="mini-title">爆破音 + 辅音</div><div class="mini-body">前一个爆破音不释放<br>good <span style="color:#D85A30">d</span> + boy → "goo<span style="color:#D85A30">_</span> boy"</div></div>
+    <div class="mini-card"><div class="mini-title">爆破音 + 爆破音</div><div class="mini-body">只发后一个<br>ba<span style="color:#D85A30">ck</span> <span style="color:#D85A30">d</span>oor → "bac_ door"</div></div>
+    <div class="mini-card"><div class="mini-title">词尾爆破音</div><div class="mini-body">常做口型但不爆出<br>I like i<span style="color:#D85A30">t</span> → "I like i_"</div></div>
+    <div class="mini-card"><div class="mini-title">爆破音 + /tʃ/ /dʒ/</div><div class="mini-body">融合成一个动作<br>wha<span style="color:#D85A30">t</span> <span style="color:#D85A30">ch</span>apter → "wha_chapter"</div></div>
+  </div>
+  <div class="section-label">例句练习（_ 标示失去爆破位置）</div>
+  <div class="drill-item"><div class="drill-en">I <span style="color:#D85A30">lik_</span> <span style="color:#D85A30">bla_k</span> coffee.</div><div class="drill-focus">like + black：k 失去爆破两次</div></div>
+  <div class="drill-item"><div class="drill-en">He <span style="color:#D85A30">go_</span> <span style="color:#D85A30">bac_</span> to work.</div><div class="drill-focus">got + back：t 和 k 均失去爆破</div></div>
+  <div class="drill-item"><div class="drill-en">Wha<span style="color:#D85A30">t</span> do you think abou<span style="color:#D85A30">t</span> tha<span style="color:#D85A30">t</span>?</div><div class="drill-focus">三个词尾 t 均做口型但不爆出</div></div>
+</div>
+
+<div id="p2" class="panel">
+  <div class="header-row">
+    <div class="num-badge" style="background:#EAF3DE; color:#27500A;">3</div>
+    <div><div class="heading-text">弱化</div><div class="heading-en">Weak forms / reduction</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">英语功能词（介词、冠词、助动词、代词、连词）在句中通常使用"弱读形式"——元音变为中央元音 /ə/ 或消失。强读仅在强调、对比或独立发音时出现。</div>
+    <span class="tag tag-rule">功能词默认弱读</span>
+    <span class="tag tag-ok">强调时才强读</span>
+    <span class="tag tag-warn">全用强读 = 机器人腔调</span>
+  </div>
+  <div class="section-label">高频弱化对照表</div>
+  <div class="card" style="padding: 0.75rem 1rem;">
+    <div class="example-row">
+      <div class="ex-en">and</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /ænd/ → 弱 <span class="ipa">/ənd/</span> 或 <span class="ipa">/n/</span></div>
+      <div class="ex-note">fish <span class="ex-mark">n</span> chips</div>
+    </div>
+    <div class="example-row">
+      <div class="ex-en">to</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /tuː/ → 弱 <span class="ipa">/tə/</span></div>
+      <div class="ex-note">go <span class="ex-mark">tə</span> school</div>
+    </div>
+    <div class="example-row">
+      <div class="ex-en">for</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /fɔː/ → 弱 <span class="ipa">/fə/</span></div>
+      <div class="ex-note">wait <span class="ex-mark">fə</span> me</div>
+    </div>
+    <div class="example-row">
+      <div class="ex-en">can</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /kæn/ → 弱 <span class="ipa">/kən/</span></div>
+      <div class="ex-note">I <span class="ex-mark">kən</span> help</div>
+    </div>
+    <div class="example-row">
+      <div class="ex-en">have</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /hæv/ → 弱 <span class="ipa">/həv/</span> 或 <span class="ipa">/əv/</span></div>
+      <div class="ex-note">should <span class="ex-mark">əv</span> known</div>
+    </div>
+    <div class="example-row">
+      <div class="ex-en">them</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /ðem/ → 弱 <span class="ipa">/ðəm/</span></div>
+      <div class="ex-note">tell <span class="ex-mark">ðəm</span></div>
+    </div>
+    <div class="example-row" style="border-bottom:none">
+      <div class="ex-en">was</div>
+      <div style="flex:1; font-size:12px; color:var(--color-text-secondary);">强 /wɒz/ → 弱 <span class="ipa">/wəz/</span></div>
+      <div class="ex-note">she <span class="ex-mark">wəz</span> late</div>
+    </div>
+  </div>
+  <div class="section-label">练习句</div>
+  <div class="drill-item"><div class="drill-en">I want to go to the park for a walk.</div><div class="drill-focus"><span>to × 2</span> 和 <span>for a</span> 均弱读为 /tə/ /fər ə/</div></div>
+  <div class="drill-item"><div class="drill-en">Can you tell them to call me?</div><div class="drill-focus"><span>can → /kən/</span>  <span>to → /tə/</span>  <span>them → /ðəm/</span></div></div>
+</div>
+
+<div id="p3" class="panel">
+  <div class="header-row">
+    <div class="num-badge" style="background:#E6F1FB; color:#0C447C;">4</div>
+    <div><div class="heading-text">连读</div><div class="heading-en">Linking / liaison</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">连续说话时，相邻单词之间的音会自然连接，使语流顺畅。主要有四种连读类型。连读不是"技巧"，是自然口语的物理结果。</div>
+    <span class="tag tag-rule">辅音 + 元音 = 直接连接</span>
+    <span class="tag tag-rule">元音 + 元音 = 加过渡音</span>
+    <span class="tag tag-warn">不可在每词后停顿</span>
+  </div>
+  <div class="section-label">四种连读类型</div>
+  <div class="card" style="padding: 0.75rem 1rem;">
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#378ADD;"></div>
+      <div class="tip-text"><strong>辅 + 元（最常见）</strong>：前词尾辅音与后词首元音合并<br>pick_it up → "pi-ki-tup"｜turn_it on → "tur-ni-ton"</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#1D9E75;"></div>
+      <div class="tip-text"><strong>元 + 元（插入过渡音）</strong>：以 /iː/ /ɪ/ /eɪ/ 结尾加 /j/，以 /uː/ /ʊ/ /əʊ/ 结尾加 /w/<br>go_away → "go<strong>w</strong>away"｜see_it → "see<strong>j</strong>it"</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#D85A30;"></div>
+      <div class="tip-text"><strong>辅 + 辅（同化）</strong>：相邻同类音融合<br>ten_nights → "te-nights"（n+n = 一个长 n）</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#534AB7;"></div>
+      <div class="tip-text"><strong>r-linking（英式）</strong>：词尾 -r/-re 后接元音时读出 /r/<br>here_and there → "here<strong>r</strong>and there"</div>
+    </div>
+  </div>
+  <div class="section-label">连读标注练习</div>
+  <div class="drill-item"><div class="drill-en">Turn_it_off_and put_it_away.</div><div class="drill-focus">5处连读：每个<span>辅音+元音</span>边界都连</div></div>
+  <div class="drill-item"><div class="drill-en">I think_it's_a really good_idea.</div><div class="drill-focus"><span>think it's</span> → "thin-kit's" ｜ <span>good idea</span> → "goo-didea"</div></div>
+  <div class="drill-item"><div class="drill-en">Go_away! I need to be_alone.</div><div class="drill-focus"><span>go away</span> 加 /w/ 过渡 ｜ <span>be alone</span> 加 /j/ 过渡</div></div>
+</div>
+
+<div id="p4" class="panel">
+  <div class="header-row">
+    <div class="num-badge" style="background:#FAEEDA; color:#633806;">5</div>
+    <div><div class="heading-text">重音</div><div class="heading-en">Stress — word & sentence level</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">英语是"重音计时语言"：重读音节更响、更长、音调更高；非重读音节被压缩。重音分词重音（固定）和句子重音（传递信息焦点）两层。</div>
+    <span class="tag tag-rule">内容词重读</span>
+    <span class="tag tag-rule">功能词弱化</span>
+    <span class="tag tag-warn">重音位置影响意义</span>
+  </div>
+  <div class="section-label">词重音：转换规律</div>
+  <div class="grid2">
+    <div class="mini-card"><div class="mini-title">名词 vs 动词（双音节）</div><div class="mini-body"><strong>RE</strong>cord（名词）<br>re<strong>CORD</strong>（动词）<br><strong>PRO</strong>test / pro<strong>TEST</strong></div></div>
+    <div class="mini-card"><div class="mini-title">-tion / -sion 词</div><div class="mini-body">重音永远在倒数第二音节前<br>edu<strong>CA</strong>tion<br>com<strong>MU</strong>nication</div></div>
+    <div class="mini-card"><div class="mini-title">复合名词</div><div class="mini-body">重音在第一部分<br><strong>BLACK</strong>board<br><strong>GREEN</strong>house</div></div>
+    <div class="mini-card"><div class="mini-title">形容词 + 名词短语</div><div class="mini-body">重音在名词<br>black <strong>BOARD</strong><br>green <strong>HOUSE</strong></div></div>
+  </div>
+  <div class="section-label">句子重音：焦点改变意义</div>
+  <div class="drill-item"><div class="drill-en"><span style="background:#FAEEDA; color:#633806; padding:1px 4px; border-radius:3px;">I</span> didn't take his money.</div><div class="drill-focus">含义：是别人拿了，不是我</div></div>
+  <div class="drill-item"><div class="drill-en">I didn't <span style="background:#FAEEDA; color:#633806; padding:1px 4px; border-radius:3px;">take</span> his money.</div><div class="drill-focus">含义：我没拿，但也许挪动了</div></div>
+  <div class="drill-item"><div class="drill-en">I didn't take <span style="background:#FAEEDA; color:#633806; padding:1px 4px; border-radius:3px;">his</span> money.</div><div class="drill-focus">含义：我拿了别人的钱，不是他的</div></div>
+  <div class="drill-item"><div class="drill-en">I didn't take his <span style="background:#FAEEDA; color:#633806; padding:1px 4px; border-radius:3px;">money.</span></div><div class="drill-focus">含义：我拿了他别的东西</div></div>
+</div>
+
+<div id="p5" class="panel">
+  <div class="header-row">
+    <div class="num-badge" style="background:#E1F5EE; color:#085041;">6</div>
+    <div><div class="heading-text">连贯性</div><div class="heading-en">Fluency & coherence in delivery</div></div>
+  </div>
+  <div class="card">
+    <div class="card-title">核心概念</div>
+    <div class="card-sub">连贯性指语音流的整体流畅度——包括停顿的位置与长度、语调群的划分、语速的节奏感。它是前五点的综合体现，也是考官最直观感受到的维度。</div>
+    <span class="tag tag-rule">意群内不停顿</span>
+    <span class="tag tag-rule">意群边界自然停顿</span>
+    <span class="tag tag-warn">填充词过多扣分</span>
+    <span class="tag tag-warn">语速忽快忽慢失分</span>
+  </div>
+  <div class="section-label">意群划分原则</div>
+  <div class="card" style="padding: 0.75rem 1rem;">
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#1D9E75;"></div>
+      <div class="tip-text"><strong>意群内部不能停顿</strong>：意群是一个发音单位<br>"the quality of <strong>|</strong> education" ✓ 而非 "the quality <strong>|</strong> of education" ✗</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#1D9E75;"></div>
+      <div class="tip-text"><strong>用停顿替代填充词</strong>：思考时短暂停顿比 "um, er, like" 更专业</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#1D9E75;"></div>
+      <div class="tip-text"><strong>句末语调</strong>：陈述句降调 ↘，是否疑问句升调 ↗，选择疑问句先升后降 ↗↘</div>
+    </div>
+    <div class="tip-row">
+      <div class="tip-dot" style="background:#1D9E75;"></div>
+      <div class="tip-text"><strong>节奏均匀</strong>：不因紧张加速，不因搜词突然减速——靠话题词汇储备保底</div>
+    </div>
+  </div>
+  <div class="section-label">意群划分练习（| = 自然停顿点）</div>
+  <div class="drill-item"><div class="drill-en">I think | technology has changed | the way we communicate | quite dramatically.</div><div class="drill-focus">4个意群，每群内部流畅不断</div></div>
+  <div class="drill-item"><div class="drill-en">From my perspective, | the most important factor | is access to education.</div><div class="drill-focus">连接短语独立成群，主干分两群</div></div>
+  <div class="drill-item"><div class="drill-en">Well, | it depends on the situation, | but generally speaking, | I would say…</div><div class="drill-focus">Part 3 高分句型：用意群控节奏赢时间</div></div>
+  <div style="margin-top: 12px; background: #E1F5EE; border-radius: var(--border-radius-md); padding: 10px 14px;">
+    <div style="font-size: 12px; font-weight: 500; color: #085041; margin-bottom: 4px;">综合训练建议</div>
+    <div style="font-size: 12px; color: #0F6E56; line-height: 1.7;">录音 → 回听 → 标注问题点（用以上哪类标注）→ 针对性重练。每次只专注一个维度，一周后再叠加下一个。</div>
+  </div>
+</div>
+
+</div>
+
+<script>
+function show(n) {
+  document.querySelectorAll('.panel').forEach((p,i) => p.classList.toggle('active', i===n));
+  document.querySelectorAll('.nav-btn').forEach((b,i) => b.classList.toggle('active', i===n));
+}
+</script>

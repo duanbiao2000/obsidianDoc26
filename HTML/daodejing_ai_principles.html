@@ -1,0 +1,283 @@
+
+<style>
+  :root { --gap: 14px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .root { padding: 20px 0; font-size: 14px; color: var(--color-text-primary); }
+  .tab-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
+  .tab {
+    padding: 5px 13px; border-radius: 20px; border: 1px solid var(--color-border-secondary);
+    background: var(--color-background-secondary); cursor: pointer; font-size: 12px;
+    color: var(--color-text-secondary); transition: all .15s;
+  }
+  .tab.active { background: var(--color-background-info); color: var(--color-text-info); border-color: var(--color-border-info); }
+  .tab:hover:not(.active) { border-color: var(--color-border-primary); color: var(--color-text-primary); }
+  .cards { display: flex; flex-direction: column; gap: 10px; }
+  .card {
+    border: 1px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg);
+    background: var(--color-background-secondary); overflow: hidden;
+  }
+  .card-head {
+    display: flex; align-items: flex-start; gap: 12px; padding: 13px 16px;
+    cursor: pointer; user-select: none;
+  }
+  .card-head:hover { background: var(--color-background-tertiary); }
+  .badge {
+    flex-shrink: 0; font-size: 11px; padding: 2px 8px; border-radius: 10px;
+    margin-top: 1px; font-weight: 500;
+  }
+  .b-teal   { background: #E1F5EE; color: #0F6E56; }
+  .b-purple { background: #EEEDFE; color: #3C3489; }
+  .b-amber  { background: #FAEEDA; color: #854F0B; }
+  .b-coral  { background: #FAECE7; color: #993C1D; }
+  .b-blue   { background: #E6F1FB; color: #185FA5; }
+  @media (prefers-color-scheme: dark) {
+    .b-teal   { background: #085041; color: #9FE1CB; }
+    .b-purple { background: #26215C; color: #CECBF6; }
+    .b-amber  { background: #412402; color: #FAC775; }
+    .b-coral  { background: #4A1B0C; color: #F5C4B3; }
+    .b-blue   { background: #042C53; color: #B5D4F4; }
+  }
+  .card-title { font-weight: 500; font-size: 14px; flex: 1; line-height: 1.4; }
+  .card-source { font-size: 12px; color: var(--color-text-secondary); font-style: italic; margin-top: 2px; }
+  .chevron { color: var(--color-text-tertiary); font-size: 12px; margin-top: 2px; flex-shrink: 0; transition: transform .2s; }
+  .chevron.open { transform: rotate(180deg); }
+  .card-body { display: none; padding: 0 16px 14px; }
+  .card-body.open { display: block; }
+  .row { display: grid; grid-template-columns: 90px 1fr; gap: 6px 10px; margin-top: 8px; align-items: start; }
+  .lbl { font-size: 11px; color: var(--color-text-tertiary); padding-top: 2px; font-weight: 500; text-transform: uppercase; letter-spacing: .04em; }
+  .val { font-size: 13px; color: var(--color-text-primary); line-height: 1.6; }
+  .rule-box {
+    background: var(--color-background-tertiary); border-radius: 6px;
+    padding: 9px 12px; font-size: 13px; line-height: 1.65;
+    border-left: 3px solid var(--color-border-info);
+    color: var(--color-text-primary); margin: 6px 0;
+  }
+  .warn-box {
+    background: var(--color-background-warning); border-radius: 6px;
+    padding: 8px 12px; font-size: 12px; line-height: 1.6;
+    border-left: 3px solid var(--color-border-warning);
+    color: var(--color-text-warning); margin-top: 8px;
+  }
+  .warn-label { font-weight: 500; }
+  hr.divider { border: none; border-top: 1px solid var(--color-border-tertiary); margin: 10px 0 0; }
+  .section-head { font-size: 11px; color: var(--color-text-tertiary); font-weight: 500; letter-spacing: .05em; text-transform: uppercase; margin: 0 0 10px; }
+</style>
+<div class="root">
+  <div class="tab-row" id="tabs"></div>
+  <div class="cards" id="cards"></div>
+</div>
+<script>
+const cats = [
+  { id: 'all', label: '全部' },
+  { id: 'cognition', label: '认知与推理' },
+  { id: 'system', label: '系统与架构' },
+  { id: 'writing', label: '写作与文档' },
+  { id: 'prompt', label: 'AI Prompt' },
+  { id: 'decision', label: '决策与治理' },
+];
+
+const rules = [
+  {
+    cat: 'cognition',
+    badge: 'b-purple',
+    title: '损之又损：减法优先',
+    source: '为学日益，为道日损。损之又损，以至于无为。',
+    rule: '输出前强制执行删减检验：移除所有不改变核心结论的内容。若删除后论点仍然成立，则该内容不应保留。',
+    scenarios: '代码审查、文档精简、论文修改、Prompt压缩',
+    misuse: '不适用于法规合规文档、医疗记录——此类场景完整性优于简洁性，"损"可能产生法律/安全风险。',
+  },
+  {
+    cat: 'cognition',
+    badge: 'b-purple',
+    title: '知常容：容纳对立面',
+    source: '知常容，容乃公，公乃全，全乃天。',
+    rule: '在给出判断前，必须列举至少2个与结论矛盾的证据或反例，并说明为何在此情境下仍选择当前结论。',
+    scenarios: '技术选型分析、论文综述、架构评审、AI辅助决策',
+    misuse: '不适用于需要快速执行的紧急运维场景——此时"容"会拖延响应，优先行动再复盘。',
+  },
+  {
+    cat: 'cognition',
+    badge: 'b-purple',
+    title: '知者不言：沉默检验',
+    source: '知者不言，言者不知。',
+    rule: '对每个段落/函数/模块执行沉默测试：若移除它，读者/系统仍能完整理解，则它是噪声。填充式输出是知识不足的信号，不是表现。',
+    scenarios: 'AI输出质量控制、代码注释、API文档',
+    misuse: '不适用于教学/入门文档——此类场景需要冗余解释来建立理解，过度压缩会损害学习效果。',
+  },
+  {
+    cat: 'system',
+    badge: 'b-teal',
+    title: '无为而无不为：约束涌现',
+    source: '道常无为而无不为。侯王若能守之，万物将自化。',
+    rule: '系统设计时，优先定义约束（边界条件、不变量），而非穷举行为规则。好的架构让正确行为自然涌现，而非靠硬编码覆盖所有情形。',
+    scenarios: 'Agent系统设计、微服务治理、LLM系统Prompt、组织架构',
+    misuse: '不适用于安全边界（身份验证、权限控制）——此处必须有为，明确规则不可省略。"无为"不等于无规则。',
+  },
+  {
+    cat: 'system',
+    badge: 'b-teal',
+    title: '有无相生：边界即设计',
+    source: '有无相生，难易相成，长短相形。',
+    rule: '系统的"不做什么"与"做什么"具有同等设计权重。每个模块需同时声明：职责范围（有）和明确排除项（无）。缺失边界定义是架构腐化的主要原因。',
+    scenarios: '接口设计、微服务拆分、产品需求评审、Agent工具定义',
+    misuse: '不适用于探索性原型——早期"无"的边界过于严格会扼杀创新，PoC阶段允许边界模糊。',
+  },
+  {
+    cat: 'system',
+    badge: 'b-teal',
+    title: '为之于未有：预防性思维',
+    source: '为之于未有，治之于未乱。其安易持，其未兆易谋。',
+    rule: '在方案评审环节必须回答：这个方案在什么条件下会失败？主动构造失败场景（边界值、级联故障、假设失效）比等待问题出现的成本低一个数量级。',
+    scenarios: '架构评审、Prompt对抗测试、产品上线前检查、论文假设检验',
+    misuse: '不适用于纯粹执行阶段——过度预防会产生分析瘫痪，已决策的方向应全力执行，复盘在后。',
+  },
+  {
+    cat: 'system',
+    badge: 'b-teal',
+    title: '功遂身退：最小存活原则',
+    source: '功遂身退，天之道也。',
+    rule: '功能实现后，主动清除：临时代码、脚手架依赖、过渡性接口、调试日志。已完成目标的结构不应继续存在，其存在本身就是负债。',
+    scenarios: '代码重构、技术债清理、AI工作流节点管理、文档版本控制',
+    misuse: '不适用于需要审计追溯的场景（金融日志、合规记录）——此类"冗余"是监管要求，不是负债。',
+  },
+  {
+    cat: 'writing',
+    badge: 'b-amber',
+    title: '见素抱朴：结论前置',
+    source: '见素抱朴，少思寡欲。',
+    rule: '结构原则：核心论点/结论必须出现在第一段。证据、推导过程在后。读者不应需要读完全文才知道文章在说什么。这是商业文档的默认结构，也是AI生成文档的质检标准。',
+    scenarios: '技术报告、PRD、研究摘要、邮件/提案写作',
+    misuse: '不适用于叙事性/说服性内容（案例研究、故事营销）——此类场景需要铺垫建立情感认同，结论前置会破坏说服结构。',
+  },
+  {
+    cat: 'writing',
+    badge: 'b-amber',
+    title: '信言不美：朴素表达优先',
+    source: '信言不美，美言不信。善者不辩，辩者不善。',
+    rule: '质检规则：若一个句子需要修辞才能成立，说明论据不足。用简单陈述句重写所有复杂从句。修辞装饰是逻辑弱点的遮盖，不是表达能力的体现。',
+    scenarios: '论文写作、技术文档、AI生成内容审查、合同/规范文件',
+    misuse: '不适用于品牌/营销文案——此类场景需要情感共鸣，修辞是有效工具，非掩盖手段。',
+  },
+  {
+    cat: 'writing',
+    badge: 'b-amber',
+    title: '希言自然：信息密度检验',
+    source: '希言自然。飘风不终朝，骤雨不终日。',
+    rule: '每个段落必须通过密度测试：此段是否引入了上文没有的信息？若仅是重复、过渡或填充，则删除。好的文档读起来有节奏感，每段都让读者向前推进。',
+    scenarios: 'AI长文档生成、论文修改、API文档精简',
+    misuse: '不适用于用户手册/教学材料——适当的重复和过渡是降低认知负荷的设计，不是冗余。',
+  },
+  {
+    cat: 'prompt',
+    badge: 'b-blue',
+    title: '致虚极：假设显式化',
+    source: '致虚极，守静笃。万物并作，吾以观复。',
+    rule: '在Prompt中要求模型：生成答案前，先列出所有前提假设。隐含假设是AI幻觉和推理错误的主要来源。将假设显式化后，验证成本从"检查全部输出"降低到"核验假设列表"。',
+    scenarios: 'LLM推理任务、代码生成、方案评估、事实性问答',
+    misuse: '不适用于创意生成任务——要求列举假设会打断创意流，对于开放式创作，约束反而是障碍。',
+  },
+  {
+    cat: 'prompt',
+    badge: 'b-blue',
+    title: '不自见，故明：边界声明',
+    source: '不自见，故明；不自是，故彰；不自伐，故有功。',
+    rule: '在AI输出中强制要求：明确声明"我不知道/不确定的是……"。模型的过度确信是比知识不足更危险的问题。边界声明让用户知道哪里需要人工验证。',
+    scenarios: 'RAG系统输出、知识问答、医疗/法律辅助场景',
+    misuse: '不适用于执行类任务（代码执行、格式转换）——此类场景的确定性高，强制不确定声明会产生无效噪声。',
+  },
+  {
+    cat: 'prompt',
+    badge: 'b-blue',
+    title: '曲则全：负空间提示',
+    source: '曲则全，枉则直，洼则盈，敝则新。',
+    rule: '在Prompt中同时提供正例和反例（few-shot的负空间）。告诉模型"不要做什么"往往比"要做什么"更有效地约束输出分布。一个好的负例可以消除整类偏差。',
+    scenarios: '复杂输出格式控制、风格迁移、分类任务、Agent行为约束',
+    misuse: '不适用于完全开放式创意任务——负例会在创意任务中产生"回避偏差"，反而限制多样性。',
+  },
+  {
+    cat: 'decision',
+    badge: 'b-coral',
+    title: '柔弱胜刚强：可逆优先',
+    source: '柔弱胜刚强。天下莫柔弱于水，而攻坚强者莫之能胜。',
+    rule: '在技术与产品决策中，优先选择可逆方案。不可逆决策需要更高的确定性阈值才能执行。评估框架：此决策的撤销成本是多少？可逆性是架构弹性的核心指标。',
+    scenarios: '技术选型、架构重构、产品功能发布（Feature Flag）、数据库迁移',
+    misuse: '不适用于需要强承诺的场景（合同签署、对外公告）——过度保持弹性在商业谈判中是弱势信号。',
+  },
+  {
+    cat: 'decision',
+    badge: 'b-coral',
+    title: '知足者富：范围控制',
+    source: '知足者富。祸莫大于不知足；咎莫大于欲得。',
+    rule: '在需求/Scope评审中：每个新增功能必须说明它解决什么问题，以及为此放弃什么。不做取舍的Roadmap是技术债的来源。范围控制是产品质量的前提，不是能力限制。',
+    scenarios: '产品需求评审、Sprint计划、AI应用功能设计、论文研究边界',
+    misuse: '不适用于平台/基础设施建设早期——基础层需要一定的过度设计余量，过早的"知足"会制造扩展瓶颈。',
+  },
+  {
+    cat: 'decision',
+    badge: 'b-coral',
+    title: '反者道之动：逆向验证',
+    source: '反者道之动；弱者道之用。天下万物生于有，有生于无。',
+    rule: '对任何成立的结论，必须问：在什么条件下这个结论会反转？找到反转条件即找到了假设的边界。有效论证必须能说清楚自己的适用范围。',
+    scenarios: 'A/B测试分析、商业假设验证、AI模型评估、投资决策',
+    misuse: '不适用于已充分验证的成熟结论——对已被大量证据支持的命题反复逆向验证是认知资源浪费。',
+  },
+];
+
+const tabEl = document.getElementById('tabs');
+const cardsEl = document.getElementById('cards');
+let activeCat = 'all';
+
+function render() {
+  cardsEl.innerHTML = '';
+  const filtered = activeCat === 'all' ? rules : rules.filter(r => r.cat === activeCat);
+  filtered.forEach((r, i) => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="card-head" onclick="toggle(this)">
+        <span class="badge ${r.badge}">${cats.find(c=>c.id===r.cat).label}</span>
+        <div style="flex:1">
+          <div class="card-title">${r.title}</div>
+          <div class="card-source">${r.source}</div>
+        </div>
+        <span class="chevron">▼</span>
+      </div>
+      <div class="card-body">
+        <hr class="divider">
+        <div class="row">
+          <span class="lbl">操作规范</span>
+          <div class="rule-box">${r.rule}</div>
+        </div>
+        <div class="row">
+          <span class="lbl">适用场景</span>
+          <span class="val">${r.scenarios}</span>
+        </div>
+        <div class="warn-box"><span class="warn-label">⚠ 误用警告：</span>${r.misuse}</div>
+      </div>`;
+    cardsEl.appendChild(card);
+  });
+}
+
+function toggle(head) {
+  const body = head.nextElementSibling;
+  const ch = head.querySelector('.chevron');
+  const open = body.classList.toggle('open');
+  ch.classList.toggle('open', open);
+}
+
+cats.forEach(c => {
+  const btn = document.createElement('button');
+  btn.className = 'tab' + (c.id === activeCat ? ' active' : '');
+  btn.textContent = c.label + (c.id === 'all' ? ` (${rules.length})` : ` (${rules.filter(r=>r.cat===c.id).length})`);
+  btn.onclick = () => {
+    activeCat = c.id;
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    btn.classList.add('active');
+    render();
+  };
+  tabEl.appendChild(btn);
+});
+
+render();
+</script>

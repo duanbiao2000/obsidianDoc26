@@ -1,0 +1,507 @@
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--font-sans, sans-serif); }
+.container { padding: 16px 0; }
+.tabs { display: flex; gap: 6px; margin-bottom: 20px; flex-wrap: wrap; }
+.tab {
+  padding: 8px 18px; border-radius: 20px; border: 1.5px solid var(--color-border-secondary);
+  background: transparent; color: var(--color-text-secondary); font-size: 13px; cursor: pointer;
+  font-family: var(--font-sans); transition: all .2s;
+}
+.tab.active {
+  background: var(--color-background-secondary); color: var(--color-text-primary);
+  border-color: var(--color-border-primary); font-weight: 500;
+}
+.panel { display: none; }
+.panel.active { display: block; }
+.section-title {
+  font-size: 11px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--color-text-tertiary); margin: 20px 0 10px;
+}
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.card {
+  border: 1px solid var(--color-border-tertiary); border-radius: 10px;
+  padding: 14px 16px; background: var(--color-background-secondary);
+  cursor: pointer; transition: border-color .15s;
+}
+.card:hover { border-color: var(--color-border-primary); }
+.card-num { font-size: 11px; color: var(--color-text-tertiary); margin-bottom: 4px; }
+.card-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 5px; }
+.card-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.55; }
+.card-tag {
+  display: inline-block; margin-top: 7px; padding: 2px 8px; border-radius: 10px;
+  font-size: 11px; font-weight: 500;
+}
+.tag-a { background: #E6F1FB; color: #0C447C; }
+.tag-b { background: #E1F5EE; color: #085041; }
+.tag-c { background: #FAEEDA; color: #633806; }
+.tag-d { background: #EEEDFE; color: #3C3489; }
+.tag-e { background: #FAECE7; color: #712B13; }
+@media (prefers-color-scheme: dark) {
+  .tag-a { background: #0C447C; color: #B5D4F4; }
+  .tag-b { background: #085041; color: #9FE1CB; }
+  .tag-c { background: #633806; color: #FAC775; }
+  .tag-d { background: #3C3489; color: #CECBF6; }
+  .tag-e { background: #712B13; color: #F5C4B3; }
+}
+.model-card {
+  border: 1px solid var(--color-border-tertiary); border-radius: 10px; padding: 16px;
+  background: var(--color-background-secondary); margin-bottom: 10px; cursor: pointer;
+  transition: border-color .15s;
+}
+.model-card:hover { border-color: var(--color-border-primary); }
+.model-header { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+.model-num { font-size: 22px; font-weight: 500; color: var(--color-text-tertiary); min-width: 36px; }
+.model-name { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+.model-meta { font-size: 12px; color: var(--color-text-tertiary); margin-bottom: 8px; }
+.model-body { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; }
+.model-example {
+  margin-top: 10px; padding: 10px 12px; border-radius: 8px;
+  background: var(--color-background-primary); border-left: 3px solid var(--color-border-secondary);
+  font-size: 12px; color: var(--color-text-secondary); line-height: 1.6;
+}
+.expert-card {
+  border: 1px solid var(--color-border-tertiary); border-radius: 12px; padding: 20px;
+  margin-bottom: 12px; background: var(--color-background-secondary);
+}
+.expert-header { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+.expert-avatar {
+  width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-size: 18px; font-weight: 500; flex-shrink: 0;
+}
+.expert-info .name { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+.expert-info .role { font-size: 12px; color: var(--color-text-tertiary); margin-top: 2px; }
+.logic-list { list-style: none; }
+.logic-list li {
+  padding: 8px 0; border-bottom: 1px solid var(--color-border-tertiary);
+  font-size: 13px; color: var(--color-text-secondary); line-height: 1.55;
+  display: flex; gap: 10px;
+}
+.logic-list li:last-child { border-bottom: none; }
+.logic-bullet { font-size: 16px; flex-shrink: 0; margin-top: -1px; }
+.section-intro { font-size: 13px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 16px; }
+.filter-bar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.filter-btn {
+  padding: 4px 12px; border-radius: 14px; border: 1px solid var(--color-border-secondary);
+  background: transparent; color: var(--color-text-secondary); font-size: 12px; cursor: pointer;
+  font-family: var(--font-sans); transition: all .15s;
+}
+.filter-btn.on {
+  background: var(--color-background-secondary); color: var(--color-text-primary);
+  border-color: var(--color-border-primary);
+}
+.count-badge {
+  display: inline-block; background: var(--color-background-secondary);
+  border: 1px solid var(--color-border-tertiary); border-radius: 10px;
+  padding: 1px 7px; font-size: 11px; color: var(--color-text-tertiary); margin-left: 6px;
+}
+</style>
+
+<div class="container">
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('c100')">100 核心概念</button>
+    <button class="tab" onclick="switchTab('m20')">20 思维模型</button>
+    <button class="tab" onclick="switchTab('e5')">5 位高手逻辑</button>
+  </div>
+
+  <!-- ===== 100 CONCEPTS ===== -->
+  <div class="panel active" id="c100">
+    <p class="section-intro">雅思口语满分体系的底层坐标系。掌握这100个概念，你能用行家视角审视自己的每一句话。</p>
+    <div class="filter-bar" id="concept-filters"></div>
+    <div class="card-grid" id="concept-grid"></div>
+  </div>
+
+  <!-- ===== 20 MODELS ===== -->
+  <div class="panel" id="m20">
+    <p class="section-intro">每个模型解决一类可复现的口语问题。不是技巧清单，是可反复调用的认知工具。</p>
+    <div id="model-list"></div>
+  </div>
+
+  <!-- ===== 5 EXPERTS ===== -->
+  <div class="panel" id="e5">
+    <p class="section-intro">向高手学习的本质不是模仿风格，而是提炼他们的判断标准——他们在乎什么，忽略什么。</p>
+    <div id="expert-list"></div>
+  </div>
+</div>
+
+<script>
+const CONCEPTS = [
+  // === 评分标准层 ===
+  { n:1, title:"Fluency & Coherence (FC)", desc:"语言流畅度与逻辑连贯性，占25%分值。核心不是语速，而是思路不断、停顿自然。", tag:"评分标准", tc:"tag-a" },
+  { n:2, title:"Lexical Resource (LR)", desc:"词汇资源，占25%。考查多样性、精准度与语境适配，不是词汇量的堆砌。", tag:"评分标准", tc:"tag-a" },
+  { n:3, title:"Grammatical Range & Accuracy (GRA)", desc:"语法范围与准确度，占25%。范围=能用多种句型；准确=不影响沟通的错误。", tag:"评分标准", tc:"tag-a" },
+  { n:4, title:"Pronunciation (Pron)", desc:"发音，占25%。考查清晰度与可理解性，非口音。连读、语调、节奏都在此维度。", tag:"评分标准", tc:"tag-a" },
+  { n:5, title:"Band descriptor 7.0 临界特征", desc:"7分临界：偶有重复/自我修正，词汇灵活使用，语法偶有错误但不影响沟通。", tag:"评分标准", tc:"tag-a" },
+  { n:6, title:"Band descriptor 6.0 vs 7.0 差异", desc:"6→7的跳跃关键：从「能说清楚」到「说得流畅且有深度」，停顿质量是分水岭。", tag:"评分标准", tc:"tag-a" },
+  { n:7, title:"Repair strategies（自我修正）", desc:"自我修正不扣分，但频繁修正说明输出监控过载。高分考生修正后即继续，不卡壳。", tag:"评分标准", tc:"tag-a" },
+  { n:8, title:"Communicative effectiveness", desc:"考官底层判断：这个人能否在真实场景中用英语完成沟通任务？超越考试思维的核心。", tag:"评分标准", tc:"tag-a" },
+
+  // === 流利度层 ===
+  { n:9, title:"Filler words vs fillers", desc:"um/uh是焦虑型填充；well/let me think是思考型过渡。后者不扣分，前者频繁则影响FC。", tag:"流利度", tc:"tag-b" },
+  { n:10, title:"Chunking（语块输出）", desc:"以意群为单位输出，而非逐词翻译。如「in the long run」作为整体激活，不拆开组装。", tag:"流利度", tc:"tag-b" },
+  { n:11, title:"Processing time（内部加工速度）", desc:"流利度的真正瓶颈是内容生成速度，不是嘴巴。提升方法：增加话题预储，减少临场构思。", tag:"流利度", tc:"tag-b" },
+  { n:12, title:"Automaticity（自动化程度）", desc:"常用句型达到自动化，才能把认知资源腾出来思考内容。目标：结构不占脑容量。", tag:"流利度", tc:"tag-b" },
+  { n:13, title:"Discourse marker使用逻辑", desc:"Actually/Honestly/To be fair等不是装饰词，是信号词——告诉听者逻辑关系的方向。", tag:"流利度", tc:"tag-b" },
+  { n:14, title:"False starts（冲口而出再改）", desc:"「I think— well, what I actually believe is...」属正常现象，不构成扣分，但需快速接续。", tag:"流利度", tc:"tag-b" },
+  { n:15, title:"Pacing（节奏控制）", desc:"快慢对比制造信息重量感。重要论点放慢，例子可加速。单一语速=无强调=无层次感。", tag:"流利度", tc:"tag-b" },
+  { n:16, title:"Response latency（反应延迟）", desc:"Part 1允许0.5-1秒内接话；Part 2有1分钟准备；Part 3可用「That's quite a thought-provoking question」争取时间。", tag:"流利度", tc:"tag-b" },
+
+  // === 词汇层 ===
+  { n:17, title:"Collocation accuracy（搭配准确度）", desc:"high possibility(✗) → strong possibility(✓)。搭配错误是6分考生的典型特征，比词汇量更关键。", tag:"词汇", tc:"tag-c" },
+  { n:18, title:"Idiomatic language", desc:"地道表达不等于俚语。「It's a double-edged sword」比「it has good and bad sides」更高级。", tag:"词汇", tc:"tag-c" },
+  { n:19, title:"Paraphrasing ability", desc:"能用不同词表达同一个意思，是LR高分的直接证明。练习：每句核心词至少备两种说法。", tag:"词汇", tc:"tag-c" },
+  { n:20, title:"Lexical precision（词义精准）", desc:"用「devastating」不用「very bad」；用「sceptical」不用「not sure」。精准>华丽。", tag:"词汇", tc:"tag-c" },
+  { n:21, title:"Topic-specific vocabulary", desc:"每个Part 2话题备5-8个专属词。谈科技用disruption/ecosystem/algorithm，谈健康用sedentary/well-being。", tag:"词汇", tc:"tag-c" },
+  { n:22, title:"Hedging language（模糊化表达）", desc:"「tend to/arguably/it's fair to say」体现学术理性，避免绝对化陈述带来的逻辑漏洞。", tag:"词汇", tc:"tag-c" },
+  { n:23, title:"Connotation awareness（词义色彩）", desc:"slim vs skinny, confident vs arrogant——词的情感色彩传递你的立场和品味。", tag:"词汇", tc:"tag-c" },
+  { n:24, title:"Discourse-level vocabulary", desc:"「This brings me to my main point」「What I mean is」——篇章层级的管理词汇，体现组织能力。", tag:"词汇", tc:"tag-c" },
+  { n:25, title:"Nominalization（名词化）", desc:"「The development of technology has transformed...」比「Technology has developed and transformed」更书面且高级。", tag:"词汇", tc:"tag-c" },
+  { n:26, title:"Collocational chunking", desc:"背词以搭配为单位：「make a significant contribution」而非单独背significant。", tag:"词汇", tc:"tag-c" },
+  { n:27, title:"Low-frequency vs high-frequency lexis", desc:"7+分需要展示低频但准确的词汇。「exacerbate」「pivotal」「nuanced」比简单词有辨别度。", tag:"词汇", tc:"tag-c" },
+  { n:28, title:"Lexical variation（同义替换）", desc:"全文不重复核心词。谈「问题」：issue→challenge→concern→dilemma轮换使用。", tag:"词汇", tc:"tag-c" },
+
+  // === 语法层 ===
+  { n:29, title:"Complex sentence structures", desc:"从句嵌套、条件句、让步句——不是展示语法的炫技，是精确表达复杂思想的必要工具。", tag:"语法", tc:"tag-d" },
+  { n:30, title:"Tense consistency（时态一致性）", desc:"叙述过去事件全用过去时，假设用虚拟语气。时态跳跃是常见失分点，自我监控优先修正。", tag:"语法", tc:"tag-d" },
+  { n:31, title:"Conditionals（条件句）", desc:"If I had studied harder, I would have... (反事实)。Part 3高频结构，展示假设推理能力。", tag:"语法", tc:"tag-d" },
+  { n:32, title:"Passive voice应用逻辑", desc:"主动vs被动不是风格选择，是信息焦点选择。「Technology is being misused」vs「People are misusing technology」强调点不同。", tag:"语法", tc:"tag-d" },
+  { n:33, title:"Relative clauses（定语从句）", desc:"「The reason why I feel this way is that...」「The city where I grew up...」精准定位信息，是流利连贯的重要工具。", tag:"语法", tc:"tag-d" },
+  { n:34, title:"Modal verbs语义层次", desc:"could/might/should/must各自的确定度不同。「It could be argued」vs「It must be」表达不同的把握程度。", tag:"语法", tc:"tag-d" },
+  { n:35, title:"Inversion for emphasis", desc:"「Not only does it...but also」「Rarely have I seen」——倒装句在Part 3中展示GRA范围，但一次足够。", tag:"语法", tc:"tag-d" },
+  { n:36, title:"Articles usage（冠词使用）", desc:"a/the/零冠词是非母语者最难自动化的系统。关键：the=已知信息；a=引入新信息；零冠词=泛指类别。", tag:"语法", tc:"tag-d" },
+  { n:37, title:"Gerund vs infinitive对比", desc:"I enjoy swimming(✓) vs I enjoy to swim(✗)。动名词vs不定式的搭配是搭配准确度的重要组成。", tag:"语法", tc:"tag-d" },
+  { n:38, title:"Ellipsis & substitution", desc:"避免重复的语法手段：「I think it's important, and so does my friend」。口语中体现自然流畅。", tag:"语法", tc:"tag-d" },
+
+  // === 口语结构层 ===
+  { n:39, title:"Part 1答题策略（Direct + Extend）", desc:"直接回答+1-2句延伸，不超过4句。Part 1不需要论证，需要自然、即时、有个人色彩。", tag:"口语结构", tc:"tag-e" },
+  { n:40, title:"Part 2话题卡解读策略", desc:"4个bullet points只是支架，不是必须逐一回答。围绕一个core story展开，比逐点更流畅。", tag:"口语结构", tc:"tag-e" },
+  { n:41, title:"Part 2 1分钟笔记策略", desc:"记关键词而非完整句，重点列出：时间线+核心事件+个人感受。不要写出会被你照读的句子。", tag:"口语结构", tc:"tag-e" },
+  { n:42, title:"Part 3抽象话题处理", desc:"从具体例子入手再升华到普遍规律。「In my personal experience → but broadly speaking → I think society...」", tag:"口语结构", tc:"tag-e" },
+  { n:43, title:"Follow-up question处理", desc:"考官追问=你的答案需要深化，不是否定。继续原有方向但增加层次，不要推翻前面说的内容。", tag:"口语结构", tc:"tag-e" },
+  { n:44, title:"2分钟时间分配（Part 2）", desc:"理想分配：背景介绍(20秒)+核心内容(80秒)+个人反思(20秒)。卡表练习直到不需要计时。", tag:"口语结构", tc:"tag-e" },
+  { n:45, title:"Opinion signalling", desc:"「From my perspective / As far as I can tell / I'm inclined to think」——立场表达词多元化，不只靠I think。", tag:"口语结构", tc:"tag-e" },
+  { n:46, title:"Concession structure（让步转折）", desc:"「While I can see the appeal of X, I still believe Y because...」——展示思维深度的核心句式。", tag:"口语结构", tc:"tag-e" },
+  { n:47, title:"Exemplification策略", desc:"举例不是为了填充时间，是为了让抽象论点可验证。好例子：具体+贴近生活+与论点因果相连。", tag:"口语结构", tc:"tag-e" },
+  { n:48, title:"Signposting language", desc:"「What I mean by that is / Let me elaborate on / To give you a concrete example」——引导考官跟着你的逻辑走。", tag:"口语结构", tc:"tag-e" },
+
+  // === 发音层 ===
+  { n:49, title:"Word stress规律", desc:"多音节词的重音位置影响可理解度。PHOtograph vs phoTOGraphy——名词动词重音位置不同。", tag:"发音", tc:"tag-a" },
+  { n:50, title:"Sentence stress（句子重音）", desc:"每句话有1-2个核心信息词需重读。重读错误导致沟通焦点偏移，是发音扣分的主要原因。", tag:"发音", tc:"tag-a" },
+  { n:51, title:"Intonation patterns（语调模式）", desc:"列举用上升调，结束用下降调，问题用上升调（是非问）或下降调（wh-问）。", tag:"发音", tc:"tag-a" },
+  { n:52, title:"Linking sounds（连读）", desc:"「turn it off」念作「tur-ni-toff」。连读是流利度的声学基础，缺乏连读=一字一顿=机器感。", tag:"发音", tc:"tag-a" },
+  { n:53, title:"Elision（省音）", desc:"「next day」省略[t]→「nex day」，「going to」→「gonna」。自然口语中省音不是懒，是规则。", tag:"发音", tc:"tag-a" },
+  { n:54, title:"Assimilation（同化）", desc:"「ten boys」→「tem boys」，[n]在双唇音前变[m]。理解同化能提升听力，掌握同化能提升发音自然度。", tag:"发音", tc:"tag-a" },
+  { n:55, title:"Schwa（弱化元音/ə/）", desc:"英语中最常见的音，出现在非重读音节。「about」「teacher」「camera」中的非重读音节都是/ə/。", tag:"发音", tc:"tag-a" },
+  { n:56, title:"Minimal pairs练习法", desc:"ship/sheep, hit/heat, bad/bed——聚焦容易混淆的音对进行辨析训练，比泛读有效10倍。", tag:"发音", tc:"tag-a" },
+
+  // === 话题内容层 ===
+  { n:57, title:"Personal narrative结构", desc:"个人故事的黄金结构：设定背景→核心事件→困难/转折→解决→反思/意义。", tag:"话题内容", tc:"tag-b" },
+  { n:58, title:"Abstract topic framework", desc:"抽象话题答题框架：观点陈述→原因分析（2条）→例子→让步→坚持立场。", tag:"话题内容", tc:"tag-b" },
+  { n:59, title:"Sensory details（感官细节）", desc:"「The smell of rain on hot pavement」「The deafening noise of the crowd」——感官细节让叙述立体。", tag:"话题内容", tc:"tag-b" },
+  { n:60, title:"Emotion & reflection（情感与反思）", desc:"高分答案的区别在于：不只说发生了什么，还说它对你意味着什么。加入情感层和反思层。", tag:"话题内容", tc:"tag-b" },
+  { n:61, title:"Contrast structure（对比结构）", desc:"「Before vs after」「Then vs now」「My country vs other countries」——对比天然制造话题深度。", tag:"话题内容", tc:"tag-b" },
+  { n:62, title:"Cause-effect reasoning", desc:"「This has led to / As a result / The knock-on effect is」——因果推理链是Part 3高分的核心能力。", tag:"话题内容", tc:"tag-b" },
+  { n:63, title:"Balanced perspective（平衡视角）", desc:"Part 3不需要你「正确」，需要你「有深度」。给出两面论点后坚定选择立场，比骑墙更高分。", tag:"话题内容", tc:"tag-b" },
+  { n:64, title:"Hypothetical reasoning（假设推理）", desc:"「If that were the case, we'd probably see...」——假设句激活GRA高分区，同时展示批判性思维。", tag:"话题内容", tc:"tag-b" },
+  { n:65, title:"Comparison & contrast signalling", desc:"whereas/in contrast/on the other hand的精确使用。注意：however表转折，whereas表平行对比，语义不同。", tag:"话题内容", tc:"tag-b" },
+  { n:66, title:"Data & evidence integration", desc:"「According to a recent survey / Research suggests / I read somewhere that」——引用数据增加说服力，不需要精确数字。", tag:"话题内容", tc:"tag-b" },
+
+  // === 互动策略层 ===
+  { n:67, title:"Active listening signals", desc:"与考官保持眼神接触，用点头、短暂的「right/I see」确认理解——非语言沟通也在评估范围。", tag:"互动策略", tc:"tag-d" },
+  { n:68, title:"Clarification request策略", desc:"听不懂时：「Could you rephrase that?」「Are you asking about X or Y?」——主动澄清比猜测更专业。", tag:"互动策略", tc:"tag-d" },
+  { n:69, title:"Topic redirection", desc:"遇到不熟悉话题时平滑转移：「That's an interesting angle. What I'm more familiar with is...」", tag:"互动策略", tc:"tag-d" },
+  { n:70, title:"Extending vs padding区别", desc:"延伸=增加实质性信息（原因/对比/举例）；填充=重复已说内容或用无意义词拖时间。考官能区分。", tag:"互动策略", tc:"tag-d" },
+  { n:71, title:"Register appropriateness（语域适配）", desc:"Part 1偏口语化，Part 3偏正式。全程用「gonna/wanna」或全程用书面语都是register失配。", tag:"互动策略", tc:"tag-d" },
+  { n:72, title:"Turn-taking signals", desc:"结束发言时的语调下降+短暂停顿，是向考官发出「我说完了」的信号。避免突然停下让气氛尴尬。", tag:"互动策略", tc:"tag-d" },
+
+  // === 备考方法层 ===
+  { n:73, title:"Shadowing technique（跟读模仿）", desc:"逐句模仿母语者的语调、节奏、连读——最高效的发音和流利度同步训练法。", tag:"备考方法", tc:"tag-c" },
+  { n:74, title:"Recording & self-assessment", desc:"录音是唯一能让你听到「别人眼中的你」的方法。每周至少录2次，聚焦1个维度评分。", tag:"备考方法", tc:"tag-c" },
+  { n:75, title:"Spaced repetition for vocabulary", desc:"新词学习后第1天、3天、7天、14天复习。Anki等工具自动化这个间隔，效率高于反复重读。", tag:"备考方法", tc:"tag-c" },
+  { n:76, title:"Deliberate practice原则", desc:"舒适区练习不提分。刻意练习=聚焦弱点+即时反馈+恰好超出能力边界的难度。", tag:"备考方法", tc:"tag-c" },
+  { n:77, title:"Mock exam simulation", desc:"真实模拟必须包含：陌生考官（或AI）、计时、录音、不允许暂停。舒适环境的练习不能迁移。", tag:"备考方法", tc:"tag-c" },
+  { n:78, title:"Input-output balance", desc:"只输入（看视频/背单词）不输出=学而不会用。理想比例：每1小时输入配30分钟口语输出。", tag:"备考方法", tc:"tag-c" },
+  { n:79, title:"Topic bank建设策略", desc:"准备20-25个核心话题，每个话题备：2个具体经历+3个可用词汇+1个对比角度。话题间内容可复用。", tag:"备考方法", tc:"tag-c" },
+  { n:80, title:"Interleaved practice（交叉练习）", desc:"比「今天专练Part 2」更有效的是混合练习三个Part。考试中题型随机，练习也应随机。", tag:"备考方法", tc:"tag-c" },
+
+  // === 心理与表现层 ===
+  { n:81, title:"Test anxiety management", desc:"焦虑消耗工作记忆，直接损害流利度。准备充分的人焦虑更少——「信心来自准备，不来自安慰」。", tag:"心理表现", tc:"tag-e" },
+  { n:82, title:"Growth mindset vs fixed mindset", desc:"相信发音/流利度可以通过练习提升的人，比相信「天赋决定一切」的人进步速度快3-5倍。", tag:"心理表现", tc:"tag-e" },
+  { n:83, title:"Present-moment focus", desc:"考试中分心于「我说错了」或「我会得多少分」都会损害表现。训练注意力回到「接下来我要说什么」。", tag:"心理表现", tc:"tag-e" },
+  { n:84, title:"Comfort zone expansion速度", desc:"每次练习只突破一个边界（新词汇/新结构/新话题），不要同时挑战所有弱点。", tag:"心理表现", tc:"tag-e" },
+  { n:85, title:"Performance vs competence gap", desc:"你知道的和你能在压力下说出来的之间有差距。考试失常的根本原因：自动化程度不足。", tag:"心理表现", tc:"tag-e" },
+
+  // === 高阶表达层 ===
+  { n:86, title:"Emphatic structures", desc:"「What I particularly like about it is...」「It's the variety that appeals to me most」——分裂句强调焦点，展示GRA范围。", tag:"高阶表达", tc:"tag-d" },
+  { n:87, title:"Rhetorical questions（修辞问句）", desc:"「Why does this matter? Well, I think...」——自问自答制造语篇节奏感，Part 3中偶用效果好。", tag:"高阶表达", tc:"tag-d" },
+  { n:88, title:"Metaphor & analogy", desc:"「It's like trying to build a house without a foundation」——类比能让考官在0.5秒内理解你的论点。", tag:"高阶表达", tc:"tag-d" },
+  { n:89, title:"Quantification language", desc:"「A considerable proportion / The vast majority / A mere fraction of」——量化词替代具体数字，增加学术感。", tag:"高阶表达", tc:"tag-d" },
+  { n:90, title:"Stance markers（立场标记词）", desc:"「Personally / From where I stand / As I see it」——立场词在Part 3中信号你在进行critical thinking。", tag:"高阶表达", tc:"tag-d" },
+  { n:91, title:"Cleft sentences（分裂句）", desc:"「It was the teacher who inspired me most」比「The teacher inspired me most」更具强调感和书面色彩。", tag:"高阶表达", tc:"tag-d" },
+  { n:92, title:"Ellipsis in spoken discourse", desc:"口语中省略已知信息：A: Did you enjoy it? B: Absolutely (enjoyed it). 完整句并非总是必要。", tag:"高阶表达", tc:"tag-d" },
+  { n:93, title:"Fronting for emphasis（话题前置）", desc:"「As for the economic impact, that's where I have real concerns」——话题前置制造戏剧感，口语中偶用。", tag:"高阶表达", tc:"tag-d" },
+
+  // === 考场实操层 ===
+  { n:94, title:"Part 1 warm-up心理定位", desc:"Part 1不是走过场，是建立良好考场节奏的机会。用Part 1找到语感，为Part 2热机。", tag:"考场实操", tc:"tag-e" },
+  { n:95, title:"Part 2笔记本使用策略", desc:"笔记本用来记触发词，不用来写稿。记「童年/书架/三年级/哭了」而非「When I was a child, I...」", tag:"考场实操", tc:"tag-e" },
+  { n:96, title:"时间超出怎么处理", desc:"Part 2说到2分钟考官会打断——这是正常的，不扣分。被打断说明你的输出量足够。", tag:"考场实操", tc:"tag-e" },
+  { n:97, title:"沉默处理策略", desc:"任何停顿超过3秒都显著影响FC分。宁可用填充词过渡，也不要沉默思考超过2秒。", tag:"考场实操", tc:"tag-e" },
+  { n:98, title:"考官追问策略", desc:"「That's a really interesting question. I suppose it depends on...」——争取1-2秒思考时间的专业方式。", tag:"考场实操", tc:"tag-e" },
+  { n:99, title:"Post-exam reflection protocol", desc:"考后24小时内记录：哪些话题答得好？哪里卡壳？哪个词用错了？——迭代改进的关键数据源。", tag:"考场实操", tc:"tag-e" },
+  { n:100, title:"One-week sprint策略", desc:"考前7天：停止学新知识，专注巩固已掌握的内容。每天2次模拟，录音对比，睡眠充足。", tag:"考场实操", tc:"tag-e" },
+];
+
+const MODELS = [
+  {
+    n:"01", name:"PEEL口语扩展模型",
+    meta:"适用场景：所有需要展开的答题 | 解决问题：答案过短或缺乏逻辑",
+    body:"Point（论点）→ Evidence/Example（证据/例子）→ Explanation（解释为何支持论点）→ Link（链回问题）。口语版本可简化为PEL，关键是Explanation——大多数考生有P和E，缺L导致答案「说了但没说明白」。",
+    example:"P: I think technology has improved education significantly.\nE: For instance, my younger sister uses online platforms to study math.\nL: This kind of personalised learning simply wasn't available before, which is why I believe technology has been genuinely transformative."
+  },
+  {
+    n:"02", name:"STAR+R叙事深度模型",
+    meta:"适用场景：Part 2个人经历类 | 解决问题：叙事平铺直叙，缺乏深度",
+    body:"Situation（背景）→ Task/Challenge（任务/挑战）→ Action（你做了什么）→ Result（结果）→ Reflection（反思/意义）。最后的R是高分和低分答案的分水岭——说完发生了什么，再说它对你意味着什么。",
+    example:"S: 三年前我第一次独自出行。T: 在陌生城市找不到酒店。A: 我鼓起勇气用英语向陌生人求助。R: 顺利解决了问题。R: That experience taught me that real communication matters far more than perfect grammar."
+  },
+  {
+    n:"03", name:"3V表达质量模型",
+    meta:"适用场景：全程自我监控 | 解决问题：内容好但表达平淡",
+    body:"Verbal（内容词汇）× Vocal（语调节奏音量）× Visual（面部表情眼神）。三个V共同决定表达的感染力。大多数人只训练Verbal，而Vocal的提升（起伏、停顿、强调）能在2周内显著改变考官的主观印象。",
+    example:"录视频复盘时三轨分开评：①词汇是否多样精准？②语调是否有起伏？③面部表情是否自然投入？找出最弱的那个V优先训练。"
+  },
+  {
+    n:"04", name:"「让步-坚持」论证框架",
+    meta:"适用场景：Part 3观点类问题 | 解决问题：答案过于片面或骑墙",
+    body:"先承认对立观点的合理性，再给出自己更有力的理由坚持立场。结构：「While it's true that X, I still believe Y because Z」。这个结构向考官展示：你理解复杂性，同时有独立判断——这正是Part 3评高分的隐含标准。",
+    example:"Q: Should children be taught to compete or cooperate?\n「While competition can motivate children in the short term, I firmly believe cooperation is more valuable in the long run, because modern workplaces fundamentally rely on collective problem-solving.」"
+  },
+  {
+    n:"05", name:"话题预储IPO模型",
+    meta:"适用场景：备考阶段 | 解决问题：临场内容空白，说不下去",
+    body:"Input（阅读/听力积累观点和案例）→ Process（用自己的话重组，贴上「可用话题」标签）→ Output（口头表达，形成「会说」的知识晶体）。只完成Input不算掌握，必须经过Output才能在压力下调用。",
+    example:"读到一篇关于社交媒体的文章后：Process→「这个观点可以用在科技话题/青少年话题/教育话题」→Output→对着录音机说30秒，确认自己能流利表达这个观点。"
+  },
+  {
+    n:"06", name:"「从具体到普遍」抽象化路径",
+    meta:"适用场景：Part 3泛化类问题 | 解决问题：无法从个人经历上升到社会层面",
+    body:"从自己的具体经历出发 → 推广到身边人的普遍经验 → 上升到社会/文化层面的规律。路径：「In my experience → Many people I know → I think this reflects a broader trend where...」三级跳制造答案的深度感。",
+    example:"Q: Do you think work-life balance is harder to achieve today?\n「Personally, I've noticed my own father works longer hours than his father did. And talking to friends, it seems like a common experience. I think this reflects a deeper structural issue — we've built an economy that rewards constant availability.」"
+  },
+  {
+    n:"07", name:"词汇三级替换系统",
+    meta:"适用场景：答题中词汇多样性 | 解决问题：反复使用同一个词",
+    body:"Level 1：同义词替换（good→beneficial/rewarding/valuable）\nLevel 2：句式重构（I like it → It appeals to me / I find it compelling）\nLevel 3：视角转换（The government should→ It falls on policymakers to / There's an obligation for authorities to）。备考时每个核心词备好三个替代方案。",
+    example:"话题词「problem」的三级准备：L1: issue / challenge / concern / dilemma; L2: It poses a significant challenge / struggles with...; L3: 从「there is a problem」换成「X is plagued by...」"
+  },
+  {
+    n:"08", name:"发音「三联训练」模型",
+    meta:"适用场景：发音提升 | 解决问题：发音训练效率低",
+    body:"Listen（精听目标发音片段，标注连读/弱化/语调）→ Shadow（0.5秒延迟跟读，不看文字）→ Record（录下自己的版本对比原版）。三步必须当天连续完成，隔天才复听。每次只选1分钟材料，但做到极致。",
+    example:"选一段BBC或NPR播客的1分钟片段→精听标注→跟读10遍→录音→对比原版找出3个差异→下次专项纠正这3个点。"
+  },
+  {
+    n:"09", name:"时间分配「2-8-2」模型",
+    meta:"适用场景：Part 2答题 | 解决问题：时间分配失衡",
+    body:"前20秒（背景设定）→ 中间80秒（核心内容展开，至少2个层次/细节）→ 最后20秒（反思或总结）。大多数人在核心内容上只说了30-40秒就枯竭，根本原因是话题储备不足，而非语言能力问题。",
+    example:"话题「Describe a book you enjoyed」：20秒交代书名和何时读；80秒讲述最打动你的一个场景+为什么感动+这本书对你的影响；20秒「This book fundamentally changed how I view...」"
+  },
+  {
+    n:"10", name:"「信号词导航」话语管理模型",
+    meta:"适用场景：全程逻辑呈现 | 解决问题：考官难以跟随你的思路",
+    body:"用话语信号词让考官预测你接下来要说什么。引入例子：「To illustrate this point」；转折：「That said / Having said that」；总结：「Ultimately / At the end of the day」；强调：「What I find most striking is」。信号词是你给考官的「路标」。",
+    example:"不用信号词：「Technology is good. There are some problems. It helps education.」\n用信号词：「Technology is generally beneficial. That said, it comes with real risks. What I find most significant is its impact on education.」"
+  },
+  {
+    n:"11", name:"弱点分类修复模型",
+    meta:"适用场景：备考策略制定 | 解决问题：不知道练什么",
+    body:"将问题分类：①输入问题（知识/词汇不足）②处理问题（组织逻辑缓慢）③输出问题（自动化不足，说不出来）。针对不同问题用不同方法：①增加输入；②做Topic Map练习；③反复朗读直到自动化。错误诊断比盲目练习重要10倍。",
+    example:"如果答题时频繁停顿找词→输出问题→解决方案：不是背更多单词，而是把已有词汇做输出练习直到自动化。如果词汇贫乏→输入问题→解决方案：定向积累该话题词汇。"
+  },
+  {
+    n:"12", name:"「比较时间轴」话题扩展模型",
+    meta:"适用场景：任何可以加入时间维度的话题 | 解决问题：内容平面，缺少层次",
+    body:"在原有答案基础上加入「过去→现在→未来」的时间轴对比，自动生成内容深度。「Ten years ago...but now...and I think in the future...」。这个模型特别适合科技/社会变化/个人成长类话题。",
+    example:"Q: How have shopping habits changed?\n「When I was young, my parents spent every Saturday at the local market. Now, most people order everything online. But I actually think we'll see a resurgence of physical stores — not for convenience, but for the experience.」"
+  },
+  {
+    n:"13", name:"「反驳自己」批判思维模型",
+    meta:"适用场景：Part 3高分区策略 | 解决问题：观点过于单一，缺乏批判深度",
+    body:"说出你的观点后，主动提出最强的反对意见，然后用更有力的理由回应。「One might argue that X. However, I'd counter that...」。这个自我辩论的结构直接映射考官对「critical thinking」的期待。",
+    example:"「I believe social media is harmful for teenagers. One might argue it helps them connect with peers globally. That's true, but the psychological research suggests that these shallow online connections often replace the deeper face-to-face relationships that adolescents genuinely need.」"
+  },
+  {
+    n:"14", name:"「感官细节」叙事增强模型",
+    meta:"适用场景：Part 2叙事类话题 | 解决问题：叙述干燥，缺乏感染力",
+    body:"在叙述中加入视觉/听觉/嗅觉/触觉/味觉细节，让考官能「进入」你的故事。「I still remember the smell of old books...the creak of the wooden floor...the afternoon sunlight...」。感官细节是词汇精准度的最好展示舞台。",
+    example:"差：「I visited a beautiful park and felt happy.」\n好：「I remember the damp grass beneath my feet, the distant sound of children laughing, and this overwhelming sense of calm I hadn't felt in months. It was exactly what I needed.」"
+  },
+  {
+    n:"15", name:"「答题三段式」结构模型",
+    meta:"适用场景：Part 3复杂问题 | 解决问题：答案结构混乱",
+    body:"Hook（1句，直接给出立场/核心观点）→ Develop（2-3句，展开原因/例子/对比）→ Wrap（1句，回扣问题或升华）。总字数控制在60-90秒内。超过这个时间不是深度，是冗余。",
+    example:"Q: Do you think governments should invest in space exploration?\nH: I have mixed feelings about this.\nD: While the scientific spinoffs are undeniable — GPS, satellite weather systems — I question the priority when millions lack clean water.\nW: Ultimately, I think it comes down to a society's values, not just its budget."
+  },
+  {
+    n:"16", name:"「准备1分钟」最大化模型",
+    meta:"适用场景：Part 2准备阶段 | 解决问题：1分钟没用好，上来就卡壳",
+    body:"60秒分配：10秒确定核心故事（选哪个经历）→ 20秒列3-4个关键词（按时间线）→ 15秒想结尾的反思句 → 15秒在脑里过一遍开头的句子。不要用30秒写完整句子，剩下30秒大脑空白。",
+    example:"话题「A time you helped someone」：10秒→选三年前帮邻居老人。20秒→关键词：rain/grocery bags/offered/her smile/connection with elderly。15秒→反思：「showed me small acts matter」。15秒→开口句演练。"
+  },
+  {
+    n:"17", name:"「焦虑重构」表现心理模型",
+    meta:"适用场景：考前和考中 | 解决问题：焦虑导致发挥失常",
+    body:"将「我很紧张」的身体信号重新标记为「我很兴奋/准备好了」。生理信号完全相同，但认知标签不同会导致不同的表现结果（哈佛研究）。考前对自己说：「I'm excited, not scared.」同时：准备充分是最好的焦虑药。",
+    example:"考前准备动作：5次深呼吸→「我已经为这次考试准备了X周」→「焦虑说明我在乎，在乎说明我认真」→进入考场时面带微笑（改变面部表情能反向影响情绪）。"
+  },
+  {
+    n:"18", name:"「输出倒逼输入」学习回路",
+    meta:"适用场景：整体备考策略 | 解决问题：学了很多但用不上",
+    body:"每次学习新词汇/结构后，当天必须口头使用3次。不是在脑里想，是说出来（对着录音机说）。只有进入「可以在压力下调用」的长期记忆，才算真正学会。输出是检验输入质量的唯一标准。",
+    example:"今天学了「a double-edged sword」→当天造3个不同场景的句子说出来→第3天再说一次→一周后仍能自然使用→这个词进入了你的「active vocabulary」。"
+  },
+  {
+    n:"19", name:"「弱项优先」练习分配模型",
+    meta:"适用场景：时间有限的备考阶段 | 解决问题：总在练擅长的，忽视弱项",
+    body:"将4个评分维度（FC/LR/GRA/Pron）分别打分（1-9），将70%的练习时间投入最低分的维度。同样的时间投入，提升弱项的分数回报远高于强化强项。每两周重新评估，动态调整比例。",
+    example:"自评：FC=6, LR=7, GRA=6, Pron=5 → 70%时间练Pron（shadowing/minimal pairs/录音对比）→ 两周后Pron=6.5 → 重新评估调整策略。"
+  },
+  {
+    n:"20", name:"「21天自动化」输出固化模型",
+    meta:"适用场景：目标结构/词汇的内化 | 解决问题：知道但说不出来",
+    body:"选择10个你「知道但用不熟」的结构或词汇，连续21天每天在不同话题中使用它们。第1-7天需要刻意想，第8-14天变得顺手，第15-21天达到不思而出。自动化程度才是考试压力下表现的真正保障。",
+    example:"目标结构：「It's worth noting that...」第1-7天：每天在随机话题答题中强制使用一次→第8天开始能自然嵌入→第21天在模拟考中无意识使用→自动化完成。"
+  },
+];
+
+const EXPERTS = [
+  {
+    name:"Simon Haines（雅思官方考官）",
+    role:"Former IELTS Examiner & simonhiggens.com",
+    color:"#E6F1FB", tcolor:"#0C447C",
+    letter:"S", lbg:"#185FA5", ltx:"#E6F1FB",
+    logics:[
+      { icon:"🎯", text:"考官在前30秒已经对你的Band有了初步印象。开头是否流畅、立场是否清晰，决定了后续评分的基准线。" },
+      { icon:"📐", text:"Task Response是写作的基础，但口语中同样存在「回应质量」概念——你的答案是否真正在回答问题？偏题比说错语法更致命。" },
+      { icon:"🔑", text:"词汇的精准度优先于词汇量。用错一个高级词，不如用对一个基础词。LR高分来自「对」，不来自「难」。" },
+      { icon:"⚖️", text:"7分和8分的差距通常不在语言本身，而在思维深度。能提出有细微差别（nuanced）观点的考生，考官会主动给更多发挥空间。" },
+      { icon:"🎙️", text:"发音清晰度>口音纯正度。中国口音不是问题，但吞音、弱化过度、句子重音错误会影响信息传递效率。" },
+    ]
+  },
+  {
+    name:"雅思8.5分高分考生（复合型）",
+    role:"知乎/小红书高分经验博主的底层共性逻辑",
+    color:"#E1F5EE", tcolor:"#085041",
+    letter:"8", lbg:"#0F6E56", ltx:"#E1F5EE",
+    logics:[
+      { icon:"📅", text:"他们的备考时间线都有一个共同点：至少3个月，最后1个月不学新知识，只做巩固和模拟。临阵磨枪不磨利，磨乱。" },
+      { icon:"🎯", text:"话题储备是核心护城河。他们准备了25-30个话题，每个话题有「核心故事」可以复用到多个题目中。" },
+      { icon:"🔄", text:"录音回听是他们最一致的习惯。不是偶尔录，是每次练习都录，每次都听，每次都记录一个改进点。" },
+      { icon:"🧩", text:"他们不怕「看起来重复」的练习。同一个话题答20遍，每遍换一种结构或词汇——重复+微变化=自动化的捷径。" },
+      { icon:"💡", text:"考前一周他们做的事：只练口语，不背单词；睡足8小时；保持英语输入环境（听播客/看英文内容）；不做任何新材料。" },
+    ]
+  },
+  {
+    name:"E2 IELTS（YouTube最大雅思频道）",
+    role:"语言学专业背景的口语教学团队",
+    color:"#FAEEDA", tcolor:"#633806",
+    letter:"E", lbg:"#BA7517", ltx:"#FAEEDA",
+    logics:[
+      { icon:"🏗️", text:"结构比内容更重要。同样的内容，用PEEL结构说出来，比散乱表达高0.5-1分。在口语上投资结构，比投资词汇回报更快。" },
+      { icon:"🔍", text:"他们的核心教学理念：展示你能做什么，而不是隐藏你不能做什么。主动用复杂结构，即使偶尔出错，也比全程用简单句更高分。" },
+      { icon:"📊", text:"每个评分维度是独立的。FC差不影响LR得高分——单独训练每个维度的策略，优于追求「整体提升」的模糊目标。" },
+      { icon:"🎭", text:"口语是表演，但不是装。Natural delivery比刻意展示更受考官青睐。最高境界：你的答案听起来像在真实对话，不像在完成任务。" },
+      { icon:"⏱️", text:"他们反复强调：考生在Part 3失分最多，原因不是语言，而是内容深度不足。解决方案：每天读一篇英文时事评论，积累观点原材料。" },
+    ]
+  },
+  {
+    name:"语言习得研究者（Krashen综合视角）",
+    role:"Second Language Acquisition理论的实践转化",
+    color:"#EEEDFE", tcolor:"#3C3489",
+    letter:"K", lbg:"#534AB7", ltx:"#EEEDFE",
+    logics:[
+      { icon:"🌊", text:"可理解性输入（Comprehensible Input）是语言习得的核心驱动。略高于当前水平（i+1）的输入，比死记硬背效率高10倍。" },
+      { icon:"😌", text:"情感过滤假说：焦虑会在大脑中建立一道「过滤器」，阻止语言输入被真正习得。降低学习焦虑，比增加学习强度更重要。" },
+      { icon:"🗣️", text:"「习得」vs「学习」的本质区别：习得是无意识内化（像母语那样）；学习是有意识记忆（像背规则那样）。口语考试调用的是前者，而非后者。" },
+      { icon:"📚", text:"大量可理解输入是词汇自动化的最有效途径。背单词表效率低的原因：缺乏语境，无法进入习得系统，只能在「学习」系统中短暂存在。" },
+      { icon:"🔁", text:"Output hypothesis（输出假说，Swain）：可理解输出——被迫完整表达——才能发现自己语言知识的缺口，促使主动学习填补。只输入不输出=永远不知道自己不会什么。" },
+    ]
+  },
+  {
+    name:"芭芭拉·奥克利（「学会如何学习」作者）",
+    role:"神经科学视角的学习效率底层逻辑",
+    color:"#FAECE7", tcolor:"#712B13",
+    letter:"B", lbg:"#993C1D", ltx:"#FAECE7",
+    logics:[
+      { icon:"🧠", text:"Focused vs Diffuse模式交替使用。专注练习后必须休息，大脑在休息（扩散模式）中整合刚才的输入。强迫自己连续练4小时，效果不如练2小时+休息。" },
+      { icon:"🔁", text:"间隔重复是记忆巩固的神经科学依据。新词汇在1天/3天/7天后再次输出，比当天重复10遍的记忆保留率高4-5倍。" },
+      { icon:"🎯", text:"刻意练习的关键：即时反馈。没有反馈的练习是在强化错误。每次练习后必须有某种形式的反馈（录音回听/他人批改/AI评估）。" },
+      { icon:"🔧", text:"「Einstellung效应」（定势效应）：当你有一个惯用方法时，它会阻止你看到更好的解决方案。在口语上的体现：长期用同样的句型答题，进步停滞。主动打破惯性。" },
+      { icon:"🌙", text:"睡眠是记忆巩固的关键窗口。考前削减睡眠备考是神经科学意义上的反智行为——睡眠不足导致记忆检索能力下降25-40%。" },
+    ]
+  },
+];
+
+let activeFilter = 'all';
+
+function switchTab(id) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['c100','m20','e5'][i] === id));
+  document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === id));
+}
+
+function renderFilters() {
+  const tags = ['all', ...new Set(CONCEPTS.map(c => c.tag))];
+  const bar = document.getElementById('concept-filters');
+  bar.innerHTML = tags.map(t => `<button class="filter-btn${t==='all'?' on':''}" onclick="filterConcepts('${t}')">${t==='all'?'全部':t}<span class="count-badge">${t==='all'?CONCEPTS.length:CONCEPTS.filter(c=>c.tag===t).length}</span></button>`).join('');
+}
+
+function filterConcepts(tag) {
+  activeFilter = tag;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('on', b.textContent.startsWith(tag==='all'?'全部':tag)));
+  renderConcepts();
+}
+
+function renderConcepts() {
+  const items = activeFilter === 'all' ? CONCEPTS : CONCEPTS.filter(c => c.tag === activeFilter);
+  document.getElementById('concept-grid').innerHTML = items.map(c => `
+    <div class="card" onclick="sendPrompt('详细解释雅思口语核心概念：${c.title}，包括实战应用和练习方法')">
+      <div class="card-num">#${String(c.n).padStart(2,'0')}</div>
+      <div class="card-title">${c.title}</div>
+      <div class="card-desc">${c.desc}</div>
+      <span class="card-tag ${c.tc}">${c.tag}</span>
+    </div>`).join('');
+}
+
+function renderModels() {
+  document.getElementById('model-list').innerHTML = MODELS.map(m => `
+    <div class="model-card" onclick="sendPrompt('详细解释雅思口语思维模型：${m.name}，给出3个不同话题的应用示例')">
+      <div class="model-header">
+        <span class="model-num">${m.n}</span>
+        <span class="model-name">${m.name}</span>
+      </div>
+      <div class="model-meta">${m.meta}</div>
+      <div class="model-body">${m.body.replace(/\n/g,'<br>')}</div>
+      <div class="model-example">${m.example.replace(/\n/g,'<br>')}</div>
+    </div>`).join('');
+}
+
+function renderExperts() {
+  document.getElementById('expert-list').innerHTML = EXPERTS.map(e => `
+    <div class="expert-card">
+      <div class="expert-header">
+        <div class="expert-avatar" style="background:${e.lbg};color:${e.ltx}">${e.letter}</div>
+        <div class="expert-info">
+          <div class="name">${e.name}</div>
+          <div class="role">${e.role}</div>
+        </div>
+      </div>
+      <ul class="logic-list">${e.logics.map(l=>`<li><span class="logic-bullet">${l.icon}</span><span>${l.text}</span></li>`).join('')}</ul>
+    </div>`).join('');
+}
+
+renderFilters();
+renderConcepts();
+renderModels();
+renderExperts();
+</script>

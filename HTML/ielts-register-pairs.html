@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IELTS 语域对照表</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --ink: #1a1a2e;
+    --paper: #f5f0e8;
+    --accent: #c8452a;
+    --gold: #d4a843;
+    --muted: #6b6560;
+    --card: #fffdf7;
+    --border: #e0d8cc;
+    --spoken: #2d6a4f;
+    --written: #1d3557;
+    --spoken-bg: #d8f3dc;
+    --written-bg: #dbe9f4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--ink);
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: -60px;
+    width: 200px; height: 200px;
+    background: var(--accent);
+    opacity: 0.15;
+    border-radius: 50%;
+  }
+
+  header::after {
+    content: '';
+    position: absolute;
+    bottom: -40px; right: -40px;
+    width: 150px; height: 150px;
+    background: var(--gold);
+    opacity: 0.12;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    color: #fff;
+    letter-spacing: 0.02em;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 span { color: var(--gold); }
+
+  .subtitle {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+
+  .search-wrap {
+    flex: 1;
+    min-width: 180px;
+    position: relative;
+  }
+
+  .search-wrap input {
+    width: 100%;
+    padding: 0.6rem 1rem 0.6rem 2.4rem;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    background: var(--paper);
+    color: var(--ink);
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .search-wrap input:focus { border-color: var(--accent); }
+
+  .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
+  .filters {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    padding: 0.45rem 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    background: transparent;
+    color: var(--muted);
+    transition: all 0.2s;
+    font-weight: 500;
+  }
+
+  .filter-btn.active, .filter-btn:hover {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+
+  .stats {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+
+  .legend {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--paper);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.78rem;
+    flex-wrap: wrap;
+  }
+
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; color: var(--muted); }
+
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  .badge-s { background: var(--spoken-bg); color: var(--spoken); }
+  .badge-w { background: var(--written-bg); color: var(--written); }
+  .badge-b { background: #f3e5f5; color: #6a1b9a; }
+
+  .category-section { padding: 1rem 1.5rem 0.5rem; }
+
+  .category-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .category-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.6rem;
+    padding: 0 1.5rem 1rem;
+  }
+
+  .pair {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: transform 0.15s, box-shadow 0.15s;
+    cursor: default;
+  }
+
+  .pair:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    border-color: #ccc;
+  }
+
+  .num {
+    font-size: 0.65rem;
+    color: var(--muted);
+    min-width: 22px;
+    font-weight: 500;
+    opacity: 0.6;
+  }
+
+  .spoken-word {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--spoken);
+    min-width: 110px;
+  }
+
+  .arrow {
+    color: var(--accent);
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .written-word {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--written);
+    flex: 1;
+  }
+
+  .use-badge {
+    flex-shrink: 0;
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  .col-headers {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .col-spoken { min-width: 140px; color: var(--spoken); }
+  .col-written { color: var(--written); }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--muted);
+    font-size: 0.75rem;
+    border-top: 1px solid var(--border);
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; padding: 0 1rem 1rem; }
+    .controls { padding: 1rem; }
+    .category-section { padding: 0.75rem 1rem 0.25rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IELTS <span>语域对照表</span></h1>
+  <p class="subtitle">口语用词 vs 写作用词 · 100+ 高频对照组</p>
+</header>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="search" placeholder="搜索单词..." oninput="filterPairs()">
+  </div>
+  <div class="filters">
+    <button class="filter-btn active" onclick="filterCat('all', this)">全部</button>
+    <button class="filter-btn" onclick="filterCat('verb', this)">动词</button>
+    <button class="filter-btn" onclick="filterCat('adj', this)">形容词</button>
+    <button class="filter-btn" onclick="filterCat('adv', this)">副词</button>
+    <button class="filter-btn" onclick="filterCat('phrase', this)">短语</button>
+  </div>
+  <span class="stats" id="stats"></span>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="badge badge-s">口语</span> 日常对话首选</div>
+  <div class="legend-item"><span class="badge badge-w">写作</span> 正式写作首选</div>
+  <div class="legend-item"><span class="badge badge-b">两用</span> 口语写作均可</div>
+</div>
+
+<div id="main-content"></div>
+
+<footer>共 <strong id="total-count"></strong> 组语域对照 · 雅思备考专用</footer>
+
+<script>
+const data = [
+  // === 动词：日常行为 ===
+  { cat: 'verb', group: '日常行为动词', spoken: 'get', written: 'obtain / acquire', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'give', written: 'provide / offer', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'use', written: 'utilize / employ', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'make', written: 'produce / generate', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'show', written: 'demonstrate / illustrate', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'find out', written: 'discover / identify', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'look into', written: 'investigate / examine', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'look at', written: 'analyze / assess', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'deal with', written: 'address / tackle', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'go up', written: 'increase / rise / surge', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'go down', written: 'decrease / decline / fall', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'keep', written: 'maintain / retain', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'help', written: 'facilitate / assist', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'try', written: 'attempt / endeavor', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'start', written: 'initiate / commence', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'stop', written: 'cease / halt / prohibit', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'think', written: 'consider / contemplate', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'think about', written: 'reflect on / deliberate', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'talk about', written: 'discuss / elaborate on', use: 'w' },
+  { cat: 'verb', group: '日常行为动词', spoken: 'set up', written: 'establish / found', use: 'w' },
+
+  // === 动词：认知/情感 ===
+  { cat: 'verb', group: '认知与情感动词', spoken: 'want', written: 'desire / seek', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'need', written: 'require / necessitate', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'know', written: 'recognize / acknowledge', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'feel', written: 'perceive / experience', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'believe', written: 'argue / contend / assert', use: 'b' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'worry about', written: 'be concerned about', use: 'b' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'care about', written: 'prioritize / value', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'agree', written: 'concur / endorse', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'disagree', written: 'dispute / refute / challenge', use: 'w' },
+  { cat: 'verb', group: '认知与情感动词', spoken: 'expect', written: 'anticipate / project', use: 'w' },
+
+  // === 动词：社会/制度 ===
+  { cat: 'verb', group: '社会与制度动词', spoken: 'ban', written: 'prohibit / restrict', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'allow', written: 'permit / authorize', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'make better', written: 'improve / enhance', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'make worse', written: 'exacerbate / worsen', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'cut down on', written: 'reduce / minimize', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'pay for', written: 'fund / finance', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'put in place', written: 'implement / enforce', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'take part in', written: 'participate in / engage in', use: 'b' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'point out', written: 'highlight / indicate', use: 'w' },
+  { cat: 'verb', group: '社会与制度动词', spoken: 'bring about', written: 'cause / result in / lead to', use: 'w' },
+
+  // === 形容词：评价类 ===
+  { cat: 'adj', group: '评价类形容词', spoken: 'good', written: 'beneficial / advantageous', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'bad', written: 'detrimental / adverse', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'big / huge', written: 'significant / substantial', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'small', written: 'minimal / negligible', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'a lot of', written: 'numerous / considerable', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'important', written: 'crucial / vital / paramount', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'hard', written: 'challenging / demanding', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'easy', written: 'straightforward / accessible', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'new', written: 'novel / innovative', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'old', written: 'traditional / conventional', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'different', written: 'distinct / diverse', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'same', written: 'identical / equivalent', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'clear', written: 'evident / apparent', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'real', written: 'genuine / authentic', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'tricky', written: 'complex / intricate', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'amazing', written: 'remarkable / extraordinary', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'awful / terrible', written: 'severe / grave', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'enough', written: 'sufficient / adequate', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'fair', written: 'equitable / impartial', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'rich', written: 'affluent / prosperous', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'poor', written: 'impoverished / underprivileged', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'happy', written: 'content / fulfilled', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'sad / upset', written: 'distressed / disheartened', use: 'w' },
+  { cat: 'adj', group: '评价类形容词', spoken: 'worried', written: 'apprehensive / alarmed', use: 'w' },
+
+  // === 副词 ===
+  { cat: 'adv', group: '副词', spoken: 'a lot', written: 'considerably / substantially', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'really', written: 'particularly / notably', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'basically', written: 'fundamentally / essentially', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'mostly', written: 'predominantly / largely', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'sometimes', written: 'occasionally / intermittently', use: 'b' },
+  { cat: 'adv', group: '副词', spoken: 'always', written: 'consistently / invariably', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'never', written: 'rarely / seldom', use: 'b' },
+  { cat: 'adv', group: '副词', spoken: 'quickly', written: 'rapidly / swiftly', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'slowly', written: 'gradually / incrementally', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'very', written: 'highly / extremely / markedly', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'just / simply', written: 'merely / solely', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'of course', written: 'evidently / undoubtedly', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'so (connector)', written: 'therefore / consequently', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'but', written: 'however / nevertheless', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'also', written: 'furthermore / in addition', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'I think', written: 'it is argued that / evidence suggests', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'you know', written: '(omit – filler)', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'like (filler)', written: '(omit)', use: 'w' },
+  { cat: 'adv', group: '副词', spoken: 'nowadays', written: 'in contemporary society / currently', use: 'b' },
+  { cat: 'adv', group: '副词', spoken: 'these days', written: 'in recent years / at present', use: 'b' },
+
+  // === 短语 ===
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'because of', written: 'due to / owing to', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'that\'s why', written: 'as a result / hence', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'if', written: 'provided that / given that', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'even though', written: 'although / despite the fact that', use: 'b' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'to be honest', written: 'admittedly / it must be acknowledged', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'I mean', written: 'that is to say / in other words', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'which means', written: 'which indicates / suggesting that', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'on top of that', written: 'moreover / in addition to this', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'at the end of the day', written: 'ultimately / in conclusion', use: 'w' },
+  { cat: 'phrase', group: '因果与逻辑短语', spoken: 'the thing is', written: 'the key issue is / the crux of the matter', use: 'w' },
+
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'people', written: 'individuals / the population', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'kids / children', written: 'adolescents / minors / the younger generation', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'old people', written: 'the elderly / senior citizens', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'jobs', written: 'employment / career prospects', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'money', written: 'financial resources / funding', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'health problems', written: 'health issues / medical conditions', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'the government', written: 'authorities / policymakers', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'companies', written: 'corporations / enterprises', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'countries', written: 'nations / states', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'the internet / tech', written: 'digital technology / technological advancement', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'school', written: 'educational institutions', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'crime', written: 'criminal activity / offenses', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'the environment', written: 'the natural environment / ecosystems', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'pollution', written: 'environmental degradation / contamination', use: 'w' },
+  { cat: 'phrase', group: '雅思写作高频名词短语', spoken: 'poverty', written: 'economic hardship / deprivation', use: 'w' },
+];
+
+let currentCat = 'all';
+let globalIndex = 1;
+
+function getBadge(use) {
+  if (use === 's') return '<span class="badge badge-s">口语</span>';
+  if (use === 'w') return '<span class="badge badge-w">写作</span>';
+  return '<span class="badge badge-b">两用</span>';
+}
+
+function renderAll(items) {
+  const container = document.getElementById('main-content');
+  container.innerHTML = '';
+  document.getElementById('stats').textContent = `显示 ${items.length} 组`;
+
+  if (items.length === 0) {
+    container.innerHTML = '<div class="no-results">没有找到匹配的词组，试试其他关键词</div>';
+    return;
+  }
+
+  const groups = {};
+  items.forEach((item, i) => {
+    if (!groups[item.group]) groups[item.group] = [];
+    groups[item.group].push({ ...item, idx: i + 1 });
+  });
+
+  Object.entries(groups).forEach(([group, pairs]) => {
+    const sec = document.createElement('div');
+    sec.innerHTML = `<div class="category-section"><div class="category-label">${group}</div></div>`;
+    container.appendChild(sec);
+
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    pairs.forEach(p => {
+      const div = document.createElement('div');
+      div.className = 'pair';
+      div.innerHTML = `
+        <span class="num">${p.idx}</span>
+        <span class="spoken-word">${p.spoken}</span>
+        <span class="arrow">→</span>
+        <span class="written-word">${p.written}</span>
+        <span class="use-badge">${getBadge(p.use)}</span>
+      `;
+      grid.appendChild(div);
+    });
+    container.appendChild(grid);
+  });
+}
+
+function filterPairs() {
+  const q = document.getElementById('search').value.toLowerCase();
+  let filtered = data.filter(p => currentCat === 'all' || p.cat === currentCat);
+  if (q) filtered = filtered.filter(p =>
+    p.spoken.toLowerCase().includes(q) || p.written.toLowerCase().includes(q)
+  );
+  renderAll(filtered);
+}
+
+function filterCat(cat, btn) {
+  currentCat = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  filterPairs();
+}
+
+document.getElementById('total-count').textContent = data.length;
+renderAll(data);
+</script>
+</body>
+</html>

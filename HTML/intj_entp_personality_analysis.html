@@ -1,0 +1,237 @@
+
+<style>
+  .section { margin-bottom: 2rem; }
+  .label { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 6px; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; }
+  .type-badge { display: inline-block; font-size: 22px; font-weight: 500; margin-bottom: 4px; }
+  .type-sub { font-size: 12px; color: var(--color-text-secondary); margin-bottom: 12px; }
+  .tag { display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 4px; margin: 2px; }
+  .tag-i { background: #EEEDFE; color: #3C3489; }
+  .tag-t { background: #E1F5EE; color: #085041; }
+  .func-row { display: flex; align-items: center; gap: 8px; margin: 5px 0; }
+  .func-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .func-label { font-size: 12px; color: var(--color-text-secondary); min-width: 30px; }
+  .func-name { font-size: 13px; color: var(--color-text-primary); }
+  .func-desc { font-size: 11px; color: var(--color-text-tertiary); }
+  .bar-row { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  .bar-label { font-size: 12px; color: var(--color-text-secondary); min-width: 72px; }
+  .bar-track { flex: 1; height: 5px; background: var(--color-background-secondary); border-radius: 3px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+  .bar-val { font-size: 12px; color: var(--color-text-secondary); min-width: 28px; text-align: right; }
+  .collab-row { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; }
+  .icon-box { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 13px; }
+  .collab-text { flex: 1; }
+  .collab-title { font-size: 13px; color: var(--color-text-primary); font-weight: 500; }
+  .collab-sub { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+  .tension-row { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; }
+  .section-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 10px; }
+  .divider { height: 0.5px; background: var(--color-border-tertiary); margin: 1.5rem 0; }
+  .vs-badge { text-align: center; font-size: 11px; color: var(--color-text-tertiary); padding: 4px 0; }
+</style>
+
+<div style="padding: 1.25rem 0">
+
+<div class="section">
+  <div class="label">人格概览</div>
+  <div class="grid2">
+    <div class="card">
+      <div class="type-badge" style="color: #534AB7;">INTJ</div>
+      <div class="type-sub">战略家 / The Architect</div>
+      <div>
+        <span class="tag tag-i">内向</span>
+        <span class="tag tag-i">直觉</span>
+        <span class="tag tag-i">思考</span>
+        <span class="tag tag-i">判断</span>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px; color: var(--color-text-secondary); line-height: 1.6;">
+        用宏观框架理解世界，极度自律，对低效零容忍。内部有精密运转的心智模型，外部表现为沉默的决断力。
+      </div>
+    </div>
+    <div class="card">
+      <div class="type-badge" style="color: #0F6E56;">ENTP</div>
+      <div class="type-sub">辩论家 / The Debater</div>
+      <div>
+        <span class="tag tag-t">外向</span>
+        <span class="tag tag-t">直觉</span>
+        <span class="tag tag-t">思考</span>
+        <span class="tag tag-t">感知</span>
+      </div>
+      <div style="margin-top: 10px; font-size: 12px; color: var(--color-text-secondary); line-height: 1.6;">
+        用挑战假设来探索真相，享受智识对抗，讨厌被规则约束。思维跳跃但逻辑严密，是天生的创意引擎。
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">核心认知功能</div>
+  <div class="grid2">
+    <div class="card">
+      <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px;">主导 → 辅助 → 第三 → 劣势</div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#534AB7;"></div>
+        <span class="func-label" style="color:#534AB7; font-weight:500;">Ni 主</span>
+        <span class="func-name">内倾直觉</span>
+        <span class="func-desc" style="margin-left:4px;">— 洞见未来模式</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#7F77DD;"></div>
+        <span class="func-label" style="color:#7F77DD; font-weight:500;">Te 辅</span>
+        <span class="func-name">外倾思考</span>
+        <span class="func-desc" style="margin-left:4px;">— 系统化执行</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#AFA9EC;"></div>
+        <span class="func-label" style="color:#AFA9EC;">Fi 第三</span>
+        <span class="func-name">内倾情感</span>
+        <span class="func-desc" style="margin-left:4px;">— 深层价值观</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#CECBF6;"></div>
+        <span class="func-label" style="color:#CECBF6;">Se 劣</span>
+        <span class="func-name">外倾感觉</span>
+        <span class="func-desc" style="margin-left:4px;">— 现实细节盲区</span>
+      </div>
+    </div>
+    <div class="card">
+      <div style="font-size: 12px; color: var(--color-text-secondary); margin-bottom: 8px;">主导 → 辅助 → 第三 → 劣势</div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#0F6E56;"></div>
+        <span class="func-label" style="color:#0F6E56; font-weight:500;">Ne 主</span>
+        <span class="func-name">外倾直觉</span>
+        <span class="func-desc" style="margin-left:4px;">— 发散无限可能</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#1D9E75;"></div>
+        <span class="func-label" style="color:#1D9E75; font-weight:500;">Ti 辅</span>
+        <span class="func-name">内倾思考</span>
+        <span class="func-desc" style="margin-left:4px;">— 逻辑自洽验证</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#5DCAA5;"></div>
+        <span class="func-label" style="color:#5DCAA5;">Fe 第三</span>
+        <span class="func-name">外倾情感</span>
+        <span class="func-desc" style="margin-left:4px;">— 群体氛围感知</span>
+      </div>
+      <div class="func-row">
+        <div class="func-dot" style="background:#9FE1CB;"></div>
+        <span class="func-label" style="color:#9FE1CB;">Si 劣</span>
+        <span class="func-name">内倾感觉</span>
+        <span class="func-desc" style="margin-left:4px;">— 细节流程盲区</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">特质维度对比</div>
+  <div class="card">
+    <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0 24px;">
+      <div>
+        <div style="font-size: 12px; color: #534AB7; font-weight:500; margin-bottom: 8px;">INTJ</div>
+        <div class="bar-row"><span class="bar-label">战略深度</span><div class="bar-track"><div class="bar-fill" style="width:95%;background:#534AB7;"></div></div><span class="bar-val">95</span></div>
+        <div class="bar-row"><span class="bar-label">执行力</span><div class="bar-track"><div class="bar-fill" style="width:90%;background:#534AB7;"></div></div><span class="bar-val">90</span></div>
+        <div class="bar-row"><span class="bar-label">系统性</span><div class="bar-track"><div class="bar-fill" style="width:92%;background:#534AB7;"></div></div><span class="bar-val">92</span></div>
+        <div class="bar-row"><span class="bar-label">创意发散</span><div class="bar-track"><div class="bar-fill" style="width:55%;background:#534AB7;"></div></div><span class="bar-val">55</span></div>
+        <div class="bar-row"><span class="bar-label">社交活力</span><div class="bar-track"><div class="bar-fill" style="width:30%;background:#534AB7;"></div></div><span class="bar-val">30</span></div>
+        <div class="bar-row"><span class="bar-label">灵活适应</span><div class="bar-track"><div class="bar-fill" style="width:48%;background:#534AB7;"></div></div><span class="bar-val">48</span></div>
+      </div>
+      <div>
+        <div style="font-size: 12px; color: #0F6E56; font-weight:500; margin-bottom: 8px;">ENTP</div>
+        <div class="bar-row"><span class="bar-label">战略深度</span><div class="bar-track"><div class="bar-fill" style="width:72%;background:#0F6E56;"></div></div><span class="bar-val">72</span></div>
+        <div class="bar-row"><span class="bar-label">执行力</span><div class="bar-track"><div class="bar-fill" style="width:45%;background:#0F6E56;"></div></div><span class="bar-val">45</span></div>
+        <div class="bar-row"><span class="bar-label">系统性</span><div class="bar-track"><div class="bar-fill" style="width:50%;background:#0F6E56;"></div></div><span class="bar-val">50</span></div>
+        <div class="bar-row"><span class="bar-label">创意发散</span><div class="bar-track"><div class="bar-fill" style="width:96%;background:#0F6E56;"></div></div><span class="bar-val">96</span></div>
+        <div class="bar-row"><span class="bar-label">社交活力</span><div class="bar-track"><div class="bar-fill" style="width:88%;background:#0F6E56;"></div></div><span class="bar-val">88</span></div>
+        <div class="bar-row"><span class="bar-label">灵活适应</span><div class="bar-track"><div class="bar-fill" style="width:85%;background:#0F6E56;"></div></div><span class="bar-val">85</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">协作优势</div>
+  <div class="card">
+    <div class="section-title">两者组合能做到什么？</div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#EEEDFE;">🔭</div>
+      <div class="collab-text">
+        <div class="collab-title">愿景 × 想象力</div>
+        <div class="collab-sub">INTJ 提供收敛的长期方向，ENTP 提供爆炸性的横向联想，两者碰撞产生既有深度又有广度的战略</div>
+      </div>
+    </div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#E1F5EE;">⚡</div>
+      <div class="collab-text">
+        <div class="collab-title">压力测试式决策</div>
+        <div class="collab-sub">ENTP 天然扮演"魔鬼代言人"，帮助 INTJ 发现计划盲点；INTJ 的深度追问反过来过滤 ENTP 的浮夸想法</div>
+      </div>
+    </div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#FAECE7;">🚀</div>
+      <div class="collab-text">
+        <div class="collab-title">创新 × 落地</div>
+        <div class="collab-sub">ENTP 是创意喷泉，INTJ 是工程师——前者提出"如果……会怎样"，后者转化为"怎样才能实现"</div>
+      </div>
+    </div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#EAF3DE;">🧠</div>
+      <div class="collab-text">
+        <div class="collab-title">共同语言：NT 理性</div>
+        <div class="collab-sub">两者都推崇逻辑、讨厌情绪化决策，能直接进入实质讨论，沟通效率极高</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">核心张力</div>
+  <div class="card">
+    <div class="section-title">哪里容易摩擦？</div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#FCEBEB;">⚙️</div>
+      <div class="collab-text">
+        <div class="collab-title">计划 vs 即兴</div>
+        <div class="collab-sub">INTJ 需要结构和确定性，ENTP 热爱开放式探索——在项目推进节奏上极易产生摩擦</div>
+      </div>
+    </div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#FAEEDA;">🎯</div>
+      <div class="collab-text">
+        <div class="collab-title">深度 vs 广度</div>
+        <div class="collab-sub">INTJ 认为 ENTP 浅尝辄止、虎头蛇尾；ENTP 认为 INTJ 过于固执、拒绝新信息</div>
+      </div>
+    </div>
+    <div class="collab-row">
+      <div class="icon-box" style="background:#EEEDFE;">💬</div>
+      <div class="collab-text">
+        <div class="collab-title">批评的解读方式</div>
+        <div class="collab-sub">ENTP 的辩驳是"探索真相"，INTJ 容易把它读成"对我的否定"——需要建立明确的沟通契约</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="label">最佳协作场景</div>
+  <div style="display:grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+    <div class="card" style="text-align:center; padding: 0.85rem;">
+      <div style="font-size: 20px; margin-bottom: 6px;">🏗️</div>
+      <div style="font-size: 12px; font-weight:500; color: var(--color-text-primary);">初创公司</div>
+      <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 4px;">ENTP 创始人 + INTJ 执行官的经典组合</div>
+    </div>
+    <div class="card" style="text-align:center; padding: 0.85rem;">
+      <div style="font-size: 20px; margin-bottom: 6px;">🔬</div>
+      <div style="font-size: 12px; font-weight:500; color: var(--color-text-primary);">研究与创新</div>
+      <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 4px;">假设生成与严格验证的完美分工</div>
+    </div>
+    <div class="card" style="text-align:center; padding: 0.85rem;">
+      <div style="font-size: 20px; margin-bottom: 6px;">♟️</div>
+      <div style="font-size: 12px; font-weight:500; color: var(--color-text-primary);">战略咨询</div>
+      <div style="font-size: 11px; color: var(--color-text-secondary); margin-top: 4px;">宏观洞察与多方案推演的组合</div>
+    </div>
+  </div>
+</div>
+
+</div>
