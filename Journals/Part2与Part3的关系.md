@@ -31,7 +31,6 @@
 - **关于禁忌：** 在 Part 3 里，“我朋友”和“我家人”就是考官眼中的毒药。只要你开口说“My friend...”，你的分数基本就锁死在 5.5 分了。
 - **关于心态：** 别把 Part 3 当成 Part 2 的续集。考官不是在听你唠嗑，你得假装自己是个“社会学家”，用客观、不抬杠、学术的调性对这个世界指点江山。
 
-
 ---
 
 ### 🛠️ 雅思口语 Part 2 $\to$ Part 3 状态机转换实例训练
@@ -43,11 +42,13 @@
 #### 示例一：科技与阅读 (Books vs. E-readers)
 
 ##### 1. Part 2 问答演示（自拍镜头：叙事流）
+
 - **考题**：Describe a book you read recently.
 - **常规高分输出**：
   > I read *Sapiens* last month on my Kindle. I chose it because I had free time during the holiday. It told a great story about human history. I was completely shocked by how agriculture changed our society.
 
 ##### 2. 状态机切换：进入 Part 3（无人机镜头：说理流）
+
 - **考题**：Do you think paper books will be replaced by e-readers?
 - **禁用词汇警告**：禁止出现 `I`, `my`, `Kindle`, `last month`（自拍视角垃圾信息）。
 - **语义升级编译映射表**：
@@ -66,11 +67,13 @@
 #### 示例二：健康与公共政策 (Health & Society)
 
 ##### 1. Part 2 问答演示（自拍镜头：叙事流）
+
 - **考题**：Describe a healthy habit you have.
 - **常规高分输出**：
   > I try to run in the park near my home three times a week. It helps me reduce work stress and sleep better at night. Sometimes my friends join me, and we drink organic milk after running.
 
 ##### 2. 状态机切换：进入 Part 3（无人机镜头：说理流）
+
 - **考题**：Should governments force fast food chains to reduce sugar in their meals?
 - **禁用词汇警告**：禁止出现 `I`, `my home`, `friends`, `run in the park`。
 - **语义升级编译映射表**：
