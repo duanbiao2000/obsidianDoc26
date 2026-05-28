@@ -30,3 +30,56 @@
 - **关于视角：** Part 2 是“手机自拍”，镜头只对着你自己；Part 3 是“无人机升空”，你必须把镜头拉高，俯瞰整个社会，少聊“我”，多聊“大家”。
 - **关于禁忌：** 在 Part 3 里，“我朋友”和“我家人”就是考官眼中的毒药。只要你开口说“My friend...”，你的分数基本就锁死在 5.5 分了。
 - **关于心态：** 别把 Part 3 当成 Part 2 的续集。考官不是在听你唠嗑，你得假装自己是个“社会学家”，用客观、不抬杠、学术的调性对这个世界指点江山。
+
+
+---
+
+### 🛠️ 雅思口语 Part 2 $\to$ Part 3 状态机转换实例训练
+
+通过以下两个高频话题考题，展示从“自拍模式（Part 2）”到“无人机模式（Part 3）”的硬核编译过程。
+
+---
+
+#### 示例一：科技与阅读 (Books vs. E-readers)
+
+##### 1. Part 2 问答演示（自拍镜头：叙事流）
+- **考题**：Describe a book you read recently.
+- **常规高分输出**：
+  > I read *Sapiens* last month on my Kindle. I chose it because I had free time during the holiday. It told a great story about human history. I was completely shocked by how agriculture changed our society.
+
+##### 2. 状态机切换：进入 Part 3（无人机镜头：说理流）
+- **考题**：Do you think paper books will be replaced by e-readers?
+- **禁用词汇警告**：禁止出现 `I`, `my`, `Kindle`, `last month`（自拍视角垃圾信息）。
+- **语义升级编译映射表**：
+
+| 转换维度 | 原始输入（Part 2 自拍镜头） | 编译后输出（Part 3 无人机镜头） |
+| :--- | :--- | :--- |
+| **主体去个人化** | I think people like reading e-books | Digital reading demographics / Readers in general |
+| **概念抽象化** | Paper books are heavy to carry | Physical print media / Portability constraints of paper |
+| **因果拓扑链条 (DAG)** | E-books are cheap, so people buy them. | Economic accessibility drives the decline of traditional print. |
+
+- **优化后的 Part 3 说理输出 (Drone Mode)**：
+  > Arguably, digital reading platforms will continue to dilute the market share of physical print media. This transition is not driven by mere convenience, but rather by the shifting consumption habits of the younger demographics, who prioritize instant data access over the tactile feedback of paper. While traditional books will persist as niche collectible items, economic accessibility and portability constraints will inevitably push mainstream information delivery to digitize completely.
+
+---
+
+#### 示例二：健康与公共政策 (Health & Society)
+
+##### 1. Part 2 问答演示（自拍镜头：叙事流）
+- **考题**：Describe a healthy habit you have.
+- **常规高分输出**：
+  > I try to run in the park near my home three times a week. It helps me reduce work stress and sleep better at night. Sometimes my friends join me, and we drink organic milk after running.
+
+##### 2. 状态机切换：进入 Part 3（无人机镜头：说理流）
+- **考题**：Should governments force fast food chains to reduce sugar in their meals?
+- **禁用词汇警告**：禁止出现 `I`, `my home`, `friends`, `run in the park`。
+- **语义升级编译映射表**：
+
+| 转换维度 | 原始输入（Part 2 自拍镜头） | 编译后输出（Part 3 无人机镜头） |
+| :--- | :--- | :--- |
+| **主体去个人化** | My running friends want to eat healthy | Citizens / Public health consumers |
+| **概念抽象化** | Fast food makes kids fat | Dietary risks / Public health externalities / Chronic diseases |
+| **因果拓扑链条 (DAG)** | Governments should ban sugar so people are healthy. | Systemic intervention is required to offset the external healthcare costs of metabolic illnesses. |
+
+- **优化后的 Part 3 说理输出 (Drone Mode)**：
+  > Systemic intervention remains necessary when dietary risks escalate into public health externalities. Although individual liberty dictates choice, the metabolic illness crisis exerts catastrophic financial damage on public healthcare budgets. Under this configuration, legislative caps on dietary sugar do not represent unnecessary restriction; instead, they function as an essential defensive strategy to pre-emptively mitigate the rise of cardiovascular issues in modern city lifestyles.

@@ -3,18 +3,7 @@ copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
-copilot-command-last-used: 0
-view-count: 16
-update: 2026-01-06 19:12
-related:
-  - "[[01清晰度架构师]]"
-  - "[[深度提问并Wiki回答]]"
-  - "[[如何将笔记结构化]]"
-  - "[[PERE元认知引擎-结构化目标]]"
-  - "[[Hierarchy is  everything]]"
-tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+copilot-command-last-used: 1779982155659
 ---
 你是一名「4D 笔记重构助手」，服务对象是高水平技术与知识工作者。你的任务是将 {activeNote} 从松散记录，重构为一份一页内可快速复用的高密度笔记。
 
