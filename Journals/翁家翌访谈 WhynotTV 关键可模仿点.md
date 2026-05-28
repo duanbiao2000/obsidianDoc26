@@ -14,11 +14,11 @@ excalidraw-plugin: parsed
 
 https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
-**卡片：翁家翌访谈（WhynotTV 4）– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
+**卡片：翁家翌访谈（WhynotTV #4）– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 
 ***
 
- 1. 价值观：Impact > 履历
+### 1. 价值观：Impact > 履历
 
 - 关注问题：我的东西**有多少真实用户 / 真实影响**，而不是能写多少条履历。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
- 2. 用开源项目当“长期资产”
+### 2. 用开源项目当“长期资产”
 
 - 代表：Tianshou、tuixue 等开源工具，降低别人做 RL、申请学校的门槛。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
- 3. 早练 Infra 和工程系统
+### 3. 早练 Infra 和工程系统
 
 - 重点：大规模训练、后训练流水线、监控、部署，这些 infra 决定“模型跑不跑得起来”。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
- 4. 松绑“名校 / 头衔”执念
+### 4. 松绑“名校 / 头衔”执念
 
 - 事实：传统评价体系（名校、排名）不完美，容易把人锁在“追标签”而不是“做事情”。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -54,7 +54,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
- 5. 把后训练当成“产品工程”
+### 5. 把后训练当成“产品工程”
 
 - 观点：GPT 类模型的好用程度，很大程度在 RLHF / 后训练阶段，而不只是参数规模。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -63,7 +63,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ***
 
- 6. 目标画像：研究 × 工程 × 产品的“综合体”
+### 6. 目标画像：研究 × 工程 × 产品的“综合体”
 
 - 环境：OpenAI 这种高密度团队里，纯研究 / 纯工程都不够吃香，“能把三者串起来的人”空间更大。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 - 行动：  
@@ -82,9 +82,9 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 ==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
- Excalidraw Data
+# Excalidraw Data
 
- Text Elements
+## Text Elements
 1. **信息差是可以被个人系统性缩小的** ^9MY5KUlN
 
 - 在清华公开作业、整理资料、做 tuixue，这些都说明：即使还是学生，也可以通过开源把整一代人的“信息差痛苦”显著降低，而不必等“体制来改”。​ ^vqMF5Lak
@@ -133,16 +133,16 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 
 - 即便主持人给了很多“核心贡献者”“关键跃迁”的标签，他讲自己的工作时语气很平实，经常把功劳摊回团队、基础设施和长时间积累上，这种叙述方式本身也很值得学。  ^w1nVqXpW
 
- Element Links
-3Hw84H78: [[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md2. 用开源项目当“长期资产”]]
+## Element Links
+3Hw84H78: [[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md#2. 用开源项目当“长期资产”]]
 
 %%
- Drawing
+## Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.20.6",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag2.23.7",
 	"elements": [
 		{
 			"id": "9MY5KUlN",
@@ -152,8 +152,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 364.0199890136719,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -169,7 +169,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 95,
 			"versionNonce": 2100482244,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -193,8 +193,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 645.0399780273438,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -210,7 +210,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 95,
 			"versionNonce": 1134827588,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -234,8 +234,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 449.47998046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -251,7 +251,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 95,
 			"versionNonce": 1266708420,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -275,8 +275,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 643.5999145507812,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -292,7 +292,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 95,
 			"versionNonce": 1424348996,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -316,8 +316,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 258.8199768066406,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -333,7 +333,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 94,
 			"versionNonce": 1815236292,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -357,8 +357,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 633.0199584960938,
 			"height": 50,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -374,7 +374,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 117,
 			"versionNonce": 1644418628,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"locked": false,
 			"text": "- 小时候和中学阶段，他就会主动选那些“短期不爽，但长期能放大的事”\n去做，比如竞赛训练、系统性看书，而不是只追眼前轻松。 ",
@@ -387,7 +387,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 小时候和中学阶段，他就会主动选那些“短期不爽，但长期能放大的事”去做，比如竞赛训练、系统性看书，而不是只追眼前轻松。 ",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "02Eh8EEU",
@@ -397,8 +398,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 267.47998046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -414,7 +415,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 145,
 			"versionNonce": 1127771588,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -438,8 +439,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 636.7999877929688,
 			"height": 50,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -455,7 +456,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 206,
 			"versionNonce": 1357780292,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"locked": false,
 			"text": "- 在清华时，他不是只抱怨课程作业难、资源不透明，而是直接把自己整\n理的作业与资料开源出来，让后来者少踩坑，用行动解决“信息差焦虑”。",
@@ -468,7 +469,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 在清华时，他不是只抱怨课程作业难、资源不透明，而是直接把自己整理的作业与资料开源出来，让后来者少踩坑，用行动解决“信息差焦虑”。 ",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "3HF465xk",
@@ -478,8 +480,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 342.4399719238281,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -495,7 +497,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 130,
 			"versionNonce": 2021838020,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -519,8 +521,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 642.760009765625,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -536,7 +538,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 224,
 			"versionNonce": 1268028484,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"locked": false,
 			"text": "- 他描述 Tianshou、tuixue 等项目时，语气更像在讲“给世界多留几个\n公共设施”，而不是“给自己多加几行履历”——出发点就是：别人能不能因\n此更轻松一点。",
@@ -549,7 +551,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 他描述 Tianshou、tuixue 等项目时，语气更像在讲“给世界多留几个公共设施”，而不是“给自己多加几行履历”——出发点就是：别人能不能因此更轻松一点。",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "EREa33Lo",
@@ -559,8 +562,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 325.17999267578125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -576,7 +579,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 106,
 			"versionNonce": 2013359044,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"link": null,
 			"locked": false,
@@ -600,8 +603,8 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"width": 636.7999877929688,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -617,7 +620,7 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"version": 121,
 			"versionNonce": 1072124740,
 			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1772734945383,
 			"locked": false,
 			"text": "- 留学申请季不顺利，他没有一直纠缠在“我凭什么没过”上，而是用这次\n挫败当契机，去质疑并部分“退出”原来的评价体系，把焦点放到自己真正\n想长期做什么上。",
@@ -630,18 +633,19 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 留学申请季不顺利，他没有一直纠缠在“我凭什么没过”上，而是用这次挫败当契机，去质疑并部分“退出”原来的评价体系，把焦点放到自己真正想长期做什么上。",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "Mw3oUDvI",
 			"type": "text",
-			"x": 1527.6877344075976,
-			"y": 5450.4594975808595,
+			"x": 1528.9378938029206,
+			"y": 5452.959816371505,
 			"width": 496.63995361328125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -654,11 +658,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aI8",
 			"roundness": null,
 			"seed": 124456132,
-			"version": 204,
-			"versionNonce": 1330260548,
+			"version": 207,
+			"versionNonce": 1528170584,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "5. 把“研究 × 工程 × 产品”当成一个人要练的统一技能包",
@@ -676,13 +680,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "hAet5IhV",
 			"type": "text",
-			"x": 1594.2177331868945,
-			"y": 5485.4594975808595,
+			"x": 1595.4678925822175,
+			"y": 5487.959816371505,
 			"width": 363.5799560546875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -695,11 +699,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aIG",
 			"roundness": null,
 			"seed": 1110184316,
-			"version": 204,
-			"versionNonce": 1553220036,
+			"version": 207,
+			"versionNonce": 1491287384,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "- 讲在 OpenAI 的工作时，他不断强调：",
@@ -717,13 +721,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "kOSAqCXQ",
 			"type": "text",
-			"x": 1647.9077356283008,
-			"y": 5520.4594975808595,
+			"x": 1649.1578950236237,
+			"y": 5522.959816371505,
 			"width": 256.199951171875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -736,11 +740,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aIO",
 			"roundness": null,
 			"seed": 1400165444,
-			"version": 204,
-			"versionNonce": 2007984452,
+			"version": 207,
+			"versionNonce": 1900139096,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "- 看得懂 paper、能做实验；",
@@ -758,13 +762,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "VP6WIVxp",
 			"type": "text",
-			"x": 1604.9577539388476,
-			"y": 5555.4594975808595,
+			"x": 1606.2079133341706,
+			"y": 5557.959816371505,
 			"width": 342.09991455078125,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -777,11 +781,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aIV",
 			"roundness": null,
 			"seed": 1780777468,
-			"version": 204,
-			"versionNonce": 1677304004,
+			"version": 207,
+			"versionNonce": 184928088,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "- 写得出可靠 infra、能跑大规模 RL；",
@@ -799,13 +803,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "Ji8XQnLX",
 			"type": "text",
-			"x": 1609.127736849004,
-			"y": 5590.4594975808595,
+			"x": 1610.3778962443268,
+			"y": 5592.959816371505,
 			"width": 333.75994873046875,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -818,11 +822,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aId",
 			"roundness": null,
 			"seed": 433695684,
-			"version": 204,
-			"versionNonce": 1225844804,
+			"version": 207,
+			"versionNonce": 310582360,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "- 又能对产品体验和 impact 有感觉。",
@@ -840,13 +844,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "SG39G1Rn",
 			"type": "text",
-			"x": 1494.6579187337693,
-			"y": 5618.134030255877,
+			"x": 1495.9080781290922,
+			"y": 5620.634349046523,
 			"width": 562.6995849609375,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -859,11 +863,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aIl",
 			"roundness": null,
 			"seed": 1253761660,
-			"version": 212,
-			"versionNonce": 718487492,
+			"version": 215,
+			"versionNonce": 1234030936,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"locked": false,
 			"text": "- 这不是三条路，要尽量在一个人身上同时修炼。",
 			"rawText": "- 这不是三条路，要尽量在一个人身上同时修炼。",
@@ -875,18 +879,19 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 这不是三条路，要尽量在一个人身上同时修炼。",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "mp5mJ6fP",
 			"type": "text",
-			"x": 1619.7277582113086,
-			"y": 5720.4594975808595,
+			"x": 1620.9779176066315,
+			"y": 5722.959816371505,
 			"width": 312.5599060058594,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -899,11 +904,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aJ",
 			"roundness": null,
 			"seed": 2092405572,
-			"version": 204,
-			"versionNonce": 1633593156,
+			"version": 207,
+			"versionNonce": 393864792,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "6. 讲 RLHF/后训练时非常“接地气”",
@@ -921,13 +926,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "DkrWXK9P",
 			"type": "text",
-			"x": 1456.6876733724414,
-			"y": 5754.181226305984,
+			"x": 1457.9378327677643,
+			"y": 5756.68154509663,
 			"width": 638.6400756835938,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -940,11 +945,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aJG",
 			"roundness": null,
 			"seed": 2058433276,
-			"version": 227,
-			"versionNonce": 286334660,
+			"version": 230,
+			"versionNonce": 1494965080,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"locked": false,
 			"text": "🌐- 他解释 post‑training 不是玄学，而是具体的：数据管线、奖励建\n模、评估指标、基础设施博弈，处处是工程 trade‑off，而不是只在\nPPT 上喊概念。 youtube",
 			"rawText": "- 他解释 post‑training 不是玄学，而是具体的：数据管线、奖励建模、评估指标、基础设施博弈，处处是工程 trade‑off，而不是只在 PPT 上喊概念。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)",
@@ -956,18 +961,19 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "🌐- 他解释 post‑training 不是玄学，而是具体的：数据管线、奖励建模、评估指标、基础设施博弈，处处是工程 trade‑off，而不是只在 PPT 上喊概念。 youtube",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": true
+			"hasTextLink": true,
+			"link": null
 		},
 		{
 			"id": "GHH731p0",
 			"type": "text",
-			"x": 1495.2877099935351,
-			"y": 5900.4594975808595,
+			"x": 1496.537869388858,
+			"y": 5902.959816371505,
 			"width": 561.4400024414062,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -980,11 +986,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aJV",
 			"roundness": null,
 			"seed": 711756484,
-			"version": 204,
-			"versionNonce": 579380804,
+			"version": 207,
+			"versionNonce": 818294872,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "7. 对宿命论的态度：承认决定论可能性，但仍然选择“活好当下”",
@@ -1002,13 +1008,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "qT52OGuf",
 			"type": "text",
-			"x": 1462.1146785595163,
-			"y": 5947.117557993527,
+			"x": 1463.3648379548392,
+			"y": 5949.617876784173,
 			"width": 627.7860653094439,
 			"height": 73.05955024686861,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1021,11 +1027,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aK",
 			"roundness": null,
 			"seed": 1753838460,
-			"version": 310,
-			"versionNonce": 983776708,
+			"version": 313,
+			"versionNonce": 1447978328,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"locked": false,
 			"text": "🌐- 在聊到未来与宿命论时，他可以理性接受“从物理角度看很多东西是\n定的”，但情绪上并没有因此摆烂，而是更强调“既然我控制不了初始条\n件，就更要把可控的每一步做到位”。 youtube",
 			"rawText": "- 在聊到未来与宿命论时，他可以理性接受“从物理角度看很多东西是定的”，但情绪上并没有因此摆烂，而是更强调“既然我控制不了初始条件，就更要把可控的每一步做到位”。 [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)",
@@ -1037,18 +1043,19 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "🌐- 在聊到未来与宿命论时，他可以理性接受“从物理角度看很多东西是定的”，但情绪上并没有因此摆烂，而是更强调“既然我控制不了初始条件，就更要把可控的每一步做到位”。 youtube",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": true
+			"hasTextLink": true,
+			"link": null
 		},
 		{
 			"id": "14hSLdRu",
 			"type": "text",
-			"x": 1642.9077203695117,
-			"y": 6080.4594975808595,
+			"x": 1644.1578797648347,
+			"y": 6082.959816371505,
 			"width": 266.1999816894531,
 			"height": 25,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1061,11 +1068,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aKV",
 			"roundness": null,
 			"seed": 1435931204,
-			"version": 204,
-			"versionNonce": 847177028,
+			"version": 207,
+			"versionNonce": 1728576088,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"link": null,
 			"locked": false,
 			"text": "8. 对自己贡献的叙述极度克制",
@@ -1083,13 +1090,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		{
 			"id": "w1nVqXpW",
 			"type": "text",
-			"x": 1456.007711214238,
-			"y": 6131.429668556043,
+			"x": 1457.257870609561,
+			"y": 6133.929987346689,
 			"width": 640,
 			"height": 75,
 			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "fab005",
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#fab005",
 			"fillStyle": "solid",
 			"strokeWidth": 4,
 			"strokeStyle": "solid",
@@ -1102,11 +1109,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"index": "aL",
 			"roundness": null,
 			"seed": 1652925436,
-			"version": 238,
-			"versionNonce": 259628228,
+			"version": 241,
+			"versionNonce": 902229848,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1772734965843,
+			"boundElements": [],
+			"updated": 1779979530087,
 			"locked": false,
 			"text": "- 即便主持人给了很多“核心贡献者”“关键跃迁”的标签，他讲自己的工作\n时语气很平实，经常把功劳摊回团队、基础设施和长时间积累上，这种叙\n述方式本身也很值得学。 ",
 			"rawText": "- 即便主持人给了很多“核心贡献者”“关键跃迁”的标签，他讲自己的工作时语气很平实，经常把功劳摊回团队、基础设施和长时间积累上，这种叙述方式本身也很值得学。 ",
@@ -1118,17 +1125,18 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"originalText": "- 即便主持人给了很多“核心贡献者”“关键跃迁”的标签，他讲自己的工作时语气很平实，经常把功劳摊回团队、基础设施和长时间积累上，这种叙述方式本身也很值得学。 ",
 			"autoResize": false,
 			"lineHeight": 1.25,
-			"hasTextLink": false
+			"hasTextLink": false,
+			"link": null
 		},
 		{
 			"id": "3Hw84H78",
 			"type": "embeddable",
 			"x": 1519.6580176108548,
-			"y": 5224.5613299276065,
+			"y": 5225.811489322929,
 			"width": 471.00308123787954,
 			"height": 154.29290118382124,
 			"angle": 0,
-			"strokeColor": "000000",
+			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1137,13 +1145,13 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"opacity": 100,
 			"roundness": null,
 			"seed": 4479,
-			"version": 327,
-			"versionNonce": 839020740,
-			"updated": 1772734958680,
+			"version": 329,
+			"versionNonce": 2031721000,
+			"updated": 1779979511448,
 			"isDeleted": false,
 			"groupIds": [],
 			"boundElements": [],
-			"link": "[[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md2. 用开源项目当“长期资产”]]",
+			"link": "[[Journals/翁家翌访谈 WhynotTV 关键可模仿点.md#2. 用开源项目当“长期资产”]]",
 			"locked": false,
 			"frameId": null,
 			"hasTextLink": false,
@@ -1156,61 +1164,22 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 					"useObsidianDefaults": false,
 					"backgroundMatchCanvas": false,
 					"backgroundMatchElement": true,
-					"backgroundColor": "fff",
+					"backgroundColor": "#fff",
 					"backgroundOpacity": 60,
 					"borderMatchElement": true,
-					"borderColor": "fff",
+					"borderColor": "#fff",
 					"borderOpacity": 0,
 					"filenameVisible": false
 				}
 			},
 			"index": "aV"
-		},
-		{
-			"text": "- 他描述 Tianshou、tuixue 等项目时，语气更像在讲“给世界多留几个公共设施”，而不是“给自己多加几行履历”——出发点就是：别人能不能因此更轻松一点。",
-			"fontSize": 20,
-			"fontFamily": 5,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"id": "wgeX2UBL",
-			"type": "text",
-			"x": 947.6857997200864,
-			"y": 6034.002354350241,
-			"width": 1413.4598388671875,
-			"height": 25,
-			"angle": 0,
-			"strokeColor": "1e1e1e",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"roundness": null,
-			"seed": 51273,
-			"version": 3,
-			"versionNonce": 487561468,
-			"updated": 1772734895597,
-			"isDeleted": true,
-			"groupIds": [],
-			"boundElements": [],
-			"link": null,
-			"locked": false,
-			"frameId": null,
-			"hasTextLink": false,
-			"containerId": null,
-			"originalText": "- 他描述 Tianshou、tuixue 等项目时，语气更像在讲“给世界多留几个公共设施”，而不是“给自己多加几行履历”——出发点就是：别人能不能因此更轻松一点。",
-			"rawText": "- 他描述 Tianshou、tuixue 等项目时，语气更像在讲“给世界多留几个公共设施”，而不是“给自己多加几行履历”——出发点就是：别人能不能因此更轻松一点。",
-			"lineHeight": 1.25,
-			"autoResize": true,
-			"index": "aW"
 		}
 	],
 	"appState": {
 		"theme": "light",
-		"viewBackgroundColor": "ffffff",
-		"currentItemStrokeColor": "1e1e1e",
-		"currentItemBackgroundColor": "fab005",
+		"viewBackgroundColor": "#ffffff",
+		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemBackgroundColor": "#fab005",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
@@ -1223,10 +1192,10 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 		"currentItemEndArrowhead": "arrow",
 		"currentItemArrowType": "round",
 		"currentItemFrameRole": null,
-		"scrollX": 10.49570974602861,
-		"scrollY": -4993.156983119163,
+		"scrollX": -674.7638236843824,
+		"scrollY": -4869.205636298684,
 		"zoom": {
-			"value": 0.676027
+			"value": 0.799898
 		},
 		"currentItemRoundness": "round",
 		"gridSize": 20,
@@ -1569,7 +1538,11 @@ https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s
 			"fromSelection": false,
 			"lastActiveTool": null
 		},
-		"disableContextMenu": false
+		"disableContextMenu": false,
+		"bindingPreference": "enabled",
+		"isBindingEnabled": true,
+		"isMidpointSnappingEnabled": true,
+		"boxSelectionMode": "contain"
 	},
 	"files": {}
 }

@@ -476,7 +476,7 @@ accepted
 
 - [完整开发指南](./DEVELOPER_GUIDE.md)
 - [系统README](./README.md)
-- [实施总结](../IMPLEMENTATION_SUMMARY.md)
+- [实施总结](IMPLEMENTATION_SUMMARY.md)
 
 ---
 
