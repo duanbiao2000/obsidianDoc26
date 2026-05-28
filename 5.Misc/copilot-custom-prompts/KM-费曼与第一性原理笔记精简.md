@@ -18,13 +18,13 @@ tags:
 
 ### 🛠️ Deconstruction Logic
 
-1.  **Feynman Filter (Simplicity)**:
+1. **Feynman Filter (Simplicity)**:
     - **Language**: No jargon. If a term is used, an analogy must follow.
     - **Test**: Can a 12-year-old explain the mechanism?
-2.  **First Principles Filter (Depth)**:
+2. **First Principles Filter (Depth)**:
     - **Method**: Ask "Why" 3+ times until reaching the non-reducible axiom.
     - **Reconstruction**: Strip derivatives; only rebuild from the axiom.
-3.  **Content Selection Matrix**:
+3. **Content Selection Matrix**:
 
 | Keep (Priority) | Delete (Noise) |
 | :--- | :--- |
@@ -37,11 +37,13 @@ tags:
 ### 📤 Output Format (Choose One)
 
 #### [Option A: Minimal Frame]
+
 - **Core Problem**: {The one question this note answers}
 - **Fundamental Insights**: {3-5 bullet points + Why they matter}
 - **Actionable Steps**: {Direct execution commands}
 
 #### [Option B: Structural Deep-Dive]
+
 - **Root Cause**: {Why this topic exists}
 - **Simple Definition**: {One jargon-free sentence}
 - **The Axiom**: {The underlying physical/logical law}
@@ -61,7 +63,7 @@ tags:
 
 ### 🚀 Quick Execution Guide
 
-1.  **Locate the Anchor**: Find the single most important claim in `{activeNote}`.
-2.  **Apply 3x Why**: Drill down to the physical or logical constraint.
-3.  **Translate**: Replace technical labels with functional descriptions.
-4.  **Audit**: Check against the `{wordLimit}`.
+1. **Locate the Anchor**: Find the single most important claim in `{activeNote}`.
+2. **Apply 3x Why**: Drill down to the physical or logical constraint.
+3. **Translate**: Replace technical labels with functional descriptions.
+4. **Audit**: Check against the `{wordLimit}`.

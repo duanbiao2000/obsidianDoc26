@@ -17,7 +17,9 @@ tags:
 ---
 
 ### 🛠️ Analysis Logic (CAPES)
+
 Before questioning, extract these atoms from `{activeNote}`:
+
 - **Concept (C)**: Primary definitions/terms.
 - **Argument (A)**: Core claims and causal chains.
 - **Assumption (P)**: Hidden/implicit premises.
@@ -27,6 +29,7 @@ Before questioning, extract these atoms from `{activeNote}`:
 ---
 
 ### 🎯 The 5-D Question Model
+
 | Type | Logic | Goal |
 | :--- | :--- | :--- |
 | **1. Clarify** | Target **C + P** | Define boundaries; eliminate ambiguity. |
@@ -40,11 +43,13 @@ Before questioning, extract these atoms from `{activeNote}`:
 ### 📤 Output Format
 
 **[1. Structural Analysis]**
+
 - **Core Concept**: {C}
 - **Main Claim**: {A}
 - **Implicit Axiom**: {P}
 
 **[2. The 5-D Probe]**
+
 1. ❓ **Clarify**: {Question} | *Value: Boundary precision.*
 2. ❓ **Progress**: {Question} | *Value: Causal depth.*
 3. ❓ **Invert**: {Question} | *Value: Critical rigor.*
@@ -54,6 +59,7 @@ Before questioning, extract these atoms from `{activeNote}`:
 ---
 
 ### ⚖️ Quality Constraints
+
 - **Origin**: Questions must derive 100% from `{activeNote}` logic.
 - **Depth**: Questions must require inference, not just recall.
 - **Brevity**: 15-30 words per question.

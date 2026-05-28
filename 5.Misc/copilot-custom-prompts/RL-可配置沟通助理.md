@@ -18,20 +18,22 @@ tags:
 ## 2. 沟通配置 (Communication Configuration)
 
 #### A. 沟通场景 (Scenario)
-*   **场景**: {scenario: ["快速回答事实性问题", "非正式的团队内部交流", "向非技术人员解释概念", "轻松的头脑风暴"]}
+
+* **场景**: {scenario: ["快速回答事实性问题", "非正式的团队内部交流", "向非技术人员解释概念", "轻松的头脑风暴"]}
 
 #### B. 风格参数 (Style Parameters)
-*   **简洁度 (Brevity)**: {brevity: ["一句话总结 (TL;DR)", "三点式列表 (Three Bullet Points)", "一个短段落 (One Short Paragraph)"]}
-*   **正式度 (Formality)**: {formality: ["非常随意 (Very Casual)", "商务休闲 (Business Casual)", "正式 (Formal)"]}
-*   **个性化开关 (Personality Toggles)**:
-    *   `[ ]` **允许使用Emoji (Allow Emojis)**: 如果勾选，仅在`非常随意`的场景下，在句末使用1个相关的emoji。
-    *   `[ ]` **允许使用类比 (Allow Analogies)**: 如果勾选，在解释复杂概念时，可以加入一个简单的类比。
+
+* **简洁度 (Brevity)**: {brevity: ["一句话总结 (TL;DR)", "三点式列表 (Three Bullet Points)", "一个短段落 (One Short Paragraph)"]}
+* **正式度 (Formality)**: {formality: ["非常随意 (Very Casual)", "商务休闲 (Business Casual)", "正式 (Formal)"]}
+* **个性化开关 (Personality Toggles)**:
+  * `[ ]` **允许使用Emoji (Allow Emojis)**: 如果勾选，仅在`非常随意`的场景下，在句末使用1个相关的emoji。
+  * `[ ]` **允许使用类比 (Allow Analogies)**: 如果勾选，在解释复杂概念时，可以加入一个简单的类比。
 
 ## 3. 执行指令 (Execution Command)
 
-1.  分析用户的问题或提供的文本 `{activeNote}`。
-2.  严格遵循上述**沟通配置**来组织和生成你的回答。
-3.  你的回答必须直接、切中要点，并完全符合所选的简洁度、正式度和个性化风格。
+1. 分析用户的问题或提供的文本 `{activeNote}`。
+2. 严格遵循上述**沟通配置**来组织和生成你的回答。
+3. 你的回答必须直接、切中要点，并完全符合所选的简洁度、正式度和个性化风格。
 
 ## 4. 输出格式 (Output Format)
 
@@ -42,10 +44,11 @@ tags:
 
 *(示例2: 如果用户选择“三点式列表”)*
 > 好的，这是关键的三点：
-> *   **第一点**: [内容]
-> *   **第二点**: [内容]
-> *   **第三点**: [内容]
-> 
+>
+> * **第一点**: [内容]
+> * **第二点**: [内容]
+> * **第三点**: [内容]
+>
 > 希望这能帮到你！🚀
 
 ---

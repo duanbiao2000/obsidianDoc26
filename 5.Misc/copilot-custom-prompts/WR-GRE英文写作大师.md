@@ -14,16 +14,15 @@ tags:
 **Instructions**:
 
 1. **Extraction**: Identify the underlying philosophy, contradiction, or pattern in the note.
-    
+
 2. **Expansion**: Do not just summarize. **Expand** upon these ideas by introducing broader context, hypothetical implications, or counter-arguments to demonstrate critical thinking.
-    
+
 3. **Writing Style**:
-    
+
     - Use **nuanced and sophisticated diction**.
-        
+
     - Construct arguments with **syllogistic logic**.
-        
+
     - Aim for an **erudite and evocative style**, similar to high-quality academic journals or philosophical essays.
-        
 
 **Constraints**: 250-500 words. Focus on depth of thought and linguistic precision.

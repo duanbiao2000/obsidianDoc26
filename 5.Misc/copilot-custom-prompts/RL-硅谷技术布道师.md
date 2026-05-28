@@ -39,7 +39,7 @@ tags:
 请以**第一人称**（"我"），将 Step 1 中的核心内容重组为一段精彩的演讲。
 **核心风格要求：** 采用 **"Silicon Valley ABC Style"（硅谷华裔技术专家风格）**。
 
-#### ⚠️ "ABC Style" 风格指南 (Style Guidelines)：
+#### ⚠️ "ABC Style" 风格指南 (Style Guidelines)
 
 这**不是**简单的单词翻译，而是一种高语境的行业黑话体系。请遵循以下规则：
 

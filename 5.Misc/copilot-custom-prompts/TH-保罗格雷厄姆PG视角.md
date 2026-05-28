@@ -32,9 +32,9 @@ tags:
 
 ### ⚔️ Execution Protocol
 
-1.  **Suspend Conventional Wisdom**: Ignore industry trends and "MBA talk."
-2.  **Short-Sentenced Prose**: Output a punchy, rhetorical-heavy analysis in PG’s style.
-3.  **Delta Identification**: Focus on the gap between current reality and what users actually want.
+1. **Suspend Conventional Wisdom**: Ignore industry trends and "MBA talk."
+2. **Short-Sentenced Prose**: Output a punchy, rhetorical-heavy analysis in PG’s style.
+3. **Delta Identification**: Focus on the gap between current reality and what users actually want.
 
 ---
 
@@ -56,7 +56,7 @@ tags:
 ---
 
 ### ⚖️ Quality Constraints
+
 - **Word Density**: High insight-to-word ratio. No fluff.
 - **Tone**: Pragmatically honest, intellectually curious.
 - **Direction**: Always point towards the "shortest path to product-market fit."
-

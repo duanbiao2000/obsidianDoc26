@@ -72,6 +72,7 @@ tags:
 ```
 
 **示例场景**:
+
 - 想优化笔记结构 → 搜索 `KM-` 或 `KM-笔记`
 - 需要提问框架 → 搜索 `TH-提问` 或 `TH-苏格拉底`
 - 模拟CEO视角 → 搜索 `RL-CEO`
@@ -92,6 +93,7 @@ tags:
 | [[MOC_学习记忆类提示词]] | Anki闪卡、记忆方法、学习系统 |
 
 MOC 文件包含:
+
 - 子分类组织
 - 热门提示词推荐
 - 详细功能说明
@@ -106,7 +108,9 @@ MOC 文件包含:
 **快速示例**:
 
 \`\`\`dataview
+
 # 查询所有知识管理类提示词
+
 LIST
 FROM "5.Misc/copilot-custom-prompts"
 WHERE contains(file.name, "KM-")
@@ -114,7 +118,9 @@ SORT file.name ASC
 \`\`\`
 
 \`\`\`dataview
+
 # 按使用频率排序
+
 TABLE file.link as "提示词", view-count as "使用次数"
 FROM "5.Misc/copilot-custom-prompts"
 WHERE view-count
@@ -195,6 +201,7 @@ LIMIT 10
 ## 💡 使用技巧
 
 ### 技巧1: 组合搜索
+
 ```
 "KM" + "卡片"  → 知识管理类卡片相关
 "RL" + "CEO"   → CEO角色相关
@@ -202,6 +209,7 @@ LIMIT 10
 ```
 
 ### 技巧2: 使用星标收藏
+
 在常用提示词的 YAML 中添加 `star: true`,然后用 Dataview 查询:
 \`\`\`dataview
 TABLE file.link as "星标提示词"
@@ -210,16 +218,21 @@ WHERE star
 \`\`\`
 
 ### 技巧3: 记录使用频率
+
 提示词 YAML 中的 `view-count` 字段会自动更新,可用于:
+
 - 发现最受欢迎的提示词
 - 清理长期未使用的提示词
 
 ### 技巧4: 自定义别名
+
 如果文件名太长,可以在 YAML 中添加 `aliases`:
 \`\`\`yaml
 ---
+
 aliases: [卡片生成, ZK卡片]
 ---
+
 \`\`\`
 然后可以通过别名搜索。
 
@@ -237,18 +250,22 @@ aliases: [卡片生成, ZK卡片]
 **示例**:
 \`\`\`yaml
 ---
+
 copilot-command-slash-enabled: true
 tags:
-  - #Domain/CopilotPrompts
-  - #Type/Prompt
+
+- #Domain/CopilotPrompts
+- #Type/Prompt
 view-count: 0
 update: 2026-01-24
+
 ---
 \`\`\`
 
 ### 更新 MOC 索引
 
 当添加新提示词时,记得在对应 MOC 文件中添加链接:
+
 - 在相应子分类下添加 `- [[新提示词名]] - 描述`
 - 更新数量统计
 

@@ -20,6 +20,7 @@ copilot-command-last-used: 0
 ### 按分类查询
 
 #### 知识管理类 (KM)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -28,6 +29,7 @@ SORT file.name ASC
 \`\`\`
 
 #### 思维框架类 (TH)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -36,6 +38,7 @@ SORT file.name ASC
 \`\`\`
 
 #### 角色扮演类 (RL)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -44,6 +47,7 @@ SORT file.name ASC
 \`\`\`
 
 #### 技术开发类 (TD)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -52,6 +56,7 @@ SORT file.name ASC
 \`\`\`
 
 #### 写作表达类 (WR)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -60,6 +65,7 @@ SORT file.name ASC
 \`\`\`
 
 #### 学习记忆类 (LR)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -72,6 +78,7 @@ SORT file.name ASC
 ## 📊 统计查询
 
 ### 分类统计
+
 \`\`\`dataview
 TABLE length(rows) as "数量"
 FROM "5.Misc/copilot-custom-prompts"
@@ -81,6 +88,7 @@ GROUP BY substring(name, 0, 2) AS category
 \`\`\`
 
 ### 按使用频率排序
+
 \`\`\`dataview
 TABLE
   file.link as "提示词",
@@ -92,6 +100,7 @@ LIMIT 20
 \`\`\`
 
 ### 最近更新的提示词
+
 \`\`\`dataview
 TABLE
   file.link as "提示词",
@@ -107,6 +116,7 @@ LIMIT 20
 ## 🔍 高级查询
 
 ### 搜索特定关键词
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -115,6 +125,7 @@ SORT file.name ASC
 \`\`\`
 
 ### 组合分类查询 (多个分类)
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -123,6 +134,7 @@ SORT file.name ASC
 \`\`\`
 
 ### 排除特定文件
+
 \`\`\`dataview
 TABLE file.link as "提示词"
 FROM "5.Misc/copilot-custom-prompts"
@@ -135,6 +147,7 @@ SORT file.name ASC
 ## 📑 列表查询
 
 ### 简洁列表 - 所有知识管理类
+
 \`\`\`dataview
 LIST
 FROM "5.Misc/copilot-custom-prompts"
@@ -143,6 +156,7 @@ SORT file.name ASC
 \`\`\`
 
 ### 带分组的列表
+
 \`\`\`dataview
 LIST rows.file.link
 FROM "5.Misc/copilot-custom-prompts"
@@ -155,6 +169,7 @@ GROUP BY substring(file.name, 0, 2)
 ## 📝 任务查询
 
 ### 查找待办事项 (如果有)
+
 \`\`\`dataview
 TASK
 FROM "5.Misc/copilot-custom-prompts"
@@ -167,6 +182,7 @@ GROUP BY file.link
 ## 🔗 相关链接查询
 
 ### 显示有相关链接的提示词
+
 \`\`\`dataview
 TABLE
   file.link as "提示词",
@@ -181,6 +197,7 @@ SORT file.name ASC
 ## 🎯 快速查询示例
 
 ### 查找所有角色类提示词
+
 \`\`\`dataview
 LIST
 FROM "5.Misc/copilot-custom-prompts"
@@ -188,6 +205,7 @@ WHERE contains(file.name, "Role") OR contains(file.name, "RL-")
 \`\`\`
 
 ### 查找所有写作类提示词
+
 \`\`\`dataview
 LIST
 FROM "5.Misc/copilot-custom-prompts"
@@ -195,6 +213,7 @@ WHERE contains(file.name, "WR-") OR contains(file.name, "写作") OR contains(fi
 \`\`\`
 
 ### 查找所有闪卡相关
+
 \`\`\`dataview
 LIST
 FROM "5.Misc/copilot-custom-prompts"

@@ -47,11 +47,13 @@ tags:
 将原文内容重构为高分作文结构：
 
 **中文科适用结构**:
+
 1. **破题起承** - 以反问/对比/名言引出论点
 2. **分层论证** - 正反/递进/并列三种论证逻辑
 3. **深化收束** - 升华主题，呼应开头
 
 **英文科适用结构**:
+
 1. **Hook & Thesis** - 引子 + 清晰立场
 2. **PEEL Chain** - Point → Evidence → Explanation → Link
 3. **Sophisticated Conclusion** - 重申论点 + 展望延伸
@@ -71,18 +73,22 @@ tags:
 #### 句式升级模板
 
 **倒装句**:
+
 - 原句: "我从未见过如此..."
 - 升级: "Never have I witnessed..." / "Rarely does one encounter..."
 
 **虚拟语气**:
+
 - 原句: "如果...就会..."
 - 升级: "Were it to..., ... would inevitably..." / "Had it not been for..."
 
 **分词短语**:
+
 - 原句: "因为...所以..."
 - 升级: "Acknowledging..., one must recognize..." / "Given..., it follows that..."
 
 **被动强调**:
+
 - 原句: "大家应该关注..."
 - 升级: "Attention must be duly paid to..." / "It is imperative that..."
 
@@ -93,6 +99,7 @@ tags:
 ### 标准输出格式
 
 \`\`\`markdown
+
 # [DSE 5** 双语精进版]
 
 ## Part 1: 双语深度阅读
@@ -143,11 +150,13 @@ tags:
 ## Part 4: 升级总结
 
 ### 原文诊断
+
 - 当前等级: Level X/Y
 - 核心问题: ...
 - 提升方向: ...
 
 ### 质量检查清单
+
 - [ ] **词汇精准**: 使用 3-5 个高级词汇，避免生僻词
 - [ ] **句式多样**: 包含 2-3 种高级句式，保持易读性
 - [ ] **论证深度**: 论点有层次递进，逻辑清晰
@@ -161,12 +170,15 @@ tags:
 ## 🚀 快速模式
 
 ### /minimal - 快速升级模式
+
 仅输出 Part 1 双语对照，跳过解析部分。
 
 ### /compare - 三段对照模式
+
 原文 → 双语改写 → 解析，完整展示升级路径。
 
 ### /vocab-only - 词汇聚焦模式
+
 仅输出 Part 2 词汇表，保留原文句式。
 
 ---
@@ -176,11 +188,13 @@ tags:
 ### 开头万能句
 
 **中文**:
+
 - "诚然，...但..."
 - "...这一问题早已备受社会关注，其核心在于..."
 - "纵观古今，..." / "置身于...的时代洪流中"
 
 **英文**:
+
 - "In an era characterized by..."
 - "A contentious issue that has sparked intense debate is..."
 - "While some may argue..., a closer examination reveals..."
@@ -198,6 +212,7 @@ tags:
 ## 💡 使用示例
 
 **输入**:
+
 ```
 社交媒体对青少年有坏处。它让人分心，影响学习。
 很多学生花太多时间刷手机，成绩变差了。
@@ -206,6 +221,7 @@ tags:
 **输出** (DSE Level 5-5** 双语版本):
 
 \`\`\`markdown
+
 ## Part 1: 双语深度阅读
 
 ### 引言：问题陈述

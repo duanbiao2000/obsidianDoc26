@@ -13,7 +13,8 @@ copilot-command-last-used: 1779978702016
 ---
 
 ### 🎯 Card Axioms
-- **Atomicity**: One core idea per card. 
+
+- **Atomicity**: One core idea per card.
 - **Self-Sufficiency**: Understandable without parent context.
 - **Linkage**: Explicitly connect to previous/next concepts in `{activeNote}`.
 - **Feynman Test**: Explain it so a 12-year-old understands the mechanism.
@@ -21,6 +22,7 @@ copilot-command-last-used: 1779978702016
 ---
 
 ### 🏷️ Metadata & Tagging Spec
+
 - **ID**: `{timestamp}` + `A/B/C` suffix.
 - **Title**: `[Core Claim] ([Primary Question])`
 - **Tags**: 5-8 total (1 Method + 1 Level + 2 Domain + 1 Actionable).
@@ -33,6 +35,7 @@ copilot-command-last-used: 1779978702016
 ### 🏗️ Standard Card Template (Output Format)
 
 ## 卡片 {序号}
+
 **ID:** `{timestamp}{suffix}` | **Tags:** {Tags}
 **Title:** **{Title}** ^{anchor}
 
@@ -40,15 +43,18 @@ copilot-command-last-used: 1779978702016
 {One jargon-free sentence explaining the essence}.
 
 **[Feynman Deconstruction]**
+
 - **L1 (Surface)**: {Simple "What"}.
 - **L2 (Mechanism)**: {Deep "Why"}.
 - **L3 (Action)**: {Immediate "How"}.
 
 **[Application]**
+
 - **Scenario ✅**: {Best use case}.
 - **Antipattern ❌**: {Common misuse + Consequence}.
 
 **[Connectivity]**
+
 - **Prerequisite**: [[#^prev_anchor]] (Why it's needed).
 - **Derivative**: [[#^next_anchor]] (What it enables).
 - **Comparison**: [[#^peer_anchor]] (Key difference).
@@ -56,6 +62,7 @@ copilot-command-last-used: 1779978702016
 ---
 
 ### ⚖️ Quality Audit (Execution Filter)
+
 - [ ] **Jargon Check**: Is every technical term translated or analogized?
 - [ ] **Atomic Check**: Does this card contain only ONE distinct thesis?
 - [ ] **Logic Flow**: Do the cards follow an `Entry → Mastery` progression?
@@ -64,6 +71,7 @@ copilot-command-last-used: 1779978702016
 ---
 
 ### 🚀 Quick Trigger Scenarios
+
 - **Scenario A (Concept)**: Focus on `Definition` + `Analogy`.
 - **Scenario B (Method)**: Focus on `Mechanism` + `Steps` + `Pitfalls`.
 - **Scenario C (System)**: Generate 7-10 interconnected cards mapping the entire `{activeNote}` topology.

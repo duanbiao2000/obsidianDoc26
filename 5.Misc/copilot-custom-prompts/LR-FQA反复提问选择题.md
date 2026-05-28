@@ -18,6 +18,7 @@ tags:
 ---
 
 ### 🎯 MCQ Logic Constraints
+
 - **Goal**: Why > What. Mechanism > Fact. Boundary > Definition.
 - **Mapping**:
   1. **Value**: Why this method? (Efficiency/Load)
@@ -31,6 +32,7 @@ tags:
   - Correct answer ≠ Longest answer.
 
 ### 🪤 Distractor Hierarchy (Priority)
+
 1. **Surface Truth**: Factually correct from text but violates the core principle.
 2. **Reversed Causal**: Swapped Cause/Effect.
 3. **Missing Context**: Correct only if ignoring specific constraints.
@@ -47,14 +49,15 @@ A. {Option} | B. {Option} | C. {Option} | D. {Option}
 **Answer: {Letter}**
 
 **[Logic]**: First principles analysis. Why this is the optimal choice (30 words).
-**[Traps]**: 
+**[Traps]**:
+
 - **A/B/D**: Why they attract (Surface logic) vs. Why they fail (Deep principle).
 **[Insight]**: Real-world application, boundary cases, or common misuse (40 words).
 
 ---
 
 ### 🛠️ Model Tuning
+
 - **Claude**: "Think from first principles." (Temp: 0.3)
 - **GPT-4**: "Chain-of-Thought before generating." (Temp: 0.2)
 - **Gemini**: "Use comparative framework." (Temp: 0.3)
-
