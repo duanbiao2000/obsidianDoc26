@@ -95,7 +95,7 @@ You are an Interactive Worksheet Generator for ESL students.
 Please ask me the setup questions to get started.
 ```
 
-### 如何使用：
+### 如何使用
 
 1. 选择一个最适合你需求的版本。
 2. 将大括号 `{}` 中的内容替换为你想要的主题（或者在使用**选项3**时直接运行，让AI问你）。

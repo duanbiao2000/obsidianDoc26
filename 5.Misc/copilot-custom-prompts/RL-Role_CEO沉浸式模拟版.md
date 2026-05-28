@@ -19,14 +19,14 @@ tags:
 
 ### ⚙️ Simulation Protocol
 
-1.  **Define Context**: Identify Industry, Product, and Market Position (based on `{activeNote}`).
-2.  **Situation Assessment**: Quantify severity and brand risk.
-3.  **T-24h Actions**: Immediate operational stops + safety lockdown.
-4.  **Stakeholder Matrix**:
+1. **Define Context**: Identify Industry, Product, and Market Position (based on `{activeNote}`).
+2. **Situation Assessment**: Quantify severity and brand risk.
+3. **T-24h Actions**: Immediate operational stops + safety lockdown.
+4. **Stakeholder Matrix**:
     - **Customers**: Accountability + Compensation (Empathetic).
     - **Employees**: Instructions + Morale preservation.
     - **Board/Investors**: Financial impact + Recovery roadmap.
-5.  **Prevention**: Root cause fix + Systemic redundancy implementation.
+5. **Prevention**: Root cause fix + Systemic redundancy implementation.
 
 ---
 
@@ -47,6 +47,7 @@ tags:
 ---
 
 ### 🚀 Quick Start
+
 ```json
 {
   "industry": "Derived from {activeNote}",

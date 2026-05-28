@@ -18,10 +18,10 @@ tags:
 
 ### 🛠️ Deconstruction Logic (The 4-Layer Ladder)
 
-1.  **L1: Root (Why)**: The fundamental problem it solves + Why it exists.
-2.  **L2: Mechanism (What)**: First Principles → Logic Chain → Math/Logic Basis.
-3.  **L3: Implementation (How)**: Atomic steps + Technical code/params + Constraints.
-4.  **L4: Beyond (Synthesis)**: Trade-offs + Boundaries (where it fails) + Extensions.
+1. **L1: Root (Why)**: The fundamental problem it solves + Why it exists.
+2. **L2: Mechanism (What)**: First Principles → Logic Chain → Math/Logic Basis.
+3. **L3: Implementation (How)**: Atomic steps + Technical code/params + Constraints.
+4. **L4: Beyond (Synthesis)**: Trade-offs + Boundaries (where it fails) + Extensions.
 
 ---
 
@@ -48,6 +48,7 @@ tags:
 ---
 
 ### ⚖️ Quality Audit (Self-Check)
+
 - [ ] **Can I Analogize?** Explain the essence using a 0-jargon metaphor.
 - [ ] **Can I Derive?** Rebuild the logic from an axiom without notes.
 - [ ] **Can I Critique?** Identify at least 2 scenarios where this is the WRONG choice.
@@ -56,6 +57,7 @@ tags:
 ---
 
 ### 🚀 Execution Protocol
-1.  Analyze `{activeNote}` via **L1-L4**.
-2.  Unless specified, default to **`/deep`** mode.
-3.  Ensure **Information Density**: Bold core axioms; use symbols (→, Δ, ∇).
+
+1. Analyze `{activeNote}` via **L1-L4**.
+2. Unless specified, default to **`/deep`** mode.
+3. Ensure **Information Density**: Bold core axioms; use symbols (→, Δ, ∇).

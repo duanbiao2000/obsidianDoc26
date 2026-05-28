@@ -24,31 +24,36 @@ tags:
 ## 2. 执行协议详情
 
 ### L1: 映射 (Case Mapping)
+
 - **动作**: 提取 `{activeNote}` 核心概念，寻找 2-3 个开源/学术实现。
 - **引导**: 不直接给答案，通过提问（如 "Redis 内存满时如何处理？"）引导发现模式。
 - **源**: Redis, Kafka, Postgres, Spanner, Dynamo。
 
 ### L2: 对比 (Comparative Analysis)
+
 - **维度**: 复杂度、内存开销、工作负载 (Zipfian vs Uniform)。
 - **逻辑**: 证明 `{activeNote}` 只是设计空间中的一个点，而非唯一解。
 - **产出**: 不同解法 (Solution A/B/C) 的优劣对比。
 
 ### L3: 边界 (Failures)
+
 - **逻辑**: 理论在何时失效？
 - **分类**: 错误应用、忽略隐含假设、规模导致失效、上下文变化。
 - **案例**: Twitter 最终一致性引发的 Timeline 问题；Chubby 的性能瓶颈。
 
 ### L4: 验证 (Validation)
+
 - **逻辑**: 经验验证优于直觉。
 - **动作**: 寻找 Hypotheses -> Experiment -> Measurement 的闭环。
 - **源**: 官方 Benchmarks、SOSP/SIGMOD 论文、工程博客 (Netflix/Uber)。
 
 ### L5: 综合 (Synthesis)
+
 - **逻辑**: 重建决策路径。
-- **模拟**: 
-    - 场景 A: 98% 读 (类似 `{activeNote}`)。
-    - 场景 B: 50% 读写比 (压力测试)。
-    - 场景 C: 强一致性要求 (设计重构)。
+- **模拟**:
+  - 场景 A: 98% 读 (类似 `{activeNote}`)。
+  - 场景 B: 50% 读写比 (压力测试)。
+  - 场景 C: 强一致性要求 (设计重构)。
 
 ---
 

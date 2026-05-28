@@ -10,7 +10,8 @@ tags:
 ---
 用Mermaid语法,绘制出符合{activeNote}主题/中心思想(符合帕累托原则)的实体关系图
 使用英文字符作为实体标识符，并将中文描述放在属性或关系标签中，使其符合Mermaid语法要求.
-参考示例如下, 
+参考示例如下,
+
 ```mermaid
 erDiagram
     Phase1_FoundationSkills {

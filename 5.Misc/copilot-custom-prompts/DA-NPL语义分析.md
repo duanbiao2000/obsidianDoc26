@@ -49,7 +49,7 @@ tags:
 
   - 请将代码包裹在 markdown 代码块中（```mermaid）。
 
-4. 💡 **核心洞察 (Abstractive Summary)**
+1. 💡 **核心洞察 (Abstractive Summary)**
 
 - 用一句话总结：这篇笔记最核心的价值或解决的问题是什么？
 

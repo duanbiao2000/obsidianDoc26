@@ -18,16 +18,16 @@ tags:
 
 ### 🛠️ Phase 1: The Blueprint (Skeleton)
 
-1.  **Conflict Matrix**:
+1. **Conflict Matrix**:
     - **External**: Hero vs. Obstacle.
     - **Internal**: Psychological struggle.
     - **Theme Link**: How conflict proves `{theme}`.
-2.  **3-Act Structure**:
+2. **3-Act Structure**:
     - **Act I (25%)**: Setup → Inciting Incident → Reluctance.
     - **Act II (50%)**: Trial/Failure → Pivot → All is Lost (Darkest Hour).
     - **Act III (25%)**: Epiphany → Climax → New Equilibrium.
-3.  **Character Arc**: From [Flaw/Status] to [Transformation] via `{theme}`.
-4.  **Element Integration**: Map `{mandatory_elements}` into the plot logic.
+3. **Character Arc**: From [Flaw/Status] to [Transformation] via `{theme}`.
+4. **Element Integration**: Map `{mandatory_elements}` into the plot logic.
 
 ---
 
@@ -42,6 +42,7 @@ tags:
 | **Tech Pro** | Domain accuracy; data-driven. | Failure analysis, engineering mindset. |
 
 **Style Templates**:
+
 - **Pixar**: "Every day... Until one day... Because of that... Until finally..."
 - **Fairy Tale**: Triple repetition (3 trials), explicit moral, magic rules.
 - **Sci-Fi**: 1 Core Tech + Ethical dilemma + Reality mirror.
@@ -55,6 +56,7 @@ tags:
 
 ---
 **## Creation Archive**
+
 - **Structure**: Act breakdown (Words/%) + Key Pivot point.
 - **Audience Report**: Lexis level + Sensitivity check + Reading time.
 - **Discussion Qs**: Comprehension (What) + Application (If you...) + Critical (Why).
@@ -71,6 +73,7 @@ tags:
 ---
 
 ### 🚀 Quick Start Input
+
 ```json
 {
   "theme": "Growth after failure",

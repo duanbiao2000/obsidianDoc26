@@ -31,11 +31,11 @@ tags:
 
 ### ⚡ Extraction Protocol
 
-1.  **Atomize**: 1 Concept = 1 Card. 严禁背面包含不相关信息。
-2.  **Hierarchy**: 
+1. **Atomize**: 1 Concept = 1 Card. 严禁背面包含不相关信息。
+2. **Hierarchy**:
     - 优先：核心定义、公理、数学公式、代码逻辑。
     - 其次：因果链、边界条件、反面案例。
-3.  **Concise**: 剥离背景废话，仅保留触发回忆的最小特征。
+3. **Concise**: 剥离背景废话，仅保留触发回忆的最小特征。
 
 ---
 
@@ -48,5 +48,6 @@ tags:
 ---
 
 ### 🚀 Execution
+
 - Input: `{activeNote}`
 - Action: 按上述协议识别并转化所有高价值知识点。

@@ -8,4 +8,4 @@ tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 ---
-给{activeNote}的每个段落加入与其核心主题相符的英文名人名言. 
+给{activeNote}的每个段落加入与其核心主题相符的英文名人名言.

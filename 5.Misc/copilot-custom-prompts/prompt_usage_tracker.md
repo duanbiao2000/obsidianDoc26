@@ -7,12 +7,13 @@ copilot-command-last-used: 0
 ---
 <%*
 /**
- * 提示词使用追踪器
- *
- * 功能：记录 Copilot 提示词的使用情况
- * 使用方法：在调用提示词前使用此模板
- * 创建时间：2026-01-26
- * 相关：知识库优化线路图 P1 - Copilot 提示词库持续优化
+
+* 提示词使用追踪器
+*
+* 功能：记录 Copilot 提示词的使用情况
+* 使用方法：在调用提示词前使用此模板
+* 创建时间：2026-01-26
+* 相关：知识库优化线路图 P1 - Copilot 提示词库持续优化
  */
 -%>
 
@@ -84,14 +85,17 @@ tR += `✅ 使用记录已更新：${promptName}
 -%>
 
 ---
+
 ## 使用指南
 
 ### 手动记录使用
+
 1. 在调用提示词后，在命令面板中输入 `/prompt-usage-tracker`
 2. 填写使用目的或场景（可选）
 3. 系统会自动更新使用统计
 
 ### 自动化集成（推荐）
+
 可以将此脚本集成到常用提示词的 YAML frontmatter 中：
 
 ```yaml
@@ -103,6 +107,7 @@ copilot-usage-tracker: true
 然后在 Templater 设置中配置自动触发。
 
 ### 查看使用统计
+
 打开 `5.Misc/copilot-custom-prompts/usage_stats.json` 查看详细统计，或使用 Dataview 查询：
 
 ```dataview
@@ -142,6 +147,6 @@ LIMIT 20
 
 ## 相关链接
 
-- [提示词质量评估标准](./提示词质量评估标准.md)
-- [Copilot提示词分类索引](./Copilot提示词分类索引.md)
-- [5.Misc/_Index_of_5.Misc](../../_Index_of_5.Misc.md)
+* [提示词质量评估标准](./提示词质量评估标准.md)
+* [Copilot提示词分类索引](./Copilot提示词分类索引.md)
+* [5.Misc/_Index_of_5.Misc](../../_Index_of_5.Misc.md)
