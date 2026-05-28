@@ -51,7 +51,7 @@ bash scripts/orchestration/research-launcher.sh \
 | 文档 | 适合人群 | 内容 |
 |------|---------|------|
 | [开发者指南](./DEVELOPER_GUIDE.md) | 开发者 | 完整的开发文档 |
-| [实施总结](../IMPLEMENTATION_SUMMARY.md) | 技术负责人 | 实施概览和技术细节 |
+| [实施总结](IMPLEMENTATION_SUMMARY.md) | 技术负责人 | 实施概览和技术细节 |
 
 ---
 
@@ -145,7 +145,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 10. [最佳实践](./DEVELOPER_GUIDE.md#10-最佳实践)
 11. [贡献指南](./DEVELOPER_GUIDE.md#11-贡献指南)
 
-#### [IMPLEMENTATION_SUMMARY.md](../IMPLEMENTATION_SUMMARY.md)
+#### [IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)
 
 - 实施概览
 - 核心功能实现
@@ -275,7 +275,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-agents
 
 - 👤 **终端用户**: [README](./README.md) → [快速参考](./QUICK_REFERENCE.md)
 - 👨‍💻 **开发者**: [开发者指南](./DEVELOPER_GUIDE.md)
-- 🏢 **架构师**: [实施总结](../IMPLEMENTATION_SUMMARY.md)
+- 🏢 **架构师**: [实施总结](IMPLEMENTATION_SUMMARY.md)
 
 ### 按任务
 
