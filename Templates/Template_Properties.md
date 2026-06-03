@@ -9,6 +9,8 @@ rating:
 completed: false
 due:
 source:
+domain:
+core_concepts:
 ---
 
 
