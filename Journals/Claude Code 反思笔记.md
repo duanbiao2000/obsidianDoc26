@@ -1,8 +1,17 @@
 ---
-date: 2026-02-06
-tags: [学习, ClaudeCode, 村上春树风格]
+title:
+date:
+tags:
+aliases:
+cssclasses:
+status: in-progress
+rating:
+completed: false
+due:
+source:
+domain:
+core_concepts:
 ---
-
 # 当我在学习 ClaudeCode 时,我在学习什么
 
 凌晨两点三十分。窗外的雨还在下,细细的,像是从某个遥远的地方飘来的。我坐在电脑前,手里是一杯已经凉掉的咖啡。咖啡苦涩的味道在口腔里慢慢散开,像是某种久远的记忆。
