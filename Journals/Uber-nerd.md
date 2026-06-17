@@ -10,6 +10,7 @@ aliases:
 # Uber-nerd: The Cognitive Archetype of Deep Leverage
 
 ## 1. Core Definition
+
 A colloquial term describing an individual with obsessive intellectual curiosity, highly specialized domain expertise, and an analytical cognitive profile. They prioritize technical precision and systemic logic over social conformity.
 
 ---
@@ -25,7 +26,8 @@ When discussing talent, innovation, or organizational design, upgrade from basic
   - *Driven by intellectual rigor and granular analysis* (受严谨的学术态度和细致分析驱动)
   - *A proclivity for systemic troubleshooting* (具有系统性排障的倾向)
 
-### 💡 High-Status Sample Sentence (Part 3 Style):
+### 💡 High-Status Sample Sentence (Part 3 Style)
+>
 > "In high-tech sectors, organizations no longer just look for team players; they actively recruit **uber-nerds** who possess the **cognitive stamina** to dissect complex, non-linear system failures that average generalists completely overlook."
 
 ---
@@ -41,9 +43,11 @@ When discussing talent, innovation, or organizational design, upgrade from basic
 ---
 
 ## 4. Systemic Guardrails (How to Manage an Uber-nerd)
+
 1. **Enforce the 80/20 Rule**: Force the translation of deep insights into executive summaries.
 2. **Assign a "Translator"**: Pair them with a high-EQ product manager or communicator to bridge the gap to the market.
 
 ## 🔗 Related Cognitive Assets
+
 - [[改写分析-雅思8+口语改写规则]]
 - [[雅思8+稳定输出系统]]
