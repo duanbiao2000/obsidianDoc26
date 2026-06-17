@@ -218,6 +218,7 @@ formulas:
 When subtracting two dates, the result is a **Duration** type (not a number). Duration has its own properties and methods.
 
 **Duration Fields:**
+
 | Field | Type | Description |
 |-------|------|-------------|
 | `duration.days` | Number | Total days in duration |
@@ -603,6 +604,7 @@ Embed in Markdown files:
 ## Common Patterns
 
 ### Filter by Tag
+
 ```yaml
 filters:
   and:
@@ -610,6 +612,7 @@ filters:
 ```
 
 ### Filter by Folder
+
 ```yaml
 filters:
   and:
@@ -617,6 +620,7 @@ filters:
 ```
 
 ### Filter by Date Range
+
 ```yaml
 filters:
   and:
@@ -624,6 +628,7 @@ filters:
 ```
 
 ### Filter by Property Value
+
 ```yaml
 filters:
   and:
@@ -632,6 +637,7 @@ filters:
 ```
 
 ### Combine Multiple Conditions
+
 ```yaml
 filters:
   or:

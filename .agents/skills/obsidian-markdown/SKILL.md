@@ -10,6 +10,7 @@ This skill enables skills-compatible agents to create and edit valid Obsidian Fl
 ## Overview
 
 Obsidian uses a combination of Markdown flavors:
+
 - [CommonMark](https://commonmark.org/)
 - [GitHub Flavored Markdown](https://github.github.com/gfm/)
 - [LaTeX](https://www.latex-project.org/) for math
@@ -53,6 +54,7 @@ or use Shift+Enter.
 ### Escaping Formatting
 
 Use backslash to escape special characters:
+
 ```markdown
 \*This won't be italic\*
 \#This won't be a heading
@@ -88,11 +90,13 @@ Common characters to escape: `\*`, `\_`, `\#`, `` \` ``, `\|`, `\~`
 ```
 
 Define a block ID by adding `^block-id` at the end of a paragraph:
+
 ```markdown
 This is a paragraph that can be linked to. ^my-block-id
 ```
 
 For lists and quotes, add the block ID on a separate line:
+
 ```markdown
 > This is a quote
 > With multiple lines
@@ -165,6 +169,7 @@ Note: Spaces must be URL-encoded as `%20` in Markdown links.
 ```
 
 Where the list has been defined with a block ID:
+
 ```markdown
 - Item 1
 - Item 2
@@ -352,6 +357,7 @@ console.log("Hello")
 ### Using Pipes in Tables
 
 Escape pipes with backslash:
+
 ```markdown
 | Column 1 | Column 2 |
 |----------|----------|
@@ -517,6 +523,7 @@ tags:
 ```
 
 Tags can contain:
+
 - Letters (any language)
 - Numbers (not as first character)
 - Underscores `_`

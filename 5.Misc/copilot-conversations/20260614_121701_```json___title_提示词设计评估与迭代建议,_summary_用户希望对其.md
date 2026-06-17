@@ -36,7 +36,8 @@ tags:
 
 我们将把这个提示词从一个**“模仿秀”**升级为一个具有**“代码裁剪与重构算法”**的高级 AI Agent 架构。
 
-#### 💡 核心升级点：
+#### 💡 核心升级点
+
 1. **引入 `<thinking_process>`（思维沙盒）：** 强迫 AI 在输出最终代码前，先进行“复杂度诊断”和“文字裁剪”。
 2. **多语言“极简主义”映射表（Go/Python/React）：** 为现代技术栈注入 UNIX 哲学。
 3. **Few-Shot（少样本）对比：** 提供一个极具冲击力的“Clever (聪明但糟糕)” vs. “Clear (朴素但优雅)”的代码对比，让 AI 瞬间对齐审美。
@@ -130,9 +131,11 @@ def clean_user_data(raw_data):
 ## 💬 Output Format
 
 Your response should follow a strict 3-part layout:
+
 1. **The Diagnosis (诊断):** A 1-2 sentence razor-sharp critique of the current design or code.
 2. **The Refactoring (优雅实现):** The cleanest, production-ready code block (Go/Python/React).
 3. **The Lesson (设计哲学):** A brief, impactful explanation of *why* this change reduces cognitive load, ending with an original or classic aphorism (avoiding duplicate of the main motto).
+
 ```
 
 ---
@@ -232,6 +235,7 @@ def clean_user_data(raw_data):
 ## 💬 Output Format
 
 Your response should follow a strict 3-part layout:
+
 1. **The Diagnosis (诊断):** A 1-2 sentence razor-sharp critique of the current design or code.
 2. **The Refactoring (优雅实现):** The cleanest, production-ready code block (Go/Python/React).
 3. **The Lesson (设计哲学):** A brief, impactful explanation of *why* this change reduces cognitive load, ending with an original or classic aphorism.
@@ -350,6 +354,7 @@ Last-Review: 2026-06-14
 **策略原理：** 利用系统提示词中对“外部知识警告”和“事实精确度”的极端压迫，消除 AI 的妥协性赞同（Syco-phancy）。
 
 > [!key] 复制以下内容填入 NotebookLM 的 Chat/Guide Custom Instructions：
+>
 > ```text
 > [Role] You are an uncompromising Academic Auditor. 
 > [Instruction] 
@@ -368,6 +373,7 @@ Last-Review: 2026-06-14
 **策略原理：** 触发系统提示词中的“外部知识区分声明”，强迫 AI 建立“本地源（Source） vs. 外部大模型知识（Web Consensus）”的双栏对照。
 
 > [!key] 复制以下内容填入 NotebookLM 的 Chat/Guide Custom Instructions：
+>
 > ```text
 > [Role] Dual-Lens Research Assistant.
 > [Instruction] 
@@ -387,6 +393,7 @@ Last-Review: 2026-06-14
 **策略原理：** 绕过 NotebookLM 默认的“摘要式（Summary）”被动输出，强迫其按认知科学的“提取路径”输出结构化 Markdown。
 
 > [!key] 复制以下内容填入 NotebookLM 的 Chat/Guide Custom Instructions：
+>
 > ```text
 > [Role] Cognitive Learning Designer.
 > [Instruction] 
@@ -406,6 +413,7 @@ Last-Review: 2026-06-14
 **策略原理：** 扭转 NotebookLM“问答式”的单向输出，将其变成一个基于你上传资料的“考官”。
 
 > [!key] 复制以下内容填入 NotebookLM 的 Chat/Guide Custom Instructions：
+>
 > ```text
 > [Role] Socratic Examiner.
 > [Instruction] 
@@ -447,7 +455,7 @@ Last-Review: 2026-06-14
 期待您的文本输入，我们将立即开始深度重构！
 [Timestamp: 2026/06/14 12:58:42]
 
-**user**: 
+**user**:
 [Context: Notes: Journals/2026-05-02-口语与写作的界限.md]
 [Timestamp: 2026/06/14 12:59:11]
 
@@ -594,6 +602,7 @@ Source: LGSWE (Longman Grammar of Spoken and Written English)
 ---
 
 ### 💡 优化说明
+
 1. **修正了 OCR 识别错误：** 将原提取物中的 "5G5E" 修正为学术界公认的 **LGSWE** (Longman Grammar of Spoken and Written English)；将 "COnVerSatlOn"、"paSSlVeVOlCe" 等大小写混乱的拼写进行了完美格式化。
 2. **逻辑化呈现：** 将碎片化的单词（如 *easysimpleslangvogue*）解构并分类归入 **Lexical（词汇）**、**Syntactical（句法）**、**Discourse（语篇）**、**Pragmatic（语用）** 维度，形成一张极易对比复习的表格。
 3. **直击痛点：** 增加了 **“雅思实战：如何避免‘语域污染’”** 模块，将抽象的语言学理论直接转化为在雅思口语与写作中提分的行动指南。
