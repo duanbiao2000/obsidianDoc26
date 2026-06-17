@@ -55,7 +55,7 @@ copilot-command-last-used: 0
 📄 [[5.Misc/copilot-custom-prompts/KM-长青笔记重构器|KM-长青笔记重构器]]
 📄 [[5.Misc/copilot-custom-prompts/KM-高效学习卡片生成器|KM-高效学习卡片生成器]]
 📄 [[5.Misc/copilot-custom-prompts/KM-高级学术研究与分析系统|KM-高级学术研究与分析系统]]
-📄 [[5.Misc/copilot-custom-prompts/LR-Anki闪卡生成器和知识萃取专家|LR-Anki闪卡生成器和知识萃取专家]]
+📄 [[LR-Anki闪卡生成器和知识萃取专家_Flashcards插件版|LR-Anki闪卡生成器和知识萃取专家_Flashcardsc插件版]]
 📄 [[5.Misc/copilot-custom-prompts/LR-FQA反复提问选择题|LR-FQA反复提问选择题]]
 📄 [[5.Misc/copilot-custom-prompts/LR-FQA反复提问间隔复习版|LR-FQA反复提问间隔复习版]]
 📄 [[5.Misc/copilot-custom-prompts/LR-Obsidian2Anki题目生成|LR-Obsidian2Anki题目生成]]

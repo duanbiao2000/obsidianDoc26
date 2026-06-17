@@ -3,18 +3,7 @@ copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
-copilot-command-last-used: 1761118141562
-share_link: https://share.note.sx/p8kki00o#+u8OIeyQayh9bkjz9+4qIS4xr3vOhqg4dhHFT6WRzRY
-share_updated: 2025-10-22T10:51:15.000Z
-view-count: 12
-update: 2026-01-09 15:04
-related:
-  - "[[Anki闪卡]]"
-  - "[[Anki 闪卡生成器和知识萃取专家-flashcard语法]]"
-  - "[[R_Anki抽认卡制作]]"
-tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+copilot-command-last-used: 1780625723331
 ---
 # Obsidian2Anki 极简生成器
 

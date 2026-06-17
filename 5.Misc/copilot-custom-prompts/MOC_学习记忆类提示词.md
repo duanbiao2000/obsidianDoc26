@@ -30,7 +30,7 @@ copilot-command-last-used: 0
 
 ### Anki 闪卡
 
-- [[LR-Anki闪卡生成器和知识萃取专家]] - 闪卡生成专家
+- [[LR-Anki闪卡生成器和知识萃取专家_Flashcards插件版]] - 闪卡生成专家
 - [[LR-Obsidian2Anki题目生成]] - Obsidian转Anki
 - [[LR-FQA反复提问选择题]] - 选择题生成
 - [[LR-FQA反复提问间隔复习版]] - 间隔复习

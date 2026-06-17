@@ -181,7 +181,7 @@ LIMIT 10
 1. **方式A**: 搜索 `LR-` 或 `Anki`
 2. **方式B**: 打开 [[MOC_学习记忆类提示词]]
 3. **推荐提示词**:
-   - [[LR-Anki闪卡生成器和知识萃取专家]] - 生成Anki卡片
+   - [[LR-Anki闪卡生成器和知识萃取专家_Flashcards插件版]] - 生成Anki卡片
    - [[LR-Obsidian2Anki题目生成]] - Obsidian转Anki
    - [[LR-记忆增强专家]] - 记忆技巧
 
