@@ -10,11 +10,6 @@ completed: false
 due:
 source:
 ---
-雅思的 harsh truth？没人想告诉你，因为培训机构靠卖希望赚钱。我直接说——听着疼，但能提分。
-
- 核心真相：雅思不考英语，考“可控的表演”
-
----
 
  SPEAKING 的 5 个耳光
 
