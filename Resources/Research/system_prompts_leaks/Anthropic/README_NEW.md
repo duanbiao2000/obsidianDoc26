@@ -114,7 +114,7 @@ cat readme.md
 
 ## 文档指南
 
-### 1. 架构文档 ([ARCHITECTURE.md](Research/system_prompts_leaks/Anthropic/ARCHITECTURE.md))
+### 1. 架构文档 ([ARCHITECTURE.md](Resources/Research/system_prompts_leaks/Anthropic/ARCHITECTURE.md))
 
 包含系统的整体架构设计：
 

@@ -393,4 +393,4 @@ See [Agent Skills](agent-skills.md) for details on the 107 specialized skills.
 - [Agent Skills](agent-skills.md) - Specialized knowledge packages
 - [Agent Reference](agents.md) - Complete agent catalog
 - [Plugin Reference](plugins.md) - All 67 plugins
-- [Architecture](Research/agents/docs/architecture.md) - Design principles
+- [Architecture](Resources/Research/agents/docs/architecture.md) - Design principles
