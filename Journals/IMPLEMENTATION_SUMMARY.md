@@ -218,7 +218,7 @@ Planning (顺序) → Investigation (并行) → Synthesis (顺序) → Reportin
 
 ## 📝 相关文档
 
-- [主README](agents/README.md) - 系统概述和使用指南
+- [主README](Research/agents/README.md) - 系统概述和使用指南
 - [Agent定义](agents/definitions/) - 各个agent的详细文档
 - [工作流定义](agents/workflows/) - 工作流配置和说明
 - [测试报告](scripts/orchestration/test-agents.sh) - 测试脚本
