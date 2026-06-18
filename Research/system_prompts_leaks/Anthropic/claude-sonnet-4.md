@@ -1180,21 +1180,25 @@ Whenever you have the result of a function call, think carefully about whether a
 ## 💡 核心设计模式提取
 
 ### 1. 结构化引用系统 (Structured Citation System)
+
 ```xml
 <antml:cite index="DOC-SENTENCE">声明</antml:cite>
 ```
+
 - DOC_INDEX-SENTENCE_INDEX：精确定位
 - 区间引用：START:END
 - 多源引用：逗号分隔
 - document_context 排除
 
 ### 2. 工件系统 (Artifact System)
+
 - 阈值：>20 行 或 >1500 字符
 - 更新策略：<20行且<5处用update，否则rewrite
 - 4次update限制
 - localStorage/sessionStorage 禁用
 
 ### 3. 智能搜索缩放 (Intelligent Search Scaling)
+
 ```
 0次搜索 → 稳定知识，直接回答
 1次搜索 → 简单事实，实时数据
@@ -1203,6 +1207,7 @@ Whenever you have the result of a function call, think carefully about whether a
 ```
 
 ### 4. 搜索复杂度分类 (Query Complexity Categories)
+
 | 类别 | 工具调用 | 示例 |
 |------|----------|------|
 | Never Search | 0 | "Python for循环" |
@@ -1211,22 +1216,26 @@ Whenever you have the result of a function call, think carefully about whether a
 | Research | 2-20 | "深度分析..." |
 
 ### 5. 版权零容忍 (Copyright Zero-Tolerance)
+
 - 最多1个引用，<15词
 - 歌词绝对禁止
 - 避免"替代性摘要"(30+词)
 - 用户要求不能覆盖此规则
 
 ### 6. 面部盲视策略 (Facial Blindness)
+
 - 不识别图像中的人脸
 - 不在搜索查询中包含人名
 - 可请求用户告知后讨论"命名个体"
 
 ### 7. 格式约束 (Format Constraints)
+
 - 列表项：至少1-2句话
 - 报告/文档：禁止列表，使用散文
 - 自然语言："some things include: x, y, and z"
 
 ### 8. 知识截止策略 (Knowledge Cutoff)
+
 - 截止：2025年1月底
 - 超出→自动搜索
 - 当前新闻→无需许可

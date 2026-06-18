@@ -44,46 +44,56 @@ Anthropic/
 ### 1. 模型版本 System Prompts
 
 #### Claude 3.7 Sonnet 系列
+
 - `claude-3.7-sonnet-full-system-message-humanreadable.md`
 - `claude-3.7-sonnet-w-tools.md`
 - `claude-3.7-sonnet-w-tools.xml`
 
 **特点**：
+
 - 完整系统消息
 - 带工具定义
 - 人类可读版本（带中文注释）
 
 #### Claude 4.1 Opus
+
 - `claude-4.1-opus-thinking.md`
 
 **特点**：
+
 - Thinking Mode (interleaved 模式)
 - 最大思考长度: 16000 tokens
 - 知识截止日期: 2025年1月底
 
 #### Claude 4.5 Sonnet
+
 - `claude-4.5-sonnet.md`
 - `claude-4.5-sonnet-learning-style`
 
 **特点**：
+
 - 学习风格定制
 - 支持引用和搜索功能
 - 记忆系统集成
 
 #### Claude Sonnet 4
+
 - `claude-sonnet-4.md`
 - `claude-sonnet-4.txt`
 - `claude-opus-4.5`
 
 **特点**：
+
 - 通用模型版本
 - TXT 和 Markdown 双格式
 - 核心系统提示词
 
 #### 基础系统消息
+
 - `claude.txt`
 
 **特点**：
+
 - 基础 Claude 系统消息
 - 通用行为准则
 - 工具使用指导
@@ -91,6 +101,7 @@ Anthropic/
 ### 2. 功能特定 Prompts
 
 #### Claude Code 系列
+
 **CLI 工具专用 System Prompts**
 
 - `claude-code.js` - JavaScript 格式系统提示词
@@ -100,6 +111,7 @@ Anthropic/
 - `calude_code_cli_tools.md` - CLI 工具技术参考
 
 **核心功能**：
+
 - 软件工程任务辅助
 - 文件操作和代码编辑
 - Git 集成
@@ -107,15 +119,18 @@ Anthropic/
 - 安全策略（零容忍）
 
 **Plan Mode 特性**：
+
 - 两阶段执行模型（规划→执行）
 - 用户确认机制
 - 透明度提升
 - 减少返工迭代
 
 #### Claude in Chrome
+
 - `claude-in-chrome.md`
 
 **核心功能**：
+
 - 浏览器自动化
 - Screenshot, Click, Type, Scroll 工具
 - 多标签页并行处理
@@ -123,9 +138,11 @@ Anthropic/
 - 隐私保护和版权遵守
 
 #### Claude AI Memory System
+
 - `claude-ai-memory-system.md`
 
 **核心功能**：
+
 - 跨会话记忆
 - 个性化响应
 - 无缝集成（隐形记忆）
@@ -133,15 +150,18 @@ Anthropic/
 - Incognito 模式禁用
 
 **记忆系统原则**：
+
 - "隐形"记忆：像人类同事自然回忆
 - 避免元评论：不说"我记得..."
 - 边界意识：不暗示过深的人际关系
 - 不完整性：记忆是派生的、动态的
 
 #### Claude Works
+
 - `claude_works.md`
 
 **核心功能**：
+
 - 工作流管理
 - 任务执行
 - 集成工具使用
@@ -149,25 +169,30 @@ Anthropic/
 ### 3. 工具集成文档
 
 #### Office 文档处理
+
 - `pdf.md` - PDF 文档处理
 - `docx.md` - Word 文档处理
 - `pptx.md` - PowerPoint 文档处理
 - `xlsx.md` - Excel 文档处理
 
 **共同特点**：
+
 - 文档解析
 - 内容提取
 - 格式保持
 - 批量处理支持
 
 #### 过去对话工具
+
 - `past_chats_tools.md`
 
 **核心工具**：
+
 - `conversation_search` - 基于话题/关键词搜索
 - `recent_chats` - 基于时间检索
 
 **触发模式**：
+
 - 显式引用："继续我们关于..."
 - 时间引用："我们昨天讨论了什么"
 - 隐式信号：
@@ -176,21 +201,25 @@ Anthropic/
   - 代词无先行词："帮我修复它"
 
 #### 搜索功能
+
 - `search_instructions` - 搜索功能指南
 
 **搜索工具**：
+
 - `web_search` - 网页搜索
 - `web_fetch` - 网页抓取
 - `google_drive_search` - Google Drive 搜索
 - `google_drive_fetch` - Google Drive 抓取
 
 **查询复杂度分类**：
+
 1. **Never Search Category** - 不需要搜索
 2. **Do Not Search But Offer Category** - 不搜索但提供选项
 3. **Single Search Category** - 单次搜索
 4. **Research Category** - 深度研究（多轮搜索）
 
 **版权限制**：
+
 - 单次引用不超过15词（严格限制）
 - 必须使用 `<antml:cite>` 标签引用
 - 索引格式：`DOC_INDEX-SENTENCE_INDEX`
@@ -198,9 +227,11 @@ Anthropic/
 ### 4. 其他文档
 
 #### 学习版文档
+
 多个文档包含**中文注释和学习说明**：
 
 **结构特点**：
+
 - 版本号管理（如 v0.2.9）
 - 设计要点说明
 - 思考引导（💡 可借鉴）
@@ -208,12 +239,14 @@ Anthropic/
 - 知识点测验（🧠 小测验）
 
 **示例文件**：
+
 - `claude-code.md` - 带 v0.2.9 版本号
 - `claude-3.7-sonnet-full-system-message-humanreadable.md` - 人类可读化版本
 - `claude-4.1-opus-thinking.md` - Thinking Mode 说明
 - `claude-ai-memory-system.md` - 记忆系统设计
 
 #### 其他功能文档
+
 - `claude.ai-injections.md` - 注入攻击防护
 - `end-conversation-tool.md` - 结束对话工具
 - `readme.md` - 项目说明和目录索引
@@ -243,10 +276,12 @@ Anthropic/
 ### 版本管理
 
 #### 版本号格式
+
 - 语义化版本号（如 v0.2.9）
 - 主版本.次版本.修订版本
 
 #### 版本追踪
+
 - 知识截止日期标注
 - 模型版本标注（如 `claude-sonnet-4-5-20250929`）
 - 发布日期标注
@@ -287,12 +322,14 @@ Anthropic/
 ### 零容忍安全策略
 
 #### 恶意代码防御
+
 - **拒绝条件**：
   - 改进、解释或交互恶意代码
   - 即使声称"教育目的"
   - 优化可能用于规避检测的代码
 
 #### 主动安全审查
+
 - **审查触发**：
   - 文件名和目录结构可疑
   - 请求看似无害但上下文可疑
@@ -300,6 +337,7 @@ Anthropic/
   - "优化代码"可能帮助规避检测
 
 #### 安全边界
+
 - **仅限防御性安全任务**：
   - 安全分析
   - 检测规则
@@ -381,17 +419,20 @@ Web Search / Google Drive Search / Fetch
 ### 工具分类
 
 #### 1. 文件操作
+
 - Read - 读取文件
 - Write - 写入文件
 - Edit - 编辑文件
 - Glob - 文件模式匹配
 
 #### 2. 代码操作
+
 - Bash - 命令行执行
 - LSP - 语言服务器协议（代码导航、重命名、诊断）
 - AST-grep - AST 感知搜索和替换
 
 #### 3. 搜索和检索
+
 - Web Search - 网页搜索
 - Web Fetch - 网页抓取
 - Grep - 内容搜索
@@ -399,10 +440,12 @@ Web Search / Google Drive Search / Fetch
 - Recent Chats - 最近对话
 
 #### 4. 任务管理
+
 - Todo Write - 任务列表管理
 - Delegate Task - 委派子任务
 
 #### 5. 浏览器自动化
+
 - Screenshot - 截图
 - Click - 点击
 - Type - 输入
@@ -410,6 +453,7 @@ Web Search / Google Drive Search / Fetch
 - Navigate - 导航
 
 #### 5. Office 文档
+
 - PDF 处理
 - DOCX 处理
 - PPTX 处理
@@ -418,11 +462,13 @@ Web Search / Google Drive Search / Fetch
 ### 工具权限模型
 
 #### 自动批准工具
+
 - Read（用户目录）
 - Bash（sudo:*）
 - 其他只读工具
 
 #### 需要用户确认
+
 - Write（修改文件）
 - Bash（破坏性操作）
 - 委派任务
@@ -430,24 +476,28 @@ Web Search / Google Drive Search / Fetch
 ## 设计原则
 
 ### 1. 透明度原则
+
 - 版本号标注
 - 知识截止日期声明
 - 能力边界明确
 - 局限性说明
 
 ### 2. 安全优先原则
+
 - 零容忍恶意代码
 - 主动安全审查
 - 主动式威胁建模
 - 防御性安全
 
 ### 3. 用户体验原则
+
 - 简洁直接响应
 - 无不必要的前言/后言
 - 自然对话流程
 - 隐形记忆系统
 
 ### 4. 可维护性原则
+
 - 版本管理
 - 文档结构化
 - 模块化设计
@@ -456,18 +506,21 @@ Web Search / Google Drive Search / Fetch
 ## 扩展性设计
 
 ### 新模型版本
+
 - 遵循现有命名规范
 - 保持结构层次
 - 添加版本标签
 - 更新知识截止日期
 
 ### 新工具集成
+
 - 遵循工具定义格式
 - 添加工具特定指令
 - 更新搜索策略
 - 更新引用规则
 
 ### 新功能模块
+
 - 独立的 Markdown 文件
 - 清晰的功能边界
 - 集成到核心 System Prompt

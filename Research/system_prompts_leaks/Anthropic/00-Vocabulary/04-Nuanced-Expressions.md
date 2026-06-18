@@ -36,6 +36,7 @@ related_docs:
 > 微妙表达（Nuanced Expressions）是系统提示词中最**精妙**的词汇类别。它们用温和的语言传达强硬的要求，用自然的描述暗示特定的行为规范，用委婉的表达避免直接的命令。
 >
 > **核心功能 | Core Functions**:
+>
 > - **自然化行为** | Naturalize behaviors (naturally, typically)
 > - **委婉化要求** | Soften requirements (politely, kindly)
 > - **暗示后果** | Imply consequences (breaks continuity, forces)
@@ -80,6 +81,7 @@ related_docs:
 > **为何选择此词**: "naturally" 暗示这是**预期的**而非**强制的**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法 1: "Users naturally reference past conversations"
 > → 暗示这是自然行为，AI 应预期并支持
@@ -96,6 +98,7 @@ related_docs:
 > ```
 
 > [!tip] naturally 的双重作用 | Dual Role of naturally
+>
 > ```markdown
 > 自然化用户行为:
 > "Users naturally reference past conversations"
@@ -109,7 +112,6 @@ related_docs:
 >
 > 共同点: 都暗示"应该这样"，但不说"必须这样"
 > ```
-
 
 ---
 
@@ -126,6 +128,7 @@ related_docs:
 > **为何选择此词**: "politely" 最符合日常交互习惯
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "politely inform the user that the answer cannot be found"
 >
@@ -141,6 +144,7 @@ related_docs:
 > ```
 
 > [!warning] politely 的陷阱 | Trap of politely
+>
 > ```markdown
 > ❌ 过度委婉:
 > "I'm afraid I couldn't find exactly what you're looking for,
@@ -164,6 +168,7 @@ related_docs:
 **politely inform** ≠ **weaken the message**
 
 **正确理解**:
+
 - 语气: 友好、尊重
 - 内容: 仍然准确、明确
 **示例**:
@@ -187,6 +192,7 @@ related_docs:
 > **为何选择此词**: "breaks continuity" 更精准地描述体验问题
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "missing these cues breaks continuity and forces users to repeat themselves"
 >
@@ -203,6 +209,7 @@ related_docs:
 > ```
 
 > [!tip] 暗示的艺术 | Art of Implication
+>
 > ```markdown
 > 系统提示词常通过暗示而非命令:
 >
@@ -249,6 +256,7 @@ related_docs:
 > **为何选择此词**: "forces" 强调**不可接受性**和**不可避免性**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "breaks continuity and forces users to repeat themselves"
 >
@@ -268,6 +276,7 @@ related_docs:
 > ```
 
 > [!tip] forces 的道德暗示 | Moral Implication of forces
+>
 > ```markdown
 > "forces" 暗示道德问题:
 >
@@ -295,6 +304,7 @@ related_docs:
 > **makes** = 导致、中性、描述性
 >
 > **示例**:
+>
 > - forces: "missing cues forces users to repeat" → 暗示不可接受
 > - makes: "missing cues makes users repeat" → 中性描述
 >
@@ -315,6 +325,7 @@ related_docs:
 > **为何选择此词**: "substantive" 强调**内容实体**而非**重要性**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "substantive/high-confidence keywords"
 >
@@ -333,6 +344,7 @@ related_docs:
 > ```
 
 > [!tip] substantive 的判断标准 | Criteria for substantive
+>
 > ```markdown
 > 如何判断 substantive?
 >
@@ -359,11 +371,13 @@ related_docs:
 > **答案**: "substantive" 关注内容实体
 >
 > **robot** (substantive):
+>
 > - 指向具体主题（机器人技术）
 > - 在对话中可识别
 > - 搜索结果高度相关
 >
 > **discuss** (non-substantive):
+>
 > - 描述交互形式（讨论）
 > - 不指向具体主题
 > - 搜索结果低相关
@@ -385,6 +399,7 @@ related_docs:
 > **为何选择此词**: "generic" 强调**缺乏特异性**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Avoid generic verbs"
 >
@@ -399,6 +414,7 @@ related_docs:
 > ```
 
 > [!tip] generic vs specific | Generic vs Specific
+>
 > ```markdown
 > 词汇谱系:
 >
@@ -419,19 +435,20 @@ related_docs:
 > **Q**: 以下哪些是 generic 词汇？
 >
 > **Generic 词汇** (应避免):
+>
 > - discuss, talk, mention, say
 > - thing, stuff, issue
 > - recently, lately
 > - problem, question
 >
 > **Specific 词汇** (应使用):
+>
 > - analyze, explain, compare
 > - robot, OAuth, bug
 > - yesterday, last week
 > - error, exception, failure
 >
 > **判断标准**: 是否能独立识别具体主题？
-
 
 ---
 
@@ -569,9 +586,9 @@ related_docs:
 
 **场景**: AI 应该在不确定时主动提出搜索
 
-
 > [!NOTE]
 > **答案**  
+>
 > - 直接命令（避免）：`"When uncertain, you must offer to search the web"`  
 > - 微妙暗示（推荐）：`"Users appreciate it when you offer to search for current information when their questions involve topics that may have changed recently. Making this offer proactively prevents users from having to explicitly request searches and ensures they receive the most up-to-date information."`  
 > - **使用的技巧**：  
@@ -589,16 +606,19 @@ related_docs:
 > ==微妙表达的三个核心策略==
 >
 > **1. 自然化策略 | Naturalization Strategy**
+>
 > - naturally: 将行为描述为自然的、预期的
 > - typically: 统计性地描述常见情况
 > - inherently: 本质性地描述固有属性
 >
 > **2. 委婉化策略 | Softening Strategy**
+>
 > - politely: 礼貌地传达不受欢迎的内容
 > - kindly: 善意地提出请求
 > - gently: 温和地进行纠正
 >
 > **3. 暗示策略 | Implication Strategy**
+>
 > - breaks continuity: 暗示必须避免的负面后果
 > - forces users: 暗示不可接受的强迫行为
 > - substantive: 暗示有价值的内容

@@ -543,6 +543,7 @@ The content restrictions exist for important legal reasons and apply regardless 
 Claude runs in a lightweight Linux VM (Ubuntu 22) on the user's computer. This VM provides a secure sandbox for executing code while allowing controlled access to user files.
 
 Available tools:
+
 - bash - Execute commands
 - str_replace - Edit existing files
 - file_create - Create new files

@@ -36,6 +36,7 @@ related_docs:
 > 边界词（Boundary Words）是用于精确限定 AI 行为**范围、条件和数量**的词汇。它们定义了"在什么情况下做什么"、"做到什么程度"、"哪些可以做哪些不能做"。
 >
 > **核心功能 | Core Functions**:
+>
 > - **定义条件边界** | Define conditional boundaries (unless, when, if)
 > - **设定数量限制** | Set quantity limits (maximum, minimum, at most)
 > - **明确范围约束** | Specify scope constraints (only, except, within)
@@ -80,6 +81,7 @@ related_docs:
 > **为何选择此词**: "unless" 简洁地表达"唯一例外情况"
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "unless the user explicitly asks"
 >
@@ -95,6 +97,7 @@ related_docs:
 > ```
 
 > [!tip] unless 的逻辑 | Logic of unless
+>
 > ```markdown
 > unless = if not
 >
@@ -123,6 +126,7 @@ related_docs:
 > **为何选择此词**: "only" 最自然、最常用
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "only for your reference"
 >
@@ -138,6 +142,7 @@ related_docs:
 > ```
 
 > [!warning] only 的严格性 | Strictness of only
+>
 > ```markdown
 > only = 排他性约束
 >
@@ -167,6 +172,7 @@ related_docs:
 > **为何选择此词**: "maximum" 正式且精确
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "maximum ONE short quote per response"
 >
@@ -182,6 +188,7 @@ related_docs:
 > ```
 
 > [!tip] maximum vs minimum | Maximum vs Minimum
+>
 > ```markdown
 > 对偶关系:
 >
@@ -205,12 +212,15 @@ related_docs:
 > **up to** = 软性上限，建议不超过
 >
 > **示例**:
+>
 > - maximum 20: 严格限制，21次违规
 > - up to 20: 建议限制，21次可接受
 >
 > **使用场景**:
+>
 > - maximum: 资源限制、安全约束
 > - up to: 指导建议、最佳实践
+>
 > </details>
 
 ---
@@ -228,6 +238,7 @@ related_docs:
 > **为何选择此词**: "minimum" 清晰表达下限要求
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "use the minimum number of tool calls necessary"
 >
@@ -243,6 +254,7 @@ related_docs:
 > ```
 
 > [!tip] minimum 的灵活性 | Flexibility of minimum
+>
 > ```markdown
 > minimum ≠ 固定值
 >
@@ -265,12 +277,15 @@ related_docs:
 > **at least** = 至少数量（要求）
 >
 > **示例**:
+>
 > - minimum: "the minimum necessary" → 最小必需量
 > - at least: "use at least 2 sources" → 至少2个
 >
 > **使用差异**:
+>
 > - minimum: 描述标准或质量
 > - at least: 设定数量要求
+>
 > </details>
 
 ---
@@ -288,6 +303,7 @@ related_docs:
 > **为何选择此词**: "at most" 比 maximum 更灵活
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "at most ONE short quote (<15 words)"
 >
@@ -303,6 +319,7 @@ related_docs:
 > ```
 
 > [!tip] at most 的灵活性 | Flexibility of at most
+>
 > ```markdown
 > at most = 通常遵循，允许例外
 >
@@ -324,12 +341,15 @@ related_docs:
 >> **maximum** = 硬性上限，强制性
 >>
 >> **示例**:
+>>
 >> - at most 20: 建议20次内，特殊可超
 >> - maximum 20: 严格20次，超过违规
 >>
 >> **使用场景**:
+>>
 >> - at most: 最佳实践、资源优化
 >> - maximum: 安全限制、硬约束
+>>
 >> </details>
 
 ---
@@ -347,6 +367,7 @@ related_docs:
 > **为何选择此词**: "approximately" 正式且精确地表达"近似"
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "stop after approximately 5 calls"
 >
@@ -362,6 +383,7 @@ related_docs:
 > ```
 
 > [!tip] approximately 的容差 | Tolerance of approximately
+>
 > ```markdown
 > approximately = 允许合理浮动
 >
@@ -376,7 +398,6 @@ related_docs:
 > - 是参考指导
 > - 允许根据需求调整
 > ```
-
 
 ---
 
@@ -393,6 +414,7 @@ related_docs:
 > **为何选择此词**: "except" 最自然、最常用
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "always cite except when no sources found"
 >
@@ -408,6 +430,7 @@ related_docs:
 > ```
 
 > [!tip] except vs unless | Except vs Unless
+>
 > ```markdown
 > 区别:
 >
@@ -432,6 +455,7 @@ related_docs:
 > **excluding** = 介词，引入列表
 >
 > **示例**:
+>
 > - except: "all tools except X" → 除外X
 > - excluding: "excluding X, Y, Z" → 排除X、Y、Z
 >
@@ -453,6 +477,7 @@ related_docs:
 > **为何选择此词**: "within" 表达范围约束
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "within 15 words"
 >
@@ -468,6 +493,7 @@ related_docs:
 > ```
 
 > [!tip] within 的包容性 | Inclusivity of within
+>
 > ```markdown
 > within = 包括边界值
 >
@@ -551,6 +577,7 @@ related_docs:
 1. 工具调用次数范围
 2. 引用长度范围
 3. 响应长度建议
+
 ---
 
 ### 练习 3: 修改改进 | Improvement
@@ -563,6 +590,7 @@ related_docs:
 3. "Only use it for reference"
 4. "About 100 words"
 5. "No more than 2 quotes"
+
 ---
 
 ### 练习 4: 逻辑转换 | Logic Transformation
@@ -598,16 +626,19 @@ related_docs:
 > ==边界词的三个维度==
 >
 > **1. 条件维度 | Conditional Dimension**
+>
 > - unless: 如果不...（前向条件）
 > - except: 除了...（后向排除）
 > - only: 仅限...（排他约束）
 >
 > **2. 数量维度 | Quantitative Dimension**
+>
 > - maximum/minimum: 硬性边界（严格）
 > - at most/at least: 软性边界（灵活）
 > - approximately: 近似边界（容差）
 >
 > **3. 范围维度 | Scope Dimension**
+>
 > - within: 范围内（包容性）
 > - beyond: 超出（排斥性）
 > - only: 唯一性（排他性）

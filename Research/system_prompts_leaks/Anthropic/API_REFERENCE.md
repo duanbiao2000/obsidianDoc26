@@ -177,6 +177,7 @@
 读取文件内容。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -193,6 +194,7 @@ limit:
 ```
 
 **示例**:
+
 ```json
 {
   "filePath": "/path/to/file.txt",
@@ -206,6 +208,7 @@ limit:
 写入文件（会覆盖现有文件）。
 
 **参数**:
+
 ```yaml
 content:
   type: string
@@ -218,6 +221,7 @@ filePath:
 ```
 
 **约束**:
+
 - 如果文件已存在，必须先使用 Read 工具读取
 - 总是优先编辑现有文件而不是创建新文件
 - 除非明确要求否则不要创建文档文件（*.md, README）
@@ -227,6 +231,7 @@ filePath:
 对文件进行精确字符串替换。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -247,6 +252,7 @@ replaceAll:
 ```
 
 **约束**:
+
 - 必须先使用 Read 工具读取文件
 - oldString 必须在文件中唯一存在（除非使用 replaceAll）
 - 替换多次出现的 oldString 会报错（除非使用 replaceAll）
@@ -259,6 +265,7 @@ replaceAll:
 执行 bash 命令。
 
 **参数**:
+
 ```yaml
 command:
   type: string
@@ -279,6 +286,7 @@ workdir:
 ```
 
 **最佳实践**:
+
 - 使用 `workdir` 参数而不是 `cd` 命令
 - 总是用双引号包裹包含空格的文件路径
 - 并行执行多个独立的 bash 调用
@@ -289,6 +297,7 @@ workdir:
 在运行构建前获取错误、警告、提示。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -306,6 +315,7 @@ severity:
 跳转到符号定义。查找某物定义的位置。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -325,6 +335,7 @@ character:
 在整个工作区查找所有用法/引用。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -347,6 +358,7 @@ includeDeclaration:
 从文件（文档）或跨工作区搜索获取符号。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -369,6 +381,7 @@ limit:
 在整个工作区重命名符号。应用所有文件的更改。
 
 **参数**:
+
 ```yaml
 filePath:
   type: string
@@ -394,6 +407,7 @@ newName:
 正则表达式内容搜索。
 
 **参数**:
+
 ```yaml
 pattern:
   type: string
@@ -412,6 +426,7 @@ include:
 文件模式匹配（支持 glob 模式）。
 
 **参数**:
+
 ```yaml
 pattern:
   type: string
@@ -423,6 +438,7 @@ path:
 ```
 
 **示例**:
+
 ```json
 {
   "pattern": "**/*.md",
@@ -435,6 +451,7 @@ path:
 使用 AST 感知匹配的代码模式搜索（支持25种语言）。
 
 **参数**:
+
 ```yaml
 pattern:
   type: string
@@ -462,10 +479,12 @@ context:
 ```
 
 **元变量**:
+
 - `$VAR` - 单个节点
 - `$$$` - 多个节点
 
 **示例**:
+
 ```python
 # 查找函数定义
 pattern: 'async function $NAME($$$) { $$$ }'
@@ -481,6 +500,7 @@ lang: 'typescript'
 使用 AST 感知重写替换代码模式（默认 dry-run）。
 
 **参数**:
+
 ```yaml
 pattern:
   type: string
@@ -502,6 +522,7 @@ dryRun:
 ```
 
 **示例**:
+
 ```yaml
 # 替换 console.log 为 logger.info
 pattern: 'console.log($MSG)'
@@ -517,6 +538,7 @@ dryRun: false
 获取指定 URL 的内容。
 
 **参数**:
+
 ```yaml
 url:
   type: string
@@ -535,6 +557,7 @@ timeout:
 ```
 
 **特性**:
+
 - HTTP URL 自动升级到 HTTPS
 - 只读，不修改文件
 - 如果内容过大，输出会被截断
@@ -545,6 +568,7 @@ timeout:
 使用 WebSearch 进行网络搜索。
 
 **参数**:
+
 ```yaml
 query:
   type: string
@@ -577,6 +601,7 @@ contextMaxCharacters:
 创建和管理结构化的任务列表。
 
 **参数**:
+
 ```yaml
 todos:
   type: array
@@ -602,6 +627,7 @@ todos:
 ```
 
 **使用场景**:
+
 - 多步骤任务（2+ 步骤）
 - 复杂任务（需要仔细规划）
 - 用户请求的多个项目
@@ -612,6 +638,7 @@ todos:
 使用 category-based 或直接 agent 选择来生成 agent 任务。
 
 **参数**:
+
 ```yaml
 load_skills:
   type: array
@@ -676,6 +703,7 @@ command:
 ```
 
 **约束**:
+
 - category 和 subagent_type 互斥（除非继续会话）
 - load_skills 是 REQUIRED
 - run_in_background=true 仅用于并行探索（5+ 独立查询）
@@ -702,6 +730,7 @@ command:
 #### 引用规则
 
 **必需条件**:
+
 - 如果响应基于 `web_search`, `drive_search`, `google_drive_search`, 或 `google_drive_fetch` 工具返回的内容，必须始终适当引用响应
 
 **引用格式**:
@@ -711,11 +740,13 @@ command:
 ```
 
 **索引格式**:
+
 - **单句**: `DOC_INDEX-SENTENCE_INDEX`
 - **连续多句（section）**: `DOC_INDEX-START_SENTENCE_INDEX:END_SENTENCE_INDEX`
 - **多个 sections**: `DOC_INDEX-START:END,DOC_INDEX-START:END`（逗号分隔）
 
 **规则**:
+
 1. 使用支持声明的最少句子数
 2. 不要添加不必要的引用，除非必要
 3. 声明必须用自己的话，不要精确引用原文
@@ -749,12 +780,14 @@ command:
 #### 使用规则
 
 **必须使用 Artifacts**:
+
 - 原创创意写作（故事、剧本、论文）
 - 深度长篇分析内容（评论、批评、分析）
 - 编写自定义代码解决特定用户问题
 - 用于对话外使用的内容（报告、邮件、演示文稿、单页纸、博客文章、广告）
 
 **不应使用 Artifacts**:
+
 - 短片段代码
 - 快速修复或简单示例
 - 仅在对话内使用的内容
@@ -765,12 +798,14 @@ command:
 #### 记忆应用指令
 
 **选择性应用**:
+
 - 从零记忆（通用问题）到全面个性化（显式个人请求）
 - 除非用户询问 Claude 记住什么或请求澄清知识来自过去对话，否则从不解释选择过程
 
 **记忆使用场景**:
 
 **必须应用记忆**:
+
 - 显式请求个性化（如"根据你对我的了解"）
 - 直接引用过去对话或记忆内容
 - 直接关于用户的问题（who/what/when/where），且答案存在于记忆中
@@ -778,12 +813,14 @@ command:
   - 仅陈述记忆中立即相关的事实
 
 **不应应用记忆**:
+
 - 不需要个性化的通用技术问题
 - 强化不安全、不健康或有害行为的内容
 - 个人细节会令人惊讶或无关的上下文
 - 可能阻碍诚实反馈、批判性思维或建设性批评的偏好
 
 **敏感属性**:
+
 - 仅在必要、安全、适当且准确时引用存储的敏感属性（种族、民族、身体或心理健康状况、原籍、性取向或性别认同）
 - 否则，提供普遍适用的响应
 
@@ -801,18 +838,22 @@ command:
 #### 查询复杂度分类
 
 **1. Never Search Category**
+
 - 不需要搜索的简单查询
 - 示例："2+2=?", "如何列出目录中的文件?"
 
 **2. Do Not Search But Offer Category**
+
 - 不搜索但提供选项的查询
 - 示例："法国的首都是哪里?"（Claude 应该正常回答并主动提供搜索更多细节）
 
 **3. Single Search Category**
+
 - 单次搜索足够的查询
 - 示例："Python 中如何使用 list comprehension?"
 
 **4. Research Category**
+
 - 需要多轮搜索的深度研究
 - **研究过程**:
   1. 识别未知信息
@@ -824,14 +865,17 @@ command:
 #### 搜索指南
 
 **何时搜索**:
+
 - 需要未知信息时
 - 信息可能在知识截止日期后发生变化时
 
 **如何搜索**:
+
 - 缩放工具调用数量以适应查询复杂度
 - 使用最佳工具进行查询
 
 **响应指南**:
+
 - 基于搜索结果提供答案
 - 必须包含引用
 - 如果搜索结果不包含相关信息，礼貌告知用户无法找到答案
@@ -839,9 +883,11 @@ command:
 #### 版权限制
 
 **严重违规**（适用于每次响应）:
+
 - 从单个来源引用 15+ 词
 
 **引用标签**:
+
 - 每个具体声明必须用 `<antml:cite>` 标签包裹
 - 标签内的声明必须用自己的话，不要精确引用
 - 引用标签用于归属，不是许可复制原文
@@ -853,6 +899,7 @@ command:
 基于话题/关键词搜索过去对话。
 
 **参数**:
+
 ```yaml
 query:
   type: string
@@ -861,6 +908,7 @@ query:
 ```
 
 **使用场景**:
+
 - "我们讨论了关于 [specific topic] 的什么"
 - "找到我们关于 [X] 的对话"
 
@@ -869,6 +917,7 @@ query:
 基于时间检索过去对话（1-20次聊天）。
 
 **参数**:
+
 ```yaml
 n:
   type: integer
@@ -888,15 +937,18 @@ sort_order:
 ```
 
 **使用场景**:
+
 - "我们昨天讨论了什么"
 - "显示 [日期] 的聊天"
 
 **多个调用**:
+
 - 允许多次调用获取 >20 结果（停止约5次调用后）
 
 **触发模式**:
 
 **始终使用过去对话工具当看到**:
+
 - 显式引用: "继续我们关于...", "我们讨论了什么...", "我之前提到..."
 - 时间引用: "我们昨天讨论了什么", "显示上周的聊天"
 - 隐式信号:
@@ -907,6 +959,7 @@ sort_order:
   - 假设问题: "我提到...", "你记得..."
 
 **高置信度关键词**:
+
 - 可能出现在原始讨论中的名词（如 "movie", "hungry", "pasta"）
 - 特定话题、技术或概念（如 "machine learning", "OAuth", "Python debugging"）
 - 项目或产品名称（如 "Project Tempest", "customer dashboard"）
@@ -915,6 +968,7 @@ sort_order:
 - 其他独特或异常标识符
 
 **低置信度关键词（避免）**:
+
 - 通用动词: "discuss", "talk", "mention", "say", "tell"
 - 时间标记: "yesterday", "last week", "recently"
 
@@ -929,6 +983,7 @@ sort_order:
 **工具**: `look_at` (多媒体分析)
 
 **参数**:
+
 ```yaml
 file_path:
   type: string
@@ -941,6 +996,7 @@ goal:
 ```
 
 **用途**:
+
 - 从 PDF 中提取特定信息或摘要
 - 描述 PDF 的视觉内容
 - 分析需要解释而不仅仅是原始文本的文档
@@ -950,6 +1006,7 @@ goal:
 **工具**: `look_at` 或文件读取
 
 **用途**:
+
 - Word 文档内容提取
 - 格式保持
 - 批量处理
@@ -959,6 +1016,7 @@ goal:
 **工具**: `look_at`
 
 **用途**:
+
 - PowerPoint 演示文稿分析
 - 幻灯片内容提取
 - 视觉元素描述
@@ -968,11 +1026,13 @@ goal:
 **工具**: `look_at` 或 Pandas
 
 **用途**:
+
 - Excel 电子表格数据分析
 - 表格内容提取
 - 数据计算
 
 **推荐库**:
+
 - **Papaparse**: CSV 解析
 - **Lodash**: 计算
 - **SheetJS**: Excel 文件处理
@@ -994,6 +1054,7 @@ goal:
 | Hover | 悬停在元素上 |
 
 **安全策略**:
+
 - 检测和拒绝注入攻击
 - HTML/JavaScript 注入防护
 - SQL 注入防护
@@ -1002,6 +1063,7 @@ goal:
 - 版权遵守
 
 **多标签页并行**:
+
 - 支持同时打开多个标签页
 - 并行处理不同任务
 
@@ -1010,10 +1072,12 @@ goal:
 #### 内部工具
 
 **可用工具**:
+
 - `artifacts` - Artifact 创建
 - `repl` (Analysis Tool / JavaScript REPL)
 
 **REPL 使用场景**:
+
 - **何时使用**:
   - 数据分析和计算
   - 快速原型开发
@@ -1025,6 +1089,7 @@ goal:
   - 复杂的多步骤任务
 
 **REPL 能力**:
+
 - 使用 imports
 - 使用 SheetJS 处理 Excel
 - 与用户通信
@@ -1039,16 +1104,19 @@ goal:
 ### 恶意代码防御
 
 **拒绝条件**:
+
 - 改进、解释或交互恶意代码
 - 即使声称"教育目的"
 - 优化可能用于规避检测的代码
 
 **主动安全审查**:
+
 - 基于文件名和目录结构审查
 - "解释代码"可能是逆向工程
 - "优化代码"可能帮助规避检测
 
 **防御性安全任务**:
+
 - ✅ 安全分析
 - ✅ 检测规则
 - ✅ 漏洞解释
@@ -1056,6 +1124,7 @@ goal:
 - ✅ 安全文档
 
 **禁止任务**:
+
 - ❌ 凭证发现或收集
 - ❌ 批量爬取 SSH keys
 - ❌ 浏览器 cookies
@@ -1064,6 +1133,7 @@ goal:
 ### 注入攻击防护
 
 **检测和拒绝**:
+
 - SQL 注入
 - HTML 注入
 - JavaScript 注入
@@ -1071,6 +1141,7 @@ goal:
 - CSRF 攻击
 
 **防护措施**:
+
 - 输入验证
 - 输出编码
 - 参数化查询
@@ -1083,6 +1154,7 @@ goal:
 ### 基础用法
 
 #### 读取文件
+
 ```json
 {
   "filePath": "/path/to/config.yaml"
@@ -1090,6 +1162,7 @@ goal:
 ```
 
 #### 搜索文件
+
 ```json
 {
   "pattern": "**/*.js"
@@ -1097,6 +1170,7 @@ goal:
 ```
 
 #### 搜索内容
+
 ```json
 {
   "pattern": "function\\s+\\w+\\s*\\("
@@ -1106,6 +1180,7 @@ goal:
 ### 高级用法
 
 #### AST 感知替换
+
 ```yaml
 pattern: 'console.log($MSG)'
 rewrite: 'logger.info($MSG)'
@@ -1114,6 +1189,7 @@ dryRun: false
 ```
 
 #### 委派任务
+
 ```yaml
 category: 'quick'
 load_skills: ['git-master']
@@ -1122,6 +1198,7 @@ run_in_background: false
 ```
 
 #### 并行工具调用
+
 ```json
 [
   {"filePath": "/path/to/file1.ts"},

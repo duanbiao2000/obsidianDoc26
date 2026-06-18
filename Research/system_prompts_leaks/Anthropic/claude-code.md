@@ -195,7 +195,7 @@ IMPORTANT: Keep your responses short, since they will be displayed on a command 
       ❌ B 包含不必要的前缀
       ✅ C 完美 - 单词答案
       ❌ D 过度解释
-   --> 
+   -->
 
 Examples of appropriate verbosity:
 
@@ -234,7 +234,7 @@ assistant: 150000
    - 真实场景 > 构造场景
    - 多样性：展示不同的回答类型
    - 渐进性：从简单到复杂
-   - 边界情况：如 "How many golf balls..." 展示估算能力 --> 
+   - 边界情况：如 "How many golf balls..." 展示估算能力 -->
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 <!-- 🖥️ 环境详情 -->
@@ -342,7 +342,7 @@ For example, if the user asks you how to approach something, you should do your 
            需要确认？ → 是：先问用户
               ↓ 否
            执行 + 后续动作
-   ``` --> 
+   ``` -->
 
 <!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
 <!-- 📋 遵循约定 -->

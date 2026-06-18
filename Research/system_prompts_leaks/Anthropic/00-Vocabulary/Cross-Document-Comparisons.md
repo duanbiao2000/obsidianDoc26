@@ -36,6 +36,7 @@ related_docs:
 > 通过对比不同公司、不同版本的系统提示词，我们可以理解**设计理念的演进**和**文化差异**。这些差异反映了各公司对 AI 的不同定位和价值观。
 >
 > **对比维度 | Comparison Dimensions**:
+>
 > - **公司风格对比** | Company Style Comparison (Anthropic vs OpenAI vs Google)
 > - **版本演进对比** | Version Evolution Comparison (Claude 3.7 → 4.1 → 4.5)
 > - **功能模块对比** | Functional Module Comparison (Search, Memory, Copyright)
@@ -107,11 +108,13 @@ related_docs:
 > **核心价值观**: 安全、透明、可控
 >
 > **词汇特征**:
+>
 > - 大量使用 MUST/NEVER/CRITICAL（强调重要性）
 > - 丰富的程度修饰语（appropriately, strategically, naturally）
 > - 详细的微妙表达（breaks continuity, forces users）
 >
 > **示例**:
+>
 > ```markdown
 > CRITICAL: Claims MUST be in your own words
 > ALWAYS appropriately cite your sources
@@ -126,11 +129,13 @@ related_docs:
 > **核心价值观**: 用户体验、灵活性、人格化
 >
 > **词汇特征**:
+>
 > - 更柔和的语气控制（must vs MUST）
 > - 人格化表达（you, your, conversation）
 > - 更多的 can/may（允许灵活性）
 >
 > **示例**:
+>
 > ```markdown
 > You should be helpful and friendly
 > You can use search tools when needed
@@ -145,11 +150,13 @@ related_docs:
 > **核心价值观**: 准确性、功能性、效率
 >
 > **词汇特征**:
+>
 > - 中性语气控制（must, should）
 > - 清晰的操作指令（use, include, avoid）
 > - 最少的修饰语（直接明了）
 >
 > **示例**:
+>
 > ```markdown
 > must use LaTeX for math
 > include citations when using search results
@@ -184,6 +191,7 @@ related_docs:
 #### 功能演进 | Functional Evolution
 
 **Claude 3.7 Sonnet** (基础版):
+
 ```markdown
 - 基础工具使用
 - 简单搜索指令
@@ -191,6 +199,7 @@ related_docs:
 ```
 
 **Claude 4.1 Opus** (思维模式):
+
 ```markdown
 - 新增思维模式
 - "carefully consider" 思考指令
@@ -199,6 +208,7 @@ related_docs:
 ```
 
 **Claude 4.5 Sonnet** (增强推理):
+
 ```markdown
 - CRITICAL 前缀引入
 - "strategically decide" 策略性决策
@@ -239,6 +249,7 @@ related_docs:
 | **Google** | 功能判断 | 工具可用性 | 低 |
 
 > [!example] Anthropic 的搜索决策树
+>
 > ```
 > 信息稳定？→ 是 → 不搜索
 >    ↓ 否
@@ -354,8 +365,10 @@ should    may           may     optional        optional
 | **Google** | "Use specific terms for search queries." |
 
 **转换原则**:
+
 - Anthropic → OpenAI: 简化语气，降低强制
 - Anthropic → Google: 精简表达，功能导向
+
 </details>
 
 ---
@@ -427,16 +440,19 @@ should    may           may     optional        optional
 > ==跨文档对比的三个核心价值==
 >
 > **1. 理解设计哲学 | Understanding Design Philosophy**
+>
 > - Anthropic: 安全、透明、层级控制
 > - OpenAI: 用户、体验、灵活性
 > - Google: 功能、准确、效率
 >
 > **2. 预测演进趋势 | Predicting Evolution Trends**
+>
 > - 强制程度: 从简单到精细
 > - 表达精度: 从刚性到柔性
 > - 关注重点: 从功能到体验
 >
 > **3. 指导实践应用 | Guiding Practical Application**
+>
 > - 选择合适的风格适配目标用户
 > - 理解词汇选择的影响
 > - 设计更有效的系统提示词

@@ -36,6 +36,7 @@ related_docs:
 > 语气控制词（Tone Controllers）是用于精确表达 AI 行为**强制程度、优先级和灵活性**的词汇。它们是系统提示词中**最关键**的词汇类别，直接决定了 AI 的行为边界。
 >
 > **核心功能 | Core Functions**:
+>
 > - **表达强制程度** | Express mandatory level (100% vs 90% vs 70%)
 > - **定义优先级** | Define priority (critical vs important vs optional)
 > - **控制灵活性** | Control flexibility (no exceptions vs some exceptions)
@@ -81,6 +82,7 @@ related_docs:
 > **为何选择此词**: "CRITICAL" 传达**不可妥协**的强制程度
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 典型用法: "CRITICAL: Claims must be in your own words"
 >
@@ -118,6 +120,7 @@ related_docs:
 > **为何选择此词**: "MUST" 是最强硬的强制表达
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "MUST: Use citations appropriately"
 >
@@ -134,6 +137,7 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 强度 |
 > |:-----|:-----|:----:|
 > | Anthropic | "MUST cite" | 最高 |
@@ -158,6 +162,7 @@ related_docs:
 > **为何选择此词**: "NEVER" 传达**不可妥协**的禁止程度
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "NEVER reproduce song lyrics"
 >
@@ -203,6 +208,7 @@ related_docs:
 > **为何选择此词**: "ALWAYS" 简洁有力，易于理解
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "must always appropriately cite"
 >
@@ -219,6 +225,7 @@ related_docs:
 > ```
 
 > [!tip] 与 MUST 的组合 | Combination with MUST
+>
 > ```markdown
 > "MUST ALWAYS" = 双重强调
 >
@@ -231,7 +238,6 @@ related_docs:
 >
 > 总效果: 最高强制程度 + 最高一致性 + 适配性要求
 > ```
-
 
 ---
 
@@ -248,6 +254,7 @@ related_docs:
 > **为何选择此词**: 在强度和灵活性之间取得平衡
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "strongly consider outputting a thinking block"
 >
@@ -302,6 +309,7 @@ related_docs:
 > **为何选择此词**: "should" 是最自然的建议表达
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "should be concise and direct"
 >
@@ -318,6 +326,7 @@ related_docs:
 > ```
 
 > [!tip] should 的灵活性 | Flexibility of should
+>
 > ```markdown
 > should ≠ MUST
 >
@@ -332,7 +341,6 @@ related_docs:
 >
 > 设计理念: should 是默认行为，可合理例外
 > ```
-
 
 ---
 
@@ -349,6 +357,7 @@ related_docs:
 > **为何选择此词**: "may" 更正式，语气更委婉
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "may use multiple tool calls"
 >
@@ -365,6 +374,7 @@ related_docs:
 > ```
 
 > [!tip] may 的主动性 | Agency of may
+>
 > ```markdown
 > may = AI 有判断权
 >
@@ -377,7 +387,6 @@ related_docs:
 >
 > 设计理念: may 赋予 AI 自主权
 > ```
-
 
 ---
 
@@ -394,6 +403,7 @@ related_docs:
 > **为何选择此词**: "optional" 清晰表达非强制性
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "optional: include code examples"
 >
@@ -595,16 +605,19 @@ optional: include performance tips
 > ==语气控制词的三个维度==
 >
 > **1. 强制程度维度 | Mandatory Level**
+>
 > - CRITICAL/MUST/NEVER → 100% 无例外
 > - strongly → 90% 极少例外
 > - should → 70% 允许例外
 > - may/optional → 0-30% 完全可选
 >
 > **2. 方向维度 | Direction**
+>
 > - 正向: MUST, should, may
 > - 负向: NEVER, should not, avoid
 >
 > **3. 一致性维度 | Consistency**
+>
 > - ALWAYS: 100% 一致
 > - consistently: 高度一致
 

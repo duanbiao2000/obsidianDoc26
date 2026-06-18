@@ -36,6 +36,7 @@ related_docs:
 > 操作指导词（Action Guides）是系统提示词中**最直接**的行为控制词汇。它们是祈使句动词，明确告诉 AI 应该做什么、如何做、在什么情况下做。
 >
 > **核心功能 | Core Functions**:
+>
 > - **明确行为指令** | Specify behavioral commands (Extract, Avoid, Prioritize)
 > - **定义操作方式** | Define operational methods (Use, Consider, Synthesize)
 > - **控制执行顺序** | Control execution sequence (First, Then, Finally)
@@ -80,6 +81,7 @@ related_docs:
 > **为何选择此词**: "Extract" 暗示**精确识别**和**选择性获取**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Extract substantive/high-confidence keywords only"
 >
@@ -98,6 +100,7 @@ related_docs:
 > ```
 
 > [!tip] Extract vs Get | Extract vs Get
+>
 > ```markdown
 > 精确度差异:
 >
@@ -125,11 +128,11 @@ related_docs:
 > **Get** = 直接获取，无筛选
 >
 > **示例**:
+>
 > - Extract: "Extract substantive keywords" → 只获取有价值的
 > - Get: "Get keywords from query" → 获取所有关键词
 >
 > **系统提示词选择**: Extract 更精确，避免获取低质量信息
-
 
 ---
 
@@ -146,6 +149,7 @@ related_docs:
 > **为何选择此词**: "Avoid" 暗示**主动识别并绕开**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Avoid generic verbs and time markers"
 >
@@ -163,6 +167,7 @@ related_docs:
 > ```
 
 > [!tip] Avoid vs Don't | Avoid vs Don't
+>
 > ```markdown
 > 态度差异:
 >
@@ -187,11 +192,11 @@ related_docs:
 > **Don't** = 简单禁止某行为
 >
 > **示例**:
+>
 > - Avoid: "Avoid generic keywords" → 主动寻找更好的关键词
 > - Don't: "Don't use generic keywords" → 只是禁止使用
 >
 > **关键差异**: Avoid 暗示有更好的选择，Don't 只是约束
-
 
 ---
 
@@ -208,6 +213,7 @@ related_docs:
 > **为何选择此词**: "Prioritize" 暗示**排序和选择**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Prioritize current context over past if contradictory"
 >
@@ -226,6 +232,7 @@ related_docs:
 > ```
 
 > [!tip] Prioritize 的排序逻辑 | Ranking Logic of Prioritize
+>
 > ```markdown
 > Prioritize 暗示明确的排序:
 >
@@ -254,11 +261,11 @@ related_docs:
 > **Focus on** = 关注某事，可能忽略其他
 >
 > **示例**:
+>
 > - Prioritize: "Prioritize A over B" → A 优先，B 备用
 > - Focus on: "Focus on A" → 关注 A，B 未提及
 >
 > **系统提示词选择**: Prioritize 更明确，包含备选方案
-
 
 ---
 
@@ -275,6 +282,7 @@ related_docs:
 > **为何选择此词**: "Synthesize" 暗示**创造性的整合**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Synthesize information naturally"
 >
@@ -292,6 +300,7 @@ related_docs:
 > ```
 
 > [!tip] Synthesize vs Combine | Synthesize vs Combine
+>
 > ```markdown
 > 整合质量差异:
 >
@@ -321,11 +330,11 @@ related_docs:
 > **Combine** = 物理组合，简单拼接
 >
 > **示例**:
+>
 > - Combine: "Combine results" → 拼接所有结果
 > - Synthesize: "Synthesize results" → 理解后整合
 >
 > **质量差异**: Synthesize 产生更连贯、更有价值的输出
-
 
 ---
 
@@ -342,6 +351,7 @@ related_docs:
 > **为何选择此词**: "Acknowledge" 暗示**透明和诚实**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Acknowledge when drawing from past conversations"
 >
@@ -360,6 +370,7 @@ related_docs:
 > ```
 
 > [!tip] Acknowledge 的信任功能 | Trust Function of Acknowledge
+>
 > ```markdown
 > 透明化建立信任:
 >
@@ -386,11 +397,11 @@ related_docs:
 > **Mention** = 简单提及某事
 >
 > **示例**:
+>
 > - Mention: "I mentioned this before" → 简单提及
 > - Acknowledge: "Drawing from our past conversation..." → 透明化来源
 >
 > **关键差异**: Acknowledge 暗示诚实和透明，Mention 只是信息陈述
-
 
 ---
 
@@ -407,6 +418,7 @@ related_docs:
 > **为何选择此词**: "Consider" 暗示**认真评估**而非**盲目执行**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "carefully consider whether a thinking block is appropriate"
 >
@@ -425,6 +437,7 @@ related_docs:
 > ```
 
 > [!tip] Consider 的决策空间 | Decision Space of Consider
+>
 > ```markdown
 > Consider 保留决策空间:
 >
@@ -452,11 +465,11 @@ related_docs:
 > **Use** = 直接使用
 >
 > **示例**:
+>
 > - Use: "Use thinking blocks" → 直接使用
 > - Consider: "Consider using thinking blocks" → 评估后决定
 >
 > **系统提示词选择**: Consider 保留 AI 的判断力和灵活性
-
 
 ---
 
@@ -473,6 +486,7 @@ related_docs:
 > **为何选择此词**: "Use" 最直接、最自然
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Use the minimum number of tool calls necessary"
 >
@@ -496,11 +510,11 @@ related_docs:
 > **Utilize** = 充分利用，正式
 >
 > **示例**:
+>
 > - Use: "Use web_search" → 使用搜索工具
 > - Utilize: "Utilize all available features" → 充分利用所有功能
 >
 > **系统提示词选择**: Use 更简洁自然
-
 
 ---
 
@@ -517,6 +531,7 @@ related_docs:
 > **为何选择此词**: "Offer" 暗示**用户选择权**
 
 > [!example] 语境示例 | Contextual Examples
+>
 > ```markdown
 > 核心用法: "Offer to search when uncertain"
 >
@@ -534,6 +549,7 @@ related_docs:
 > ```
 
 > [!tip] Offer 的主动性 | Proactivity of Offer
+>
 > ```markdown
 > Offer 平衡主动性和尊重:
 >
@@ -561,11 +577,11 @@ related_docs:
 > **Suggest** = 建议考虑，不强求
 >
 > **示例**:
+>
 > - Offer: "Offer to search" → 我可以搜索，你决定
 > - Suggest: "Suggest searching" → 我建议搜索
 >
 > **系统提示词选择**: Offer 更明确，包含执行意图
-
 
 ---
 
@@ -643,21 +659,27 @@ related_docs:
 > **操作序列**:
 >
 > 1. **识别意图** (Consider)
+>
 >> "Consider whether this references past conversations"
 >
-> 2. **提取关键词** (Extract)
+> 1. **提取关键词** (Extract)
+>
 >> "Extract substantive keywords: 'discussed', 'before'"
 >
-> 3. **执行搜索** (Use)
+> 1. **执行搜索** (Use)
+>
 >> "Use conversation_search with extracted keywords"
 >
-> 4. **确认来源** (Acknowledge)
+> 1. **确认来源** (Acknowledge)
+>
 >> "Acknowledge when drawing from past conversations"
 >
-> 5. **综合信息** (Synthesize)
+> 1. **综合信息** (Synthesize)
+>
 >> "Synthesize information naturally"
 >
-> 6. **响应** (Respond)
+> 1. **响应** (Respond)
+>
 >> "Respond with synthesized information and links"
 >
 > **设计原则**: 操作序列 = 识别 → 提取 → 执行 → 确认 → 综合 → 响应
@@ -760,18 +782,21 @@ related_docs:
 > ==操作指导词的三个维度==
 >
 > **1. 信息处理维度 | Information Processing**
+>
 > - Extract: 精确提取
 > - Analyze: 深入分析
 > - Synthesize: 有机整合
 > - Evaluate: 评估判断
 >
 > **2. 行为控制维度 | Behavior Control**
+>
 > - Use: 直接执行
 > - Avoid: 主动绕开
 > - Consider: 评估决定
 > - Prioritize: 明确排序
 >
 > **3. 用户交互维度 | User Interaction**
+>
 > - Acknowledge: 透明化
 > - Inform: 告知
 > - Offer: 提议

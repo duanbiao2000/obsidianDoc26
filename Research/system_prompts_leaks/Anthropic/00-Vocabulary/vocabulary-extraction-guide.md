@@ -36,6 +36,7 @@ related_docs:
 > 系统提示词中的**微妙词汇**（Subtle Vocabulary）需要通过系统化的方法手动识别和提取。本指南提供完整的提取流程、识别规则和分类标准。
 >
 > **为何手动提取？| Why Manual Extraction?**
+>
 > - 自动化工具难以识别**语用微妙性**（Pragmatic Nuance）
 > - 需要理解**语境依赖性**（Contextual Dependency）
 > - 需要判断**跨文档相关性**（Cross-Document Relevance）
@@ -62,16 +63,19 @@ related_docs:
 #### 1. 程度修饰语 | Degree Modifiers
 
 **识别特征**:
+
 - 位于动词/形容词前
 - 修饰执行强度或质量
 - 通常为副词
 
 **搜索模式**:
+
 ```
 \b(appropriately|strategically|carefully|thoroughly|naturally|politely|strongly|highly)\s+\w+
 ```
 
 **示例识别**:
+
 ```markdown
 ✅ "appropriately cite" → appropriately 是程度修饰语
 ✅ "strategically decide" → strategically 是程度修饰语
@@ -82,16 +86,19 @@ related_docs:
 #### 2. 语气控制词 | Tone Controllers
 
 **识别特征**:
+
 - 位于句首或关键指令前
 - 表达强制程度或优先级
 - 通常为大写或强调形式
 
 **搜索模式**:
+
 ```
 \b(CRITICAL|MUST|NEVER|ALWAYS|should|must|never|always)\b
 ```
 
 **示例识别**:
+
 ```markdown
 ✅ "CRITICAL: Claims must be in your own words" → CRITICAL 是语气控制词
 ✅ "MUST: Use citations appropriately" → MUST 是语气控制词
@@ -102,16 +109,19 @@ related_docs:
 #### 3. 边界词 | Boundary Words
 
 **识别特征**:
+
 - 定义操作范围或条件
 - 通常为连词或限定词
 - 与条件从句配合
 
 **搜索模式**:
+
 ```
 \b(unless|except|only|maximum|minimum|approximately|at most|at least)\b
 ```
 
 **示例识别**:
+
 ```markdown
 ✅ "unless explicitly asked" → unless 是边界词
 ✅ "only for your reference" → only 是边界词
@@ -122,16 +132,19 @@ related_docs:
 #### 4. 微妙表达 | Nuanced Expressions
 
 **识别特征**:
+
 - 委婉但强硬的描述
 - 通常涉及用户行为或后果
 - 常用名词或动词短语
 
 **搜索模式**:
+
 ```
 (breaks continuity|forces users to|naturally|politely|substantive)
 ```
 
 **示例识别**:
+
 ```markdown
 ✅ "breaks continuity" → 微妙表达，强调负面后果
 ✅ "forces users to repeat" → 微妙表达，委婉但强硬
@@ -142,16 +155,19 @@ related_docs:
 #### 5. 操作指导词 | Action Guides
 
 **识别特征**:
+
 - 祈使句动词
 - 明确的行为指令
 - 通常位于句首
 
 **搜索模式**:
+
 ```
 \b(Extract|Avoid|Prioritize|Synthesize|Acknowledge|Consider|Use|Don't|Do not)\b
 ```
 
 **示例识别**:
+
 ```markdown
 ✅ "Extract substantive keywords" → Extract 是操作指导词
 ✅ "Avoid low-confidence keywords" → Avoid 是操作指导词
@@ -316,6 +332,7 @@ results are limited."
 **总计**: 16 个微妙词汇
 
 **分类统计**:
+
 - 语气控制: 1 (CRITICAL)
 - 程度修饰: 6 (substantive, specific, explicitly, comprehensive, necessary, naturally, politely)
 - 边界词: 3 (only, Unless, minimum)
@@ -357,6 +374,7 @@ results are limited."
 > 选择一个未分析的系统提示词文件，提取其中的微妙词汇。
 
 **步骤**:
+
 1. 选择文件（如 OpenAI/GPT-4.5.md）
 2. 按照 Phase 1-4 的流程进行提取
 3. 记录至少 10 个词汇
@@ -376,8 +394,10 @@ results are limited."
 | Don't | 语气控制 | "Don't make up..." | Anthropic 用 "NEVER" |
 
 **风格差异**:
+
 - OpenAI: 更口语化，强制程度较弱
 - Anthropic: 更正式，强制程度更强
+
 </details>
 
 ---
@@ -434,9 +454,9 @@ results are limited."
 
 | 工具 | 用途 | 链接 |
 |:-----|:------|:-----|
-| Obsidian | 双向链接笔记 | https://obsidian.md |
-| VS Code | 代码阅读和高亮 | https://code.visualstudio.com |
-| Regex101 | 正则表达式测试 | https://regex101.com |
+| Obsidian | 双向链接笔记 | <https://obsidian.md> |
+| VS Code | 代码阅读和高亮 | <https://code.visualstudio.com> |
+| Regex101 | 正则表达式测试 | <https://regex101.com> |
 
 ### 参考资源
 
