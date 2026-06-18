@@ -9,11 +9,13 @@ related: [[concept_05_comprehensible_input], [concept_06_physiological_language_
 # 6个月外语习得行动指南
 
 ## 目标
+
 摒弃单纯的天赋论和沉浸论，通过生理训练和高频使用，在6个月内实现一门外语的流利沟通。
 
 ## 执行步骤与动作
 
 ### 第一阶段：生理适应与基础输入 (大脑破冰)
+
 **核心原则：容忍模糊，不求完全听懂**
 
 1. **执行“大脑浸泡” (大量聆听)**
@@ -29,6 +31,7 @@ related: [[concept_05_comprehensible_input], [concept_06_physiological_language_
    - **重点**：刻意夸张练习，直到面部肌肉产生酸痛感。
 
 ### 第二阶段：高频工具库搭建 (语料积累)
+
 **核心原则：聚焦与生存/个人目标直接相关的核心内容**
 
 1. **分周构建核心词汇表 (获取1000高频词)**
@@ -40,6 +43,7 @@ related: [[concept_05_comprehensible_input], [concept_06_physiological_language_
    - **动作**：背单词时，闭上眼睛想象该词对应的画面、气味或动作，严禁在大脑中翻译成母语（应用 [[concept_08_direct_image_connection]]）。
 
 ### 第三阶段：输出创造与实战互动
+
 **核心原则：从第一天起就将语言作为沟通工具**
 
 1. **进行“婴儿式”组合表达**
@@ -51,6 +55,7 @@ related: [[concept_05_comprehensible_input], [concept_06_physiological_language_
    - **话术规范**：“请努力理解我，不要纠正我的错误，用我能听懂的简单词汇反馈我。”
 
 ## ⚡ 每日最低打卡动作
+
 - 听15分钟目标语言音频（纯磨耳朵）。
 - 模仿母语者口型练习发音至肌肉微酸。
 - 用目标语言随意拼接3个词来描述你当前看到的东西（如：大+狗+跑）。

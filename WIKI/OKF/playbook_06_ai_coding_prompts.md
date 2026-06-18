@@ -9,11 +9,13 @@ related: [[concept_22_implicit_standard_reflection], [concept_23_explicit_codeba
 # AI编程高阶提示词实操手册
 
 ## 目标
+
 运用最新的提示词工程技巧（如隐性反思、XML结构化、行动提案），将大语言模型（如 GPT-5）从普通聊天机器人改造为完美适配本地代码库的高级研发工程师。
 
 ## 执行步骤与动作
 
 ### 场景一：从零到一构建新模块 (Zero-to-One)
+
 **核心动作：制定规则与触发深度思考**
 
 1. **注入 `<code_editing_rules>` (应用 [[concept_23_explicit_codebase_rules]])**
@@ -25,6 +27,7 @@ related: [[concept_22_implicit_standard_reflection], [concept_23_explicit_codeba
    - 动作：在用户提示词末尾添加要求：“在输出代码前，请先建立 5 个代码质量评估维度，并在内部对你的草稿进行打分和优化，直到达到最高标准再输出最终代码。”
 
 ### 场景二：生产环境长周期协作 (Bug修复与迭代)
+
 **核心动作：降噪、提效与放权**
 
 1. **切断废话，强化代码 (应用 [[concept_25_structured_density_control]])**
@@ -37,5 +40,6 @@ related: [[concept_22_implicit_standard_reflection], [concept_23_explicit_codeba
    - 动作：信任新模型的智商，避免使用诸如“你必须搜索所有相关文件”的极端字眼，改为“如确有必要，可查阅相关文件”，以避免过度消耗 token 与时间。
 
 ## ⚡ 开发者快速起步 (今天就加进你的 Prompt 里)
+
 复制以下这句“神仙指令”加到你下一次的编程任务末尾：
 > *"Please act proactively. Directly provide the final code diffs for me to approve without asking for permission. Keep your explanation extremely brief, but ensure the code variables are highly readable. Follow the implicit codebase rules strictly."*

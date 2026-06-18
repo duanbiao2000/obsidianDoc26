@@ -9,11 +9,13 @@ related: [[concept_28_natural_communication], [concept_29_error_rate_control]]
 # 雅思考试逆向通关手册
 
 ## 目标
+
 放弃“想要拿高分就要炫技”的备考幻觉，通过控制错误率、拒绝模板和提升真实交流感，稳保基础分并突破 6.5 分瓶颈。
 
 ## 执行步骤与动作
 
 ### 场景一：口语备考与实战 (Speaking)
+
 **核心动作：消除背诵感，保证输出清晰（应用 [[concept_28_natural_communication]]）**
 
 1. **废弃模板与大词**：停用所有你不100%确定的“高级词汇”和陈词滥调（如 “With the development of society...”）。
@@ -24,6 +26,7 @@ related: [[concept_28_natural_communication], [concept_29_error_rate_control]]
 4. **Part 2 真事策略**：放弃准备 20 篇完美的编造素材，找几个真实的普通故事，用简单句撑满 2 分钟。
 
 ### 场景二：写作备考与实战 (Writing)
+
 **核心动作：减少低级错误，直接回答问题（应用 [[concept_29_error_rate_control]]）**
 
 1. **调整时间分配**：Task 2 占分是 Task 1 的两倍，优先保障 Task 2 的时间。
@@ -31,12 +34,14 @@ related: [[concept_28_natural_communication], [concept_29_error_rate_control]]
 3. **降级句式**：在考试中，如果对长难句没有绝对把握，立刻降级拆分为两个正确的简单句，保证主谓宾完整、时态正确。
 
 ### 场景三：突破 6.5 的日常训练 (Daily Routine)
+
 **核心动作：将“看懂”转化为“肌肉记忆”**
 
 1. **建立直接英文输出习惯**：在日常练习中，哪怕只会说 *"I like it because it's easy"*，也严禁先在大脑里打中文草稿再翻译。
 2. **闭环输出训练**：输入（看范文）毫无意义，每天必须完成一套动作：**限时 → 动笔/开口 → 录音 → 批改/复盘 → 重做**。
 
 ## ⚡ 考场保命黄金法则
+
 在考试前默念这个公式：
 **Clear (清晰) × Specific (具体) × Error-free (零语法错误) = 7.0 分**
 而 Impressive (炫技) × Complex (复杂) × Risky (易错) = 5.5 分。

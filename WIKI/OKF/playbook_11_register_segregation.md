@@ -9,11 +9,13 @@ related: [[concept_39_multidimensional_register], [concept_40_bibers_register_fr
 # 雅思语域隔离实战手册
 
 ## 目标
+
 建立“口语会话 (CONV)”与“学术写作 (ACAD)”的物理隔离墙，通过自我诊断与重构算法，彻底消除雅思考试中的“语域污染（Register Contamination）”。
 
 ## 执行步骤与动作
 
 ### 哨卡一：写作防“口语化” (Task 2 Academic Writing)
+
 **核心原则：消除主观情感，建立纯文本依赖的严谨逻辑（应用 [[concept_39_multidimensional_register]], [[concept_40_bibers_register_framework]]）**
 
 1. **诊断机制（寻找污染源）**：
@@ -28,6 +30,7 @@ related: [[concept_39_multidimensional_register], [concept_40_bibers_register_fr
      - ✅ `It is widely held that this issue must be addressed.` 或 `Evidence suggests that...`
 
 ### 哨卡二：口语防“背书感” (Speaking)
+
 **核心原则：拥抱动态、即时互动与不完美（应用 [[concept_41_register_contamination]]）**
 
 1. **诊断机制（寻找污染源）**：
@@ -41,6 +44,8 @@ related: [[concept_39_multidimensional_register], [concept_40_bibers_register_fr
 ---
 
 ## ⚡ 每日语域切换刻意练习
+
 找同一个话题（例如：“大城市交通拥堵”）：
+
 - **口语版输出**：用 1 分钟，使用口语缩写、填充词和碎片化补充，录音说出原因。
 - **写作版输出**：用 3 分钟，完全抛弃刚才口语用过的句式，用一个包含被动语态和客观主语的长难句将其写下来。
