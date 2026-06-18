@@ -10,13 +10,13 @@ Complete reference for all **100 specialized AI agents** organized by category w
 
 | Agent                                                                                         | Model  | Description                                                            |
 | --------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------- |
-| [backend-architect](Research/agents/plugins/backend-development/agents/backend-architect.md)               | opus   | RESTful API design, microservice boundaries, database schemas          |
-| [frontend-developer](Research/agents/plugins/multi-platform-apps/agents/frontend-developer.md)             | sonnet | React components, responsive layouts, client-side state management     |
-| [graphql-architect](Research/agents/plugins/backend-development/agents/graphql-architect.md)               | opus   | GraphQL schemas, resolvers, federation architecture                    |
-| [architect-reviewer](Research/agents/plugins/comprehensive-review/agents/architect-review.md)              | opus   | Architectural consistency analysis and pattern validation              |
-| [cloud-architect](Research/agents/plugins/cloud-infrastructure/agents/cloud-architect.md)                  | opus   | AWS/Azure/GCP infrastructure design and cost optimization              |
+| [backend-architect](Resources/Research/agents/plugins/backend-development/agents/backend-architect.md)               | opus   | RESTful API design, microservice boundaries, database schemas          |
+| [frontend-developer](Resources/Research/agents/plugins/multi-platform-apps/agents/frontend-developer.md)             | sonnet | React components, responsive layouts, client-side state management     |
+| [graphql-architect](Resources/Research/agents/plugins/backend-development/agents/graphql-architect.md)               | opus   | GraphQL schemas, resolvers, federation architecture                    |
+| [architect-reviewer](Resources/Research/agents/plugins/comprehensive-review/agents/architect-review.md)              | opus   | Architectural consistency analysis and pattern validation              |
+| [cloud-architect](Resources/Research/agents/plugins/cloud-infrastructure/agents/cloud-architect.md)                  | opus   | AWS/Azure/GCP infrastructure design and cost optimization              |
 | [hybrid-cloud-architect](hybrid-cloud-architect.md)    | opus   | Multi-cloud strategies across cloud and on-premises environments       |
-| [kubernetes-architect](Research/agents/plugins/kubernetes-operations/agents/kubernetes-architect.md)       | opus   | Cloud-native infrastructure with Kubernetes and GitOps                 |
+| [kubernetes-architect](Resources/Research/agents/plugins/kubernetes-operations/agents/kubernetes-architect.md)       | opus   | Cloud-native infrastructure with Kubernetes and GitOps                 |
 | [service-mesh-expert](service-mesh-expert.md)          | opus   | Istio/Linkerd service mesh architecture, mTLS, and traffic management  |
 | [event-sourcing-architect](event-sourcing-architect.md) | opus   | Event sourcing, CQRS patterns, event stores, and saga orchestration    |
 | [monorepo-architect](monorepo-architect.md)            | opus   | Monorepo tooling with Nx, Turborepo, Bazel, and workspace optimization |
@@ -30,7 +30,7 @@ Complete reference for all **100 specialized AI agents** organized by category w
 | [design-system-architect](design-system-architect.md)        | opus   | Design tokens, component libraries, theming systems     |
 | [ui-ux-designer](ui-ux-designer.md)                | sonnet | Interface design, wireframes, design systems            |
 | [ui-visual-validator](ui-visual-validator.md) | sonnet | Visual regression testing and UI verification           |
-| [mobile-developer](Research/agents/plugins/multi-platform-apps/agents/mobile-developer.md)            | sonnet | React Native and Flutter application development        |
+| [mobile-developer](Resources/Research/agents/plugins/multi-platform-apps/agents/mobile-developer.md)            | sonnet | React Native and Flutter application development        |
 | [ios-developer](ios-developer.md)                  | sonnet | Native iOS development with Swift/SwiftUI               |
 | [flutter-expert](flutter-expert.md)                | sonnet | Advanced Flutter development with state management      |
 
@@ -69,8 +69,8 @@ Complete reference for all **100 specialized AI agents** organized by category w
 | Agent                                                                              | Model  | Description                                                                               |
 | ---------------------------------------------------------------------------------- | ------ | ----------------------------------------------------------------------------------------- |
 | [elixir-pro](elixir-pro.md)               | sonnet | Elixir with OTP patterns and Phoenix frameworks                                           |
-| [django-pro](Research/agents/plugins/api-scaffolding/agents/django-pro.md)                      | sonnet | Django development with ORM and async views                                               |
-| [fastapi-pro](Research/agents/plugins/api-scaffolding/agents/fastapi-pro.md)                    | sonnet | FastAPI with async patterns and Pydantic                                                  |
+| [django-pro](Resources/Research/agents/plugins/api-scaffolding/agents/django-pro.md)                      | sonnet | Django development with ORM and async views                                               |
+| [fastapi-pro](Resources/Research/agents/plugins/api-scaffolding/agents/fastapi-pro.md)                    | sonnet | FastAPI with async patterns and Pydantic                                                  |
 | [haskell-pro](haskell-pro.md)             | sonnet | Strongly typed functional programming with purity, advanced type systems, and concurrency |
 | [unity-developer](unity-developer.md)           | sonnet | Unity game development and optimization                                                   |
 | [minecraft-bukkit-pro](minecraft-bukkit-pro.md) | sonnet | Minecraft server plugin development                                                       |
@@ -82,25 +82,25 @@ Complete reference for all **100 specialized AI agents** organized by category w
 
 | Agent                                                                                  | Model  | Description                                                        |
 | -------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------ |
-| [devops-troubleshooter](Research/agents/plugins/incident-response/agents/devops-troubleshooter.md)  | sonnet | Production debugging, log analysis, deployment troubleshooting     |
-| [deployment-engineer](Research/agents/plugins/cloud-infrastructure/agents/deployment-engineer.md)   | sonnet | CI/CD pipelines, containerization, cloud deployments               |
-| [terraform-specialist](Research/agents/plugins/cloud-infrastructure/agents/terraform-specialist.md) | sonnet | Infrastructure as Code with Terraform modules and state management |
-| [dx-optimizer](Research/agents/plugins/team-collaboration/agents/dx-optimizer.md)                   | sonnet | Developer experience optimization and tooling improvements         |
+| [devops-troubleshooter](Resources/Research/agents/plugins/incident-response/agents/devops-troubleshooter.md)  | sonnet | Production debugging, log analysis, deployment troubleshooting     |
+| [deployment-engineer](Resources/Research/agents/plugins/cloud-infrastructure/agents/deployment-engineer.md)   | sonnet | CI/CD pipelines, containerization, cloud deployments               |
+| [terraform-specialist](Resources/Research/agents/plugins/cloud-infrastructure/agents/terraform-specialist.md) | sonnet | Infrastructure as Code with Terraform modules and state management |
+| [dx-optimizer](Resources/Research/agents/plugins/team-collaboration/agents/dx-optimizer.md)                   | sonnet | Developer experience optimization and tooling improvements         |
 
 #### Database Management
 
 | Agent                                                                                  | Model  | Description                                                         |
 | -------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------- |
-| [database-optimizer](Research/agents/plugins/observability-monitoring/agents/database-optimizer.md) | sonnet | Query optimization, index design, migration strategies              |
+| [database-optimizer](Resources/Research/agents/plugins/observability-monitoring/agents/database-optimizer.md) | sonnet | Query optimization, index design, migration strategies              |
 | [database-admin](database-admin.md)              | sonnet | Database operations, backup, replication, monitoring                |
-| [database-architect](Research/agents/plugins/database-design/agents/database-architect.md)          | opus   | Database design from scratch, technology selection, schema modeling |
+| [database-architect](Resources/Research/agents/plugins/database-design/agents/database-architect.md)          | opus   | Database design from scratch, technology selection, schema modeling |
 
 #### Incident Response & Network
 
 | Agent                                                                              | Model  | Description                                         |
 | ---------------------------------------------------------------------------------- | ------ | --------------------------------------------------- |
 | [incident-responder](../plugins/incident-response/agents/incident-responder.md)    | opus   | Production incident management and resolution       |
-| [network-engineer](Research/agents/plugins/observability-monitoring/agents/network-engineer.md) | sonnet | Network debugging, load balancing, traffic analysis |
+| [network-engineer](Resources/Research/agents/plugins/observability-monitoring/agents/network-engineer.md) | sonnet | Network debugging, load balancing, traffic analysis |
 
 #### Project Management
 
@@ -114,9 +114,9 @@ Complete reference for all **100 specialized AI agents** organized by category w
 
 | Agent                                                                                            | Model | Description                                                     |
 | ------------------------------------------------------------------------------------------------ | ----- | --------------------------------------------------------------- |
-| [code-reviewer](Research/agents/plugins/comprehensive-review/agents/code-reviewer.md)                         | opus  | Code review with security focus and production reliability      |
-| [security-auditor](Research/agents/plugins/comprehensive-review/agents/security-auditor.md)                   | opus  | Vulnerability assessment and OWASP compliance                   |
-| [backend-security-coder](Research/agents/plugins/data-validation-suite/agents/backend-security-coder.md)      | opus  | Secure backend coding practices, API security implementation    |
+| [code-reviewer](Resources/Research/agents/plugins/comprehensive-review/agents/code-reviewer.md)                         | opus  | Code review with security focus and production reliability      |
+| [security-auditor](Resources/Research/agents/plugins/comprehensive-review/agents/security-auditor.md)                   | opus  | Vulnerability assessment and OWASP compliance                   |
+| [backend-security-coder](Resources/Research/agents/plugins/data-validation-suite/agents/backend-security-coder.md)      | opus  | Secure backend coding practices, API security implementation    |
 | [frontend-security-coder](frontend-security-coder.md) | opus  | XSS prevention, CSP implementation, client-side security        |
 | [mobile-security-coder](mobile-security-coder.md)     | opus  | Mobile security patterns, WebView security, biometric auth      |
 | [threat-modeling-expert](threat-modeling-expert.md)          | opus  | STRIDE threat modeling, attack trees, and security requirements |
@@ -125,17 +125,17 @@ Complete reference for all **100 specialized AI agents** organized by category w
 
 | Agent                                                                         | Model  | Description                                                |
 | ----------------------------------------------------------------------------- | ------ | ---------------------------------------------------------- |
-| [test-automator](Research/agents/plugins/codebase-cleanup/agents/test-automator.md)        | sonnet | Comprehensive test suite creation (unit, integration, e2e) |
-| [tdd-orchestrator](Research/agents/plugins/backend-development/agents/tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance               |
-| [debugger](Research/agents/plugins/error-debugging/agents/debugger.md)                     | sonnet | Error resolution and test failure analysis                 |
-| [error-detective](Research/agents/plugins/error-debugging/agents/error-detective.md)       | sonnet | Log analysis and error pattern recognition                 |
+| [test-automator](Resources/Research/agents/plugins/codebase-cleanup/agents/test-automator.md)        | sonnet | Comprehensive test suite creation (unit, integration, e2e) |
+| [tdd-orchestrator](Resources/Research/agents/plugins/backend-development/agents/tdd-orchestrator.md) | sonnet | Test-Driven Development methodology guidance               |
+| [debugger](Resources/Research/agents/plugins/error-debugging/agents/debugger.md)                     | sonnet | Error resolution and test failure analysis                 |
+| [error-detective](Resources/Research/agents/plugins/error-debugging/agents/error-detective.md)       | sonnet | Log analysis and error pattern recognition                 |
 
 #### Performance & Observability
 
 | Agent                                                                                          | Model | Description                                                    |
 | ---------------------------------------------------------------------------------------------- | ----- | -------------------------------------------------------------- |
-| [performance-engineer](Research/agents/plugins/observability-monitoring/agents/performance-engineer.md)     | opus  | Application profiling and optimization                         |
-| [observability-engineer](Research/agents/plugins/observability-monitoring/agents/observability-engineer.md) | opus  | Production monitoring, distributed tracing, SLI/SLO management |
+| [performance-engineer](Resources/Research/agents/plugins/observability-monitoring/agents/performance-engineer.md)     | opus  | Application profiling and optimization                         |
+| [observability-engineer](Resources/Research/agents/plugins/observability-monitoring/agents/observability-engineer.md) | opus  | Production monitoring, distributed tracing, SLI/SLO management |
 | [search-specialist](search-specialist.md)                  | haiku | Advanced web research and information synthesis                |
 
 ### Data & AI
@@ -161,10 +161,10 @@ Complete reference for all **100 specialized AI agents** organized by category w
 
 | Agent                                                                                | Model  | Description                                                           |
 | ------------------------------------------------------------------------------------ | ------ | --------------------------------------------------------------------- |
-| [docs-architect](Research/agents/plugins/code-documentation/agents/docs-architect.md)             | opus   | Comprehensive technical documentation generation                      |
-| [api-documenter](Research/agents/plugins/api-testing-observability/agents/api-documenter.md)      | sonnet | OpenAPI/Swagger specifications and developer docs                     |
+| [docs-architect](Resources/Research/agents/plugins/code-documentation/agents/docs-architect.md)             | opus   | Comprehensive technical documentation generation                      |
+| [api-documenter](Resources/Research/agents/plugins/api-testing-observability/agents/api-documenter.md)      | sonnet | OpenAPI/Swagger specifications and developer docs                     |
 | [reference-builder](reference-builder.md) | haiku  | Technical references and API documentation                            |
-| [tutorial-engineer](Research/agents/plugins/code-documentation/agents/tutorial-engineer.md)       | sonnet | Step-by-step tutorials and educational content                        |
+| [tutorial-engineer](Resources/Research/agents/plugins/code-documentation/agents/tutorial-engineer.md)       | sonnet | Step-by-step tutorials and educational content                        |
 | [mermaid-expert](mermaid-expert.md)       | sonnet | Diagram creation (flowcharts, sequences, ERDs)                        |
 | [c4-code](c4-code.md)                              | haiku  | C4 Code-level documentation with function signatures and dependencies |
 | [c4-component](c4-component.md)                    | sonnet | C4 Component-level architecture synthesis and documentation           |
@@ -218,8 +218,8 @@ Complete reference for all **100 specialized AI agents** organized by category w
 | [arm-cortex-expert](arm-cortex-expert.md) | sonnet | ARM Cortex-M firmware and peripheral driver development |
 | [blockchain-developer](blockchain-developer.md)       | sonnet | Web3 apps, smart contracts, DeFi protocols              |
 | [payment-integration](payment-integration.md)      | sonnet | Payment processor integration (Stripe, PayPal)          |
-| [legacy-modernizer](Research/agents/plugins/framework-migration/agents/legacy-modernizer.md)         | sonnet | Legacy code refactoring and modernization               |
-| [context-manager](Research/agents/plugins/agent-orchestration/agents/context-manager.md)             | haiku  | Multi-agent context management                          |
+| [legacy-modernizer](Resources/Research/agents/plugins/framework-migration/agents/legacy-modernizer.md)         | sonnet | Legacy code refactoring and modernization               |
+| [context-manager](Resources/Research/agents/plugins/agent-orchestration/agents/context-manager.md)             | haiku  | Multi-agent context management                          |
 
 ## Model Configuration
 

@@ -378,4 +378,4 @@ Each installed plugin loads **only its specific agents and commands** into Claud
 - [Agent Skills](agent-skills.md) - 107 specialized skills across plugins
 - [Agent Reference](agents.md) - Complete agent catalog
 - [Usage Guide](usage.md) - Commands and workflows
-- [Architecture](Research/agents/docs/architecture.md) - Design principles
+- [Architecture](Resources/Research/agents/docs/architecture.md) - Design principles

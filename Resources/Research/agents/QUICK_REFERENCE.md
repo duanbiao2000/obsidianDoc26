@@ -475,7 +475,7 @@ accepted
 ## 📚 文档链接
 
 - [完整开发指南](DEVELOPER_GUIDE.md)
-- [系统README](Research/agents/README.md)
+- [系统README](Resources/Research/agents/README.md)
 - [实施总结](IMPLEMENTATION_SUMMARY.md)
 
 ---

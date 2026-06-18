@@ -134,7 +134,7 @@ rm -rf ~/.claude/plugins/cache/claude-code-workflows && rm ~/.claude/plugins/ins
 - **[Agent Reference](agents.md)** - All 108 agents organized by category
 - **[Agent Skills](agent-skills.md)** - 129 specialized skills with progressive disclosure
 - **[Usage Guide](usage.md)** - Commands, workflows, and best practices
-- **[Architecture](Research/agents/docs/architecture.md)** - Design principles and patterns
+- **[Architecture](Resources/Research/agents/docs/architecture.md)** - Design principles and patterns
 
 ### Quick Links
 
@@ -380,7 +380,7 @@ claude-agents/
 └── README.md                      # This file
 ```
 
-[→ View architecture details](Research/agents/docs/architecture.md)
+[→ View architecture details](Resources/Research/agents/docs/architecture.md)
 
 ## Contributing
 
@@ -404,7 +404,7 @@ To add new agents, skills, or commands:
 1. Write clear activation criteria and comprehensive content
 2. Update the plugin definition in `.claude-plugin/marketplace.json`
 
-See [Architecture Documentation](Research/agents/docs/architecture.md) for detailed guidelines.
+See [Architecture Documentation](Resources/Research/agents/docs/architecture.md) for detailed guidelines.
 
 ## Resources
 
@@ -422,7 +422,7 @@ See [Architecture Documentation](Research/agents/docs/architecture.md) for detai
 - [Agent Reference](agents.md)
 - [Agent Skills Guide](agent-skills.md)
 - [Usage Guide](usage.md)
-- [Architecture](Research/agents/docs/architecture.md)
+- [Architecture](Resources/Research/agents/docs/architecture.md)
 
 ## License
 

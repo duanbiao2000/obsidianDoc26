@@ -10,7 +10,7 @@
 
 首先了解系统是什么，能做什么：
 
-📖 **[README - 系统概述](Research/agents/README.md)**
+📖 **[README - 系统概述](Resources/Research/agents/README.md)**
 
 - 系统介绍和特性
 - 快速开始指南
@@ -42,7 +42,7 @@ bash scripts/orchestration/research-launcher.sh \
 
 | 文档 | 适合人群 | 内容 |
 |------|---------|------|
-| [README](Research/agents/README.md) | 所有用户 | 系统概述和快速开始 |
+| [README](Resources/Research/agents/README.md) | 所有用户 | 系统概述和快速开始 |
 | [快速参考](QUICK_REFERENCE.md) | 所有用户 | 常用命令和代码片段 |
 | [使用指南](#user-guide) | 终端用户 | 详细使用说明 |
 
@@ -66,7 +66,7 @@ bash scripts/orchestration/research-launcher.sh \
 bash scripts/orchestration/research-launcher.sh "你的研究问题"
 ```
 
-详见: [README - 使用示例](Research/agents/README.md#快速开始)
+详见: [README - 使用示例](Resources/Research/agents/README.md#快速开始)
 
 #### 🔧 创建新Agent
 
@@ -110,7 +110,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 
 ### 系统文档
 
-#### [README.md](Research/agents/README.md)
+#### [README.md](Resources/Research/agents/README.md)
 
 - 系统概述
 - 目录结构
@@ -158,7 +158,7 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-workflows
 
 #### 研究类Agents (R-Series)
 
-- [EMP_R001_research-planner](Research/agents/definitions/EMP_R001_research-planner.md) - 研究规划
+- [EMP_R001_research-planner](Resources/Research/agents/definitions/EMP_R001_research-planner.md) - 研究规划
 - [EMP_R101_web-researcher](EMP_R101_web-researcher.md) - Web搜索
 - [EMP_R102_academic-searcher](EMP_R102_academic-searcher.md) - 学术搜索
 - [EMP_R103_codebase-analyzer](EMP_R103_codebase-analyzer.md) - 代码分析
@@ -273,13 +273,13 @@ python3 scripts/orchestration/agent-team-coordinator.py --list-agents
 
 ### 按角色
 
-- 👤 **终端用户**: [README](Research/agents/README.md) → [快速参考](QUICK_REFERENCE.md)
+- 👤 **终端用户**: [README](Resources/Research/agents/README.md) → [快速参考](QUICK_REFERENCE.md)
 - 👨‍💻 **开发者**: [开发者指南](DEVELOPER_GUIDE.md)
 - 🏢 **架构师**: [实施总结](IMPLEMENTATION_SUMMARY.md)
 
 ### 按任务
 
-- 🚀 **快速开始**: [README - 快速开始](Research/agents/README.md#快速开始)
+- 🚀 **快速开始**: [README - 快速开始](Resources/Research/agents/README.md#快速开始)
 - 🔧 **创建Agent**: [开发指南 - Agent开发](DEVELOPER_GUIDE.md#4-agent开发指南)
 - 🔄 **创建工作流**: [开发指南 - 工作流开发](DEVELOPER_GUIDE.md#5-工作流开发指南)
 - 🐛 **调试问题**: [快速参考 - 调试](QUICK_REFERENCE.md#-调试技巧)
