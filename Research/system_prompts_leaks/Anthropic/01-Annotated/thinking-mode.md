@@ -37,6 +37,7 @@ related_docs:
 > **思维模式**是 Claude 在生成响应之前进行显式推理的功能。它使用"交错"（interleaved）方法，在函数调用和最终输出之间插入思维块。
 >
 > **核心参数 | Core Parameters**:
+>
 > ```xml
 > <antml:thinking_mode>interleaved</antml:thinking_mode>
 > <antml:max_thinking_length>16000</antml:max_thinking_length>
@@ -50,6 +51,7 @@ related_docs:
 > **思维模式 (Thinking Mode)** 是 Claude 4.1+ 引入的核心特性，允许 AI 进行"元认知"（metacognition）——即"思考关于思考的过程"。
 >
 > **设计原理 | Design Principles**：
+>
 > - **元认知监控** (Metacognitive Monitoring)：AI 可以监控自己的推理过程
 > - **推理透明化** (Reasoning Transparency)：用户可以看到推理步骤
 > - **错误检测** (Error Detection)：在输出前发现并修正错误
@@ -70,14 +72,17 @@ related_docs:
 > 4. **支持复杂任务**：数学、编程、分析等需要中间步骤的任务
 >
 > **深入分析 | Deep Dive**：
+>
 > - **CoT (Chain of Thought)**：思维链是一种提示技术，通过要求 AI "展示思考过程"来提高推理能力
 > - **Interleaved Mode**：交错模式意味着 thinking 块可以与函数调用穿插进行
 > - **Max Length**: 16000 tokens 限制了思考长度，防止无限循环
 >
 > **实际应用 | Application**：
+>
 > - ✅ 数学问题：先列出方程，再求解
 > - ✅ 代码调试：先分析错误原因，再提供修复
 > - ✅ 数据分析：先观察模式，再得出结论
+>
 > </details>
 
 ---
@@ -92,6 +97,7 @@ related_docs:
 
 > [!info] 参数说明 | Parameter Explanation
 > **interleaved**（交错模式）意味着：
+>
 > - Thinking 块可以出现在函数调用结果之后
 > - Thinking 块可以出现在最终输出之前
 > - Thinking 块不会直接显示给用户（内部推理）
@@ -106,11 +112,13 @@ related_docs:
 > **答案**：因为**推理需要上下文**（Reasoning requires context）。
 >
 > **Interleaved 的优势**：
+>
 > 1. **函数调用后推理**：获取工具结果后，可以分析结果再决定下一步
 > 2. **动态调整**：根据中间结果调整策略
 > 3. **渐进式思考**：不需要一次性规划所有步骤
 >
 > **示例 | Example**：
+>
 > ```xml
 > <function_calls>
 >   <invoke name="web_search">
@@ -128,6 +136,7 @@ related_docs:
 >
 > <!-- 然后决定是否再次搜索，或直接回答 -->
 > ```
+>
 > </details>
 
 ### 2. max_thinking_length: 16000
@@ -138,6 +147,7 @@ related_docs:
 
 > [!warning] 约束说明 | Constraint Explanation
 > **最大思考长度限制**：
+>
 > - 限制 thinking 块的 token 数量
 > - 防止 AI 陷入无限思考循环
 > - 确保响应效率
@@ -164,12 +174,14 @@ related_docs:
 > [!example] 示例：何时使用思维块 | Example: When to Use Thinking
 >
 > **场景 1：简单问题（不使用）**
+>
 > ```
 > 用户: "2+2等于多少？"
 > AI: 2+2 等于 4。
 > ```
 >
 > **场景 2：函数调用后（使用）**
+>
 > ```xml
 > 用户: "分析今天的天气并建议穿什么"
 >
@@ -213,10 +225,12 @@ related_docs:
 > **答案**：**不**（No）。
 >
 > **重要区分 | Important Distinction**：
+>
 > - **Thinking Mode** = 显式推理过程（Explicit reasoning process）
 > - **Consciousness** = 主观体验（Subjective experience）
 >
 > **类比 | Analogy**：
+>
 > - 计算器可以"显示计算步骤"，但这不代表它"理解"数学
 > - 同样，AI 可以"显示推理步骤"，但这不代表它"有意识"
 >
@@ -235,6 +249,7 @@ related_docs:
 > **Chain of Thought** 是一种提示技术，通过要求 AI "逐步思考"（think step-by-step）来提高推理能力。
 >
 > **与 Thinking Mode 的关系**：
+>
 > - CoT 是**提示技术**（Prompt technique）
 > - Thinking Mode 是**系统功能**（System feature）
 > - Thinking Mode 自动化 CoT，无需用户显式要求
@@ -272,6 +287,7 @@ related_docs:
 <summary>查看答案 | View Answer</summary>
 
 **答案 | Answer**：
+
 1. ❌ 不使用 - 简单问候，无需推理
 2. ✅ **使用** - 官方指令要求函数调用后"强烈考虑"使用
 3. ⚠️ 可选 - 简单计算可能不需要，但复杂计算有益
@@ -315,6 +331,7 @@ Let me search for current data.
   </invoke>
 </function_calls>
 ```
+
 </details>
 
 **练习 3：分析思维块的价值 | Analyze Thinking Block Value**
@@ -328,11 +345,13 @@ Let me search for current data.
 **答案 | Answer**：
 
 思维块的价值：
+
 1. **诊断过程**：AI 可以分析可能的原因（变量未定义、作用域问题、拼写错误）
 2. **排除法**：系统性地检查每种可能性
 3. **解释策略**：决定是直接给出答案，还是先询问更多上下文
 
 **示例思维块**：
+
 ```xml
 <antml:thinking>
 The user is getting a NameError for variable 'x'.
@@ -376,6 +395,7 @@ Since I don't see the actual code, I should:
 
 > [!warning] 局限性 | Limitations
 > **思维模式不是万能的**：
+>
 > - 不改变 AI 的知识截止日期
 > - 不保证推理正确性（仍然可能犯错）
 > - 不等同于意识或理解

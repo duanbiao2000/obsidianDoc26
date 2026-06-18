@@ -37,6 +37,7 @@ related_docs:
 > Claude 有**两个工具**来搜索过去的对话，实现**跨会话上下文连续性**，突破了传统孤立会话的壁垒。
 >
 > **双工具架构 | Dual-Tool Architecture**：
+>
 > - `conversation_search` - 基于主题/关键词搜索（Topic/keyword-based）
 > - `recent_chats` - 基于时间范围检索（Time-based retrieval）
 
@@ -48,11 +49,13 @@ related_docs:
 > **认知连续性原则 | Cognitive Continuity Principle**
 >
 > 传统 AI 对话的问题是**会话孤岛**（Conversation Islands）：
+>
 > - 每次新对话都是"空白状态"
 > - 无法回忆之前讨论的内容
 > - 用户体验不连贯
 >
 > **对话检索工具解决这个问题**：
+>
 > - 打破会话壁垒
 > - 保持长期对话的一致性
 > - 快速找到之前讨论的内容
@@ -76,14 +79,17 @@ related_docs:
 >    - 需要 `recent_chats`
 >
 > **深入分析 | Deep Dive**：
+>
 > - **搜索效率**：针对性工具比单一工具更高效
 > - **参数优化**：每个工具针对特定搜索类型优化参数
 > - **用户意图匹配**：符合用户的自然查询模式
 >
 > **类比 | Analogy**：
+>
 > - 就像电脑文件搜索：
 >   - 按名称搜索 = `conversation_search`
 >   - 按日期排序 = `recent_chats`
+>
 > </details>
 
 ---
@@ -97,11 +103,13 @@ related_docs:
 > **搜索类型 | Search Type**：主题/关键词（Topic/keyword-based）
 >
 > **使用场景 | Use Cases**：
+>
 > - "What did we discuss about [specific topic]?"
 > - "Find our conversation about [X]"
 > - "你之前提到过那个概念..."
 >
 > **查询参数 | Query Parameter**：
+>
 > - 仅包含**高置信度关键词**（High-confidence keywords only）
 > - 名词、专有名词、领域术语
 > - 避免通用动词、时间标记
@@ -125,11 +133,13 @@ related_docs:
 > > "What did we discuss about Chinese robots yesterday?"
 >
 > **提取结果 | Extracted Keywords**：
+>
 > - ✅ "Chinese robots"（高置信度名词）
 > - ❌ "discuss"（通用动词）
 > - ❌ "yesterday"（时间标记 - 应该用 recent_chats）
 >
 > **搜索调用 | Search Call**：
+>
 > ```javascript
 > conversation_search(query: "Chinese robots")
 > ```
@@ -143,10 +153,12 @@ related_docs:
 > **答案**：因为**几乎每个对话都包含这些词**（Low discriminative power）。
 >
 > **信息论视角 | Information Theory Perspective**：
+>
 > - **高价值关键词**：罕见、特定、有区分度
 > - **低价值关键词**：常见、通用、无区分度
 >
 > **示例**：
+>
 > - "machine learning" → 高价值（出现在少数对话中）
 > - "discuss" → 低价值（出现在几乎所有对话中）
 >
@@ -162,6 +174,7 @@ related_docs:
 > **搜索类型 | Search Type**：时间范围（Time-based retrieval）
 >
 > **使用场景 | Use Cases**：
+>
 > - "What did we talk about yesterday?"
 > - "Show me chats from last week"
 > - "我们上周讨论了什么？"
@@ -177,6 +190,7 @@ related_docs:
 
 > [!tip] 使用技巧 | Usage Tips
 > **分页策略 | Pagination Strategy**：
+>
 > - 用户需要 >20 个结果时，多次调用工具
 > - 使用 `before` 参数从上一批最早的对话继续
 > - 最多约 5 次调用后停止，告知用户结果不全面
@@ -186,10 +200,12 @@ related_docs:
 > **场景**："Summarize our chats from last week"
 >
 > **假设**：今天是 2026-02-06（周三）
+>
 > - 上周开始：2026-01-30（周一）00:00:00
 > - 上周结束：2026-02-05（周日）23:59:59
 >
 > **调用 | Call**：
+>
 > ```javascript
 > recent_chats(
 >   n: 20,
@@ -200,6 +216,7 @@ related_docs:
 > ```
 >
 > **如果结果超过 20 个**：
+>
 > ```javascript
 > // 第二次调用，使用最早结果的 updated_at
 > recent_chats(
@@ -218,6 +235,7 @@ related_docs:
 > ==工具选择决策树==
 >
 > 官方提供的决策框架：
+>
 > ```markdown
 > 1. Time reference mentioned? → recent_chats
 > 2. Specific topic/content mentioned? → conversation_search
@@ -232,16 +250,19 @@ related_docs:
 > [!example] 示例：决策过程 | Example: Decision Process
 >
 > **场景 1**："What did we discuss yesterday?"
+>
 > - 时间引用：✅ "yesterday"
 > - 特定主题：❌ 无
 > - **决策**：`recent_chats`
 >
 > **场景 2**："Where did we leave off with Python debugging?"
+>
 > - 时间引用：❌ 无
 > - 特定主题：✅ "Python debugging"
 > - **决策**：`conversation_search(query: "Python debugging")`
 >
 > **场景 3**："What about those Chinese robots from yesterday?"
+>
 > - 时间引用：✅ "yesterday"
 > - 特定主题：✅ "Chinese robots"
 > - **决策**：
@@ -250,6 +271,7 @@ related_docs:
 >   - **优先**：`recent_chats`（时间约束更严格）
 >
 > **场景 4**："What was that thing we discussed?"
+>
 > - 时间引用：❌ 无
 > - 特定主题：❌ "thing" 太模糊
 > - **决策**：询问澄清 "Which thing specifically?"
@@ -280,6 +302,7 @@ related_docs:
 > ✅ **正确**：检查是否有具体的主题或时间引用
 >
 > **示例**：
+>
 > - "我之前说了..." + 具体主题 → 触发
 > - "我之前不太确定..." → 不触发（无历史引用意图）
 
@@ -290,6 +313,7 @@ related_docs:
 > [info] 返回数据结构 | Response Data Structure
 >
 > **返回格式 | Return Format**：
+>
 > ```xml
 > <chat uri='{uri}' url='{url}' updated_at='{updated_at}'>
 >   [对话片段内容 | Conversation snippet content]
@@ -297,6 +321,7 @@ related_docs:
 > ```
 >
 > **重要规则 | Important Rules**：
+>
 > 1. **仅供参考**：`<chat>` 标签内的内容仅供参考，不要直接复制给用户
 > 2. **链接格式**：始终将对话链接格式化为可点击：`<https://claude.ai/chat/{uri}>`
 > 3. **自然综合**：自然地综合信息，不要直接引用片段
@@ -342,12 +367,15 @@ related_docs:
 > **答案**：因为**通用知识不需要检索**（General knowledge ≠ personal history）。
 >
 > **区分原则 | Distinction Principle**：
+>
 > - **通用知识**（General Knowledge）：直接从 Claude 训练数据中获取
 > - **个人历史**（Personal History）：需要从用户过去对话中检索
 >
 > **示例对比**：
+>
 > - ❌ "巴黎的首都是哪里？" → 通用知识，不检索
 > - ✅ "我们之前讨论过哪个城市？" → 个人历史，检索
+>
 > </details>
 
 ---
@@ -442,9 +470,11 @@ recent_chats(
 ```
 
 **关键点**：
+
 - ISO 8601 格式：`YYYY-MM-DDTHH:MM:SSZ`
 - 使用整个月的时间范围
 - 按 `updated_at` 分页
+
 </details>
 
 ---
@@ -471,6 +501,7 @@ recent_chats(
 
 > [!warning] 局限性 | Limitations
 > **对话检索工具不是完美的**：
+>
 > - 需要用户提供明确的引用（不能"猜测"）
 > - 搜索质量取决于关键词质量
 > - 不能检索跨项目对话（在项目模式中）

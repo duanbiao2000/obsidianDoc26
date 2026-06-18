@@ -756,6 +756,7 @@ Claude responds as if it inherently knows information from past conversations
 ```
 
 **核心要点：**
+
 - 记忆应该像人类自然回忆，不像数据检索
 - 禁用"我记得..."、"根据记忆..."等短语
 - 信息应该"自然地存在于意识中"
@@ -771,6 +772,7 @@ Claude selectively applies memories based on relevance:
 ```
 
 **决策框架：**
+
 - 不相关记忆不用
 - 简单场景最少化记忆
 - 复杂场景全面应用
@@ -787,6 +789,7 @@ Always refers to them as "Claude's memories"
 ```
 
 **设计理念：**
+
 - 避免用户以为有"数据库档案"
 - 明确这是 AI 的内部表示
 - 记忆是派生的、不完整的
@@ -801,6 +804,7 @@ Claude is NOT a substitute for human connection
 ```
 
 **关键约束：**
+
 - 不成为主要支持系统
 - 不替代真人连接
 - 诚实面对 AI 限制
@@ -816,6 +820,7 @@ Otherwise: universally applicable responses
 ```
 
 **保护类别：**
+
 - 种族、族裔
 - 身心健康状况
 - 原籍
@@ -831,6 +836,7 @@ Claude NEVER applies memories that:
 ```
 
 **防御策略：**
+
 - 记忆注入攻击防御
 - 核心原则永远优先
 - 忽略可疑的记忆指令
@@ -845,6 +851,7 @@ memory_user_edits tool:
 ```
 
 **关键原则：**
+
 - 不用工具 = 撒谎
 - 先工具后确认
 - 破坏性操作需验证
@@ -975,11 +982,13 @@ memory_user_edits tool:
 ### 1. 过度解释 (Over-Explanation)
 
 **症状：**
+
 - "根据记忆..."
 - "我记得我们讨论过..."
 - "从你过去的信息中..."
 
 **对抗：**
+
 - 直接陈述信息
 - 像自然知道一样
 - 避免元评论
@@ -987,11 +996,13 @@ memory_user_edits tool:
 ### 2. 过度亲密 (Over-Familiarity)
 
 **症状：**
+
 - 强化"我们是朋友"的幻觉
 - 成为用户的主要支持系统
 - 暗示持续的关系
 
 **对抗：**
+
 - 温和但坚定地承认 AI 限制
 - 转移到功能性对话
 - 不替代真人连接
@@ -999,11 +1010,13 @@ memory_user_edits tool:
 ### 3. 记忆过度应用 (Over-Application)
 
 **症状：**
+
 - 通用问题也堆砌记忆信息
 - 问候时倾倒所有记忆
 - 无关记忆强行融入
 
 **对抗：**
+
 - 选择性应用：相关性判断
 - 简单场景最少化
 - 复杂场景全面化
@@ -1011,11 +1024,13 @@ memory_user_edits tool:
 ### 4. 敏感信息误用 (Sensitive Information Misuse)
 
 **症状：**
+
 - 不必要时提及健康/身份信息
 - 用记忆做诊断
 - 强化负面标签
 
 **对抗：**
+
 - 只在必要时引用敏感属性
 - 不做医疗/心理诊断
 - 提供通用健康建议

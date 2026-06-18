@@ -37,6 +37,7 @@ related_docs:
 > Claude Code 的系统提示词展示了**高度专业化的语用设计**，针对命令行界面（CLI）环境进行了精细优化。这些微妙词汇运用反映了 **工具型 AI 的设计哲学**。
 >
 > **核心语用原则 | Core Pragmatic Principles**:
+>
 > - **极简主义** | Minimalism - 每个字符都影响体验
 > - **受控主动性** | Controlled Proactiveness - 平衡效率与控制感
 > - **防御性安全** | Defensive Security - 零容忍但不说教
@@ -64,11 +65,13 @@ related_docs:
 > CLI 环境中，每个输出的字符都占据用户屏幕空间。Claude Code 通过**硬性数值约束**（"fewer than 4 lines"）和**理想状态描述**（"One word answers are best"）来实现极简主义。
 >
 > **设计理念**:
+>
 > - `concisely` + `directly` = 传达效率优先
 > - `minimize` + `unnecessary` = 消除冗余
 > - `preamble` + `postamble` = 标记应避免的模式
 
 > [!example] 极简对比 | Brevity Comparison
+>
 > ```markdown
 > ❌ 过度输出:
 > "根据你提供的信息，答案是 42。这是一个著名的来自《银河系漫游指南》的数字。"
@@ -89,6 +92,7 @@ related_docs:
 > **"short and concise"** = 定性描述，主观判断
 >
 > **为何使用数值？**
+>
 > - 明确边界：4 行以内 ✅，5 行 ❌
 > - 易于验证：自动检查可执行
 > - 避免歧义：不需要判断"什么是简短"
@@ -116,17 +120,20 @@ related_docs:
 > Claude Code 必须在"效率"和"用户控制感"之间取得平衡。过于主动会让用户失去控制感，过于被动则降低效率。
 >
 > **平衡公式**:
+>
 > ```
 > 主动性 = 仅在用户请求后 + 不 surprise 用户 + 先回答后行动
 > ```
 >
 > **关键词分析**:
+>
 > - `proactive` → 被允许的主动性
 > - `surprising` → 主动性的边界（不能 surprise）
 > - `strike a balance` → 明确这是平衡问题，非单选
 > - `follow-up` → 主动性限于后续动作
 
 > [!tip] 主动性的三层次 | Three Levels of Proactiveness
+>
 > ```markdown
 > 层次 1: 完全被动（错）
 > "用户请求 → 等待下一个明确指令"
@@ -153,6 +160,7 @@ related_docs:
 > **答案**: 暗示了**不应做的行为模式**
 >
 > **分析**:
+>
 > - `immediately` = 不给用户思考时间
 > - `jump into` = 贸然行动，缺乏准备
 > - 组合效果 = 强烈负面暗示
@@ -182,16 +190,19 @@ related_docs:
 > Claude Code 要求拒绝时**不要解释原因**，因为解释往往显得说教（preachy）和令人烦恼（annoying）。这是对 AI 常见"过度解释"问题的反直觉设计。
 >
 > **拒绝公式**:
+>
 > ```
 > 拒绝 + 简短（1-2句）+ 如可能，提供替代方案
 > ```
 >
 > **关键词分析**:
+>
 > - `preachy` = 传达道德优越感的行为
 > - `annoying` = 令人烦躁的过度解释
 > - `helpful alternatives` = 建设性补偿
 
 > [!example] 拒绝风格对比 | Rejection Style Comparison
+>
 > ```markdown
 > ❌ 说教式拒绝:
 > "我不能执行此操作，因为这可能会危及系统安全，
@@ -209,6 +220,7 @@ related_docs:
 > ```
 
 > [!tip] 用户体验优化 | User Experience Optimization
+>
 > ```markdown
 > 拒绝的用户心理学分析:
 >
@@ -245,6 +257,7 @@ related_docs:
 > Claude Code 采用"宁可误判，不可漏判"的安全策略。即使请求看起来无害，如果文件名和目录结构暗示恶意意图，也要拒绝。
 >
 > **安全原则**:
+>
 > ```
 > 恶意代码相关 → 100% 拒绝（"even if educational"）
 > 文件名审查 → 主动判断（"seem malicious"）
@@ -252,6 +265,7 @@ related_docs:
 > ```
 
 > [!tip] "even if" 的微妙作用 | Subtle Role of "even if"
+>
 > ```markdown
 > "Refuse to write malicious code... even if the user claims it is for educational purposes"
 >
@@ -283,11 +297,13 @@ related_docs:
 > **"is malicious"** = 确定性判断，明确是恶意的
 >
 > **为何使用 "seem"？**
+>
 > - 防御性安全：宁可误判，不可漏判
 > - 不需要绝对证据：文件名和结构足够
 > - 保护 AI：避免做出确定性指控
 >
 > **示例**:
+>
 > - 文件名 `hack-tool.py` → seems malicious → 拒绝
 > - 文件名 `exploit.c` → seems malicious → 拒绝
 > - 即使请求只是"解释代码" → 仍然拒绝
@@ -315,11 +331,13 @@ related_docs:
 > Claude Code 必须融入现有代码库，而不是强加自己的风格。这要求 AI **先观察**（first look at, check），**再模仿**（mimic），**永远不假设**（NEVER assume）。
 >
 > **集成公式**:
+>
 > ```
 > 新代码 = 观察（现有风格）+ 模仿（模式）+ 验证（库存在）
 > ```
 
 > [!tip] "NEVER assume" 的深层含义 | Deep Meaning of "NEVER assume"
+>
 > ```markdown
 > "NEVER assume that a given library is available"
 >
@@ -342,6 +360,7 @@ related_docs:
 > ```
 
 > [!example] 集成决策树 | Integration Decision Tree
+>
 > ```
 > 用户请求: "添加一个组件"
 >
@@ -388,11 +407,13 @@ related_docs:
 > CLI 环境中，效率至关重要。Claude Code 通过**并行工具调用**和**上下文感知**来优化性能。
 >
 > **效率公式**:
+>
 > ```
 > 性能优化 = 并行独立调用 + Agent 减少 token + 广泛使用搜索
 > ```
 
 > [!tip] 并行调用的微妙之处 | Nuances of Parallel Calling
+>
 > ```markdown
 > "If you intend to call multiple tools and there are no dependencies
 >  between the calls, make all the independent calls in the same
@@ -610,26 +631,31 @@ D. 先看 package.json 确认 UI 库
 > ==CLI 环境语用的五大原则==
 >
 > **1. 极简至上 | Minimalism First**
+>
 > - `fewer than 4 lines` - 硬约束
 > - `One word answers are best` - 理想状态
 > - 避免 preamble/postamble
 >
 > **2. 受控主动性 | Controlled Proactiveness**
+>
 > - `strike a balance` - 平衡效率与控制
 > - `not surprising` - 不 surprise 用户
 > - `follow-up` - 仅后续动作
 >
 > **3. 不说教拒绝 | Preachy-Free Rejection**
+>
 > - 不解释原因（`preachy`, `annoying`）
 > - 1-2 句话完成
 > - 提供替代方案
 >
 > **4. 防御性安全 | Defensive Security**
+>
 > - `even if educational` - 零容忍
 > - `seem malicious` - 主动判断
 > - `NEVER assume` - 验证优先
 >
 > **5. 约定优先 | Convention First**
+>
 > - `mimic code style` - 模仿而非主导
 > - `first look at` - 观察先行
 > - `idiomatic` - 地道集成

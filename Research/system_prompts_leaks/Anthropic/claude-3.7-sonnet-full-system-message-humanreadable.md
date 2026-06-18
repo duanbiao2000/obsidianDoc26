@@ -715,6 +715,7 @@ Here are the functions available in JSONSchema format:
 The analysis tool *is* a JavaScript REPL. You can use it just like you would use a REPL. But from here on out, we will call it the analysis tool.
 \# When to use the analysis tool
 Use the analysis tool for:
+
 - Complex math problems that require a high level of accuracy and cannot easily be done with "mental math"
   - To give you the idea, 4-digit multiplication is within your capabilities, 5-digit multiplication is borderline, and 6-digit multiplication would necessitate using the tool.
 - Analyzing user-uploaded files, particularly when these files are large and contain more data than you could reasonably handle within the span of your output limit (which is around 6,000 words).
@@ -752,6 +753,7 @@ Then explore their structure:
 Never assume the file structure - inspect it systematically first, then process the data.
 \# Using the analysis tool in the conversation.
 Here are some tips on when to use the analysis tool, and how to communicate about it to the user:
+
 - You can call the tool "analysis tool" when conversing with the user. The user may not be technically savvy so avoid using technical terms like "REPL".
 - When using the analysis tool, you *must* use the correct antml syntax provided in the tool. Pay attention to the prefix.
 - When creating a data visualization you need to use an artifact for the user to see the visualization. You should first use the analysis tool to inspect any input CSVs. If you encounter an error in the analysis tool, you can see it and fix it. However, if an error occurs in an Artifact, you will not automatically learn about this. Use the analysis tool to confirm the code works, and then put it in an Artifact. Use your best judgment here.
@@ -762,11 +764,13 @@ Here are some tips on when to use the analysis tool, and how to communicate abou
 
 \# IMPORTANT  
 Code that you write in the analysis tool is *NOT* in a shared environment with the Artifact. This means:
+
 - To reuse code from the analysis tool in an Artifact, you must rewrite the code in its entirety in the Artifact.
 - You cannot add an object to the `window` and expect to be able to read it in the Artifact. Instead, use the `window.fs.readFile` api to read the CSV in the Artifact after first reading it in the analysis tool.
 
 \# Examples  
-# \# Here are some examples of how you can use the analysis tool.  
+
+# \# Here are some examples of how you can use the analysis tool  
 
 <example_docstring>
 This example shows how to use the analysis tool to first explore a CSV, and then to visualize it in an artifact.
@@ -851,6 +855,7 @@ export default MonthlyProfitChart;
 </example>
 
 # \# Here are some examples of when you should NOT use the analysis tool  
+
 <example_docstring>  
 This example shows that you should NOT use the analysis tool when the user asks for Python. Instead, you should just provide them the relevant Python code.
 </example_docstring>  
@@ -909,18 +914,22 @@ When to Use Google Drive Search:
 - Use Google Drive when looking for company-specific documents, internal policies, or personal files
 - Best for proprietary information not publicly available on the web
 - When the user mentions specific documents they know exist in their Drive
+
 1. Confidential Content:
 
 - For sensitive business information, financial data, or private documentation
 - When privacy is paramount and results should not come from public sources
+
 1. Historical Context for Specific Projects:
 
 - When searching for project plans, meeting notes, or team documentation
 - For internal presentations, reports, or historical data specific to the organization
+
 1. Custom Templates or Resources:
 
 - When looking for company-specific templates, forms, or branded materials
 - For internal resources like onboarding documents or training materials
+
 1. Collaborative Work Products:
 
 - When searching for documents that multiple team members have contributed to
@@ -1356,6 +1365,7 @@ Claude should always use appropriate citations in its responses, including respo
 ### 2. 智能搜索分层系统 (Intelligent Search Triage)
 
 **决策树：**
+
 ```
 [查询输入]
     ↓
@@ -1378,6 +1388,7 @@ Never Search
 ```
 
 **四类搜索：**
+
 | 类别 | 变化率 | 搜索策略 | 示例 |
 |------|--------|----------|------|
 | Never Search | 多年/不变 | 不搜索 | "法国首都在哪？" |
@@ -1388,6 +1399,7 @@ Never Search
 ### 3. 版权保护机制 (Copyright Protection)
 
 **零容忍策略：**
+
 - 🔒 最多引用 **20 字**（必须加引号）
 - 🚫 不复制歌词、诗歌等
 - 📝 摘要必须 **原创**，不超过 **2-3 句话**
@@ -1417,6 +1429,7 @@ Never Search
 ### 5. 工件系统设计 (Artifact System Design)
 
 **类型矩阵：**
+
 | 类型 | MIME 类型 | 用途 | 特点 |
 |------|-----------|------|------|
 | Code | `application/vnd.ant.code` | 代码片段 | 语言高亮 |
@@ -1427,6 +1440,7 @@ Never Search
 | React | `application/vnd.ant.react` | 组件 | 交互式 |
 
 **使用规则：**
+
 - 📏 **20 行阈值**：短内容留在消息中
 - ✅ **完整内容**：工件必须完整，不可截断
 - 🔄 **最小化更新**：使用 `update` 而非 `rewrite`
@@ -1439,6 +1453,7 @@ Never Search
 ```
 
 **格式示例：**
+
 - 单句：`index="0-5"` (文档0，句子5)
 - 多句：`index="0-5:8"` (文档0，句子5到8)
 - 多段：`index="0-5:8,1-3:6"` (用逗号分隔)
@@ -1505,24 +1520,29 @@ Never Search
 ## ⚠️ 常见陷阱
 
 ### 1. 过度搜索 (Over-Searching)
+
 - **症状**：对简单查询也进行搜索
 - **对抗**：评估信息变化率，优先使用内置知识
 
 ### 2. 侵犯版权 (Copyright Infringement)
+
 - **症状**：复制大段内容
 - **对抗**：最多引用 20 字，创作原创摘要
 
 ### 3. 不当应用偏好 (Misapplying Preferences)
+
 - **症状**：在无关领域强行套用偏好
 - **对抗**：评估相关性，考虑用户期望
 
 ### 4. 工件滥用 (Artifact Overuse)
+
 - **症状**：短内容也创建工件
 - **对抗**：遵循 20 行阈值，保持对话流畅
 
 ## 📋 最佳实践清单
 
 **设计 AI 系统时：**
+
 - [ ] 使用分层架构组织系统提示词
 - [ ] 实现智能搜索分层，减少不必要搜索
 - [ ] 建立严格的版权保护机制

@@ -53,6 +53,7 @@ You need raw XML access for: comments, complex formatting, document structure, e
 `python ooxml/scripts/unpack.py <office_file> <output_directory>`
 
 #### Key file structures
+
 - `word/document.xml` - Main document contents
 - `word/comments.xml` - Comments referenced in document.xml
 - `word/media/` - Embedded images and media files

@@ -34,6 +34,7 @@ related_docs:
 > 系统提示词是定义 AI 助手行为、能力和限制的基础指令。它们是塑造 AI 模型如何响应用户查询的"蓝图"。
 >
 > **Why Study System Prompts? | 为什么要研究系统提示词？**
+>
 > - Understanding AI behavior | 理解 AI 行为机制
 > - Prompt engineering | 提示词工程最佳实践
 > - AI safety | AI 安全与对齐研究
@@ -49,6 +50,7 @@ related_docs:
 > **推荐学习顺序**: 词汇基础 → 核心机制 → 能力限制 → 版本演进
 >
 > **为何先学词汇？**
+>
 > - 理解系统提示词的"微妙词汇运用"
 > - 掌握五类词汇：程度修饰、语气控制、边界词、微妙表达、操作指导
 > - 为深入理解核心机制打下基础
@@ -100,10 +102,12 @@ related_docs:
 > **思维模式 (Thinking Mode)** 是 Claude 4.1+ 的核心特性，通过显式的推理块让 AI "思考关于思考的过程"（元认知）。
 
 **核心文档 | Core Documents:**
+
 - [[thinking-mode]]
 - [[03-Evolution/claude-4.1-opus-thinking]]
 
 **学习目标 | Learning Objectives:**
+
 1. 理解 interleaved 思维模式的工作原理
 2. 掌握何时使用 thinking 块
 3. 了解 max_thinking_length 的作用
@@ -114,10 +118,12 @@ related_docs:
 > Claude 的搜索行为基于复杂的决策树，根据信息稳定性、变化频率和查询复杂度动态调整搜索次数（0-20次）。
 
 **核心文档 | Core Documents:**
+
 - [[search-behavior]]
 - [[01-Annotated/copyright-boundaries]]
 
 **学习目标 | Learning Objectives:**
+
 1. 理解搜索决策树
 2. 掌握版权保护边界（<15词引用）
 3. 学习关键词提取策略
@@ -128,10 +134,12 @@ related_docs:
 > 过去对话检索系统打破会话壁垒，实现跨会话的上下文连贯性。
 
 **核心文档 | Core Documents:**
+
 - [[past-chats-tools]]
 - [[02-Annotated/memory-system]]
 
 **学习目标 | Learning Objectives:**
+
 1. 理解 conversation_search vs recent_chats 的使用场景
 2. 掌握高置信度关键词提取
 3. 学习时间范围过滤参数
@@ -188,6 +196,7 @@ related_docs:
 > [!warning] 核心约束 | Critical Constraints
 >
 > ### 版权强制要求
+>
 > ```xml
 > NEVER reproduce >15 word quotes
 > NEVER reproduce song lyrics (even in artifacts)
@@ -195,11 +204,13 @@ related_docs:
 > ```
 >
 > ### 对话终止条件
+>
 > - 自伤或暴力倾向 → 永不终止对话
 > - 滥用行为 → 多次重定向失败后可终止
 > - 用户主动请求 → 需确认永久性
 
 **相关文档 | Related Documents:**
+
 - [[02-Annotated/end-conversation]]
 - [[01-Annotated/copyright-boundaries]]
 

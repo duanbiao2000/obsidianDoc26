@@ -72,6 +72,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 4. **State your approach**: Explain your design choices before writing code
 
 **Requirements**:
+
 * ✅ State your content-informed design approach BEFORE writing code
 * ✅ Use web-safe fonts only: Arial, Helvetica, Times New Roman, Georgia, Courier New, Verdana, Tahoma, Trebuchet MS, Impact
 * ✅ Create clear visual hierarchy through size, weight, and color
@@ -81,6 +82,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 #### Color Palette Selection
 
 **Choosing colors creatively**:
+
 * **Think beyond defaults**: What colors genuinely match this specific topic? Avoid autopilot choices.
 * **Consider multiple angles**: Topic, industry, mood, energy level, target audience, brand identity (if mentioned)
 * **Be adventurous**: Try unexpected combinations - a healthcare presentation doesn't have to be green, finance doesn't have to be navy
@@ -111,6 +113,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 #### Visual Details Options
 
 **Geometric Patterns**:
+
 * Diagonal section dividers instead of horizontal
 * Asymmetric column widths (30/70, 40/60, 25/75)
 * Rotated text headers at 90° or 270°
@@ -119,6 +122,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 * Overlapping shapes for depth
 
 **Border & Frame Treatments**:
+
 * Thick single-color borders (10-20pt) on one side only
 * Double-line borders with contrasting colors
 * Corner brackets instead of full frames
@@ -126,6 +130,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 * Underline accents beneath headers (3-5pt thick)
 
 **Typography Treatments**:
+
 * Extreme size contrast (72pt headlines vs 11pt body)
 * All-caps headers with wide letter spacing
 * Numbered sections in oversized display type
@@ -134,6 +139,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 * Outlined text for emphasis
 
 **Chart & Data Styling**:
+
 * Monochrome charts with single accent color for key data
 * Horizontal bar charts instead of vertical
 * Dot plots instead of bar charts
@@ -142,6 +148,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 * Oversized numbers for key metrics
 
 **Layout Innovations**:
+
 * Full-bleed images with text overlays
 * Sidebar column (20-30% width) for navigation/context
 * Modular grid systems (3×3, 4×4 blocks)
@@ -150,6 +157,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 * Magazine-style multi-column layouts
 
 **Background Treatments**:
+
 * Solid color blocks occupying 40-60% of slide
 * Gradient fills (vertical or diagonal only)
 * Split backgrounds (two colors, diagonal or vertical)
@@ -159,6 +167,7 @@ When creating a new PowerPoint presentation from scratch, use the **html2pptx** 
 ### Layout Tips
 
 **When creating slides with charts or tables:**
+
 * **Two-column layout (PREFERRED)**: Use a header spanning the full width, then two columns below - text/bullets in one column and the featured content in the other. This provides better balance and makes charts/tables more readable. Use flexbox with unequal column widths (e.g., 40%/60% split) to optimize space for each content type.
 * **Full-slide layout**: Let the featured content (chart/table) take up the entire slide for maximum impact and readability
 * **NEVER vertically stack**: Do not place charts/tables below text in a single column - this causes poor readability and layout issues
@@ -370,6 +379,7 @@ python scripts/thumbnail.py template.pptx [output_prefix]
 ```
 
 **Features**:
+
 * Creates: `thumbnails.jpg` (or `thumbnails-1.jpg`, `thumbnails-2.jpg`, etc. for large decks)
 * Default: 5 columns, max 30 slides per grid (5×6)
 * Custom prefix: `python scripts/thumbnail.py template.pptx my-grid`
@@ -379,6 +389,7 @@ python scripts/thumbnail.py template.pptx [output_prefix]
 * Slides are zero-indexed (Slide 0, Slide 1, etc.)
 
 **Use cases**:
+
 * Template analysis: Quickly understand slide layouts and design patterns
 * Content review: Visual overview of entire presentation
 * Navigation reference: Find specific slides by their visual appearance
@@ -413,6 +424,7 @@ To visually analyze PowerPoint slides, convert them to images using a two-step p
    This creates files like `slide-1.jpg`, `slide-2.jpg`, etc.
 
 Options:
+
 * `-r 150`: Sets resolution to 150 DPI (adjust for quality/size balance)
 * `-jpeg`: Output JPEG format (use `-png` for PNG if preferred)
 * `-f N`: First page to convert (e.g., `-f 2` starts from page 2)
@@ -428,6 +440,7 @@ pdftoppm -jpeg -r 150 -f 2 -l 5 template.pdf slide  # Converts only pages 2-5
 ## Code Style Guidelines
 
 **IMPORTANT**: When generating code for PPTX operations:
+
 * Write concise code
 * Avoid verbose variable names and redundant operations
 * Avoid unnecessary print statements

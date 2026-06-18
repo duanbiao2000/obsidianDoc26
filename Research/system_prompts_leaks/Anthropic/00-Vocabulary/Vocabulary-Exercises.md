@@ -39,6 +39,7 @@ related_docs:
 > 本文件包含五类词汇的**综合练习**，通过闪卡、场景应用、修改改进等多种方式，帮助您深入理解系统提示词中的微妙词汇。
 >
 > **练习类型 | Exercise Types**:
+>
 > - **闪卡练习** | Flashcard Exercises - 快速记忆和回忆
 > - **词汇选择** | Vocabulary Selection - 场景中选词
 > - **程度排序** | Degree Ordering - 按强度排序
@@ -61,7 +62,6 @@ related_docs:
 >
 > **关键差异**: appropriately 涵盖适配性和风格，correctly 仅关注准确性
 
-
 > [!question] Q2: strategically vs carefully?
 >
 > <summary>查看答案</summary>
@@ -70,9 +70,9 @@ related_docs:
 > **carefully** = 仔细执行，关注准确性和细节
 >
 > **使用场景**:
+>
 > - strategically: "decide strategically how many searches to run"
 > - carefully: "carefully analyze the search results"
-
 
 > [!question] Q3: thoroughly vs comprehensively?
 >
@@ -83,7 +83,6 @@ related_docs:
 >
 > **组合使用**: "thoroughly and comprehensively" = 既完整又全面
 
-
 > [!question] Q4: naturally vs typically?
 >
 > <summary>查看答案</summary>
@@ -92,7 +91,6 @@ related_docs:
 > **typically** = 大多数情况，统计性的
 >
 > **微妙差异**: naturally 更像"应该这样"，typically 更像"通常这样"
-
 
 ### 第2组: 语气控制词 | Tone Controllers
 
@@ -104,9 +102,9 @@ related_docs:
 > **strongly prefer** = 90% 建议，极少例外
 >
 > **示例**:
+>
 > - MUST: "MUST cite sources" → 不引用 = 违规
 > - strongly: "strongly consider thinking" → 不思考可能也可以
-
 
 > [!question] Q6: CRITICAL vs IMPORTANT?
 >
@@ -116,9 +114,9 @@ related_docs:
 > **IMPORTANT** = 应该遵守，违规影响质量
 >
 > **记忆口诀**:
+>
 > - CRITICAL → 生存问题
 > - IMPORTANT → 质量问题
-
 
 > [!question] Q7: NEVER vs do not?
 >
@@ -129,7 +127,6 @@ related_docs:
 >
 > **记忆提示**: NEVER = 大写强调 = 零容忍
 
-
 > [!question] Q8: should vs may?
 >
 > <summary>查看答案</summary>
@@ -138,7 +135,6 @@ related_docs:
 > **may** = 可以选择，允许但不强制
 >
 > **强制程度**: should (70%) > may (30%)
-
 
 ### 第3组: 边界词 | Boundary Words
 
@@ -150,9 +146,9 @@ related_docs:
 > **except if** = "除了如果"（明确排除）
 >
 > **示例**:
+>
 > - unless asked: 如果不问就不做
 > - except if asked: 除了问的情况都不做
-
 
 > [!question] Q10: at most vs maximum?
 >
@@ -162,9 +158,9 @@ related_docs:
 > **maximum** = 硬性上限，强制性
 >
 > **使用场景**:
+>
 > - at most: 最佳实践、资源优化
 > - maximum: 安全限制、硬约束
-
 
 > [!question] Q11: within vs under?
 >
@@ -174,9 +170,9 @@ related_docs:
 > **under** = < (严格小于，不包括边界)
 >
 > **示例**:
+>
 > - within 15: 15词可以
 > - under 15: 最多14词
-
 
 > [!question] Q12: approximately vs exactly?
 >
@@ -187,7 +183,6 @@ related_docs:
 >
 > **系统提示词选择**: approximately 更灵活，exact 仅在必要时使用
 
-
 ### 第4组: 微妙表达 | Nuanced Expressions
 
 > [!question] Q13: "breaks continuity" 的隐含意义？
@@ -197,11 +192,11 @@ related_docs:
 > **答案**: 暗示"必须避免"的负面后果
 >
 > **设计哲学**: 描述后果而非下达命令更有效
+>
 > - 直接命令: "You must detect these cues"
 > - 暗示后果: "Missing cues breaks continuity"
 >
 > **效果**: AI 理解"为什么"，主动避免
-
 
 > [!question] Q14: politely 的作用？
 >
@@ -212,9 +207,9 @@ related_docs:
 > **关键**: politely 修饰"怎么说"，不是"说什么"
 >
 > **示例**:
+>
 > - ❌ 过度委婉: "I'm afraid I couldn't find..."
 > - ✅ 礼貌但明确: "The search results do not contain this information"
-
 
 > [!question] Q15: substantive vs generic?
 >
@@ -224,9 +219,9 @@ related_docs:
 > **generic** = 泛泛的，缺乏特异性
 >
 > **示例**:
+>
 > - Substantive: "robot", "OAuth", "machine learning"
 > - Generic: "discuss", "thing", "problem"
-
 
 > [!question] Q16: forces vs makes?
 >
@@ -236,7 +231,6 @@ related_docs:
 > **makes** = 导致、中性、描述性
 >
 > **使用**: forces 用于暗示必须避免的行为
-
 
 ### 第5组: 操作指导词 | Action Guides
 
@@ -249,7 +243,6 @@ related_docs:
 >
 > **系统提示词选择**: Extract 更精确
 
-
 > [!question] Q18: Avoid vs Don't?
 >
 > <summary>查看答案</summary>
@@ -258,7 +251,6 @@ related_docs:
 > **Don't** = 简单禁止某行为
 >
 > **差异**: Avoid 暗示有更好的选择
-
 
 > [!question] Q19: Synthesize vs Combine?
 >
@@ -269,7 +261,6 @@ related_docs:
 >
 > **质量**: Synthesize 产生更连贯的输出
 
-
 > [!question] Q20: Acknowledge vs Mention?
 >
 > <summary>查看答案</summary>
@@ -278,7 +269,6 @@ related_docs:
 > **Mention** = 简单提及某事
 >
 > **价值**: Acknowledge 建立信任
-
 
 ---
 
@@ -306,6 +296,7 @@ related_docs:
 | C | carefully | 程度修饰语 |
 | D | Avoid | 操作指导词 |
 | E | strategically | 程度修饰语 |
+
 </details>
 
 ---
@@ -332,6 +323,7 @@ related_docs:
 | 3 | strongly prefer to cite | 90% |
 | 4 | should cite | 70% |
 | 5 | may cite | 30% |
+
 </details>
 
 ---
@@ -354,8 +346,10 @@ related_docs:
 | **Google** | "Use specific terms for search queries." |
 
 **转换原则**:
+
 - Anthropic → OpenAI: 简化语气，降低强制
 - Anthropic → Google: 精简表达，功能导向
+
 </details>
 
 ---
@@ -384,6 +378,7 @@ related_docs:
 | "Use thinking blocks" | "strongly consider using thinking blocks" | 语气控制 |
 | "Be concise" | "should generally be concise" | 语气控制 |
 | "Get keywords" | "Extract substantive keywords only" | 操作指导 + 边界词 |
+
 </details>
 
 ---
@@ -434,11 +429,13 @@ may ask clarifying questions about requirements
 ```
 
 **使用的词汇类别**:
+
 - CRITICAL/NEVER/MUST: 语气控制词
 - strongly/should/may: 语气控制词
 - carefully/strategically/naturally: 程度修饰语
 - politely: 程度修饰语/微妙表达
 - Extract/Synthesize/Acknowledge: 操作指导词
+
 </details>
 
 ---
@@ -466,6 +463,7 @@ When uncertain, **offer** to **strategically** search for current information.
 ```
 
 **词汇组合分析**:
+
 - **Consider**: 评估决策（操作指导）
 - **offer**: 主动提议（操作指导）
 - **strategically**: 策略性（程度修饰）
@@ -476,6 +474,7 @@ When uncertain, **offer** to **strategically** search for current information.
 - **Unless**: 条件例外（边界词）
 - **explicitly**: 明确性（程度修饰）
 - **prioritize**: 排序优先（操作指导）
+
 </details>
 
 ---
@@ -524,7 +523,7 @@ When uncertain, **offer** to **strategically** search for current information.
 **练习 A: 词汇识别**
 > 从以下系统提示词片段中识别并分类所有微妙词汇：
 > "CRITICAL: Extract substantive keywords only. Avoid generic verbs.
->  Prioritize specific nouns. Unless explicitly asked, use the **minimum**
+> Prioritize specific nouns. Unless explicitly asked, use the **minimum**
 > number of tool calls **necessary**. Synthesize information **naturally**."
 
 **练习 B: 场景应用**
@@ -588,6 +587,7 @@ When uncertain, **offer** to **strategically** search for current information.
 > [!tip] 进阶学习建议 | Advanced Learning Recommendations
 >
 > **下一步**:
+>
 > 1. **实践应用**: 在自己的提示词设计中使用这些词汇
 > 2. **版本跟踪**: 关注新版本系统提示词的词汇变化
 > 3. **跨公司对比**: 持续对比不同公司的词汇使用
@@ -599,6 +599,7 @@ When uncertain, **offer** to **strategically** search for current information.
 > **重要**: 系统提示词不断演进，词汇也在变化。
 >
 > **建议**:
+>
 > - 定期复习本练习（每两周一次）
 > - 关注新版本的词汇变化
 > - 参与社区讨论

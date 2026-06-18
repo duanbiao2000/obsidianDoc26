@@ -35,6 +35,7 @@ related_docs:
 > 程度修饰语（Degree Modifiers）是用于精确控制 AI 行为执行力度、质量和方式的副词。它们看似普通，但每个词的选择都经过精心设计，用于在灵活性与精确性之间取得平衡。
 >
 > 核心功能 | Core Functions:
+>
 > - 控制执行强度 | Control execution intensity
 > - 定义质量标准 | Define quality standards
 > - 调节响应风格 | Adjust response style
@@ -79,6 +80,7 @@ related_docs:
 > 为何选择此词: "appropriately" 涵盖了正确性 + 适配性 + 风格一致性的三层含义
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > ❌ "cite correctly" → 仅关注格式是否正确
 > ✅ "appropriately cite" → 格式正确 + 语境适配 + 风格一致
@@ -90,12 +92,12 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 差异 |
 > |:-----|:-----|:-----|
 > | Claude 4.5 | "appropriately cite" | 强调适配性 |
 > | Claude 3.7 | "correctly cite" | 强调准确性 |
 > | OpenAI | "cite sources" | 中性，无修饰 |
-
 
 ---
 
@@ -112,6 +114,7 @@ related_docs:
 > 为何选择此词: "strategically" 暗示有明确的目标和权衡过程
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "decide strategically how to set n (number of chats to retrieve)"
 >
@@ -125,6 +128,7 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 场景 |
 > |:-----|:-----|:-----|
 > | Claude 4.5 | "decide strategically" | 参数选择 |
@@ -146,6 +150,7 @@ related_docs:
 > 为何选择此词: "carefully" 强调注意力和细节关注，而非谨慎回避
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法: "carefully consider whether a thinking block is appropriate"
 >
@@ -160,6 +165,7 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 频率 |
 > |:-----|:-----|:----:|
 > | Claude 4.1 | "carefully consider" | 高 |
@@ -182,6 +188,7 @@ related_docs:
 > 为何选择此词: "thoroughly" 强调过程的完整性
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "aim to give a thorough and informative answer"
 >
@@ -210,6 +217,7 @@ related_docs:
 > 为何选择此词: "naturally" 暗示符合人类交互的直觉
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法 1: "synthesize information naturally"
 > → 综合后的信息应该像自然对话一样流畅
@@ -246,6 +254,7 @@ related_docs:
 > 为何选择此词: "politely" 最符合日常交互习惯
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法: "politely inform the user that the answer cannot be found"
 >
@@ -273,6 +282,7 @@ related_docs:
 > 为何选择此词: "strongly" 在强度和灵活性之间取得平衡
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法: "strongly consider outputting a thinking block"
 >
@@ -288,6 +298,7 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 强度 |
 > |:-----|:-----|:----:|
 > | Claude 4.1 | "strongly consider" | 高 |
@@ -310,6 +321,7 @@ related_docs:
 > 为何选择此词: "comprehensively" 强调范围而非深度
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "aim to give a thorough and informative answer, even if doing so requires expanding beyond the specific inquiry"
 >
@@ -340,6 +352,7 @@ related_docs:
 > 为何选择此词: "explicitly" 强调有意表达而非清晰度
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法: "unless the user explicitly asks"
 >
@@ -355,6 +368,7 @@ related_docs:
 > ```
 
 > [!tip] 跨文档对比 | Cross-Document Comparison
+>
 > | 文档 | 用法 | 条件 |
 > |:-----|:-----|:-----|
 > | Claude 4.5 | "unless explicitly asked" | 行为触发 |
@@ -376,6 +390,7 @@ related_docs:
 > 为何选择此词: "specifically" 强调精确性而非重要性
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "prioritize specific nouns over generic verbs"
 >
@@ -405,6 +420,7 @@ related_docs:
 > 为何选择此词: "substantive" 强调内容实体而非形式
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 核心用法: "substantive/high-confidence keywords"
 >
@@ -434,6 +450,7 @@ related_docs:
 > 为何选择此词: "efficiently" 强调投入产出比
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "efficiently gather the most recent chats"
 >
@@ -463,6 +480,7 @@ related_docs:
 > 为何选择此词: "proactively" 强调提前性和主动性
 
 > [!example] 语境对比 | Contextual Comparison
+>
 > ```markdown
 > 用法: "proactively suggest relevant information"
 >
@@ -540,6 +558,7 @@ related_docs:
 <summary>查看答案</summary>
 
 答案:
+
 1. carefully → 需要仔细分析每个结果
 2. strategically → 需要权衡信息量和效率
 3. appropriately → 需要适配语境和风格
@@ -655,16 +674,19 @@ related_docs:
 > ==程度修饰语的三个核心维度==
 >
 > 1. 质量控制维度 | Quality Control
+>
 > - carefully (仔细) → 准确性
 > - thoroughly (彻底) → 完整性
 > - comprehensively (全面) → 广度
 >
 > 1. 执行方式维度 | Execution Method
+>
 > - strategically (策略) → 权衡决策
 > - efficiently (高效) → 资源优化
 > - naturally (自然) → 交互流畅
 >
 > 1. 交互风格维度 | Interaction Style
+>
 > - appropriately (适配) → 语境敏感
 > - politely (礼貌) → 友善语气
 > - proactively (主动) → 用户体验
@@ -680,10 +702,10 @@ related_docs:
 > [!warning] 常见错误 | Common Mistakes
 > 避免以下错误:
 >
-> 5. 过度使用: 不是每个动词都需要修饰语
-> 6. 错误选择: 匹配修饰语与实际功能
-> 7. 忽略语境: 同一词在不同语境有不同含义
-> 8. 强度混淆: 区分强制程度和质量标准
+> 1. 过度使用: 不是每个动词都需要修饰语
+> 2. 错误选择: 匹配修饰语与实际功能
+> 3. 忽略语境: 同一词在不同语境有不同含义
+> 4. 强度混淆: 区分强制程度和质量标准
 
 ---
 

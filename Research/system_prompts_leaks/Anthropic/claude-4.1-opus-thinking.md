@@ -1425,17 +1425,20 @@ Whenever you have the result of a function call, think carefully about whether a
 ### 1. 显式思维链 (Explicit Chain of Thought)
 
 **参数设置：**
+
 ```
 thinking_mode: interleaved（交错模式）
 max_thinking_length: 16000 tokens
 ```
 
 **设计原理：**
+
 - 🧠 **元认知监控**：AI "思考关于思考的过程"
 - 🔍 **推理透明化**：用户可以看到推理步骤 z
 - ✅ **错误检测**：在输出前发现并修正错误
 
 **触发条件：**
+
 - 函数调用后：仔细分析结果
 - 复杂推理：需要逐步推导
 - 不确定时：优先使用 thinking 块
@@ -1450,6 +1453,7 @@ max_thinking_length: 16000 tokens
 | recent_chats | 时间范围 | "昨天聊了什么？" | n=1-20, before/after |
 
 **决策框架：**
+
 ```
 [用户查询]
     ↓
@@ -1461,6 +1465,7 @@ recent_chats   [有特定主题？]
 ```
 
 **关键词提取策略：**
+
 - ✅ 高置信度：名词、专有名词、领域术语
 - ❌ 低置信度：通用动词（discuss, talk）、时间标记
 
@@ -1479,11 +1484,13 @@ recent_chats   [有特定主题？]
 ### 4. 知识截止日期管理 (Knowledge Cutoff)
 
 **设置：**
+
 - 截止日期：2025年1月底
 - 选举信息：2024年11月美国大选结果
 - 超期查询：自动使用 web_search
 
 **响应策略：**
+
 - 不主动提及截止日期
 - 只有在相关时才告知用户
 
@@ -1550,20 +1557,24 @@ recent_chats   [有特定主题？]
 ## ⚠️ 常见陷阱
 
 ### 1. 过度使用 Thinking 模式
+
 - **症状**：简单问题也使用 thinking 块
 - **对抗**：只在真正需要推理时使用
 
 ### 2. 错误的工具选择
+
 - **症状**：有时间引用却用 conversation_search
 - **对抗**：优先检查时间引用，再考虑主题搜索
 
 ### 3. 提取低置信度关键词
+
 - **症状**：搜索包含 "discuss", "talk" 等通用动词
 - **对抗**：只提取高置信度的名词和专有名词
 
 ## 📋 最佳实践清单
 
 **使用 Opus Thinking 模型时：**
+
 - [ ] 函数调用后考虑使用 thinking 块分析结果
 - [ ] 根据查询类型选择正确的对话检索工具
 - [ ] 提取高置信度关键词，避免通用动词

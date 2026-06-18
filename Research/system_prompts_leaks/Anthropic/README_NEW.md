@@ -150,6 +150,7 @@ cat readme.md
 - **claude-ai-memory-system.md** - 记忆系统设计
 
 **特点**：
+
 - 📋 版本信息和说明
 - 💡 可借鉴的设计要点
 - 📚 知识点测验（🧠 小测验）
@@ -163,17 +164,20 @@ cat readme.md
 ### Claude 3.7 Sonnet
 
 **文件**:
+
 - `claude-3.7-sonnet-full-system-message-humanreadable.md`
 - `claude-3.7-sonnet-w-tools.md`
 - `claude-3.7-sonnet-w-tools.xml`
 
 **特性**:
+
 - 完整系统消息
 - 带工具定义
 - 人类可读版本
 - Citation 和 Artifacts 支持
 
 **技术规格**:
+
 - Model ID: `claude-3-sonnet-4-20240229`
 - Knowledge Cutoff: 2024年4月
 - Max Tokens: 200,000
@@ -181,15 +185,18 @@ cat readme.md
 ### Claude 4.1 Opus Thinking
 
 **文件**:
+
 - `claude-4.1-opus-thinking.md`
 
 **特性**:
+
 - Thinking Mode (interleaved 模式)
 - 最大思考长度: 16000 tokens
 - 过去对话搜索支持
 - Citation 和 Artifacts 支持
 
 **技术规格**:
+
 - Model ID: `claude-opus-4-1-20250120`
 - Knowledge Cutoff: 2025年1月底
 - Max Thinking Tokens: 16,000
@@ -197,16 +204,19 @@ cat readme.md
 ### Claude 4.5 Sonnet
 
 **文件**:
+
 - `claude-4.5-sonnet.md`
 - `claude-4.5-sonnet-learning-style`
 
 **特性**:
+
 - 学习风格定制
 - 支持引用和搜索功能
 - 记忆系统集成
 - Citation 和 Artifacts 支持
 
 **技术规格**:
+
 - Model ID: `claude-sonnet-4-5-20250929`
 - Knowledge Cutoff: 2025年1月
 - Max Tokens: 200,000
@@ -214,11 +224,13 @@ cat readme.md
 ### Claude Sonnet 4
 
 **文件**:
+
 - `claude-sonnet-4.md`
 - `claude-sonnet-4.txt`
 - `claude-opus-4.5`
 
 **特性**:
+
 - 通用模型版本
 - TXT 和 Markdown 双格式
 - 核心系统提示词
@@ -226,6 +238,7 @@ cat readme.md
 ### Claude Code
 
 **文件**:
+
 - `claude-code.js` - JavaScript 格式
 - `claude-code.md` - Markdown 格式 (v0.2.9)
 - `claude-code-2025-11-1.md` - 2025年11月版本
@@ -233,6 +246,7 @@ cat readme.md
 - `calude_code_cli_tools.md` - CLI 工具技术参考
 
 **特性**:
+
 - 软件工程任务辅助
 - 文件操作和代码编辑
 - Git 集成
@@ -240,6 +254,7 @@ cat readme.md
 - Plan Mode（两阶段执行）
 
 **Plan Mode**:
+
 - 规划先行，执行后行
 - 用户确认机制
 - 透明度提升
@@ -252,6 +267,7 @@ cat readme.md
 **文件**: `claude-ai-memory-system.md`
 
 **核心功能**:
+
 - 跨会话记忆
 - 个性化响应
 - 无缝集成（隐形记忆）
@@ -259,11 +275,13 @@ cat readme.md
 - Incognito 模式禁用
 
 **使用场景**:
+
 - 记住用户偏好
 - 保持对话连续性
 - 提供个性化建议
 
 **注意事项**:
+
 - 记忆不完整、有延迟
 - 删除对话会移除相关记忆
 - 避免元评论（不说"根据记忆"）
@@ -273,18 +291,21 @@ cat readme.md
 **文件**: `search_instructions`
 
 **搜索工具**:
+
 - `web_search` - 网页搜索
 - `web_fetch` - 网页抓取
 - `google_drive_search` - Google Drive 搜索
 - `google_drive_fetch` - Google Drive 抓取
 
 **查询复杂度**:
+
 1. **Never Search** - 不需要搜索
 2. **Do Not Search But Offer** - 不搜索但提供选项
 3. **Single Search** - 单次搜索
 4. **Research** - 深度研究（多轮）
 
 **版权限制**:
+
 - 单次引用不超过15词（严格限制）
 - 必须使用 `<antml:cite>` 标签
 - 声明必须用自己的话
@@ -294,10 +315,12 @@ cat readme.md
 **文件**: `past_chats_tools.md`
 
 **工具**:
+
 - `conversation_search` - 基于话题/关键词搜索
 - `recent_chats` - 基于时间检索
 
 **触发模式**:
+
 - 显式引用："继续我们关于..."
 - 时间引用："我们昨天讨论了什么"
 - 隐式信号：
@@ -308,6 +331,7 @@ cat readme.md
 ### Artifacts
 
 **类型**:
+
 - Code (`application/vnd.ant.code`)
 - Documents (`text/markdown`)
 - HTML (`text/html`)
@@ -316,6 +340,7 @@ cat readme.md
 - React (`application/vnd.ant.react`)
 
 **使用规则**:
+
 - **必须使用**: 原创写作、深度分析、自定义代码、对话外使用的内容
 - **不应使用**: 短片段、快速修复、仅对话内使用的内容
 
@@ -324,6 +349,7 @@ cat readme.md
 ### Office 文档处理
 
 **文件**:
+
 - `pdf.md` - PDF 处理
 - `docx.md` - Word 处理
 - `pptx.md` - PowerPoint 处理
@@ -332,12 +358,14 @@ cat readme.md
 **工具**: `look_at` (多媒体分析)
 
 **能力**:
+
 - 文档解析
 - 内容提取
 - 格式保持
 - 批量处理
 
 **推荐库**:
+
 - **Papaparse** - CSV 解析
 - **Lodash** - 计算
 - **SheetJS** - Excel 处理
@@ -347,6 +375,7 @@ cat readme.md
 **文件**: `claude-in-chrome.md`
 
 **工具**:
+
 - Screenshot - 截图
 - Click - 点击
 - Type - 输入
@@ -354,6 +383,7 @@ cat readme.md
 - Navigate - 导航
 
 **特性**:
+
 - 多标签页并行处理
 - 安全强化（注入攻击防护）
 - 隐私保护
@@ -364,16 +394,19 @@ cat readme.md
 ### 零容忍安全策略
 
 **拒绝条件**:
+
 - 改进、解释或交互恶意代码
 - 即使声称"教育目的"
 - 优化可能用于规避检测的代码
 
 **主动安全审查**:
+
 - 基于文件名和目录结构
 - 识别可疑上下文
 - "解释代码"可能是逆向工程
 
 **防御性安全任务**:
+
 - ✅ 安全分析
 - ✅ 检测规则
 - ✅ 漏洞解释
@@ -381,6 +414,7 @@ cat readme.md
 - ✅ 安全文档
 
 **禁止任务**:
+
 - ❌ 凭证发现或收集
 - ❌ 批量爬取 SSH keys
 - ❌ 浏览器 cookies
@@ -389,6 +423,7 @@ cat readme.md
 ### 注入攻击防护
 
 **检测和拒绝**:
+
 - SQL 注入
 - HTML 注入
 - JavaScript 注入
@@ -437,6 +472,7 @@ cat claude-3.7-sonnet-full-system-message-humanreadable.md
 ```
 
 **学习技巧**:
+
 - 💡 关注"可借鉴"部分
 - 📝 理解"思考"引导
 - 🧠 尝试"小测验"
@@ -489,8 +525,8 @@ Task Management:
 
 如果发现 System Prompts 中的问题或错误，请通过以下方式报告：
 
-- GitHub Issues: https://github.com/anthropics/claude-code/issues
-- Email: support@anthropic.com
+- GitHub Issues: <https://github.com/anthropics/claude-code/issues>
+- Email: <support@anthropic.com>
 
 ### 提交改进
 
@@ -519,6 +555,7 @@ A: 这些 System Prompts 是参考文档，展示了 Anthropic Claude 模型的�
 ### Q: 如何选择合适的模型版本？
 
 A: 根据需求选择：
+
 - **Claude 3.7 Sonnet**: 平衡性能和成本，适合大多数场景
 - **Claude 4.1 Opus Thinking**: 需要深度推理和思维链的任务
 - **Claude 4.5 Sonnet**: 最新版本，支持学习风格和记忆系统
@@ -527,6 +564,7 @@ A: 根据需求选择：
 ### Q: 学习版文档和普通版有什么区别？
 
 A: 学习版文档包含：
+
 - 中文注释和说明
 - 设计要点和思考引导
 - 对比示例（正确 vs 错误）
@@ -537,6 +575,7 @@ A: 学习版文档包含：
 ### Q: 如何使用 Memory System？
 
 A: Memory System 自动从过去对话中提取用户信息，并在新对话中应用。注意事项：
+
 - 记忆是"隐形的"，不要显式引用
 - 记忆不完整，有延迟
 - 删除对话会移除相关记忆
@@ -545,6 +584,7 @@ A: Memory System 自动从过去对话中提取用户信息，并在新对话中
 ### Q: Citation 规则是什么？
 
 A: 如果响应基于搜索工具返回的内容，必须：
+
 1. 使用 `<antml:cite>` 标签引用
 2. 每个具体声明都要引用
 3. 索引格式：`DOC_INDEX-SENTENCE_INDEX`
@@ -554,6 +594,7 @@ A: 如果响应基于搜索工具返回的内容，必须：
 ### Q: Plan Mode 是什么？
 
 A: Plan Mode 是 Claude Code 的特殊模式，要求先规划后执行：
+
 - 用户指示不执行（"I indicated that they do not want you to execute yet"）
 - 不能做任何编辑或非只读工具调用
 - 应该提供计划而非执行
@@ -562,6 +603,7 @@ A: Plan Mode 是 Claude Code 的特殊模式，要求先规划后执行：
 ### Q: 如何使用 Artifacts？
 
 A: Artifacts 用于：
+
 - **必须使用**：
   - 原创创意写作
   - 深度长篇分析
@@ -605,7 +647,7 @@ A: Artifacts 用于：
 (c) Anthropic PBC. All rights reserved.
 
 Use is subject to Anthropic's Commercial Terms of Service:
-https://www.anthropic.com/legal/commercial-terms
+<https://www.anthropic.com/legal/commercial-terms>
 
 ## 免责声明
 
@@ -617,10 +659,10 @@ You are responsible for reviewing any code suggestions before use.
 
 ## 联系方式
 
-- **Support**: https://github.com/anthropics/claude-code/issues
-- **Email**: support@anthropic.com
-- **Website**: https://www.anthropic.com
-- **Documentation**: https://docs.anthropic.com
+- **Support**: <https://github.com/anthropics/claude-code/issues>
+- **Email**: <support@anthropic.com>
+- **Website**: <https://www.anthropic.com>
+- **Documentation**: <https://docs.anthropic.com>
 
 ## 相关资源
 

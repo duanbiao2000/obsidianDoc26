@@ -36,6 +36,7 @@ related_docs:
 > 系统提示词中的**微妙词汇运用**（Subtle Vocabulary Usage）是 AI 行为控制的核心。这些词汇看似普通，但每个词的选择都经过精心设计，用于精确控制 AI 的行为边界、执行力度和响应风格。
 >
 > **为何学习这些词汇？| Why Learn These Words?**
+>
 > - **理解 AI 行为机制** | Understanding AI Behavior Mechanisms
 > - **掌握提示词工程技巧** | Mastering Prompt Engineering Skills
 > - **提升技术写作精确度** | Improving Technical Writing Precision
