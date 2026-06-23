@@ -1,3 +1,28 @@
+---
+title: "What do you like about your hometown: 城市节奏、社会基建与反生产力哲学"
+date: 2026-06-19
+tags:
+  - 雅思口语
+  - C2-Level
+  - 城市文化
+  - 社会学
+  - 生活哲学
+  - 反生产力
+aliases:
+  - 家乡描述
+  - 成都生活哲学
+  - Social-Infrastructure
+  - Permission-to-Be
+status: completed
+rating: 5
+source: 360speaking 精英拆解
+domain: 英语口语 / 城市文化 / 社会哲学
+core_concepts:
+  - 精力与闲适的共存 (Energetic & Unhurried Coexistence)
+  - 饮食作为社会基建 (Food as Social Infrastructure)
+  - 反生产力哲学 (Anti-Productivity Ethos)
+  - “被允许存在”的自由 (Permission to Simply Be)
+---
 Here's a C2-level response in a mini essay style:
 
 ---

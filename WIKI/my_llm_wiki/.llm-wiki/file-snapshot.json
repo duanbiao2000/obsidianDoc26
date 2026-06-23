@@ -1,0 +1,5696 @@
+{
+  "version": 1,
+  "updatedAt": 1782179123691,
+  "files": {
+    "purpose.md": {
+      "hash": "bc8af6725f851c075fae86028a9cb744",
+      "size": 816,
+      "mtimeMs": 1782022849332
+    },
+    "raw/sources/Journals/2026-03-12系统设计能力框架.md": {
+      "hash": "64c3a1aa8ec75b64f0248d85cb7e8aec",
+      "size": 7807,
+      "mtimeMs": 1781764812559
+    },
+    "raw/sources/Journals/2026-03-13 FSI'S PATTERN DRILL METHODOLOGY.md": {
+      "hash": "dadc0b5565cd6638a7ac9a330fde1c96",
+      "size": 5686,
+      "mtimeMs": 1773332014100
+    },
+    "raw/sources/Journals/2026-03-13 Speak Less Ask More.md": {
+      "hash": "e2234c8887a1b5b71316b20424bab66f",
+      "size": 1660,
+      "mtimeMs": 1781837503266
+    },
+    "raw/sources/Journals/2026-03-15 Grubby.md": {
+      "hash": "8dc47b50e51f663c589b94c6f09f0fc3",
+      "size": 4041,
+      "mtimeMs": 1781762232732
+    },
+    "raw/sources/Journals/2026-04-24-How to Talk Like a Leader.md": {
+      "hash": "5a7c6d3eff83ca477268e19ee8983559",
+      "size": 8433,
+      "mtimeMs": 1777002047326
+    },
+    "raw/sources/Journals/2026-04-29-娱乐雅思材料选择.md": {
+      "hash": "53c88baa64ea6b717bebef9a7e0501d5",
+      "size": 3891,
+      "mtimeMs": 1779980145595
+    },
+    "raw/sources/Journals/2026-05-02-历史-希罗多德.md": {
+      "hash": "d696fd9078a6d09572edb563114cb68d",
+      "size": 7263,
+      "mtimeMs": 1779711310279
+    },
+    "raw/sources/Journals/2026-05-02-自主教育体系指南.md": {
+      "hash": "48c76ff5046c103a01ff17299850df33",
+      "size": 2172,
+      "mtimeMs": 1779711310286
+    },
+    "raw/sources/Journals/2026-05-04-全美资深编剧.md": {
+      "hash": "e296e218adb009b610b67614b6fd4d15",
+      "size": 7787,
+      "mtimeMs": 1779711310306
+    },
+    "raw/sources/Journals/2026-05-09-LEPster中的俚语Slang.md": {
+      "hash": "f8c9c58362705b61b8363e91fda16613",
+      "size": 10405,
+      "mtimeMs": 1779977370009
+    },
+    "raw/sources/Journals/2026-05-14-18 Claude Chat Commands.md": {
+      "hash": "1f5489f9a3465dcba2dd0d77b8e5e94b",
+      "size": 1849,
+      "mtimeMs": 1778746884036
+    },
+    "raw/sources/Journals/2026-05-20-52个信息网站.md": {
+      "hash": "a2848aad9409c1dadd0038078f4921d6",
+      "size": 3222,
+      "mtimeMs": 1779280647188
+    },
+    "raw/sources/Journals/2026-06-03-口语写作风格对比.md": {
+      "hash": "d690f214c1d472312a99d914e09d5c27",
+      "size": 2764,
+      "mtimeMs": 1780493015778
+    },
+    "raw/sources/Journals/2026-06-06 proximal zone.md": {
+      "hash": "e2f5fee994e24d5382c608b6de81a953",
+      "size": 16762,
+      "mtimeMs": 1780759935875
+    },
+    "raw/sources/Journals/2026-06-12 27中学习技巧评级.md": {
+      "hash": "b4c808712b5bccd4edc05a6a47689193",
+      "size": 22047,
+      "mtimeMs": 1781267223303
+    },
+    "raw/sources/Journals/2026-06-14 频道命名.md": {
+      "hash": "1392a393b13b3de27d6aa1015da11243",
+      "size": 11010,
+      "mtimeMs": 1781368509800
+    },
+    "raw/sources/Journals/2026-06-16_带时间戳好友对话.md": {
+      "hash": "47dc80ceb4c248bd8ebcd5ffdeef24be",
+      "size": 29106,
+      "mtimeMs": 1781711300191
+    },
+    "raw/sources/Journals/2026-06-17 embedding模型本地部署方案.md": {
+      "hash": "865deb471b231e67b28d8bbf77c3840f",
+      "size": 4266,
+      "mtimeMs": 1781693502696
+    },
+    "raw/sources/Journals/2026-06-17-Obsidan+NotebookLM.md": {
+      "hash": "2893b95712cc5b08b595d9010715fb95",
+      "size": 17721,
+      "mtimeMs": 1781711300200
+    },
+    "raw/sources/Journals/2026-06-18 OKF bundle.md": {
+      "hash": "2233e4bb14da2ced69f69aa54892ee32",
+      "size": 3590,
+      "mtimeMs": 1781759341163
+    },
+    "raw/sources/Journals/2026-06-18一些提升claude输出质量的建议.md": {
+      "hash": "420f811ea89d06b7676e6c1568b34336",
+      "size": 13194,
+      "mtimeMs": 1781715452861
+    },
+    "raw/sources/Journals/A-level 是什么.md": {
+      "hash": "ac4559ed0408d773f7cd9bd4b4023e88",
+      "size": 8088,
+      "mtimeMs": 1781834374804
+    },
+    "raw/sources/Journals/AGENT_TEAMS_COMPLETION_REPORT.md": {
+      "hash": "e1259789e3daadbc6baef206667cc3a1",
+      "size": 11316,
+      "mtimeMs": 1772869540514
+    },
+    "raw/sources/Journals/AI时代100条Brutal Honesty.md": {
+      "hash": "6d00f67eee2b5ef64e94ac535545957a",
+      "size": 9768,
+      "mtimeMs": 1775620454641
+    },
+    "raw/sources/Journals/Advantage of Doing Both Design & Dev.md": {
+      "hash": "6b30ff8f56d3133282c20c0134daf8a7",
+      "size": 11462,
+      "mtimeMs": 1772548297111
+    },
+    "raw/sources/Journals/Aim to make 200 mistakes a day.md": {
+      "hash": "31fa7271fbb13d310b0fd6ce0447622f",
+      "size": 922,
+      "mtimeMs": 1781842752209
+    },
+    "raw/sources/Journals/Archive在线搜索技巧-在线音频.md": {
+      "hash": "edf7600e7e029fa3c1437898665d0981",
+      "size": 245,
+      "mtimeMs": 1776156771064
+    },
+    "raw/sources/Journals/Be unforgettable to be valuable.md": {
+      "hash": "b549c6f4789c5e2ffbde9592a2590bb9",
+      "size": 2663,
+      "mtimeMs": 1773236905456
+    },
+    "raw/sources/Journals/Boris Cherny编程变革与行业未来.md": {
+      "hash": "0367f79e6fb9bd3b6b9d2bdd515bc73e",
+      "size": 11557,
+      "mtimeMs": 1773235367397
+    },
+    "raw/sources/Journals/Brutally Honest Advice for People Moving to Australia in 2026.md": {
+      "hash": "ad208f3de885ad92559cda2d11e69fe8",
+      "size": 11120,
+      "mtimeMs": 1773675260218
+    },
+    "raw/sources/Journals/C++零成本抽象原则.md": {
+      "hash": "0a97cbb26c153d3ee91d1a77b4143071",
+      "size": 2575,
+      "mtimeMs": 1772869540806
+    },
+    "raw/sources/Journals/Career Management Skills.md": {
+      "hash": "4bf2fd10f4e948447046933078876a6f",
+      "size": 6925,
+      "mtimeMs": 1774271706721
+    },
+    "raw/sources/Journals/Claude Code 反思笔记.md": {
+      "hash": "5a5c05244b7f0b2c8ab0f9dd29d07742",
+      "size": 3562,
+      "mtimeMs": 1780332859184
+    },
+    "raw/sources/Journals/Clippings/100 (Short) Rules for a Better Life.md": {
+      "hash": "73628ee3144fe3f4386d87991b189c92",
+      "size": 5970,
+      "mtimeMs": 1779274814938
+    },
+    "raw/sources/Journals/Clippings/14. 将事情做正确.md": {
+      "hash": "d5c8e59340cb7f2616dd2744510bd4d1",
+      "size": 46984,
+      "mtimeMs": 1773317134696
+    },
+    "raw/sources/Journals/Clippings/806. PERSEVERANCE, POSITIVITY & PRACTICE with Santiago Ruiz de Velasco from Oxford University Press.md": {
+      "hash": "60c6b751c7d733cd45868b90fb62d45c",
+      "size": 3543,
+      "mtimeMs": 1778246698690
+    },
+    "raw/sources/Journals/Clippings/Enrichment Program（拓展课程）.md": {
+      "hash": "7499cfe8ccff64f7d5a993f6e2ff3fab",
+      "size": 12499,
+      "mtimeMs": 1776918520468
+    },
+    "raw/sources/Journals/Clippings/Home Office Setup (-May '22).md": {
+      "hash": "16128d024dd550e8a8219fd09c9b6789",
+      "size": 13292,
+      "mtimeMs": 1771642133427
+    },
+    "raw/sources/Journals/Clippings/Learn Claude Code Agent Teams和 Worktree + Task Isolation是递进关系.md": {
+      "hash": "522b65ad48612da738dc1cfb8e20a722",
+      "size": 12384,
+      "mtimeMs": 1773989214657
+    },
+    "raw/sources/Journals/Clippings/The secret to concentration - How to increase your attention span  DW Documentary.md": {
+      "hash": "bd9a17d5bfd1ee2aee4f9645176d3c1f",
+      "size": 44718,
+      "mtimeMs": 1777354118314
+    },
+    "raw/sources/Journals/Clippings/fenwiitime-as-a-partner 《做时间的合伙人》.md": {
+      "hash": "1b3ac4cfb585be54e655ebaa147b4615",
+      "size": 261971,
+      "mtimeMs": 1774258123723
+    },
+    "raw/sources/Journals/Clippings/how to actually improve your English speaking skills (episode 2).md": {
+      "hash": "2bb5f8232ddf3551771bb70b290180bd",
+      "size": 24967,
+      "mtimeMs": 1776914242552
+    },
+    "raw/sources/Journals/Clippings/shareAI-labKode-Agent Kode Agent — Design for post-human workflows. One unit agent for every human & computer task.md": {
+      "hash": "c833849b7f3f332d5aa9802accff82a8",
+      "size": 13613,
+      "mtimeMs": 1773988435960
+    },
+    "raw/sources/Journals/Clippings/口语与写作中的铁证（TA, CC, GRA三方面评分）.md": {
+      "hash": "c1f530aa159236f3f0ddc285a899d574",
+      "size": 8194,
+      "mtimeMs": 1776920347974
+    },
+    "raw/sources/Journals/Clippings/口语高分的底层逻辑.md": {
+      "hash": "cf0746488d6f1ea2777e60f4f618cbea",
+      "size": 12285,
+      "mtimeMs": 1777477474618
+    },
+    "raw/sources/Journals/Clippings/可识别Gap.md": {
+      "hash": "ad0b422ab3af7899eb2183f9615228ba",
+      "size": 4998,
+      "mtimeMs": 1777477474627
+    },
+    "raw/sources/Journals/Clippings/标准化worktree创建流程.md": {
+      "hash": "aafefd97f546c3081ab9f468112d611a",
+      "size": 7874,
+      "mtimeMs": 1776156771082
+    },
+    "raw/sources/Journals/Clippings/第十一章：批处理.md": {
+      "hash": "09dd541df2dd5460ab04e17ce8940374",
+      "size": 71742,
+      "mtimeMs": 1773758119988
+    },
+    "raw/sources/Journals/Clippings/结构本身就是高分信号.md": {
+      "hash": "4522502f73b61157dce31937e018b24d",
+      "size": 52103,
+      "mtimeMs": 1777477474683
+    },
+    "raw/sources/Journals/Clippings/高区分度词汇.md": {
+      "hash": "dcacb2bdb1d68d36200f511a87d66131",
+      "size": 31908,
+      "mtimeMs": 1777477474736
+    },
+    "raw/sources/Journals/Coding/Staff Engineer必经之路.md": {
+      "hash": "751dd919699cc53ce96aa413252e40c5",
+      "size": 6370,
+      "mtimeMs": 1779938251843
+    },
+    "raw/sources/Journals/Comprehensive Analysis of rathole-org-rathole.md": {
+      "hash": "0607630a8d87700c9275e3a063dbfbcd",
+      "size": 42364,
+      "mtimeMs": 1774245444399
+    },
+    "raw/sources/Journals/DELIVERY_CHECKLIST.md": {
+      "hash": "e5f9d0b64780d22f170e94d2ea794c63",
+      "size": 9135,
+      "mtimeMs": 1772869540546
+    },
+    "raw/sources/Journals/Eliminate Weak Language.md": {
+      "hash": "cfd5a477ec109d2ed95fb193fdd2529a",
+      "size": 10729,
+      "mtimeMs": 1777002993566
+    },
+    "raw/sources/Journals/Empirical evidence.md": {
+      "hash": "2e32a25189d235ef6f254f9d509149b2",
+      "size": 6489,
+      "mtimeMs": 1772622303823
+    },
+    "raw/sources/Journals/Engnotes/100个全球知名旅游城市.md": {
+      "hash": "f627d327750768c2151642fbc10bea2c",
+      "size": 55464,
+      "mtimeMs": 1776156770858
+    },
+    "raw/sources/Journals/Engnotes/100个高频且发音易错的名词.md": {
+      "hash": "97a4b42ec87fc879e870e982e249699f",
+      "size": 10732,
+      "mtimeMs": 1773758119735
+    },
+    "raw/sources/Journals/Engnotes/100种非入门级日常高频果蔬&食材.md": {
+      "hash": "5a036ce6478ffc53d848f94ab36b8da2",
+      "size": 9977,
+      "mtimeMs": 1776156770908
+    },
+    "raw/sources/Journals/Engnotes/100组雅思近义词替换实例.md": {
+      "hash": "a3e7a1640f98944ed62e2647327da565",
+      "size": 7160,
+      "mtimeMs": 1777477474753
+    },
+    "raw/sources/Journals/Engnotes/5 Surprising Ways to Speak English Fluently.md": {
+      "hash": "df37449ed430344b1d5cc3a6ded9f7d1",
+      "size": 18030,
+      "mtimeMs": 1774178891387
+    },
+    "raw/sources/Journals/Engnotes/60+ Vegetables Name in English.md": {
+      "hash": "969dc9cf0cb88c416fe6a8a63ec780cd",
+      "size": 113,
+      "mtimeMs": 1773066351994
+    },
+    "raw/sources/Journals/Engnotes/BBCLearningEnglish主题词同义替换.md": {
+      "hash": "464c3c92a59e13b12d53282c50be65b1",
+      "size": 5357,
+      "mtimeMs": 1779711310355
+    },
+    "raw/sources/Journals/Engnotes/Blunt vs. Native.md": {
+      "hash": "9a47bbff3e647f0de8224e1c282cd38c",
+      "size": 2326,
+      "mtimeMs": 1776499180922
+    },
+    "raw/sources/Journals/Engnotes/C1 Proposal or Report.md": {
+      "hash": "adce595f0edd92224d3799534f1bcaca",
+      "size": 9775,
+      "mtimeMs": 1775573950873
+    },
+    "raw/sources/Journals/Engnotes/CAE备考策略.md": {
+      "hash": "5a5fc5b06a8e86b00620bdcecbda58c7",
+      "size": 12701,
+      "mtimeMs": 1776655013999
+    },
+    "raw/sources/Journals/Engnotes/COMPLETE Guide Finding a Job in Australia & Australian Work Life.md": {
+      "hash": "385aeb658add6069c919ced550a3102e",
+      "size": 31326,
+      "mtimeMs": 1774176972460
+    },
+    "raw/sources/Journals/Engnotes/Cambridge C1 Advanced English Podcast he Truth About British Education EP9.md": {
+      "hash": "9ae2f44d924d5ec260bd91801eaeba96",
+      "size": 37925,
+      "mtimeMs": 1774183111867
+    },
+    "raw/sources/Journals/Engnotes/Collocation 的系统分类.md": {
+      "hash": "bae96b32e994f903778450a43a47315d",
+      "size": 3439,
+      "mtimeMs": 1776650083007
+    },
+    "raw/sources/Journals/Engnotes/Collocation固定搭配.md": {
+      "hash": "72d9d58c8ec1aa3e8234a87a6eb70e84",
+      "size": 117762,
+      "mtimeMs": 1777477474953
+    },
+    "raw/sources/Journals/Engnotes/Developing a Small 5 Acre Homestead to Feed Us in Uncertain Times.md": {
+      "hash": "134834aff6d8c2531ee2a9311ddbc923",
+      "size": 26095,
+      "mtimeMs": 1774179634991
+    },
+    "raw/sources/Journals/Engnotes/Extract Phrases.md": {
+      "hash": "981c61dac18b81bc2a586393e8472dfb",
+      "size": 2025,
+      "mtimeMs": 1774009945594
+    },
+    "raw/sources/Journals/Engnotes/Extract the transition sentences and phrases that connect ideas.md": {
+      "hash": "558437f239eaa81ca501d148230c3a50",
+      "size": 53478,
+      "mtimeMs": 1774593597578
+    },
+    "raw/sources/Journals/Engnotes/Have Better Conversations The S.E.A. Small Talk Method.md": {
+      "hash": "c1824027b10cd03ffadaf9e9f0e4245f",
+      "size": 17698,
+      "mtimeMs": 1774072593735
+    },
+    "raw/sources/Journals/Engnotes/How to go from B1 to C2 without the pain!.md": {
+      "hash": "0d2b16b21ec6e70ee0c9d38964e1cd32",
+      "size": 27871,
+      "mtimeMs": 1774107153780
+    },
+    "raw/sources/Journals/Engnotes/Lead-in transition openings.md": {
+      "hash": "c7b09dbb3e7c0c98842404861605899f",
+      "size": 3740,
+      "mtimeMs": 1774589566856
+    },
+    "raw/sources/Journals/Engnotes/Loss of Agency & Stability.md": {
+      "hash": "17448e2cd59f75cee14c25365a8e8dc3",
+      "size": 5238,
+      "mtimeMs": 1776049650781
+    },
+    "raw/sources/Journals/Engnotes/Make a dense technical spec feel alive and embodied, not just parseable.md": {
+      "hash": "f2eaa24a6187728c3367513da0a334cd",
+      "size": 9518,
+      "mtimeMs": 1773999957839
+    },
+    "raw/sources/Journals/Engnotes/Natural English Playbook.md": {
+      "hash": "a0d19c3d00446df30b9847918110df5b",
+      "size": 7961,
+      "mtimeMs": 1776501032837
+    },
+    "raw/sources/Journals/Engnotes/OXFORD 4K Narrated Walking Tour.md": {
+      "hash": "a5b511a74d48c601264eaf5fd736cad8",
+      "size": 26507,
+      "mtimeMs": 1774276816212
+    },
+    "raw/sources/Journals/Engnotes/One Exercise to 10X Your Speaking.md": {
+      "hash": "dc0b6d7b4e871f726ffd4cda8ad68464",
+      "size": 26317,
+      "mtimeMs": 1774081936614
+    },
+    "raw/sources/Journals/Engnotes/Phrase网站.md": {
+      "hash": "bd57cbd4f00e3fe63531348a997f0f6b",
+      "size": 2031,
+      "mtimeMs": 1776655014231
+    },
+    "raw/sources/Journals/Engnotes/The Future of Rust.md": {
+      "hash": "aff88ae2bf2845ed74288e9222b1311a",
+      "size": 18392,
+      "mtimeMs": 1774074612834
+    },
+    "raw/sources/Journals/Engnotes/We don’t use that very often_结论越快越聪明.md": {
+      "hash": "883b59a3cbde586f6a3ffb4e0bd2c59e",
+      "size": 14489,
+      "mtimeMs": 1776651812156
+    },
+    "raw/sources/Journals/Engnotes/Xspy留学.md": {
+      "hash": "886d5760e5e6a76be0ba171bc6b6f861",
+      "size": 13200,
+      "mtimeMs": 1776655014244
+    },
+    "raw/sources/Journals/Engnotes/Youtbe频道转Rss链接.md": {
+      "hash": "8ac0c002ed6f24f427b39248ae84275f",
+      "size": 297,
+      "mtimeMs": 1776655014246
+    },
+    "raw/sources/Journals/Engnotes/flight_attendant_english_oral_materials.md": {
+      "hash": "2810efb4bbcfa8b4b533271799545da3",
+      "size": 13814,
+      "mtimeMs": 1776655014260
+    },
+    "raw/sources/Journals/Engnotes/how to get fluent.md": {
+      "hash": "4f0cb4b78ef96c7935aeecf0f5a9ee31",
+      "size": 4151,
+      "mtimeMs": 1776954377389
+    },
+    "raw/sources/Journals/Engnotes/make audiences feel it.md": {
+      "hash": "05a1ae19cbc5c72504e5a47c44035fe6",
+      "size": 10829,
+      "mtimeMs": 1774279442988
+    },
+    "raw/sources/Journals/Engnotes/rephrase示例.md": {
+      "hash": "f104a0a571670abed8d4e39cd41eb32f",
+      "size": 8224,
+      "mtimeMs": 1776658035480
+    },
+    "raw/sources/Journals/Engnotes/中国考生易错.md": {
+      "hash": "b585e838480f1ac8183b5e4ef9448809",
+      "size": 13327,
+      "mtimeMs": 1776658035509
+    },
+    "raw/sources/Journals/Engnotes/中式语法盲区.md": {
+      "hash": "54f10227bcde2f60f50eb854e29775f3",
+      "size": 11384,
+      "mtimeMs": 1776658035517
+    },
+    "raw/sources/Journals/Engnotes/付费机构的雅思口语训练方法.md": {
+      "hash": "c2bce08b1fa37ae18100665fe73cae3d",
+      "size": 21776,
+      "mtimeMs": 1779711310371
+    },
+    "raw/sources/Journals/Engnotes/句式多样性实例.md": {
+      "hash": "2e6024e7d85dfdbe526c91209c9d826b",
+      "size": 11748,
+      "mtimeMs": 1776866888775
+    },
+    "raw/sources/Journals/Engnotes/名词化实用详解.md": {
+      "hash": "60d6c60ba7220b5e1618a4051f9bc7b4",
+      "size": 8684,
+      "mtimeMs": 1776866888789
+    },
+    "raw/sources/Journals/Engnotes/听说读写高杠杆行动.md": {
+      "hash": "addf02a24f75563c6243077876ea93e5",
+      "size": 15112,
+      "mtimeMs": 1776655014279
+    },
+    "raw/sources/Journals/Engnotes/态度标记.md": {
+      "hash": "93d12a185077a138e98ef89312314dfa",
+      "size": 11297,
+      "mtimeMs": 1776842137182
+    },
+    "raw/sources/Journals/Engnotes/承认不确定：高级别考生的秘密武器.md": {
+      "hash": "81f647c4ce0352b185c97c32e1544b0f",
+      "size": 9437,
+      "mtimeMs": 1774531609016
+    },
+    "raw/sources/Journals/Engnotes/欧美英语考试.md": {
+      "hash": "f59086769511f3234a25c55d90405d29",
+      "size": 11388,
+      "mtimeMs": 1776655014298
+    },
+    "raw/sources/Journals/Engnotes/生硬变自然.md": {
+      "hash": "23a55af3d91bd4943d88df9a4e5e8e17",
+      "size": 3249,
+      "mtimeMs": 1776655014305
+    },
+    "raw/sources/Journals/Engnotes/纽约客口语和书面语标准差异_建造论证与还原经验.md": {
+      "hash": "2e744fc4f2f5c0ff4f5e27b3ac9d6784",
+      "size": 22350,
+      "mtimeMs": 1776655014328
+    },
+    "raw/sources/Journals/Engnotes/纽约客日常100表达_既聪明又诚实的气质.md": {
+      "hash": "d41d8cd98f00b204e9800998ecf8427e",
+      "size": 0,
+      "mtimeMs": 1776649883221
+    },
+    "raw/sources/Journals/Engnotes/英语世界的粗鄙行为.md": {
+      "hash": "2959969b6408532aaaf00c55b2d5c339",
+      "size": 17114,
+      "mtimeMs": 1776658035633
+    },
+    "raw/sources/Journals/Engnotes/虚拟语气.md": {
+      "hash": "072e9221790ae064a61c936770c7a5c2",
+      "size": 5042,
+      "mtimeMs": 1776655014339
+    },
+    "raw/sources/Journals/Engnotes/让句法替你完成一半的论证.md": {
+      "hash": "7c6a3b2984465ccaa438ce963616bdcf",
+      "size": 10786,
+      "mtimeMs": 1776655014345
+    },
+    "raw/sources/Journals/Engnotes/语域切换 (Register).md": {
+      "hash": "c3f1e7b06fc101200c56bb6a516f21d5",
+      "size": 26235,
+      "mtimeMs": 1777004322166
+    },
+    "raw/sources/Journals/Engnotes/语域差异.md": {
+      "hash": "e37d553eb5f59e62500f624d059d3308",
+      "size": 27529,
+      "mtimeMs": 1776866888861
+    },
+    "raw/sources/Journals/Engnotes/连贯与衔接.md": {
+      "hash": "da57bb98a565cd8680db61ec9bfbe2a1",
+      "size": 17053,
+      "mtimeMs": 1776866888876
+    },
+    "raw/sources/Journals/Engnotes/雅思8分实录.md": {
+      "hash": "723c098db0d0c06fefede3cfb5012542",
+      "size": 1858,
+      "mtimeMs": 1776655014348
+    },
+    "raw/sources/Journals/Engnotes/雅思主题场景及对应素材.md": {
+      "hash": "ef492498efcfbfd2f74b79be7fee851c",
+      "size": 7782,
+      "mtimeMs": 1779711310380
+    },
+    "raw/sources/Journals/Engnotes/雅思口语 vs 写作替换词 100组.md": {
+      "hash": "8b12238874afcfbad303df90de3f9b3b",
+      "size": 22942,
+      "mtimeMs": 1775703267939
+    },
+    "raw/sources/Journals/Engnotes/雅思口语中的go-to answer.md": {
+      "hash": "83fba58d0ff2ee22c9fbcb4326ec6074",
+      "size": 5393,
+      "mtimeMs": 1777615366319
+    },
+    "raw/sources/Journals/Engnotes/雅思口语考试范文集中背诵.md": {
+      "hash": "100b72de7c75d34000a0cf1a5a76101d",
+      "size": 13669,
+      "mtimeMs": 1776655014360
+    },
+    "raw/sources/Journals/Engnotes/雅思场景下的风格选择(写作).md": {
+      "hash": "670250149c6c57d4052d0dad0db9d791",
+      "size": 10096,
+      "mtimeMs": 1776658035685
+    },
+    "raw/sources/Journals/Engnotes/雅思场景下的风格选择(口语).md": {
+      "hash": "8cc0c8b3634dfb9e179c2ec56dfc1ff9",
+      "size": 6892,
+      "mtimeMs": 1776655829172
+    },
+    "raw/sources/Journals/Engnotes/雅思精确性对照表.md": {
+      "hash": "6596f43e8721c733ee660e351eba631e",
+      "size": 7167,
+      "mtimeMs": 1777477474965
+    },
+    "raw/sources/Journals/Engnotes/雅思范文.md": {
+      "hash": "692b1bd2473da4d67ea6642fca152d1c",
+      "size": 11296,
+      "mtimeMs": 1776655014370
+    },
+    "raw/sources/Journals/Engnotes/雅思表达分水岭.md": {
+      "hash": "8168c994f59277462b944d9116e75203",
+      "size": 29155,
+      "mtimeMs": 1777477474997
+    },
+    "raw/sources/Journals/Engnotes/雅思评估标准.md": {
+      "hash": "e964507762c75f2a3c8e1bd4fc986269",
+      "size": 4930,
+      "mtimeMs": 1777477475003
+    },
+    "raw/sources/Journals/Engnotes/雅思语言维度全景.md": {
+      "hash": "ca11c38c3a8737bdaf5b4bf887a35376",
+      "size": 3851,
+      "mtimeMs": 1776866888893
+    },
+    "raw/sources/Journals/Engnotes/雅思高频错误搭配对照表.md": {
+      "hash": "55a4b823af61c31aef07f593e181567c",
+      "size": 7851,
+      "mtimeMs": 1776866888906
+    },
+    "raw/sources/Journals/Essay流派分析.md": {
+      "hash": "25b259571265fe9f1f26bd9ca7b3c2a6",
+      "size": 12044,
+      "mtimeMs": 1776156771194
+    },
+    "raw/sources/Journals/For Whom the Bell Tolls.md": {
+      "hash": "4362a51c4be66be604691897e6c16fb5",
+      "size": 3235,
+      "mtimeMs": 1771819800965
+    },
+    "raw/sources/Journals/Future Skills.md": {
+      "hash": "91800a924c29ae39ebe1636a78f92078",
+      "size": 3731,
+      "mtimeMs": 1777345356270
+    },
+    "raw/sources/Journals/GRE北美范文大全.md": {
+      "hash": "4fb6372a823487fc4b5d5b7a8ce4f201",
+      "size": 49957,
+      "mtimeMs": 1772869540934
+    },
+    "raw/sources/Journals/Generating executive summary and emulating key points.md": {
+      "hash": "66188f2051b94aa61eac0b43b57d66db",
+      "size": 2895,
+      "mtimeMs": 1772732266807
+    },
+    "raw/sources/Journals/Generic Verbs 泛泛动词.md": {
+      "hash": "4b0f0c0a3000a48ae826bac515d58e21",
+      "size": 13234,
+      "mtimeMs": 1771820854068
+    },
+    "raw/sources/Journals/Git Best Practices.md": {
+      "hash": "4e2f1c6754ddd0c7b42c9cf5eb0ccce9",
+      "size": 282,
+      "mtimeMs": 1773138086355
+    },
+    "raw/sources/Journals/Gitstar Ranking - Top GitHub users and repositories.md": {
+      "hash": "0e1941ca00b3d08495d237274f3fb132",
+      "size": 2386,
+      "mtimeMs": 1773313015549
+    },
+    "raw/sources/Journals/Halt and Catch Fire 奔腾时代.md": {
+      "hash": "2b73cdc9be44351c8e143af1b52418c2",
+      "size": 34059,
+      "mtimeMs": 1779514078005
+    },
+    "raw/sources/Journals/How I Actually Use Opencode As A Senior Engineer.md": {
+      "hash": "3e0f2a513102b5206f0b7fdf8883d30b",
+      "size": 12525,
+      "mtimeMs": 1773584851084
+    },
+    "raw/sources/Journals/How do we create an AI workplace of the future in which humans still matter.md": {
+      "hash": "c91d17fbe8a99e706efefae30d31d82c",
+      "size": 2554,
+      "mtimeMs": 1777087104637
+    },
+    "raw/sources/Journals/How to Actually Make New Info Stick.md": {
+      "hash": "889ebce77720f19acf819d707903ee21",
+      "size": 7134,
+      "mtimeMs": 1780333173161
+    },
+    "raw/sources/Journals/How to Speak So That People Want to Listen.md": {
+      "hash": "f2bdfec395a878e2485bcdb7f8373d7e",
+      "size": 3504,
+      "mtimeMs": 1773214126713
+    },
+    "raw/sources/Journals/How to make yourself impressive instead of clear.md": {
+      "hash": "d4fcb01b5800260550e98e519b91b8d7",
+      "size": 26663,
+      "mtimeMs": 1777440916842
+    },
+    "raw/sources/Journals/I picked up skills just by watching and trying.md": {
+      "hash": "becd42f28797e99c18f4690eab7bf13a",
+      "size": 4227,
+      "mtimeMs": 1773291007310
+    },
+    "raw/sources/Journals/IDE认知理论.md": {
+      "hash": "ff6fce3b8a91b3efb699084ebf1cf180",
+      "size": 11493,
+      "mtimeMs": 1772869540947
+    },
+    "raw/sources/Journals/IMPLEMENTATION_SUMMARY.md": {
+      "hash": "bd181f2ac61821e7b5c910e3bc2740b2",
+      "size": 7582,
+      "mtimeMs": 1781764999143
+    },
+    "raw/sources/Journals/Inbox.md": {
+      "hash": "ff0bafe50d970628aa0729206ae2047e",
+      "size": 181,
+      "mtimeMs": 1774175391185
+    },
+    "raw/sources/Journals/IntelliJ 平台成功背后的软件工程哲学.md": {
+      "hash": "1958523b8bcebb3125782726815e88ad",
+      "size": 9743,
+      "mtimeMs": 1772806828990
+    },
+    "raw/sources/Journals/Journal vs Notes.md": {
+      "hash": "ae378fd47942191a4e82f7865249babb",
+      "size": 2409,
+      "mtimeMs": 1773389529927
+    },
+    "raw/sources/Journals/Knowledge and Experience.md": {
+      "hash": "9d1b56dc192f0bc4ddb633f3d74b7cce",
+      "size": 665,
+      "mtimeMs": 1773757997410
+    },
+    "raw/sources/Journals/L7级技术文档优先级模型.md": {
+      "hash": "cf7c41398b4e66a88362d292799df8c2",
+      "size": 5021,
+      "mtimeMs": 1772869540964
+    },
+    "raw/sources/Journals/LazyVim配置教学.md": {
+      "hash": "0ec2b3976fe289d5014116043446a5bf",
+      "size": 8564,
+      "mtimeMs": 1776156771214
+    },
+    "raw/sources/Journals/Learn Claudecode.md": {
+      "hash": "0f8d6f35dae562e69518d09a7fc15792",
+      "size": 4510,
+      "mtimeMs": 1773986019816
+    },
+    "raw/sources/Journals/Learn in public 工作即学习.md": {
+      "hash": "983808060ca19e42ee14cce1759fd609",
+      "size": 11558,
+      "mtimeMs": 1772549937082
+    },
+    "raw/sources/Journals/Lexical Chunk.md": {
+      "hash": "e5c2e0db7272e4f543d0bcf3feda650f",
+      "size": 2401,
+      "mtimeMs": 1773327540717
+    },
+    "raw/sources/Journals/Linux roadmap.md": {
+      "hash": "d861a22c5f4c27e80431226005eebcf8",
+      "size": 2215,
+      "mtimeMs": 1772529055420
+    },
+    "raw/sources/Journals/Linux工具集.md": {
+      "hash": "4beb34998470310e3a4c66fb73ce40c7",
+      "size": 163,
+      "mtimeMs": 1776156771216
+    },
+    "raw/sources/Journals/Loki-mode自动化开发模式.md": {
+      "hash": "31890736a73cead604ef047044f75d91",
+      "size": 9796,
+      "mtimeMs": 1772869540974
+    },
+    "raw/sources/Journals/London.md": {
+      "hash": "3dec55da9370249fec057a1014884e9c",
+      "size": 4618,
+      "mtimeMs": 1776655014376
+    },
+    "raw/sources/Journals/MBTI认知功能.md": {
+      "hash": "0e2746dfc2cead8785c8e9e4769772c2",
+      "size": 3677,
+      "mtimeMs": 1776655014380
+    },
+    "raw/sources/Journals/Mind-Expanding-Books.md": {
+      "hash": "12589cf0e18352c2e7fb7e29237cd5a1",
+      "size": 169811,
+      "mtimeMs": 1776156771383
+    },
+    "raw/sources/Journals/My 2025 Neovim + Tmux Workflow As A DevOps Engineer.md": {
+      "hash": "70324fd477af5b6d91e0241fea8bfb4e",
+      "size": 5574,
+      "mtimeMs": 1772738241180
+    },
+    "raw/sources/Journals/New York.md": {
+      "hash": "dd7940b90cd9ea5094991aa1cbe43e83",
+      "size": 7940,
+      "mtimeMs": 1776654286804
+    },
+    "raw/sources/Journals/Obsidian CLI.md": {
+      "hash": "db38f9319f85fd5be6a3906de8d0d33f",
+      "size": 964,
+      "mtimeMs": 1772252403472
+    },
+    "raw/sources/Journals/Obsidian CLI结合claude code的用法.md": {
+      "hash": "719fd7a300101b914d2a48152451eeaa",
+      "size": 4659,
+      "mtimeMs": 1772253218670
+    },
+    "raw/sources/Journals/Obsidian Stack 视图适用场景.md": {
+      "hash": "88b0ba94773b6bc342ac8b769d90df44",
+      "size": 24296,
+      "mtimeMs": 1772643569028
+    },
+    "raw/sources/Journals/Odin编程语言.md": {
+      "hash": "19f13e0d5539dda3fc4c5a40418aef60",
+      "size": 5843,
+      "mtimeMs": 1772869540984
+    },
+    "raw/sources/Journals/Part2与Part3的关系.md": {
+      "hash": "dc08b811fb85b2771bd16afda08d8597",
+      "size": 6802,
+      "mtimeMs": 1779988085593
+    },
+    "raw/sources/Journals/PhD Dissertation Research Framework.md": {
+      "hash": "24ca7bb5cfa105c9ac513927af9a500c",
+      "size": 41750,
+      "mtimeMs": 1773056348688
+    },
+    "raw/sources/Journals/Prompt Engineering Research Journal.md": {
+      "hash": "e6bd6dc21948f4b7be626d29c8acff77",
+      "size": 228221,
+      "mtimeMs": 1772730278179
+    },
+    "raw/sources/Journals/Pronunciation drill.md": {
+      "hash": "7d2ae455d38ac818fec178b78c8be1ab",
+      "size": 381,
+      "mtimeMs": 1773295451369
+    },
+    "raw/sources/Journals/Python同步异步框架选择.md": {
+      "hash": "90ce897e33f32bc426d2bdcfd91c1b3c",
+      "size": 4087,
+      "mtimeMs": 1772869541026
+    },
+    "raw/sources/Journals/Raction and Feedback.md": {
+      "hash": "960849d5ac52cf662ef5ac7d4f718223",
+      "size": 3632,
+      "mtimeMs": 1781840947543
+    },
+    "raw/sources/Journals/Recognizing emotional & behavioral patterns.md": {
+      "hash": "33e4b193a83f5f684b8840f83c0c8d9a",
+      "size": 7178,
+      "mtimeMs": 1775458089968
+    },
+    "raw/sources/Journals/Reflection/2026-06-05.md": {
+      "hash": "3d2c203c0ec16c4b55c158caf042ed61",
+      "size": 8602,
+      "mtimeMs": 1781711300205
+    },
+    "raw/sources/Journals/Reflection/2026-06-13.md": {
+      "hash": "88d7b6fc9a68c6625785cdfc8722ec28",
+      "size": 1211,
+      "mtimeMs": 1781711300207
+    },
+    "raw/sources/Journals/Rethinking MY PKM.md": {
+      "hash": "88f918e3264ec749f8ab81faacc7a3a5",
+      "size": 9951,
+      "mtimeMs": 1772804598859
+    },
+    "raw/sources/Journals/Smart people learn languages differently.md": {
+      "hash": "8dc8f0fffff80a313354551041b75214",
+      "size": 17490,
+      "mtimeMs": 1773477829436
+    },
+    "raw/sources/Journals/Sourcegraph 代码搜索指南.md": {
+      "hash": "1e5aa2a806d0cf2f5f286aad5b27e405",
+      "size": 3999,
+      "mtimeMs": 1772451001284
+    },
+    "raw/sources/Journals/Sourcegraph进阶.md": {
+      "hash": "dd28f48dec6653bcbd983baf9916999c",
+      "size": 4646,
+      "mtimeMs": 1772869541045
+    },
+    "raw/sources/Journals/Sprinkles.md": {
+      "hash": "cc88525d51cf7e8727ace13d4a342dc5",
+      "size": 1187,
+      "mtimeMs": 1777477475005
+    },
+    "raw/sources/Journals/Stand-up comedy.md": {
+      "hash": "b3e54d4f73a561031d849a7904c03d7b",
+      "size": 1648,
+      "mtimeMs": 1776092249398
+    },
+    "raw/sources/Journals/StarTrek台词 lexical chunks.md": {
+      "hash": "c89f2c41d94eb433f7bbf611b47ec179",
+      "size": 40972,
+      "mtimeMs": 1773331649886
+    },
+    "raw/sources/Journals/Steel-man the core argument.md": {
+      "hash": "fbeef0c5672dd0320c5bd68bb25f54c4",
+      "size": 824,
+      "mtimeMs": 1772803197042
+    },
+    "raw/sources/Journals/Stop us pulling in different directions and falling apart.md": {
+      "hash": "2d2a9bad0e4a76037d7d86edb046604a",
+      "size": 1536,
+      "mtimeMs": 1770784587482
+    },
+    "raw/sources/Journals/T00压缩模型.md": {
+      "hash": "b4d6d431ff31356dcca1d401a43a9aa2",
+      "size": 14928,
+      "mtimeMs": 1776156851951
+    },
+    "raw/sources/Journals/TED Topics.md": {
+      "hash": "71e68da962205882584adc1a5f35ed0c",
+      "size": 22856,
+      "mtimeMs": 1771827346086
+    },
+    "raw/sources/Journals/TED taskaways.md": {
+      "hash": "3d0b8a9596003cc11ce7bda1d05c13fd",
+      "size": 3677,
+      "mtimeMs": 1781842626560
+    },
+    "raw/sources/Journals/TED精妙表达提取-How to mobilize healthier communities.md": {
+      "hash": "649ee58c25910dc93d8da2dcc3d62203",
+      "size": 13762,
+      "mtimeMs": 1771843239702
+    },
+    "raw/sources/Journals/TED精妙表达提取-Techlonogy.md": {
+      "hash": "dc6b78d17372e38261c7d8365a5cd421",
+      "size": 16200,
+      "mtimeMs": 1772869541064
+    },
+    "raw/sources/Journals/TODO.md": {
+      "hash": "f6c7b1a4dde8115b0db027cf26bebd60",
+      "size": 318,
+      "mtimeMs": 1773760234135
+    },
+    "raw/sources/Journals/Temasek Holdings.md": {
+      "hash": "7eee0bcecaf527653793f7380e5f6eca",
+      "size": 1804,
+      "mtimeMs": 1772004400484
+    },
+    "raw/sources/Journals/The Artist's way the.md": {
+      "hash": "e7119037b71bcd8cd713c72f61865758",
+      "size": 3354,
+      "mtimeMs": 1773389994060
+    },
+    "raw/sources/Journals/Thomson相关的两家出版商.md": {
+      "hash": "ca00eb0a8e4a93dc124c10a9ab7c2897",
+      "size": 5811,
+      "mtimeMs": 1772869541072
+    },
+    "raw/sources/Journals/Tiago Forte Pivot Back.md": {
+      "hash": "416271e1712658bcad66ef8a9102a2ad",
+      "size": 5250,
+      "mtimeMs": 1772808773114
+    },
+    "raw/sources/Journals/Tmux操作.md": {
+      "hash": "fdf94463691f8ca04e336fb0c2b317d8",
+      "size": 1673,
+      "mtimeMs": 1776156771410
+    },
+    "raw/sources/Journals/Tmux的display-popup.md": {
+      "hash": "af958e20c180b870b72adf8d8d5e2fe9",
+      "size": 3518,
+      "mtimeMs": 1776156771415
+    },
+    "raw/sources/Journals/Uber-nerd.md": {
+      "hash": "771fb0730d76112ed9c0df0d432ab119",
+      "size": 2524,
+      "mtimeMs": 1781711300210
+    },
+    "raw/sources/Journals/Ubuntu经验平滑迁移到Arch.md": {
+      "hash": "62aa10f918194b29b668a4ad4f253950",
+      "size": 5153,
+      "mtimeMs": 1776156771429
+    },
+    "raw/sources/Journals/Untitled-2026-03-06-1956.md": {
+      "hash": "be77ab103127d3a9cb4e7d10ba8a4d17",
+      "size": 505038,
+      "mtimeMs": 1772869541413
+    },
+    "raw/sources/Journals/What makes documentation good.md": {
+      "hash": "6581f972a9ea15f96a53eb9283d6d1d0",
+      "size": 4760,
+      "mtimeMs": 1772452343217
+    },
+    "raw/sources/Journals/What not 文档.md": {
+      "hash": "a24ca4305ecdfd116233d2ac26537224",
+      "size": 19616,
+      "mtimeMs": 1772707173626
+    },
+    "raw/sources/Journals/Workspace-笔记时间线.md": {
+      "hash": "67f96fd088e383abebd39b062d1e3836",
+      "size": 208,
+      "mtimeMs": 1772869541418
+    },
+    "raw/sources/Journals/YOU LEARN BY WRITING.md": {
+      "hash": "6f1efa2af46394da23272f23ee1e4239",
+      "size": 6592,
+      "mtimeMs": 1781839176889
+    },
+    "raw/sources/Journals/Youtube提取提示词持续增强.md": {
+      "hash": "c253d90ed99e8b3ba393bcbf596bbff5",
+      "size": 3285,
+      "mtimeMs": 1781836091753
+    },
+    "raw/sources/Journals/Zellij 的设计哲学与Tmux.md": {
+      "hash": "68d2c400f90f90c0bb8a2eb17551c8cb",
+      "size": 4018,
+      "mtimeMs": 1773977467159
+    },
+    "raw/sources/Journals/formative assessment（形成性评估）.md": {
+      "hash": "011ff9d0e0431766a0540cc9208e07c0",
+      "size": 5004,
+      "mtimeMs": 1776916257157
+    },
+    "raw/sources/Journals/grep.app vs github search.md": {
+      "hash": "68455d5ef5d7498670e74ba3f97de78e",
+      "size": 5399,
+      "mtimeMs": 1772251647721
+    },
+    "raw/sources/Journals/grep.app 使用策略.md": {
+      "hash": "2866562d0290edb5d85406590b79664a",
+      "size": 4363,
+      "mtimeMs": 1772079594003
+    },
+    "raw/sources/Journals/grep.app代码搜索引擎使用策略.md": {
+      "hash": "a8d1386ae92e53267d2eb8bcc73989c1",
+      "size": 15664,
+      "mtimeMs": 1770354445025
+    },
+    "raw/sources/Journals/how i organise everthing in obsidian.excalidraw.md": {
+      "hash": "63f777e9fbdc4cb39a1903e11979aaf9",
+      "size": 505228,
+      "mtimeMs": 1772798853654
+    },
+    "raw/sources/Journals/long horizon tasks.md": {
+      "hash": "fd91c98bd996e18febb9e6647fc88491",
+      "size": 1280,
+      "mtimeMs": 1772460847860
+    },
+    "raw/sources/Journals/openclaw可能重启的原因分析.md": {
+      "hash": "376eacd8b3d9651af8b5ea99e87ed489",
+      "size": 2017,
+      "mtimeMs": 1772869541438
+    },
+    "raw/sources/Journals/productive resistance.md": {
+      "hash": "7e0a9d8ba61fc8b275c005c8db181eb4",
+      "size": 1788,
+      "mtimeMs": 1771837870126
+    },
+    "raw/sources/Journals/python-performance-optimization.md": {
+      "hash": "402e0bd49cbe0b5817aeebf463b05152",
+      "size": 2991,
+      "mtimeMs": 1770185604696
+    },
+    "raw/sources/Journals/rationale.md": {
+      "hash": "b46a19b53f426035232b7cd5111a0046",
+      "size": 503,
+      "mtimeMs": 1772869541443
+    },
+    "raw/sources/Journals/test.md": {
+      "hash": "172f3f7032acdb17dce2c07d28c2b562",
+      "size": 4317,
+      "mtimeMs": 1781711300217
+    },
+    "raw/sources/Journals/understand one thing.md": {
+      "hash": "978148cfa54cad6b0831cd8150329776",
+      "size": 3321,
+      "mtimeMs": 1772806140037
+    },
+    "raw/sources/Journals/个人操作系统-SOP模板日历示例.md": {
+      "hash": "13f6ca754cfbe889a767276b93e787bb",
+      "size": 20311,
+      "mtimeMs": 1772869541494
+    },
+    "raw/sources/Journals/个人立即可用的教育AI实用理念.md": {
+      "hash": "bdf9e136e3025404a6b2e9508e94fce9",
+      "size": 2726,
+      "mtimeMs": 1772869541501
+    },
+    "raw/sources/Journals/个人能力识别与风格重构.md": {
+      "hash": "5f2498c1a62b971e62dfe77682339ca4",
+      "size": 14301,
+      "mtimeMs": 1776156772007
+    },
+    "raw/sources/Journals/人类行动系统的三层底座.md": {
+      "hash": "2db92576e53baf789ecc4dec6370bd7a",
+      "size": 3096,
+      "mtimeMs": 1779980145651
+    },
+    "raw/sources/Journals/从TED官网演讲提取Tier2精确表达.md": {
+      "hash": "b7f03fb0dbda28541ba63508c372b725",
+      "size": 66259,
+      "mtimeMs": 1772869541603
+    },
+    "raw/sources/Journals/从交谈中引申话题.md": {
+      "hash": "dd75868cd1a8902ccb74fe81c8cf3e3e",
+      "size": 30393,
+      "mtimeMs": 1777477475037
+    },
+    "raw/sources/Journals/从激励鸡汤转向可复用的认知工具.md": {
+      "hash": "d4facff3fec826fd22d87bb10dc9a07d",
+      "size": 1559,
+      "mtimeMs": 1773057898798
+    },
+    "raw/sources/Journals/价值密度优先原则.md": {
+      "hash": "4098a88a1eb84677cc42841e0da6a90c",
+      "size": 4016,
+      "mtimeMs": 1781840827100
+    },
+    "raw/sources/Journals/佛说譬喻经.md": {
+      "hash": "bcf665202671d3720c19c10eb46eedea",
+      "size": 1103,
+      "mtimeMs": 1772869541616
+    },
+    "raw/sources/Journals/全栈开发feature四个阶段.md": {
+      "hash": "9aec2dd727276f36be53efbda7a09030",
+      "size": 2770,
+      "mtimeMs": 1772071563535
+    },
+    "raw/sources/Journals/六项精进.md": {
+      "hash": "b5f60b7953b00c772b4ff02b34a312b7",
+      "size": 583,
+      "mtimeMs": 1772517488111
+    },
+    "raw/sources/Journals/内部评分标准.md": {
+      "hash": "56b2306c48e12687d6b16e7a92f82211",
+      "size": 4034,
+      "mtimeMs": 1772869541626
+    },
+    "raw/sources/Journals/写作策略.md": {
+      "hash": "005b1e6c9ee3bd20bee6dad08b8efde5",
+      "size": 7056,
+      "mtimeMs": 1776156772021
+    },
+    "raw/sources/Journals/写好提示词Prompt.md": {
+      "hash": "9e051ed4a1c6a343dff5a9b7e2b087f7",
+      "size": 38788,
+      "mtimeMs": 1772869541660
+    },
+    "raw/sources/Journals/分布式系统要比其他领域更难.md": {
+      "hash": "6520a0b92040a08bca70429717ae16ce",
+      "size": 7223,
+      "mtimeMs": 1776156772025
+    },
+    "raw/sources/Journals/剑桥式学习计划.md": {
+      "hash": "5944a05c5005d8ef748cbd6c0f838729",
+      "size": 4668,
+      "mtimeMs": 1781837919386
+    },
+    "raw/sources/Journals/动词短语为王.md": {
+      "hash": "6e4394c3f2ebf8b9b10211b77de537d4",
+      "size": 5287,
+      "mtimeMs": 1779988085608
+    },
+    "raw/sources/Journals/动词短语加常用表达.md": {
+      "hash": "e2106eae10189dad8e9ea912ac42339b",
+      "size": 2351,
+      "mtimeMs": 1773758120039
+    },
+    "raw/sources/Journals/反义词训练.md": {
+      "hash": "28e20e5f67974cc68fa6665fc2897323",
+      "size": 19333,
+      "mtimeMs": 1778828783690
+    },
+    "raw/sources/Journals/反直觉笔记记录_把内容拆细+减掉上下文.md": {
+      "hash": "e647d5ee15a03ff15be41badf61adf30",
+      "size": 4684,
+      "mtimeMs": 1776156772048
+    },
+    "raw/sources/Journals/口语或听力逐句分析点评.md": {
+      "hash": "96f7b6cac4f8701d2e4ca28c2be82759",
+      "size": 10927,
+      "mtimeMs": 1780493015794
+    },
+    "raw/sources/Journals/可抄可改写作句库.md": {
+      "hash": "0e85a4368921497e74444b43e82fba6a",
+      "size": 21561,
+      "mtimeMs": 1772869541695
+    },
+    "raw/sources/Journals/听力中容易出错的词.md": {
+      "hash": "f2ed66815b93475fa7e3292bcef5e090",
+      "size": 2823,
+      "mtimeMs": 1773758120048
+    },
+    "raw/sources/Journals/在web crawler中运用asyncio.md": {
+      "hash": "07c5adf5adebc84e9a07213467d6c1dc",
+      "size": 5950,
+      "mtimeMs": 1771483814210
+    },
+    "raw/sources/Journals/声与痕.md": {
+      "hash": "dff76ada5c6b88f0e13bed75d9d218ac",
+      "size": 6801,
+      "mtimeMs": 1773758120053
+    },
+    "raw/sources/Journals/夜间技巧.md": {
+      "hash": "725679e5932db88a60ee69e3a3734078",
+      "size": 3754,
+      "mtimeMs": 1773758120061
+    },
+    "raw/sources/Journals/大规模开发流程2026-03-07.md": {
+      "hash": "bc493e7d32c96e0b61498e32185bc04b",
+      "size": 5104,
+      "mtimeMs": 1772869541702
+    },
+    "raw/sources/Journals/如何建立不求回报的深度连接.md": {
+      "hash": "9e93a80fd9349f2fb7245a7aed997616",
+      "size": 1777,
+      "mtimeMs": 1779980145654
+    },
+    "raw/sources/Journals/娱乐雅思-纪录片.md": {
+      "hash": "b046efc7cc923e2a9797c44261bce06e",
+      "size": 1999,
+      "mtimeMs": 1779980145656
+    },
+    "raw/sources/Journals/存在自身显现.md": {
+      "hash": "e8306ac61acbfde725cf2578785b4402",
+      "size": 8068,
+      "mtimeMs": 1772869541732
+    },
+    "raw/sources/Journals/学科底层图谱：跨学科心智模型与第一原理.md": {
+      "hash": "6ed3e165df6769e9d611b6e4824e05f5",
+      "size": 6635,
+      "mtimeMs": 1779711310449
+    },
+    "raw/sources/Journals/定声线收文案.md": {
+      "hash": "5c64341499f9720bd4692e348a072849",
+      "size": 7017,
+      "mtimeMs": 1781711300252
+    },
+    "raw/sources/Journals/当下该做的事_控制杂念是修行.md": {
+      "hash": "02c340957477f62e1e871727f41c3f0c",
+      "size": 5233,
+      "mtimeMs": 1772869541740
+    },
+    "raw/sources/Journals/当前CC已安装skill名称.md": {
+      "hash": "71305a62a36d1b68c98376db515d23a2",
+      "size": 7569,
+      "mtimeMs": 1776156772071
+    },
+    "raw/sources/Journals/思维脑图LEP提要.md": {
+      "hash": "96b6f6474f56a6adbc2ae35826a72956",
+      "size": 2948,
+      "mtimeMs": 1773758120073
+    },
+    "raw/sources/Journals/情绪的分类.md": {
+      "hash": "29dabf89516885ff28d1975ee865da8b",
+      "size": 2353,
+      "mtimeMs": 1772869541748
+    },
+    "raw/sources/Journals/提升心性-不可傲慢与怨恨.md": {
+      "hash": "51ca377c75f9bb3883641fb3692fc04f",
+      "size": 7713,
+      "mtimeMs": 1772869541758
+    },
+    "raw/sources/Journals/提升思考深度的艺术.md": {
+      "hash": "1872ab9fc790e4d5f2c1867af1742a60",
+      "size": 6178,
+      "mtimeMs": 1770463534218
+    },
+    "raw/sources/Journals/改过路径.md": {
+      "hash": "38851324cbfd7aa1282542b780e0bfc9",
+      "size": 3349,
+      "mtimeMs": 1772869541770
+    },
+    "raw/sources/Journals/数据团队端到端的业务场景.md": {
+      "hash": "b032ba8226ddaaf25310b52e2b7bdef5",
+      "size": 10578,
+      "mtimeMs": 1776156772092
+    },
+    "raw/sources/Journals/数据工程中pipeline.md": {
+      "hash": "eacad39b092d8b8e53a4126871847e8f",
+      "size": 6676,
+      "mtimeMs": 1773758120114
+    },
+    "raw/sources/Journals/文档价值金字塔.md": {
+      "hash": "19e3fddef93b122273a57b7d440726c1",
+      "size": 2551,
+      "mtimeMs": 1781837715668
+    },
+    "raw/sources/Journals/斯多葛主义核心要点助你成为更好的自己.md": {
+      "hash": "f82264801ce5516058477133677e8dad",
+      "size": 2302,
+      "mtimeMs": 1779980145664
+    },
+    "raw/sources/Journals/星座参考.md": {
+      "hash": "1d95a761ae088faabe2f7427a430e660",
+      "size": 3870,
+      "mtimeMs": 1776240891833
+    },
+    "raw/sources/Journals/最小语言单元Track every step.md": {
+      "hash": "050f1b7fda3d3441002e278b083dad6b",
+      "size": 32573,
+      "mtimeMs": 1773329152024
+    },
+    "raw/sources/Journals/李立群语言风格档案.md": {
+      "hash": "aa18ea3fc96d22da02c24947cd406539",
+      "size": 3349,
+      "mtimeMs": 1776319155810
+    },
+    "raw/sources/Journals/某仓库readme.md": {
+      "hash": "313ecc790d70d6bb0ec6ca9204fb3836",
+      "size": 2181,
+      "mtimeMs": 1772071514167
+    },
+    "raw/sources/Journals/每周一次的反思.md": {
+      "hash": "4abb6794e7a8de65d6472e3092a73517",
+      "size": 2752,
+      "mtimeMs": 1779980145667
+    },
+    "raw/sources/Journals/泄露提示词笔记记录.md": {
+      "hash": "c385b33bb62d76a5f60b2d762f86a4f2",
+      "size": 6906,
+      "mtimeMs": 1770354460137
+    },
+    "raw/sources/Journals/物理笔记本 + Markdown 笔记 + 极简数字工具.md": {
+      "hash": "48e859bbad01f7a67519813654013203",
+      "size": 15454,
+      "mtimeMs": 1772706882599
+    },
+    "raw/sources/Journals/生产力系统构建.excalidraw.md": {
+      "hash": "e1ef8de78b9847cfa05d0a8734e6a0a5",
+      "size": 25402,
+      "mtimeMs": 1772869541800
+    },
+    "raw/sources/Journals/用python生成代码演示动画.md": {
+      "hash": "ec7a4d10037af8b1a96950e9f810351b",
+      "size": 2772,
+      "mtimeMs": 1772869541805
+    },
+    "raw/sources/Journals/社交 hack 术语中英对照.md": {
+      "hash": "7ed98942341207f360d12d85cf75096a",
+      "size": 2772,
+      "mtimeMs": 1773052277508
+    },
+    "raw/sources/Journals/突破停滞：圆圈图学习与成长指南 —— 区分“引力问题”与“可控变量”.md": {
+      "hash": "c84de6316cff35b8c8a86b4ab2c40769",
+      "size": 19154,
+      "mtimeMs": 1773031964851
+    },
+    "raw/sources/Journals/策略工具箱.md": {
+      "hash": "725ffd7ab2c996c995be9fa4e62ee02a",
+      "size": 2628,
+      "mtimeMs": 1781711300255
+    },
+    "raw/sources/Journals/系统化行动.md": {
+      "hash": "258ab5259672b9444c4a78c0f8f9588a",
+      "size": 6796,
+      "mtimeMs": 1772869541815
+    },
+    "raw/sources/Journals/系统思维看待雅思口语能力提升.md": {
+      "hash": "8485c40b257521049b381b9ea4565d15",
+      "size": 25872,
+      "mtimeMs": 1777477475100
+    },
+    "raw/sources/Journals/纽约vs伦敦语言风格对比.md": {
+      "hash": "eee98446736467d203bc02f3e46fedfa",
+      "size": 11788,
+      "mtimeMs": 1776655014392
+    },
+    "raw/sources/Journals/纽约客_既聪明又诚实的气质.md": {
+      "hash": "29183813d9711688f91ab43134e880f7",
+      "size": 16460,
+      "mtimeMs": 1779980180721
+    },
+    "raw/sources/Journals/纽约客写作风格.md": {
+      "hash": "27d62038696ae19403f76d23477e19b8",
+      "size": 13455,
+      "mtimeMs": 1776655014404
+    },
+    "raw/sources/Journals/纽约客雅思可用示例_奖励不简化的人.md": {
+      "hash": "40ba471959adcc3727fd310a10a2affe",
+      "size": 9775,
+      "mtimeMs": 1776655014411
+    },
+    "raw/sources/Journals/罗素大学集团（Russell Group）.md": {
+      "hash": "32deec5047ee660ef86c1b8239de47a2",
+      "size": 2939,
+      "mtimeMs": 1779976433418
+    },
+    "raw/sources/Journals/美企沟通黄金准则.md": {
+      "hash": "9d07bd5f0b652973f0cf977ca4333612",
+      "size": 27387,
+      "mtimeMs": 1773758120137
+    },
+    "raw/sources/Journals/美剧对于雅思口语提升的分析比较.md": {
+      "hash": "89ac3405146115a1b4e57d4d2f1b9e2b",
+      "size": 3412,
+      "mtimeMs": 1776655014416
+    },
+    "raw/sources/Journals/翁家翌访谈 WhynotTV 关键可模仿点.md": {
+      "hash": "a49eedcec949c7c9cc847b818cacadda",
+      "size": 46501,
+      "mtimeMs": 1779979536083
+    },
+    "raw/sources/Journals/聪明且诚实表达示例.md": {
+      "hash": "40d29700936d1cd268789bd7d964579d",
+      "size": 2693,
+      "mtimeMs": 1779980145687
+    },
+    "raw/sources/Journals/英国口音分布与 RP 模型.md": {
+      "hash": "f4df4c91745b11c7a0a9182a18efb0ec",
+      "size": 14584,
+      "mtimeMs": 1772853636061
+    },
+    "raw/sources/Journals/英美顶级名校论文风格差异.md": {
+      "hash": "9741fcb2f25246963160c2c95c88577a",
+      "size": 5143,
+      "mtimeMs": 1776156772132
+    },
+    "raw/sources/Journals/茶余客话治学通义.md": {
+      "hash": "d4e8bac10c4dde6ac7c59284cc11b48c",
+      "size": 1280,
+      "mtimeMs": 1779980145689
+    },
+    "raw/sources/Journals/蚁群-超个体组织与社会性昆虫研究.md": {
+      "hash": "21d6af73bc4d0c15b173f7f8c1ae9aff",
+      "size": 12556,
+      "mtimeMs": 1772869541839
+    },
+    "raw/sources/Journals/融合词练习材料_10组高频连读句.md": {
+      "hash": "41aa6daa6cb83db947369ee230d142aa",
+      "size": 7406,
+      "mtimeMs": 1776655014426
+    },
+    "raw/sources/Journals/认知偏差-村上春树风格.md": {
+      "hash": "45816c67e4c6885fea955aca618554b1",
+      "size": 5382,
+      "mtimeMs": 1770625972867
+    },
+    "raw/sources/Journals/认知偏差列表.md": {
+      "hash": "f11a1168f6798e13dc88435a2e833f66",
+      "size": 11372,
+      "mtimeMs": 1772869541861
+    },
+    "raw/sources/Journals/认知熵增管理系统.md": {
+      "hash": "b791e82806bf227c6954439df39f2343",
+      "size": 2440,
+      "mtimeMs": 1779980145692
+    },
+    "raw/sources/Journals/识别卓越：智力与心性的双重标准.md": {
+      "hash": "c97fdcefeb0224e5313cb13cbeb82a1f",
+      "size": 5057,
+      "mtimeMs": 1776156852572
+    },
+    "raw/sources/Journals/读生产级代码、学习顶级工程师的决策.md": {
+      "hash": "9fa5d51a51c37ff0da2a9151c629b9f9",
+      "size": 5504,
+      "mtimeMs": 1772869541871
+    },
+    "raw/sources/Journals/边界清晰性分析.md": {
+      "hash": "a7c901a9a12c171e8766399bb2697959",
+      "size": 5329,
+      "mtimeMs": 1779980145700
+    },
+    "raw/sources/Journals/适合快速提升听力的美剧.md": {
+      "hash": "19cf0cafd369f5e40b6a9ba0542e900f",
+      "size": 4282,
+      "mtimeMs": 1781837259273
+    },
+    "raw/sources/Journals/适合雅思口语的小说.md": {
+      "hash": "43885fec3a321ff0e33f11aa67a6cbe6",
+      "size": 10517,
+      "mtimeMs": 1779988085622
+    },
+    "raw/sources/Journals/难而正确的事.md": {
+      "hash": "8ba2022c0564e8040f8ca024db774e95",
+      "size": 5014,
+      "mtimeMs": 1776319155829
+    },
+    "raw/sources/Journals/雅思写作Task2句型详解.md": {
+      "hash": "81bd3d920d7bf0446e60df0d9cca63aa",
+      "size": 32298,
+      "mtimeMs": 1772869541930
+    },
+    "raw/sources/Journals/雅思写作Task2实战手册.md": {
+      "hash": "f5b97bb97fb97d6a101130639759835d",
+      "size": 52462,
+      "mtimeMs": 1772869541993
+    },
+    "raw/sources/Journals/雅思写作Task2速查卡.md": {
+      "hash": "86439daec7bd9da9628ea70179338703",
+      "size": 12326,
+      "mtimeMs": 1772869542017
+    },
+    "raw/sources/Journals/雅思写作Task2高级句型库.md": {
+      "hash": "4c383e98329bb1fe0a04c2b3b4324198",
+      "size": 51429,
+      "mtimeMs": 1772869542090
+    },
+    "raw/sources/Journals/雅思口语Part3速查卡.md": {
+      "hash": "c676a0bb82d4252059d4ab38d596dc9f",
+      "size": 12790,
+      "mtimeMs": 1772869592554
+    },
+    "raw/sources/Journals/雅思口语三部分风格比较.md": {
+      "hash": "5d90a412c35e0a8b741a085a77cea411",
+      "size": 7274,
+      "mtimeMs": 1776319155842
+    },
+    "raw/sources/Journals/雅思听力高效训练模式.md": {
+      "hash": "d6c74c1ff8c2b3cdbdaee26768df02bb",
+      "size": 3585,
+      "mtimeMs": 1779980145707
+    },
+    "raw/sources/Journals/雅思考官Agent设计native-like phrasing.md": {
+      "hash": "c50c4bcff0f16c3a8184a5f9556374a0",
+      "size": 20760,
+      "mtimeMs": 1774070802077
+    },
+    "raw/sources/Journals/非二元觉醒者-心齐之路.md": {
+      "hash": "2bac491d729e2dfb06379d0b5b0f6686",
+      "size": 2940,
+      "mtimeMs": 1772869542179
+    },
+    "raw/sources/Journals/项目影响力.md": {
+      "hash": "e9fe50961bc918b61964da2412494632",
+      "size": 6718,
+      "mtimeMs": 1773758120146
+    },
+    "schema.md": {
+      "hash": "ec14ae1b9b74f6e10d81af4d810386aa",
+      "size": 3340,
+      "mtimeMs": 1782022849330
+    },
+    "wiki/concepts/200-mistakes-a-day-strategy.md": {
+      "hash": "3956a78d1de48f168700516e4be8fc7e",
+      "size": 2406,
+      "mtimeMs": 1782121831794
+    },
+    "wiki/concepts/L7級技術文檔優先級模型.md": {
+      "hash": "163c2cc796e66d06e4ec6e444cb3bc23",
+      "size": 3476,
+      "mtimeMs": 1782025749848
+    },
+    "wiki/concepts/a-b測試框架.md": {
+      "hash": "1e19e2fa65765f14705850259d647ab0",
+      "size": 2102,
+      "mtimeMs": 1782025440937
+    },
+    "wiki/concepts/academic-writing-style.md": {
+      "hash": "c2a355f456288e1b5a4912f4e09a77a0",
+      "size": 2961,
+      "mtimeMs": 1782044085215
+    },
+    "wiki/concepts/academisation.md": {
+      "hash": "51b82402a8894d6f269d40e62d277fe3",
+      "size": 929,
+      "mtimeMs": 1782036015157
+    },
+    "wiki/concepts/active-recall.md": {
+      "hash": "bbdd5c4bb5b41a8d89539d3e01aac0ec",
+      "size": 1719,
+      "mtimeMs": 1782115982899
+    },
+    "wiki/concepts/active-writing.md": {
+      "hash": "a23070322d5a0aad8c2f074b42e1272d",
+      "size": 3005,
+      "mtimeMs": 1782132270315
+    },
+    "wiki/concepts/agent-harness-engineering.md": {
+      "hash": "f8446eaf87707a4108e9cd1b3c3de05d",
+      "size": 3543,
+      "mtimeMs": 1782173055738
+    },
+    "wiki/concepts/agentic-learning-system.md": {
+      "hash": "d3459a8a7da295becbbac939d1ae663c",
+      "size": 2468,
+      "mtimeMs": 1782116602783
+    },
+    "wiki/concepts/ai-as-entropy-reducer.md": {
+      "hash": "29a947b9839cae0e395364bba78e5671",
+      "size": 1791,
+      "mtimeMs": 1782130535138
+    },
+    "wiki/concepts/ai-assisted-learning-proper-usage.md": {
+      "hash": "96653d94bdd015b341102373419bca89",
+      "size": 2098,
+      "mtimeMs": 1782045223243
+    },
+    "wiki/concepts/ai-mediated-prototyping.md": {
+      "hash": "7d61f9add6f731a3979f0a227f15b498",
+      "size": 1468,
+      "mtimeMs": 1782173420716
+    },
+    "wiki/concepts/ai-mediated-self-reflection.md": {
+      "hash": "8bd8157d5067af1a1394c1309aa73645",
+      "size": 2439,
+      "mtimeMs": 1782124301243
+    },
+    "wiki/concepts/ai-systems-commander.md": {
+      "hash": "8d814781018d68fc37c67d5ea1a67007",
+      "size": 1512,
+      "mtimeMs": 1782030545566
+    },
+    "wiki/concepts/ai-代理架構層.md": {
+      "hash": "41468e83f6cb3d2fbc51f4f28ad12d5a",
+      "size": 3575,
+      "mtimeMs": 1782026984593
+    },
+    "wiki/concepts/ai-編碼代理核心循環.md": {
+      "hash": "7733e31cdd03f16f79998e5c6c787bdd",
+      "size": 2779,
+      "mtimeMs": 1782026984462
+    },
+    "wiki/concepts/american-screenwriters.md": {
+      "hash": "c821e3c21c83729b02165186aea5549f",
+      "size": 1711,
+      "mtimeMs": 1782114549882
+    },
+    "wiki/concepts/apologetic-register.md": {
+      "hash": "e3c6e0c943730cac285f525d5567a391",
+      "size": 1622,
+      "mtimeMs": 1782125555916
+    },
+    "wiki/concepts/argumentation-density.md": {
+      "hash": "b422e6b5a590699b2a5921769c581073",
+      "size": 1513,
+      "mtimeMs": 1782178681582
+    },
+    "wiki/concepts/assumption-competition.md": {
+      "hash": "cef68dc69659871aed2ff68cbf43071c",
+      "size": 2337,
+      "mtimeMs": 1782120694352
+    },
+    "wiki/concepts/ast-based-refactoring.md": {
+      "hash": "ac60248881bb54fe3ac8cde5f3879995",
+      "size": 1964,
+      "mtimeMs": 1782130535105
+    },
+    "wiki/concepts/ats-compliant-resume.md": {
+      "hash": "13965c65ef8cb95913c723a4689a0a18",
+      "size": 2391,
+      "mtimeMs": 1782036793666
+    },
+    "wiki/concepts/australian-workplace-culture.md": {
+      "hash": "1d7405853ee98470ad29082c3c3a7648",
+      "size": 5789,
+      "mtimeMs": 1782123252561
+    },
+    "wiki/concepts/authentic-usage-evidence.md": {
+      "hash": "5a3b5002055e7605487ec36ba61c36fd",
+      "size": 1926,
+      "mtimeMs": 1782130082133
+    },
+    "wiki/concepts/autotelic-experience.md": {
+      "hash": "ae7fe32b9924ba6627948580b9127c4b",
+      "size": 739,
+      "mtimeMs": 1782051110840
+    },
+    "wiki/concepts/b1-to-c2-roadmap.md": {
+      "hash": "0f218bbb68694d16c982ec3ff7af6136",
+      "size": 2283,
+      "mtimeMs": 1782038105884
+    },
+    "wiki/concepts/backward-compatibility-premium.md": {
+      "hash": "dd21be25292fce1ca9649b2ee6cf7713",
+      "size": 1879,
+      "mtimeMs": 1782123611736
+    },
+    "wiki/concepts/blended-intensive-extensive-reading.md": {
+      "hash": "f7248536fdf7cfbc41c5e2ec6ef0ba34",
+      "size": 827,
+      "mtimeMs": 1782037711372
+    },
+    "wiki/concepts/blurting.md": {
+      "hash": "68e2f748af116d92b088334bb39f35e9",
+      "size": 1572,
+      "mtimeMs": 1782115983155
+    },
+    "wiki/concepts/brain-dumps.md": {
+      "hash": "a6ce7689331e4d152062e8f20d9aeea7",
+      "size": 1328,
+      "mtimeMs": 1782115983256
+    },
+    "wiki/concepts/c1-command-words.md": {
+      "hash": "89fedc0a73ce119432683a4c68a41357",
+      "size": 1934,
+      "mtimeMs": 1782035580143
+    },
+    "wiki/concepts/c1-communicative-achievement.md": {
+      "hash": "aaca1e9f3d856213b6ae93e1039e9996",
+      "size": 2196,
+      "mtimeMs": 1782035580188
+    },
+    "wiki/concepts/c1-language-techniques.md": {
+      "hash": "c2a991266e78358953eeec21b426c519",
+      "size": 2895,
+      "mtimeMs": 1782035580199
+    },
+    "wiki/concepts/c1-proposal-writing.md": {
+      "hash": "d90ded5cfc2e7ace93f2f4aae2ef4834",
+      "size": 2475,
+      "mtimeMs": 1782035580165
+    },
+    "wiki/concepts/c1-report-vs-proposal.md": {
+      "hash": "f06c6acd9db09e691d67a21c5a2e22e1",
+      "size": 2332,
+      "mtimeMs": 1782035580176
+    },
+    "wiki/concepts/c1-report-writing.md": {
+      "hash": "3592c20eab6bcedaf5a6c1a8d552026d",
+      "size": 2393,
+      "mtimeMs": 1782035580155
+    },
+    "wiki/concepts/career-management-skills.md": {
+      "hash": "0aec925e58f5273dd265500c9e5068cc",
+      "size": 5135,
+      "mtimeMs": 1782178524890
+    },
+    "wiki/concepts/causal-loop-diagrams.md": {
+      "hash": "2d1b72d337f2b8c0aaaa0bcf3b5db7a7",
+      "size": 745,
+      "mtimeMs": 1782113517146
+    },
+    "wiki/concepts/certainty-vs-hesitation.md": {
+      "hash": "164744efb6e816d99965e1300d68fa03",
+      "size": 1442,
+      "mtimeMs": 1782125555938
+    },
+    "wiki/concepts/channel-naming-strategy.md": {
+      "hash": "e934f399f5ff45cffb28436254447bd0",
+      "size": 2690,
+      "mtimeMs": 1782116392260
+    },
+    "wiki/concepts/chunking-with-visuals.md": {
+      "hash": "33c3b939bd0aebbb0e7d299950067e92",
+      "size": 775,
+      "mtimeMs": 1782037711457
+    },
+    "wiki/concepts/chunking.md": {
+      "hash": "6647cc245280a3d21e496c8b5d79698a",
+      "size": 1539,
+      "mtimeMs": 1782115982944
+    },
+    "wiki/concepts/claude-chat-commands.md": {
+      "hash": "060c06756e6f721bf3d76c6922d237cf",
+      "size": 2658,
+      "mtimeMs": 1782115020427
+    },
+    "wiki/concepts/clear-vs-impressive-communication.md": {
+      "hash": "0064dcd487157c306fa522875ab2dd6d",
+      "size": 2350,
+      "mtimeMs": 1782129992557
+    },
+    "wiki/concepts/code-hero.md": {
+      "hash": "f2165e8f33e9d73d1f4cb2bad06c6c7b",
+      "size": 1648,
+      "mtimeMs": 1782126520423
+    },
+    "wiki/concepts/cognitive-load-management.md": {
+      "hash": "3915c6ae8950ebf3e470f45bc025a1c3",
+      "size": 2393,
+      "mtimeMs": 1782129581737
+    },
+    "wiki/concepts/cognitive-positioning-framework.md": {
+      "hash": "436a694b91be0f152675963bc9e456bf",
+      "size": 1850,
+      "mtimeMs": 1782116392269
+    },
+    "wiki/concepts/college-system.md": {
+      "hash": "34b3cc41df08056451832081f8d0755b",
+      "size": 2430,
+      "mtimeMs": 1782039640501
+    },
+    "wiki/concepts/collocation-extraction-methodology.md": {
+      "hash": "35150c01c52d36ac3b894fedc2c4216c",
+      "size": 1395,
+      "mtimeMs": 1782037163382
+    },
+    "wiki/concepts/collocations-for-natural-english.md": {
+      "hash": "da898515382f0e5ab4382a5b0813a930",
+      "size": 1567,
+      "mtimeMs": 1782038105833
+    },
+    "wiki/concepts/common-failure-guides.md": {
+      "hash": "5681c31ece8a6494066a41397483312a",
+      "size": 2224,
+      "mtimeMs": 1782132971244
+    },
+    "wiki/concepts/community-health-files.md": {
+      "hash": "97f25f82e17dad01dd417ba6076074e3",
+      "size": 1918,
+      "mtimeMs": 1782124647307
+    },
+    "wiki/concepts/conceptual-system-design.md": {
+      "hash": "a184ab5b29beb89f68773f868150e122",
+      "size": 1641,
+      "mtimeMs": 1782173420706
+    },
+    "wiki/concepts/connected-speech-patterns.md": {
+      "hash": "f9b3e35298aa6f60c842f1dfdff324c3",
+      "size": 956,
+      "mtimeMs": 1782037163317
+    },
+    "wiki/concepts/context-compression.md": {
+      "hash": "7362d45e32a874074b212f3c133ed955",
+      "size": 1855,
+      "mtimeMs": 1782173055770
+    },
+    "wiki/concepts/contextual-phrasal-verb-extraction.md": {
+      "hash": "411197f1666150e12b96cb8b33195db9",
+      "size": 2035,
+      "mtimeMs": 1782130082120
+    },
+    "wiki/concepts/contractions-as-standard.md": {
+      "hash": "e920fd3defd280831e65d873fc4156c4",
+      "size": 1909,
+      "mtimeMs": 1782039457014
+    },
+    "wiki/concepts/conventional-commits.md": {
+      "hash": "4f0551856425d8b07013700a43281918",
+      "size": 1709,
+      "mtimeMs": 1782124647317
+    },
+    "wiki/concepts/cornell-note-taking.md": {
+      "hash": "cf22a294009ecc2c6a18b9d59555956b",
+      "size": 1409,
+      "mtimeMs": 1782115983223
+    },
+    "wiki/concepts/countdown-thinking.md": {
+      "hash": "004e095a72c3ba072a326634a391e80b",
+      "size": 2521,
+      "mtimeMs": 1782051412494
+    },
+    "wiki/concepts/cramming.md": {
+      "hash": "41bce9165da41617a7979adb44a6ade1",
+      "size": 1312,
+      "mtimeMs": 1782115983197
+    },
+    "wiki/concepts/creating-content.md": {
+      "hash": "62abfbc076d01d61fa89559d10ed6007",
+      "size": 1445,
+      "mtimeMs": 1782115982933
+    },
+    "wiki/concepts/cushioning-requests.md": {
+      "hash": "ee6496ca2023ec87274c7332496b701b",
+      "size": 1764,
+      "mtimeMs": 1782039457009
+    },
+    "wiki/concepts/dag-有向無環圖.md": {
+      "hash": "b58dc82b177d08bcb1055a9573f19d58",
+      "size": 1907,
+      "mtimeMs": 1782025632476
+    },
+    "wiki/concepts/dangling-participle.md": {
+      "hash": "c98ee160288efe54a6c2364af0cc00dc",
+      "size": 1812,
+      "mtimeMs": 1782046070791
+    },
+    "wiki/concepts/data-literacy.md": {
+      "hash": "e9aeaf71c193368de5bde7159d074fd7",
+      "size": 1095,
+      "mtimeMs": 1782126828585
+    },
+    "wiki/concepts/data-transfer-object.md": {
+      "hash": "c735de235592aa8dbf5af8ab74593b88",
+      "size": 1740,
+      "mtimeMs": 1782127433331
+    },
+    "wiki/concepts/decentralized-collaboration.md": {
+      "hash": "36d020352b337c4f34711339e551a26a",
+      "size": 2371,
+      "mtimeMs": 1782120694342
+    },
+    "wiki/concepts/decision-rationale-recording.md": {
+      "hash": "85b9b3dcf87d19ff1aba37b52a3bcf57",
+      "size": 1179,
+      "mtimeMs": 1782045006225
+    },
+    "wiki/concepts/deliberate-practice.md": {
+      "hash": "5903f770b49ee85df2afe050579f48d4",
+      "size": 1258,
+      "mtimeMs": 1782046896962
+    },
+    "wiki/concepts/delivery-paralanguage.md": {
+      "hash": "77c767f465a0bfc1f4b7a031d9994feb",
+      "size": 2130,
+      "mtimeMs": 1782037932129
+    },
+    "wiki/concepts/designer-to-builder-transition.md": {
+      "hash": "4b771f138aca8b573f4e26c6e52c92a2",
+      "size": 2020,
+      "mtimeMs": 1782173571185
+    },
+    "wiki/concepts/desirable-difficulty.md": {
+      "hash": "0070d1b6e53217da02b38cb8af11f542",
+      "size": 2357,
+      "mtimeMs": 1782115712529
+    },
+    "wiki/concepts/deterministic-validation-in-ai-coding.md": {
+      "hash": "66e4a01877eba061ffa2d97aaead5b88",
+      "size": 1677,
+      "mtimeMs": 1782131858452
+    },
+    "wiki/concepts/digital-class-signals.md": {
+      "hash": "f1cafbd94dfbf12332fde50d83ca8ffe",
+      "size": 2108,
+      "mtimeMs": 1782045878366
+    },
+    "wiki/concepts/digital-literacy.md": {
+      "hash": "e472664f0b82c472fada6303c70a7413",
+      "size": 1132,
+      "mtimeMs": 1782126828573
+    },
+    "wiki/concepts/discourse-management.md": {
+      "hash": "e29541b3e294246c25f4e398b1672160",
+      "size": 2453,
+      "mtimeMs": 1782047686389
+    },
+    "wiki/concepts/divergent-convergent-cognitive-cycle.md": {
+      "hash": "26a5b92f5dbd9d71f7983c382e170806",
+      "size": 1303,
+      "mtimeMs": 1782121460201
+    },
+    "wiki/concepts/dogfooding.md": {
+      "hash": "fe73b39f4700305883b5aca805691adc",
+      "size": 1610,
+      "mtimeMs": 1782131777711
+    },
+    "wiki/concepts/doing-homework.md": {
+      "hash": "638d7ffd357253ac8b4642fbbae83a48",
+      "size": 1421,
+      "mtimeMs": 1782115983178
+    },
+    "wiki/concepts/dotfile-management.md": {
+      "hash": "6685dd61affb7c6c87273c4001a2391a",
+      "size": 1913,
+      "mtimeMs": 1782131412669
+    },
+    "wiki/concepts/dual-coding.md": {
+      "hash": "bb9fb7f5336348083c640d447791435a",
+      "size": 701,
+      "mtimeMs": 1782037711418
+    },
+    "wiki/concepts/education-reflects-values.md": {
+      "hash": "90821f8f23eae51dab8b4bae8d8216b9",
+      "size": 1167,
+      "mtimeMs": 1782036015246
+    },
+    "wiki/concepts/effortless-clarity.md": {
+      "hash": "d6968ccee93cb805082421bc7fbbee0a",
+      "size": 1615,
+      "mtimeMs": 1782038105848
+    },
+    "wiki/concepts/embedding-models.md": {
+      "hash": "394a03e5242789fbb77aa293b4f73832",
+      "size": 2008,
+      "mtimeMs": 1782116786605
+    },
+    "wiki/concepts/emotional-register-classification.md": {
+      "hash": "3beff55c439335b08b74f512bedbf0d3",
+      "size": 1051,
+      "mtimeMs": 1782037163292
+    },
+    "wiki/concepts/empirical-evidence-in-engineering.md": {
+      "hash": "5090304a2fef488cad3d14cbcb093d84",
+      "size": 4082,
+      "mtimeMs": 1782125918335
+    },
+    "wiki/concepts/endogenous-perspective.md": {
+      "hash": "6822ee3119572016ba0a651dbff21c92",
+      "size": 951,
+      "mtimeMs": 1782113517105
+    },
+    "wiki/concepts/english-pragmatic-softeners.md": {
+      "hash": "638e00baa208078949a113d894f65e95",
+      "size": 4033,
+      "mtimeMs": 1782035060351
+    },
+    "wiki/concepts/error-making-goal.md": {
+      "hash": "c9fd697e0b956dcef08b29e4f77d79a7",
+      "size": 2771,
+      "mtimeMs": 1782121831772
+    },
+    "wiki/concepts/esl-pragmatic-competence.md": {
+      "hash": "ff8a1b10060e623164394e84a9a45a0b",
+      "size": 2893,
+      "mtimeMs": 1782039456999
+    },
+    "wiki/concepts/essentialism-in-design.md": {
+      "hash": "f0a8e1fd02562bb7eba4d4151e77d002",
+      "size": 1592,
+      "mtimeMs": 1782173571207
+    },
+    "wiki/concepts/etl管道.md": {
+      "hash": "090f510db7572a7efd22eb950d36ed48",
+      "size": 2159,
+      "mtimeMs": 1782025440113
+    },
+    "wiki/concepts/exam-factory.md": {
+      "hash": "bf946c50dc3f56ceef198faf83aac7a9",
+      "size": 986,
+      "mtimeMs": 1782036015123
+    },
+    "wiki/concepts/excessive-nominalization.md": {
+      "hash": "42bbb4974a2972d950477343af904eda",
+      "size": 2209,
+      "mtimeMs": 1782127733879
+    },
+    "wiki/concepts/exercise.md": {
+      "hash": "9a66ac4005d11331bd78c24b85925c4a",
+      "size": 1380,
+      "mtimeMs": 1782115983089
+    },
+    "wiki/concepts/expansion-drill.md": {
+      "hash": "4b6fcdf05d3e7584641b96642adc33c9",
+      "size": 1218,
+      "mtimeMs": 1782050490157
+    },
+    "wiki/concepts/extended-thinking-claude.md": {
+      "hash": "e09e845c14649e52c0727a8f477b3e3f",
+      "size": 1446,
+      "mtimeMs": 1782117456047
+    },
+    "wiki/concepts/extensive-reading.md": {
+      "hash": "6eec6973d5bdb9a536ef5d5ca2611832",
+      "size": 992,
+      "mtimeMs": 1782037711354
+    },
+    "wiki/concepts/feature-creep-prevention.md": {
+      "hash": "302059233f4e39fa6e9d6cb4cac2f8f9",
+      "size": 1193,
+      "mtimeMs": 1782045006221
+    },
+    "wiki/concepts/feedback-loops.md": {
+      "hash": "c20383f3e4542ff884d67df26fb6e4a6",
+      "size": 1274,
+      "mtimeMs": 1782113517114
+    },
+    "wiki/concepts/feynman-technique.md": {
+      "hash": "48abdf81731a1ac12c549c000e75cc5f",
+      "size": 1647,
+      "mtimeMs": 1782115982876
+    },
+    "wiki/concepts/filler-transitionals.md": {
+      "hash": "b8472c019ed42a25d3d87a1d12185b34",
+      "size": 1445,
+      "mtimeMs": 1782125555874
+    },
+    "wiki/concepts/filler-words-for-thinking-time.md": {
+      "hash": "dfa825dc6daa7d96acd3fbe9b8a5ebbd",
+      "size": 1963,
+      "mtimeMs": 1782039457023
+    },
+    "wiki/concepts/five-elements-voice-framework.md": {
+      "hash": "e9bc1523384f17762bd8999dff4c53a1",
+      "size": 3315,
+      "mtimeMs": 1782129879060
+    },
+    "wiki/concepts/five-to-seven-person-golden-rule.md": {
+      "hash": "dc5cf50239e4fc6a8459fee9f059fe5e",
+      "size": 2241,
+      "mtimeMs": 1782120694364
+    },
+    "wiki/concepts/flashcards.md": {
+      "hash": "730f34e1a96d80b2806a932b2ab54201",
+      "size": 1760,
+      "mtimeMs": 1782115983146
+    },
+    "wiki/concepts/flow-state.md": {
+      "hash": "24d7f26f7782cda893cf86921a4200df",
+      "size": 4406,
+      "mtimeMs": 1782131858408
+    },
+    "wiki/concepts/fluency-definition-b2.md": {
+      "hash": "8ceb6070b2fda0b6f59435f658ffa0e1",
+      "size": 1132,
+      "mtimeMs": 1782042289544
+    },
+    "wiki/concepts/focus-framing.md": {
+      "hash": "2f2483042a0852859ffa72cc30d2ecda",
+      "size": 1151,
+      "mtimeMs": 1782045006218
+    },
+    "wiki/concepts/food-self-sufficiency.md": {
+      "hash": "6a4be0befcf17e41dd9be8daa8eb1df6",
+      "size": 1982,
+      "mtimeMs": 1782037296273
+    },
+    "wiki/concepts/formulaic-language.md": {
+      "hash": "4ddd14b1c21dca49d148494346330d16",
+      "size": 1798,
+      "mtimeMs": 1782173921347
+    },
+    "wiki/concepts/formulaic-sequence.md": {
+      "hash": "2c369b053e11d72326d0faf74c077a90",
+      "size": 1266,
+      "mtimeMs": 1782173779517
+    },
+    "wiki/concepts/frameworking.md": {
+      "hash": "0818b50499bd04116be0f2cc946585e8",
+      "size": 1305,
+      "mtimeMs": 1782115983065
+    },
+    "wiki/concepts/free-schools.md": {
+      "hash": "b95d91fd76616f3a47b0cb094c9e1a5d",
+      "size": 841,
+      "mtimeMs": 1782036015167
+    },
+    "wiki/concepts/frequency-based-grading.md": {
+      "hash": "8fcf6e1a51160a4a76cc0e4ad567955e",
+      "size": 1867,
+      "mtimeMs": 1782040054833
+    },
+    "wiki/concepts/fsi-pattern-drill-methodology.md": {
+      "hash": "f555bf1176749a084c2f46d1ac18de48",
+      "size": 5929,
+      "mtimeMs": 1782179097749
+    },
+    "wiki/concepts/future-skills-framework.md": {
+      "hash": "ffd55d566915c0e01619bfe853feddbe",
+      "size": 2162,
+      "mtimeMs": 1782126828559
+    },
+    "wiki/concepts/generic-verbs-in-academic-writing.md": {
+      "hash": "8520220a74eae168c1aa694c3f7e4090",
+      "size": 2318,
+      "mtimeMs": 1782127733846
+    },
+    "wiki/concepts/genuine-override-authority.md": {
+      "hash": "95ce3018a56283f6fc35fc6d7e1f64b6",
+      "size": 2041,
+      "mtimeMs": 1782129277989
+    },
+    "wiki/concepts/git-best-practices.md": {
+      "hash": "93371661261aa28d5e68f5027c2f5ae6",
+      "size": 1947,
+      "mtimeMs": 1782128016612
+    },
+    "wiki/concepts/git-worktree-合併流程.md": {
+      "hash": "4252c988409b9147893ada78bac63a1c",
+      "size": 4887,
+      "mtimeMs": 1782026984619
+    },
+    "wiki/concepts/github-best-practices.md": {
+      "hash": "65c7dbecd686cdaf72f307234eb0503f",
+      "size": 2638,
+      "mtimeMs": 1782124647329
+    },
+    "wiki/concepts/github-star-ranking.md": {
+      "hash": "7e3a536e466a0881acdd28e5483c14cb",
+      "size": 1100,
+      "mtimeMs": 1782128314773
+    },
+    "wiki/concepts/going-to-class.md": {
+      "hash": "e7ef5e8a579948acdc6e6f0295fc5796",
+      "size": 1384,
+      "mtimeMs": 1782115983163
+    },
+    "wiki/concepts/golden-sentence-selection-methodology.md": {
+      "hash": "fd72491fdf3b701931240171d3bfdded",
+      "size": 981,
+      "mtimeMs": 1782037163249
+    },
+    "wiki/concepts/grade-inflation.md": {
+      "hash": "69778d64b254089b6b38c03b68287af8",
+      "size": 910,
+      "mtimeMs": 1782036015145
+    },
+    "wiki/concepts/group-discussions.md": {
+      "hash": "b965449963fc5ad73b506d6fb9141aa6",
+      "size": 1454,
+      "mtimeMs": 1782115983114
+    },
+    "wiki/concepts/group-model-building.md": {
+      "hash": "ad20753ddb15a75b07d1a5ad8298fdda",
+      "size": 767,
+      "mtimeMs": 1782113517155
+    },
+    "wiki/concepts/handoff-friction.md": {
+      "hash": "317a67ba3acfb1f947928a03e21cc796",
+      "size": 1917,
+      "mtimeMs": 1782121460139
+    },
+    "wiki/concepts/hedging-strategies-service-english.md": {
+      "hash": "8c5a65360772dbd83e014b929d710384",
+      "size": 2901,
+      "mtimeMs": 1782041769516
+    },
+    "wiki/concepts/hedging.md": {
+      "hash": "85b88999f23a3967cc56a90e54bf3666",
+      "size": 1748,
+      "mtimeMs": 1782125555858
+    },
+    "wiki/concepts/high-frequency-chunks.md": {
+      "hash": "8914ef30f1a80ee828e41e0024a7ec74",
+      "size": 1505,
+      "mtimeMs": 1782038105821
+    },
+    "wiki/concepts/high-stakes-assessments.md": {
+      "hash": "73a0910e1eecfe142e08620ddf7fa382",
+      "size": 984,
+      "mtimeMs": 1782036015190
+    },
+    "wiki/concepts/holistic-admissions.md": {
+      "hash": "df9fdb227a7d3ed06de90e0a3d0d8af9",
+      "size": 1324,
+      "mtimeMs": 1782126213520
+    },
+    "wiki/concepts/homesteading.md": {
+      "hash": "506b8e8d36dc56d63cdd3a0615e61dc9",
+      "size": 2171,
+      "mtimeMs": 1782037296232
+    },
+    "wiki/concepts/hybrid-builder.md": {
+      "hash": "dbc9f08b4d2edfcf722703b9eac4bc93",
+      "size": 2625,
+      "mtimeMs": 1782121460126
+    },
+    "wiki/concepts/hybrid-computational-techniques.md": {
+      "hash": "1b949d9ed3578d0a32bccaef5534da8a",
+      "size": 1099,
+      "mtimeMs": 1782113517167
+    },
+    "wiki/concepts/hybrid-orchestration-strategy.md": {
+      "hash": "85b3205aa7d7cc4d32fc1e97c96af953",
+      "size": 1736,
+      "mtimeMs": 1782131065067
+    },
+    "wiki/concepts/hyperfocus.md": {
+      "hash": "c13c4880fadd022ced4dc5df3a0d3804",
+      "size": 820,
+      "mtimeMs": 1782051110863
+    },
+    "wiki/concepts/iceberg-theory.md": {
+      "hash": "6173e2db9ffa0807a491c7c00293629b",
+      "size": 1631,
+      "mtimeMs": 1782126520398
+    },
+    "wiki/concepts/ide-cognitive-theory.md": {
+      "hash": "815394db80d88a0f7726d25cc26b58ca",
+      "size": 4695,
+      "mtimeMs": 1782130535051
+    },
+    "wiki/concepts/idiomatic-expressions-for-language-learning.md": {
+      "hash": "852dd15402f7ffacefbb87d47c5349b7",
+      "size": 3873,
+      "mtimeMs": 1782114801955
+    },
+    "wiki/concepts/ielts-register-vocabulary-table.md": {
+      "hash": "2094905efaf0765eba013b8a5a244530",
+      "size": 5662,
+      "mtimeMs": 1782046265230
+    },
+    "wiki/concepts/ielts-speaking-part-2-structure.md": {
+      "hash": "b2562e1936d240c8431f28f6ad12d11e",
+      "size": 2780,
+      "mtimeMs": 1782047505122
+    },
+    "wiki/concepts/ielts-speaking-part-3-logic.md": {
+      "hash": "206584cc7172e7e4150470195c54bf3c",
+      "size": 2591,
+      "mtimeMs": 1782047505132
+    },
+    "wiki/concepts/ielts-speaking-rephrase-techniques.md": {
+      "hash": "69fa657cd4055961dff7a9fba16c4762",
+      "size": 3112,
+      "mtimeMs": 1782042747090
+    },
+    "wiki/concepts/ielts-speaking-social-rudeness-framework.md": {
+      "hash": "2e0f82379d7aee0c3769ba1983a51828",
+      "size": 2566,
+      "mtimeMs": 1782043048280
+    },
+    "wiki/concepts/illusion-of-competence.md": {
+      "hash": "4e6bd396fe14fc24af5b65bf6d9e4bd8",
+      "size": 1922,
+      "mtimeMs": 1782115712579
+    },
+    "wiki/concepts/incremental-modernization.md": {
+      "hash": "fb902f94152949b620ee7cf0dfc5aecd",
+      "size": 1895,
+      "mtimeMs": 1782123611747
+    },
+    "wiki/concepts/indexing-as-core-cost.md": {
+      "hash": "34c0f63aa24e7ab497b23871ed7d0c34",
+      "size": 1535,
+      "mtimeMs": 1782131858426
+    },
+    "wiki/concepts/interconnectedness-of-humanity.md": {
+      "hash": "d023f44f614a3e2e767fb3fe50903c72",
+      "size": 1478,
+      "mtimeMs": 1782126520409
+    },
+    "wiki/concepts/intercropping.md": {
+      "hash": "b30cdd82c779b589acfa6a6775681be8",
+      "size": 1664,
+      "mtimeMs": 1782037296264
+    },
+    "wiki/concepts/interleaving-language-learning.md": {
+      "hash": "33b23d3cc55765944c633dc9f8490807",
+      "size": 1260,
+      "mtimeMs": 1782042289533
+    },
+    "wiki/concepts/interleaving.md": {
+      "hash": "4cfe732aa21a96b2147043b6fc995eb4",
+      "size": 1602,
+      "mtimeMs": 1782115982884
+    },
+    "wiki/concepts/invisible-infrastructure.md": {
+      "hash": "f9dcf0994548a2a94d38f66101649977",
+      "size": 1380,
+      "mtimeMs": 1782131858439
+    },
+    "wiki/concepts/its-not-just-x-its-y.md": {
+      "hash": "66e23707931f620a7e8c6fdbb60d69c3",
+      "size": 2063,
+      "mtimeMs": 1782045327978
+    },
+    "wiki/concepts/jevons-paradox.md": {
+      "hash": "337bad491e9ab569bae04adecd848f1d",
+      "size": 1877,
+      "mtimeMs": 1782121088786
+    },
+    "wiki/concepts/jit-tokens-security.md": {
+      "hash": "c76fe0644cc77454cba5cebba1708112",
+      "size": 1348,
+      "mtimeMs": 1782128987883
+    },
+    "wiki/concepts/judgment-depth.md": {
+      "hash": "9a1c51ca5e7dde9461decc4b1e673eac",
+      "size": 1835,
+      "mtimeMs": 1782129277998
+    },
+    "wiki/concepts/key-selection-criteria.md": {
+      "hash": "ff70f95cf861ae62354b3354183a4ab3",
+      "size": 2100,
+      "mtimeMs": 1782036793691
+    },
+    "wiki/concepts/kwl-method.md": {
+      "hash": "9a457143805bb0ba2beeae44799ed944",
+      "size": 1051,
+      "mtimeMs": 1782050780248
+    },
+    "wiki/concepts/l6-l7-documentation-model.md": {
+      "hash": "ec00720ad84d9c6dc91fa48c349b0492",
+      "size": 3252,
+      "mtimeMs": 1782132971229
+    },
+    "wiki/concepts/landauers-principle.md": {
+      "hash": "6a19c1c5d7abfd8d28ebd1a990419a58",
+      "size": 3247,
+      "mtimeMs": 1782178423414
+    },
+    "wiki/concepts/latent-demand-in-ai-products.md": {
+      "hash": "4bdd89c4db55622074b2cbb56d77f787",
+      "size": 1749,
+      "mtimeMs": 1782122791804
+    },
+    "wiki/concepts/lean-design-workflow.md": {
+      "hash": "bc6a60f369c3cb66793579a555491f50",
+      "size": 1786,
+      "mtimeMs": 1782121460171
+    },
+    "wiki/concepts/learn-in-public.md": {
+      "hash": "f40607e38cc6ae063764f1ccd9c75289",
+      "size": 1942,
+      "mtimeMs": 1782173420692
+    },
+    "wiki/concepts/leave-it-strategy.md": {
+      "hash": "6e01e6594cf40de85019f10325ffe6ed",
+      "size": 1151,
+      "mtimeMs": 1782116602827
+    },
+    "wiki/concepts/lexical-chunk.md": {
+      "hash": "d05de42d2535ef0452a8223359a9b655",
+      "size": 3209,
+      "mtimeMs": 1782173921335
+    },
+    "wiki/concepts/lexical-resource-precision-vs-vagueness.md": {
+      "hash": "a2050852d9a8cc3fee25060870561870",
+      "size": 1640,
+      "mtimeMs": 1782178610963
+    },
+    "wiki/concepts/lifelong-guidance.md": {
+      "hash": "840c7ead21c2e9838b996cdc5cbb8ba5",
+      "size": 1617,
+      "mtimeMs": 1782123967893
+    },
+    "wiki/concepts/listener-check-ins.md": {
+      "hash": "73aa9b23ca5e0d357349187c36585739",
+      "size": 1980,
+      "mtimeMs": 1782039457042
+    },
+    "wiki/concepts/listening-to-music-while-studying.md": {
+      "hash": "06b3279c38b549e309534239c4a85002",
+      "size": 1523,
+      "mtimeMs": 1782115983285
+    },
+    "wiki/concepts/lock-in-idiom.md": {
+      "hash": "8cdde37c6fa254700c29d67d369d0215",
+      "size": 1148,
+      "mtimeMs": 1782046435865
+    },
+    "wiki/concepts/loss-of-agency-stability.md": {
+      "hash": "e734471b38749723dc2eff8771fd7281",
+      "size": 2972,
+      "mtimeMs": 1782038890576
+    },
+    "wiki/concepts/lua-configuration.md": {
+      "hash": "247c45aa6eedd49df6bf9a74262353e5",
+      "size": 1116,
+      "mtimeMs": 1782172698331
+    },
+    "wiki/concepts/mapreduce.md": {
+      "hash": "6f62aa0485d3e19e4298e2855b3f43ea",
+      "size": 1943,
+      "mtimeMs": 1782029566362
+    },
+    "wiki/concepts/marginalia-vs-formal-notes.md": {
+      "hash": "79421646dd545b639868f800ade720a5",
+      "size": 605,
+      "mtimeMs": 1782037711408
+    },
+    "wiki/concepts/mark-scheme.md": {
+      "hash": "50a28e74635f4d87045d27bdac37d46f",
+      "size": 1013,
+      "mtimeMs": 1782117640760
+    },
+    "wiki/concepts/maxwells-demon.md": {
+      "hash": "ecfde67684d466043a2c0154b3b1b030",
+      "size": 4322,
+      "mtimeMs": 1782178387912
+    },
+    "wiki/concepts/meaning-gap.md": {
+      "hash": "b857f03e11a0ab8e681cbe055a197796",
+      "size": 1789,
+      "mtimeMs": 1782129278011
+    },
+    "wiki/concepts/meritocracy-vs-structure.md": {
+      "hash": "3053a3a25d4894c433d9e125731b6f91",
+      "size": 873,
+      "mtimeMs": 1782036015223
+    },
+    "wiki/concepts/metrics-vs-meaning.md": {
+      "hash": "d45b155af56c352c31627d2084bbcb99",
+      "size": 913,
+      "mtimeMs": 1782036015233
+    },
+    "wiki/concepts/migration-psychology.md": {
+      "hash": "52f25598a393355e205932a53893ae32",
+      "size": 2008,
+      "mtimeMs": 1782123252572
+    },
+    "wiki/concepts/mind-mapping.md": {
+      "hash": "4cba45df96494256561d2e8210995f58",
+      "size": 1369,
+      "mtimeMs": 1782115983241
+    },
+    "wiki/concepts/mini-storytelling.md": {
+      "hash": "642c33d1ae3e3830e4ca7b138e5d94d1",
+      "size": 2190,
+      "mtimeMs": 1782129992567
+    },
+    "wiki/concepts/minimal-agent-loop.md": {
+      "hash": "f0dd10dec1ed44947f787c9a2a9f0989",
+      "size": 1977,
+      "mtimeMs": 1782173055751
+    },
+    "wiki/concepts/mirror-neurons.md": {
+      "hash": "b01dfd633c93bb7fcafeafa285e22ff5",
+      "size": 2264,
+      "mtimeMs": 1782037932107
+    },
+    "wiki/concepts/mnemonics.md": {
+      "hash": "eee641cb58f83717b0eed4ad81d06b49",
+      "size": 1419,
+      "mtimeMs": 1782115983171
+    },
+    "wiki/concepts/modeling-mode-learning-strategy.md": {
+      "hash": "f75a8344584a6db82b2edacab53d4639",
+      "size": 2051,
+      "mtimeMs": 1782129581726
+    },
+    "wiki/concepts/msrv.md": {
+      "hash": "90e2c642f447df936bf94c33deec6906",
+      "size": 1845,
+      "mtimeMs": 1782124647296
+    },
+    "wiki/concepts/narrative-specificity-in-language.md": {
+      "hash": "fcb485830cfd49e955cc1f3a249dd20e",
+      "size": 2406,
+      "mtimeMs": 1782047505143
+    },
+    "wiki/concepts/natural-english-playbook.md": {
+      "hash": "e396d8a5f537c780cb6d95b1fb442f1f",
+      "size": 3403,
+      "mtimeMs": 1782039456990
+    },
+    "wiki/concepts/negative-list-boundary-setting.md": {
+      "hash": "6f877679b20f52b7c745dc018dd306c4",
+      "size": 1327,
+      "mtimeMs": 1782045006215
+    },
+    "wiki/concepts/negative-transfer.md": {
+      "hash": "ad7fa4dc4b9c5bdac9898c6d2e1dd382",
+      "size": 2204,
+      "mtimeMs": 1782129581715
+    },
+    "wiki/concepts/neovim-distribution.md": {
+      "hash": "b4dfaacc12b95623b939759e48ba870a",
+      "size": 2230,
+      "mtimeMs": 1782173089765
+    },
+    "wiki/concepts/neovim-distributions.md": {
+      "hash": "1a3f08ec6f799b120f416fe5ff70a4c0",
+      "size": 1691,
+      "mtimeMs": 1782172698321
+    },
+    "wiki/concepts/neuroplasticity.md": {
+      "hash": "fc65a1f45919c127d0295cb5e345dbb6",
+      "size": 1005,
+      "mtimeMs": 1782050780295
+    },
+    "wiki/concepts/notebooklm-obsidian-pipeline.md": {
+      "hash": "9c80605b0eace337ff67a6380461184e",
+      "size": 2633,
+      "mtimeMs": 1782117003861
+    },
+    "wiki/concepts/okf-bundle.md": {
+      "hash": "e55754ee64d80b37a332bde48792b642",
+      "size": 3087,
+      "mtimeMs": 1782117236896
+    },
+    "wiki/concepts/onboarding-roi-降低首次失敗成本.md": {
+      "hash": "09b495d8baea6dabdf15805d9191c7df",
+      "size": 2608,
+      "mtimeMs": 1782025749919
+    },
+    "wiki/concepts/open-ended-questions.md": {
+      "hash": "1d54efb0a833633cf8feaf33e8889a10",
+      "size": 1154,
+      "mtimeMs": 1782050780272
+    },
+    "wiki/concepts/open-tension.md": {
+      "hash": "177b7e81ee59374d866b5790fe69f102",
+      "size": 2056,
+      "mtimeMs": 1782028936474
+    },
+    "wiki/concepts/overcoming-language-anxiety.md": {
+      "hash": "f034d06b5c3f3b6d2144174f9abc9fdb",
+      "size": 1807,
+      "mtimeMs": 1782121831857
+    },
+    "wiki/concepts/para-method.md": {
+      "hash": "fe5b50930810be144e6bc770bb9f084c",
+      "size": 1853,
+      "mtimeMs": 1782117003849
+    },
+    "wiki/concepts/parallel-contrast.md": {
+      "hash": "bae8182968c472b9df0a6a562d1f9b3e",
+      "size": 1888,
+      "mtimeMs": 1782046070750
+    },
+    "wiki/concepts/pattern-detection-across-sources.md": {
+      "hash": "f6c1a6cfaf1d0806486e794d9b836c90",
+      "size": 633,
+      "mtimeMs": 1782037711478
+    },
+    "wiki/concepts/picture-superiority-effect.md": {
+      "hash": "f54c96223d67c10fbbfcfa3720a04f90",
+      "size": 734,
+      "mtimeMs": 1782037711432
+    },
+    "wiki/concepts/plain-language-profundity.md": {
+      "hash": "9b973eb0dd873fe8e5628463b212c81c",
+      "size": 1903,
+      "mtimeMs": 1782132612891
+    },
+    "wiki/concepts/policy-pendulum.md": {
+      "hash": "06b199fd1ac669c2c029471064366257",
+      "size": 896,
+      "mtimeMs": 1782036015213
+    },
+    "wiki/concepts/pomodoro-technique.md": {
+      "hash": "a3a802a7b998dcfe9c36b8e032d624de",
+      "size": 1637,
+      "mtimeMs": 1782115982908
+    },
+    "wiki/concepts/potato-varieties-determinate-vs-indeterminate.md": {
+      "hash": "ea3a0034d3aa060ba571a928ebaf376b",
+      "size": 1699,
+      "mtimeMs": 1782037296252
+    },
+    "wiki/concepts/practice-problems.md": {
+      "hash": "25e346bddc069ff23f3e0e9bd5d3007a",
+      "size": 1614,
+      "mtimeMs": 1782115982994
+    },
+    "wiki/concepts/pragmatic-chunk.md": {
+      "hash": "639784389c84bfb4ede2241597238f42",
+      "size": 1927,
+      "mtimeMs": 1782173921549
+    },
+    "wiki/concepts/pre-study.md": {
+      "hash": "22c70e67d168faf9f8286f0dfaf7b238",
+      "size": 1323,
+      "mtimeMs": 1782115983249
+    },
+    "wiki/concepts/prediction-vs-thinking.md": {
+      "hash": "ddcfbc7b144b23cce627b9864712d8bc",
+      "size": 2126,
+      "mtimeMs": 1782121088804
+    },
+    "wiki/concepts/predictive-demons.md": {
+      "hash": "81f0f60c4e49fb395c98fd9e8a32a7fc",
+      "size": 1447,
+      "mtimeMs": 1782051412516
+    },
+    "wiki/concepts/pregel-模型.md": {
+      "hash": "1eb9aa06a97dd65967ec312fcb17e54b",
+      "size": 1370,
+      "mtimeMs": 1782029566458
+    },
+    "wiki/concepts/priming.md": {
+      "hash": "f8c299931ad907f51d611b057e401b6a",
+      "size": 1419,
+      "mtimeMs": 1782115982973
+    },
+    "wiki/concepts/process-learning.md": {
+      "hash": "3b2f0ff39e962bdb68175b7dd42df915",
+      "size": 1813,
+      "mtimeMs": 1782121460156
+    },
+    "wiki/concepts/product-led-development-principles.md": {
+      "hash": "d0dee65d931cc73282e1a7637d7db5b6",
+      "size": 2800,
+      "mtimeMs": 1782127433318
+    },
+    "wiki/concepts/program-structure-interface.md": {
+      "hash": "9d2cc1133ef3ffb7ab489660a45ab33a",
+      "size": 2213,
+      "mtimeMs": 1782131777698
+    },
+    "wiki/concepts/prompt-as-process.md": {
+      "hash": "0c8d78361d135c2cba9bc1ec33e72e2e",
+      "size": 1766,
+      "mtimeMs": 1782117456055
+    },
+    "wiki/concepts/prompt-chaining.md": {
+      "hash": "57cbc55843e13041383329a82083c4f8",
+      "size": 1879,
+      "mtimeMs": 1782117456022
+    },
+    "wiki/concepts/prompt-engineering-for-linguistic-analysis.md": {
+      "hash": "6ff87b972483d4258743b48702ef4477",
+      "size": 2199,
+      "mtimeMs": 1782038523076
+    },
+    "wiki/concepts/prompting-chatgpt.md": {
+      "hash": "8e267536e19b97b696cfbba10e5e8569",
+      "size": 1561,
+      "mtimeMs": 1782115983126
+    },
+    "wiki/concepts/public-practice.md": {
+      "hash": "b175343aff40fae0083e190a941a41fe",
+      "size": 2130,
+      "mtimeMs": 1782121831822
+    },
+    "wiki/concepts/quiz-first-workflow.md": {
+      "hash": "207da169b8ec139fde1629cd389a4dc2",
+      "size": 1758,
+      "mtimeMs": 1782116602819
+    },
+    "wiki/concepts/racing-movie-authenticity-collocations.md": {
+      "hash": "75435f6d5d170612d5189b43932d57a2",
+      "size": 3026,
+      "mtimeMs": 1782042481796
+    },
+    "wiki/concepts/rag.md": {
+      "hash": "d32db1549c70273079cd85e94e074218",
+      "size": 2104,
+      "mtimeMs": 1782121088798
+    },
+    "wiki/concepts/re-reading-and-highlighting.md": {
+      "hash": "98a17edfadea22a35b1c81cd0f82d223",
+      "size": 1361,
+      "mtimeMs": 1782115983298
+    },
+    "wiki/concepts/register-switching.md": {
+      "hash": "073988fa5548618a9f26a6eeeb2f265d",
+      "size": 3948,
+      "mtimeMs": 1782178729693
+    },
+    "wiki/concepts/rereading.md": {
+      "hash": "f4ee79ac31b3d24cfccd22a1a8a7472c",
+      "size": 1387,
+      "mtimeMs": 1782115983204
+    },
+    "wiki/concepts/response-drill.md": {
+      "hash": "194eb122dd8ee152e0f5714eede35ea2",
+      "size": 1240,
+      "mtimeMs": 1782050490122
+    },
+    "wiki/concepts/result-synthesis-strategies.md": {
+      "hash": "313951a6d9c19b856a0af98c173a7b7f",
+      "size": 2361,
+      "mtimeMs": 1782131065045
+    },
+    "wiki/concepts/results-driven-culture.md": {
+      "hash": "07fbb24ab82cb35894fe0bb7e03c0b65",
+      "size": 874,
+      "mtimeMs": 1782036015200
+    },
+    "wiki/concepts/retelling-stories-exercise.md": {
+      "hash": "7f51f96e9b2fbe4ee1629e8d6d4dfb9e",
+      "size": 3363,
+      "mtimeMs": 1782039803844
+    },
+    "wiki/concepts/retrieval-practice.md": {
+      "hash": "923abaaec9aec2f9b2454691aaf25655",
+      "size": 1843,
+      "mtimeMs": 1782115712539
+    },
+    "wiki/concepts/rewatching.md": {
+      "hash": "de85cd3e4e0327b2525684d3d6e1bbec",
+      "size": 1475,
+      "mtimeMs": 1782115983211
+    },
+    "wiki/concepts/rhetorical-metaphor.md": {
+      "hash": "02cf202da79ee09790caaa489edf8a06",
+      "size": 1731,
+      "mtimeMs": 1782132612908
+    },
+    "wiki/concepts/role-prompting.md": {
+      "hash": "9081be5d970009e86819384b2b3ca275",
+      "size": 1527,
+      "mtimeMs": 1782117455999
+    },
+    "wiki/concepts/s-e-a-small-talk-method.md": {
+      "hash": "032ab329ce9e1e3b765e48271f35b40c",
+      "size": 2891,
+      "mtimeMs": 1782037932072
+    },
+    "wiki/concepts/schema-learning.md": {
+      "hash": "750ad50b10849c9558652c73f7802cbf",
+      "size": 1785,
+      "mtimeMs": 1782115712552
+    },
+    "wiki/concepts/second-brain.md": {
+      "hash": "cc3aabfad955debdc2fd5994365cc196",
+      "size": 2060,
+      "mtimeMs": 1782117003840
+    },
+    "wiki/concepts/self-directed-learning-resources.md": {
+      "hash": "70aa806ff2ddf67658f5129e3b89ced5",
+      "size": 5172,
+      "mtimeMs": 1782115277933
+    },
+    "wiki/concepts/self-explanation.md": {
+      "hash": "c33be1254c1f3e4274c6e39ee699e62c",
+      "size": 1437,
+      "mtimeMs": 1782115983265
+    },
+    "wiki/concepts/semantic-encoding.md": {
+      "hash": "c0007b073b8cc50942c3fff164600f0f",
+      "size": 554,
+      "mtimeMs": 1782037711397
+    },
+    "wiki/concepts/semantic-navigation.md": {
+      "hash": "53cecec027ccb465af8d248e1c6923be",
+      "size": 2050,
+      "mtimeMs": 1782130535090
+    },
+    "wiki/concepts/share-framework.md": {
+      "hash": "4f13a2b20f7dfb662e5091a53cdb7a95",
+      "size": 3431,
+      "mtimeMs": 1782122447514
+    },
+    "wiki/concepts/short-sentence-hammer.md": {
+      "hash": "3252a283e97e00564d3e62d920b03874",
+      "size": 1479,
+      "mtimeMs": 1782046070886
+    },
+    "wiki/concepts/show-dont-tell.md": {
+      "hash": "6a7653d5ba8849a426919562735d1627",
+      "size": 1384,
+      "mtimeMs": 1782126213452
+    },
+    "wiki/concepts/simple-words-deep-contrast.md": {
+      "hash": "67685dbcb45bf9ac43f64e6bfd795845",
+      "size": 1912,
+      "mtimeMs": 1782132612881
+    },
+    "wiki/concepts/skill-atrophy-via-automation.md": {
+      "hash": "958169b6d44f610d0235a02f1c095c36",
+      "size": 1981,
+      "mtimeMs": 1782129278004
+    },
+    "wiki/concepts/sneaky-plagiarism.md": {
+      "hash": "0fe5da3117e8da5922d84b6254b4f954",
+      "size": 1798,
+      "mtimeMs": 1782115712573
+    },
+    "wiki/concepts/social-awareness-vs-social-calibration.md": {
+      "hash": "2c2944e43456a102747ef23b273142a3",
+      "size": 2258,
+      "mtimeMs": 1782045878227
+    },
+    "wiki/concepts/social-mobility.md": {
+      "hash": "9114521aff9916a1c376ad8b6394766e",
+      "size": 954,
+      "mtimeMs": 1782036015177
+    },
+    "wiki/concepts/soft-delete-vs-hard-delete.md": {
+      "hash": "e7a8eb4586a6415737f4815ee08896ab",
+      "size": 2038,
+      "mtimeMs": 1782127433343
+    },
+    "wiki/concepts/spaced-repetition.md": {
+      "hash": "e8d24648700ce0eca9639c50cb336281",
+      "size": 1753,
+      "mtimeMs": 1782115982891
+    },
+    "wiki/concepts/spatial-reading.md": {
+      "hash": "6b6076f5d327182a655d1edd751bcc81",
+      "size": 699,
+      "mtimeMs": 1782037711469
+    },
+    "wiki/concepts/speak-with-texture.md": {
+      "hash": "6fe071e8212621a0d17efd026fae7dbb",
+      "size": 2668,
+      "mtimeMs": 1782129992549
+    },
+    "wiki/concepts/speaking-success-system.md": {
+      "hash": "39884e2997f08a4ef6ea8b075cd3a86c",
+      "size": 2196,
+      "mtimeMs": 1782038105810
+    },
+    "wiki/concepts/spoken-to-written-style-transformation.md": {
+      "hash": "e23dfff36d7b05329bb1c8e0f9028726",
+      "size": 3017,
+      "mtimeMs": 1782115561267
+    },
+    "wiki/concepts/spoken-vocabulary-register.md": {
+      "hash": "3596823addf103327573d1eead5bf3e2",
+      "size": 1950,
+      "mtimeMs": 1782039457032
+    },
+    "wiki/concepts/stack-pointer-metaphor.md": {
+      "hash": "d284b63ffaf0aad24f16071af4c5c22b",
+      "size": 2136,
+      "mtimeMs": 1782130535071
+    },
+    "wiki/concepts/state-support-discuss.md": {
+      "hash": "e7788b9d59707e6dbde5ad4739a9981a",
+      "size": 1251,
+      "mtimeMs": 1782126213502
+    },
+    "wiki/concepts/stocks-and-flows.md": {
+      "hash": "65580ce8072fe9c95a93eefb384fa601",
+      "size": 998,
+      "mtimeMs": 1782113517123
+    },
+    "wiki/concepts/straw-bale-gardening.md": {
+      "hash": "5eb9535152456eec86844cedfe334564",
+      "size": 1809,
+      "mtimeMs": 1782037296244
+    },
+    "wiki/concepts/structured-thinking.md": {
+      "hash": "8319c83be49588b4e848b7637957a72e",
+      "size": 1389,
+      "mtimeMs": 1782178570705
+    },
+    "wiki/concepts/study-planning.md": {
+      "hash": "437e723f4901537bebc05827384cbc8b",
+      "size": 1566,
+      "mtimeMs": 1782115982921
+    },
+    "wiki/concepts/studying-with-music.md": {
+      "hash": "89b44e82753d3dcb7a6f9ccb2ca32890",
+      "size": 1367,
+      "mtimeMs": 1782115983187
+    },
+    "wiki/concepts/style-shift-drills.md": {
+      "hash": "3b06262045d3afce08c21fb522d94d0b",
+      "size": 1423,
+      "mtimeMs": 1782038105860
+    },
+    "wiki/concepts/sub-agent-specialization.md": {
+      "hash": "ad7ae92510862881620cc05ef81e0e59",
+      "size": 1533,
+      "mtimeMs": 1782128987871
+    },
+    "wiki/concepts/subagent-機制.md": {
+      "hash": "cf331f2a76f46d928101e02b3f0a6bc2",
+      "size": 1204,
+      "mtimeMs": 1782027894636
+    },
+    "wiki/concepts/subjunctive-as-argumentation.md": {
+      "hash": "3e2aa117977a151e8a05d4cd654a702f",
+      "size": 1892,
+      "mtimeMs": 1782046070842
+    },
+    "wiki/concepts/subjunctive-mood.md": {
+      "hash": "e4fb008dfb77fa36536f3c9db48791a4",
+      "size": 2368,
+      "mtimeMs": 1782045979398
+    },
+    "wiki/concepts/substantive-verbs.md": {
+      "hash": "9ff54fed48749c856d281365d0346e0d",
+      "size": 1968,
+      "mtimeMs": 1782127733864
+    },
+    "wiki/concepts/substitution-drill.md": {
+      "hash": "05ad11e2e813b69a62f33bb37ddef961",
+      "size": 936,
+      "mtimeMs": 1782050490086
+    },
+    "wiki/concepts/substitution-drill替换练习.md": {
+      "hash": "0a1e2d49a706b1f882b885dfbd08e19d",
+      "size": 2461,
+      "mtimeMs": 1782179021530
+    },
+    "wiki/concepts/summary-pages.md": {
+      "hash": "8c975af018181afa23160ff9a7e8ef00",
+      "size": 1407,
+      "mtimeMs": 1782115983231
+    },
+    "wiki/concepts/superannuation-for-temporary-residents.md": {
+      "hash": "1bed7e866a9ec6571b2ad011073fd559",
+      "size": 1989,
+      "mtimeMs": 1782036793679
+    },
+    "wiki/concepts/superstructured-prompts.md": {
+      "hash": "0643162571a39a4b1ca2315e88d0a28f",
+      "size": 1409,
+      "mtimeMs": 1782117456036
+    },
+    "wiki/concepts/syntactic-argumentation.md": {
+      "hash": "f5d8d4f5d1d186966681899d88684549",
+      "size": 2562,
+      "mtimeMs": 1782046070695
+    },
+    "wiki/concepts/syntopical-reading.md": {
+      "hash": "2b8db49ab2f76c01dc043419e8cce6f3",
+      "size": 1593,
+      "mtimeMs": 1782115983033
+    },
+    "wiki/concepts/system-dynamics.md": {
+      "hash": "fb4003e474bb72a60dc92e373ebfcaaf",
+      "size": 4624,
+      "mtimeMs": 1782113517076
+    },
+    "wiki/concepts/table-stakes-concept.md": {
+      "hash": "3fffa4d767872f55510a106581df07ff",
+      "size": 1024,
+      "mtimeMs": 1782037163364
+    },
+    "wiki/concepts/teaching-to-the-test.md": {
+      "hash": "ddfc73d265d6e4c84c8262bb5e7c06f4",
+      "size": 896,
+      "mtimeMs": 1782036015136
+    },
+    "wiki/concepts/ted-method.md": {
+      "hash": "c0d82a885497f9f5533debafd46dea8f",
+      "size": 1919,
+      "mtimeMs": 1782123143109
+    },
+    "wiki/concepts/tension-thinking.md": {
+      "hash": "57523d49d8950997fa9b5902deccc1db",
+      "size": 3508,
+      "mtimeMs": 1782178570697
+    },
+    "wiki/concepts/the-builder-role.md": {
+      "hash": "6e2bc9455df29869b1f1d693bc444e20",
+      "size": 1965,
+      "mtimeMs": 1782122791788
+    },
+    "wiki/concepts/thematic-categorization.md": {
+      "hash": "ab66f7a952239698476a15b3c5223069",
+      "size": 1770,
+      "mtimeMs": 1782130082126
+    },
+    "wiki/concepts/three-layer-ai-workforce-model.md": {
+      "hash": "98587660281593380bbda5b785bf83f8",
+      "size": 2902,
+      "mtimeMs": 1782129277981
+    },
+    "wiki/concepts/three-level-rewriting-framework.md": {
+      "hash": "68dfc76b7300d27b7f8aebb56584510b",
+      "size": 2074,
+      "mtimeMs": 1782045223212
+    },
+    "wiki/concepts/time-delays-in-systems.md": {
+      "hash": "3f524d30c0f768f60fc100a0b318ee97",
+      "size": 915,
+      "mtimeMs": 1782113517134
+    },
+    "wiki/concepts/timestamped-learning.md": {
+      "hash": "7c412cbdd513a105e583a6ad971c7848",
+      "size": 1620,
+      "mtimeMs": 1782116602806
+    },
+    "wiki/concepts/town-and-gown.md": {
+      "hash": "59ffca19b9e229ae4be2b8ac3f1cee17",
+      "size": 2012,
+      "mtimeMs": 1782039640526
+    },
+    "wiki/concepts/transformation-drill.md": {
+      "hash": "8a44993eef0649330b6a698f17dde232",
+      "size": 1117,
+      "mtimeMs": 1782050490098
+    },
+    "wiki/concepts/transient-hypofrontality.md": {
+      "hash": "61296319b0896ecba72be12a3cd192ae",
+      "size": 2651,
+      "mtimeMs": 1782178336552
+    },
+    "wiki/concepts/transition-adaptability.md": {
+      "hash": "991511a9fdae51781fd19ebdc4b1e1ab",
+      "size": 1480,
+      "mtimeMs": 1782123967902
+    },
+    "wiki/concepts/transition-phrase-categorization.md": {
+      "hash": "885507ce324a7a17a9532b73ca267d4e",
+      "size": 1240,
+      "mtimeMs": 1782037711342
+    },
+    "wiki/concepts/transition-sentences-lead-in-openings.md": {
+      "hash": "0d7c62ce9c317e6e1c44223a6e07a599",
+      "size": 3064,
+      "mtimeMs": 1782038523065
+    },
+    "wiki/concepts/tv-show-language-learning-method.md": {
+      "hash": "e1d18a0a642179ed1e9a1a9ba5f73b40",
+      "size": 2629,
+      "mtimeMs": 1782116602793
+    },
+    "wiki/concepts/two-tier-system.md": {
+      "hash": "8bb4d7cd2b1caf5af9df4828b953d50e",
+      "size": 998,
+      "mtimeMs": 1782036015111
+    },
+    "wiki/concepts/uk-specialized-admissions.md": {
+      "hash": "9cc53b3993626f88877eba389398c091",
+      "size": 1293,
+      "mtimeMs": 1782126213541
+    },
+    "wiki/concepts/us-vs-uk-admissions-paradigm.md": {
+      "hash": "a11e106ff0c17a8d291f786a76c10faa",
+      "size": 2046,
+      "mtimeMs": 1782126213430
+    },
+    "wiki/concepts/vague-quantifiers.md": {
+      "hash": "ccb4d862b106d8d6b351e70fbc64d231",
+      "size": 1467,
+      "mtimeMs": 1782125555892
+    },
+    "wiki/concepts/varied-exposure-loop.md": {
+      "hash": "23db3524a998570c8d82033ce67efbfa",
+      "size": 738,
+      "mtimeMs": 1782037711385
+    },
+    "wiki/concepts/verifiable-capability.md": {
+      "hash": "32da9312aace75d2671c6da97c426458",
+      "size": 1717,
+      "mtimeMs": 1782173571196
+    },
+    "wiki/concepts/visual-associations.md": {
+      "hash": "6631a4bddd2a3647720705ad180f4be2",
+      "size": 1309,
+      "mtimeMs": 1782115983014
+    },
+    "wiki/concepts/vocabulary-as-main-obstacle.md": {
+      "hash": "cab7495cb4d6b648e3e04daa648ef8ad",
+      "size": 731,
+      "mtimeMs": 1782037711363
+    },
+    "wiki/concepts/vocabulary-over-grammar.md": {
+      "hash": "187990a120d0abf2a58eed4a9d607093",
+      "size": 1453,
+      "mtimeMs": 1782042289524
+    },
+    "wiki/concepts/watching-videos-and-lectures.md": {
+      "hash": "40cc245e1042c3557503d2dea9d0b4f0",
+      "size": 1466,
+      "mtimeMs": 1782115983275
+    },
+    "wiki/concepts/what-not-document.md": {
+      "hash": "d284102c04dd5f75fd29d1d85dd6df2d",
+      "size": 3616,
+      "mtimeMs": 1782045006213
+    },
+    "wiki/concepts/word-families.md": {
+      "hash": "2db6a59375bdd2439ef37c3c2fae0e10",
+      "size": 1342,
+      "mtimeMs": 1782038105872
+    },
+    "wiki/concepts/workflow-compression.md": {
+      "hash": "960fbe24a186bdc433040092df741641",
+      "size": 1744,
+      "mtimeMs": 1782121460183
+    },
+    "wiki/concepts/workflow-profiling.md": {
+      "hash": "6318012f1a96949ee3da69bfb0cf602a",
+      "size": 1739,
+      "mtimeMs": 1782130535117
+    },
+    "wiki/concepts/working-memory-limit.md": {
+      "hash": "d3aff0a9fb6894e4c7b11cc34e9eed09",
+      "size": 672,
+      "mtimeMs": 1782037711446
+    },
+    "wiki/concepts/worktree-isolation.md": {
+      "hash": "ebe637d1d2b708d9b6d6c24a5fa07ad7",
+      "size": 2182,
+      "mtimeMs": 1782173055761
+    },
+    "wiki/concepts/writing-to-learn.md": {
+      "hash": "a44d7a16a2cce3acabbc3dc69c6662ab",
+      "size": 2185,
+      "mtimeMs": 1782045223179
+    },
+    "wiki/concepts/xml-tag-prompting.md": {
+      "hash": "defc4ebb5442f9692977505a1ce03878",
+      "size": 1752,
+      "mtimeMs": 1782117456012
+    },
+    "wiki/concepts/yolo-模式.md": {
+      "hash": "19f3d32888ba6165e972914e7ebb855e",
+      "size": 883,
+      "mtimeMs": 1782027894658
+    },
+    "wiki/concepts/zero-cost-abstraction.md": {
+      "hash": "d3bd438a968318e6291540dd7f72f206",
+      "size": 1854,
+      "mtimeMs": 1782123611725
+    },
+    "wiki/concepts/zero-dependency-architecture.md": {
+      "hash": "e86dcabf3e880d3b8bb8d53545634843",
+      "size": 1165,
+      "mtimeMs": 1782125111250
+    },
+    "wiki/concepts/zone-of-proximal-development.md": {
+      "hash": "d50ff31e713721e92f7025ac05dfa47f",
+      "size": 1992,
+      "mtimeMs": 1782115712563
+    },
+    "wiki/concepts/一刀切課程.md": {
+      "hash": "8592450645580e8f897ebb8d73be4fce",
+      "size": 2092,
+      "mtimeMs": 1782024583650
+    },
+    "wiki/concepts/上下文工程-context-engineering.md": {
+      "hash": "8d1d5d9ace66a1ef4ac9717c5c1c910c",
+      "size": 1524,
+      "mtimeMs": 1782030545450
+    },
+    "wiki/concepts/为流利度而读-read-for-fluency.md": {
+      "hash": "defffad5c99ccbd345be2a75b640c5be",
+      "size": 1392,
+      "mtimeMs": 1782032660698
+    },
+    "wiki/concepts/主题化词汇列表.md": {
+      "hash": "3d61603e66643e9b127e383779a582c4",
+      "size": 1086,
+      "mtimeMs": 1782033317435
+    },
+    "wiki/concepts/二次排序.md": {
+      "hash": "c317d60b6ce91487c9743f355addb638",
+      "size": 1025,
+      "mtimeMs": 1782029566438
+    },
+    "wiki/concepts/代价优化器.md": {
+      "hash": "d766028ed26e45032cfbb41ad3a53e85",
+      "size": 1235,
+      "mtimeMs": 1782029566467
+    },
+    "wiki/concepts/代理團隊.md": {
+      "hash": "dcf32b366d0425180082ea4cd89b5559",
+      "size": 3275,
+      "mtimeMs": 1782026984475
+    },
+    "wiki/concepts/任務分支.md": {
+      "hash": "fd2221cb91a2dd7eb45b9e70c185f05d",
+      "size": 2780,
+      "mtimeMs": 1782026984641
+    },
+    "wiki/concepts/假口音挑战-fake-accent-challenge.md": {
+      "hash": "ee901d90e8ef8c00ebaba2ce25893aa0",
+      "size": 1431,
+      "mtimeMs": 1782032661001
+    },
+    "wiki/concepts/協作.md": {
+      "hash": "53b4ba57894f5d7949f757f372d3a3a5",
+      "size": 2100,
+      "mtimeMs": 1782024583627
+    },
+    "wiki/concepts/发音易错.md": {
+      "hash": "d5d560950f41b39d542214a3f4cf47dc",
+      "size": 1282,
+      "mtimeMs": 1782031352440
+    },
+    "wiki/concepts/口語話語管理策略.md": {
+      "hash": "8e925da93e19b5fc0ab67120ff7e1f5e",
+      "size": 3077,
+      "mtimeMs": 1782028108981
+    },
+    "wiki/concepts/口語高分底層邏輯.md": {
+      "hash": "bd67162ffbd9f4b786573b4773354585",
+      "size": 3101,
+      "mtimeMs": 1782034781366
+    },
+    "wiki/concepts/口语高分底層邏輯.md": {
+      "hash": "ccf8b23b68997006789c3d176ee0611d",
+      "size": 2064,
+      "mtimeMs": 1782030303032
+    },
+    "wiki/concepts/可監控-資料工程.md": {
+      "hash": "83f3da4d2d4733ac917b2e56418b53b1",
+      "size": 2621,
+      "mtimeMs": 1782025632592
+    },
+    "wiki/concepts/可重複性-資料工程.md": {
+      "hash": "6c2dfa9b79efdc320a7e00f275252188",
+      "size": 2446,
+      "mtimeMs": 1782025632519
+    },
+    "wiki/concepts/同义替换.md": {
+      "hash": "4b83cf83f093e294a34df7b379300a3c",
+      "size": 2079,
+      "mtimeMs": 1782034053785
+    },
+    "wiki/concepts/回溯性內耗.md": {
+      "hash": "b58b98034189d1ecd7edada665f7190e",
+      "size": 1553,
+      "mtimeMs": 1782025252362
+    },
+    "wiki/concepts/因果邏輯替代情緒邏輯.md": {
+      "hash": "dc2231546dbb8fc99c7afbd9be70fce5",
+      "size": 1863,
+      "mtimeMs": 1782025252392
+    },
+    "wiki/concepts/團隊協議.md": {
+      "hash": "840a7d602a5541d0b98e486a4444508b",
+      "size": 2445,
+      "mtimeMs": 1782026984494
+    },
+    "wiki/concepts/在线系统.md": {
+      "hash": "3fabac23790f9ecadd00fadc37d7b833",
+      "size": 981,
+      "mtimeMs": 1782029566421
+    },
+    "wiki/concepts/场景化分组.md": {
+      "hash": "d9355e31e9a456e92e378166c9868e04",
+      "size": 1479,
+      "mtimeMs": 1782032112426
+    },
+    "wiki/concepts/報表自動化.md": {
+      "hash": "937d8bd63459fd001a47c24257a00437",
+      "size": 1783,
+      "mtimeMs": 1782025440352
+    },
+    "wiki/concepts/多模型協同-multi-model-collaboration.md": {
+      "hash": "5c6bbb648fb63ec042d82bb1e4b25f9f",
+      "size": 1988,
+      "mtimeMs": 1782027894626
+    },
+    "wiki/concepts/失敗優先邏輯.md": {
+      "hash": "23fc66da35610d47d905aae0966d73b7",
+      "size": 2818,
+      "mtimeMs": 1782025750050
+    },
+    "wiki/concepts/奧義式放下.md": {
+      "hash": "4be8ebee57cdb1be96ea6857944f3b05",
+      "size": 1864,
+      "mtimeMs": 1782025252315
+    },
+    "wiki/concepts/寫作微觀論證結構.md": {
+      "hash": "11220cbd088ecf81f0e9ebee4792098a",
+      "size": 3463,
+      "mtimeMs": 1782028108992
+    },
+    "wiki/concepts/對話感.md": {
+      "hash": "222206305d01b14c6aa1dd70f561d064",
+      "size": 1869,
+      "mtimeMs": 1782028429040
+    },
+    "wiki/concepts/導航式邏輯.md": {
+      "hash": "06d21ba9f80463742c38b4a5ddcf4e6e",
+      "size": 1837,
+      "mtimeMs": 1782028428960
+    },
+    "wiki/concepts/工作樹-task-isolation.md": {
+      "hash": "1148a219db4ea09ab1f1cb6bf450b539",
+      "size": 3608,
+      "mtimeMs": 1782026984552
+    },
+    "wiki/concepts/工作流编排.md": {
+      "hash": "9bc2a1fa9207096a5c5d44f70d3bd1dc",
+      "size": 1558,
+      "mtimeMs": 1782029566393
+    },
+    "wiki/concepts/帕累托最優-2026-06-21-095906.md": {
+      "hash": "0f56a196a9db5a5fd55e9c2665689d5d",
+      "size": 397,
+      "mtimeMs": 1782035946244
+    },
+    "wiki/concepts/影子跟讀法-shadowing.md": {
+      "hash": "138a87f08293ab0543f856a559273177",
+      "size": 1720,
+      "mtimeMs": 1782027732989
+    },
+    "wiki/concepts/心理彈性.md": {
+      "hash": "0b11fb8dd952817b1a9f06ec32445dc0",
+      "size": 1687,
+      "mtimeMs": 1782025252338
+    },
+    "wiki/concepts/批判性思維.md": {
+      "hash": "3aad44afaa787acb1959ce1090e80432",
+      "size": 1810,
+      "mtimeMs": 1782024583615
+    },
+    "wiki/concepts/批同步并行bsp.md": {
+      "hash": "7457121ae0ff95c5449353ba24dc41c8",
+      "size": 1078,
+      "mtimeMs": 1782029566449
+    },
+    "wiki/concepts/批处理.md": {
+      "hash": "562ca1e649dc45946d29bbec6ff33555",
+      "size": 3089,
+      "mtimeMs": 1782029566354
+    },
+    "wiki/concepts/批量导入.md": {
+      "hash": "52f218edc2fa14cd40d47015d76a8837",
+      "size": 1234,
+      "mtimeMs": 1782029566476
+    },
+    "wiki/concepts/拓展課程.md": {
+      "hash": "a3fa85d62e9237bb63f517f3e36ff10a",
+      "size": 3415,
+      "mtimeMs": 1782024583584
+    },
+    "wiki/concepts/排序合并连接.md": {
+      "hash": "fb8eaaf0492e58bfe72cf6d6c0092e80",
+      "size": 981,
+      "mtimeMs": 1782029566429
+    },
+    "wiki/concepts/探索性分析.md": {
+      "hash": "87891ad17bee5e20cf599b52f199ace5",
+      "size": 2078,
+      "mtimeMs": 1782025440272
+    },
+    "wiki/concepts/搜索導向操作.md": {
+      "hash": "b7efbc6c7201fbdabac1e49ce14d44c6",
+      "size": 2462,
+      "mtimeMs": 1782025749988
+    },
+    "wiki/concepts/搭配原则.md": {
+      "hash": "8fc006590973c9e463911fb2f925c40e",
+      "size": 1359,
+      "mtimeMs": 1782032112358
+    },
+    "wiki/concepts/搭配詞-collocations.md": {
+      "hash": "04da7eda6f40ee9b89b1634ad7c3eed2",
+      "size": 1709,
+      "mtimeMs": 1782034781374
+    },
+    "wiki/concepts/收藏家陷阱-collectors-trap.md": {
+      "hash": "37356fd20af5e1548e68c21dc4898f99",
+      "size": 1328,
+      "mtimeMs": 1782032660848
+    },
+    "wiki/concepts/改過自新的兩種路徑.md": {
+      "hash": "1834f7234c16548bde1290e2e3a98037",
+      "size": 2041,
+      "mtimeMs": 1782025252270
+    },
+    "wiki/concepts/数据流引擎.md": {
+      "hash": "423f4d25e2d98a5c9a77bb441f86c1a1",
+      "size": 1758,
+      "mtimeMs": 1782029566372
+    },
+    "wiki/concepts/数据湖仓.md": {
+      "hash": "c38597468f951e7c7c56d45cf685eb6b",
+      "size": 1702,
+      "mtimeMs": 1782029566407
+    },
+    "wiki/concepts/數據作為有毒資產.md": {
+      "hash": "bac27a0a70aaff389b9a202812193ab4",
+      "size": 1776,
+      "mtimeMs": 1782028769302
+    },
+    "wiki/concepts/數據倫理的深層意涵.md": {
+      "hash": "e97f8898b001db14eb178679f20597bd",
+      "size": 1511,
+      "mtimeMs": 1782028769474
+    },
+    "wiki/concepts/文檔價值金字塔.md": {
+      "hash": "5448157d0bc2eb32aa03d2fcebac1229",
+      "size": 3447,
+      "mtimeMs": 1782025749783
+    },
+    "wiki/concepts/星座性格特徵.md": {
+      "hash": "08a0e46d5aff5c7dbe428fc74f96277d",
+      "size": 1831,
+      "mtimeMs": 1782025991086
+    },
+    "wiki/concepts/星座配對相容性.md": {
+      "hash": "26d16ac9c09e1c364529765b1ece185b",
+      "size": 2429,
+      "mtimeMs": 1782025991158
+    },
+    "wiki/concepts/标准化-worktree-创建流程.md": {
+      "hash": "63ff9ad6dce641e3eeb24e2dfc13f829",
+      "size": 1663,
+      "mtimeMs": 1782029113993
+    },
+    "wiki/concepts/核心能量.md": {
+      "hash": "168b5c148fc69be733d083a76e5eaafe",
+      "size": 1355,
+      "mtimeMs": 1782025991190
+    },
+    "wiki/concepts/模型可解釋性.md": {
+      "hash": "ac579b409b4b79c434ec014e7cfacda9",
+      "size": 2378,
+      "mtimeMs": 1782025440748
+    },
+    "wiki/concepts/模型指針-model-pointers.md": {
+      "hash": "32e43b030f6059e7da9cd4bd068ebf34",
+      "size": 1030,
+      "mtimeMs": 1782027894647
+    },
+    "wiki/concepts/模型生產化部署.md": {
+      "hash": "3c12476a963d8d37821fbae19536adf3",
+      "size": 2395,
+      "mtimeMs": 1782025440530
+    },
+    "wiki/concepts/求知欲.md": {
+      "hash": "2b406fdffc630e55bfbbdbdaa23f9877",
+      "size": 1990,
+      "mtimeMs": 1782024583636
+    },
+    "wiki/concepts/治理碎片化.md": {
+      "hash": "72dd4dff70213bf0d94fdf4176b91a8a",
+      "size": 1236,
+      "mtimeMs": 1782028769386
+    },
+    "wiki/concepts/派生数据.md": {
+      "hash": "479f500d9d1ce53b16e3c1cd55eddf00",
+      "size": 1223,
+      "mtimeMs": 1782029566415
+    },
+    "wiki/concepts/流系统作为缓冲层.md": {
+      "hash": "35338c94051f6626994058b9a3d634c7",
+      "size": 999,
+      "mtimeMs": 1782029566495
+    },
+    "wiki/concepts/混洗shuffle.md": {
+      "hash": "efd83938d9a465c99f922d7f643ef18a",
+      "size": 1513,
+      "mtimeMs": 1782029566382
+    },
+    "wiki/concepts/溝通技巧-2026-06-21-095828.md": {
+      "hash": "f86431b442aafdace2b9a113633bfb6b",
+      "size": 328,
+      "mtimeMs": 1782035908958
+    },
+    "wiki/concepts/漸進式句子擴展-progressive-sentence-expansion.md": {
+      "hash": "6d15cec555574b9abbd9756be3b0f6fb",
+      "size": 2095,
+      "mtimeMs": 1782027733001
+    },
+    "wiki/concepts/特徵工程.md": {
+      "hash": "a2e142565ff0f84415b2a3340bbe6583",
+      "size": 2371,
+      "mtimeMs": 1782025440610
+    },
+    "wiki/concepts/端到端業務場景.md": {
+      "hash": "02a6e50cb51ffb26acb3b60cef34dc4d",
+      "size": 1899,
+      "mtimeMs": 1782025439908
+    },
+    "wiki/concepts/端到端資料專案工作流-2026-06-21-070450.md": {
+      "hash": "b5fa7b966d525f30abe757bfde04bf1a",
+      "size": 460,
+      "mtimeMs": 1782025490016
+    },
+    "wiki/concepts/系統心智模型-文檔工程.md": {
+      "hash": "ba6e8c3149e8770e8d570c70df8dd3d3",
+      "size": 2955,
+      "mtimeMs": 1782025750117
+    },
+    "wiki/concepts/糾纏型思維.md": {
+      "hash": "7b1a8027e0f5ee278ddb12a9c0069edd",
+      "size": 1636,
+      "mtimeMs": 1782025252292
+    },
+    "wiki/concepts/維度建模.md": {
+      "hash": "00b0a8b03b304772d63c956bb5116416",
+      "size": 1979,
+      "mtimeMs": 1782025440199
+    },
+    "wiki/concepts/自主代理.md": {
+      "hash": "56dc440176f5e6fa334f10e307cef258",
+      "size": 2896,
+      "mtimeMs": 1782026984517
+    },
+    "wiki/concepts/自我修正作為流利度正向信號.md": {
+      "hash": "cb73a82506b5ad0e504d55bf1244495f",
+      "size": 1984,
+      "mtimeMs": 1782028429131
+    },
+    "wiki/concepts/補救課程.md": {
+      "hash": "4adaff63718c03679766dddcafad7d61",
+      "size": 1597,
+      "mtimeMs": 1782024583593
+    },
+    "wiki/concepts/认知压缩-complexity-compression.md": {
+      "hash": "1112d3d2a7ae96de624fa1137c6c5375",
+      "size": 1282,
+      "mtimeMs": 1782030545505
+    },
+    "wiki/concepts/词汇块-chunks.md": {
+      "hash": "5237d8848bfde11008bb9e44f2b52f87",
+      "size": 1418,
+      "mtimeMs": 1782032660925
+    },
+    "wiki/concepts/词汇宽度.md": {
+      "hash": "ba97e187dec408be43d3f7d44fbb9e5d",
+      "size": 1518,
+      "mtimeMs": 1782032112277
+    },
+    "wiki/concepts/词汇搭配.md": {
+      "hash": "c4ad39aec87ce2a0d92104d2b0e5ef77",
+      "size": 2136,
+      "mtimeMs": 1782034053859
+    },
+    "wiki/concepts/词汇激活-vocabulary-activation.md": {
+      "hash": "cc8c781cd6c48ca48d9286857db74df3",
+      "size": 1653,
+      "mtimeMs": 1782032660773
+    },
+    "wiki/concepts/语义差异提示.md": {
+      "hash": "fe3e7add7026775cdc0904492740e659",
+      "size": 2008,
+      "mtimeMs": 1782032112240
+    },
+    "wiki/concepts/读已提交语义.md": {
+      "hash": "2fc1ea99f76bda92f951088fde173f0a",
+      "size": 886,
+      "mtimeMs": 1782029566485
+    },
+    "wiki/concepts/資料倉儲.md": {
+      "hash": "4fc56486b555cd335196f5a38f3f31d7",
+      "size": 2066,
+      "mtimeMs": 1782025632744
+    },
+    "wiki/concepts/資料分層設計.md": {
+      "hash": "69ec8e5f18cbc78a1e3e908a668e7788",
+      "size": 2279,
+      "mtimeMs": 1782025439988
+    },
+    "wiki/concepts/資料清洗.md": {
+      "hash": "33c8e9f031d224ff141a14764cc8a4de",
+      "size": 2342,
+      "mtimeMs": 1782025632700
+    },
+    "wiki/concepts/資料漂移監控.md": {
+      "hash": "098f11645cb0daff8af1524a12ec95b9",
+      "size": 2373,
+      "mtimeMs": 1782025440844
+    },
+    "wiki/concepts/资源管理.md": {
+      "hash": "178dc6d5412ab28521d6f06a0b686af6",
+      "size": 1712,
+      "mtimeMs": 1782029566399
+    },
+    "wiki/concepts/雅思写作Task2词汇策略.md": {
+      "hash": "bbfcc9ff3d9372f22aaeca04013687f9",
+      "size": 2482,
+      "mtimeMs": 1782030302814
+    },
+    "wiki/concepts/雅思口语叙事词汇.md": {
+      "hash": "d7b3abb8fd7376d5c69759aa36f3e6d5",
+      "size": 2646,
+      "mtimeMs": 1782030302877
+    },
+    "wiki/concepts/雅思口语观点表达句式.md": {
+      "hash": "1b63dd1e4dc291c7ab285221aaab456a",
+      "size": 1841,
+      "mtimeMs": 1782030302950
+    },
+    "wiki/concepts/雅思场景体系统一性.md": {
+      "hash": "f6f44b29254a97eb23167160278006c2",
+      "size": 2899,
+      "mtimeMs": 1782046526481
+    },
+    "wiki/concepts/雅思备考资源推荐.md": {
+      "hash": "125214580f6215c0457229394f64e6cb",
+      "size": 3815,
+      "mtimeMs": 1782046526494
+    },
+    "wiki/concepts/雅思寫作固定搭配.md": {
+      "hash": "9b7e69b25cd5485fa60066908a150c19",
+      "size": 3684,
+      "mtimeMs": 1782046656050
+    },
+    "wiki/concepts/雅思词汇复用策略.md": {
+      "hash": "c38b65c041ceb536a96edad45c4ddcc8",
+      "size": 2399,
+      "mtimeMs": 1782046526487
+    },
+    "wiki/concepts/非入门级日常高频词汇.md": {
+      "hash": "daf82be400e9906f9eebda8ba1b2815b",
+      "size": 1582,
+      "mtimeMs": 1782031783299
+    },
+    "wiki/concepts/預測模型開發.md": {
+      "hash": "29c3a8377272c3d43ece756c61579ecf",
+      "size": 2588,
+      "mtimeMs": 1782025440434
+    },
+    "wiki/concepts/高分信號模型.md": {
+      "hash": "26e9f500fd49a8137344f260ff17c01b",
+      "size": 2783,
+      "mtimeMs": 1782028108969
+    },
+    "wiki/concepts/高利害考試.md": {
+      "hash": "4eed4ff050332432b856f91b684e0452",
+      "size": 1903,
+      "mtimeMs": 1782024583605
+    },
+    "wiki/concepts/高区分度词汇策略.md": {
+      "hash": "e03497febb0cdbc52a53fe53825a2115",
+      "size": 1934,
+      "mtimeMs": 1782030302736
+    },
+    "wiki/entities/23andme.md": {
+      "hash": "3e32414ea15389f76805deb8e756c338",
+      "size": 876,
+      "mtimeMs": 1782115277736
+    },
+    "wiki/entities/AP-IB-等進階課程.md": {
+      "hash": "bf328cb05540fa0eeea5f69e3c720364",
+      "size": 2393,
+      "mtimeMs": 1782024583671
+    },
+    "wiki/entities/a-level.md": {
+      "hash": "043ed8f45a25c010b0a7d4f329a719aa",
+      "size": 3002,
+      "mtimeMs": 1782117640749
+    },
+    "wiki/entities/aaron-sorkin.md": {
+      "hash": "d4c519645f99338b6720edc60add589c",
+      "size": 819,
+      "mtimeMs": 1782114549847
+    },
+    "wiki/entities/agent-team-orchestration-system.md": {
+      "hash": "e1b087de5575ebf2d33f2ea0a0a24fbe",
+      "size": 4182,
+      "mtimeMs": 1782131007264
+    },
+    "wiki/entities/agent-teams-skill.md": {
+      "hash": "ae8f914452a35bc6e1836928106f5fd8",
+      "size": 2381,
+      "mtimeMs": 1782120694329
+    },
+    "wiki/entities/airflow.md": {
+      "hash": "7bbfc621f8b69a53cad0e35f92496374",
+      "size": 1222,
+      "mtimeMs": 1782025438739
+    },
+    "wiki/entities/all-minilm-l6-v2.md": {
+      "hash": "ad45be2be14b04753c1595ad0044df47",
+      "size": 1610,
+      "mtimeMs": 1782116786571
+    },
+    "wiki/entities/anders-ericsson.md": {
+      "hash": "ce8728c230177fcc2c807ac84aeed9ca",
+      "size": 894,
+      "mtimeMs": 1782046896941
+    },
+    "wiki/entities/anki.md": {
+      "hash": "53e79361625055b5f6522f3de7ad21b1",
+      "size": 1115,
+      "mtimeMs": 1782115277567
+    },
+    "wiki/entities/aqa.md": {
+      "hash": "bf10cadc95630507385184e7226dc8fa",
+      "size": 464,
+      "mtimeMs": 1782117640775
+    },
+    "wiki/entities/architecture-decision-records-adr.md": {
+      "hash": "15dbba0cdec6fc07333b31220a981fb4",
+      "size": 3296,
+      "mtimeMs": 1782025750178
+    },
+    "wiki/entities/archive-org.md": {
+      "hash": "5ce8b1cdd25b136f055678a13e360678",
+      "size": 950,
+      "mtimeMs": 1782115277446
+    },
+    "wiki/entities/assimil.md": {
+      "hash": "63eb235acfc2991bd042bf897289cfdc",
+      "size": 471,
+      "mtimeMs": 1782037711297
+    },
+    "wiki/entities/atomic-habits.md": {
+      "hash": "dd58fba56f9939b384a6b28974b15e21",
+      "size": 442,
+      "mtimeMs": 1782037711330
+    },
+    "wiki/entities/australian-taxation-office.md": {
+      "hash": "232a440d563e339d6c9e257d2541651f",
+      "size": 1747,
+      "mtimeMs": 1782036793610
+    },
+    "wiki/entities/bbc-learning-english.md": {
+      "hash": "0bc24d1c2e8dd1d8af56af56cff47cb5",
+      "size": 1170,
+      "mtimeMs": 1782034053928
+    },
+    "wiki/entities/beniko-mason.md": {
+      "hash": "fc99ff6920002bbf4a9fd53146ac74d5",
+      "size": 501,
+      "mtimeMs": 1782037711241
+    },
+    "wiki/entities/bernard-marr.md": {
+      "hash": "11cfe13b28c224b704b1fb878eb9a284",
+      "size": 940,
+      "mtimeMs": 1782126828546
+    },
+    "wiki/entities/bge-small-en-v1-5.md": {
+      "hash": "7adc33c976a926991e4520593d672284",
+      "size": 1475,
+      "mtimeMs": 1782116786581
+    },
+    "wiki/entities/billy-wilder.md": {
+      "hash": "364524d65bf836ca80a888e84ed5f25f",
+      "size": 879,
+      "mtimeMs": 1782114549825
+    },
+    "wiki/entities/bi開發者.md": {
+      "hash": "e6af41f4b9a9eb07054daf8e6045d996",
+      "size": 1452,
+      "mtimeMs": 1782025439632
+    },
+    "wiki/entities/bodleian-library.md": {
+      "hash": "b2e1554f720644b430fda7a7768993b3",
+      "size": 1403,
+      "mtimeMs": 1782039640505
+    },
+    "wiki/entities/boris-cherny.md": {
+      "hash": "b3802d115ac99e716b6f3b852dcd6641",
+      "size": 1495,
+      "mtimeMs": 1782122791738
+    },
+    "wiki/entities/brilliant.md": {
+      "hash": "1b7fae5add59d7133d82e73db2dc49d2",
+      "size": 984,
+      "mtimeMs": 1782115277414
+    },
+    "wiki/entities/bruce-schneier.md": {
+      "hash": "eecd30a4e84cc7f78b1599f92a3a9f6b",
+      "size": 782,
+      "mtimeMs": 1782028769563
+    },
+    "wiki/entities/c1-advanced.md": {
+      "hash": "0b0076c90523aa638c4fe6b0f725854a",
+      "size": 2500,
+      "mtimeMs": 1782035580124
+    },
+    "wiki/entities/cambridge-university-press.md": {
+      "hash": "3d8bf95c6d075b0512b839cf62447bc8",
+      "size": 421,
+      "mtimeMs": 1782037711263
+    },
+    "wiki/entities/canva.md": {
+      "hash": "232d756162f18b98c05a1b1774f77a17",
+      "size": 961,
+      "mtimeMs": 1782115277579
+    },
+    "wiki/entities/chatgpt.md": {
+      "hash": "39629edc83e4b21e0d129bd7759fa9ca",
+      "size": 400,
+      "mtimeMs": 1782037711307
+    },
+    "wiki/entities/chemrevise-org.md": {
+      "hash": "501cd6f860bbce0afdcbc69c968f29aa",
+      "size": 441,
+      "mtimeMs": 1782117640837
+    },
+    "wiki/entities/christ-church-college.md": {
+      "hash": "3bf789e2ac82d45fbffa104f7be59f72",
+      "size": 1774,
+      "mtimeMs": 1782039640516
+    },
+    "wiki/entities/claude-code.md": {
+      "hash": "c9f85a5333dd43978909e2e3c2e376d0",
+      "size": 1812,
+      "mtimeMs": 1782026984416
+    },
+    "wiki/entities/club-of-rome.md": {
+      "hash": "a95e4b00e34b196c8c268e3756ac8c37",
+      "size": 702,
+      "mtimeMs": 1782113517056
+    },
+    "wiki/entities/codecademy.md": {
+      "hash": "d6d3bbeb5d93d9f849ba803ce6204f8b",
+      "size": 892,
+      "mtimeMs": 1782115277624
+    },
+    "wiki/entities/coursera.md": {
+      "hash": "f6556e8cbd62ca01f5a93d7e636aa669",
+      "size": 1129,
+      "mtimeMs": 1782115277402
+    },
+    "wiki/entities/cpp.md": {
+      "hash": "a219e62bc9cca523718186458aab2cd8",
+      "size": 2581,
+      "mtimeMs": 1782123611712
+    },
+    "wiki/entities/cursor.md": {
+      "hash": "b6efe2be43756bb014ae8bcdb5ac4d92",
+      "size": 1356,
+      "mtimeMs": 1782173420680
+    },
+    "wiki/entities/dbt.md": {
+      "hash": "5c55d67d18f22096df85d0087bafe811",
+      "size": 1388,
+      "mtimeMs": 1782025632163
+    },
+    "wiki/entities/deloitte.md": {
+      "hash": "25f41f932a1469cf1708f31c1b1263dc",
+      "size": 777,
+      "mtimeMs": 1782028769880
+    },
+    "wiki/entities/department-of-home-affairs-australia.md": {
+      "hash": "bedec723bdd87a92299749a1e5690274",
+      "size": 1896,
+      "mtimeMs": 1782036793623
+    },
+    "wiki/entities/designing-data-intensive-applications.md": {
+      "hash": "d2c83289cadca1234f816a88a6cd794a",
+      "size": 1825,
+      "mtimeMs": 1782128314757
+    },
+    "wiki/entities/desmos.md": {
+      "hash": "55bf8eba4439907ba647f63da21fc5fc",
+      "size": 933,
+      "mtimeMs": 1782115277892
+    },
+    "wiki/entities/documentaryheaven.md": {
+      "hash": "31db98467fbbff45754b7154bfc811b1",
+      "size": 791,
+      "mtimeMs": 1782115277769
+    },
+    "wiki/entities/donella-meadows.md": {
+      "hash": "2d6ed97555abaa8589dc068a9ef614d6",
+      "size": 680,
+      "mtimeMs": 1782113517042
+    },
+    "wiki/entities/drawabox.md": {
+      "hash": "2b1cdd76190bbd465cd847d13406434f",
+      "size": 787,
+      "mtimeMs": 1782115277859
+    },
+    "wiki/entities/duolingo.md": {
+      "hash": "62931325c72f7490b7f747b648d47c53",
+      "size": 947,
+      "mtimeMs": 1782115277467
+    },
+    "wiki/entities/econplusdal.md": {
+      "hash": "b1a2bb08ca5fb79c08f1cff827f4c28b",
+      "size": 394,
+      "mtimeMs": 1782117640870
+    },
+    "wiki/entities/edexcel.md": {
+      "hash": "c59f1b326117b6f9588687567cf4fa18",
+      "size": 456,
+      "mtimeMs": 1782117640784
+    },
+    "wiki/entities/edx.md": {
+      "hash": "a4dd66d431ba9918e6f9441bfe2efa9a",
+      "size": 933,
+      "mtimeMs": 1782115277546
+    },
+    "wiki/entities/english-is-ez-with-connor.md": {
+      "hash": "cff5ce350e9344c681334a0383ce069b",
+      "size": 1768,
+      "mtimeMs": 1782027732978
+    },
+    "wiki/entities/english-practice.md": {
+      "hash": "5f68ca658c789cdb64f590ad52d588c0",
+      "size": 1009,
+      "mtimeMs": 1782033317354
+    },
+    "wiki/entities/english-speaking-success.md": {
+      "hash": "16760911fe3167a39f31dab0b47bf521",
+      "size": 859,
+      "mtimeMs": 1782032660537
+    },
+    "wiki/entities/ernest-hemingway.md": {
+      "hash": "397854228ecd7a8dc9612f9b156e98e6",
+      "size": 1484,
+      "mtimeMs": 1782126520333
+    },
+    "wiki/entities/examsolutions-net.md": {
+      "hash": "58301cc7dc0f3a4d44bc6b4d59c3fbc7",
+      "size": 481,
+      "mtimeMs": 1782117640806
+    },
+    "wiki/entities/fair-work-ombudsman.md": {
+      "hash": "aa3d54068c41d3c2340f3c5b36a57207",
+      "size": 1790,
+      "mtimeMs": 1782036793601
+    },
+    "wiki/entities/fastapi.md": {
+      "hash": "c5c98541621566443b7b1593dfa30006",
+      "size": 1342,
+      "mtimeMs": 1782025439141
+    },
+    "wiki/entities/figma.md": {
+      "hash": "7a79eeab0be78c3c5421e7baa69d62ec",
+      "size": 828,
+      "mtimeMs": 1782115277635
+    },
+    "wiki/entities/final-cut-pro.md": {
+      "hash": "2ad3e121d84dba9dfb487f9e992b4a7a",
+      "size": 1747,
+      "mtimeMs": 1782115983372
+    },
+    "wiki/entities/for-whom-the-bell-tolls.md": {
+      "hash": "6396a0d2b1e087c00b3da5540cde1ba2",
+      "size": 2037,
+      "mtimeMs": 1782126520323
+    },
+    "wiki/entities/fsi.md": {
+      "hash": "62c8972576a14e602936a8faf743d623",
+      "size": 2037,
+      "mtimeMs": 1782179122595
+    },
+    "wiki/entities/futurelearn.md": {
+      "hash": "704b5799ffdc8220481ec5be247148a1",
+      "size": 831,
+      "mtimeMs": 1782115277834
+    },
+    "wiki/entities/gapminder.md": {
+      "hash": "b778af56efcbf22a1012d4b4b04ef16c",
+      "size": 891,
+      "mtimeMs": 1782115277698
+    },
+    "wiki/entities/gcse-english-language.md": {
+      "hash": "75d84718038bb6a93312563a51f17f05",
+      "size": 2097,
+      "mtimeMs": 1782045438505
+    },
+    "wiki/entities/git-worktree.md": {
+      "hash": "d01005e1cc0f87095ce2b0a75be2a221",
+      "size": 2676,
+      "mtimeMs": 1782026984439
+    },
+    "wiki/entities/google-scholar.md": {
+      "hash": "f95778b5efadf4055c56186c4a037726",
+      "size": 977,
+      "mtimeMs": 1782115277613
+    },
+    "wiki/entities/grammarly.md": {
+      "hash": "7d5d52eb55dc3db1e719407d3fb4a575",
+      "size": 874,
+      "mtimeMs": 1782115277868
+    },
+    "wiki/entities/harriet-and-mauro.md": {
+      "hash": "f26cb4bee0727444fc71759452e8be53",
+      "size": 1253,
+      "mtimeMs": 1782037296221
+    },
+    "wiki/entities/huberman-lab-podcast.md": {
+      "hash": "ddec65ad54ab4431aa049c6fda5d11be",
+      "size": 881,
+      "mtimeMs": 1782115277655
+    },
+    "wiki/entities/intellij-idea.md": {
+      "hash": "5e45f0c4a729f85f48899e579ee22672",
+      "size": 2479,
+      "mtimeMs": 1782131777672
+    },
+    "wiki/entities/investopedia.md": {
+      "hash": "0e1a0d14f21684d6d1984f21613a9fda",
+      "size": 873,
+      "mtimeMs": 1782115277435
+    },
+    "wiki/entities/isaac-physics.md": {
+      "hash": "4139d52329b2780e11e26a4872824ae9",
+      "size": 444,
+      "mtimeMs": 1782117640824
+    },
+    "wiki/entities/iso-cpp-standards-committee.md": {
+      "hash": "3a7c90d21f79e32ec62f704e03b24602",
+      "size": 1277,
+      "mtimeMs": 1782123611770
+    },
+    "wiki/entities/james-engvid.md": {
+      "hash": "5b4ffe536afa1348849c0dfb6445b721",
+      "size": 1287,
+      "mtimeMs": 1782037932152
+    },
+    "wiki/entities/jamie-pachino.md": {
+      "hash": "3c1c5f4600116c94cf0ecceb326a4594",
+      "size": 1546,
+      "mtimeMs": 1782114549866
+    },
+    "wiki/entities/jane-margolis.md": {
+      "hash": "e17b3c97c62a891d782bcb4790fe4ea3",
+      "size": 838,
+      "mtimeMs": 1782037163199
+    },
+    "wiki/entities/jay-w-forrester.md": {
+      "hash": "694cae9727da841e5a74f2cfee1f5b79",
+      "size": 1199,
+      "mtimeMs": 1782113516970
+    },
+    "wiki/entities/jetbrains.md": {
+      "hash": "6c9fb2481fb8b1c66d9c552e7dfdb2d8",
+      "size": 1912,
+      "mtimeMs": 1782131777686
+    },
+    "wiki/entities/john-donne.md": {
+      "hash": "69d901d1845c4a7a3521b5010576b1b0",
+      "size": 1048,
+      "mtimeMs": 1782126520380
+    },
+    "wiki/entities/jordan-gilroy.md": {
+      "hash": "eddaa1f3f4446e75415d37c9dcecc22b",
+      "size": 2014,
+      "mtimeMs": 1782121460106
+    },
+    "wiki/entities/julian-treasure.md": {
+      "hash": "1a67ad833619d4442a362cdadb02dc76",
+      "size": 1695,
+      "mtimeMs": 1782129879049
+    },
+    "wiki/entities/kafka.md": {
+      "hash": "8e05a33ba1c34f389a35340d778cf2de",
+      "size": 1350,
+      "mtimeMs": 1782025632317
+    },
+    "wiki/entities/keith-ohare.md": {
+      "hash": "91590b617bc636eef8a9f959c750131d",
+      "size": 1371,
+      "mtimeMs": 1782032660472
+    },
+    "wiki/entities/khan-academy.md": {
+      "hash": "7e8baf35a3b5806bf5e900e53adf5128",
+      "size": 1101,
+      "mtimeMs": 1782115277879
+    },
+    "wiki/entities/kin-studio.md": {
+      "hash": "025a08853532c6f4b4b1e0e73384b47b",
+      "size": 1268,
+      "mtimeMs": 1782121460116
+    },
+    "wiki/entities/kode-agent.md": {
+      "hash": "1b4d8acd0a7fc24f02c001c690d6227c",
+      "size": 1837,
+      "mtimeMs": 1782027894598
+    },
+    "wiki/entities/kosmo-copio.md": {
+      "hash": "78c8baa050a5a89827f29852af345dff",
+      "size": 1692,
+      "mtimeMs": 1782115983334
+    },
+    "wiki/entities/lazy-nvim.md": {
+      "hash": "10e6123b38b481eb349546ffd9a4ecd9",
+      "size": 1388,
+      "mtimeMs": 1782173089777
+    },
+    "wiki/entities/lazyvim.md": {
+      "hash": "58dee99a11809892649af4fb32561ca5",
+      "size": 3625,
+      "mtimeMs": 1782173089749
+    },
+    "wiki/entities/learn-claude-code.md": {
+      "hash": "1b547405445a372388be33032b95e924",
+      "size": 2320,
+      "mtimeMs": 1782026984393
+    },
+    "wiki/entities/learn-with-sam-and-ash.md": {
+      "hash": "e7db2ba91a3019f169d0dd1d8be0ea4d",
+      "size": 567,
+      "mtimeMs": 1782037711320
+    },
+    "wiki/entities/lesswrong.md": {
+      "hash": "a55908f20ebe4e4d81984f4eb8d65fc0",
+      "size": 959,
+      "mtimeMs": 1782115277757
+    },
+    "wiki/entities/librivox.md": {
+      "hash": "70412d2425e3e0aff4fa58855df596f3",
+      "size": 748,
+      "mtimeMs": 1782115277811
+    },
+    "wiki/entities/lightgbm.md": {
+      "hash": "9e16b0a36f6a26756c959a5fad6e7520",
+      "size": 1356,
+      "mtimeMs": 1782025438980
+    },
+    "wiki/entities/lingq.md": {
+      "hash": "bc46038f78c2914f839f682cb2e3ddf3",
+      "size": 586,
+      "mtimeMs": 1782037711289
+    },
+    "wiki/entities/lionel-standing.md": {
+      "hash": "c6c506eda211b1c4787748f165bdd984",
+      "size": 630,
+      "mtimeMs": 1782037711252
+    },
+    "wiki/entities/litcharts.md": {
+      "hash": "0a0d413a5cac66267beaa120ef2b8ff5",
+      "size": 446,
+      "mtimeMs": 1782117640924
+    },
+    "wiki/entities/little-spanish-farmstead.md": {
+      "hash": "3b6362666e5e8eaad894c60d3d0fb755",
+      "size": 1210,
+      "mtimeMs": 1782037296209
+    },
+    "wiki/entities/living-simply-australia.md": {
+      "hash": "00ad3089ddd8fc606996e185f710a393",
+      "size": 1553,
+      "mtimeMs": 1782036793588
+    },
+    "wiki/entities/london-elite-social-code.md": {
+      "hash": "b9ef4473e568b1aa3bc7075b9df6345e",
+      "size": 3017,
+      "mtimeMs": 1782045878319
+    },
+    "wiki/entities/luca-lampariello.md": {
+      "hash": "6de77ede4e9e6ff58df814b9d523b502",
+      "size": 610,
+      "mtimeMs": 1782037711218
+    },
+    "wiki/entities/lukes-english-podcast.md": {
+      "hash": "4845c8fb073468b7bc78c608fd25a439",
+      "size": 1598,
+      "mtimeMs": 1782114801941
+    },
+    "wiki/entities/magdalen-college.md": {
+      "hash": "24280f070bc99ca9cc37cdb25659a639",
+      "size": 1301,
+      "mtimeMs": 1782039640548
+    },
+    "wiki/entities/maria-for-whom-the-bell-tolls.md": {
+      "hash": "55553ffee7cb6676afd972a9e670ae37",
+      "size": 1083,
+      "mtimeMs": 1782126520356
+    },
+    "wiki/entities/mason-nvim.md": {
+      "hash": "4da1f1ba80b896a411a95c658df2339e",
+      "size": 1543,
+      "mtimeMs": 1782173089812
+    },
+    "wiki/entities/merton-college.md": {
+      "hash": "84986ba32e45a0b63291f6412e91fe41",
+      "size": 1492,
+      "mtimeMs": 1782039640523
+    },
+    "wiki/entities/mihaly-csikszentmihalyi.md": {
+      "hash": "30d62823fec81a457c55a2cc25977646",
+      "size": 2262,
+      "mtimeMs": 1782178283801
+    },
+    "wiki/entities/mindmeister.md": {
+      "hash": "0ebe98a8fdde1e96910cee4061139fc2",
+      "size": 875,
+      "mtimeMs": 1782115277668
+    },
+    "wiki/entities/mit.md": {
+      "hash": "b33f619ad1707aeded766cb04e899538",
+      "size": 671,
+      "mtimeMs": 1782113516988
+    },
+    "wiki/entities/ml工程師.md": {
+      "hash": "35c45d13d5766bf53e42bd75b3cc7981",
+      "size": 1708,
+      "mtimeMs": 1782025439871
+    },
+    "wiki/entities/mr-bruff.md": {
+      "hash": "83f9b43781056582bde4a96c4d61cb61",
+      "size": 390,
+      "mtimeMs": 1782117640936
+    },
+    "wiki/entities/nasa.md": {
+      "hash": "d6230091f49e52a1bb84b2dd51856f93",
+      "size": 965,
+      "mtimeMs": 1782115277523
+    },
+    "wiki/entities/natural-english-coach.md": {
+      "hash": "2296f88c3eb91be520c003cf91e3f7b7",
+      "size": 2081,
+      "mtimeMs": 1782039457003
+    },
+    "wiki/entities/neo-tree-nvim.md": {
+      "hash": "9fffe1be32cc626887a80fd776f228ad",
+      "size": 1266,
+      "mtimeMs": 1782173089799
+    },
+    "wiki/entities/nerdwallet.md": {
+      "hash": "5689e10937cb0e2a3169cf40f5a6683f",
+      "size": 890,
+      "mtimeMs": 1782115277677
+    },
+    "wiki/entities/new-york-elite-social-code.md": {
+      "hash": "b99dbe99f57b8cbef5e3ecd3deedba26",
+      "size": 1864,
+      "mtimeMs": 1782045878276
+    },
+    "wiki/entities/nomic-embed-text-v1-5.md": {
+      "hash": "76ae56d584710c8e3e21480646d9d27d",
+      "size": 1521,
+      "mtimeMs": 1782116786593
+    },
+    "wiki/entities/notebooklm.md": {
+      "hash": "f347256df235d3920e7f8a1924641221",
+      "size": 1575,
+      "mtimeMs": 1782117003827
+    },
+    "wiki/entities/numbeo.md": {
+      "hash": "5d0c1a60fdef795921ced3b469912825",
+      "size": 837,
+      "mtimeMs": 1782115277723
+    },
+    "wiki/entities/obsidian.md": {
+      "hash": "45f47b62d16744cd1fe39206728995c7",
+      "size": 3382,
+      "mtimeMs": 1782117017006
+    },
+    "wiki/entities/ocr.md": {
+      "hash": "e8c639419f56bfb7a6eefc23ce1e2584",
+      "size": 464,
+      "mtimeMs": 1782117640796
+    },
+    "wiki/entities/oecd.md": {
+      "hash": "150155b42e64e3b1d4453e26e7ef50bf",
+      "size": 870,
+      "mtimeMs": 1782028769652
+    },
+    "wiki/entities/oil-nvim.md": {
+      "hash": "f034f4a217e4989d8a2f38ffda04a017",
+      "size": 1552,
+      "mtimeMs": 1782173089789
+    },
+    "wiki/entities/okf-agent-prompts.md": {
+      "hash": "31717a36935a90dc6d14d98ab9197c58",
+      "size": 1480,
+      "mtimeMs": 1782117236884
+    },
+    "wiki/entities/okf-bundle.md": {
+      "hash": "661641dfc1b9147beaa84a5dd0d7a97b",
+      "size": 2556,
+      "mtimeMs": 1782117236870
+    },
+    "wiki/entities/onnx.md": {
+      "hash": "007ff4904873ef158a6c1541a9503a7b",
+      "size": 1412,
+      "mtimeMs": 1782025439304
+    },
+    "wiki/entities/opencode.md": {
+      "hash": "eab00e13839bc96b26cb9dec14dbf58d",
+      "size": 1469,
+      "mtimeMs": 1782128987861
+    },
+    "wiki/entities/openlibrary.md": {
+      "hash": "2f142ccb0a00f77ed28aaaa3ddb8fe06",
+      "size": 905,
+      "mtimeMs": 1782115277500
+    },
+    "wiki/entities/osst.md": {
+      "hash": "7ca2e11d9d4b038f7bb6118751bc52d5",
+      "size": 1879,
+      "mtimeMs": 1782045438470
+    },
+    "wiki/entities/our-world-in-data.md": {
+      "hash": "4b48c775a2b916ec7a6a3d2cb01e44a8",
+      "size": 1041,
+      "mtimeMs": 1782115277481
+    },
+    "wiki/entities/oxford-castle.md": {
+      "hash": "d8834649fc47f1dcba3519b9fc35c0b7",
+      "size": 1305,
+      "mtimeMs": 1782039640512
+    },
+    "wiki/entities/oxford-martyrs.md": {
+      "hash": "494a07d3590267d71b5ba1ef689ae914",
+      "size": 1177,
+      "mtimeMs": 1782039640537
+    },
+    "wiki/entities/oxford-university.md": {
+      "hash": "c3d55e06a81f61f6089ca80d52abb177",
+      "size": 381,
+      "mtimeMs": 1782037711277
+    },
+    "wiki/entities/pablo-for-whom-the-bell-tolls.md": {
+      "hash": "7a0ef166ece771ac9ea0bab0408096b0",
+      "size": 1175,
+      "mtimeMs": 1782126520367
+    },
+    "wiki/entities/pandas.md": {
+      "hash": "7569113122e02f994c66c933cf97f1e0",
+      "size": 1610,
+      "mtimeMs": 1782025632391
+    },
+    "wiki/entities/perplexity.md": {
+      "hash": "b6ff09a015650f0b7533fe34f76f23f4",
+      "size": 971,
+      "mtimeMs": 1782115277792
+    },
+    "wiki/entities/peter-m-senge.md": {
+      "hash": "1542de6b7971bd060756e91927fb8560",
+      "size": 627,
+      "mtimeMs": 1782113517026
+    },
+    "wiki/entities/phet-simulations.md": {
+      "hash": "c4f1174bbf897f530104a1d5933b7ff0",
+      "size": 933,
+      "mtimeMs": 1782115277710
+    },
+    "wiki/entities/physics-and-maths-tutor.md": {
+      "hash": "fa2936c958ffc3543f25093a5e25073f",
+      "size": 558,
+      "mtimeMs": 1782117640815
+    },
+    "wiki/entities/playphrase-me.md": {
+      "hash": "5ee5c7f4d697f8aab37cdbba0ed0e114",
+      "size": 1977,
+      "mtimeMs": 1782040054824
+    },
+    "wiki/entities/project-gutenberg.md": {
+      "hash": "a31c7258f8f05fc116fd1d39c62377d9",
+      "size": 889,
+      "mtimeMs": 1782115277455
+    },
+    "wiki/entities/psychboost.md": {
+      "hash": "b7a8d4ac54811ebafcc51b59b6f59591",
+      "size": 386,
+      "mtimeMs": 1782117640887
+    },
+    "wiki/entities/psychology-today.md": {
+      "hash": "a3f48f780b5c49da67d9260b7de23be9",
+      "size": 934,
+      "mtimeMs": 1782115277913
+    },
+    "wiki/entities/pubmed.md": {
+      "hash": "51b50cd4162c9c03053c9add587b7f69",
+      "size": 982,
+      "mtimeMs": 1782115277535
+    },
+    "wiki/entities/pwc.md": {
+      "hash": "5a99a7f452071894c4edd907d37ec629",
+      "size": 699,
+      "mtimeMs": 1782028769793
+    },
+    "wiki/entities/pythonoperator.md": {
+      "hash": "07c6bfeacd0991ec21d131068eeafeae",
+      "size": 1630,
+      "mtimeMs": 1782025632454
+    },
+    "wiki/entities/quizlet.md": {
+      "hash": "8a839a951d2cda197e8e6ae39be43186",
+      "size": 900,
+      "mtimeMs": 1782115277689
+    },
+    "wiki/entities/radcliffe-camera.md": {
+      "hash": "958b4f4a9461b3254222c56992f453cc",
+      "size": 1255,
+      "mtimeMs": 1782039640545
+    },
+    "wiki/entities/rathole.md": {
+      "hash": "49135f2006c75f6c42ec895a2a69d835",
+      "size": 2079,
+      "mtimeMs": 1782124647285
+    },
+    "wiki/entities/readwise.md": {
+      "hash": "c7e75ce919f6a0b61f21dd7767dfc980",
+      "size": 953,
+      "mtimeMs": 1782115277602
+    },
+    "wiki/entities/redis.md": {
+      "hash": "f8896d08d8b2bf391dd58158cbc3ecd9",
+      "size": 1351,
+      "mtimeMs": 1782025439221
+    },
+    "wiki/entities/replit.md": {
+      "hash": "e28eafb20a67eb724cb56ff40f0d727a",
+      "size": 956,
+      "mtimeMs": 1782115277647
+    },
+    "wiki/entities/revisely.md": {
+      "hash": "3a9cc321ad4bc759f5ba57af9fc07cfd",
+      "size": 370,
+      "mtimeMs": 1782117640910
+    },
+    "wiki/entities/richard-evans.md": {
+      "hash": "8cfd14991b986fcfce346f734951fb05",
+      "size": 395,
+      "mtimeMs": 1782117640948
+    },
+    "wiki/entities/robert-jordan.md": {
+      "hash": "e0c4a696d8b2849793d04e6d3b419f10",
+      "size": 1455,
+      "mtimeMs": 1782126520346
+    },
+    "wiki/entities/robin-sharma.md": {
+      "hash": "c001f291c2ad42cf491ce5e6b00f7367",
+      "size": 556,
+      "mtimeMs": 1782037711206
+    },
+    "wiki/entities/ryo-lu.md": {
+      "hash": "581d671b9d002f9e79733b019873b418",
+      "size": 1349,
+      "mtimeMs": 1782173571174
+    },
+    "wiki/entities/save-my-exams.md": {
+      "hash": "40ebc266c5e158d1f5e4528fc2a15cd9",
+      "size": 503,
+      "mtimeMs": 1782117640861
+    },
+    "wiki/entities/seneca-learning.md": {
+      "hash": "e95700532891768f0df61fa7c222f856",
+      "size": 526,
+      "mtimeMs": 1782117640849
+    },
+    "wiki/entities/shareai-lab.md": {
+      "hash": "3073816509397865d5486e8e1e25e4c9",
+      "size": 556,
+      "mtimeMs": 1782027894609
+    },
+    "wiki/entities/sifuyikchan.md": {
+      "hash": "32e507a1f339195d52247035fdd402a9",
+      "size": 720,
+      "mtimeMs": 1782115277512
+    },
+    "wiki/entities/simply-psychology.md": {
+      "hash": "c13371c80e41857a9604e75696af8aca",
+      "size": 412,
+      "mtimeMs": 1782117640898
+    },
+    "wiki/entities/skillshare.md": {
+      "hash": "6b9f26ac923d92b18d479905d3f2d4f7",
+      "size": 922,
+      "mtimeMs": 1782115277590
+    },
+    "wiki/entities/snowflake.md": {
+      "hash": "a56fc018a1b4f30f1d949e23850cdd55",
+      "size": 1447,
+      "mtimeMs": 1782025438821
+    },
+    "wiki/entities/spark.md": {
+      "hash": "77e87ff6e6198c466489db28bd1e9f21",
+      "size": 1472,
+      "mtimeMs": 1782025632240
+    },
+    "wiki/entities/st-scholastica-day-riot.md": {
+      "hash": "d89cc79290db3a607ccaf9cdab2c8f3a",
+      "size": 1398,
+      "mtimeMs": 1782039640534
+    },
+    "wiki/entities/staff-engineer.md": {
+      "hash": "8f3f5954e588aa5621d45d20cbe5785f",
+      "size": 2034,
+      "mtimeMs": 1782030545377
+    },
+    "wiki/entities/stanford-encyclopedia-of-philosophy.md": {
+      "hash": "684928352f3a1f2d65a97254f38fbaf4",
+      "size": 1050,
+      "mtimeMs": 1782115277803
+    },
+    "wiki/entities/star-method.md": {
+      "hash": "1f462c7ef1fce1ccc4b4823789acc5f6",
+      "size": 1927,
+      "mtimeMs": 1782036793633
+    },
+    "wiki/entities/statista.md": {
+      "hash": "7ef39e71024b917fa71f9be93f386b9b",
+      "size": 938,
+      "mtimeMs": 1782115277489
+    },
+    "wiki/entities/stellarium.md": {
+      "hash": "d70f32518000bfcdcf5f207b753881c0",
+      "size": 868,
+      "mtimeMs": 1782115277902
+    },
+    "wiki/entities/stephen-krashen.md": {
+      "hash": "a847586a8e5ff18bf00f3e5cc1d8e037",
+      "size": 580,
+      "mtimeMs": 1782037711230
+    },
+    "wiki/entities/stow.md": {
+      "hash": "0d83fcc93e26692537861800642826ae",
+      "size": 1508,
+      "mtimeMs": 1782131412651
+    },
+    "wiki/entities/suno.md": {
+      "hash": "8df83f8d1c74e5f80fb7b0f9d15d9a49",
+      "size": 1213,
+      "mtimeMs": 1782032660615
+    },
+    "wiki/entities/tableau.md": {
+      "hash": "93a1f6162a0f5a80fe8ab927394b1841",
+      "size": 1577,
+      "mtimeMs": 1782025438901
+    },
+    "wiki/entities/tana.md": {
+      "hash": "c115a0efa65f6404ef6d6799db18afcd",
+      "size": 1697,
+      "mtimeMs": 1782115983320
+    },
+    "wiki/entities/ted.md": {
+      "hash": "6ba965a2bb014fc9e2e02239c95ba71b",
+      "size": 962,
+      "mtimeMs": 1782115277555
+    },
+    "wiki/entities/the-terminal.md": {
+      "hash": "258eae16ea8b4727b273be6ec7226c58",
+      "size": 593,
+      "mtimeMs": 1782037163234
+    },
+    "wiki/entities/think-cell.md": {
+      "hash": "b1aa19ec78f55b456d0384bd238994bb",
+      "size": 1375,
+      "mtimeMs": 1782123611758
+    },
+    "wiki/entities/trading-economics.md": {
+      "hash": "9d33d5efc8a53d003f99f4c7b95f92e6",
+      "size": 926,
+      "mtimeMs": 1782115277780
+    },
+    "wiki/entities/tutor2u.md": {
+      "hash": "f0a705a56f32faa12db1905d22bdc65b",
+      "size": 453,
+      "mtimeMs": 1782117640878
+    },
+    "wiki/entities/typing-com.md": {
+      "hash": "8b16b3dc52cc8787658bc44cd48d1c37",
+      "size": 757,
+      "mtimeMs": 1782115277846
+    },
+    "wiki/entities/university-of-oxford.md": {
+      "hash": "efe15fe63433b156ca9addd971e9c908",
+      "size": 3092,
+      "mtimeMs": 1782039640494
+    },
+    "wiki/entities/vcomply.md": {
+      "hash": "160372ab4efb79009ea365e2a257f07a",
+      "size": 756,
+      "mtimeMs": 1782028769969
+    },
+    "wiki/entities/viktor-navorski.md": {
+      "hash": "fe385d43f43293003fc774b6e963dde2",
+      "size": 873,
+      "mtimeMs": 1782037163211
+    },
+    "wiki/entities/vocational-education-and-training-australia.md": {
+      "hash": "6b4dba93f42505dd26aec7e96f2878d9",
+      "size": 2079,
+      "mtimeMs": 1782036793645
+    },
+    "wiki/entities/wolfram-alpha.md": {
+      "hash": "82b68276acc1c69a0b8b41cd8041658a",
+      "size": 1024,
+      "mtimeMs": 1782115277424
+    },
+    "wiki/entities/woody-allen.md": {
+      "hash": "2135ea80a294d1842e0c1a6f6e115a70",
+      "size": 741,
+      "mtimeMs": 1782114549835
+    },
+    "wiki/entities/worldometers.md": {
+      "hash": "48cb8aaabdee9623094652e633650b2b",
+      "size": 850,
+      "mtimeMs": 1782115277922
+    },
+    "wiki/entities/xgboost.md": {
+      "hash": "ab42a214587fd8c9c9b0932bb6cc8da6",
+      "size": 1325,
+      "mtimeMs": 1782025439060
+    },
+    "wiki/entities/yasir-khan.md": {
+      "hash": "e698b9252cebbb48f25b433a9d870926",
+      "size": 1031,
+      "mtimeMs": 1782122447502
+    },
+    "wiki/entities/youtube-music.md": {
+      "hash": "f17a4a61511289606ff60cce415cb71a",
+      "size": 1669,
+      "mtimeMs": 1782115983357
+    },
+    "wiki/entities/youtube-rss-feed.md": {
+      "hash": "8eb5eca3404f3977987e498e7d36b319",
+      "size": 1651,
+      "mtimeMs": 1782041272501
+    },
+    "wiki/entities/youtube.md": {
+      "hash": "61bdb4fc8a4e0fb53eb0739d2c66f696",
+      "size": 1743,
+      "mtimeMs": 1782115983344
+    },
+    "wiki/entities/zapier.md": {
+      "hash": "3a0791e3418fe20172ff19b5603b9cf8",
+      "size": 988,
+      "mtimeMs": 1782115277747
+    },
+    "wiki/entities/zooniverse.md": {
+      "hash": "8dc5088c17a239dda7996af27beb373c",
+      "size": 856,
+      "mtimeMs": 1782115277825
+    },
+    "wiki/entities/东京.md": {
+      "hash": "822f3b6cdd6fdfae82331b148f244f2f",
+      "size": 440,
+      "mtimeMs": 1782030916746
+    },
+    "wiki/entities/发音易错高频词.md": {
+      "hash": "8be6a9efe1842b992d0e670adae2e1ca",
+      "size": 2352,
+      "mtimeMs": 1782031352367
+    },
+    "wiki/entities/天蝎座.md": {
+      "hash": "f048b385b627e4dd3eb1e1c3063879df",
+      "size": 3239,
+      "mtimeMs": 1782025990712
+    },
+    "wiki/entities/巨蟹座.md": {
+      "hash": "745791145013c86c753b7ec9633746d2",
+      "size": 1569,
+      "mtimeMs": 1782025990873
+    },
+    "wiki/entities/心理指導老師.md": {
+      "hash": "c74e787918ce0b384a70c43970886578",
+      "size": 1861,
+      "mtimeMs": 1782035406446
+    },
+    "wiki/entities/心理訓練.md": {
+      "hash": "c945551d87659ca8b95caf6ffce26a53",
+      "size": 3699,
+      "mtimeMs": 1782035406418
+    },
+    "wiki/entities/摩羯座.md": {
+      "hash": "3108ad49e1a33e6f4d193317c34fe2f3",
+      "size": 1642,
+      "mtimeMs": 1782025990781
+    },
+    "wiki/entities/水瓶座.md": {
+      "hash": "c6594e5ff5aeb6212ea10bbb5e0ff712",
+      "size": 1694,
+      "mtimeMs": 1782025990979
+    },
+    "wiki/entities/汤姆-汉克斯.md": {
+      "hash": "9fb345328562db31636e4d0703224998",
+      "size": 496,
+      "mtimeMs": 1782030916950
+    },
+    "wiki/entities/科學記憶法-srs.md": {
+      "hash": "068dd283693446b8dc061ae2c83ce7bb",
+      "size": 1664,
+      "mtimeMs": 1782034767829
+    },
+    "wiki/entities/纽约客日常100表达.md": {
+      "hash": "91bf56061cdf97ca5c6a6fbead40397b",
+      "size": 1701,
+      "mtimeMs": 1782045767157
+    },
+    "wiki/entities/美國眾議院.md": {
+      "hash": "d52abbd23d21df190b40f1ba84d08d0f",
+      "size": 830,
+      "mtimeMs": 1782028770053
+    },
+    "wiki/entities/肖申克的救赎.md": {
+      "hash": "9d6b0d1fa5fd8033416c3b1f44498744",
+      "size": 497,
+      "mtimeMs": 1782030916903
+    },
+    "wiki/entities/英國政府.md": {
+      "hash": "75b74a63241fd5ee0dd58a4b0de82bdc",
+      "size": 828,
+      "mtimeMs": 1782028770142
+    },
+    "wiki/entities/資料分析師.md": {
+      "hash": "564ffb2343b745d98e2b74245b85632c",
+      "size": 1449,
+      "mtimeMs": 1782025439543
+    },
+    "wiki/entities/資料工程師.md": {
+      "hash": "faa3f992bcbb9a333841d54d02518d59",
+      "size": 1686,
+      "mtimeMs": 1782025439464
+    },
+    "wiki/entities/資料架構師.md": {
+      "hash": "f08810e7841da2dec342d559d555f270",
+      "size": 1378,
+      "mtimeMs": 1782025439381
+    },
+    "wiki/entities/資料科學家.md": {
+      "hash": "0c8c07b8a115f1e1714be48d054afa6b",
+      "size": 1747,
+      "mtimeMs": 1782025439795
+    },
+    "wiki/entities/进阶英语词汇库.md": {
+      "hash": "b4507bc123270e221a8ab64904a7ce90",
+      "size": 1152,
+      "mtimeMs": 1782031783213
+    },
+    "wiki/entities/運動心理人員.md": {
+      "hash": "2cd19385d3004e12460ec48fdc241fb6",
+      "size": 1787,
+      "mtimeMs": 1782035406435
+    },
+    "wiki/entities/长城.md": {
+      "hash": "456c1f92c373cb8cf42ade8f2b4d43da",
+      "size": 402,
+      "mtimeMs": 1782030916827
+    },
+    "wiki/entities/雅思.md": {
+      "hash": "6aea8bb50c714211551d2ee9f3182434",
+      "size": 11930,
+      "mtimeMs": 1782047686337
+    },
+    "wiki/entities/雅思口语地道表达.md": {
+      "hash": "b8ac66b4bee6982e7f45547a92e708b3",
+      "size": 2306,
+      "mtimeMs": 1782046435858
+    },
+    "wiki/entities/雅思詞彙資源.md": {
+      "hash": "a8c42cd2008c103755fa850906c51974",
+      "size": 3408,
+      "mtimeMs": 1782034767820
+    },
+    "wiki/entities/雙魚座.md": {
+      "hash": "9547d48f1ae0ae729096772f73227e98",
+      "size": 1677,
+      "mtimeMs": 1782025990822
+    },
+    "wiki/index.md": {
+      "hash": "dead6c33645a168c19ed8bf7aecb61a5",
+      "size": 18856,
+      "mtimeMs": 1782178303387
+    },
+    "wiki/log.md": {
+      "hash": "a6935b5d34bc0b9c11dac46b6dedc435",
+      "size": 39458,
+      "mtimeMs": 1782179122609
+    },
+    "wiki/overview.md": {
+      "hash": "c8d657d8c6ef6393df9af4d9e16e358e",
+      "size": 3691,
+      "mtimeMs": 1782179122616
+    },
+    "wiki/queries/here-is-a-structured-interpretation-of-the-project-2026-06-23-012514.md": {
+      "hash": "02fcbbdb6544595c5c0a5cbd9c00e614",
+      "size": 5168,
+      "mtimeMs": 1782177914164
+    },
+    "wiki/queries/mindset-2026-06-21-095818.md": {
+      "hash": "85f619deaf0f8a315e88752069de4000",
+      "size": 177,
+      "mtimeMs": 1782035898902
+    },
+    "wiki/queries/research-cognitive-science-evidence-for-interleavi-2026-06-21-141032.md": {
+      "hash": "086e873b707f1d5464a9cc120e6718cf",
+      "size": 13220,
+      "mtimeMs": 1782051032918
+    },
+    "wiki/queries/research-develop-a-comprehensive-ielts-speaking-pr-2026-06-21-141105.md": {
+      "hash": "c4c2e21f08825c0fe1442078dd56b310",
+      "size": 14603,
+      "mtimeMs": 1782051065793
+    },
+    "wiki/queries/research-心流狀態-2026-06-21-140330.md": {
+      "hash": "b4ed723316bbb2fe3921ee8d02ddd971",
+      "size": 13878,
+      "mtimeMs": 1782050610168
+    },
+    "wiki/queries/research-心理訓練-2026-06-21-093713.md": {
+      "hash": "ec5d142ee62178b6bd952bd206e4f481",
+      "size": 25405,
+      "mtimeMs": 1782034633877
+    },
+    "wiki/queries/research-探討指數法則與復利循環在時間方程中的應用-2026-06-21-140458.md": {
+      "hash": "e5c3dde8f8ff1ff2a7a684f50d0cc209",
+      "size": 13630,
+      "mtimeMs": 1782050698797
+    },
+    "wiki/queries/research-探討時間熵增與負熵在時間管理中的應用-2026-06-21-140954.md": {
+      "hash": "d056e7c7325710d9a6a0b8a40039d087",
+      "size": 16929,
+      "mtimeMs": 1782050994616
+    },
+    "wiki/queries/research-數據作為有毒資產-2026-06-21-075117.md": {
+      "hash": "12e04a92cb23fc3934cce3b9ee28b26c",
+      "size": 21680,
+      "mtimeMs": 1782028277244
+    },
+    "wiki/queries/research-時間災難-2026-06-22-071945.md": {
+      "hash": "b8d253a8b2ef3b024396be166816bbf5",
+      "size": 14771,
+      "mtimeMs": 1782112785879
+    },
+    "wiki/queries/research-時間災難恢復協議-2026-06-22-071935.md": {
+      "hash": "51efa1d9f4ec967e29f9623d9e723a6a",
+      "size": 10180,
+      "mtimeMs": 1782112775069
+    },
+    "wiki/queries/research-更新-雅思-頁面-2026-06-21-093050.md": {
+      "hash": "d14f9cc89360dabb151b700175334611",
+      "size": 17828,
+      "mtimeMs": 1782034250607
+    },
+    "wiki/queries/research-比較時間塊掘進法與番茄工作法-2026-06-22-072023.md": {
+      "hash": "f67d2b26b04592894b7779e89a73b5eb",
+      "size": 14021,
+      "mtimeMs": 1782112823451
+    },
+    "wiki/queries/research-比較麥克斯韋妖與倒計時思維在信息處理中的作用-2026-06-21-140436.md": {
+      "hash": "282436aa0ce14e9ad76e730a4b808905",
+      "size": 14308,
+      "mtimeMs": 1782050676108
+    },
+    "wiki/queries/research-深度時間礦井-2026-06-21-140721.md": {
+      "hash": "dd9761af70c6f55ce75e48e30ac669a9",
+      "size": 13768,
+      "mtimeMs": 1782050841096
+    },
+    "wiki/queries/research-神經可塑性-2026-06-21-140907.md": {
+      "hash": "6b250b417206e33e60d751b4ada37e12",
+      "size": 14224,
+      "mtimeMs": 1782050947842
+    },
+    "wiki/queries/research-系統動力學-2026-06-22-072011.md": {
+      "hash": "8533b09844f49c9186520b81dec4f559",
+      "size": 12234,
+      "mtimeMs": 1782112811090
+    },
+    "wiki/queries/research-自我損耗理論-2026-06-22-071928.md": {
+      "hash": "94d37963abe26f240059712f6b73f54e",
+      "size": 12324,
+      "mtimeMs": 1782112768887
+    },
+    "wiki/queries/self-reflection-2026-06-21-095800.md": {
+      "hash": "989a85f18817cdb0e232c8db0e24a577",
+      "size": 201,
+      "mtimeMs": 1782035880113
+    },
+    "wiki/queries/substitution-drill替换练习-2026-06-23-012848.md": {
+      "hash": "d08d8da3dcdd44ff201ec4a21d7578be",
+      "size": 2408,
+      "mtimeMs": 1782178253784
+    },
+    "wiki/queries/合規與倫理之間的內在張力-2026-06-21-140454.md": {
+      "hash": "fc56c8ac6ec6683cbb93b067dbde1127",
+      "size": 482,
+      "mtimeMs": 1782050694151
+    },
+    "wiki/queries/探索danny在來源中的角色與其潛在意義-2026-06-21-140056.md": {
+      "hash": "4585a505b6ec39192f43c60d6de9a78c",
+      "size": 544,
+      "mtimeMs": 1782050456881
+    },
+    "wiki/queries/更新-自動化-頁面-2026-06-21-095849.md": {
+      "hash": "36fc0dcc377d58bbd275c75ce98d6fb1",
+      "size": 303,
+      "mtimeMs": 1782035929067
+    },
+    "wiki/sources/8-journals--10-reflection--10-2026-06-05--ht0600.md": {
+      "hash": "e6001807c5545ceb6b5debe64f924c09",
+      "size": 3235,
+      "mtimeMs": 1782048205973
+    },
+    "wiki/sources/8-journals--10-reflection--10-2026-06-13--99iaq5.md": {
+      "hash": "c2d7711b5d4012e1a8197bcf853d8ed6",
+      "size": 3331,
+      "mtimeMs": 1782048324976
+    },
+    "wiki/sources/8-journals--11-a-level-是什么--mb4zzi.md": {
+      "hash": "7de19c97fbef48f340d7a05a390019ab",
+      "size": 2003,
+      "mtimeMs": 1782117640738
+    },
+    "wiki/sources/8-journals--11-lazyvim配置教学--1mrrecv.md": {
+      "hash": "5dbc02a9eac771d5757ec8102f87f068",
+      "size": 4178,
+      "mtimeMs": 1782173013787
+    },
+    "wiki/sources/8-journals--11-what-not-文档--1tn5jhk.md": {
+      "hash": "2aa41d77095323e56a0bb049c1aecfd0",
+      "size": 4827,
+      "mtimeMs": 1782045006209
+    },
+    "wiki/sources/8-journals--12-l7级技术文档优先级模型--82smd7.md": {
+      "hash": "5fcc07592c8bf0e40f6bb54972528c0b",
+      "size": 4078,
+      "mtimeMs": 1782132971215
+    },
+    "wiki/sources/8-journals--12-数据团队端到端的业务场景--17v65nc.md": {
+      "hash": "25163f205f568d37f6abbcfc751edbee",
+      "size": 4573,
+      "mtimeMs": 1782025438602
+    },
+    "wiki/sources/8-journals--13-future-skills--shtqfg.md": {
+      "hash": "1804f59dec61f8cd52ebba00a6d64fb7",
+      "size": 3437,
+      "mtimeMs": 1782126828529
+    },
+    "wiki/sources/8-journals--13-lexical-chunk--a83c2q.md": {
+      "hash": "c3e95dd4c0814c6a2997097bbb6cfcbb",
+      "size": 3090,
+      "mtimeMs": 1782173921000
+    },
+    "wiki/sources/8-journals--13-数据工程中pipeline--nstffc.md": {
+      "hash": "72a4e851182132099d2ccb7d42712880",
+      "size": 4853,
+      "mtimeMs": 1782025632143
+    },
+    "wiki/sources/8-journals--15-2026-06-14-频道命名--1f5frlo.md": {
+      "hash": "12697ed50e2e5055de8d0d0485b013a3",
+      "size": 2600,
+      "mtimeMs": 1782116392242
+    },
+    "wiki/sources/8-journals--15-workspace-笔记时间线--nfcq8k.md": {
+      "hash": "ddb0059f4476ba8c19399c4b403da983",
+      "size": 1368,
+      "mtimeMs": 1782045122671
+    },
+    "wiki/sources/8-journals--16-claude-code-反思笔记--1tec3xs.md": {
+      "hash": "1f242b6574a5f5d87787284edf6f7e29",
+      "size": 1758,
+      "mtimeMs": 1782124301232
+    },
+    "wiki/sources/8-journals--16-journal-vs-notes--28vgoo.md": {
+      "hash": "33707045e36d3d410f2fa7ee9786e5b4",
+      "size": 3282,
+      "mtimeMs": 1782132270340
+    },
+    "wiki/sources/8-journals--16-learn-claudecode--1gp28ku.md": {
+      "hash": "0597206bca766b4ec172fee854995032",
+      "size": 4221,
+      "mtimeMs": 1782173055723
+    },
+    "wiki/sources/8-journals--17-2026-03-15-grubby--1iu0cbh.md": {
+      "hash": "c84f381ef5f49edab9ab8a542bc6576c",
+      "size": 63203,
+      "mtimeMs": 1782112764109
+    },
+    "wiki/sources/8-journals--17-2026-05-04-全美资深编剧--6yjimn.md": {
+      "hash": "2cbeef9770925a8c77acfb92fd317748",
+      "size": 2546,
+      "mtimeMs": 1782114549812
+    },
+    "wiki/sources/8-journals--17-deliverychecklist--1e81u8g.md": {
+      "hash": "cee0ec809a68c4c335de4b88a41b6112",
+      "size": 3758,
+      "mtimeMs": 1782125111204
+    },
+    "wiki/sources/8-journals--18-2026-03-12系统设计能力框架--1fhrqz8.md": {
+      "hash": "8e04aa5877422d5f8cd04a6263422482",
+      "size": 3302,
+      "mtimeMs": 1782048413628
+    },
+    "wiki/sources/8-journals--18-2026-05-02-历史-希罗多德--1yub5vc.md": {
+      "hash": "e5f3547d618ded978f60ad2af584ca7c",
+      "size": 3440,
+      "mtimeMs": 1782114163413
+    },
+    "wiki/sources/8-journals--18-2026-05-20-52个信息网站--1n9yjys.md": {
+      "hash": "a5641071c22fb8f93be7b0b2d9af66f3",
+      "size": 5524,
+      "mtimeMs": 1782115277394
+    },
+    "wiki/sources/8-journals--18-2026-06-16带时间戳好友对话--memb0y.md": {
+      "hash": "1488743eeef5accfb4c08f39df3dd7e1",
+      "size": 4155,
+      "mtimeMs": 1782116602772
+    },
+    "wiki/sources/8-journals--18-archive在线搜索技巧-在线音频--7z554b.md": {
+      "hash": "b4dd4f528c59bc990fadfbc18a38fb12",
+      "size": 1545,
+      "mtimeMs": 1782122123814
+    },
+    "wiki/sources/8-journals--18-empirical-evidence--1rez8vm.md": {
+      "hash": "b363fc986abcecb6a2bb137deb30c274",
+      "size": 5433,
+      "mtimeMs": 1782125918314
+    },
+    "wiki/sources/8-journals--18-generic-verbs-泛泛动词--1n7mavd.md": {
+      "hash": "50885b4b220414518420efbe482e583f",
+      "size": 4020,
+      "mtimeMs": 1782127733834
+    },
+    "wiki/sources/8-journals--18-git-best-practices--kemyph.md": {
+      "hash": "e871cb3198509f27d316250f2c4ad129",
+      "size": 1933,
+      "mtimeMs": 1782128016596
+    },
+    "wiki/sources/8-journals--18-斯多葛主义核心要点助你成为更好的自己--1v7skvj.md": {
+      "hash": "1862db7be84c9dc3d04394f62c370642",
+      "size": 6830,
+      "mtimeMs": 1782025894217
+    },
+    "wiki/sources/8-journals--19-2026-04-29-娱乐雅思材料选择--1iocd4r.md": {
+      "hash": "0279cd2a6145af75e3c98def58eefc50",
+      "size": 3377,
+      "mtimeMs": 1782114103139
+    },
+    "wiki/sources/8-journals--19-2026-05-02-自主教育体系指南--kc1b5b.md": {
+      "hash": "ffe4c2d15726067c0c7aa27efe8c638a",
+      "size": 3738,
+      "mtimeMs": 1782114311439
+    },
+    "wiki/sources/8-journals--19-2026-06-03-口语写作风格对比--1bfgsw1.md": {
+      "hash": "fd16b0200f16face912b86250cdcaeab",
+      "size": 3203,
+      "mtimeMs": 1782115561245
+    },
+    "wiki/sources/8-journals--20-2026-06-12-27中学习技巧评级--nq6h52.md": {
+      "hash": "b793d868b5ed2bf869af5c4f87ab9706",
+      "size": 5258,
+      "mtimeMs": 1782115982865
+    },
+    "wiki/sources/8-journals--20-you-learn-by-writing--1jhdq2z.md": {
+      "hash": "9bcf438cfda87b69d6982faf1c953a74",
+      "size": 3528,
+      "mtimeMs": 1782045223147
+    },
+    "wiki/sources/8-journals--21-2026-06-18-okf-bundle--1k29hma.md": {
+      "hash": "0c375daa17574e06c29fa98598e3ec7f",
+      "size": 2304,
+      "mtimeMs": 1782117236860
+    },
+    "wiki/sources/8-journals--21-boris-cherny编程变革与行业未来--rwfzwe.md": {
+      "hash": "12b9db17bc589827856b1bb020f3cdcc",
+      "size": 3800,
+      "mtimeMs": 1782122791722
+    },
+    "wiki/sources/8-journals--21-implementationsummary--otcu9i.md": {
+      "hash": "47ed6be3485037599c0211ea8b21e82b",
+      "size": 3354,
+      "mtimeMs": 1782130920230
+    },
+    "wiki/sources/8-journals--21-learn-in-public-工作即学习--1yj0ebz.md": {
+      "hash": "da595437bda867dde8d9a41089311b78",
+      "size": 7028,
+      "mtimeMs": 1782173571160
+    },
+    "wiki/sources/8-journals--22-ai时代100条brutal-honesty--1ysg97u.md": {
+      "hash": "962c94c0b9de910727fd7477906ccb02",
+      "size": 5091,
+      "mtimeMs": 1782121088777
+    },
+    "wiki/sources/8-journals--22-intellij-平台成功背后的软件工程哲学--47i2k3.md": {
+      "hash": "9ed0a4d082968fe23b95676200d1a09d",
+      "size": 5055,
+      "mtimeMs": 1782131777662
+    },
+    "wiki/sources/8-journals--23-eliminate-weak-language--rtgasv.md": {
+      "hash": "49355b2f2c76ae890f72994b2d154414",
+      "size": 4777,
+      "mtimeMs": 1782125555841
+    },
+    "wiki/sources/8-journals--23-for-whom-the-bell-tolls--12pq1op.md": {
+      "hash": "ec2c7e287da55838389630c51e76bdaa",
+      "size": 3810,
+      "mtimeMs": 1782126520311
+    },
+    "wiki/sources/8-journals--24-2026-06-06-proximal-zone--mi4j3p.md": {
+      "hash": "770135dcd13e698bd9557bf7a7f27174",
+      "size": 4542,
+      "mtimeMs": 1782115712519
+    },
+    "wiki/sources/8-journals--24-career-management-skills--1v4rhzq.md": {
+      "hash": "d8e01d13542454090b6b621143423736",
+      "size": 3715,
+      "mtimeMs": 1782123967871
+    },
+    "wiki/sources/8-journals--24-halt-and-catch-fire-奔腾时代--wib6vp.md": {
+      "hash": "b65cbb8674e67cea507c04230938dc18",
+      "size": 3278,
+      "mtimeMs": 1782128702879
+    },
+    "wiki/sources/8-journals--24-knowledge-and-experience--28ulmg.md": {
+      "hash": "7e38a65084d6e61bce0d49caca8e7ad2",
+      "size": 2575,
+      "mtimeMs": 1782132612871
+    },
+    "wiki/sources/8-journals--26-agentteamscompletionreport--jolvpj.md": {
+      "hash": "44366e83e2e024a276654eed900fa410",
+      "size": 3825,
+      "mtimeMs": 1782120694315
+    },
+    "wiki/sources/8-journals--27-2026-05-09-lepster中的俚语slang--1gysguc.md": {
+      "hash": "4118a2dd55609d59f678addc86bd8a75",
+      "size": 3723,
+      "mtimeMs": 1782114801933
+    },
+    "wiki/sources/8-journals--27-2026-06-18一些提升claude输出质量的建议--h9nu1k.md": {
+      "hash": "6d164e7d2fdef71b31568415564c06c6",
+      "size": 4342,
+      "mtimeMs": 1782117455991
+    },
+    "wiki/sources/8-journals--28-2026-06-17-embedding模型本地部署方案--o4k25x.md": {
+      "hash": "cce1024a14516cf29985581f7f1a1252",
+      "size": 2131,
+      "mtimeMs": 1782116786563
+    },
+    "wiki/sources/8-journals--28-2026-06-17-obsidannotebooklm--1gu0r1n.md": {
+      "hash": "d217327577b4ba82121bd6a0dcf8a7a1",
+      "size": 3739,
+      "mtimeMs": 1782117003816
+    },
+    "wiki/sources/8-journals--30-2026-03-13-speak-less-ask-more--1yt5mih.md": {
+      "hash": "a4f05830ac55860d723e9b0fd8f34ef7",
+      "size": 2391,
+      "mtimeMs": 1782050780227
+    },
+    "wiki/sources/8-journals--30-aim-to-make-200-mistakes-a-day--14d160r.md": {
+      "hash": "e1f543c037a10c64dcee907e6f74b2ee",
+      "size": 4491,
+      "mtimeMs": 1782121831749
+    },
+    "wiki/sources/8-journals--31-be-unforgettable-to-be-valuable--j8tmba.md": {
+      "hash": "f3919b7c72b53ebaa6bb2abebfea291a",
+      "size": 3039,
+      "mtimeMs": 1782122447490
+    },
+    "wiki/sources/8-journals--34-2026-05-14-18-claude-chat-commands--cco47h.md": {
+      "hash": "1392346e35f1fcb65fd3b2281fbe720e",
+      "size": 3574,
+      "mtimeMs": 1782115020417
+    },
+    "wiki/sources/8-journals--35-advantage-of-doing-both-design-dev--jgwdqo.md": {
+      "hash": "69753ee680fb4bcf0be0f42ce1db4dc7",
+      "size": 4445,
+      "mtimeMs": 1782121460097
+    },
+    "wiki/sources/8-journals--35-how-to-actually-make-new-info-stick--cxmvk1.md": {
+      "hash": "f665d7f6c6a79c3d6ed189a74d09f2d2",
+      "size": 3906,
+      "mtimeMs": 1782129581704
+    },
+    "wiki/sources/8-journals--36-2026-04-24-how-to-talk-like-a-leader--3xp5pa.md": {
+      "hash": "f5ca621ec9851cc6a055b23405618586",
+      "size": 60223,
+      "mtimeMs": 1782113831584
+    },
+    "wiki/sources/8-journals--4-改过路径--q3c79o.md": {
+      "hash": "34c490890ef8a2c337a357d2a7cf55d3",
+      "size": 2585,
+      "mtimeMs": 1782025252248
+    },
+    "wiki/sources/8-journals--4-星座参考--1rjt0g2.md": {
+      "hash": "dd49c14f6cb3ff30ebbc759a54aa2c14",
+      "size": 4838,
+      "mtimeMs": 1782025990601
+    },
+    "wiki/sources/8-journals--41-2026-03-13-fsis-pattern-drill-methodology--hly2u4.md": {
+      "hash": "b1e035501f3afe1f048852761f39623e",
+      "size": 2353,
+      "mtimeMs": 1782050490053
+    },
+    "wiki/sources/8-journals--42-how-to-speak-so-that-people-want-to-listen--3zt1ci.md": {
+      "hash": "f3cf5c76762425390026aca0c1430bd3",
+      "size": 3739,
+      "mtimeMs": 1782129879038
+    },
+    "wiki/sources/8-journals--45-comprehensive-analysis-of-rathole-org-rathole--11bx55i.md": {
+      "hash": "c1f262df351806f0abdceae5a3191da3",
+      "size": 3957,
+      "mtimeMs": 1782124647271
+    },
+    "wiki/sources/8-journals--46-i-picked-up-skills-just-by-watching-and-trying--1xcn5wx.md": {
+      "hash": "4b284e378893769f8ddb128bfbb9fe96",
+      "size": 4189,
+      "mtimeMs": 1782130082112
+    },
+    "wiki/sources/8-journals--48-how-i-actually-use-opencode-as-a-senior-engineer--1dqmvxp.md": {
+      "hash": "461222f60dcb133f19e006b972934189",
+      "size": 1925,
+      "mtimeMs": 1782128987846
+    },
+    "wiki/sources/8-journals--48-how-to-make-yourself-impressive-instead-of-clear--16ulicu.md": {
+      "hash": "c14432fa48b26c4ca3075d9365ca3003",
+      "size": 4522,
+      "mtimeMs": 1782129992541
+    },
+    "wiki/sources/8-journals--5-inbox--11d9mr1.md": {
+      "hash": "56cc48be299ed33cf107c4be15bd1605",
+      "size": 1106,
+      "mtimeMs": 1782131412631
+    },
+    "wiki/sources/8-journals--51-gitstar-ranking-top-github-users-and-repositories--x7puo5.md": {
+      "hash": "6bed52ece88169bdf1bb3a4e1aec11fa",
+      "size": 2397,
+      "mtimeMs": 1782128314741
+    },
+    "wiki/sources/8-journals--53-generating-executive-summary-and-emulating-key-points--1sek8te.md": {
+      "hash": "5aef8e0053dc7a4886623f7c964888b6",
+      "size": 3595,
+      "mtimeMs": 1782127433297
+    },
+    "wiki/sources/8-journals--6-coding--18-staff-engineer必经之路--7doydb.md": {
+      "hash": "c2830a2100f0de3e1c0f20d354835ae8",
+      "size": 2499,
+      "mtimeMs": 1782030545313
+    },
+    "wiki/sources/8-journals--61-brutally-honest-advice-for-people-moving-to-australia-in-2026--11bkdmf.md": {
+      "hash": "2c3044781c6752117db1419bd8784dda",
+      "size": 3547,
+      "mtimeMs": 1782123143099
+    },
+    "wiki/sources/8-journals--7-ide认知理论--18rj1rk.md": {
+      "hash": "22da79ef2fa7cb05199c8f46ebdc99c2",
+      "size": 3352,
+      "mtimeMs": 1782130535036
+    },
+    "wiki/sources/8-journals--7-文档价值金字塔--1q5cbmk.md": {
+      "hash": "29791c54e6f807d94acdc452873181df",
+      "size": 4135,
+      "mtimeMs": 1782025749712
+    },
+    "wiki/sources/8-journals--75-how-do-we-create-an-ai-workplace-of-the-future-in-which-humans-still-matter--m1rxj9.md": {
+      "hash": "806e1a564f92dd8d95fc611ee563c07e",
+      "size": 3571,
+      "mtimeMs": 1782129277976
+    },
+    "wiki/sources/8-journals--8-c零成本抽象原则--1hnr4ri.md": {
+      "hash": "a01ed4bef204e8f61f517a56fe58a1bf",
+      "size": 3691,
+      "mtimeMs": 1782123611705
+    },
+    "wiki/sources/8-journals--8-engnotes--10-rephrase示例--1fw6d6m.md": {
+      "hash": "9f3e69ee8682d7c7a50271ff8d494127",
+      "size": 2905,
+      "mtimeMs": 1782042747080
+    },
+    "wiki/sources/8-journals--8-engnotes--11-雅思主题场景及对应素材--1yqzo90.md": {
+      "hash": "28d6083d14902c8e6ffcccaa0f0c3431",
+      "size": 3023,
+      "mtimeMs": 1782046526475
+    },
+    "wiki/sources/8-journals--8-engnotes--11-雅思高频错误搭配对照表--1howyhc.md": {
+      "hash": "dd12eb619ae4014378b405dc75cb4a2c",
+      "size": 3330,
+      "mtimeMs": 1782048083280
+    },
+    "wiki/sources/8-journals--8-engnotes--12-100个全球知名旅游城市--1xecukw.md": {
+      "hash": "9e9a30accdcd85c6e044b84d659f41d9",
+      "size": 1193,
+      "mtimeMs": 1782030916667
+    },
+    "wiki/sources/8-journals--8-engnotes--12-让句法替你完成一半的论证--1ob337o.md": {
+      "hash": "b7aa3ad70335062f7cf58df8544e4fca",
+      "size": 2762,
+      "mtimeMs": 1782046070640
+    },
+    "wiki/sources/8-journals--8-engnotes--12-雅思口语考试范文集中背诵--pkyx7h.md": {
+      "hash": "d6694bac29eab2b9d86af914d18cc69e",
+      "size": 3621,
+      "mtimeMs": 1782046896938
+    },
+    "wiki/sources/8-journals--8-engnotes--12-雅思场景下的风格选择写作--1dvzgft.md": {
+      "hash": "549e1f2f54ed1e64fa7e9fdc9f158f5f",
+      "size": 3311,
+      "mtimeMs": 1782047103553
+    },
+    "wiki/sources/8-journals--8-engnotes--12-雅思场景下的风格选择口语--1xo1bs8.md": {
+      "hash": "a4c84539e7c8141f3e965ccd2061930a",
+      "size": 52624,
+      "mtimeMs": 1782047223127
+    },
+    "wiki/sources/8-journals--8-engnotes--13-100组雅思近义词替换实例--fjo2fh.md": {
+      "hash": "6e4e30a85dfd98a426cec1e4652602e7",
+      "size": 3006,
+      "mtimeMs": 1782032112155
+    },
+    "wiki/sources/8-journals--8-engnotes--13-付费机构的雅思口语训练方法--wl4gp6.md": {
+      "hash": "dbdb11594bedcb31cd90bdc1df7df117",
+      "size": 3362,
+      "mtimeMs": 1782043795472
+    },
+    "wiki/sources/8-journals--8-engnotes--13-语域切换-register--1cge1im.md": {
+      "hash": "21c42067bfef1f38a7d6ddf0b4bc20d9",
+      "size": 3308,
+      "mtimeMs": 1782046178830
+    },
+    "wiki/sources/8-journals--8-engnotes--14-100个高频且发音易错的名词--dqqr81.md": {
+      "hash": "61d8c11dfc2cfe9ae151e9a0d8f6a103",
+      "size": 3581,
+      "mtimeMs": 1782031352295
+    },
+    "wiki/sources/8-journals--8-engnotes--14-youtbe频道转rss链接--tae3ls.md": {
+      "hash": "e37fed64972d91078bc8a17da731ff80",
+      "size": 1561,
+      "mtimeMs": 1782041272500
+    },
+    "wiki/sources/8-journals--8-engnotes--15-blunt-vs-native--1cp2xua.md": {
+      "hash": "2b36be93c1c26b62da1600fe0246a1ce",
+      "size": 2516,
+      "mtimeMs": 1782035060335
+    },
+    "wiki/sources/8-journals--8-engnotes--15-collocation固定搭配--19d03mm.md": {
+      "hash": "f7258478e4dbf83b15057e89924f5f20",
+      "size": 3716,
+      "mtimeMs": 1782037163183
+    },
+    "wiki/sources/8-journals--8-engnotes--15-extract-phrases--ruzu0y.md": {
+      "hash": "4ac90e13621998f31efca3897b733bcb",
+      "size": 1821,
+      "mtimeMs": 1782037470732
+    },
+    "wiki/sources/8-journals--8-engnotes--15-承认不确定高级别考生的秘密武器--1ase87b.md": {
+      "hash": "e54639f2c6c78640b5e5c9dbe6cacb59",
+      "size": 2764,
+      "mtimeMs": 1782045327944
+    },
+    "wiki/sources/8-journals--8-engnotes--16-100种非入门级日常高频果蔬食材--1xjn2lw.md": {
+      "hash": "e3847a3624e89bf6681581ec090f731a",
+      "size": 2410,
+      "mtimeMs": 1782031783073
+    },
+    "wiki/sources/8-journals--8-engnotes--17-collocation-的系统分类--13lso63.md": {
+      "hash": "a87cd0f1c2deebe859a0facbc6ac2b36",
+      "size": 3392,
+      "mtimeMs": 1782036539105
+    },
+    "wiki/sources/8-journals--8-engnotes--17-how-to-get-fluent--1qmiree.md": {
+      "hash": "773a50d9ac27c80e1ec0c0393cfff712",
+      "size": 2685,
+      "mtimeMs": 1782042289513
+    },
+    "wiki/sources/8-journals--8-engnotes--18-the-future-of-rust--rgf3oa.md": {
+      "hash": "28c5f93aa4d0b93d8b3826456a1af41a",
+      "size": 3355,
+      "mtimeMs": 1782040704880
+    },
+    "wiki/sources/8-journals--8-engnotes--18-雅思口语-vs-写作替换词-100组--1xhvyju.md": {
+      "hash": "4b5e9033f2da827b6da3b4c80c7f9354",
+      "size": 4129,
+      "mtimeMs": 1782046656029
+    },
+    "wiki/sources/8-journals--8-engnotes--18-雅思口语中的go-to-answer--1orzwts.md": {
+      "hash": "ff3a476b24e8adb5df67eeb93567cfe3",
+      "size": 3305,
+      "mtimeMs": 1782046811719
+    },
+    "wiki/sources/8-journals--8-engnotes--19-纽约客日常100表达既聪明又诚实的气质--1avlmjh.md": {
+      "hash": "86aa91e6534556dd271ef8a2120de96f",
+      "size": 2570,
+      "mtimeMs": 1782045767115
+    },
+    "wiki/sources/8-journals--8-engnotes--21-c1-proposal-or-report--n1sqly.md": {
+      "hash": "6efd205299feb0aadc3c5efd71a722a6",
+      "size": 2736,
+      "mtimeMs": 1782035580114
+    },
+    "wiki/sources/8-journals--8-engnotes--22-make-audiences-feel-it--11uko6f.md": {
+      "hash": "0bbb785767f1340628219c03b450bf73",
+      "size": 3163,
+      "mtimeMs": 1782042481775
+    },
+    "wiki/sources/8-journals--8-engnotes--22-纽约客口语和书面语标准差异建造论证与还原经验--1iri9g6.md": {
+      "hash": "bce5dc9088b1246598b4614e3aa7621b",
+      "size": 4219,
+      "mtimeMs": 1782045647508
+    },
+    "wiki/sources/8-journals--8-engnotes--24-natural-english-playbook--t6by6f.md": {
+      "hash": "44079ea12c74b41cac80a223af71f604",
+      "size": 6778,
+      "mtimeMs": 1782039456982
+    },
+    "wiki/sources/8-journals--8-engnotes--25-bbclearningenglish主题词同义替换--17a7lf2.md": {
+      "hash": "768e6bc0b673ba26c0890eb130b86a38",
+      "size": 3540,
+      "mtimeMs": 1782034053711
+    },
+    "wiki/sources/8-journals--8-engnotes--25-loss-of-agency-stability--f6yej1.md": {
+      "hash": "0a733a7316e7514af8fb343d0ac762bd",
+      "size": 1832,
+      "mtimeMs": 1782038890565
+    },
+    "wiki/sources/8-journals--8-engnotes--27-lead-in-transition-openings--1oo9ox1.md": {
+      "hash": "8c522188ccad7fb1627320d832014ea1",
+      "size": 4114,
+      "mtimeMs": 1782038523056
+    },
+    "wiki/sources/8-journals--8-engnotes--29-60-vegetables-name-in-english--g9n3eu.md": {
+      "hash": "6dffc9b5e5fa8992676411fd24484be8",
+      "size": 2657,
+      "mtimeMs": 1782033317300
+    },
+    "wiki/sources/8-journals--8-engnotes--31-oxford-4k-narrated-walking-tour--1xpewwu.md": {
+      "hash": "d98b01c880198f28c2c55172b88f3477",
+      "size": 1633,
+      "mtimeMs": 1782039640491
+    },
+    "wiki/sources/8-journals--8-engnotes--33-one-exercise-to-10x-your-speaking--17mioua.md": {
+      "hash": "91be113cd3973b30db40275826715a1e",
+      "size": 2673,
+      "mtimeMs": 1782039803831
+    },
+    "wiki/sources/8-journals--8-engnotes--34-we-dont-use-that-very-often结论越快越聪明--eiadx6.md": {
+      "hash": "80daad27db3ce1a081d95170801ead71",
+      "size": 4463,
+      "mtimeMs": 1782040898005
+    },
+    "wiki/sources/8-journals--8-engnotes--35-flightattendantenglishoralmaterials--1a5f0nw.md": {
+      "hash": "7fe2d7a5a4d747902c94204769f3c990",
+      "size": 3538,
+      "mtimeMs": 1782041769504
+    },
+    "wiki/sources/8-journals--8-engnotes--4-态度标记--1j7xauz.md": {
+      "hash": "2d328be0d5c3b4b60bdcd9f2af377df1",
+      "size": 3269,
+      "mtimeMs": 1782044491678
+    },
+    "wiki/sources/8-journals--8-engnotes--4-虚拟语气--1i9ui11.md": {
+      "hash": "089711c4820842b4979d4265b6e9546c",
+      "size": 2565,
+      "mtimeMs": 1782045979349
+    },
+    "wiki/sources/8-journals--8-engnotes--4-语域差异--1wnvnpv.md": {
+      "hash": "bf20f4599f4ea282fed0e6053ccc08ca",
+      "size": 2732,
+      "mtimeMs": 1782046265193
+    },
+    "wiki/sources/8-journals--8-engnotes--4-雅思范文--1w4b6ln.md": {
+      "hash": "349b8ed3c9967852ac26289aa1e73948",
+      "size": 4447,
+      "mtimeMs": 1782047505113
+    },
+    "wiki/sources/8-journals--8-engnotes--40-how-to-go-from-b1-to-c2-without-the-pain--1egkso7.md": {
+      "hash": "25fa590a22e60676db28c4ec527dc5d3",
+      "size": 4675,
+      "mtimeMs": 1782038105800
+    },
+    "wiki/sources/8-journals--8-engnotes--43-5-surprising-ways-to-speak-english-fluently--16dj5la.md": {
+      "hash": "39b78269f14e692909d62b98ab4fb677",
+      "size": 3121,
+      "mtimeMs": 1782032660404
+    },
+    "wiki/sources/8-journals--8-engnotes--5-生硬变自然--mi4ogw.md": {
+      "hash": "440b0049f9a6702bf90c9598f65d8aa8",
+      "size": 2675,
+      "mtimeMs": 1782045540608
+    },
+    "wiki/sources/8-journals--8-engnotes--5-连贯与衔接--1xcp7g3.md": {
+      "hash": "12352f571b483e9a05dcc24fee00b31d",
+      "size": 3515,
+      "mtimeMs": 1782046353564
+    },
+    "wiki/sources/8-journals--8-engnotes--51-have-better-conversations-the-sea-small-talk-method--pjaxgj.md": {
+      "hash": "6f0ded65ba111dadc55edbce6ada408c",
+      "size": 3095,
+      "mtimeMs": 1782037932053
+    },
+    "wiki/sources/8-journals--8-engnotes--6-xspy留学--1d1l9kk.md": {
+      "hash": "022976765b06e89900d7649e929a1991",
+      "size": 3993,
+      "mtimeMs": 1782041073330
+    },
+    "wiki/sources/8-journals--8-engnotes--6-中国考生易错--13tvncb.md": {
+      "hash": "6cb10328cda9da34c864525a43a46ec8",
+      "size": 4376,
+      "mtimeMs": 1782043048268
+    },
+    "wiki/sources/8-journals--8-engnotes--6-中式语法盲区--1ebu7l1.md": {
+      "hash": "f061fe02af40d6ab7dca61c414e3cafe",
+      "size": 3325,
+      "mtimeMs": 1782043549850
+    },
+    "wiki/sources/8-journals--8-engnotes--6-欧美英语考试--1uoat7a.md": {
+      "hash": "91046dfbdea7c4e69175d0ef438cf26c",
+      "size": 5881,
+      "mtimeMs": 1782045438435
+    },
+    "wiki/sources/8-journals--8-engnotes--6-雅思8分实录--rgg91o.md": {
+      "hash": "17f3554eb9b3e9b7d9a0b4118c742f2b",
+      "size": 3474,
+      "mtimeMs": 1782046435855
+    },
+    "wiki/sources/8-journals--8-engnotes--6-雅思评估标准--sw62bq.md": {
+      "hash": "759932cd5b7143b60b3f5e50a045dfc1",
+      "size": 3245,
+      "mtimeMs": 1782047848113
+    },
+    "wiki/sources/8-journals--8-engnotes--63-complete-guide-finding-a-job-in-australia-australian-work-life--llo779.md": {
+      "hash": "cc2ea627b2d819f5a4a8601857525172",
+      "size": 4447,
+      "mtimeMs": 1782036793577
+    },
+    "wiki/sources/8-journals--8-engnotes--63-extract-the-transition-sentences-and-phrases-that-connect-ideas--123qscm.md": {
+      "hash": "10f5a12307b7f185a7cd73571acecad9",
+      "size": 5111,
+      "mtimeMs": 1782037711198
+    },
+    "wiki/sources/8-journals--8-engnotes--65-developing-a-small-5-acre-homestead-to-feed-us-in-uncertain-times--1c6vgix.md": {
+      "hash": "725a5c08ea2119c0ae5884287202a679",
+      "size": 2086,
+      "mtimeMs": 1782037296196
+    },
+    "wiki/sources/8-journals--8-engnotes--7-cae备考策略--1y2x2mz.md": {
+      "hash": "2ce6705709bacea7d25f51caa867d741",
+      "size": 3308,
+      "mtimeMs": 1782035806104
+    },
+    "wiki/sources/8-journals--8-engnotes--7-句式多样性实例--1x2o6q2.md": {
+      "hash": "2dab7caa45ae05920792522f8de9db5d",
+      "size": 5152,
+      "mtimeMs": 1782043957833
+    },
+    "wiki/sources/8-journals--8-engnotes--7-名词化实用详解--1s5wqp8.md": {
+      "hash": "ea2c2258de6f498f00099f1bd637c7de",
+      "size": 4006,
+      "mtimeMs": 1782044085170
+    },
+    "wiki/sources/8-journals--8-engnotes--7-雅思表达分水岭--15zpdgk.md": {
+      "hash": "728fdd090c78904d8525d7437964a4a0",
+      "size": 4673,
+      "mtimeMs": 1782047657076
+    },
+    "wiki/sources/8-journals--8-engnotes--70-make-a-dense-technical-spec-feel-alive-and-embodied-not-just-parseable--1pzzku0.md": {
+      "hash": "2f345b6e7cc9db75a3913d8f90698d5f",
+      "size": 3088,
+      "mtimeMs": 1782039201554
+    },
+    "wiki/sources/8-journals--8-engnotes--74-cambridge-c1-advanced-english-podcast-he-truth-about-british-education-ep9--1qaeofh.md": {
+      "hash": "fac4279af29386fd53d9e0e9b075efd6",
+      "size": 3959,
+      "mtimeMs": 1782036015103
+    },
+    "wiki/sources/8-journals--8-engnotes--8-phrase网站--1v0ruyq.md": {
+      "hash": "811aed284d027a4bcafef6b844e26b8a",
+      "size": 2664,
+      "mtimeMs": 1782040054814
+    },
+    "wiki/sources/8-journals--8-engnotes--8-雅思精确性对照表--17gft0g.md": {
+      "hash": "25f67bbaa71bcf2fd804a419a8e0bf5c",
+      "size": 3285,
+      "mtimeMs": 1782047414068
+    },
+    "wiki/sources/8-journals--8-engnotes--8-雅思语言维度全景--12le0tj.md": {
+      "hash": "908f17579627ebca5ab04d71d487b6cf",
+      "size": 3405,
+      "mtimeMs": 1782047968245
+    },
+    "wiki/sources/8-journals--8-engnotes--9-听说读写高杠杆行动--fsz5k1.md": {
+      "hash": "a117a536ae58afd715cad3f52d8d49a6",
+      "size": 65763,
+      "mtimeMs": 1782044231866
+    },
+    "wiki/sources/8-journals--8-engnotes--9-英语世界的粗鄙行为--fq9e0l.md": {
+      "hash": "5c86b921f33350921c75f85823d1f97d",
+      "size": 3449,
+      "mtimeMs": 1782045878179
+    },
+    "wiki/sources/8-journals--9-clippings--10-结构本身就是高分信号--nh7j2d.md": {
+      "hash": "b9a344f4e2ef56cbf0a4ec743aec5e0d",
+      "size": 6754,
+      "mtimeMs": 1782030089943
+    },
+    "wiki/sources/8-journals--9-clippings--111-shareai-labkode-agent-kode-agent-design-for-post-human-workflows-one-unit-agent-fo--17nxtv6.md": {
+      "hash": "d974bc359ea1a63e479eda92f14e2d25",
+      "size": 2688,
+      "mtimeMs": 1782027894588
+    },
+    "wiki/sources/8-journals--9-clippings--15-标准化worktree创建流程--rix27m.md": {
+      "hash": "0dfe5a8433823aafd315c9411b403f9d",
+      "size": 2721,
+      "mtimeMs": 1782029113971
+    },
+    "wiki/sources/8-journals--9-clippings--22-enrichment-program拓展课程--hxrxwg.md": {
+      "hash": "3affe8146401f3cc5e7bf23e032936a4",
+      "size": 3424,
+      "mtimeMs": 1782024583575
+    },
+    "wiki/sources/8-journals--9-clippings--23-口语与写作中的铁证ta-cc-gra三方面评分--ljdbh7.md": {
+      "hash": "729b03d6f39d13069cecb159bbf449a0",
+      "size": 1794,
+      "mtimeMs": 1782028108959
+    },
+    "wiki/sources/8-journals--9-clippings--25-home-office-setup-may-22--1489hdd.md": {
+      "hash": "3d7c37620a03639d422be3215a3f8a38",
+      "size": 71908,
+      "mtimeMs": 1782024727074
+    },
+    "wiki/sources/8-journals--9-clippings--31-fenwiitime-as-a-partner-做时间的合伙人--1d9afuc.md": {
+      "hash": "9c7aa6ef65abe9b40ef54679baf8c648",
+      "size": 6366,
+      "mtimeMs": 1782027646827
+    },
+    "wiki/sources/8-journals--9-clippings--33-100-short-rules-for-a-better-life--1absmei.md": {
+      "hash": "85b3eceb1ce87abbcc6abd007c696b0a",
+      "size": 6969,
+      "mtimeMs": 1782024289780
+    },
+    "wiki/sources/8-journals--9-clippings--6-可识别gap--1a2b1lf.md": {
+      "hash": "b30be43ed16b6eacce8afc40832669df",
+      "size": 3927,
+      "mtimeMs": 1782028936432
+    },
+    "wiki/sources/8-journals--9-clippings--6-高区分度词汇--uthvrr.md": {
+      "hash": "97afa25a7ca22412aa9d24ee9198db8e",
+      "size": 2368,
+      "mtimeMs": 1782030302654
+    },
+    "wiki/sources/8-journals--9-clippings--60-learn-claude-code-agent-teams和-worktree-task-isolation是递进关系--ecsa9u.md": {
+      "hash": "e6cf4051aebb9d47e4adc7765275fac2",
+      "size": 4529,
+      "mtimeMs": 1782026984372
+    },
+    "wiki/sources/8-journals--9-clippings--62-how-to-actually-improve-your-english-speaking-skills-episode-2--nw1h2m.md": {
+      "hash": "3208b03486464e83d282c5541c41e061",
+      "size": 3571,
+      "mtimeMs": 1782027732969
+    },
+    "wiki/sources/8-journals--9-clippings--7-第十一章批处理--1hiajil.md": {
+      "hash": "cbdbf3504d4fc5205840a614004fbf03",
+      "size": 7213,
+      "mtimeMs": 1782029566344
+    },
+    "wiki/sources/8-journals--9-clippings--80-the-secret-to-concentration-how-to-increase-your-attention-span-dw-documentary--1h0tv2f.md": {
+      "hash": "8b3250eeb65077aebef1951845945dae",
+      "size": 81840,
+      "mtimeMs": 1782027245444
+    },
+    "wiki/sources/8-journals--9-clippings--9-14-将事情做正确--kzwz2z.md": {
+      "hash": "27eb8be201b3682888d5d2fcfa7b3dce",
+      "size": 6732,
+      "mtimeMs": 1782024440391
+    },
+    "wiki/sources/8-journals--9-clippings--9-口语高分的底层逻辑--imkowi.md": {
+      "hash": "b3aadbc06ec751ff871a4119011918e3",
+      "size": 2735,
+      "mtimeMs": 1782028428780
+    },
+    "wiki/sources/8-journals--9-clippings--96-806-perseverance-positivity-practice-with-santiago-ruiz-de-velasco-from-oxford-univ--115bf46.md": {
+      "hash": "af329f6c305de684d262fdcf37f0275a",
+      "size": 6657,
+      "mtimeMs": 1782024523803
+    },
+    "wiki/sources/8-journals--9-essay流派分析--129awc3.md": {
+      "hash": "4e81ae4aa854d6d437f1764c7777bdb1",
+      "size": 4228,
+      "mtimeMs": 1782126213410
+    },
+    "wiki/sources/8-journals--9-gre北美范文大全--zsfho1.md": {
+      "hash": "3be39b2f50a6dba19c4d49d924d84c4b",
+      "size": 11496,
+      "mtimeMs": 1782127110759
+    },
+    "wiki/sources/here-is-a-structured-interpretation-of-the-project-2026-06-23-012514.md": {
+      "hash": "09998e6ae97f6164cce4e8fd8e2ae538",
+      "size": 2965,
+      "mtimeMs": 1782178228511
+    },
+    "wiki/sources/research-心流狀態-2026-06-21-140330.md": {
+      "hash": "0b59b27021afbbcc18b87becbd479191",
+      "size": 1372,
+      "mtimeMs": 1782051110729
+    },
+    "wiki/sources/research-心理訓練-2026-06-21-093713.md": {
+      "hash": "e1547453bd89acc045fa5e7cc60290a3",
+      "size": 5416,
+      "mtimeMs": 1782035406405
+    },
+    "wiki/sources/research-數據作為有毒資產-2026-06-21-075117.md": {
+      "hash": "f005c833acb2ad8623e9beff47efa999",
+      "size": 2402,
+      "mtimeMs": 1782028769217
+    },
+    "wiki/sources/research-時間災難-2026-06-22-071945.md": {
+      "hash": "5a285f0341bcdd7b834543aa250fb43c",
+      "size": 3294,
+      "mtimeMs": 1782113386087
+    },
+    "wiki/sources/research-時間災難恢復協議-2026-06-22-071935.md": {
+      "hash": "3150571819c358da53d65deb4725c0c9",
+      "size": 3290,
+      "mtimeMs": 1782113224651
+    },
+    "wiki/sources/research-更新-雅思-頁面-2026-06-21-093050.md": {
+      "hash": "6569bb25396ea57198bfdaecfcca5d15",
+      "size": 3543,
+      "mtimeMs": 1782034710930
+    },
+    "wiki/sources/research-比較時間塊掘進法與番茄工作法-2026-06-22-072023.md": {
+      "hash": "3a3d68d152eb15146ac154ca5aa1fdf1",
+      "size": 3370,
+      "mtimeMs": 1782113710622
+    },
+    "wiki/sources/research-比較麥克斯韋妖與倒計時思維在信息處理中的作用-2026-06-21-140436.md": {
+      "hash": "efda4acbe71addb44ed805b0a3e164ce",
+      "size": 2827,
+      "mtimeMs": 1782051412467
+    },
+    "wiki/sources/research-系統動力學-2026-06-22-072011.md": {
+      "hash": "a5a6ce4c723fa81236b1db0fe2e27b0a",
+      "size": 1164,
+      "mtimeMs": 1782113516950
+    },
+    "wiki/sources/research-自我損耗理論-2026-06-22-071928.md": {
+      "hash": "1172830d21c89165ff93f2a361d11248",
+      "size": 3288,
+      "mtimeMs": 1782113076592
+    },
+    "wiki/sources/根据维基内容substitution-drill替换练习是-fsi-pattern-drill-me-2026-06-23-012848.md": {
+      "hash": "b991fe63e984d6ca0de2801354b5740f",
+      "size": 1784,
+      "mtimeMs": 1782179021518
+    }
+  }
+}

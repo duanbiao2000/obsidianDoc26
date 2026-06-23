@@ -1,3 +1,28 @@
+---
+title: "What hobbies do you have: 解构爱好与对抗生产力逻辑"
+date: 2026-06-19
+tags:
+  - 雅思口语
+  - C2-Level
+  - 个人哲学
+  - 反生产力
+  - 休闲
+aliases:
+  - 爱好解构
+  - 反内卷
+  - Uncolonised-Space
+  - Meaningful-Activities
+status: completed
+rating: 5
+source: 360speaking 精英拆解
+domain: 英语口语 / 个人成长 / 哲学反思
+core_concepts:
+  - 解构问题前提 (Challenging Question Premise)
+  - 对抗生产力逻辑 (Resisting Productivity Logic)
+  - 内部价值导向 (Intrinsic Value)
+  - 认知与心理避难所 (Cognitive Sanctuary)
+  - 非功利性活动 (Non-utilitarian Activities)
+---
 Here's a C2-level response in a mini essay style:
 
 ---
