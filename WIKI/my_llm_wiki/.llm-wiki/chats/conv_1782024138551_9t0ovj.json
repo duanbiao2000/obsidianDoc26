@@ -1,0 +1,194 @@
+[
+  {
+    "id": "1",
+    "role": "user",
+    "content": "你好",
+    "timestamp": 1782024138551,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "2",
+    "role": "assistant",
+    "content": "你好！我是 my_llm_wiki 的維基助理。如果您有任何具體問題，請隨時提出。",
+    "timestamp": 1782024140267,
+    "conversationId": "conv_1782024138551_9t0ovj",
+    "references": []
+  },
+  {
+    "id": "3",
+    "role": "user",
+    "content": "如何更新raw source. 之前给的文件并不全. 我想重新导入",
+    "timestamp": 1782024169967,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "4",
+    "role": "assistant",
+    "content": "提供的維基頁面中沒有足夠的資訊來說明如何更新或重新導入原始來源檔案。目前可用的頁面包括[[Project Overview]] [1]、[[Wiki Index]] [2] 和[[Research Log]] [3]，但這些頁面都沒有提供關於如何管理或更新原始來源檔案的指示。\n<!-- cited: 1, 2, 3 -->",
+    "timestamp": 1782024172339,
+    "conversationId": "conv_1782024138551_9t0ovj",
+    "references": [
+      {
+        "title": "Project Overview",
+        "path": "wiki/overview.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Wiki Index",
+        "path": "wiki/index.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Research Log",
+        "path": "wiki/log.md",
+        "kind": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "role": "user",
+    "content": "将overview做中文翻译",
+    "timestamp": 1782177752075,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "2",
+    "role": "assistant",
+    "content": "Error: HTTP 403: Forbidden — {\"error\":{\"message\":\"The free tier of the model has been exhausted. If you wish to continue access the model on a paid basis, please disable the \\\"use free tier only\\\" mode in the management console.\",\"type\":\"AllocationQuota.FreeTierOnly\",\"param\":null,\"code\":\"AllocationQuota.FreeTierOnly\"},\"id\":\"chatcmpl-123b2727-c353-9350-9921-a13c06f36155\",\"request_id\":\"123b2727-c353-9350-9921-a13c06f36155\"}",
+    "timestamp": 1782177757042,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "3",
+    "role": "user",
+    "content": "对overview做结构化解读",
+    "timestamp": 1782177824613,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "4",
+    "role": "assistant",
+    "content": "<think>The user wants a structured interpretation/analysis of the \"Overview\" page (Page [1]).\nI need to read Page [1] carefully and break it down into a structured format (e.g., sections, themes, key entities).\nI must write the prose in **English** as per the MANDATORY OUTPUT LANGUAGE rule.\nI must preserve names, identifiers, etc., in their original form (e.g., \"Ryan Holiday\", \"Amor Fati\", \"Blackmagic Design ATEM Mini\", \"Snowflake\").\nI need to cite Page [1].\n\nLet's analyze Page [1] structure:\n1. **Introduction/Meta**: Deep-dive research project into personal development, Stoic philosophy, modern applications.\n2. **Stoicism & Personal Development**: Core concepts, habits, mindset, relationships.\n3. **Education (Enrichment Programs)**: Definition, purpose, distinction from other courses, IELTS contexts.\n4. **Home Office Setup**: Case study (Nic Deville), productivity, ergonomics, specific tools.\n5. **Self-Correction Paths**: Entanglement mindset vs. Wu-wei letting go.\n6. **End-to-End Data Team Scenarios**: Churn prediction example, roles, tools, maturity model.\n7. **Data Engineering Pipelines**: Definition, characteristics, PythonOperator/Airflow, etc.\n8. **Documentation Value Pyramid**: 5 levels, strategic value.\n9. **Astrology**: Zodiac traits, Scorpio compatibility.\n10. **AI Agents & Software Engineering**: Agent teams, Git Worktree, isolation.\n11. **Focus & Flow State**: DW Documentary, physiological markers, multitasking, ADHD.\n12. **Language Learning (Connor Channel)**: Shadowing, progressive sentence expansion.\n13. **Data as a Toxic Asset**: Bruce Schneier, governance, ethics.\n14. **Batch Processing (Chapter 11)**: Distributed systems, MapReduce, Spark.\n15. **Advanced English Vocabulary (Food)**: 100 ingredients, pronunciation.\n16. **IELTS Synonym Replacement**: Semantic difference cue, collocation.\n17. **BBC Learning English**: Thematic synonym replacement.\n18. **Nominalization**: Academic writing technique, unsuitability for speaking.\n19. **IELTS Speaking Model Essays**: Tension Thinking, Deliberate Practice.\n20. **IELTS Speaking Strategies**: Structural logic, Narrative Specificity.\n21. **IELTS Band 7 vs 9**: Precision, argumentation density, register switching.\n22. **FSI Pattern Drill Methodology**: Substitution, Transformation, Response, Expansion drills.\n23. **Speak Less, Ask More**: KWL method, open-ended questions.\n24. **Flow State Research**: Mihaly Csikszentmihalyi, Transient Hypofrontality.\n25. **Maxwell's Demon vs Countdown Thinking**: Landauer's Principle, Predictive Demons.\n26. **System Dynamics**: (Truncated in the prompt, but header is there).\n\nI will organize this into major thematic domains (e.g., Philosophy & Mindset, Education & Language, Technology & Data, Productivity & Environment) and summarize the key points and entities under each.\n\nFormatting:\n- Use Markdown headings.\n- Use English prose.\n- Preserve identifiers/names.\n- Cite [1].</think>Here is a structured interpretation of the [[Project Overview]] page, organized by major thematic domains to clarify the wiki's expanding scope and core entities.\n\n### 1. Philosophy & Mindset\nThis is the foundational core of the wiki, focusing on Stoic philosophy and personal development frameworks.\n*   **Core Concepts:** [[Amor Fati]], [[Negative Visualization]], [[Inner Citadel]], [[Four Virtues]], [[Ego is the Enemy]], [[The Obstacle Is the Way]].\n*   **Self-Correction Models:** Explores two distinct paths for handling mistakes: the futile \"[[entanglement mindset]]\" (characterized by [[retrospective rumination]]) versus \"[[wu-wei letting go]]\" (emphasizing causal logic and present-point starting). This section underscores the role of [[psychological resilience]] [1].\n\n### 2. Education & Language Learning\nThe wiki heavily emphasizes language acquisition (specifically for [[IELTS]]) and educational theory.\n*   **Enrichment Programs:** Defines their purpose and distinguishes them from remedial, regular, and AP/IB courses, analyzing their role in fostering [[critical thinking]] while addressing [[educational inequality]] [1].\n*   **IELTS Preparation Strategies:** Covers advanced methodologies including [[Tension Thinking]], [[Structured Thinking]], [[Narrative Specificity in Language]], [[semantic difference cue]], and [[Deliberate Practice]]. It specifically contrasts Band 7 vs. Band 9 differentiators via concepts like [[lexical-resource-precision-vs-vagueness]], [[argumentation-density]], and [[register-switching]] [1].\n*   **Language Learning Methods:** Documents techniques such as [[shadowing]], [[FSI Pattern Drill Methodology]] (including [[Substitution Drill]], [[Transformation Drill]], [[Response Drill]], and [[Expansion Drill]]), [[Progressive Sentence Expansion]], and the [[speak-less-ask-more]] philosophy utilizing the [[kwl-method]] [1].\n*   **Vocabulary & Pragmatics:** Integrates resources like [[进阶英语词汇库]], [[100种非入门级日常高频果蔬食材]], [[100组雅思近义词替换实例]], [[BBC Learning English Thematic Synonym Replacement]], and [[Nominalization: Practical Guide]]. It also addresses cultural-pragmatic traps in \"We don't use that very often,\" contrasting Chinese cultural logic with NYC elite logic [1].\n\n### 3. Technology & Data Engineering\nA significant technical domain covering data team workflows, infrastructure, and AI agents.\n*   **End-to-End Data Scenarios:** Uses a \"churn prediction system\" to illustrate collaboration across roles ([[data architects]], [[data engineers]], [[data analysts]], [[BI developers]], [[data scientists]], [[ML engineers]]). Covers [[data layering design]], [[ETL pipelines]], [[dimensional modeling]], and introduces a [[data team maturity model]] [1].\n*   **Data Infrastructure & Governance:** Details [[Chapter 11: Batch Processing]] (MapReduce, Spark, Flink, HDFS, S3) and defines data pipelines ([[automation]], [[reproducibility]], [[monitoring]]) using [[Airflow]], [[PythonOperator]], and [[DAGs]]. Also covers [[Data as a Toxic Asset]] (challenging the \"new oil\" metaphor) and [[Documentation Value Pyramid]] (a 5-level L7 model from onboarding to strategic decisions) [1].\n*   **AI Agents & Development:** Explores the [[AI coding agent core loop]], [[agent teams]] collaboration, and [[worktree-task-isolation]] mechanisms using [[Git Worktree]] for isolated execution environments. Also touches on [[IDE Cognitive Theory]] for optimizing developer environments (minimizing cognitive load via [[stack-pointer-metaphor]], [[semantic-navigation]], and [[ast-based-refactoring]]) [1].\n\n### 4. Productivity & Environment\nFocuses on optimizing physical workspaces and psychological states for high performance.\n*   **Home Office Setup:** Uses [[Nic Deville]]'s setup as a case study for [[productivity optimization]] and [[ergonomics]]. Key tools include the [[Elgato Streamdeck XL]], [[Kinesis Advantage2]], and [[Blackmagic Design ATEM Mini]] [1].\n*   **Focus & Flow State:** Analyzes [[focus]] as \"stimulus filtering\" and [[flow state]] (pioneered by [[Mihaly Csikszentmihalyi]]) via neurological mechanisms like [[Transient Hypofrontality]]. Contrasts flow with [[Hyperfocus]], identifies the [[switching cost]] of [[multitasking]], and addresses [[ADHD]] impacts [1].\n*   **Cognitive & Information Models:** Cross-disciplinary analysis comparing [[Maxwell's Demon]] (thermodynamics) with Countdown Thinking (cognitive psychology), grounded in [[Landauer's Principle]] [1].\n\n### 5. Career & Interpersonal Dynamics\n*   **Career Management:** Applies the Finnish [[Career Management Skills (CMS)]] framework (10 core competency domains including [[Self-Awareness]], [[Adaptability]], and [[Lifelong Learning Awareness]]) to [[IELTS]] Speaking and Writing preparation [1].\n*   **Astrology & Relationships:** Analyzes [[zodiac personality traits]] (specifically [[Scorpio]], [[Capricorn]], [[Pisces]], [[Cancer]], [[Aquarius]]) and compatibility dynamics, noting its limitations as popular culture [1].\n\n<!-- cited: 1 -->",
+    "timestamp": 1782177859804,
+    "conversationId": "conv_1782024138551_9t0ovj",
+    "references": [
+      {
+        "title": "Project Overview",
+        "path": "wiki/overview.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "听说读写高杠杆行动: 100 High-Leverage English Learning Behaviors",
+        "path": "wiki/sources/8-journals--8-engnotes--9-听说读写高杠杆行动--fsz5k1.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "IDE Cognitive Theory: A Framework for Developer Environment Optimization",
+        "path": "wiki/sources/8-journals--7-ide认知理论--18rj1rk.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "We don't use that very often: 结论越快越聪明",
+        "path": "wiki/sources/8-journals--8-engnotes--34-we-dont-use-that-very-often结论越快越聪明--eiadx6.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Research: Cognitive science evidence for interleaving in language learning",
+        "path": "wiki/queries/research-cognitive-science-evidence-for-interleavi-2026-06-21-141032.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Career Management Skills: Finnish Framework and IELTS Applications",
+        "path": "wiki/sources/8-journals--24-career-management-skills--1v4rhzq.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Data Literacy",
+        "path": "wiki/concepts/data-literacy.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "进阶英语词汇库",
+        "path": "wiki/entities/进阶英语词汇库.md",
+        "kind": "wiki"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "role": "user",
+    "content": "substitution替换练习? 具体示例",
+    "timestamp": 1782178009074,
+    "conversationId": "conv_1782024138551_9t0ovj"
+  },
+  {
+    "id": "6",
+    "role": "assistant",
+    "content": "<think>1. **分析请求：**\n    * 用户询问关于“substitution替换练习”（即替换练习）并想要具体示例。\n    * 语言要求：用中文书写散文，但保留名称、首字母缩略词、标识符、URL、文件名、论文标题和技术术语的标准原始形式。\n    * 限制条件：仅基于提供的维基页面进行回答。\n\n2. **在维基页面中定位相关信息：**\n    * 页面 [1] (IELTS Speaking vs Writing: 100 Substitution Pairs and Lexical Resource Strategies) - 提到了100个口语到书面语的替换对，如“get” -> “obtain”，“thing” -> “factor/aspect/element”。还提到了高级替换类别（短语动词 -> 正式动词，如“go up” -> “surge/escalate”；弱词 -> 精确词，如“say” -> “assert/contend/argue”）。\n    * 页面 [2] (Substitution Drill) - 定义了替换练习：一种FSI模式练习方法论，学习者替换固定复杂句子框架内的变量。给出了一个具体的例子框架：“*The extent to which [subject] can [action] hinges on [factor A] rather than [factor B], as [reason/clause].*”\n    * 页面 [11] (FSI Pattern Drill Methodology) - 描述了替换练习作为其四种主要练习类型之一（1. 替换练习：在固定框架内替换变量）。\n    * 页面 [1] (Wiki Index) - 在概念下列出了 `[[substitution-drill]]` 和 `[[FSI Pattern Drill Methodology]]`。\n\n3. **综合答案：**\n    * **定义：** 根据页面 [2] 和 [11] 解释什么是替换练习（替换练习）。它是 [[FSI Pattern Drill Methodology]] 的一种类型，通过替换固定句子框架内的变量来练习句法灵活性。\n    * **具体示例（方法论）：** 使用页面 [2] 中确切的示例框架。\n        * 框架：*“The extent to which [subject] can [action] hinges on [factor A] rather than [factor B], as [reason/clause].”*\n    * **具体示例（词汇/雅思）：** 使用页面 [1] 中的词汇替换示例（雅思口语 vs 写作替换对）。\n        * 基础对：“get” → “obtain”，“thing” → “factor/aspect/element”\n        * 短语动词 → 正式动词：“go up” → “surge/escalate”\n        * 弱词 → 精确词：“say” → “assert/contend/argue”\n        * 泛指 → 具体形容词：“very big” → “enormous/immense/substantial”\n\n4. **起草回复（用中文，保留英文术语）：**\n    * 根据维基内容，**Substitution Drill**（替换练习）是 [[FSI Pattern Drill Methodology]] 中的一种核心练习方法。它的核心目标是通过在固定的复杂句子框架中替换不同的变量成分，来帮助学习者掌握句法的灵活性，实现“自动的语言反射”。\n    * **具体示例（句法框架层面）**：\n        * 页面 [2] 提供了一个典型的替换练习句子骨架：\n        * *\"The extent to which [subject] can [action] hinges on [factor A] rather than [factor B], as [reason/clause].*\"\n        * 学习者可以通过替换括号中的成分（如替换 [subject]、[action]、[factor A] 等），在不同的语境下内化这一高阶句法结构的逻辑和应用，而不需要每次重新构思整句话的骨架。\n    * **具体示例（词汇/语域层面）**：\n        * 页面 [1] 中关于雅思口语与写作的替换策略也属于替换练习的范畴，主要聚焦于语域和词汇的升级：\n        * **基础词替换**：例如口语中的 \"get\" 替换为书面语中的 \"obtain\"；\"thing\" 替换为 \"factor/aspect/element\"。\n        * **Phrasal Verb → Formal Verb**：口语化的 \"go up\" 替换为正式的 \"surge/escalate\"。\n        * **Weak → Precise Words**：模糊的 \"say\" 替换为精确的 \"assert/contend/argue\"。\n        * **Generic → Specific Adjectives**：泛指的 \"very big\" 替换为具体的 \"enormous/immense/substantial\"。\n\n5. **对照限制条件进行检查：**\n    * 仅基于提供的页面？是的（页面 1, 2, 11）。\n    * 严格的主题边界？是的。\n    * 维基链接语法？是的（`[[FSI Pattern Drill Methodology]]`，`[[Substitution Drill]]`）。\n    * 页面编号方括号？是的（`[1]`，`[2]`，`[11]`）。\n    * 结尾有隐藏的注释？是的。\n    * 中文散文？是的。\n    * 保留英文标识符？是的（FSI Pattern Drill Methodology，subject，action，factor A 等）。\n\n6. **最终润色：** 确保句法练习与词汇替换之间的区别清晰，因为两者都相关，但页面 [2] 具体定义了作为练习的“替换练习”，而页面 [1] 提供了词汇对。</think>根据维基内容，**Substitution Drill**（替换练习）是 [[FSI Pattern Drill Methodology]] 中的一种核心练习方法。它的核心目标是通过在固定的复杂句子框架中替换不同的变量成分，帮助学习者掌握句法的灵活性，实现“自动的语言反射”（automatic language reflection），而非死记硬背词汇 [11]。\n\n以下是维基中提供的具体示例：\n\n### 1. 句法框架层面的替换练习\n\n页面 [2] 中提供了一个典型的 [[Substitution Drill]] 句子骨架，学习者通过替换括号内的变量来内化高阶句法结构：\n\n> *\"The extent to which [subject] can [action] hinges on [factor A] rather than [factor B], as [reason/clause].*\"\n\n通过将不同的词汇填入 `[subject]`（主语）、`[action]`（动作）、`[factor A/B]`（因素）和 `[reason/clause]`（原因/从句），学习者可以在不同语境下反复练习这一高阶复杂句型，从而将其逻辑和结构内化为自然反应。\n\n### 2. 词汇与语域层面的替换练习\n\n页面 [1] 中的雅思备考资源虽然侧重于语域转换，但其核心机制同样是替换练习，旨在提升 Lexical Resource 的得分。该资源提供了多种分类的具体替换对：\n\n*   **基础口语 → 书面语替换**：\n    *   \"get\" → \"obtain\"\n    *   \"thing\" → \"factor / aspect / element\"\n*   **Phrasal Verb → Formal Verb（短语动词 → 正式动词）**：\n    *   \"go up\" → \"surge / escalate\"\n*   **Weak → Precise Words（弱词 → 精确词）**：\n    *   \"say\" → \"assert / contend / argue\"\n*   **Generic → Specific Adjectives（泛指形容词 → 具体形容词）**：\n    *   \"very big\" → \"enormous / immense / substantial\"\n*   **Vague → Precise Nouns（模糊名词 → 精确名词）**：\n    *   \"problem\" → \"dilemma / predicament / constraint\"\n*   **Discourse Marker Upgrades（话语标记升级）**：\n    *   \"but\" → \"however / nonetheless / conversely\"\n\n这些替换练习强调**register appropriateness**（语域适用性）和 **collocation accuracy**（搭配准确性），提醒考生在写作中应使用书面词汇替代口语词汇，但在口语考试中则应优先追求自然流利，而非强行塞入书面词汇 [1]。\n\n<!-- cited: 1, 2, 11 -->",
+    "timestamp": 1782178045203,
+    "conversationId": "conv_1782024138551_9t0ovj",
+    "references": [
+      {
+        "title": "IELTS Speaking vs Writing: 100 Substitution Pairs and Lexical Resource Strategies",
+        "path": "wiki/sources/8-journals--8-engnotes--18-雅思口语-vs-写作替换词-100组--1xhvyju.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Substitution Drill",
+        "path": "wiki/concepts/substitution-drill.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "IELTS Speaking Style Selection Strategy",
+        "path": "wiki/sources/8-journals--8-engnotes--12-雅思场景下的风格选择口语--1xo1bs8.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Grubby on Rematch Strategy, Inspiration Bleed-Over, and Signal-to-Noise Filtering",
+        "path": "wiki/sources/8-journals--17-2026-03-15-grubby--1iu0cbh.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Boris Cherny: Programming Revolution and Industry Future",
+        "path": "wiki/sources/8-journals--21-boris-cherny编程变革与行业未来--rwfzwe.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "YouTube Channel RSS Feed Link Generation",
+        "path": "wiki/sources/8-journals--8-engnotes--14-youtbe频道转rss链接--tae3ls.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Cambridge C1 Advanced English Podcast: The Truth About British Education (EP9)",
+        "path": "wiki/sources/8-journals--8-engnotes--74-cambridge-c1-advanced-english-podcast-he-truth-about-british-education-ep9--1qaeofh.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Subjunctive as Argumentation Tool",
+        "path": "wiki/concepts/subjunctive-as-argumentation.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Spoken vs. Written Style Contrast: A Pedagogical Demonstration",
+        "path": "wiki/sources/8-journals--19-2026-06-03-口语写作风格对比--1bfgsw1.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "C++ Zero-Cost Abstraction Principle",
+        "path": "wiki/sources/8-journals--8-c零成本抽象原则--1hnr4ri.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "FSI Pattern Drill Methodology",
+        "path": "wiki/concepts/fsi-pattern-drill-methodology.md",
+        "kind": "wiki"
+      },
+      {
+        "title": "Short Sentence Hammer",
+        "path": "wiki/concepts/short-sentence-hammer.md",
+        "kind": "wiki"
+      }
+    ]
+  }
+]

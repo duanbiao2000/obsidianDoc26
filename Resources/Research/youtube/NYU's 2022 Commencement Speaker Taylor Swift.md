@@ -1,3 +1,27 @@
+---
+title: "Taylor Swift 纽约大学毕业演讲：人生金句与地道表达提取"
+date: 2026-06-19
+tags:
+  - 毕业演讲
+  - 英语学习
+  - 人生哲理
+  - Taylor-Swift
+  - 口语素材
+aliases:
+  - Taylor Swift Commencement
+  - 纽约大学演讲
+  - 英语金句
+status: completed
+rating: 5
+source: "NYU's 2022 Commencement Speaker Taylor Swift - YouTube"
+domain: 英语学习 / 个人成长 / 演讲分析
+core_concepts:
+  - Catch and Release (学会放下)
+  - Live Alongside Cringe (与尴尬共存)
+  - Effortlessness is a Myth (努力的价值)
+  - Be Discerning (要有辨别力)
+  - Authentic Enthusiasm (不隐藏热情)
+---
 ![NYU's 2022 Commencement Speaker Taylor Swift - YouTube](https://www.youtube.com/watch?v=OBG50aoUwlI)
 
 我先给你从演讲里挑一些比较地道、适合做短句/词组积累的内容，你可以对着视频跟读、听写。

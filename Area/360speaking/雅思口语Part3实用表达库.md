@@ -1,14 +1,28 @@
 ---
-title: 雅思口语Part 3实用表达库
-date: 2026-03-07
-tags: [雅思,口语,Part3,表达库]
-aliases: [IELTS Speaking Part 3 Expression Bank]
-cssclasses:
-status: in-progress
-rating: 6.5+
-completed: false
-due:
+title: "雅思口语Part 3：高分表达库、辩证思维与口语化策略"
+date: 2026-06-19
+tags:
+  - 雅思
+  - 口语
+  - Part3
+  - 表达库
+  - IELTS-Speaking
+  - 高分策略
+  - 辩证思维
+aliases:
+  - IELTS Speaking Part 3 Expression Bank
+  - Part3-Phrases
+  - 口语化表达
+status: completed
+rating: 5
 source: 基于《可抄可改写作句库.md》口语化改造
+domain: 英语口语 / 雅思备考 / 语言内化
+core_concepts:
+  - 表达观点多样性 (Nuance in Opinions)
+  - 论述展开技巧 (Developing Ideas)
+  - 批判性思维展示 (Critical Thinking)
+  - 自然互动策略 (Natural Interaction)
+  - 思维过程可视化 (Process over Outcome)
 ---
 
  雅思口语Part 3实用表达库

@@ -1,7 +1,5 @@
 ---
-tags: ["Domain/AI/PromptEngineering", "Type/Reference"]
-  - 
-  - 
+tags:
 related:
   - "[[MOC_知识管理类提示词]]"
   - "[[MOC_思维框架类提示词]]"
