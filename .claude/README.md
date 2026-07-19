@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-01-27
+---
+
 Agent Skills for use with Obsidian.
 
 These skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code and Codex CLI.

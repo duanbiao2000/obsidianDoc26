@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-03-07
+---
+
 # Coordination Patterns and Scheduling Strategies
 
 本文档详细描述 Agent Teams 的协同时式、调度策略和最佳实践。

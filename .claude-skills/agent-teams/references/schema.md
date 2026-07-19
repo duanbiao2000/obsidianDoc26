@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-02-13
+---
+
 # Team Configuration Schema
 
 本文档详细描述 Agent Teams YAML 配置文件的完整模式规范。
