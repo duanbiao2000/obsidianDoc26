@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-03-07
+---
+
 # Agent Teams Examples
 
 本文档包含完整的 Agent Teams 配置示例，涵盖各种实际使用场景。

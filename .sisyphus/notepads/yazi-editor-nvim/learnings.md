@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-02-06
+---
+
 # Learnings
 
 ## Task Overview

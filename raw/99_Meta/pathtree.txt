@@ -1,0 +1,1030 @@
+.
+├── 0-Vault-Logo
+├── 01_Inbox
+│  ├── 个人优势库存.md
+│  └── 口语提升的第一性原理分析.md
+├── 30_WIKI
+│  ├── Canvas
+│  │  ├── 0406联合笔记.canvas
+│  │  ├── 0408联合笔记.canvas
+│  │  └── 2026-5-22.canvas
+│  ├── Dashboard
+│  │  ├── 00_Capture.md
+│  │  ├── 01_Inbox.md
+│  │  ├── 02_Recent.md
+│  │  ├── 03_Tasks.md
+│  │  ├── 04_Projects.md
+│  │  ├── 05_Journals.md
+│  │  └── 06_Health.md
+│  ├── DataBase
+│  │  └── BASE
+│  │     ├── 上月笔记.base
+│  │     ├── 本周笔记.base
+│  │     ├── 本日笔记.base
+│  │     ├── 本月笔记.base
+│  │     └── 近3日笔记.base
+│  ├── Dataview
+│  │  ├── Dataview查询指南.md
+│  │  ├── Dataview错误处理最佳实践.md
+│  │  ├── Obsidian内置字段完全指南.md
+│  │  ├── README-索引.md
+│  │  ├── 人物索引.md
+│  │  ├── 修复总结-dur函数替代relative.md
+│  │  ├── 字段速查表.md
+│  │  ├── 工作管理仪表板.md
+│  │  ├── 工具索引.md
+│  │  ├── 总览仪表板.md
+│  │  ├── 排除特定目录的查询.md
+│  │  ├── 日期函数替代方案.md
+│  │  ├── 研究笔记索引.md
+│  │  ├── 诊断测试.md
+│  │  ├── 阅读进度仪表板.md
+│  │  └── 项目追踪仪表板.md
+│  ├── Excalidraw
+│  │  ├── Attachments
+│  │  │  ├── 4e6956f0490cea4338d1f1ce312db7c3.jpg
+│  │  │  ├── dd718916fa98209c.png
+│  │  │  ├── Pasted-Image-20260520143044_864.png
+│  │  │  ├── Pasted-Image-20260520143448_617.png
+│  │  │  ├── Pasted-Image-20260520182535_556.png
+│  │  │  ├── Pasted-Image-20260520194535_836.png
+│  │  │  └── Pasted-Image-20260520212109_051.png
+│  │  ├── Drawing-2026-05-20-14.16.03.excalidraw.md
+│  │  ├── Scripts
+│  │  │  └── Downloaded
+│  │  │     ├── Golden-Ratio.md
+│  │  │     ├── Golden-Ratio.svg
+│  │  │     ├── Mindmap-Builder.md
+│  │  │     ├── Mindmap-Builder.svg
+│  │  │     ├── Organic-Line-Legacy.md
+│  │  │     ├── Organic-Line-Legacy.svg
+│  │  │     ├── Organic-Line.md
+│  │  │     ├── Organic-Line.svg
+│  │  │     ├── Select-Elements-of-Type.md
+│  │  │     ├── Select-Elements-of-Type.svg
+│  │  │     ├── Split-text-by-lines.md
+│  │  │     ├── Split-text-by-lines.svg
+│  │  │     ├── Text-Aura.md
+│  │  │     ├── Text-Aura.svg
+│  │  │     ├── Text-to-Path.md
+│  │  │     ├── Text-to-Path.svg
+│  │  │     ├── Text-to-Sticky-Notes.md
+│  │  │     ├── Text-to-Sticky-Notes.svg
+│  │  │     ├── Uniform-size.md
+│  │  │     └── Uniform-size.svg
+│  │  └── Template.excalidraw.md
+│  ├── HTML
+│  │  ├── daodejing_ai_principles.html
+│  │  ├── ielts-register-pairs.html
+│  │  ├── ielts_antonyms_100.html
+│  │  ├── ielts_pronunciation_six_points.html
+│  │  ├── ielts_speaking_mastery_framework.html
+│  │  ├── intj_entp_personality_analysis.html
+│  │  ├── Linus-创作者访谈核心笔记.html
+│  │  └── Linus-创作者访谈核心笔记2.html
+│  ├── OKF
+│  │  ├── 00_okf_bundle_index.md
+│  │  ├── concept_01_extended_mind.md
+│  │  ├── concept_02_descartian_doubt.md
+│  │  ├── concept_03_adlerian_restatement.md
+│  │  ├── concept_04_augustinian_self_reflection.md
+│  │  ├── concept_05_comprehensible_input.md
+│  │  ├── concept_06_physiological_language_training.md
+│  │  ├── concept_07_language_parent.md
+│  │  ├── concept_08_direct_image_connection.md
+│  │  ├── concept_09_explicit_values.md
+│  │  ├── concept_10_moral_uncertainty.md
+│  │  ├── concept_11_dual_use_risk.md
+│  │  ├── concept_12_reflective_simulation.md
+│  │  ├── concept_13_cognitive_flexibility.md
+│  │  ├── concept_14_macro_and_deep_inquiry.md
+│  │  ├── concept_15_empathetic_communication.md
+│  │  ├── concept_16_strategic_silence.md
+│  │  ├── concept_17_vulnerability_driven_growth.md
+│  │  ├── concept_18_active_internalization.md
+│  │  ├── concept_19_unfiltered_collection.md
+│  │  ├── concept_20_behavioral_auditing.md
+│  │  ├── concept_21_note_imperfection.md
+│  │  ├── concept_22_implicit_standard_reflection.md
+│  │  ├── concept_23_explicit_codebase_rules.md
+│  │  ├── concept_24_proactive_proposal.md
+│  │  ├── concept_25_structured_density_control.md
+│  │  ├── concept_26_continuous_assessment.md
+│  │  ├── concept_27_summative_assessment.md
+│  │  ├── concept_28_natural_communication.md
+│  │  ├── concept_29_error_rate_control.md
+│  │  ├── concept_30_zero_point_reframing.md
+│  │  ├── concept_31_anti_dependency_magnet.md
+│  │  ├── concept_32_ghost_phase_dark_energy.md
+│  │  ├── concept_33_machiavellian_grace.md
+│  │  ├── concept_34_skill_stack_arbitrage.md
+│  │  ├── concept_35_time_arbitrage_leverage.md
+│  │  ├── concept_36_personal_corporation.md
+│  │  ├── concept_37_market_painpoint_pricing.md
+│  │  ├── concept_38_deep_work_information_diet.md
+│  │  ├── concept_39_multidimensional_register.md
+│  │  ├── concept_40_bibers_register_framework.md
+│  │  ├── concept_41_register_contamination.md
+│  │  ├── Knowledge-and-Experience.md
+│  │  ├── OKF-agent来源.md
+│  │  ├── playbook_01_philosopher_journal.md
+│  │  ├── playbook_02_language_acquisition.md
+│  │  ├── playbook_03_ethical_decision_making.md
+│  │  ├── playbook_04_intelligent_communication.md
+│  │  ├── playbook_05_14_philosophers.md
+│  │  ├── playbook_06_ai_coding_prompts.md
+│  │  ├── playbook_07_assessment_design.md
+│  │  ├── playbook_08_ielts_exam_hacking.md
+│  │  ├── playbook_09_zero_support_protocol.md
+│  │  ├── playbook_10_economic_productivity.md
+│  │  ├── playbook_11_register_segregation.md
+│  │  └── Raction-and-Feedback.md
+│  └── QuickRef
+│     ├── Coding-命令速查.md
+│     ├── English-Expression-速查.md
+│     ├── IELTS-Speaking-速查.md
+│     ├── IELTS-Writing-速查.md
+│     └── Prompt-速查.md
+├── Dashboard++.md
+├── HOME.md
+├── raw
+│  ├── 01_Projects
+│  │  ├── Anki-Cards
+│  │  │  ├── IELTS-Super-Cards-The-Harvard-Edition.md
+│  │  │  └── 从LLM历史中提取高价值内容0530_雅思口语超级卡.md
+│  │  ├── Codex
+│  │  │  └── obsidianDoc26整体目录结构.md
+│  │  ├── IELTS-Prep
+│  │  │  ├── General
+│  │  │  │  ├── C1-Proposal-or-Report.md
+│  │  │  │  ├── CAE备考策略.md
+│  │  │  │  ├── Enrichment-Program（拓展课程）.md
+│  │  │  │  ├── Learn-Claude-Code-Agent-Teams和-Worktree-+-Task-Isolation是递进关系.md
+│  │  │  │  ├── shareAI-labKode-Agent-Kode-Agent-—-Design-for-post-human-workflows.-One-unit-agent-for-every-human-&-computer-task.md
+│  │  │  │  ├── The-secret-to-concentration---How-to-increase-your-attention-span--DW-Documentary.md
+│  │  │  │  ├── 付费机构的雅思口语训练方法.md
+│  │  │  │  ├── 内部评分标准.md
+│  │  │  │  ├── 口语与写作中的铁证（TA,-CC,-GRA三方面评分）.md
+│  │  │  │  ├── 口语高分的底层逻辑.md
+│  │  │  │  ├── 可识别Gap.md
+│  │  │  │  ├── 听说读写高杠杆行动.md
+│  │  │  │  ├── 娱乐雅思-纪录片.md
+│  │  │  │  ├── 承认不确定：高级别考生的秘密武器.md
+│  │  │  │  ├── 欧美英语考试.md
+│  │  │  │  ├── 纽约客雅思可用示例_奖励不简化的人.md
+│  │  │  │  ├── 结构本身就是高分信号.md
+│  │  │  │  ├── 雅思8分实录.md
+│  │  │  │  ├── 雅思考官Agent设计native-like-phrasing.md
+│  │  │  │  ├── 雅思范文.md
+│  │  │  │  ├── 雅思表达分水岭.md
+│  │  │  │  ├── 雅思评估标准.md
+│  │  │  │  ├── 雅思语言维度全景.md
+│  │  │  │  └── 高区分度词汇.md
+│  │  │  ├── Grammar
+│  │  │  │  ├── 中国考生易错.md
+│  │  │  │  ├── 中式语法盲区.md
+│  │  │  │  ├── 句式多样性实例.md
+│  │  │  │  ├── 名词化实用详解.md
+│  │  │  │  ├── 态度标记.md
+│  │  │  │  ├── 虚拟语气.md
+│  │  │  │  ├── 让句法替你完成一半的论证.md
+│  │  │  │  └── 连贯与衔接.md
+│  │  │  ├── Listening
+│  │  │  │  ├── 听力中容易出错的词.md
+│  │  │  │  ├── 适合快速提升听力的美剧.md
+│  │  │  │  └── 雅思听力高效训练模式.md
+│  │  │  ├── MOC-IELTS.md
+│  │  │  ├── Reading
+│  │  │  │  ├── 5-Surprising-Ways-to-Speak-English-Fluently.md
+│  │  │  │  ├── Attachments
+│  │  │  │  │  ├── Pasted-image-20260514184102.png
+│  │  │  │  │  └── Pasted-image-20260514184450.png
+│  │  │  │  ├── Cambridge-C1-Advanced-English-Podcast-he-Truth-About-British-Education-EP9.md
+│  │  │  │  ├── Extract-Phrases.md
+│  │  │  │  ├── Extract-the-transition-sentences-and-phrases-that-connect-ideas.md
+│  │  │  │  ├── flight_attendant_english_oral_materials.md
+│  │  │  │  ├── Have-Better-Conversations-The-S.E.A.-Small-Talk-Method.md
+│  │  │  │  ├── how-to-get-fluent.md
+│  │  │  │  ├── How-to-go-from-B1-to-C2-without-the-pain!.md
+│  │  │  │  ├── Lead-in-transition-openings.md
+│  │  │  │  ├── make-audiences-feel-it.md
+│  │  │  │  ├── Natural-English-Playbook.md
+│  │  │  │  ├── One-Exercise-to-10X-Your-Speaking.md
+│  │  │  │  ├── Phrase网站.md
+│  │  │  │  ├── rephrase示例.md
+│  │  │  │  ├── We-don’t-use-that-very-often_结论越快越聪明.md
+│  │  │  │  ├── Xspy留学.md
+│  │  │  │  ├── Youtbe频道转Rss链接.md
+│  │  │  │  ├── 专攻-雅思阅读类型分析与核心技巧.md
+│  │  │  │  ├── 英语世界的粗鄙行为.md
+│  │  │  │  ├── 雅思口语中的go-to-answer.md
+│  │  │  │  ├── 雅思口语考试范文集中背诵.md
+│  │  │  │  ├── 雅思阅读符号标注及对应题型.md
+│  │  │  │  └── 雅思阅读考点逆向分析_精英预判.md
+│  │  │  ├── Speaking
+│  │  │  │  ├── 8+替换词.md
+│  │  │  │  ├── 2026-06-03IELTS-官方评分指标解读.md
+│  │  │  │  ├── 2026年1-4月口语神奇题库.md
+│  │  │  │  ├── agent记忆的四种类型.md
+│  │  │  │  ├── Are-you-interested-in-learning-to-cook-new-dishes.md
+│  │  │  │  ├── Book-found-useful.md
+│  │  │  │  ├── Describe-a-problem-in-your-community-that-you-would-like-to-solve.md
+│  │  │  │  ├── Do-you-enjoy-reading.md
+│  │  │  │  ├── Do-you-enjoy-travelling.md
+│  │  │  │  ├── Do-you-have-a-daily-exercise-routine.md
+│  │  │  │  ├── Do-you-live-in-a-house-or-an-apartment.md
+│  │  │  │  ├── Do-you-prefer-branded-or-unbranded-products.md
+│  │  │  │  ├── Do-you-think-diet-and-health-are-closely-connected.md
+│  │  │  │  ├── Do-you-think-it-is-important-to-have-hobbies.md
+│  │  │  │  ├── Do-you-think-you-will-move-in-the-future.md
+│  │  │  │  ├── Do-you-work-or-are-you-a-student.md
+│  │  │  │  ├── Golden-nugget-sentences.md
+│  │  │  │  ├── How-do-you-organise-your-time.md
+│  │  │  │  ├── How-do-you-usually-wind-down-at-the-end-of-the-day.md
+│  │  │  │  ├── Issacson句子迷.md
+│  │  │  │  ├── Part-1优劣比对.md
+│  │  │  │  ├── part1对应笔记.md
+│  │  │  │  ├── Part2与Part3的关系.md
+│  │  │  │  ├── Pronunciation-drill.md
+│  │  │  │  ├── Rephrase_从无聊主题到有深度.md
+│  │  │  │  ├── What-do-you-do-in-your-free-time.md
+│  │  │  │  ├── What-do-you-enjoy-most-about-your-studies.md
+│  │  │  │  ├── What-do-you-find-most-challenging-about-your-job-or-studies.md
+│  │  │  │  ├── What-do-you-like-about-your-hometown.md
+│  │  │  │  ├── What-do-you-usually-do-on-public-holidays.md
+│  │  │  │  ├── What-hobbies-do-you-have.md
+│  │  │  │  ├── What-is-your-favourite-food.md
+│  │  │  │  ├── What-kind-of-neighbourhood-do-you-live-in.md
+│  │  │  │  ├── What-skills-do-you-think-are-most-important-for-your-future-career.md
+│  │  │  │  ├── What-time-do-you-usually-wake-up.md
+│  │  │  │  ├── Where-are-you-from-originally.md
+│  │  │  │  ├── Which-platforms-do-you-use.md
+│  │  │  │  ├── Would-you-like-to-live-in-another-country.md
+│  │  │  │  ├── 万能高分句式.md
+│  │  │  │  ├── 判断力与复杂决策.md
+│  │  │  │  ├── 口语或听力逐句分析点评.md
+│  │  │  │  ├── 口语流利度第一性原理.md
+│  │  │  │  ├── 口语训练包.md
+│  │  │  │  ├── 口语评价六维对照表_稳定连贯细腻可理解.md
+│  │  │  │  ├── 好奇心与持续学习.md
+│  │  │  │  ├── 提示词自动生成范文.md
+│  │  │  │  ├── 改写分析-雅思8+口语改写规则.md
+│  │  │  │  ├── 每日口语笔记.md
+│  │  │  │  ├── 系统思维看待雅思口语能力提升.md
+│  │  │  │  ├── 纽约客听力体验管理.md
+│  │  │  │  ├── 纽约客风格.md
+│  │  │  │  ├── 美剧对于雅思口语提升的分析比较.md
+│  │  │  │  ├── 脱口秀中的起承转折与角色成长.md
+│  │  │  │  ├── 艾学雅思必背口语词汇.md
+│  │  │  │  ├── 英语人格系统（English-Cognitive-Persona）.md
+│  │  │  │  ├── 表达升级.md
+│  │  │  │  ├── 语料库.md
+│  │  │  │  ├── 适合雅思口语的小说.md
+│  │  │  │  ├── 雅思8+稳定输出系统.md
+│  │  │  │  ├── 雅思口语10篇_Part2&3.md
+│  │  │  │  ├── 雅思口语360篇_Part1.md
+│  │  │  │  ├── 雅思口语Part3实用表达库.md
+│  │  │  │  ├── 雅思口语Part3速查卡.md
+│  │  │  │  ├── 雅思口语三部分风格比较.md
+│  │  │  │  ├── 雅思口语高价值内容.md
+│  │  │  │  ├── 雅思高分口语力场分析.md
+│  │  │  │  ├── 零工经济工作.md
+│  │  │  │  └── 高频串题通用框架库.md
+│  │  │  ├── Vocabulary
+│  │  │  │  ├── 100个全球知名旅游城市.md
+│  │  │  │  ├── 100个高频且发音易错的名词.md
+│  │  │  │  ├── 100种非入门级日常高频果蔬&食材.md
+│  │  │  │  ├── 100组雅思近义词替换实例.md
+│  │  │  │  ├── BBCLearningEnglish主题词同义替换.md
+│  │  │  │  ├── 雅思主题场景及对应素材.md
+│  │  │  │  ├── 雅思口语vs写作替换词100组.md
+│  │  │  │  ├── 雅思精确性对照表.md
+│  │  │  │  └── 雅思高频错误搭配对照表.md
+│  │  │  └── Writing
+│  │  │     ├── 100组观点辩论_论点库.md
+│  │  │     ├── AI-generated-art-and-music-challenges-the-definition-of-human-creativity.md
+│  │  │     ├── Artificial-intelligence.md
+│  │  │     ├── Essay流派分析.md
+│  │  │     ├── GRE北美范文大全.md
+│  │  │     ├── Online-education-can-never-fully-replace-traditional-classroom-learning.md
+│  │  │     ├── Online-influencers-have-a-greater-impact-on-young-people-than-traditional-role-models.md
+│  │  │     ├── People-are-becoming-overly-dependent-on-technology-in-their-daily-lives.md
+│  │  │     ├── Robots-and-automation-are-causing-widespread-unemployment.md
+│  │  │     ├── Social-media-has-done-more-harm-than-good-to-modern-society.md
+│  │  │     ├── Space-exploration-is-a-waste-of-money-that-could-be-better-spent-on-Earths-problems.md
+│  │  │     ├── YOU-LEARN-BY-WRITING.md
+│  │  │     ├── 写作策略.md
+│  │  │     ├── 写作风险.md
+│  │  │     ├── 可抄可改写作句库.md
+│  │  │     ├── 纽约客写作风格.md
+│  │  │     ├── 英式学术话语体系.md
+│  │  │     ├── 雅思写作360篇.md
+│  │  │     ├── 雅思写作Task2句型详解.md
+│  │  │     ├── 雅思写作Task2实战手册.md
+│  │  │     ├── 雅思写作Task2速查卡.md
+│  │  │     ├── 雅思写作Task2高级句型库.md
+│  │  │     └── 雅思备考「100-20-5」执行模板.md
+│  │  ├── Software-Dev
+│  │  │  ├── MOC-Software-Dev.md
+│  │  │  └── 学习软件开发的工具推荐清单.md
+│  │  ├── 微服务架构迁移项目.md
+│  │  ├── 算法.md
+│  │  └── 道德经
+│  │     ├── Be-unforgettable-to-be-valuable.md
+│  │     ├── MOC-道德经.md
+│  │     ├── 为学日益知常曰明.md
+│  │     ├── 塔勒布式认知笔记.md
+│  │     ├── 知人者智自知者明.md
+│  │     ├── 道德经框架.md
+│  │     └── 道德经认知杠杆.md
+│  ├── 02_Areas
+│  │  ├── Career
+│  │  │  ├── A-level-是什么.md
+│  │  │  ├── Advantage-of-Doing-Both-Design-&-Dev.md
+│  │  │  ├── Brutally-Honest-Advice-for-People-Moving-to-Australia-in-2026.md
+│  │  │  ├── Career-Management-Skills.md
+│  │  │  ├── COMPLETE-Guide-Finding-a-Job-in-Australia-&-Australian-Work-Life.md
+│  │  │  ├── Future-Skills.md
+│  │  │  ├── How-do-we-create-an-AI-workplace-of-the-future-in-which-humans-still-matter.md
+│  │  │  ├── I-picked-up-skills-just-by-watching-and-trying.md
+│  │  │  ├── Learn-in-public-工作即学习.md
+│  │  │  ├── London.md
+│  │  │  ├── MOC-Career.md
+│  │  │  ├── New-York.md
+│  │  │  ├── PhD-Dissertation-Research-Framework.md
+│  │  │  ├── productive-resistance.md
+│  │  │  ├── Temasek-Holdings.md
+│  │  │  ├── 个人能力识别与风格重构.md
+│  │  │  ├── 剑桥式学习计划.md
+│  │  │  ├── 社交-hack-术语中英对照.md
+│  │  │  ├── 罗素大学集团（Russell-Group）.md
+│  │  │  ├── 美企沟通黄金准则.md
+│  │  │  ├── 边界清晰性分析.md
+│  │  │  └── 项目影响力.md
+│  │  ├── Coding
+│  │  │  ├── 37signals-and-Omarchy.md
+│  │  │  ├── Boris-Cherny编程变革与行业未来.md
+│  │  │  ├── C++零成本抽象原则.md
+│  │  │  ├── Comprehensive-Analysis-of-rathole-org-rathole.md
+│  │  │  ├── Empirical-evidence.md
+│  │  │  ├── Git-Best-Practices.md
+│  │  │  ├── How-I-Actually-Use-Opencode-As-A-Senior-Engineer.md
+│  │  │  ├── LazyVim配置教学.md
+│  │  │  ├── Learn-Claudecode.md
+│  │  │  ├── Linux-roadmap.md
+│  │  │  ├── Linux工具集.md
+│  │  │  ├── Loki-mode自动化开发模式.md
+│  │  │  ├── Make-a-dense-technical-spec-feel-alive-and-embodied,-not-just-parseable.md
+│  │  │  ├── MOC-Coding.md
+│  │  │  ├── My-2025-Neovim-+-Tmux-Workflow-As-A-DevOps-Engineer.md
+│  │  │  ├── Odin编程语言.md
+│  │  │  ├── Omarchy快捷指令.md
+│  │  │  ├── openclaw可能重启的原因分析.md
+│  │  │  ├── OS迁移方案-Omarchy-3-Technical-Operation-Guide-for-Engineers.md
+│  │  │  ├── python-performance-optimization.md
+│  │  │  ├── Python同步异步框架选择.md
+│  │  │  ├── Staff-Engineer必经之路.md
+│  │  │  ├── The-Future-of-Rust.md
+│  │  │  ├── Tmux操作.md
+│  │  │  ├── Tmux的display-popup.md
+│  │  │  ├── Ubuntu经验平滑迁移到Arch.md
+│  │  │  ├── WebSocket实时通信功能实现.md
+│  │  │  ├── 全栈开发feature四个阶段.md
+│  │  │  ├── 分布式系统要比其他领域更难.md
+│  │  │  ├── 在web-crawler中运用asyncio.md
+│  │  │  ├── 大规模开发流程2026-03-07.md
+│  │  │  ├── 当前CC已安装skill名称.md
+│  │  │  ├── 数据工程中pipeline.md
+│  │  │  ├── 某仓库readme.md
+│  │  │  ├── 标准化worktree创建流程.md
+│  │  │  ├── 用python生成代码演示动画.md
+│  │  │  ├── 第十一章：批处理.md
+│  │  │  ├── 系统设计四大领域.md
+│  │  │  └── 读生产级代码、学习顶级工程师的决策.md
+│  │  ├── English
+│  │  │  ├── Expression
+│  │  │  │  ├── Aim-to-make-200-mistakes-a-day.md
+│  │  │  │  ├── Eliminate-Weak-Language.md
+│  │  │  │  ├── Generic-Verbs-泛泛动词.md
+│  │  │  │  ├── How-to-make-yourself-impressive-instead-of-clear.md
+│  │  │  │  ├── How-to-Speak-So-That-People-Want-to-Listen.md
+│  │  │  │  ├── Lexical-Chunk.md
+│  │  │  │  ├── StarTrek台词-lexical-chunks.md
+│  │  │  │  ├── 从交谈中引申话题.md
+│  │  │  │  ├── 动词短语为王.md
+│  │  │  │  ├── 动词短语加常用表达.md
+│  │  │  │  ├── 反义词训练.md
+│  │  │  │  ├── 定声线收文案.md
+│  │  │  │  ├── 最小语言单元Track-every-step.md
+│  │  │  │  ├── 纽约vs伦敦语言风格对比.md
+│  │  │  │  ├── 纽约客_既聪明又诚实的气质.md
+│  │  │  │  ├── 翁家翌访谈-WhynotTV-关键可模仿点.md
+│  │  │  │  ├── 聪明且诚实表达示例.md
+│  │  │  │  ├── 英美顶级名校论文风格差异.md
+│  │  │  │  └── 融合词练习材料_10组高频连读句.md
+│  │  │  ├── MOC-English.md
+│  │  │  ├── Pronunciation
+│  │  │  │  └── 英国口音分布与RP模型.md
+│  │  │  ├── Style-Register
+│  │  │  │  ├── Blunt-vs.-Native.md
+│  │  │  │  ├── Smart-people-learn-languages-differently.md
+│  │  │  │  ├── Stand-up-comedy.md
+│  │  │  │  ├── 李立群语言风格档案.md
+│  │  │  │  ├── 生硬变自然.md
+│  │  │  │  ├── 纽约客口语和书面语标准差异_建造论证与还原经验.md
+│  │  │  │  ├── 雅思场景下的风格选择(写作).md
+│  │  │  │  └── 雅思场景下的风格选择(口语).md
+│  │  │  └── TED-Extraction
+│  │  │     ├── TED-taskaways.md
+│  │  │     ├── TED-Topics.md
+│  │  │     ├── TED精妙表达提取-How-to-mobilize-healthier-communities.md
+│  │  │     ├── TED精妙表达提取-Techlonogy.md
+│  │  │     └── 从TED官网演讲提取Tier2精确表达.md
+│  │  ├── Philosophy
+│  │  │  ├── formative-assessment（形成性评估）.md
+│  │  │  ├── IntelliJ-平台成功背后的软件工程哲学.md
+│  │  │  ├── MOC-Philosophy.md
+│  │  │  ├── Recognizing-emotional-&-behavioral-patterns.md
+│  │  │  ├── Steel-man-the-core-argument.md
+│  │  │  ├── understand-one-thing.md
+│  │  │  ├── Zellij-的设计哲学与Tmux.md
+│  │  │  ├── 人类行动系统的三层底座.md
+│  │  │  ├── 佛说譬喻经.md
+│  │  │  ├── 六项精进.md
+│  │  │  ├── 声与痕.md
+│  │  │  ├── 夜间技巧.md
+│  │  │  ├── 如何建立不求回报的深度连接.md
+│  │  │  ├── 存在自身显现.md
+│  │  │  ├── 学科底层图谱：跨学科心智模型与第一原理.md
+│  │  │  ├── 当下该做的事_控制杂念是修行.md
+│  │  │  ├── 情绪的分类.md
+│  │  │  ├── 提升心性-不可傲慢与怨恨.md
+│  │  │  ├── 提升思考深度的艺术.md
+│  │  │  ├── 改过路径.md
+│  │  │  ├── 斯多葛主义核心要点助你成为更好的自己.md
+│  │  │  ├── 星座参考.md
+│  │  │  ├── 茶余客话治学通义.md
+│  │  │  ├── 蚁群-超个体组织与社会性昆虫研究.md
+│  │  │  ├── 识别卓越：智力与心性的双重标准.md
+│  │  │  ├── 难而正确的事.md
+│  │  │  └── 非二元觉醒者-心齐之路.md
+│  │  ├── PKM
+│  │  │  ├── Claude-Code-反思笔记.md
+│  │  │  ├── Generating-executive-summary-and-emulating-key-points.md
+│  │  │  ├── Gitstar-Ranking---Top-GitHub-users-and-repositories.md
+│  │  │  ├── how-i-organise-everthing-in-obsidian.excalidraw.md
+│  │  │  ├── How-to-Actually-Make-New-Info-Stick.md
+│  │  │  ├── IDE认知理论.md
+│  │  │  ├── Journal-vs-Notes.md
+│  │  │  ├── L7级技术文档优先级模型.md
+│  │  │  ├── MBTI认知功能.md
+│  │  │  ├── MOC-PKM.md
+│  │  │  ├── Obsidian-CLI.md
+│  │  │  ├── Obsidian-CLI结合claude-code的用法.md
+│  │  │  ├── Obsidian-Stack-视图适用场景.md
+│  │  │  ├── Prompt-Engineering-Research-Journal.md
+│  │  │  ├── Rethinking-MY-PKM.md
+│  │  │  ├── T00压缩模型.md
+│  │  │  ├── Tiago-Forte-Pivot-Back.md
+│  │  │  ├── What-makes-documentation-good.md
+│  │  │  ├── What-not-文档.md
+│  │  │  ├── Workspace-笔记时间线.md
+│  │  │  ├── Youtube提取提示词持续增强.md
+│  │  │  ├── 个人操作系统-SOP模板日历示例.md
+│  │  │  ├── 个人立即可用的教育AI实用理念.md
+│  │  │  ├── 从激励鸡汤转向可复用的认知工具.md
+│  │  │  ├── 价值密度优先原则.md
+│  │  │  ├── 写好提示词Prompt.md
+│  │  │  ├── 反直觉笔记记录_把内容拆细+减掉上下文.md
+│  │  │  ├── 思维脑图LEP提要.md
+│  │  │  ├── 文档价值金字塔.md
+│  │  │  ├── 每周一次的反思.md
+│  │  │  ├── 泄露提示词笔记记录.md
+│  │  │  ├── 物理笔记本-+-Markdown-笔记-+-极简数字工具.md
+│  │  │  ├── 生产力系统构建.excalidraw.md
+│  │  │  ├── 策略工具箱.md
+│  │  │  ├── 系统化行动.md
+│  │  │  ├── 认知偏差-村上春树风格.md
+│  │  │  ├── 认知偏差列表.md
+│  │  │  └── 认知熵增管理系统.md
+│  │  └── transcript
+│  │     ├── 10-things-you-should-NEVER-do-as-an-English-learner!.md
+│  │     ├── Dandong_Border_Exploration_Script.md
+│  │     ├── IELTS_Speaking_Learning_Guide.md
+│  │     └── Visiting-Iraq-in-2026.md
+│  ├── 03_Resources
+│  │  ├── Research
+│  │  │  ├── books
+│  │  │  │  ├── Attachments
+│  │  │  │  │  └── Pasted-image-20260318004106.png
+│  │  │  │  ├── Essentialism-(Greg-McKeown)-(z-library.sk,-1lib.sk,-z-lib.sk).epub
+│  │  │  │  ├── For-Whom-the-Bell-Tolls.md
+│  │  │  │  ├── How-To-Win-Friends-and-Influence-People-(Dale-Carnegie)-(z-library.sk,-1lib.sk,-z-lib.sk).epub
+│  │  │  │  ├── Ikigai-(Héctor-García,-Francesc-Miralles)-(z-library.sk,-1lib.sk,-z-lib.sk).epub
+│  │  │  │  ├── Ikigai.md
+│  │  │  │  ├── Jane-Jacobs.md
+│  │  │  │  ├── Mind-Expanding-Books.md
+│  │  │  │  ├── MOC-Books.md
+│  │  │  │  ├── Prompt-Engineering-for-Generative-AI-Future-Proof-Inputs-for-Reliable-Al-Outputs-(James-Phoenix,-Mike-Taylor)-(z-library.sk,-1lib.sk,-z-lib.sk).pdf
+│  │  │  │  ├── Prompt-Engineering-for-LLMs-The-Art-and-Science-of-Building-Large-Language-Model-Based-Applications-(John-Berryman,-Albert-Ziegler).pdf
+│  │  │  │  ├── The-48-Laws-of-Power-(Robert-Greene).pdf
+│  │  │  │  ├── The-Artists-way-the.md
+│  │  │  │  ├── The-Body-Keeps-The-Score-Mind,-Brain-and-Body-In-The-Transformation-Of-Trauma-(Bessel-van-Der-Kolk).epub
+│  │  │  │  ├── The-Design-of-Everyday-Things---设计心理学.md
+│  │  │  │  ├── The-insane-of-Biology.md
+│  │  │  │  ├── The-Missing-README-A-Guide-for-the-New-Software-Engineer-(Chris-Riccomini-Dmitriy-Ryaboy).pdf
+│  │  │  │  ├── The-Missing-README.md
+│  │  │  │  └── The-Official-C.I.A.-Manual-of-Trickery-and-Deception-(Melton-H.-Keith,-Wallace-Robert)-(z-library.sk,-1lib.sk,-z-lib.sk).epub
+│  │  │  ├── Economics
+│  │  │  │  ├── The-Cantillon-Effect.md
+│  │  │  │  ├── the-Endowment-Effect.md
+│  │  │  │  └── 最近在用的提示词-冷门经济学领域原则概念.md
+│  │  │  ├── git-commit-strategy.md
+│  │  │  ├── git-workflow-commit-checklist.md
+│  │  │  ├── People
+│  │  │  │  ├── Amanda-Askell.md
+│  │  │  │  ├── Jane-Jacobs.md
+│  │  │  │  ├── MOC-People.md
+│  │  │  │  ├── Steven-Pink.md
+│  │  │  │  ├── Walter-Issacson.md
+│  │  │  │  └── 写作大师特性一览.md
+│  │  │  ├── Travel
+│  │  │  │  ├── MOC-Travel.md
+│  │  │  │  ├── 中国_丹东_鸭绿江畔的凝视.md
+│  │  │  │  ├── 学习材料
+│  │  │  │  │  ├── 01_目的地与环境_完整学习包.md
+│  │  │  │  │  ├── 02_交通与路线_完整学习包.md
+│  │  │  │  │  ├── 03_食物与餐厅_完整学习包.md
+│  │  │  │  │  ├── 04_价格与消费_完整学习包.md
+│  │  │  │  │  ├── 05_体验与评价_完整学习包.md
+│  │  │  │  │  ├── 06_互动与频道_完整学习包.md
+│  │  │  │  │  ├── README.md
+│  │  │  │  │  └── 辅助材料
+│  │  │  │  │     ├── YouTube话术模板集.md
+│  │  │  │  │     ├── 常见错误清单.md
+│  │  │  │  │     └── 总览_核心词汇速查表.md
+│  │  │  │  ├── 拍摄清单.md
+│  │  │  │  ├── 标题和钩子库.md
+│  │  │  │  ├── 格鲁吉亚_第比利斯_第1期.md
+│  │  │  │  ├── 海外旅行类6个核心词汇模块.md
+│  │  │  │  └── 街景实拍对话与B-roll语言设计规范.md
+│  │  │  ├── youtube
+│  │  │  │  ├── English-with-Venya.md
+│  │  │  │  ├── Every-explained-series.md
+│  │  │  │  ├── How-to-speak-more-clearly-at-work.md
+│  │  │  │  ├── IELTS-Academic-Vocabulary.md
+│  │  │  │  ├── Muscle-and-Brain-Age-Why-Strength-Training-Protects-Your-Mind-as-You-Get-Older.md
+│  │  │  │  ├── NYUs-2022-Commencement-Speaker-Taylor-Swift.md
+│  │  │  │  ├── Stop-Brainstorming-Do-THIS-Instead.md
+│  │  │  │  ├── 旅行-YouTuber-必备-300-句机场英语口播脚本.md
+│  │  │  │  └── 用词分析-Littele-Chinese-Everywhere.md
+│  │  │  ├── 环球旅行模板分析与优化方案.md
+│  │  │  └── 环球旅行模板变体指南.md
+│  │  ├── time-as-a-partner
+│  │  │  ├── CC-BY-NC-ND_license.md
+│  │  │  ├── README.md
+│  │  │  ├── time-as-a-partner-vol-I
+│  │  │  │  ├── Deconstructing-the-Tyranny-of-Efficiency.md
+│  │  │  │  └── time-as-a-partner-vol-I.md
+│  │  │  ├── time-as-a-partner-vol-II
+│  │  │  │  └── time-as-a-partner-vol-II.md
+│  │  │  ├── time-as-a-partner-vol-III
+│  │  │  │  └── time-as-a-partner-vol-III.md
+│  │  │  ├── time-as-a-partner-vol-IV
+│  │  │  │  └── time-as-a-partner-vol-IV.md
+│  │  │  ├── time-as-a-partner-vol-V
+│  │  │  │  └── time-as-a-partner-vol-V.md
+│  │  │  └── time-as-a-partner-vol-VI
+│  │  │     └── time-as-a-partner-vol-VI.md
+│  │  └── Tools
+│  │     ├── 2026-02-08.md
+│  │     ├── Agent专用工具+沙箱路径核心理解.md
+│  │     ├── Bash-Is-All-You-Need.md
+│  │     ├── Claude-Code通过OpenRouter调用模型.md
+│  │     ├── Conversation-Questions-for-the-ESLEFL-Classroom.md
+│  │     ├── Dotfies管理方案.md
+│  │     ├── MOC-Tools.md
+│  │     ├── Neovim---现代化可扩展编辑器.md
+│  │     ├── Omarchy中文用户须知.md
+│  │     └── Prompts技巧
+│  │        ├── IELTS-9.0-Precision-Engine.md
+│  │        ├── OKF-agent提示词.md
+│  │        ├── Youtube时间戳Coffechat要点表格(Anki制表)-xml格式.md
+│  │        ├── 提示路径压缩.md
+│  │        ├── 灵感卡片.md
+│  │        └── 雅思口语Part-2-动态串题系统提示词.md
+│  ├── 04_Archive
+│  │  ├── 11项值得借鉴的沟通特质.md
+│  │  ├── 14-Thinkers-Teach-You-How-to-Reshape-Cognition-with-Notes.md
+│  │  ├── 14.将事情做正确.md
+│  │  ├── 14位思想家教你用笔记重塑认知.md
+│  │  ├── 60+-Vegetables-Name-in-English.md
+│  │  ├── 100-(Short)-Rules-for-a-Better-Life.md
+│  │  ├── 806.-PERSEVERANCE,-POSITIVITY-&-PRACTICE-with-Santiago-Ruiz-de-Velasco-from-Oxford-University-Press.md
+│  │  ├── 2026-04-24-Action-Templates-from-Amanda-Askell.md
+│  │  ├── 2026-04-24-How-To-Succeed-With-Zero-Support.md
+│  │  ├── 2026-04-29-IELTS-HARSH-TRUTH.md
+│  │  ├── 2026-04-29-Proof-of-Concept.md
+│  │  ├── 2026-04-29-个人经济生产力.md
+│  │  ├── 2026-05-02-口语与写作的界限.md
+│  │  ├── 2026-06-17穷爸富爸.md
+│  │  ├── AGENT_TEAMS_COMPLETION_REPORT.md
+│  │  ├── AI时代100条Brutal-Honesty.md
+│  │  ├── ChatGPT两条产品线差异分析.md
+│  │  ├── Collocation-的系统分类.md
+│  │  ├── Collocation固定搭配.md
+│  │  ├── cousework和exam的区别.md
+│  │  ├── DELIVERY_CHECKLIST.md
+│  │  ├── Developing-a-Small-5-Acre-Homestead-to-Feed-Us-in-Uncertain-Times.md
+│  │  ├── fenwiitime-as-a-partner-《做时间的合伙人》.md
+│  │  ├── GPT5提示词指导书.md
+│  │  ├── grep.app-vs-github-search.md
+│  │  ├── grep.app-使用策略.md
+│  │  ├── grep.app代码搜索引擎使用策略.md
+│  │  ├── Halt-and-Catch-Fire-奔腾时代.md
+│  │  ├── Home-Office-Setup-(-May-22).md
+│  │  ├── how-to-actually-improve-your-English-speaking-skills-(episode-2).md
+│  │  ├── IMPLEMENTATION_SUMMARY.md
+│  │  ├── Inbox.md
+│  │  ├── Loss-of-Agency-&-Stability.md
+│  │  ├── OXFORD-4K-Narrated-Walking-Tour.md
+│  │  ├── rationale.md
+│  │  ├── Sourcegraph-代码搜索指南.md
+│  │  ├── Sourcegraph进阶.md
+│  │  ├── Sprinkles.md
+│  │  ├── Stop-us-pulling-in-different-directions-and-falling-apart.md
+│  │  ├── test.md
+│  │  ├── Thomson相关的两家出版商.md
+│  │  ├── TODO.md
+│  │  ├── Uber-nerd.md
+│  │  ├── Untitled-2026-03-06-1956.md
+│  │  ├── 六个月学会任何语言-Chris-Lonsdale.md
+│  │  ├── 突破停滞：圆圈图学习与成长指南——区分“引力问题”与“可控变量”.md
+│  │  ├── 语域切换-(Register).md
+│  │  ├── 语域差异.md
+│  │  └── 道德困境.md
+│  ├── 05_Journals
+│  │  ├── Attachments
+│  │  │  ├── 2f65362b50aaacae-1.png
+│  │  │  ├── 2f65362b50aaacae.png
+│  │  │  ├── 90%的问题与分歧都在参考框架里.png
+│  │  │  ├── Pasted-image-20260311151950.png
+│  │  │  ├── Pasted-image-20260311164321.png
+│  │  │  ├── Pasted-image-20260312185330.png
+│  │  │  ├── Pasted-image-20260312185651.png
+│  │  │  ├── Pasted-image-20260317223315.png
+│  │  │  ├── Pasted-image-20260411083254.png
+│  │  │  ├── Pasted-image-20260412110001.png
+│  │  │  ├── Pasted-image-20260415132640.png
+│  │  │  ├── Pasted-image-20260416091952.png
+│  │  │  ├── Pasted-image-20260429141555.png
+│  │  │  ├── Pasted-image-20260430133438.png
+│  │  │  ├── Pasted-image-20260502143641.png
+│  │  │  ├── Pasted-image-20260502145023.png
+│  │  │  ├── Pasted-image-20260523132725.png
+│  │  │  ├── 主客体转换.png
+│  │  │  ├── 区分控制因素与适应因素.png
+│  │  │  ├── 各主要学科的作用.jpg
+│  │  │  ├── 多身份多角度分析.png
+│  │  │  └── 将结构化思维转化为日常行动.png
+│  │  ├── Daily
+│  │  │  ├── 2026-03-12系统设计能力框架.md
+│  │  │  ├── 2026-03-13-FSIS-PATTERN-DRILL-METHODOLOGY.md
+│  │  │  ├── 2026-03-13-Speak-Less-Ask-More.md
+│  │  │  ├── 2026-03-15-Grubby.md
+│  │  │  ├── 2026-04-24-How-to-Talk-Like-a-Leader.md
+│  │  │  ├── 2026-04-29-娱乐雅思材料选择.md
+│  │  │  ├── 2026-05-02-历史-希罗多德.md
+│  │  │  ├── 2026-05-02-自主教育体系指南.md
+│  │  │  ├── 2026-05-04-全美资深编剧.md
+│  │  │  ├── 2026-05-09-LEPster中的俚语Slang.md
+│  │  │  ├── 2026-05-14-18-Claude-Chat-Commands.md
+│  │  │  ├── 2026-05-20-52个信息网站.md
+│  │  │  ├── 2026-06-03-口语写作风格对比.md
+│  │  │  ├── 2026-06-06-proximal-zone.md
+│  │  │  ├── 2026-06-14频道命名.md
+│  │  │  ├── 2026-06-16_带时间戳好友对话.md
+│  │  │  ├── 2026-06-17-embedding模型本地部署方案.md
+│  │  │  ├── 2026-06-17-Obsidan+NotebookLM.md
+│  │  │  ├── 2026-06-18-OKF-bundle.md
+│  │  │  ├── 2026-06-18一些提升claude输出质量的建议.md
+│  │  │  ├── 2026-06-23.md
+│  │  │  ├── 2026-06-24.md
+│  │  │  ├── 2026-06-26.md
+│  │  │  ├── 2026-06-28.md
+│  │  │  └── 2026-06-1227中学习技巧评级.md
+│  │  ├── MOC-Journals.md
+│  │  └── Reflection
+│  │     ├── 2026-06-05.md
+│  │     ├── 2026-06-13.md
+│  │     ├── 成长型思维.md
+│  │     └── 让未来边轻松的行为.md
+│  ├── 10_Templates
+│  │  ├── 2026-03-12YouTube-动词短语提示词模板.md
+│  │  ├── Archive
+│  │  │  ├── 环球旅行口播稿模板-历史型.md
+│  │  │  ├── 环球旅行口播稿模板-探索型.md
+│  │  │  └── 环球旅行口播稿模板-故事型.md
+│  │  ├── DailyNote.md
+│  │  ├── Template_Properties.md
+│  │  ├── 书籍笔记.md
+│  │  ├── 人物笔记模板.md
+│  │  ├── 工作项目笔记.md
+│  │  ├── 工具笔记.md
+│  │  ├── 斯多葛哲学日志.md
+│  │  ├── 环球旅行口播稿模板.md
+│  │  ├── 生物学研究笔记.md
+│  │  ├── 视频核心观点_中英对照+亮点解读.md
+│  │  └── 项目管理笔记.md
+│  ├── 20_Prompts
+│  │  └── copilot
+│  │     ├── conversations
+│  │     │  ├── 20260614_112358_IELTS_Speaking_Note_Optimization.md
+│  │     │  ├── 20260614_121701_```json___title_提示词设计评估与迭代建议,_summary_用户希望对其.md
+│  │     │  ├── 20260617_151556_Failed_Quiz_Generation.md
+│  │     │  ├── 20260618_130309_Convert_the_following_Obsidian_Markdown_note_into_a_single_Open.md
+│  │     │  ├── 20260619_095423_A-level_Note_Metadata_Generation.md
+│  │     │  ├── 20260624_133440_Cognitive_Seed_Phrases_in_Knowledge.md
+│  │     │  ├── 20260626_151231_记忆、行动与沟通价值.md
+│  │     │  └── 20260626_175657_钢铸论点应用与好处.md
+│  │     ├── custom
+│  │     │  ├── _Index_of_copilot-custom-prompts.md
+│  │     │  ├── Copilot提示词分类索引.md
+│  │     │  ├── Data-Analysis
+│  │     │  │  ├── DA-manictime今日活动日志分析.md
+│  │     │  │  ├── DA-NPL语义分析.md
+│  │     │  │  └── DA-对文件夹进行语义分析.md
+│  │     │  ├── Dataview查询模板.md
+│  │     │  ├── enhanced-prompt.md
+│  │     │  ├── FSRS增强版Anki抽认卡生成器.md
+│  │     │  ├── Knowledge
+│  │     │  │  ├── KM-4D笔记重构助手.md
+│  │     │  │  ├── KM-10%核心要素识别.md
+│  │     │  │  ├── KM-200字卡片笔记.md
+│  │     │  │  ├── KM-Canvas笔记生成器.md
+│  │     │  │  ├── KM-For-High-IQ-one-screen-summary.md
+│  │     │  │  ├── KM-TL;DR-summary.md
+│  │     │  │  ├── KM-Zettelkasten卡片生成器.md
+│  │     │  │  ├── KM-Zettelkasten洞见笔记.md
+│  │     │  │  ├── KM-Zettelkasten英文卡片生成器.md
+│  │     │  │  ├── KM-万能笔记重构引擎.md
+│  │     │  │  ├── KM-专业笔记优化助手.md
+│  │     │  │  ├── KM-作者认知与方法论审阅者.md
+│  │     │  │  ├── KM-全能知识精炼大师.md
+│  │     │  │  ├── KM-关键概念提取与应用路径分析.md
+│  │     │  │  ├── KM-可复用的知识单元风格改写.md
+│  │     │  │  ├── KM-大纲格式结构化笔记.md
+│  │     │  │  ├── KM-学术情报分析师.md
+│  │     │  │  ├── KM-心智模型原子笔记.md
+│  │     │  │  ├── KM-快速内容价值评估.md
+│  │     │  │  ├── KM-思维导图大纲.md
+│  │     │  │  ├── KM-深度研读与学术分析助手.md
+│  │     │  │  ├── KM-独立理解重构.md
+│  │     │  │  ├── KM-知识产品设计师.md
+│  │     │  │  ├── KM-知识图谱构建分析师.md
+│  │     │  │  ├── KM-知识探索蓝图生成器.md
+│  │     │  │  ├── KM-知识爆破手.md
+│  │     │  │  ├── KM-知识解构.md
+│  │     │  │  ├── KM-笔记反向工程分析师.md
+│  │     │  │  ├── KM-笔记核心要点速览.md
+│  │     │  │  ├── KM-笔记模块化正交设计原则.md
+│  │     │  │  ├── KM-笔记结构化处理器.md
+│  │     │  │  ├── KM-笔记降熵重构.md
+│  │     │  │  ├── KM-语义建模与知识工程专家.md
+│  │     │  │  ├── KM-费曼与第一性原理笔记精简.md
+│  │     │  │  ├── KM-资深文本挖掘与知识管理专家.md
+│  │     │  │  ├── KM-跨学科审核校对.md
+│  │     │  │  ├── KM-长青笔记重构器.md
+│  │     │  │  ├── KM-高效学习卡片生成器.md
+│  │     │  │  └── KM-高级学术研究与分析系统.md
+│  │     │  ├── Learning
+│  │     │  │  ├── LR-Anki闪卡生成器和知识萃取专家_Flashcards插件版.md
+│  │     │  │  ├── LR-FQA反复提问选择题.md
+│  │     │  │  ├── LR-FQA反复提问间隔复习版.md
+│  │     │  │  ├── LR-Obsidian2Anki题目生成.md
+│  │     │  │  ├── LR-个体发展刻意练习理论.md
+│  │     │  │  ├── LR-南科大每日三技能点.md
+│  │     │  │  ├── LR-如何有效地学习和传授知识.md
+│  │     │  │  ├── LR-案例驱动学习系统.md
+│  │     │  │  ├── LR-深度复盘私人教练.md
+│  │     │  │  ├── LR-科学记忆阅读法助手.md
+│  │     │  │  ├── LR-记忆增强专家.md
+│  │     │  │  ├── LR-记忆测验选择与论述.md
+│  │     │  │  └── LR-费曼学习法教学专家.md
+│  │     │  ├── Make-AI-response-sounds-more-human-like.md
+│  │     │  ├── Meta
+│  │     │  │  ├── META-Cheat-Sheet.md
+│  │     │  │  ├── META-CoT增强版系统提示词.md
+│  │     │  │  ├── META-Master-Prompt逆向工程提示词生成器.md
+│  │     │  │  ├── META-ReAct-AI执行代理.md
+│  │     │  │  ├── META-多Agent自适应内容生成.md
+│  │     │  │  └── META-提示词工程综合工具包.md
+│  │     │  ├── MISC
+│  │     │  │  ├── MISC-Google-Calendar日历生成器.md
+│  │     │  │  ├── MISC-Next-Step.md
+│  │     │  │  ├── MISC-Notion-AI主要功能提示词合集.md
+│  │     │  │  ├── MISC-PracticalExample.md
+│  │     │  │  ├── MISC-TodoList.md
+│  │     │  │  └── MISC-极简版.md
+│  │     │  ├── MOC_写作表达类提示词.md
+│  │     │  ├── MOC_学习记忆类提示词.md
+│  │     │  ├── MOC_思维框架类提示词.md
+│  │     │  ├── MOC_技术开发类提示词.md
+│  │     │  ├── MOC_知识管理类提示词.md
+│  │     │  ├── MOC_角色扮演类提示词.md
+│  │     │  ├── prompt_usage_tracker.md
+│  │     │  ├── README.md
+│  │     │  ├── Role-Play
+│  │     │  │  ├── RL-AI诤友.md
+│  │     │  │  ├── RL-Brian-Kernighan-AI助手.md
+│  │     │  │  ├── RL-C-level知识架构顾问.md
+│  │     │  │  ├── RL-life-coach.md
+│  │     │  │  ├── RL-Lisa知识渴望助理.md
+│  │     │  │  ├── RL-OReilly传奇技术编辑.md
+│  │     │  │  ├── RL-Role_CEO沉浸式模拟版.md
+│  │     │  │  ├── RL-Role_心理医生.md
+│  │     │  │  ├── RL-Role_网站设计顾问.md
+│  │     │  │  ├── RL-Role_资深全栈架构师.md
+│  │     │  │  ├── RL-Role_运动教练.md
+│  │     │  │  ├── RL-Steve-Jobs-Storyteller.md
+│  │     │  │  ├── RL-web-design-consultant.md
+│  │     │  │  ├── RL-一页法则战略顾问.md
+│  │     │  │  ├── RL-交互式探索者Lisa.md
+│  │     │  │  ├── RL-可配置沟通助理.md
+│  │     │  │  ├── RL-心理认知助手.md
+│  │     │  │  ├── RL-狐狸博士教师型AI.md
+│  │     │  │  ├── RL-独立开发者兼产品创意.md
+│  │     │  │  ├── RL-知识架构师笔记深度重构与升华.md
+│  │     │  │  ├── RL-知识架构顾问Fits-in核查.md
+│  │     │  │  ├── RL-硅谷技术布道师.md
+│  │     │  │  ├── RL-跨界策略顾问模式.md
+│  │     │  │  ├── RL-领域专家.md
+│  │     │  │  ├── RL-首席战略架构师.md
+│  │     │  │  ├── RL-首席技术专家.md
+│  │     │  │  ├── RL-首席智库专家.md
+│  │     │  │  └── RL-香港DSE顶流补习名师.md
+│  │     │  ├── simple-but-clear-English.md
+│  │     │  ├── Teacher.md
+│  │     │  ├── Tech-Dev
+│  │     │  │  ├── TD-AI精英学院课程页面开发规范.md
+│  │     │  │  ├── TD-Alias-系统基础设施栈.md
+│  │     │  │  ├── TD-HTML页面生成与排版优化.md
+│  │     │  │  ├── TD-LFSP风格AI助手.md
+│  │     │  │  ├── TD-Mermaid实体关系图.md
+│  │     │  │  ├── TD-PRD全链路分析与设计.md
+│  │     │  │  ├── TD-python之禅三原则.md
+│  │     │  │  ├── TD-Top1%程序员视角与逻辑.md
+│  │     │  │  ├── TD-上下文工程专家.md
+│  │     │  │  ├── TD-产品经理式问题解决方案.md
+│  │     │  │  ├── TD-代码审查专家.md
+│  │     │  │  ├── TD-代码解释.md
+│  │     │  │  ├── TD-快速理解代码的实战提示词.md
+│  │     │  │  ├── TD-技术术语表构建器.md
+│  │     │  │  ├── TD-技术知识萃取专家.md
+│  │     │  │  ├── TD-深度系统架构师.md
+│  │     │  │  ├── TD-系统架构演进.md
+│  │     │  │  └── TD-自动化方案设计助手.md
+│  │     │  ├── Thinking
+│  │     │  │  ├── TH-04推理扩展.md
+│  │     │  │  ├── TH-Compare&Contrast.md
+│  │     │  │  ├── TH-debate辩论性分析.md
+│  │     │  │  ├── TH-DIKW金字塔模型.md
+│  │     │  │  ├── TH-Hierarchy-is-everything.md
+│  │     │  │  ├── TH-PALC结构分析器.md
+│  │     │  │  ├── TH-PERE元认知引擎.md
+│  │     │  │  ├── TH-ROI重构.md
+│  │     │  │  ├── TH-SCQRA提问框架.md
+│  │     │  │  ├── TH-ToT策略优化.md
+│  │     │  │  ├── TH-三阶思考.md
+│  │     │  │  ├── TH-两阶段聚焦工作流.md
+│  │     │  │  ├── TH-严谨解释助手附推理过程.md
+│  │     │  │  ├── TH-主题追问问题生成器.md
+│  │     │  │  ├── TH-二八定律实用主义.md
+│  │     │  │  ├── TH-交互式苏格拉底诘问引擎.md
+│  │     │  │  ├── TH-任务分解专家.md
+│  │     │  │  ├── TH-保罗格雷厄姆PG视角.md
+│  │     │  │  ├── TH-借助经验使抽象概念可感知.md
+│  │     │  │  ├── TH-决策科学顾问.md
+│  │     │  │  ├── TH-升维思考.md
+│  │     │  │  ├── TH-图式思考.md
+│  │     │  │  ├── TH-基于CIS架构的ToT扩展.md
+│  │     │  │  ├── TH-复杂性分析分层抽象.md
+│  │     │  │  ├── TH-多维度追问框架.md
+│  │     │  │  ├── TH-审视者角度更清晰高效.md
+│  │     │  │  ├── TH-工程学思维通用提示词.md
+│  │     │  │  ├── TH-建模分析.md
+│  │     │  │  ├── TH-归纳推理引擎.md
+│  │     │  │  ├── TH-思想精炼与重塑.md
+│  │     │  │  ├── TH-抽象层次分析器.md
+│  │     │  │  ├── TH-明确意图沟通价值与可维护.md
+│  │     │  │  ├── TH-条件性反射提问.md
+│  │     │  │  ├── TH-概念剖析机.md
+│  │     │  │  ├── TH-模式调用Plan-then-Execution.md
+│  │     │  │  ├── TH-求实型问题分析助手.md
+│  │     │  │  ├── TH-洞见提取器.md
+│  │     │  │  ├── TH-深度思考引路人.md
+│  │     │  │  ├── TH-深度提问并Wiki回答.md
+│  │     │  │  ├── TH-清晰度架构师.md
+│  │     │  │  ├── TH-第一性原理思考者.md
+│  │     │  │  ├── TH-策略结晶采集器.md
+│  │     │  │  ├── TH-系统化提问.md
+│  │     │  │  ├── TH-系统思考架构师.md
+│  │     │  │  ├── TH-结构化思维专家.md
+│  │     │  │  ├── TH-结构化拆解能力Task-Graph建模.md
+│  │     │  │  ├── TH-苏菲式认知重构元提示词.md
+│  │     │  │  ├── TH-认知审计员.md
+│  │     │  │  ├── TH-认知降噪专家.md
+│  │     │  │  ├── TH-论题与结论.md
+│  │     │  │  ├── TH-证伪分析提示词.md
+│  │     │  │  ├── TH-费曼第一原理排除法.md
+│  │     │  │  ├── TH-退后提示Step-back-Prompting.md
+│  │     │  │  ├── TH-通用思维模式元认知式提问.md
+│  │     │  │  └── TH-逻辑审计与批判性思维综合工具.md
+│  │     │  ├── Writing
+│  │     │  │  ├── WR-AI-writing-tutor.md
+│  │     │  │  ├── WR-DSE高分写作风格改写.md
+│  │     │  │  ├── WR-empirical-evidence风格重写.md
+│  │     │  │  ├── WR-GRE英文写作大师.md
+│  │     │  │  ├── WR-IELTS-style-essay.md
+│  │     │  │  ├── WR-Roast-writing-and-feedback.md
+│  │     │  │  ├── WR-Role_完型填空生成.md
+│  │     │  │  ├── WR-spoken-English-teacher.md
+│  │     │  │  ├── WR-Storyteller.md
+│  │     │  │  ├── WR-storyteller结构化故事生成引擎.md
+│  │     │  │  ├── WR-一句话论文.md
+│  │     │  │  ├── WR-引入名人名言.md
+│  │     │  │  ├── WR-文本视觉优化专家.md
+│  │     │  │  ├── WR-极简主义技术文档专家.md
+│  │     │  │  ├── WR-深度文本架构师.md
+│  │     │  │  ├── WR-清晰化表达.md
+│  │     │  │  ├── WR-自定义风格写作编辑.md
+│  │     │  │  └── WR-英文严谨性表达理论框架.md
+│  │     │  ├── 为当前笔记生成Properties.md
+│  │     │  ├── 动词短语生成器.md
+│  │     │  ├── 助记.md
+│  │     │  ├── 四瑕八冥九蠹核查改进之法.md
+│  │     │  ├── 快速问答生成(Anki格式可选).md
+│  │     │  ├── 提示词质量评估标准.md
+│  │     │  ├── 认知与传播专家.md
+│  │     │  ├── 雅思8.5口语语料生成规则.md
+│  │     │  ├── 雅思官方标准的完整口语套题.md
+│  │     │  └── 雅思高分素材提取器.md
+│  │     └── memory
+│  │        └── Recent-Conversations.md
+│  ├── 90_Attachments
+│  │  ├── Books
+│  │  └── home.jpg
+│  └── 99_Meta
+│     ├── flashcard_design_guide.md
+│     ├── Karpathy-LLM-Wiki-Conversion-SOP.md
+│     ├── pathtree.txt
+│     ├── regenerate-mocs.sh
+│     ├── scripts
+│     │  ├── create_dashboard.sh
+│     │  ├── monthly_maintenance.sh
+│     │  ├── step4_merge.sh
+│     │  ├── step5_properties.sh
+│     │  ├── step6_journal_and_moc.sh
+│     │  ├── step7_cleanup.sh
+│     │  ├── step7b_inbox_and_archive.sh
+│     │  ├── triage_inbox.sh
+│     │  └── weekly_maintenance.sh
+│     ├── 目录结构说明.md
+│     └── 知识库定期维护操作指导书.md
+├── uploads
+│  ├── KM-4D笔记重构助手.md
+│  ├── KM-Zettelkasten卡片生成器.md
+│  ├── KM-万能笔记重构引擎.md
+│  ├── 提示词质量评估标准.md
+│  ├── 雅思8.5口语语料生成规则.md
+│  └── 雅思官方标准的完整口语套题.md
+└── wiki
+   ├── areas
+   ├── concepts
+   ├── entities
+   ├── INDEX.md
+   ├── LOG.md
+   ├── meta
+   │  ├── Batch-Conversion-Guide.md
+   │  ├── Conversion-Tracker.md
+   │  ├── Full-Batch-Conversion-Plan.md
+   │  ├── Initialization-Report.md
+   │  ├── Prompts-Batch-02-files.txt
+   │  └── scripts
+   │     ├── generate-batch-list.sh
+   │     └── update-tracker.sh
+   ├── OVERVIEW.md
+   ├── projects
+   ├── prompts
+   │  ├── IELTS-8.5-Speaking-Corpus-Generation-Rules.md
+   │  ├── IELTS-Official-Speaking-Question-Set-Generator.md
+   │  ├── KM-4D-Note-Restructuring-Assistant.md
+   │  ├── KM-Universal-Note-Restructuring-Engine.md
+   │  ├── KM-Zettelkasten-Card-Generator.md
+   │  └── Prompt-Quality-Assessment-Standard.md
+   ├── qa
+   ├── quickref
+   ├── SCHEMA.md
+   ├── sources
+   ├── syntheses
+   └── templates

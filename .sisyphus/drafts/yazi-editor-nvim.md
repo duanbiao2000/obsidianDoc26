@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-02-06
+---
+
 # Draft: Change yazi default editor to nvim
 
 ## Requirements

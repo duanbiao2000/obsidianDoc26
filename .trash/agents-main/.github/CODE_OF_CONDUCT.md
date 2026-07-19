@@ -1,3 +1,8 @@
+---
+tags: []
+created: 2026-02-02
+---
+
 # Code of Conduct
 
 ## Our Pledge
