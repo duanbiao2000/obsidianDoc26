@@ -4,7 +4,9 @@ created: 2026-04-23
 ---
 
 # High-Scoring Expressions & Core Viewpoints (with Original Examples)
+
 ## Core Viewpoints + Original Quotes
+
 1. **Vocabulary matters far more than grammar for language fluency**
    > *"Vocabulary is the biggest not to crack in language learning not grammar."*
    > *"Words over grammar."*
@@ -35,6 +37,7 @@ created: 2026-04-23
 ---
 
 ## High-Scoring Expressions (IELTS Speaking/Writing) + Original Examples
+
 1. **golden nuggets of information** (valuable insights)
    > *"Some real golden nuggets of information so stick around."*
 

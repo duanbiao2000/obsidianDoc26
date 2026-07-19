@@ -31,6 +31,7 @@
 **Source**: `raw/20_Prompts/copilot/custom/`
 
 **Recommended Files for P02** (after P01):
+
 - All remaining files in `copilot/custom/` except the 4 already converted
 - Focus on `KM-*`, `TH-*`, `WR-*`, `RL-*`, `TD-*` series
 
@@ -43,6 +44,7 @@
 **Source**: `raw/02_Areas/English/Expression/`
 
 **Key Files**:
+
 - `动词短语为王.md`
 - `Lexical-Chunk.md`
 - `从交谈中引申话题.md`
@@ -60,11 +62,13 @@
 **Source**: `raw/01_Projects/IELTS-Prep/Speaking/`
 
 **S01 Focus**:
+
 - Core frameworks (`口语流利度第一性原理.md`, `口语高分的底层逻辑.md`, `雅思高分口语力场分析.md`)
 - Part 1 & Part 3 resources
 - High-frequency question banks
 
 **S02 Focus**:
+
 - Part 2 cue cards
 - `雅思口语10篇_Part2&3.md`
 - `雅思口语360篇_Part1.md`
@@ -111,6 +115,7 @@ echo "Total files: $(wc -l < "${BATCH_NAME}-files.txt")"
 ```
 
 **Example**:
+
 ```bash
 chmod +x generate-batch-list.sh
 ./generate-batch-list.sh "raw/20_Prompts/copilot/custom" "Prompts-Batch-02"

@@ -34,6 +34,7 @@ SORT file.cday DESC
 ---
 
 > [!tip] 周日回顾流程
+>
 > 1. 扫一遍本周 Daily，标记有价值段落
 > 2. 将可复用内容提取到对应 Area
 > 3. 在 Reflection 写一条周总结

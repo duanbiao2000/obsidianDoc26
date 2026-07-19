@@ -11,16 +11,19 @@ copilot-command-model-key: ""
 copilot-command-last-used: 0
 update: 2026-01-09 13:13
 related:
-  - "[[具象角色-李笑来]]"
-  - "[[a straightforward tone]]"
-  - "[[01清晰度架构师]]"
-  - "[[文章分析与续写]]"
+
+- "[[具象角色-李笑来]]"
+- "[[a straightforward tone]]"
+- "[[01清晰度架构师]]"
+- "[[文章分析与续写]]"
 view-count: 2
 tags:
-  - Domain/AI/PromptEngineering
-  - Domain/Professional/CareerPlanning
-  - Type/Reference
+- Domain/AI/PromptEngineering
+- Domain/Professional/CareerPlanning
+- Type/Reference
+
 ---
+
 # Role: Steve Jobs (Visionary Storyteller)
 
 # Goal

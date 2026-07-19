@@ -54,6 +54,7 @@ tags:
 [Timestamp: 2026/06/30 11:31:45]
 
 **user**: - **1. Concept Pair (概念对): Speak Less, Ask More (少说多问) & Active Listening (积极倾听)**
+
 - **Definition (定义):** "Speak Less, Ask More" is a communication strategy emphasizing the reduction of direct lecturing and the increase of purposeful inquiry. / “少说多问”是一种强调减少直接说教、增加有目的性提问的沟通策略。
 - **Association (关联):** It is the practical execution of Active Listening. By intentionally speaking less, we create the cognitive space needed to truly hear, process, and understand others. / 它是“积极倾听”的具体实践。通过有意识地少说，我们为真正倾听、加工和理解他人创造了所需的认知空间。
 
@@ -118,6 +119,7 @@ TABLE mood, energy, focus
 FROM "raw/05_Journals/Daily"
 WHERE created >= date(today) - dur(7 days)
 SORT created DESC
+
 ```
 mood energy focus 其中的mood energy focus如何填写? 选择何种数据类型, 和可以填写的内容?
 [Context: Notes: raw/05_Journals/Daily/2026-06-30.md]
@@ -176,9 +178,11 @@ energy: 4
 focus: 5
 ---
 ```
+
 *注：在 Obsidian 的 Properties 界面中，把 `energy` 和 `focus` 的属性类型（Property Type）点击切换为 **Number**。*
 
 #### 方案 B：视觉流（在 Dataview 表格中看起来最直观好看）
+
 在 Properties 中这样填写：
 
 ```yaml
@@ -192,6 +196,7 @@ energy: "⚡⚡⚡"
 focus: "🎯 极度专注"
 ---
 ```
+
 *注：在 Obsidian 的 Properties 界面中，这三个属性类型全部保持为 **Text**。*
 
 ---
@@ -199,10 +204,10 @@ focus: "🎯 极度专注"
 ### 3. 如何在 Obsidian 界面中修改属性类型？
 
 - 1. 打开你的日记（例如 [[2026-06-30]]）。
-- 2. 在日记最顶部的属性区域，将鼠标悬停在属性名称（如 `energy`）左侧的小图标上。
-- 3. 点击该图标，在弹出的菜单中选择 **"Change property type"（更改属性类型）**。
-- 4. 将 `mood` 设为 `Text`，将 `energy` 和 `focus` 根据上面的选择设为 `Number` 或 `Text`。
-- 5. 之后你只需要在右侧直接输入对应的值，Dataview 就会自动实时读取并展示在你的 7 日回溯表格中了！
+- 1. 在日记最顶部的属性区域，将鼠标悬停在属性名称（如 `energy`）左侧的小图标上。
+- 1. 点击该图标，在弹出的菜单中选择 **"Change property type"（更改属性类型）**。
+- 1. 将 `mood` 设为 `Text`，将 `energy` 和 `focus` 根据上面的选择设为 `Number` 或 `Text`。
+- 1. 之后你只需要在右侧直接输入对应的值，Dataview 就会自动实时读取并展示在你的 7 日回溯表格中了！
 [Timestamp: 2026/06/30 12:40:17]
 
 **user**: templater和quick add如何配合使用?
@@ -223,6 +228,7 @@ focus: "🎯 极度专注"
 最经典的配合方式是：**用 QuickAdd 的 Template Choice（模板选择）功能去创建一个新笔记，并在这个过程中调用 Templater 模板。**
 
 为了让它们完美无缝配合，你必须在 QuickAdd 中开启一个**关键开关**：
+
 - 在 QuickAdd 的具体模板设置中，必须勾选 **"Run Templater" (运行 Templater)**。这样，当 QuickAdd 创建新文件时，它会主动通知 Templater：“我已经把文件建好了，你现在可以解析里面的 `<% ... %>` 代码了。”
 
 ---
@@ -262,8 +268,8 @@ status: todo
 #### 第二步：在 QuickAdd 中配置动作（Choice）
 
 - 1. 打开 QuickAdd 设置，在 **Manage Choices** 下方的输入框输入：`新建任务卡片`。
-- 2. 右侧类型选择 **Template**，然后点击 **Add Choice**。
-- 3. 点击新生成的 `新建任务卡片` 右侧的 **齿轮图标（配置）** 进入详细设置。
+- 1. 右侧类型选择 **Template**，然后点击 **Add Choice**。
+- 1. 点击新生成的 `新建任务卡片` 右侧的 **齿轮图标（配置）** 进入详细设置。
 
 ---
 
@@ -283,9 +289,9 @@ status: todo
 #### 第四步：运行与绑定快捷键
 
 - 1. 关闭设置，在 QuickAdd 主界面找到你刚刚创建的 `新建任务卡片`。
-- 2. 点击它最右侧的 **闪电图标**（启用快捷方式），或者在 Obsidian 的快捷键设置里搜索 `QuickAdd: 新建任务卡片` 并绑定一个快捷键（比如 `Ctrl + Alt + T`）。
-- 3. 按下快捷键，你会看到弹出一个输入框，输入：`重构国际化团队沟通工作流`。
-- 4. 回车，QuickAdd 会瞬间在指定文件夹生成一份名为 `Task-2026-06-30-重构国际化团队沟通工作流` 的笔记，且里面的创建时间、标题、任务列表已经全部被 Templater 自动填充完毕！
+- 1. 点击它最右侧的 **闪电图标**（启用快捷方式），或者在 Obsidian 的快捷键设置里搜索 `QuickAdd: 新建任务卡片` 并绑定一个快捷键（比如 `Ctrl + Alt + T`）。
+- 1. 按下快捷键，你会看到弹出一个输入框，输入：`重构国际化团队沟通工作流`。
+- 1. 回车，QuickAdd 会瞬间在指定文件夹生成一份名为 `Task-2026-06-30-重构国际化团队沟通工作流` 的笔记，且里面的创建时间、标题、任务列表已经全部被 Templater 自动填充完毕！
 
 ---
 
@@ -338,8 +344,10 @@ focus: <% await tp.system.suggester(["🎯🎯🎯 极度专注", "🎯🎯 中�
 ---
 ```
 
-#### 💡 代码原理解析：
+#### 💡 代码原理解析
+
 `tp.system.suggester([显示文本列表], [实际插入值列表])` 接收两个列表：
+
 - **第一个列表**：弹窗中展示给你看的文字（带中文，方便你肉眼选择）。
 - **第二个列表**：你选中后，**真正写入笔记中的纯 Emoji**。
 - 前面的 `await` 确保这三个弹窗会**依次出现**，填完一个才弹下一个。
@@ -351,11 +359,11 @@ focus: <% await tp.system.suggester(["🎯🎯🎯 极度专注", "🎯🎯 中�
 当你通过 **QuickAdd** 运行这个模板创建新一天的日记（例如 [[2026-06-30]]）时：
 
 - 1. QuickAdd 会瞬间创建文件。
-- 2. 紧接着，Templater 会在屏幕中央弹出一个选择框，问你今天的 **`mood`**：
+- 1. 紧接着，Templater 会在屏幕中央弹出一个选择框，问你今天的 **`mood`**：
   - 你会看到：`😊 愉快/开心`、`🚀 动力澎湃/高能` 等选项。
-- 3. 回车选择后，立刻弹出第二个选择框问你今天的 **`energy`**（`⚡⚡⚡`、`⚡⚡`、`⚡`）。
-- 4. 再次回车，弹出第三个选择框问你今天的 **`focus`**（`🎯🎯🎯`、`🎯🎯`、`🎯`）。
-- 5. 全部选完后，日记的属性区域就会被完美填充，只留下纯 Emoji，干净利落。
+- 1. 回车选择后，立刻弹出第二个选择框问你今天的 **`energy`**（`⚡⚡⚡`、`⚡⚡`、`⚡`）。
+- 1. 再次回车，弹出第三个选择框问你今天的 **`focus`**（`🎯🎯🎯`、`🎯🎯`、`🎯`）。
+- 1. 全部选完后，日记的属性区域就会被完美填充，只留下纯 Emoji，干净利落。
 
 例如，如果你分别选了第二个、第一个和第三个，生成的 YAML 属性会自动变成：
 

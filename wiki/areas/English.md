@@ -19,6 +19,7 @@ related:
 ## 核心子主题
 
 ### 口语能力
+
 - [[Oral-Fluency-First-Principles]]
 - [[Input-to-Output-Conversion-Loop]]
 - [[Chunk-Based-Speaking]]
@@ -27,6 +28,7 @@ related:
 - [[Shadowing-and-Retelling-Method]]
 
 ### 表达与风格
+
 - [[Eliminate-Weak-Language]]
 - [[Make-Yourself-Impressive]]
 - [[Minimal-Language-Unit-Tracking]]
@@ -34,6 +36,7 @@ related:
 - [[Topic-Extension-Technique]]
 
 ### 概念与框架
+
 - [[Semantic-Compression]]
 - [[Knowledge-Refinement-Modes]]
 - [[Note-Classification-Matrix]]

@@ -17,7 +17,7 @@ langr-origin:
 
 langr: xxx
 
-source: https://www.youtube.com/watch?v=Iz9HydQZhPo
+source: <https://www.youtube.com/watch?v=Iz9HydQZhPo>
 
 langr-pos: "1"
 
@@ -31,10 +31,10 @@ langr-pos: "1"
 
 - **You have a runway to adjust to change**
     → _You are given a transition period to mentally prepare for upcoming changes._
-    
+
 - **Forced change strips away your agency**
     → _When change is imposed, it deprives individuals of their sense of control._
-    
+
 - **Creates a difficult emotional landscape**
     → _This results in a psychologically challenging state marked by uncertainty and anxiety._
 
@@ -70,12 +70,12 @@ langr-pos: "1"
 ## 2. operational language（偏学术/商业场景）
 
 - **Housekeeping**
-    - 含义：例行说明 / 基础安排
-    - _Before we begin, let me go through some housekeeping details._
+  - 含义：例行说明 / 基础安排
+  - _Before we begin, let me go through some housekeeping details._
 - **Massive missed opportunity for optimization**
-    - _This represents a significant inefficiency that could have been avoided._
+  - _This represents a significant inefficiency that could have been avoided._
 - **Operational imperative**
-    - _This is not optional; it is a critical requirement for success._
+  - _This is not optional; it is a critical requirement for success._
 
 # 三、逻辑表达模板（雅思写作/Part 3高分结构）
 
@@ -160,7 +160,6 @@ langr-pos: "1"
 3. 影响（loss of control / emotional difficulty）
 4. 案例（real-world application）
 5. 升华（importance of precision / communication）
-
 
 ^^^words
 

@@ -6,6 +6,7 @@ created: 2026-03-27
 Refined prompt (reconstructed in English):
 
 >“From the transcript of the YouTube video ‘ASMR | Cozy Library Assistant | Labeling, Scanning, Book Sounds 📚’, ==extract the transition sentences and phrases that connect ideas== (both at the beginning of paragraphs and inside them), then categorize them by function (e.g., opening/introducing, step‑progression, topic‑shifting, summarizing/closing). Provide the categorized list in English only.”
+>
 ## 1. Opening / introducing ideas
 
 These bring in a new mini-topic or task.

@@ -28,6 +28,7 @@ This skill combines three specialized skills into one comprehensive agent capabi
 6. Report results clearly.
 
 **Golden Rules**:
+
 - Never modify anything in `raw/`.
 - All work happens in `wiki/`.
 - One note can generate multiple page types.
@@ -80,12 +81,14 @@ This skill combines three specialized skills into one comprehensive agent capabi
 ## 4. Quality Standards
 
 ### General Requirements
+
 - Minimum **2 outgoing wikilinks** per page
 - Proper YAML frontmatter on every page
 - High information density
 - Clear justification when using multi-type conversion
 
 ### Wiki Style Requirements (必须遵循)
+
 - 每篇笔记必须有清晰的定义或核心要点（概念类必须有 `## Definition`）
 - 优先使用 bullet points，而非长段落
 - 提供正例或反例（概念类笔记）
@@ -93,6 +96,7 @@ This skill combines three specialized skills into one comprehensive agent capabi
 - 增加“为什么重要”或“使用场景”（强烈推荐）
 
 ### Optional Enhancements
+
 - 增加版本号（适合经常迭代的内容）
 - 添加“常见误区”
 - 区分“底层原理”与“操作技巧”

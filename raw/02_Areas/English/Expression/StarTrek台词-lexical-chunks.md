@@ -4,7 +4,9 @@ created: 2026-03-13
 ---
 
 # 实用英文语块（原文例句+音标+同义词/替换用法）
+
 ## 一、日常交际&礼貌用语
+
 1. **permission to do sth**
    释义：允许做某事
    例句：Permission to come aboard allowed?
@@ -22,6 +24,7 @@ created: 2026-03-13
    替换：It’s a privilege to... / I’m honored to... / It’s my pleasure to...
 
 ## 二、职场/工作通用
+
 1. **have the conn**
    释义：接管负责、主持工作
    例句：Scotty, you have the conn.
@@ -49,6 +52,7 @@ created: 2026-03-13
    替换：handle affairs / do business / manage matters
 
 ## 三、应急&行动指令
+
 1. **stand down**
    释义：解除戒备、退下、停止行动
    例句：Klingon vessel, stand down or be fired upon!
@@ -71,6 +75,7 @@ created: 2026-03-13
    替换：target acquired / locked onto the target / fix on the target
 
 ## 四、情感&状态表达
+
 1. **feel fine**
    释义：感觉还好、身体无碍
    例句：Doctor, I feel fine.
@@ -92,6 +97,7 @@ created: 2026-03-13
    替换：a constant flow of / an endless stream of / a succession of
 
 ## 五、高频固定搭配
+
 1. **make progress**
    释义：取得进展
    例句：We're making progress.
@@ -115,6 +121,7 @@ created: 2026-03-13
 我从原文里**精准提取动词短语（Phrasal Verbs）**和**高级正式表达（Advanced Expressions）**，保留**原文例句+易错音标+替换用法**，纯实用可直接套用：
 
 # 一、动词短语（Phrasal Verbs）
+
 1. **stand down**
    释义：解除戒备；停止行动；退下
    例句：Klingon vessel, stand down or be fired upon!
@@ -179,6 +186,7 @@ created: 2026-03-13
 ---
 
 # 二、高级正式表达（书面/职场/演讲可用）
+
 1. **conduct business**
    释义：处理事务；洽谈工作
    例句：We should conduct our business face to face.
@@ -236,11 +244,10 @@ created: 2026-03-13
     例句：Mr Scott has volunteered to pilot.
     替换：offer to do / come forward to do
 
-
-
 我从这段《Star Trek》台词里，**只提取中高级、雅思/托福口语写作通用、能直接提分**的表达，分**高级短语、高级句式、高级词汇**三类，附**原文例句+用法+替换**，无低级词、无科幻生僻词：
 
 # 一、中高级固定短语（Collocations）
+
 1. **a steady stream of**
    释义：源源不断的……
    原文：There's been a steady stream of visitors through here today.
@@ -285,6 +292,7 @@ created: 2026-03-13
 ---
 
 # 二、中高级句式（Sentence Patterns）
+
 1. **It has been my great honour to do…**
    释义：做……是我莫大的荣幸
    原文：It has been my great honour and joy to know you.
@@ -318,6 +326,7 @@ created: 2026-03-13
 ---
 
 # 三、中高级形容词/副词（Vocabulary）
+
 1. **crucial** /ˈkruːʃl/
    释义：至关重要的
    原文：attending a crucial economic conference.
@@ -345,6 +354,7 @@ created: 2026-03-13
 我帮你**从这段台词里挖「你之前没注意到、但雅思口语/写作超加分」的隐藏学习材料**，全是**中高级、可直接套用、避开科幻梗**的内容，分6类，都是你之前没提取到的：
 
 # 一、隐藏高阶动词短语（雅思7+必背）
+
 1. **be incapacitated with**
    原文：Chekov is incapacitated with a debilitating disease.
    释义：因……丧失能力/无法行动
@@ -378,6 +388,7 @@ created: 2026-03-13
 ---
 
 # 二、逻辑论证高级结构（Part3 直接提分）
+
 1. **The success of … lies in …**
    原文：The success of the trick lies in your seeing what he wants.
    释义：……的成功关键在于……
@@ -401,6 +412,7 @@ created: 2026-03-13
 ---
 
 # 三、描述「困境/危机/失败」的高级表达
+
 1. **economic chaos**
    原文：We have economic chaos, failing worlds.
    释义：经济混乱（可泛化为：混乱局面）
@@ -424,6 +436,7 @@ created: 2026-03-13
 ---
 
 # 四、人生感悟/情感表达（Part2 讲故事神器）
+
 1. **It wasn’t enough just to …**
    原文：It wasn’t enough just to have my commission.
    释义：仅仅……是不够的
@@ -447,6 +460,7 @@ created: 2026-03-13
 ---
 
 # 五、正式礼貌/沟通高阶句（比简单句高1分）
+
 1. **Permit us to …**
    原文：Permit us to escort you to your quarters.
    释义：请允许我们……（正式礼貌）
@@ -464,6 +478,7 @@ created: 2026-03-13
 ---
 
 # 六、高级形容词/副词（替换简单词）
+
 1. **debilitating** /dɪˈbɪlɪteɪtɪŋ/
    释义：令人衰弱的、摧残性的
    替换：bad / serious
@@ -485,11 +500,12 @@ created: 2026-03-13
    释义：主动自愿做……
    替换：offer to do
 
-
 我把这段**《星际迷航：新旅程》**里的**专属科幻梗、圈内行话、致敬原剧的彩蛋**全给你扒出来，分「**星舰专属硬核梗**」「**经典剧情致敬梗**」「**通用科幻梗**」三类，标注：原文+含义+科幻背景+能不能用在雅思里，你一眼就能分清哪些是梗、哪些能学：
 
 # 一、Star Trek 专属·硬核科幻梗（只有 Trek 迷才懂，**雅思别直接用**）
+
 这些是本IP独有的术语、设定，属于**科幻圈黑话**，日常口语/雅思不能直接照搬，但可以**理解背景**：
+
 1. **Captain’s log / Stardate**
    原文：Captain's log, stardate 6031.2
    梗义：**舰长日志 / 星历**
@@ -542,7 +558,9 @@ created: 2026-03-13
 ---
 
 # 二、致敬原剧·剧情彩蛋梗（老粉才懂的怀旧梗）
+
 这段是**粉丝自制剧**，埋了很多对1966年原版《星际迷航》的致敬，属于**情怀科幻梗**：
+
 1. **Tribbles**
    原文：[Both together] Tribbles! (laughing)
    梗义：**崔宝**
@@ -565,7 +583,9 @@ created: 2026-03-13
 ---
 
 # 三、通用科幻梗（不局限Star Trek，**雅思可以转化使用**）
+
 这些不是某部剧专属，是**全科幻圈通用**，可以提炼成高级表达：
+
 1. **Space, the final frontier**
    原文：Space, the final frontier.
    可转化：宇宙是**最后的边疆**，用于描述**探索、科技、未来**话题。
@@ -584,6 +604,7 @@ created: 2026-03-13
 ---
 
 # 总结（给你极简版）
+
 - **纯科幻梗**：beam aboard、have the conn、phasers、cloak、Klingon → 只用来了解科幻，**雅思别直接用**
 - **致敬梗**：Tribbles、Apollo、To boldly go… → 科幻圈情怀梗
 - **能学的**：final frontier、explore new worlds、rapid aging → 可以转化成**雅思口语/写作高级表达**
@@ -594,6 +615,7 @@ created: 2026-03-13
 ---
 
 ## 一、中高级动词短语（Verb Phrases）
+
 1. **act immediately**
    /ækt ɪˈmiːdiətli/
    例句：If we do not act immediately Our Life as we know it perhaps the very existence of the Federation will end.
@@ -669,6 +691,7 @@ created: 2026-03-13
 ---
 
 ## 二、惯用语 & 固定习语（Idioms）
+
 1. **deja vu**
    /ˌdeɪʒɑː ˈvuː/（极易读错，重音在vu）
    例句：Helm lay in a course deja vu all over again.
@@ -720,6 +743,7 @@ created: 2026-03-13
 ---
 
 ## 三、高级固定搭配（Collocations）
+
 1. **distress signal**
    /dɪˈstres ˈsɪɡnl/
    例句：We've received a one distress signal from an automated security beacon.
@@ -766,6 +790,7 @@ created: 2026-03-13
 ---
 
 # 一、高级动词短语（Verb Phrases）
+
 1. **act immediately** 立即行动
 2. **assemble a crew** 组建船员
 3. **alter history** 改变历史
@@ -796,6 +821,7 @@ created: 2026-03-13
 ---
 
 # 二、惯用语 & 固定习语（Idioms / Set Phrases）
+
 1. **of Gods and Men** 神与人之间
 2. **the butt end of the universe** 宇宙的偏僻角落
 3. **live and breathe** 活生生地（表示惊讶）
@@ -842,6 +868,7 @@ created: 2026-03-13
 ---
 
 # 三、高级固定搭配（Collocations）
+
 1. **voluntary放弃** → 这里没有，替换：**voluntary surrender** 主动投降
 2. **distress signal** 求救信号
 3. **automated beacon** 自动信标
@@ -862,6 +889,7 @@ created: 2026-03-13
 ---
 
 # 四、书面/正式表达（适合写作）
+
 1. **pursue their own destiny** 追求自身命运
 2. **without interference** 不受干涉
 3. **restore the timeline** 恢复时间线
@@ -873,6 +901,7 @@ created: 2026-03-13
 ---
 
 如果你需要，我可以再帮你：
+
 - 标注**难度等级**（CET4 / CET6 / 考研 / IELTS）
 - 做成**中英对照背诵表**
 - 或**每个短语造一个例句**。
@@ -880,20 +909,25 @@ created: 2026-03-13
 这里从影片原文中**精准提取适配雅思写作/口语的高分高级句式**，标注**句式结构、加分点、原文例句、雅思适用题型**，全部是考官眼中「语法多样性&复杂度」的直接加分项：
 
 # 雅思加分高级句式 + 影片原文例句
+
 ## 一、非谓语动词结构（雅思写作/口语**最高频加分**）
+
 ### 1. 现在分词作结果状语
+
 **句式**：主句, doing...（自然而然的结果）
 **加分点**：替代低级的 so/and
 **原文例句**：
 Charlie used the Guardian to kill Kirk's mother before he was born, **altering the entire timeline**.
 
 ### 2. 过去分词作定语/状语
+
 **句式**：done..., 主句 / ...done...
 **加分点**：简化定语从句，显语法功底
 **原文例句**：
 We have received a distress signal from an automated security beacon **orbiting a planet**.
 
 ### 3. 不定式作目的状语
+
 **句式**：To do..., 主句 / ...to do...
 **加分点**：替换低级的 in order to
 **原文例句**：
@@ -902,7 +936,9 @@ They fight **to gain freedom** for everyone in the galaxy.
 ---
 
 ## 二、形式主语句（雅思大作文万能开头/论证）
+
 ### 句式：It + be + adj/n + that从句 / to do
+
 **加分点**：避免头重脚轻，学术写作标配
 **原文例句**：
 **It is said** that if you move but one grain of sand you run the risk of altering history.
@@ -913,12 +949,15 @@ They fight **to gain freedom** for everyone in the galaxy.
 ---
 
 ## 三、比较级高级结构（雅思利弊/观点题必用）
+
 ### 1. outweigh 核心高分词（比 more than 高级10倍）
+
 **句式**：A outweigh B（A大于/优于B）
 **原文例句**：
 The needs of the many **outweigh** the needs of the few.
 
 ### 2. the more..., the more... 越…越…
+
 **句式**：The + 比较级, the + 比较级
 **原文例句**：
 **The longer** this situation continues, **the more** dangerous it becomes for the Federation.
@@ -926,7 +965,9 @@ The needs of the many **outweigh** the needs of the few.
 ---
 
 ## 四、让步状语从句（雅思观点/反驳段必用）
+
 ### 句式：While / Although / Even though + 句子, 主句
+
 **加分点**：体现逻辑全面，不片面
 **原文例句**：
 **While** they are outcasts and criminals, they may well be our last chance.
@@ -937,7 +978,9 @@ The needs of the many **outweigh** the needs of the few.
 ---
 
 ## 五、同位语从句（雅思大作文高分标志：解释抽象概念）
+
 ### 句式：抽象名词 (fact/belief/idea) + that + 完整句子
+
 **加分点**：学术写作专属，直接拉满语法分
 **原文例句**：
 The belief **that one person can change the entire galaxy** motivates them to keep fighting.
@@ -945,7 +988,9 @@ The belief **that one person can change the entire galaxy** motivates them to ke
 ---
 
 ## 六、强调句 It is...that...（口语/写作突出重点）
+
 ### 句式：It is + 被强调部分 + that/who + 剩余
+
 **加分点**：强化语气，摆脱平淡句
 **原文例句**：
 **It is** precisely this kind of unprovoked genocide **that** we are fighting against.
@@ -953,7 +998,9 @@ The belief **that one person can change the entire galaxy** motivates them to ke
 ---
 
 ## 七、倒装句（雅思写作7+ 语法亮点）
+
 ### 句式：Only + 状语 + 助动词/系动词 + 主语 + 谓语
+
 **加分点**：语法难度拉满，考官直接给高分
 **原文例句**：
 **Only** by working together **can** we stop the destruction of the planet.
@@ -961,7 +1008,9 @@ The belief **that one person can change the entire galaxy** motivates them to ke
 ---
 
 ## 八、主语从句（写作主体段高级开篇）
-### 句式：What ... is that ...
+
+### 句式：What ... is that
+
 **加分点**：替代低级的 I think / The fact is
 **原文例句**：
 **What** I realize **is that** something is missing in my life.
@@ -969,7 +1018,9 @@ The belief **that one person can change the entire galaxy** motivates them to ke
 ---
 
 ## 九、结果状语从句 such...that...（7.5+ 高分句式）
-### 句式：such + (a/an) + adj + n + that...
+
+### 句式：such + (a/an) + adj + n + that
+
 **加分点**：替换 very...that...
 **原文例句**：
 The weapon is **such** a powerful device **that** it can destroy an entire planet.
@@ -977,7 +1028,9 @@ The weapon is **such** a powerful device **that** it can destroy an entire plane
 ---
 
 ## 十、插入语结构（口语/写作提升流畅度）
+
 ### 句式：主句, however/therefore/to some extent, 主句
+
 **加分点**：衔接自然，符合native逻辑
 **原文例句**：
 This mission, **to some extent**, will forever change our lives.
@@ -985,11 +1038,13 @@ This mission, **to some extent**, will forever change our lives.
 ---
 
 # 雅思快速套用模板（直接背）
+
 1. **利弊题**：The advantages of X far outweigh its disadvantages.
 2. **观点题**：While some people believe..., I argue that...
 3. **结论段**：It is clear that only by doing... can we solve this problem.
 
 # 一、动词短语（Verb Phrases）
+
 1. **neutralize sth**
    释义：消灭；使…失效
    例句：we've neutralized the protoss
@@ -1033,7 +1088,9 @@ This mission, **to some extent**, will forever change our lives.
 11. **fulfill one's destiny**
     释义：实现宿命
     例句：fulfill your destiny
+
 # 二、固定搭配（Fixed Collocations）
+
 1. **belay that order**
    释义：取消命令（军事专用）
    例句：belay that order
@@ -1085,6 +1142,7 @@ This mission, **to some extent**, will forever change our lives.
 ---
 
 # 三、高级习语 / 惯用表达（Idioms & Set Phrases）
+
 1. **as was foretold**
    释义：如预言所昭示
    例句：the zerg swarm came as was foretold
@@ -1098,23 +1156,28 @@ This mission, **to some extent**, will forever change our lives.
    例句：that lie must come to its end
 
 ## 一、高频**动词短语**（最实用）
+
 ### 1. 关于“开始 / 着手”
+
 - **set about** 开始做，着手
 - **set out to do** 立志/打算做
 - **embark on** 开始（新事业、旅程）
 - **get down to** 开始认真处理
 
 ### 2. 关于“放弃 / 停止”
+
 - **call off** 取消
 - **drop out** 退出，辍学
 - **back out** 食言，退出协议
 
 ### 3. 关于“处理 / 解决”
+
 - **cope with** 应付（困难）
 - **sort out** 整理，解决
 - **get over** 克服；恢复
 
 ### 4. 关于“出现 / 发生”
+
 - **come up** 被提出；出现
 - **turn up** 出现，露面
 - **come about** 发生
@@ -1122,23 +1185,27 @@ This mission, **to some extent**, will forever change our lives.
 - **crop up** 突然出现（问题）
 
 ### 5. 关于“推迟 / 提前”
+
 - **put off** 推迟
 - **hold up** 耽搁，延误
 - **bring forward** 提前
 - **push back** 推迟
 
 ### 6. 关于“调查 / 查明”
+
 - **look into** 调查
 - **find out** 查明
 - **dig into** 深入探究
 - **check out** 核实
 
 ### 7. 关于“坚持 / 依赖”
+
 - **stick to** 坚持（原则、计划）
 - **hold on** 坚持；别挂电话
 - **stand by** 支持；信守承诺
 
 ### 8. 关于“提高 / 降低”
+
 - **bring up** 提出；抚养
 - **step up** 加强，加快
 - **cut down on** 减少
@@ -1146,6 +1213,7 @@ This mission, **to some extent**, will forever change our lives.
 - **keep up** 保持
 
 ### 9. 关于“成功 / 失败”
+
 - **come through** 渡过难关；成功完成
 - **pull off** 做成（难事）
 - **fall through** 落空，失败
@@ -1154,7 +1222,9 @@ This mission, **to some extent**, will forever change our lives.
 ---
 
 ## 二、高级**固定搭配**（写作加分）
+
 ### 1. 动词 + 介词
+
 - **arise from** 由…引起
 - **stem from** 源于
 - **suspect sb of** 怀疑某人
@@ -1163,6 +1233,7 @@ This mission, **to some extent**, will forever change our lives.
 - **warn sb of** 警告
 
 ### 2. 动词 + 副词 + 介词
+
 - **do away with** 废除
 - **put up with** 忍受
 - **come up with** 提出（想法）
@@ -1171,37 +1242,43 @@ This mission, **to some extent**, will forever change our lives.
 ---
 
 ## 三、中高级**习语 / 成语**（口语+写作）
+
 ### 1. 表示“重要 / 关键”
+
 - **play a vital role in** 在…起关键作用
 - **be of great significance** 意义重大
 - **make a difference** 有影响
 - **count for much** 很重要
 
 ### 2. 表示“努力 / 尽力”
+
 - **go all out** 全力以赴
 - **spare no effort** 不遗余力
 
-
 ### 4. 表示“越来越”
+
 - **on the rise / on the increase** 在上升
 
 ### 5. 表示“导致 / 引发”
+
 - **give rise to** 引起，导致
 - **trigger** 引发
 - **spark** 激发
+
 ### 7. 表示“采取措施”
+
 - **take measures / steps** 采取措施
 
 ### 8. 表示“充分利用”
+
 - **make the most of**
 
 ---
 
 ## 四、写作万能**高级句型搭配**
+
 - **It is widely acknowledged that…** 众所周知
 - **There is no denying that…** 不可否认
 - **When it comes to…** 谈到…
 - **With the development of…** 随着…发展
 - **Only in this way can we…** 只有这样我们才能…
-
-

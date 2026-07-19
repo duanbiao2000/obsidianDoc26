@@ -66,10 +66,10 @@ core_concepts:
 
 HACF-style 尤其适用于：
 
--   **概念定义 (Conceptual Definition)**: 提炼复杂概念的核心矛盾。
--   **策略阐述 (Strategic Articulation)**: 简洁有力地传达愿景与挑战。
--   **问题分析 (Problem Analysis)**: 揭示深层矛盾，而非表面现象。
--   **口语表达 (Verbal Communication)**: 在演示、谈判或指导中，增加语言的穿透力。
+- **概念定义 (Conceptual Definition)**: 提炼复杂概念的核心矛盾。
+- **策略阐述 (Strategic Articulation)**: 简洁有力地传达愿景与挑战。
+- **问题分析 (Problem Analysis)**: 揭示深层矛盾，而非表面现象。
+- **口语表达 (Verbal Communication)**: 在演示、谈判或指导中，增加语言的穿透力。
 
 它不仅仅是一种修辞技巧，更是一种**思考模式**：迫使我们提炼、审视概念的内在动力与潜在断裂点。**It's about making silence as meaningful as the words themselves.**
 

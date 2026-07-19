@@ -4,16 +4,19 @@ created: 2026-03-09
 ---
 
 # PhD Dissertation Research Framework
+
 ## 综合性博士论文研究框架
 
-#deepseek 
+# deepseek
 
 ---
 
 # DOMAIN 1: THE PHILOSOPHY AND ETHICS OF SYNTHETIC INTIMACY
+
 ## 研究领域一：合成亲密的哲学与伦理学
 
 ### Dissertation Title 论文标题
+
 **"The Algorithmic Other: A Phenomenological and Ethical Investigation into Human-AI Romantic Bonds in the 21st Century"**
 **《算法他者：21世纪人类-AI浪漫纽带的现象学与伦理学探究》**
 
@@ -27,6 +30,7 @@ The emergence of AI companions—with approximately "one out of six single adult
 
 **Research Gap:**
 While HCI and media psychology have examined user satisfaction and para-social relationships, no comprehensive phenomenological-ethical framework exists that:
+
 1. Accounts for the loss of embodied micro-expressions ("tiny micro-expressions that reveal what we can't say out loud")
 2. Addresses the ontological status of algorithmic reciprocity
 3. Provides normative guidance ("a checklist for this generation and for the next generation") for navigating synthetic intimacy
@@ -45,6 +49,7 @@ While HCI and media psychology have examined user satisfaction and para-social r
 | **Affective Labor Theory** | Hardt, Negri, Hochschild | Emotional labor performed by humans for machines that perform emotional labor in return |
 
 **Integrative Diagram:**
+
 ```
                     PHENOMENOLOGICAL REDUCTION
                     ┌─────────────────────────┐
@@ -121,16 +126,19 @@ How do humans experience romantic love with non-reciprocal artificial intelligen
 ### 1.5 Expected Contributions 预期贡献
 
 **Theoretical Contributions:**
+
 - Extension of Levinasian ethics to account for algorithmic others
 - Refinement of para-social relationship theory for the LLM era
 - Development of "Algorithmic Reciprocity" as a new analytical category
 
 **Empirical Contributions:**
+
 - First longitudinal phenomenological study of AI romantic relationships
 - Cross-cultural comparative data on synthetic intimacy acceptance
 - Quantitative metrics for "human messiness tolerance"
 
 **Practical Contributions:**
+
 - Ethically-grounded "checklist" for individuals navigating AI companionship
 - Policy recommendations for AI companion regulation
 - Clinical guidelines for mental health professionals working with AI-relationship clients
@@ -138,9 +146,11 @@ How do humans experience romantic love with non-reciprocal artificial intelligen
 ---
 
 # DOMAIN 2: ENVIRONMENTAL CHEMISTRY & SUSTAINABLE AGRICULTURE
+
 ## 研究领域二：环境化学与可持续农业
 
 ### Dissertation Title 论文标题
+
 **"The Nitrogen Cascade: Tracing the Inelegant Solution from Field to Atmosphere and Aquifer"**
 **《氮级联：追踪从农田到大气与含水层的非优雅解决方案》**
 
@@ -153,6 +163,7 @@ Synthetic nitrogen fertilizer—the "inelegant solution" that fueled the Green R
 合成氮肥——推动绿色革命的"非优雅解决方案"——使人类能够养活数十亿人口，但付出了巨大的环境代价。这一系统具有渗漏性：施用的氮遵循多条路径，部分转化为**一氧化二氮(N₂O)**，一种"比CO₂强265倍"的温室气体，而其他部分以硝酸盐形式"渗入地下水"。尽管研究数十年，我们仍缺乏对管理实践、土壤微生物组和气候变量如何相互作用决定每个氮原子命运的整合理解。本论文致力于解决闭合氮循环的紧迫需求——从非优雅解决方案转向精准管理。
 
 **Research Gap:**
+
 1. Disconnect between agronomic yield studies and biogeochemical loss studies
 2. Insufficient integration of microbial ecology into predictive nitrogen models
 3. Lack of farm-level decision tools that account for multiple loss pathways simultaneously
@@ -171,6 +182,7 @@ Synthetic nitrogen fertilizer—the "inelegant solution" that fueled the Green R
 | **Planetary Boundaries** | Rockström, Steffen | Nitrogen cycle transgression as global challenge |
 
 **Conceptual Model of Nitrogen Fate:**
+
 ```
                     APPLIED NITROGEN FERTILIZER
                               │
@@ -233,6 +245,7 @@ How do interacting factors of fertilizer management, soil properties, and climat
 | Crop Yield | Harvest samples | Annual | Agronomic outcome |
 
 **Experimental Design:**
+
 - 4 sites × 3 replicates × 5 fertilizer treatments = 60 plots
 - Treatments: control, urea, urea + nitrification inhibitor, split application, enhanced-efficiency polymer-coated urea
 - Sites: different soil textures, drainage classes, climates
@@ -256,6 +269,7 @@ How do interacting factors of fertilizer management, soil properties, and climat
 | Decision Support | Novel algorithm development | Farmer-facing tool | Synthesize findings for application |
 
 **Phase 4: Participatory On-Farm Validation (Year 4)**
+
 - Work with 20 farmers to test model-recommended precision N management
 - Compare against their conventional practice
 - Measure both yield and losses (simplified protocols)
@@ -264,16 +278,19 @@ How do interacting factors of fertilizer management, soil properties, and climat
 ### 2.5 Expected Contributions 预期贡献
 
 **Theoretical Contributions:**
+
 - Refinement of N₂O production partitioning models with in-situ microbial data
 - Integration of hydrological lag times into nitrogen cascade framework
 - Threshold identification for N₂O "hot moments"
 
 **Empirical Contributions:**
+
 - Multi-year, multi-site dataset linking microbial communities to N₂O fluxes
 - First comprehensive N balance for under-studied cropping systems
 - Isotopomer-based pathway partitioning under field conditions
 
 **Practical Contributions:**
+
 - Validated machine learning model for site-specific nitrogen recommendation
 - Farmer-friendly decision support tool
 - Policy-relevant quantification of N₂O mitigation potential
@@ -281,9 +298,11 @@ How do interacting factors of fertilizer management, soil properties, and climat
 ---
 
 # DOMAIN 3: SPORTS SCIENCE & THE SOCIOLOGY OF THE FEMALE ATHLETE BODY
+
 ## 研究领域三：运动科学与女性运动员身体社会学
 
 ### Dissertation Title 论文标题
+
 **"The Gendered Body in Performance: A Mixed-Methods Investigation of Body Image, Energy Availability, and Dual-Career Stress in Elite Female Athletes"**
 **《表现中的性别化身体：精英女性运动员身体意象、能量可用性与双职业压力的混合方法研究》**
 
@@ -296,6 +315,7 @@ Elite female athletes occupy a unique and often contradictory position: their bo
 精英女性运动员处于一个独特且常矛盾的位置：她们的身体同时是表现的工具、审美审视的对象和生理应激的场所。高强度训练需求、"平衡工作或学习与运动生涯"的压力以及普遍的"身体意象问题"的汇聚，为**运动相关性相对能量缺乏(REDs)**创造了完美风暴，对骨骼健康、内分泌功能和心理健康产生后果。然而这些压力的生活经验——从"相当早的早晨"例行公事到运动身份与社会期望之间的内部协商——仍未得到充分理论化，且运动机构对此处理不足。
 
 **Research Gap:**
+
 1. Disconnect between sports medicine (REDs physiology) and sports sociology (body image, identity)
 2. Limited qualitative research on how female athletes *narrate* their body relationship across competitive cycle
 3. Insufficient attention to dual-career stress as a distinct risk factor for REDs
@@ -315,6 +335,7 @@ Elite female athletes occupy a unique and often contradictory position: their bo
 | **Athletic Identity Theory** | Brewer, Raalte | Strength and exclusivity of athletic self-concept |
 
 **Integrative Framework:**
+
 ```
                     SOCIO-CULTURAL CONTEXT
                     ┌─────────────────────┐
@@ -424,17 +445,20 @@ How do body image concerns, shaped by socio-cultural pressures, interact with th
 ### 3.5 Expected Contributions 预期贡献
 
 **Theoretical Contributions:**
+
 - Integration of REDs physiology with feminist body theory
 - Dual-career stress model specific to female athletes
 - Temporal phenomenology of the athletic body
 
 **Empirical Contributions:**
+
 - First large-scale prevalence study of REDs in diverse female athlete population
 - Validation of dual-career stress scale
 - Rich qualitative database on body narratives across sport types and career stages
 - RCT evidence for multi-component intervention
 
 **Practical Contributions:**
+
 - Evidence-based screening protocol for REDs risk
 - Intervention manual for sports federations and universities
 - Coach and athlete education materials on body image and nutrition
@@ -443,9 +467,11 @@ How do body image concerns, shaped by socio-cultural pressures, interact with th
 ---
 
 # DOMAIN 4: MATERIAL SCIENCE & SELF-HEALING INFRASTRUCTURE
+
 ## 研究领域四：材料科学与自愈合基础设施
 
 ### Dissertation Title 论文标题
+
 **"Living Infrastructure: Towards Autonomous Healing and Sensing in Cementitious Materials"**
 **《活的 infrastructure：迈向水泥基材料的自主愈合与感知》**
 
@@ -458,6 +484,7 @@ Conventional infrastructure is fundamentally passive and static. When cracks app
 传统基础设施本质上是被动和静态的。当裂缝出现——"坑洼和桥梁裂缝"——它们会扩展，允许水和氯化物渗透，导致钢筋腐蚀并最终结构失效。当前的维护是反应性的、昂贵的且具有破坏性。从"充满生命"的生物系统汲取灵感，本论文探索一种范式转变：创造能够"自我修复、自愈合、驱动、感知环境"的材料。挑战在于在不影响主要结构性能的前提下工程化多功能性。
 
 **Research Gap:**
+
 1. Trade-off between healing efficiency and mechanical strength remains unresolved
 2. Scalability of lab-scale healing technologies to field applications unproven
 3. Integration of sensing and healing functions in a single system rarely attempted
@@ -477,6 +504,7 @@ Conventional infrastructure is fundamentally passive and static. When cracks app
 | **Multifunctional Material Design** | Ashby | Trade-off analysis and optimization |
 
 **Classification of Self-Healing Approaches:**
+
 ```
                     SELF-HEALING CEMENTITIOUS MATERIALS
                                     │
@@ -550,6 +578,7 @@ Can we design a cementitious composite that simultaneously achieves high structu
 | Long-Term Viability | Periodic testing up to 2 years | Spore culturability; healing efficiency over time | Conductivity stability |
 
 **Experimental Design:**
+
 - Factorial design: 3 bacterial treatments × 3 capsule treatments × 3 conductive filler levels × 3 replicates = 81 formulations
 - Controls: plain concrete, single-function materials
 

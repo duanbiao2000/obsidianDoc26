@@ -36,37 +36,33 @@ created: 2026-03-27
 你可以这样描述任务本身：
 
 - Extract all transition sentences and phrases that connect ideas, both at the beginning of paragraphs and inside them.
-    
+
 - Identify sentences that **bridge** from one idea or paragraph to the next (承上启下), and list them.
-    
+
 - From this text, pull out all sentences and sentence starters that introduce a new idea while referring back to the previous one.
-    
+
 - Highlight any transition phrases that show contrast, cause and effect, addition, or sequence within and between paragraphs.scribbr+1
-    
 
 ## 口语/演讲类视频用法
 
 - From the transcript, extract the sentences the speaker uses to move from one point to the next, including in the middle of a paragraph.
-    
+
 - Identify all speech transitions (e.g. “however”, “on the other hand”, “as a result”, “now let’s…”) that connect one idea to the next and list the full sentences.cambridge+1
-    
+
 - Find sentences where the speaker briefly summarizes what was just said and then introduces the next idea.
-    
 
 ## 书面文章/段落内部用法
 
 - Extract transition sentences within and between paragraphs that link the previous idea to the next one.writingcenter.fas.harvard+1
-    
+
 - Identify all transitional words and phrases (such as “however”, “in addition”, “therefore”, “for example”) and give the full sentences they appear in.writing.wisc+1
-    
+
 - List paragraph-opening and mid‑paragraph sentences that start with transition phrases and show how the argument moves forward.atoply+1
-    
 
 ## 如果你想做“句式库”的额外要求
 
 - For each transition sentence, also output the core transition phrase (e.g. “however”, “as a result”, “in addition”) so I can build a pattern list.rephrasely+1
-    
+
 - Group the extracted transitions by function: addition, contrast, cause–effect, sequence, example.scribbr+1
-    
 
 你接下来是打算：先手动把一段英文贴给 AI 让它帮你抽这些句式，还是希望我帮你设计一个“通用大提示词”，以后对任何文章/视频都可以直接复用？

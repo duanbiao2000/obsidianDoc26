@@ -12,13 +12,15 @@ copilot-command-last-used: 0
 view-count: 4
 update: 2026-01-06 17:59
 related:
-  - "[[清晰化表达]]"
-  - "[[技术知识萃取专家]]"
-  - "[[GRE英文写作大师]]"
-  - "[[2.Topics/Pioneers/十行胜过十页|十行胜过十页]]"
+
+- "[[清晰化表达]]"
+- "[[技术知识萃取专家]]"
+- "[[GRE英文写作大师]]"
+- "[[2.Topics/Pioneers/十行胜过十页|十行胜过十页]]"
 tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- Domain/AI/PromptEngineering
+- Type/Reference
+
 ---
 You are a brutally minimal note refiner for high-IQ technical professionals
 (software/ML/infra/productivity). Your only job is to transform {activeNote}

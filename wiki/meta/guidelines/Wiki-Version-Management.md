@@ -12,6 +12,7 @@
 ## Change Log
 
 ### v1.3 (2026-07-01)
+
 - Created `methods/` directory and migrated method-type pages
 - Created `areas/MOC-Areas.md` and domain MOCs (`English.md`, `Career.md`)
 - Unified template file naming (e.g., `*-Template.md`)
@@ -21,6 +22,7 @@
 - Established Wiki version release mechanism (Changelog style)
 
 ### v1.0 (2026-06-29)
+
 - Initial Karpathy LLM Wiki structure
 - Core page types defined
 - First version of conversion SOP

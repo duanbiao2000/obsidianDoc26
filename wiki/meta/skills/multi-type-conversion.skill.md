@@ -13,6 +13,7 @@ priority: high
 ## Core Philosophy
 
 One high-quality raw note often contains **multiple layers of value**:
+
 - Actionable instructions (`prompt`)
 - Reusable mental models (`concept`)
 - Reference material (`quickref`)

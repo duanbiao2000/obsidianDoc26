@@ -18,6 +18,7 @@ related:
 ## 核心概念
 
 ### 认知与思维
+
 - [[Meta-Cognition-Through-Dialogue]]
 - [[Question-as-Cognitive-Mirror]]
 - [[Seven-Questions-Self-Awareness-Framework]]
@@ -29,12 +30,14 @@ related:
 - [[Topic-Extension-Technique]]
 
 ### 职业与发展
+
 - [[Growth-Mindset-in-Job-Search]]
 - [[Feedback-Driven-Job-Search-System]]
 - [[Version-Number-Thinking-in-Career]]
 - [[Rejection-as-Mismatch]]
 
 ### 语言与表达
+
 - [[Oral-Fluency-First-Principles]]
 - [[Input-to-Output-Conversion-Loop]]
 - [[Chunk-Based-Speaking]]

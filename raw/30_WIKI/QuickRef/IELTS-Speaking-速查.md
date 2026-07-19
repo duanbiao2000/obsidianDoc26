@@ -12,11 +12,7 @@ created: 2026-06-26
 
 ---
 
-
-
 # ⚡ IELTS Speaking 速查
-
-
 
 ## 评分四维
 
@@ -32,8 +28,6 @@ created: 2026-06-26
 
 | Pronunciation | PR | 重音 + 语调 + 连读 |
 
-
-
 ## Part 1 万能开头
 
 - Well, to be honest...
@@ -43,8 +37,6 @@ created: 2026-06-26
 - That's a good question. I think...
 
 - Not really, but... / Absolutely, I...
-
-
 
 ## Part 2 时间分配 (2min)
 
@@ -60,8 +52,6 @@ created: 2026-06-26
 
 | 收尾 | 15s | 总结 + 反思一句 |
 
-
-
 ## Part 3 高分句式
 
 - It depends on the context, but generally speaking...
@@ -73,8 +63,6 @@ created: 2026-06-26
 - That's actually a nuanced issue — on one hand... on the other...
 
 - I think the underlying question here is really about...
-
-
 
 ## 快速跳转
 
@@ -91,4 +79,3 @@ created: 2026-06-26
 - [[高频串题通用框架库]]
 
 - [[口语流利度第一性原理]]
-

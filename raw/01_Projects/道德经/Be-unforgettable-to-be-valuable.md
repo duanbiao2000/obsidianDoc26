@@ -16,6 +16,7 @@ journal-index: 1
 
 
 # Mind Map: How to Speak so People Remember You
+
 ## By Yasir Khan | TEDx Talk
 
 ```markmap
@@ -59,46 +60,59 @@ markmap:
 ```
 
 ### Clean Text Mind Map (Linear Version)
+
 # How to Speak so People Remember You
+
 ## 1. Core Idea
+
 - It’s not what you say—it’s what they remember.
 - You can’t be valuable if you’re not memorable.
 - People don’t act on what they forget. (人们不会对他们遗忘的事情采取行动)
 
 ## 2. SHARE Method
+
 ### S – Stand Out
+
 - Be unique, not generic
 - Contrast = memory
 - Example: Memorable hotel greeting
 
 ### H – Highlight the Important
+
 - Remove extra details
 - Focus on the key message
 - “Give the gift, not the wrapping”
+
 > 在沟通时，直接呈现你最核心、最有价值的信息，而不是被大量的、不重要的细节所包裹和掩盖。
    简洁明了： 去除不必要的繁琐细节，让你的信息更直接、更清晰。
    突出重点： 确保听众能轻易识别并记住最重要的部分，而不是被无关紧要信息所淹没。
    节省时间： 避免浪费听众的时间去消化大量的“包装”，让他们能更快地获真正的“礼物”。
+
 ### A – Address the Listener
+
 - Make it about them
 - Use “you”
 - People care about themselves most
 
 ### R – Repeatable
+
 - Use stories & simple phrases
 - Easy to remember & share
 - Example: Job seeker’s powerful story
 
 ### E – Emotion
+
 - Feeling = belief
 - Emotional lines stick forever
 - Positive/negative emotions both work
 
 ## 3. Life Examples
+
 - Speaker’s trainee forgot all tips
 - Cashier’s 5 words changed his life
 - Childhood hurtful comment stayed in memory
 
 ## 4. Conclusion
+
 - Be unforgettable to be valuable
 - Speak to be remembered, not just heard

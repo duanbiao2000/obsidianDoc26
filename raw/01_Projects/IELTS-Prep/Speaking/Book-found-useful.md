@@ -40,21 +40,27 @@ I still have that paragraph highlighted on my kindle. Last month when I was havi
 ## Part 3 Answers
 
 ### What types of books do people your age usually enjoy reading?
+
 Oh god almost no one I know reads proper fiction for fun any more. It's almost all either extremely niche non-fiction, or those very online essay-style books about work or burnout or mental health. And also the big secret that no one admits: absolutely everyone reads fanfiction. Way more than any published book. I think people my age are really tired of big grand dramatic stories, we want small specific ones that feel real. Also almost no one reads physical books, it's all on kindle or tiktok or even twitter threads. If it's longer than 10 pages and doesn't have a meme in it, most people won't touch it.
 
 ### Do you think older people or younger people read more books?
+
 Officially older people read way more, but I think that statistic is completely meaningless. If you count every reddit thread, every substack essay, every 10 part twitter thread that someone spends an hour reading, young people read exponentially more than any generation in history. We just don't call it reading a book. Older people read more bound dead tree books, yes, but younger people read probably 10x more words per day. It's just a different format. I think it's a completely stupid debate honestly.
 
 ### Do you think it is better to read a story in a book than to watch it as a film?
+
 I used to be one of those annoying people that would yell "the book is always better" but honestly I think they're just completely different things. The one thing a book does that no film can ever do is let you be completely inside someone else's head. A film can show you what someone does, but a book can show you the 17 stupid contradictory thoughts they had 2 seconds before they did it. That said there are loads of films that are way better than the book. No one is ever going to convince me that the Godfather book is better than the film. So I don't think one is better, they just do different jobs.
 
 ### How has the internet changed the way people use libraries?
+
 Oh it completely changed what libraries are, and almost entirely for the better. No one goes to a library to borrow a book any more, not really. You can get any book ever written in 10 seconds on the internet. What people go to libraries for now is a place to be. It's the only remaining public space in almost any town that you don't have to pay to sit down. You don't have to buy a coffee, you don't have to leave after an hour. You can go there to work, to charge your phone, to just get out of your house. I go to my local library at least once a week just to work because I can't focus at home. They also do so much more now: free internet, food banks, homework clubs, CV help. Libraries went from being places that store information to being places that support people, and I think that's an amazing change.
 
 ---
 
 ## 💡 Examiner Notes
+
 This is a solid Band 8.5 response, and the reason it will score much higher than 99% of other answers is:
+
 1. It sounds 100% authentic. The examiner has already heard "Atomic Habits" 472 times this month.
 2. The core golden line is integrated completely naturally, it does not sound like a pre-memorised slogan.
 3. Part 3 answers have original, slightly contrarian but completely reasonable opinions, instead of the generic neutral "every coin has two sides" answers that every other candidate gives.
@@ -87,15 +93,19 @@ The Part 2 response uses **"Atomic Habits" by James Clear** as the topic, as it 
 ### 💡 Part 3: Model Answers (Discussion)
 
 #### **1. What types of books do people your age usually enjoy reading?**
+
 "Well, it’s a bit of a mixed bag, but I’d say **fantasy and sci-fi** are huge for escapism — stuff like *The Three-Body Problem* or *A Court of Thorns and Roses*. But there’s also a massive trend toward **non-fiction self-help and psychology** — books like *Atomic Habits* or *The Subtle Art of Not Giving a F*ck*. I think our generation feels a lot of **pressure to 'optimize' ourselves**, so we read to fix our anxiety or get ahead in our careers. Oh, and **graphic novels** and manga are way more mainstream now than they used to be."
 
 #### **2. Do you think older people or younger people read more books?**
+
 "That’s a tough one. **On paper**, older people probably read more physical books because they have more **disposable time** — especially retirees. But if you count **digital consumption**, younger people are reading *constantly* — just not always novels. We’re reading threads, long-form articles, blogs, and web novels on our phones. So, older generations might win on **volume of books**, but younger generations definitely win on **volume of words consumed**. It’s just a different medium."
 
 #### **3. Do you think it is better to read a story in a book than to watch it as a film?**
+
 "‘Better’ is subjective, but they hit different muscles. **Reading is active co-creation** — you have to build the world, cast the faces, and direct the pacing in your head. It builds **empathy and attention span** in a way films don't. Films are **passive consumption** — the director does the heavy lifting for you. But films win on **visceral impact** — a great score and cinematography can hit you emotionally in seconds what a book takes chapters to build. Ideally, you do both: read the book for the depth, watch the film for the spectacle."
 
 #### **4. How has the internet changed the way people use libraries?**
+
 "It’s flipped the library’s role on its head. Libraries used to be **information warehouses** — you went there because that’s where the books *were*. Now, information is free and everywhere, so libraries have had to pivot to becoming **community hubs and 'third spaces'**. My local library now has **podcasting studios, 3D printers, and co-working spaces**. People go there for the **high-speed Wi-Fi and the quiet atmosphere**, not just to borrow a hardcover. It’s less about **storage** now and more about **access and environment**."
 
 ---

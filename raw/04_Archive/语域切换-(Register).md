@@ -19,7 +19,6 @@ created: 2026-04-24
 
 **关键**：9分考生在同一个考试中能自如切换两种语域——Part 1 像朋友聊天，Part 3 像大学研讨。
 
-
 **底层需求：** 用足够多的实例建立"语域雷达"——让考生能感知何时该切换、切换到哪个频道。
 
 ---
@@ -171,39 +170,46 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
 以下提供 3 组高频场景的 **7分（语域错位/单调） vs 9分（精准切换）** 实例，并拆解背后的语言开关。
 
 ---
+
 ### 📍 实例组 1：口语 Part 1（日常闲聊） vs Part 3（学术讨论）
+
 **话题：交通与出行**
 
 | 环节 | ❌ Band 7（语域错位） | ✅ Band 9（精准切换） | 🔑 切换开关 |
 |:---|:---|:---|:---|
-| **Part 1**<br>*(考官：How do you usually get to work/school?)* | "Public transportation is highly efficient and environmentally sustainable. I utilize the subway on a daily basis." | "I’m pretty much a subway regular. It’s not always glamorous, but it’s reliable, cheap, and honestly saves me from the morning traffic nightmare." | 缩略语、口语习语（`pretty much`, `not always glamorous`）、情感副词（`honestly`）、具体场景词（`traffic nightmare`） |
-| **Part 3**<br>*(考官：Should governments invest more in public transport or private roads?)* | "I think subways are good. Roads cause pollution. Maybe build more buses." | "Prioritizing mass transit over private infrastructure yields compounding benefits: it reduces carbon emissions, alleviates urban congestion, and promotes socioeconomic equity by improving mobility for lower-income demographics." | 抽象名词化（`mass transit`, `socioeconomic equity`）、客观句式、因果链推进、零人称代词 |
+| **Part 1**<br>_(考官：How do you usually get to work/school?)_ | "Public transportation is highly efficient and environmentally sustainable. I utilize the subway on a daily basis." | "I’m pretty much a subway regular. It’s not always glamorous, but it’s reliable, cheap, and honestly saves me from the morning traffic nightmare." | 缩略语、口语习语（`pretty much`, `not always glamorous`）、情感副词（`honestly`）、具体场景词（`traffic nightmare`） |
+| **Part 3**<br>_(考官：Should governments invest more in public transport or private roads?)_ | "I think subways are good. Roads cause pollution. Maybe build more buses." | "Prioritizing mass transit over private infrastructure yields compounding benefits: it reduces carbon emissions, alleviates urban congestion, and promotes socioeconomic equity by improving mobility for lower-income demographics." | 抽象名词化（`mass transit`, `socioeconomic equity`）、客观句式、因果链推进、零人称代词 |
 
 > 💡 **7分典型失误**：Part 1 像背论文，Part 3 像发朋友圈。9分则像“白天开研讨会，晚上和朋友喝精酿”。
 
 ---
+
 ### 📍 实例组 2：写作 Task 1（客观报告） vs Task 2（主观论证）
+
 **话题：城市化与人口流动**
 
 | 任务 | ❌ Band 7（语域混淆） | ✅ Band 9（严格区分） | 🔑 切换开关 |
 |:---|:---|:---|:---|
-| **Task 1**<br>*(图表描述)* | "The graph shows city populations are growing fast. I believe this is worrying because traffic will get worse." | "The line graph illustrates a consistent upward trajectory in urban demographics between 2000 and 2020, peaking at 68% in the final year. Concurrently, rural figures experienced a corresponding decline." | 零主观词、数据动词（`illustrates`, `peaking at`, `corresponding decline`）、客观时间/比例锚点 |
-| **Task 2**<br>*(议论文)* | "Urbanization is very important. Governments must build houses. Otherwise people will be unhappy." | "Rapid urban expansion necessitates strategic housing policies; without proactive municipal planning, cities risk exacerbating spatial inequality and straining public service capacity." | 学术情态（`necessitates`, `risk exacerbating`）、政策术语（`spatial inequality`, `municipal planning`）、条件-结果逻辑链 |
+| **Task 1**<br>_(图表描述)_ | "The graph shows city populations are growing fast. I believe this is worrying because traffic will get worse." | "The line graph illustrates a consistent upward trajectory in urban demographics between 2000 and 2020, peaking at 68% in the final year. Concurrently, rural figures experienced a corresponding decline." | 零主观词、数据动词（`illustrates`, `peaking at`, `corresponding decline`）、客观时间/比例锚点 |
+| **Task 2**<br>_(议论文)_ | "Urbanization is very important. Governments must build houses. Otherwise people will be unhappy." | "Rapid urban expansion necessitates strategic housing policies; without proactive municipal planning, cities risk exacerbating spatial inequality and straining public service capacity." | 学术情态（`necessitates`, `risk exacerbating`）、政策术语（`spatial inequality`, `municipal planning`）、条件-结果逻辑链 |
 
 > 💡 **7分典型失误**：在 Task 1 里加 `I think`，在 Task 2 里用 `very important`。9分严格遵守：**Task 1 = 记者笔法，Task 2 = 学者笔法**。
 
 ---
+
 ### 📍 实例组 3：口语 Part 2（个人叙事） vs Part 3（抽象议题）
+
 **话题：一次失败的经历**
 
 | 环节 | ❌ Band 7（语域扁平） | ✅ Band 9（自然升维） | 🔑 切换开关 |
 |:---|:---|:---|:---|
-| **Part 2**<br>*(描述经历)* | "I failed an exam. It was bad. I studied hard next time and passed. This shows we should not give up." | "So this happened during my sophomore year. I completely bombed a statistics midterm, which was a massive blow to my confidence. But instead of spiraling, I completely overhauled my revision strategy, and honestly, that failure taught me more than any A ever could." | 叙事时态（过去进行时/完成时）、情绪词（`massive blow`, `spiraling`）、口语化强调（`honestly`, `bombed`）、个人反思 |
-| **Part 3**<br>*(引申讨论)* | "Failure is good for learning. People should try again. Society needs resilient people." | "Constructive failure functions as a critical feedback mechanism in both individual development and organizational innovation. When institutional cultures normalize iterative learning rather than penalizing missteps, they cultivate long-term adaptive capacity." | 概念化（`constructive failure`, `feedback mechanism`）、制度视角（`institutional cultures`, `adaptive capacity`）、学术让步/条件结构 |
+| **Part 2**<br>_(描述经历)_ | "I failed an exam. It was bad. I studied hard next time and passed. This shows we should not give up." | "So this happened during my sophomore year. I completely bombed a statistics midterm, which was a massive blow to my confidence. But instead of spiraling, I completely overhauled my revision strategy, and honestly, that failure taught me more than any A ever could." | 叙事时态（过去进行时/完成时）、情绪词（`massive blow`, `spiraling`）、口语化强调（`honestly`, `bombed`）、个人反思 |
+| **Part 3**<br>_(引申讨论)_ | "Failure is good for learning. People should try again. Society needs resilient people." | "Constructive failure functions as a critical feedback mechanism in both individual development and organizational innovation. When institutional cultures normalize iterative learning rather than penalizing missteps, they cultivate long-term adaptive capacity." | 概念化（`constructive failure`, `feedback mechanism`）、制度视角（`institutional cultures`, `adaptive capacity`）、学术让步/条件结构 |
 
 > 💡 **7分典型失误**：Part 2 讲得像说明书，Part 3 讲得像鸡汤。9分则完成**“微观体验 → 宏观规律”**的无缝跃迁。
 
 ---
+
 ### 🔑 语域切换的 4 个“隐形开关”（考官暗中打分点）
 
 | 维度 | 偏日常/口语（Part 1/Part 2） | 偏学术/正式（Part 3/Task 1/Task 2） |
@@ -214,6 +220,7 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
 | **话语标记** | `So, Well, You know, I mean`（自然停顿） | `That said, Conversely, From a systemic perspective, It follows that`（逻辑导航） |
 
 ---
+
 ### 🛠️ 如何训练“语域切换力”？（7→9 实操）
 
 1. **录音自测法**：  
@@ -224,6 +231,7 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
 
 2. **词汇双轨库**：  
    不要只背“高级词”，建立**语境配对表**：  
+
    | 概念 | 日常/叙事表达 | 学术/分析表达 |
    |:---|:---|:---|
    | 变多 | `pile up / snowball` | `accumulate / proliferate` |
@@ -237,7 +245,9 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
    → 训练大脑的“语境切换肌肉”。
 
 ---
+
 ### 💎 核心结论
+>
 > **Band 7 是“用一套语言打天下”，Band 9 是“见什么人说什么话”。**  
 > 考官不看你背了多少 GRE 词汇，而看你能否在 15 分钟内，像母语者一样在**咖啡馆聊天**与**学术报告厅**之间自由切换。
 
@@ -262,11 +272,11 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
 
 ### Band 7 — 全程一个调子（偏正式，甚至对 Part 1 也"端着"）
 
-**Part 1**: *Do you use your phone a lot?*
+**Part 1**: _Do you use your phone a lot?_
 
 > "Yes, I do believe that smartphones have become an **indispensable tool** in contemporary life, and I find myself **utilizing** it for various purposes throughout the day."
 
-**Part 3**: *How has technology changed the way people communicate?*
+**Part 3**: _How has technology changed the way people communicate?_
 
 > "I would argue that technology has **fundamentally altered** interpersonal communication. The proliferation of social media platforms has enabled instantaneous global connectivity, which, in my view, has both **positive and negative implications** for society."
 
@@ -276,11 +286,11 @@ Band 9 不是“永远用高级词”，而是**“在什么场合说什么话�
 
 ### Band 9 — 自如切换两套"语言装备"
 
-**Part 1**: *Do you use your phone a lot?*
+**Part 1**: _Do you use your phone a lot?_
 
 > "Honestly? **Way too much.** I'd be lying if I said I wasn't **glued to** my screen most evenings — doom-scrolling through short videos when I should probably be sleeping. **It's a bit of a guilty pleasure, to be honest.**"
 
-**Part 3**: *How has technology changed the way people communicate?*
+**Part 3**: _How has technology changed the way people communicate?_
 
 > "Well, the shift is **profound**. What we've witnessed over the past two decades is nothing short of a **paradigm shift** in human interaction. On the one hand, technology has **democratized** communication — even the most marginalized communities now have access to global platforms. **On the other hand**, this hyper-connectivity has come at the cost of **depth in relationships**; we're more connected than ever, yet arguably more isolated. The irony is quite striking."
 
@@ -305,11 +315,11 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 7 — 同一种"学生作文"风格
 
-**Part 1**: *Did you enjoy school?*
+**Part 1**: _Did you enjoy school?_
 
 > "Yes, I generally enjoyed my school life, especially the subjects I was interested in. I think having good teachers made a significant difference to my learning experience."
 
-**Part 3**: *Is the education system in your country effective?*
+**Part 3**: _Is the education system in your country effective?_
 
 > "I think the education system has some problems because it focuses too much on exams. Students need to develop critical thinking skills rather than just memorizing facts. So I believe the government should make reforms."
 
@@ -319,21 +329,23 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 9 — 完美的语域双轨
 
-**Part 1**: *Did you enjoy school?*
+**Part 1**: _Did you enjoy school?_
 
 > "Yeah, **on the whole**, I did — though I'd be lying if I said I loved every minute of it! **Maths was a nightmare**, honestly. But I had this incredible English teacher who **made everything come alive**, and she's probably the reason I'm even sitting here today, to be honest."
 
-**Part 3**: *Is the education system in your country effective?*
+**Part 3**: _Is the education system in your country effective?_
 
 > "That's a **nuanced** question. On the surface, certain metrics suggest progress — literacy rates have improved, enrollment figures are up. **But beneath those numbers lies a more troubling reality.** The system remains largely **exam-oriented**, which incentivizes rote memorization over genuine intellectual curiosity. **What we're essentially producing** is a generation of excellent test-takers who struggle with real-world problem-solving. Until curricula are redesigned to **prioritize critical thinking and creativity**, these systemic shortcomings will persist."
 
 > ✅ **Part 1** 特征：
+>
 > - 缩略：Yeah, I'd, I'm
 > - 语气词：honestly, to be honest, on the whole
 > - 口语表达：a nightmare, made everything come alive
 > - 句子短，像在"聊天"
 
 > ✅ **Part 3** 特征：
+>
 > - 学术用词：nuanced, metrics, incentivizes, rote memorization, curricula, systemic shortcomings
 > - 评论性标记：What we're essentially producing...（插入评论）
 > - 长短句交替、逻辑递进
@@ -344,11 +356,11 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 7
 
-**Part 1**: *Do you care about the environment?*
+**Part 1**: _Do you care about the environment?_
 
 > "Yes, I do care about the environment. I think it's important for everyone to be environmentally conscious and try to reduce their carbon footprint in daily life."
 
-**Part 3**: *What can individuals do to protect the environment?*
+**Part 3**: _What can individuals do to protect the environment?_
 
 > "Individuals can do many things such as recycling, using public transport, and reducing plastic usage. I think if everyone makes small changes, it will have a big impact on the environment."
 
@@ -358,20 +370,22 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 9
 
-**Part 1**: *Do you care about the environment?*
+**Part 1**: _Do you care about the environment?_
 
 > "I'd like to say I'm **eco-warrior material**, but honestly, I still forget my reusable bags **literally every time** I go shopping. So yeah, I care in principle — **in practice**, I'm still a work in progress!"
 
-**Part 3**: *What can individuals do to protect the environment?*
+**Part 3**: _What can individuals do to protect the environment?_
 
-> "While individual action is commendable, **let's not kid ourselves** — the notion that personal recycling will reverse climate change is, frankly, **a convenient fiction**. The real leverage lies in **systemic transformation**: government regulation, corporate accountability, and a fundamental shift in how we produce and consume energy. Individuals *can* contribute, of course — reducing consumption, choosing sustainable alternatives — **but placing the burden primarily on consumers is, at best, a distraction from the structural reforms that are desperately needed**."
+> "While individual action is commendable, **let's not kid ourselves** — the notion that personal recycling will reverse climate change is, frankly, **a convenient fiction**. The real leverage lies in **systemic transformation**: government regulation, corporate accountability, and a fundamental shift in how we produce and consume energy. Individuals _can_ contribute, of course — reducing consumption, choosing sustainable alternatives — **but placing the burden primarily on consumers is, at best, a distraction from the structural reforms that are desperately needed**."
 
 > ✅ **Part 1** 特征：
+>
 > - 自嘲式幽默：eco-warrior material, I'm still a work in progress
 > - 夸张词：literally every time
 > - 短句、破折号、感叹语气
 
 > ✅ **Part 3** 特征：
+>
 > - 让步反驳结构：While... let's not kid ourselves... is frankly...
 > - 评论性插入：of course
 > - 批判性用词：a convenient fiction, distraction, structural reforms
@@ -383,11 +397,11 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 9 完整对照
 
-**Part 1**: *Do you do any exercise?*
+**Part 1**: _Do you do any exercise?_
 
 > "I go through **phases**, to be honest. Some weeks I'm **super motivated** and I'll hit the gym like four times, and then the next week I'm **completely hopeless** — binge-watching Netflix on the sofa with a bag of crisps. **It's a constant battle between my best intentions and my worst habits**, really!"
 
-**Part 3**: *Why do you think some people don't exercise as much as they should?*
+**Part 3**: _Why do you think some people don't exercise as much as they should?_
 
 > "Several factors are at play. **Firstly**, from a socioeconomic standpoint, lower-income individuals often lack both the time and the resources for structured exercise — gym memberships are expensive, and working multiple leaves little room for leisure. **Secondly**, there's a psychological dimension: instant gratification culture has conditioned people to prioritize short-term comfort over long-term well-being. **Perhaps most critically**, urban planning in many cities is inherently **hostile to physical activity** — when public spaces are designed around cars rather than pedestrians, exercise becomes an act of resistance rather than routine. **So while personal responsibility matters, the environment in which people live arguably matters more.**"
 
@@ -397,11 +411,11 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ### Band 9
 
-**Part 1**: *Do you like traditional food?*
+**Part 1**: _Do you like traditional food?_
 
 > "I **absolutely love it** — but mainly when someone else is cooking it! My grandma makes this traditional dish that's **out of this world**, and every time I try to recreate it at home, it's just... **not the same**. Some things are best left to the experts, I reckon!"
 
-**Part 3**: *How can we preserve cultural traditions in a globalized world?*
+**Part 3**: _How can we preserve cultural traditions in a globalized world?_
 
 > "This is arguably one of the defining tensions of the 21st century: **how do we honor our heritage without turning it into a museum piece?** Preservation, in my view, should not mean **embalming** traditions in amber — it should mean making them **relevant to contemporary life**. Take language, for instance: indigenous languages are dying at an alarming rate, yet many governments invest far more in English-language instruction than in linguistic preservation. **The solution, I believe, lies in integration rather than isolation** — weaving cultural practices into education, media, and public policy so that tradition evolves organically rather than being artificially maintained."
 
@@ -426,13 +440,13 @@ irony在此处指“讽刺”或“反讽”，即结果与预期或表面现象
 
 ## 一个终极对比：同一考生的完整答卷
 
-### Part 1: *What's your favorite way to relax?*
+### Part 1: _What's your favorite way to relax?_
 
 > "Oh, I'm **a massive fan of** long walks — nothing beats just **putting on a podcast and zoning out** for an hour or so. It's **my way of switching off** from the chaos of daily life, you know? **I used to** be a big TV binge-watcher, but honestly, I found it just made me feel **more sluggish**, so now I try to get outside whenever I can."
 
-### Part 3: *Why is it important for people to have leisure time?*
+### Part 3: _Why is it important for people to have leisure time?_
 
-> "Leisure is not a luxury — it's a **fundamental component of human functioning**. Research in occupational psychology consistently demonstrates that sustained work without adequate downtime leads to **diminished cognitive performance, heightened stress, and ultimately, burnout**. Beyond the individual level, societies that undervalue rest tend to produce workforces that are not only less productive but also **more prone to mental health crises**. In East Asian economies, for example, the culture of overwork — or *karoshi*, as it's known in Japan — has sparked a growing backlash precisely because people are recognizing that **endless productivity without recuperation is neither sustainable nor humane**. **So when we talk about leisure, we're really talking about the foundation upon which sustainable productivity is built.**"
+> "Leisure is not a luxury — it's a **fundamental component of human functioning**. Research in occupational psychology consistently demonstrates that sustained work without adequate downtime leads to **diminished cognitive performance, heightened stress, and ultimately, burnout**. Beyond the individual level, societies that undervalue rest tend to produce workforces that are not only less productive but also **more prone to mental health crises**. In East Asian economies, for example, the culture of overwork — or _karoshi_, as it's known in Japan — has sparked a growing backlash precisely because people are recognizing that **endless productivity without recuperation is neither sustainable nor humane**. **So when we talk about leisure, we're really talking about the foundation upon which sustainable productivity is built.**"
 
 ---
 

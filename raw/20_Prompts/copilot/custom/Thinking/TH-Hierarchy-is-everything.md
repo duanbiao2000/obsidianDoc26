@@ -10,8 +10,10 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+
+- Domain/AI/PromptEngineering
+- Type/Reference
+
 ---
 你可以按照 Refactoring UI 和 Obsidian 的系统性思路，从视觉、结构、行为三个方面**优化一篇笔记的层级**——让内容主次分明，阅读理解更高效，知识复用更容易。具体方法如下：
 
@@ -24,6 +26,7 @@ tags:
 - **建立层级引导**：用目录或 MOC（内容索引）在最前面/显著位置，汇总本笔记所有关键小节。
 
 **示例结构**：
+
 ```
 # 异步编程设计
 ## 基本原理

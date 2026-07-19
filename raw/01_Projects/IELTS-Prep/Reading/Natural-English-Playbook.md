@@ -25,7 +25,7 @@ Always cushion requests.
 
 ---
 
-### Rule 2 — Use contractions. Always.
+### Rule 2 — Use contractions. Always
 
 Uncontracted speech sounds robotic.
 
@@ -269,4 +269,3 @@ and return all three versions without asking for clarification.
 - Casual: _"Hey, so the meeting's been pushed back — something came up."_
 - Conversational: _"Just wanted to let you know, the meeting got moved. Stuff happened."_
 - Polished Spoken: _"So quick heads up — we're actually gonna need to reschedule the meeting. Things kind of came up last minute."_
-

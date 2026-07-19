@@ -6,13 +6,12 @@ created: 2026-05-28
 在今天这个阶段——尤其是：
 
 - [Claude Code by Anthropic](https://www.anthropic.com/claude-code?utm_source=chatgpt.com)
-    
+
 - [Cursor](https://www.cursor.com/?utm_source=chatgpt.com)
-    
+
 - [GitHub Copilot](https://github.com/features/copilot?utm_source=chatgpt.com)
-    
+
 - [OpenAI Codex](https://openai.com/index/introducing-codex/?utm_source=chatgpt.com)
-    
 
 逐渐把“代码生成”商品化之后，
 
@@ -22,20 +21,19 @@ created: 2026-05-28
 
 实际上：
 
-# 恰恰相反。
+# 恰恰相反
 
 因为：
 
 AI 正在快速压缩：
 
 - 语法价值
-    
+
 - CRUD价值
-    
+
 - boilerplate价值
-    
+
 - 初级实现价值
-    
 
 于是：
 
@@ -71,19 +69,18 @@ AI 时代尤其如此。
 不是：
 
 - 写代码最快
-    
+
 - LeetCode 最强
-    
+
 - API 记忆最多
-    
 
 而是：
 
-# 在高复杂度环境中持续做正确技术决策。
+# 在高复杂度环境中持续做正确技术决策
 
 ---
 
-# Claude Code 时代，
+# Claude Code 时代
 
 # “必经之路”已经改变
 
@@ -109,7 +106,7 @@ Builder
 
 ---
 
-# 必经阶段 1：
+# 必经阶段 1
 
 # 从“代码工人”转向“系统观察者”
 
@@ -138,17 +135,16 @@ Builder
 能快速理解：
 
 - repo topology
-    
+
 - dependency graph
-    
+
 - coupling
-    
+
 - failure domains
-    
+
 - data flow
-    
+
 - operational boundaries
-    
 
 Claude Code 已经越来越会：
 
@@ -158,7 +154,7 @@ Claude Code 已经越来越会：
 
 人的价值开始转向：
 
-# “看懂整个系统”。
+# “看懂整个系统”
 
 ---
 
@@ -182,7 +178,7 @@ Claude Code 已经越来越会：
 
 ---
 
-# 必经阶段 2：
+# 必经阶段 2
 
 # 学会“驾驭 AI”
 
@@ -192,11 +188,11 @@ Claude Code 已经越来越会：
 
 而是：
 
-# orchestration AI。
+# orchestration AI
 
 ---
 
-## 今天很多人还停留在：
+## 今天很多人还停留在
 
 ```text
 AI 帮我补代码
@@ -211,19 +207,18 @@ AI swarm coordination
 例如：
 
 - 一个 Agent 写测试
-    
+
 - 一个 Agent 做 refactor
-    
+
 - 一个 Agent 做 review
-    
+
 - 一个 Agent 查 docs
-    
+
 - 一个 Agent 做 infra migration
-    
 
 而你负责：
 
-# system-level supervision。
+# system-level supervision
 
 ---
 
@@ -247,7 +242,7 @@ human governs systems
 
 ---
 
-# 必经阶段 3：
+# 必经阶段 3
 
 # 上下文工程（Context Engineering）
 
@@ -261,11 +256,11 @@ human governs systems
 
 而是：
 
-# context quality。
+# context quality
 
 ---
 
-## Staff Engineer 将越来越像：
+## Staff Engineer 将越来越像
 
 # “上下文架构师”
 
@@ -289,22 +284,21 @@ human governs systems
 
 而是：
 
-# 它更懂“上下文工作流”。
+# 它更懂“上下文工作流”
 
 例如：
 
 - grep哪些文件
-    
+
 - 哪些代码重要
-    
+
 - 如何避免 token 爆炸
-    
+
 - 如何持续保持任务状态
-    
 
 ---
 
-# 必经阶段 4：
+# 必经阶段 4
 
 # 从“实现”进入“演化”
 
@@ -326,20 +320,19 @@ Staff：
 
 ---
 
-## 必须学会：
+## 必须学会
 
 ### 1. Evolutionary Architecture
 
 系统：
 
 - 如何扩展
-    
+
 - 如何退化
-    
+
 - 如何形成技术债
-    
+
 - 如何组织化失控
-    
 
 ---
 
@@ -358,19 +351,18 @@ Staff：
 例如：
 
 - 团队边界
-    
+
 - ownership
-    
+
 - review culture
-    
+
 - deployment risk
-    
+
 - communication latency
-    
 
 ---
 
-# 必经阶段 5：
+# 必经阶段 5
 
 # 成为“认知压缩器”
 
@@ -386,7 +378,7 @@ Staff：
 
 而是：
 
-# 降低组织复杂度。
+# 降低组织复杂度
 
 ---
 
@@ -395,17 +387,16 @@ Staff：
 Staff engineer 会：
 
 - 把混乱系统抽象成3个核心问题
-    
+
 - 把10页设计压缩成1页
-    
+
 - 把复杂架构变成可理解模型
-    
+
 - 提前看到未来故障点
-    
 
 本质是：
 
-# complexity compression。
+# complexity compression
 
 ---
 
@@ -422,19 +413,18 @@ AI 会制造：
 系统真正稀缺的是：
 
 - coherence
-    
+
 - consistency
-    
+
 - direction
-    
+
 - constraints
-    
+
 - architecture integrity
-    
 
 ---
 
-# 必经阶段 6：
+# 必经阶段 6
 
 # 学会“环境内推理”
 
@@ -459,19 +449,18 @@ Claude Code 最深刻的改变之一：
 需要：
 
 - 看日志
-    
+
 - 看 traces
-    
+
 - 看 production metrics
-    
+
 - 看 CI failures
-    
+
 - 看 infra state
-    
 
 并与 AI 一起：
 
-# 动态闭环修复系统。
+# 动态闭环修复系统
 
 ---
 
@@ -509,7 +498,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第一层：
+# 第一层
 
 # Coding
 
@@ -517,7 +506,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第二层：
+# 第二层
 
 # Systems
 
@@ -525,7 +514,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第三层：
+# 第三层
 
 # Architecture
 
@@ -533,7 +522,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第四层：
+# 第四层
 
 # AI Orchestration
 
@@ -541,7 +530,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第五层：
+# 第五层
 
 # Organizational Cognition
 
@@ -549,7 +538,7 @@ Claude Code 最深刻的改变之一：
 
 ---
 
-# 第六层：
+# 第六层
 
 # Strategic Technical Leadership
 

@@ -12,11 +12,13 @@
 Andrej Karpathy's LLM Wiki treats notes as **source code** that an LLM **compiles** into a structured, queryable wiki (the "executable").
 
 ### Three-Layer Architecture
+
 1. **Raw Layer** (`raw/`) — Immutable ground truth. Never modified by LLM.
 2. **Wiki Layer** (`wiki/`) — LLM-owned, synthesized, interlinked Markdown pages. This is the "compiled" knowledge base.
 3. **Schema Layer** (`SCHEMA.md` / `Claude.md`) — Instructions that make the LLM a disciplined wiki maintainer.
 
 ### Key Shifts from Current Vault
+
 - **From**: Scattered folders + human navigation
 - **To**: LLM-maintained, index-first, cross-linked encyclopedia
 - **Raw notes stay** but become source material
@@ -65,6 +67,7 @@ Andrej Karpathy's LLM Wiki treats notes as **source code** that an LLM **compile
 ```
 
 **Notes**:
+
 - `raw/` is a **read-only** mirror of current content.
 - `wiki/` becomes the new primary vault for agents.
 - Existing `30_WIKI/` is preserved and gradually linked in.
@@ -119,6 +122,7 @@ related:
 ## 4. Naming & Linking Conventions
 
 ### File Naming
+
 - Use **kebab-case** or **Title-Case** consistently (recommend `Title-Case.md` for readability).
 - For Chinese content: keep original meaningful titles but add English slug when needed.
 - Examples:
@@ -127,6 +131,7 @@ related:
   - `IELTS-8.5-Speaking-Framework.md`
 
 ### Linking Rules
+
 - Use Obsidian `[[wikilinks]]` everywhere.
 - Minimum **2 outgoing links** per page.
 - Use typed relationships where possible (future plugin support):
@@ -135,6 +140,7 @@ related:
   - `[[Page|alias @references]]`
 
 ### Content Rules
+
 - Every factual claim must have a source citation.
 - Use `> **CONTRADICTION**` and `> **OPEN QUESTION**` callouts.
 - Keep pages focused (aim for 300–800 words).
@@ -145,6 +151,7 @@ related:
 ## 5. Conversion Workflow (SOP)
 
 ### Phase 0: Setup (One-time)
+
 1. Create the `raw/` and `wiki/` directories.
 2. Move/copy all non-`30_WIKI` content into `raw/`.
 3. Create `wiki/SCHEMA.md` (copy this SOP into it).
@@ -152,17 +159,21 @@ related:
 5. Update `HOME.md` and dashboards to point to `wiki/INDEX.md`.
 
 ### Phase 1: Pilot (10–20 notes)
+
 1. Pick high-value notes from `raw/01_Projects/IELTS-Prep/Speaking/`.
 2. Ask Claude Code:  
    `"Ingest raw/01_Projects/IELTS-Prep/Speaking/口语高分的底层逻辑.md into the wiki using the SCHEMA.md rules."`
 3. Review output, refine SCHEMA.md.
 
 ### Phase 2: Batch Conversion
+
 Recommended batch strategy:
+
 - Group by folder (e.g., all Speaking notes together).
 - Use the **Conversion Prompt Template** below.
 
 ### Phase 3: Full Migration
+
 - Prioritize: `20_Prompts`, `10_Templates`, `02_Areas/English`, `01_Projects/IELTS-Prep`.
 - Archive old locations after successful conversion.
 
@@ -174,6 +185,7 @@ Recommended batch strategy:
 > You are the Wiki Maintainer. Your job is to compile raw sources into a high-quality, interlinked personal encyclopedia. Never modify anything in `raw/`. All changes happen in `wiki/`.
 
 **Ingest Workflow** (when user says "Ingest [path]"):
+
 1. Read the raw file.
 2. Decide page type(s).
 3. Create/update appropriate page(s) in `wiki/`.
@@ -184,12 +196,14 @@ Recommended batch strategy:
 8. Report what was created/updated.
 
 **Query Workflow**:
+
 1. Read `INDEX.md` first.
 2. Read relevant pages.
 3. Synthesize answer with citations.
 4. Offer to file result as a new `qa/` or `synthesis/` page.
 
 **Lint Workflow** (run weekly):
+
 - Find orphan pages.
 - Find missing links.
 - Flag contradictions.

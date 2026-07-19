@@ -17,29 +17,29 @@ if(!ea.verifyMinimumPluginVersion || !ea.verifyMinimumPluginVersion("1.5.21")) {
 let settings = ea.getScriptSettings();
 //set default values on first run
 if(!settings["Border color"]) {
-	settings = {
-	  "Border color" : {
-			value: "black",
+ settings = {
+   "Border color" : {
+   value: "black",
       description: "Any legal HTML color (#000000, rgb, color-name, etc.). Set to 'transparent' for transparent color."
-		},
-		"Background color" : {
-			value: "gold",
+  },
+  "Background color" : {
+   value: "gold",
       description: "Background color of the sticky note. Set to 'transparent' for transparent color."
-		},
-		"Background fill style" : {
-			value: "solid",
+  },
+  "Background fill style" : {
+   value: "solid",
       description: "Fill style of the sticky note",
-		  valueset: ["hachure","cross-hatch","solid"]
-		}
-	};
-	await ea.setScriptSettings(settings);
+    valueset: ["hachure","cross-hatch","solid"]
+  }
+ };
+ await ea.setScriptSettings(settings);
 }
 
 if(!settings["Max sticky note width"]) {
   settings["Max sticky note width"] = {
     value: "600",
     description: "Maximum width of new sticky note. If text is longer, it will be wrapped",
-	  valueset: ["400","600","800","1000","1200","1400","2000"]
+   valueset: ["400","600","800","1000","1200","1400","2000"]
   }
   await ea.setScriptSettings(settings);
 }
@@ -81,7 +81,7 @@ elements.forEach((el)=>{
   ea.style.fontSize    = el.fontSize;
   const text = el.text.split("\n");
   for(i=0;i<text.length;i++) {
-	  ea.addText(el.x,el.y+i*el.height/text.length,text[i].trim());
+   ea.addText(el.x,el.y+i*el.height/text.length,text[i].trim());
   }
 });
 ea.deleteViewElements(elements);
@@ -98,13 +98,13 @@ let col = doMatrix ? -1 : 0;
 
 ea.getElements().forEach((el, idx)=>{
   if(doMatrix) {
-		if(idx % pref_rows === 0) {
-			row=0;
-			col++;
-		} else {
-			row++;
-		}
-	}
+  if(idx % pref_rows === 0) {
+   row=0;
+   col++;
+  } else {
+   row++;
+  }
+ }
   const width = pref_width > 0 ? pref_width : el.width+2*padding;
   const widthOK = pref_width > 0 || width<=maxWidth;
   const id = ea.addRect(
@@ -120,8 +120,8 @@ ea.getElements().forEach((el, idx)=>{
 const els = Object.entries(ea.elementsDict);
 let newEls = [];
 for(i=0;i<els.length/2;i++) {
-	newEls.push(els[els.length/2+i]);
-	newEls.push(els[i])
+ newEls.push(els[els.length/2+i]);
+ newEls.push(els[i])
 }
 ea.elementsDict = Object.fromEntries(newEls);
 

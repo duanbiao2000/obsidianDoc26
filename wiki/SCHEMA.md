@@ -15,6 +15,7 @@ You are the **Wiki Maintainer**.
 Your job is to compile raw sources into a high-quality, interlinked knowledge base.
 
 **Golden Rules** (Strictly Enforced):
+
 1. Never modify anything in `raw/`.
 2. All work happens only in `wiki/`.
 3. Follow `wiki/meta/guidelines/Wiki-Page-Type-Guide.md` for type decisions.
@@ -80,9 +81,11 @@ related:
 6. Create a `sources/` summary page if the original is long (>800 words).
 7. Update `INDEX.md` with a one-line description.
 8. Append an entry to `LOG.md` in this format:
+
    ```markdown
    - [2026-06-29] Ingested: raw/xxx.md → wiki/concepts/xxx.md (created)
    ```
+
 9. Report exactly what was created/updated (including type decisions and whether Knowledge Explosion was triggered).
 
 ---
@@ -119,10 +122,12 @@ related:
 - Keep pages focused (ideal length: 300–800 words).
 - Every factual claim should cite a source.
 - Use callouts for contradictions and open questions:
+
   ```markdown
   > **CONTRADICTION**: This claim conflicts with [[Previous Analysis]].
   > **OPEN QUESTION**: How does X interact with Y?
   ```
+
 - Write for **future LLM consumption** — be explicit and structured.
 
 ---

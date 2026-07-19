@@ -3,7 +3,7 @@ tags: []
 created: 2026-03-05
 ---
 
-/* 
+/*
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/scripts-text-aura.jpg)
 Select a single text element, or a text element in a container. The container must have a transparent background.
 The script will add an aura to the text by adding 4 copies of the text each with the inverted stroke color of the original text element and with a very small X and Y offset. The resulting 4 + 1 (original) text elements or containers will be grouped.
@@ -30,7 +30,7 @@ clipboardText = await navigator.clipboard.readText();
 if(clipboardText) {
   const cm1 = ea.getCM(clipboardText);
   if(cm1.format !== "invalid") {
-	strokeColor = cm1.stringHEX();
+ strokeColor = cm1.stringHEX();
   } else {
     const cm2 = ea.getCM("#"+clipboardText);
     if(cm2.format !== "invalid") {
@@ -48,17 +48,17 @@ const addClone = (offsetX, offsetY) => {
     const clone = ea.cloneElement(el);
     ids.push(clone.id);
     clone.x += offsetX;
-	clone.y += offsetY;
-	if(offsetX!==0 || offsetY!==0) {
-	  switch (clone.type) {
-	    case "text":
-		  clone.strokeColor = strokeColor; 
-		  break;
-	    default:
-		  clone.strokeColor = "transparent";
-		  break;
-	  }
-	}
+ clone.y += offsetY;
+ if(offsetX!==0 || offsetY!==0) {
+   switch (clone.type) {
+     case "text":
+    clone.strokeColor = strokeColor; 
+    break;
+     default:
+    clone.strokeColor = "transparent";
+    break;
+   }
+ }
     ea.elementsDict[clone.id] = clone;
   })
 }

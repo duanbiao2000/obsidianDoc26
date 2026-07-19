@@ -12,11 +12,7 @@ created: 2026-06-26
 
 ---
 
-
-
 # ⚡ IELTS Writing Task 2 速查
-
-
 
 ## 四种题型结构
 
@@ -32,8 +28,6 @@ created: 2026-06-26
 
 | Problem/Solution | 引入 → 问题分析 → 解决方案 → 结论 |
 
-
-
 ## 高分开头模板
 
 - It is widely acknowledged that... However, whether... remains a matter of debate.
@@ -41,8 +35,6 @@ created: 2026-06-26
 - In recent years, there has been a growing concern about...
 
 - The question of whether... is one that merits careful consideration.
-
-
 
 ## 让步转折
 
@@ -52,8 +44,6 @@ created: 2026-06-26
 
 - Granted, ... but this fails to account for...
 
-
-
 ## 结论
 
 - In conclusion, while... the evidence suggests that...
@@ -61,8 +51,6 @@ created: 2026-06-26
 - On balance, I believe that... outweighs...
 
 - Ultimately, the most compelling argument is that...
-
-
 
 ## 快速跳转
 
@@ -75,4 +63,3 @@ created: 2026-06-26
 - [[100组观点辩论_论点库]]
 
 - [[写作策略]]
-

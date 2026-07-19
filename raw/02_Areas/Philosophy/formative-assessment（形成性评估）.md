@@ -70,16 +70,19 @@ created: 2026-04-23
 > **当前状态判断：** 你的观点是合理的，但表达方式停留在"列举事实"层面，没有做**认知操作**（参见 [[结构本身就是高分信号]]）。这是 6.5→8 最大的鸿沟。
 >
 > **具体诊断：**
+>
 > - "bad / sad / lonely / too much time / grades drop" — 全部是 flat 描述词，没有精确指向任何具体机制
 > - 三句话之间是 **并列堆叠**，没有递进或转折关系，读起来像清单
 >
 > **下一步改什么（按优先级排序）：**
 >
 > **第一步：把一个 flat 描述词升级为精确搭配**
+>
 > - "feel sad and lonely" → 考虑用你笔记里的 **the emotional toll** 或 **a sense of isolation**
 > - "spend too much time" → 考虑用 **excessive screen time** 或 **prolonged exposure**
 >
 > **第二步：在句子之间加一个逻辑操作**
+>
 > - 不要用 "Also"，试试用笔记里的 **this, in turn,** 或 **the knock-on effect is**
 > - 改后效果：*"Excessive screen time can lead to social isolation. This, in turn, undermines academic performance."*
 >"knock-on"在句中与"effect"构成固定搭配"knock-on effect"。
@@ -92,6 +95,7 @@ created: 2026-04-23
 > "attention span"是固定搭配，意为“注意力持续时间”或“专注力时长”。
 >
 > **本周练习任务：**
+>
 > 1. 从你最近写过的 3 篇作文里，各找 2 个 flat 描述词，用笔记里的搭配表替换
 > 2. 下次写作文时，**强制自己至少用一次** "this, in turn" 或 "what often goes unnoticed is"
 > 3. 周五交一篇新作文，我只看这两点有没有做到

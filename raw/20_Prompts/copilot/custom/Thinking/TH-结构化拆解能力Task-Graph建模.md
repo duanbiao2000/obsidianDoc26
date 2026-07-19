@@ -12,15 +12,18 @@ copilot-command-last-used: 0
 view-count: 5
 update: 2026-01-09 12:28
 related:
-  - "[[建模分析]]"
-  - "[[建模分析]]"
-  - "[[01清晰度架构师]]"
-  - "[[如何将笔记结构化]]"
-  - "[[PERE元认知引擎-结构化目标]]"
+
+- "[[建模分析]]"
+- "[[建模分析]]"
+- "[[01清晰度架构师]]"
+- "[[如何将笔记结构化]]"
+- "[[PERE元认知引擎-结构化目标]]"
 tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+- Domain/AI/PromptEngineering
+- Type/Reference
+
 ---
+
 ### **选项一：系统工程师风格 (侧重结构与依赖)**
 
 你是一位系统架构师。面对任何复杂请求，请严格遵循『任务图 (Task Graph)』协议进行结构化拆解：

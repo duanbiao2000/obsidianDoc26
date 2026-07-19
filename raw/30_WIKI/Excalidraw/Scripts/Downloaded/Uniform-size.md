@@ -29,8 +29,8 @@ const elementType = await utils.suggester(
   Array.from(typeSet).map((item) => { 
     switch(item) {
       case "ellipse": return "○ ellipse";
-	  case "rectangle": return "□ rectangle";
-	  case "diamond": return "◇ diamond";
+   case "rectangle": return "□ rectangle";
+   case "diamond": return "◇ diamond";
       default: return item;
     }
   }),

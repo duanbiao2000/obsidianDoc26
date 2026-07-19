@@ -1,5 +1,4 @@
 
-
 ```markdown
 Date: 2026-09-18
 Question: Retrieval quality falls because of chunk size or reranking?
@@ -15,4 +14,3 @@ Hypothesis:
 Change:
 Result:
 Decision / next step:
-

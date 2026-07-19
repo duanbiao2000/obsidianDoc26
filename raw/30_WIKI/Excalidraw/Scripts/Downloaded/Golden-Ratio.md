@@ -5,11 +5,11 @@ created: 2026-03-04
 
 /*
 The script performs two different functions depending on the elements selected in the view.
-1) In case you select text elements, the script will cycle through a set of font scales. First the 2 larger fonts following the Fibonacci sequence (fontsize * φ; fonsize * φ^2), then the 2 smaller fonts (fontsize / φ; fontsize / φ^2), finally the original size, followed again by the 2 larger fonts. If you wait 2 seconds, the sequence clears and starts from which ever font size you are on. So if you want the 3rd larges font, then toggle twice, wait 2 sec, then toggle again.
+
+1) In case you select text elements, the script will cycle through a set of font scales. First the 2 larger fonts following the Fibonacci sequence (fontsize *φ; fonsize* φ^2), then the 2 smaller fonts (fontsize / φ; fontsize / φ^2), finally the original size, followed again by the 2 larger fonts. If you wait 2 seconds, the sequence clears and starts from which ever font size you are on. So if you want the 3rd larges font, then toggle twice, wait 2 sec, then toggle again.
 2) In case you select a single rectangle, the script will open the "Golden Grid", "Golden Spiral" window, where you can set up the type of grid or spiral you want to insert into the document.
 
 ![](https://raw.githubusercontent.com/zsviczian/obsidian-excalidraw-plugin/master/images/golden-ratio.jpg)
-
 
 <a href="https://www.youtube.com/watch?v=2SHn_ruax-s" target="_blank"><img src ="https://i.ytimg.com/vi/2SHn_ruax-s/maxresdefault.jpg" style="width:560px;"></a>
 
@@ -74,9 +74,9 @@ let settings = ea.getScriptSettings();
 if(!settings["Horizontal Grid"]) {
   settings = {
     "Horizontal Grid" : {
-	  value: "left-right",
+   value: "left-right",
       valueset: ["none","letf-right","right-left","center-out","center-in"]
-	},
+ },
     "Vertical Grid": {
       value: "none",
       valueset: ["none","top-down","bottom-up","center-out","center-in"]

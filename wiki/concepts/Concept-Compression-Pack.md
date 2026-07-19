@@ -27,22 +27,27 @@ A method for building high-resolution mental models by constructing a rich, dive
 ## Process
 
 ### Stage 1: Core & Boundaries
+
 - Core definition (one sentence)
 - Simple metaphor (understandable by a 6-year-old)
 - Anti-definition + boundary cases
 
 ### Stage 2: Case Library Construction
+
 Analyze 3–5 heterogeneous real-world cases from different:
+
 - Time periods (historical vs contemporary)
 - Geographies (East vs West)
 - Scales (national policy vs company behavior)
 
 For each case:
+
 - Background
 - Mechanism (how the concept was applied)
 - Insight (which specific facet or cost it reveals)
 
 ### Stage 3: Integration & Elevation
+
 - Identify the core paradox or tension
 - Recognize the overall pattern
 - Define trigger conditions for future recognition

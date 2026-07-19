@@ -83,7 +83,7 @@ Jordan 的核心观点不是“多学一项技能”，而是：
 
 - 推荐链被限制
 - 客户来源变窄
-- 工作变重复（agency trauma） 
+- 工作变重复（agency trauma）
 
 > 特指个人在试图行使自主权或掌控自身生活时，因过往创伤导致的无力感或障碍。
 
@@ -255,9 +255,9 @@ Builder（单人闭环）
 练习：
 
 - 每做一个 UI：
-    - 写下它如何实现
-    - 动效触发条件
-    - 状态变化
+  - 写下它如何实现
+  - 动效触发条件
+  - 状态变化
 
 训练：
 
@@ -374,50 +374,50 @@ Brief → Moodboard → Concept
 ### Key Points (with timestamps)
 
 - **(00:00–01:54) Why Kin Studio ended**
-    - Jordan and his brother launched Kin Studio to combine web design/dev with videography/photography.
-    - Collaboration failed because client needs rarely overlapped; web clients usually already had visual assets.
-    - The partnership functioned more like two separate businesses sharing space than a unified offering.
+  - Jordan and his brother launched Kin Studio to combine web design/dev with videography/photography.
+  - Collaboration failed because client needs rarely overlapped; web clients usually already had visual assets.
+  - The partnership functioned more like two separate businesses sharing space than a unified offering.
 - **(04:29–06:27) Transition from designer → designer-developer**
-    - Jordan originally focused on design but learned development after frustration with developers executing his designs poorly.
-    - Early rule: only develop sites he designed himself due to inconsistent Figma files and unclear systems.
-    - Over time, development became equally enjoyable and now occupies ~50% or more of his work.
+  - Jordan originally focused on design but learned development after frustration with developers executing his designs poorly.
+  - Early rule: only develop sites he designed himself due to inconsistent Figma files and unclear systems.
+  - Over time, development became equally enjoyable and now occupies ~50% or more of his work.
 - **(07:35–08:35) Webflow pushed technical growth**
-    - Missing platform features forced him to learn JavaScript and custom code.
-    - Webflow evolved from “no-code” → “low-code” → effectively hybrid coding with external tools and scripts.
-    - Custom code and integrations are used to elevate projects beyond default capabilities.
+  - Missing platform features forced him to learn JavaScript and custom code.
+  - Webflow evolved from “no-code” → “low-code” → effectively hybrid coding with external tools and scripts.
+  - Custom code and integrations are used to elevate projects beyond default capabilities.
 - **(08:58–11:12) Learning strategy**
-    - Heavy learning from community creators (e.g., tutorials, frameworks, Discord discussions).
-    - Takes courses not just for knowledge but to study **processes and systems** (file organization, workflows).
-    - Continuous learning is essential for freelancers who lack peer visibility. 对于缺乏同事或同行日常互动的自由职业者而言，这种“可见性”代表了其工作成果和专业能力被外界认知的机会。
+  - Heavy learning from community creators (e.g., tutorials, frameworks, Discord discussions).
+  - Takes courses not just for knowledge but to study **processes and systems** (file organization, workflows).
+  - Continuous learning is essential for freelancers who lack peer visibility. 对于缺乏同事或同行日常互动的自由职业者而言，这种“可见性”代表了其工作成果和专业能力被外界认知的机会。
 - **(12:32–14:42) Framework experimentation**
-    - Uses Lumos and other Webflow frameworks but adapts selectively.
-    - Rapid framework evolution creates maintenance challenges across older projects.
-    - Exploration of multiple systems improves architectural understanding rather than strict adoption. “严格的采用”或“死板的采纳”
+  - Uses Lumos and other Webflow frameworks but adapts selectively.
+  - Rapid framework evolution creates maintenance challenges across older projects.
+  - Exploration of multiple systems improves architectural understanding rather than strict adoption. “严格的采用”或“死板的采纳”
 - **(18:03–21:32) Design ↔ development interaction gap**
-    - Complex animations work best when considered during design, not added afterward.
-    - Designers often underestimate technical possibilities or constraints.
-    - Prototyping in Figma helps communicate motion intent, even if imperfect.
+  - Complex animations work best when considered during design, not added afterward.
+  - Designers often underestimate technical possibilities or constraints.
+  - Prototyping in Figma helps communicate motion intent, even if imperfect.
 - **(23:31–24:49) AI as development collaborator**
-    - AI dramatically accelerates solving technical problems that previously required extensive research.
-    - Basic coding knowledge remains essential to evaluate AI output and ensure accessibility and efficiency.
+  - AI dramatically accelerates solving technical problems that previously required extensive research.
+  - Basic coding knowledge remains essential to evaluate AI output and ensure accessibility and efficiency.
 - **(26:12–27:01) Core advantage of doing both design & development**
-    - Favorite projects are those he both designs and builds.
-    - Eliminates handoff friction and interpretation errors.
-    - Enables freer creativity because implementation feasibility is already understood.
+  - Favorite projects are those he both designs and builds.
+  - Eliminates handoff friction and interpretation errors.
+  - Enables freer creativity because implementation feasibility is already understood.
 - **(29:05–31:10) Against strict niche specialization**
-    - Rejects heavy niching; believes it shrinks referral networks and opportunity pools.
-    - Variety maintains motivation and avoids repetitive agency-style work.
+  - Rejects heavy niching; believes it shrinks referral networks and opportunity pools.
+  - Variety maintains motivation and avoids repetitive agency-style work.
 - **(38:18–48:19) Lean design workflow**
-    - Minimal pre-design artifacts:
-        - short discovery questionnaire
-        - mood boards
-        - rapid concept exploration (≈3 days)
-    - Avoids wireframes because they often evolve into full designs anyway.
-    - Shares only refined exploration outcomes with clients.
+  - Minimal pre-design artifacts:
+    - short discovery questionnaire
+    - mood boards
+    - rapid concept exploration (≈3 days)
+  - Avoids wireframes because they often evolve into full designs anyway.
+  - Shares only refined exploration outcomes with clients.
 - **(49:17–53:37) Project execution reality**
-    - Website timelines depend heavily on client feedback speed.
-    - Works on multiple projects simultaneously; delays usually come from communication gaps.
-    - Creative work is nonlinear — productivity fluctuates and cannot be forced.
+  - Website timelines depend heavily on client feedback speed.
+  - Works on multiple projects simultaneously; delays usually come from communication gaps.
+  - Creative work is nonlinear — productivity fluctuates and cannot be forced.
 
 ---
 
@@ -444,9 +444,9 @@ This explains Jordan’s central claim: **design + development is not just a ski
 ### Core Takeaway (condensed)
 
 - The biggest leverage comes from **unifying thinking and execution**:
-    - Design informs build decisions.
-    - Build constraints inform better design.
-    - AI and modern tools increasingly favor hybrid creators over specialized silos.
+  - Design informs build decisions.
+  - Build constraints inform better design.
+  - AI and modern tools increasingly favor hybrid creators over specialized silos.
 
 ---
 
@@ -456,20 +456,20 @@ This explains Jordan’s central claim: **design + development is not just a ski
 
 - **1. Handoff Friction (交接摩擦) & Cognitive Alignment (认知协同)**
 - "Handoff Friction" is the loss of information and design intent when a project transitions between functional roles. "Cognitive Alignment" is the shared, seamless understanding achieved when disciplines are integrated. / 在跨国、跨时区的国际化团队中，“交接摩擦”是导致项目延期和质量缩水的第一杀手。传统模式下，即便用最完美的英文写了 PRD，在传递给不同语言背景的开发时，依然会有巨大的信息损耗。
--  Replacing handoff with immediate alignment ensures global cross-functional teams execute the creative vision without distortion. / 评注：双栈人才（Design-Dev）最大的价值就在于，由于你脑中拥有完整的上下文，你不需要通过长篇大论的英文文档（Documentation）去解释交互，而是直接通过高保真原型和代码实现“认知对齐”。这在跨国团队中能节省巨额的“沟通税”。
+- Replacing handoff with immediate alignment ensures global cross-functional teams execute the creative vision without distortion. / 评注：双栈人才（Design-Dev）最大的价值就在于，由于你脑中拥有完整的上下文，你不需要通过长篇大论的英文文档（Documentation）去解释交互，而是直接通过高保真原型和代码实现“认知对齐”。这在跨国团队中能节省巨额的“沟通税”。
 
 - **2. Role-Based Silos (角色孤岛) & Capability Closed-Loop (能力闭环)**
 - "Role-Based Silos" refer to organizational barriers where team members focus strictly on their narrow domain. "Capability Closed-Loop" represents an individual's or a tight team's ability to execute a workflow from ideation to launch independently. / “角色孤岛”在多元文化团队中很容易演变成“甩锅文化（Blame Culture）”。当团队只按岗位界限来划分职责，成员就会对其他领域的技术和难处选择性失明，失去同理心。
--  Moving to a "Capability Closed-Loop" enables "Hybrid Builders" to communicate with high empathy in international teams, as they can speak the native languages of both designers and developers. / 反思：在国际化项目里，懂代码的设计师（或懂设计的设计师）是极其稀缺的“沟通枢纽”。如果你能用开发者的行业母语（如 CSS Grid, DOM Structure）去聊布局，远比用空洞的英文形容词去指点江山，更能赢得欧美/印度工程师的信任与尊重。
+- Moving to a "Capability Closed-Loop" enables "Hybrid Builders" to communicate with high empathy in international teams, as they can speak the native languages of both designers and developers. / 反思：在国际化项目里，懂代码的设计师（或懂设计的设计师）是极其稀缺的“沟通枢纽”。如果你能用开发者的行业母语（如 CSS Grid, DOM Structure）去聊布局，远比用空洞的英文形容词去指点江山，更能赢得欧美/印度工程师的信任与尊重。
 
 - **3. Subjective Validation (主观验证) & Objective Verification (客观验证)**
 - "Subjective Validation" is the evaluation of work based on personal opinions and tastes. "Objective Verification" is the evaluation based on testable, binary outcomes. / 跨文化协作中，审美和偏好极度主观且因文化背景而异（比如中美用户对界面信息密度的接受度完全不同）。单纯停留在“好看与否”的争论，很容易让沟通陷入僵局。
--  Introducing "Objective Verification" establishes a clear, neutral ground for multicultural collaboration. / 评注：当你在方案中遇到跨文化争议时，主动把战场引向“客观验证”——用技术可行性（技术债评估）、性能指标（加载时间）和用户测试数据说话。这能把主观的情绪拉扯，转化为客观的、基于事实的联合问题解决（Collaborative Problem-solving）。
+- Introducing "Objective Verification" establishes a clear, neutral ground for multicultural collaboration. / 评注：当你在方案中遇到跨文化争议时，主动把战场引向“客观验证”——用技术可行性（技术债评估）、性能指标（加载时间）和用户测试数据说话。这能把主观的情绪拉扯，转化为客观的、基于事实的联合问题解决（Collaborative Problem-solving）。
 
 - **4. Abstract Planning (抽象规划) & Immediate Prototyping (即时原型)**
 - "Abstract Planning" involves heavy upfront documentation and wireframes. "Immediate Prototyping" is the practice of quickly building high-fidelity visual concepts to address real-world problems directly. / 语言隔阂会放大“抽象规划”的误读率。一个用英文写就的线框图（Wireframe），在不同国家的团队成员眼里可能会脑补出完全不同的五个版本。
--  "Immediate Prototyping" serves as a universal language for global teams, allowing stakeholders to interact with concrete designs rather than translating abstract specifications. / 反思：在国际化项目里，“Show, Don't Tell”（用产品说话，而非用嘴说）是第一准则。一个粗糙但可交互的 Demo（即时原型），能瞬间统一全球利益相关者（Stakeholders）的预期。它是真正的无国界沟通工具。
+- "Immediate Prototyping" serves as a universal language for global teams, allowing stakeholders to interact with concrete designs rather than translating abstract specifications. / 反思：在国际化项目里，“Show, Don't Tell”（用产品说话，而非用嘴说）是第一准则。一个粗糙但可交互的 Demo（即时原型），能瞬间统一全球利益相关者（Stakeholders）的预期。它是真正的无国界沟通工具。
 
 - **5. Knowledge Acquisition (知识获取) & Process Learning (过程学习)**
 - "Knowledge Acquisition" focuses on memorizing specific tools and syntax. "Process Learning" is the strategic observation of how experts structure their workflow, organize files, and manage decision-making. / 工具会不停迭代（从 Sketch 到 Figma，从 React 到 Next.js），单纯学习 API 是初学者的勤奋。高手之所以能快速在国际一流团队立足，是因为他们掌握了工作组织的“元习惯（[[Meta-habits]]）”。
--  To scale your impact in an international team, shift your focus from mere "Knowledge Acquisition" to "Process Learning" by observing how global peers organize files and systems. / 评注：去观察海外大厂（如 Stripe, Vercel）的工程师或设计师是如何命名 Figma 变量、如何组织 GitHub 分支、如何规划组件库（Design Tokens）的。这种对“全球最佳实践（Best Practices）”的吸收，能让你从底层思维上与国际一流标准对齐。
+- To scale your impact in an international team, shift your focus from mere "Knowledge Acquisition" to "Process Learning" by observing how global peers organize files and systems. / 评注：去观察海外大厂（如 Stripe, Vercel）的工程师或设计师是如何命名 Figma 变量、如何组织 GitHub 分支、如何规划组件库（Design Tokens）的。这种对“全球最佳实践（Best Practices）”的吸收，能让你从底层思维上与国际一流标准对齐。

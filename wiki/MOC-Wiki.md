@@ -28,12 +28,14 @@ related:
 以下是当前 Wiki 中最具代表性的核心页面，建议优先阅读和链接：
 
 ### 认知与思维
+
 - [[Meta-Cognition-Through-Dialogue]]
 - [[Question-as-Cognitive-Mirror]]
 - [[Seven-Questions-Self-Awareness-Framework]]
 - [[External-Perspective-in-Self-Reflection]]
 
 ### 职业发展与求职
+
 - [[Growth-Mindset-in-Job-Search]]
 - [[Feedback-Driven-Job-Search-System]]
 - [[Version-Number-Thinking-in-Career]]
@@ -42,6 +44,7 @@ related:
 - [[Resume-Version-Strategy]]
 
 ### 语言与表达
+
 - [[Oral-Fluency-First-Principles]]
 - [[Input-to-Output-Conversion-Loop]]
 - [[Chunk-Based-Speaking]]
@@ -51,15 +54,18 @@ related:
 - [[Verb-Phrase-Mastery]]
 
 ### 口语训练方法
+
 - [[Five-Layer-Oral-Training-Framework]]
 - [[Shadowing-and-Retelling-Method]]
 - [[B2-High-Frequency-Chunks]]
 
 ### 领域入口
+
 - [[English]]
 - [[Career]]
 
 ### Wiki 管理文档
+
 - [[wiki/meta/Changelog]]
 - [[Final-Structure-Guide]]
 - [[Onboarding]]
