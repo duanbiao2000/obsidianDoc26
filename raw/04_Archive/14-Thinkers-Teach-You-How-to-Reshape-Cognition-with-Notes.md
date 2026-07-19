@@ -216,7 +216,7 @@ This is the truly interesting part.
 The author is deliberately **avoiding "perfectly polished philosophers"**, choosing instead those whose notes have a **human touch, flaws, and traces of real life**—
 
 - Lichtenberg's notes are **fragmented rants**, not a system.
-- Augustine's *Confessions* are full of **self-doubt and struggle**.
+- Augustine's _Confessions_ are full of **self-doubt and struggle**.
 - Camus' notebooks record **street observations and heartbreak**.
 - Lewis used a diary to process **grief after his wife's death**.
 
@@ -238,6 +238,6 @@ The author wants to prove that: **Note-taking does not belong to a specific era,
 
 ## One-Sentence Summary
 
-> The author chose these 14 figures essentially to use real historical figures as "product endorsements"—**not to tell you *how* to do it, but to let you see: those people you look up to all did it this way.**
+> The author chose these 14 figures essentially to use real historical figures as "product endorsements"—**not to tell you _how_ to do it, but to let you see: those people you look up to all did it this way.**
 
 This is far more persuasive than any methodology.

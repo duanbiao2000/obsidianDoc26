@@ -16,9 +16,12 @@ copilot-command-context-menu-order: 9007199254740991
 copilot-command-model-key: ""
 copilot-command-last-used: 0
 tags:
-  - Domain/AI/PromptEngineering
-  - Type/Reference
+
+- Domain/AI/PromptEngineering
+- Type/Reference
+
 ---
+
 # Copilot 提示词库使用指南
 
 > 本目录包含 205 个自定义 Copilot 提示词,采用**前缀编号 + MOC索引 + Dataview查询**混合检索方案。

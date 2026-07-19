@@ -7,13 +7,16 @@
 ## Recommended Workflow (Per Batch)
 
 ### Step 1: Choose a Batch
+
 - Pick 5–15 related notes from one folder.
 - Avoid mixing unrelated topics.
 
 ### Step 2: Check Tracker
+
 Verify none of the files are already marked `done` in `wiki/meta/tracking/Conversion-Tracker.md`.
 
 ### Step 3: Prepare Conversion Prompt
+
 Use the following template:
 
 ```markdown
@@ -37,11 +40,13 @@ Raw content:
 ```
 
 ### Step 4: Review & Apply
+
 - Review LLM output.
 - Copy generated Markdown to the correct `wiki/` subfolder.
 - Update `INDEX.md` and `LOG.md` if needed.
 
 ### Step 5: Update Tracker
+
 Add processed files to `Conversion-Tracker.md` with status `done`.
 
 ---

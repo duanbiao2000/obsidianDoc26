@@ -113,6 +113,7 @@ Absolutely, though I'd say it depends on the context. I mean, in an ideal world,
 **Describe a learning experience that was not part of your formal education.**
 
 You should say:
+
 - what it was
 - when and where it happened
 - what you learned from it
@@ -180,4 +181,3 @@ I'd never really thought about it in these terms before, but I think the issue i
 - Part 1：不是简单回答"yes"，而是**穿透现象指出结构性原因**（high-stakes → first to be cut）
 - Part 2：不是叙事流水账，而是在故事中**嵌入一个论点**（not all valuable learning can be measured），让考官觉得你在用故事思考
 - Part 3：完整的论证链——**识别机制**（teach to the test 是理性反应）→ **指出代价**（不可量化的能力丢失）→ **揭示不平等**（谁最受害）→ **提出限定性解决方案**（不是废除考试，而是调整评估方式）
-

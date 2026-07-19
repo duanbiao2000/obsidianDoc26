@@ -41,10 +41,13 @@ Generate **at least 2 different sets** with different emphases. Separate sets cl
 **Set [Number]: [English Theme Name]**
 
 #### Part 1: Introduction and Interview
+
 - 4 questions about personal daily life, preferences, or experiences.
 
 #### Part 2: Individual Long Turn (Cue Card)
+
 Use official Cue Card format:
+
 ```
 Describe [person/event/object/experience]
 You should say:
@@ -55,10 +58,13 @@ and explain why [deeper reason/feelings].
 ```
 
 #### Part 3: Two-way Discussion
+
 - 4 deeper questions exploring social phenomena, future trends, or abstract concepts.
 
 #### 💡 Video-specific Lexical Chunks & Application
+
 Extract 5–8 high-impact lexical chunks or load-bearing facts. Provide:
+
 - Bilingual explanation
 - Ready-to-use example sentence for the questions above
 

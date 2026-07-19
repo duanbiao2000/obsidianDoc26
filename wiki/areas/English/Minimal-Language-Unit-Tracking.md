@@ -57,6 +57,7 @@ Systematically extract and categorize the smallest reusable language units (lexi
 ## Practice Method
 
 After extracting chunks, immediately create:
+
 - Scenario-based lists
 - Original example sentences
 - Fill-in-the-blank exercises

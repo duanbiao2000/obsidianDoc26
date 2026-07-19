@@ -69,6 +69,7 @@ wiki/meta/
 ## Files Created / Modified
 
 **Created (12 files)**:
+
 - `wiki/meta/guidelines/` (4 files)
 - `wiki/meta/tracking/` (1 file)
 - `wiki/meta/templates/` (2 files)
@@ -76,6 +77,7 @@ wiki/meta/
 - `wiki/meta/Repository-Improvement-Report.md`
 
 **Modified (2 files)**:
+
 - `wiki/SCHEMA.md` (v1.0 → v1.1)
 - `99_Meta/Karpathy-LLM-Wiki-Conversion-SOP.md` → moved to `wiki/meta/guidelines/`
 

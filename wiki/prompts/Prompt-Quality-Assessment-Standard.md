@@ -27,25 +27,30 @@ A systematic scoring framework for evaluating and improving Copilot-style prompt
 ## Scoring Dimensions
 
 ### 1. Functionality (30 points)
+
 - Clear goal definition
 - Comprehensive scenario coverage
 - Error and boundary handling
 
 ### 2. Effectiveness (30 points)
+
 - Output quality and accuracy
 - Consistency across uses
 - Efficiency (minimal iteration needed)
 
 ### 3. Maintainability (20 points)
+
 - Clear internal structure and documentation
 - Rich usage examples
 - Parameter explanations
 
 ### 4. Reusability (10 points)
+
 - Modular design
 - General applicability across contexts
 
 ### 5. Usage Frequency (10 points)
+
 - Based on actual `view-count`
 
 ---
@@ -65,10 +70,12 @@ A systematic scoring framework for evaluating and improving Copilot-style prompt
 ## Evaluation Workflow
 
 ### Weekly Review
+
 - Score new and modified prompts
 - Record results in dated assessment reports
 
 ### Monthly Comprehensive Review
+
 - Use Dataview queries to analyze all prompts
 - Identify patterns in low-quality prompts
 - Plan batch improvements
@@ -78,6 +85,7 @@ A systematic scoring framework for evaluating and improving Copilot-style prompt
 ## Cleanup Triggers
 
 Prompts are considered for archiving when:
+
 - Long-term unused (`view-count = 0` after 2026-06-30)
 - Quality score < 60 with no improvement
 - High functional overlap with better alternatives

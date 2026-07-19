@@ -28,23 +28,27 @@ A systematic approach to collecting, categorizing, and deploying high-value verb
 ## Key Categories
 
 ### 1. Learning & Memory
+
 - form synapses between neurons
 - reinforce neural pathways
 - consolidate long-term memories
 - strengthen memory retention
 
 ### 2. Attention & Focus
+
 - pay full attention to the task
 - eliminate distractions
 - avoid frequent context switching
 
 ### 3. Critical Thinking & Logic
+
 - pressure-test the core arguments
 - expose the underlying assumptions
 - trace the claim back to first principles
 - rebuild the thesis on first principles
 
 ### 4. Red-Teaming & Challenge
+
 - rip the thesis to shreds
 - poke holes in the opponent's logic
 - fall into the correlation-causation trap

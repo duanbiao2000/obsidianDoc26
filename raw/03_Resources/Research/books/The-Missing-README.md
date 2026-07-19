@@ -4,14 +4,13 @@ created: 2026-03-18
 ---
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=34&selection=4,42,7,55|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 34]]
->  conscious competence 
+> conscious competence
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=34&selection=19,6,19,28|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 34]]
 
 > Guard your personal time—continued growth is important, but spending every waking moment on work is unhealthy. Choose from the list based on your circumstances and nat - ural inclinations.
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=34&selection=35,29,43,18|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 34]]
-
 
 > Start with team documentation and design documents. T
 
@@ -20,11 +19,11 @@ created: 2026-03-18
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=37&selection=31,50,40,47|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 37]]
 
-Shadowing is following another person as they perform a task. 
+Shadowing is following another person as they perform a task.
 
 Shadowing is following another person as they perform a task. The shad- ower is an active participant: they take notes and ask questions. Shadow- ing a senior engineer is a great way to learn a new skill. To get the most out of it, set up time before and after the shadowing session for planning and retrospection.
 
-> If this resonates with you, know that self-doubt is common. With effort, these feelings will pass. You can move things along with several strategies: awareness, reframing, and talking to colleagues. 
+> If this resonates with you, know that self-doubt is common. With effort, these feelings will pass. You can move things along with several strategies: awareness, reframing, and talking to colleagues.
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=46&selection=46,0,52,70|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 46]]
 
@@ -55,6 +54,3 @@ Shadowing is following another person as they perform a task. The shad- ower is 
 > Moreover, operability com- ments are common in code reviews; this information will help you give and receive better feedback.
 
 [[The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy).pdf#page=71&selection=36,41,41,28|The Missing README A Guide for the New Software Engineer (Chris Riccomini Dmitriy Ryaboy), page 71]]
-
-
-

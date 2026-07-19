@@ -40,18 +40,22 @@ related:
 ## IELTS Application (Band 7 vs Band 9)
 
 ### 1. Remove Lexical Hedging
+
 - **Weak**: "I think pollution is quite bad"
 - **Strong**: "Pollution is one of the defining crises of this century"
 
 ### 2. Remove Circular Openings
+
 - **Weak**: "This essay will discuss..."
 - **Strong**: Start with a clear position + surprising angle
 
 ### 3. Replace Vague Quantifiers
+
 - **Weak**: "Many people believe..."
 - **Strong**: Use specific data or precise groups
 
 ### 4. Eliminate Apologetic Register
+
 - **Weak**: "I'm not really sure but maybe…"
 - **Strong**: "The evidence is mixed, but the stronger case is…"
 

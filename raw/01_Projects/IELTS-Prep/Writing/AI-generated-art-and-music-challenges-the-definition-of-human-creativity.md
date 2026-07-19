@@ -50,34 +50,42 @@ In the final analysis, AI-generated art does not redefine creativity; it acts as
 
 **1. 否定 + but + 纠正框架（全文核心句式）**
 > *It is not that machines have suddenly become creative; rather, they have forced a long-overdue interrogation of what creativity is — and, more uncomfortably, what it perhaps always wasn't.*
+
 - 分号连接正反两面；破折号后 `what it perhaps always wasn't` 用否定完成双重纠正——"不仅重新定义了它是什么，还重新定义了它不是什么"。`perhaps` 一个词柔化了断言的武断感。
 
 **2. 条件句 + 反问 + 分号转折**
 > *If the output is comparable, does the distinction in its origin still matter? This line of inquiry, however, inadvertently concedes a crucial point — it reduces creativity to output...*
+
 - 反问句不做回答，而是被下一句的 `however` 劫持为论证跳板——"你问的这个问题本身就有问题"。这是高级论证中最有效的"借力打力"手法。
 
 **3. When X, we Y; when Z, we W（对称对比句）**
 > *When a human composer writes a piece that "sounds like" Debussy, we praise their creative facility; when an algorithm does the same, we dismiss it as mere imitation.*
+
 - 完美的平行结构，唯一变量是主语，迫使读者直面双重标准的不合理性。
 
 **4. 破折号 + 解释性同位语**
 > *...the double standard is telling — it reveals that our definition of creativity has always been parasitic on an assumed intentionality behind the work.*
+
 - `telling` 是一个极简的形容词，但破折号后展开的整个从句揭示了它"意味深长"在何处——这种"小词引爆大句"的结构是 C2 写作的标志。
 
 **5. 排比案例 + 破折号总结**
 > *When Frida Kahlo paints her spinal agony, or when Sylvia Plath commits her despair to verse, the work derives its power not from formal innovation but from the ineradicable fact that a suffering subject chose to transmute that suffering into form.*
+
 - 两个 when 从句排比提供具体锚点，`not from X but from Y` 完成概念升华。`transmute`（炼金术术语"点石成金"）将"把痛苦变成艺术"从一个俗套比喻提升为精确的哲学动作。
 
 **6. There is, in other words, an X — a "someone" who Y — that no Z can W**
 > *There is, in other words, an ethical and ontological dimension to human creativity — a "someone" behind the work who risks something of themselves in its making — that no stochastic parrot, however eloquent, can replicate or even meaningfully simulate.*
+
 - 三层嵌套：主干 `There is... a dimension... that no Z can W`；破折号插入 `a "someone"... who...` 作为 dimension 的具象化；`however eloquent` 插入修饰 stochastic parrot，制造让步节奏。一句话完成"抽象概念→具象锚点→否定边界"的完整论证弧。
 
 **7. 让步 + 破折号 + 重新定性**
 > *The aesthetic experience is real; its presumed source is illusory. Recognising this distinction does not diminish the experience — but it does fundamentally reconfigure our understanding...*
+
 - 先承认体验的真实性（让步），再用分号切断因果链（真实体验≠真实来源），最后用 `does not X — but does Y` 完成立场锚定。
 
 **8. 隐喻收束（Metaphoric Closure）**
 > *What remains, once the pattern-recombination baseline has been stripped away, is something narrower but far more profound: creativity as an act of conscious, embodied meaning-making — fragile, imperfect, and irreplaceably human.*
+
 - `stripped away` 呼应前文 reagent 的化学隐喻；`narrower but far more profound` 是经典的"退一步进两步"修辞；末尾三个形容词排比收束，最后一个词落在 `human` 上，完成全文的情感落点。
 
 ### 三、逻辑层次（Argumentative Architecture）

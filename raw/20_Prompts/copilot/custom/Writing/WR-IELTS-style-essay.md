@@ -12,14 +12,17 @@ copilot-command-last-used: 0
 view-count: 16
 update: 2026-01-08 21:10
 related:
-  - "[[GRE英文写作大师]]"
-  - "[[empirical evidence风格重写]]"
-  - "[[Roast writing  and give actionable feedback]]"
+
+- "[[GRE英文写作大师]]"
+- "[[empirical evidence风格重写]]"
+- "[[Roast writing  and give actionable feedback]]"
 tags:
-  - Domain/AI/PromptEngineering
-  - Domain/Language/IELTS
-  - Type/Reference
+- Domain/AI/PromptEngineering
+- Domain/Language/IELTS
+- Type/Reference
+
 ---
+
 # ✍️ Prompt: Tech-to-IELTS Converter
 
 **Role**: IELTS Senior Examiner (Band 9 focus).

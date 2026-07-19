@@ -23,7 +23,7 @@ related:
 
 ## Key Facts
 
-- **Role / Function**: 
+- **Role / Function**:
 - **Notable Contributions**:
 - **Relationship to Wiki**:
 

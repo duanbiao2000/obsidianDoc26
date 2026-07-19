@@ -20,7 +20,7 @@ created: 2026-06-05
 
 ## 通用输入模板
 
-### 【输入区】用户提供以下信息：
+### 【输入区】用户提供以下信息
 
 ```
 核心话题：[MAIN_TOPIC]
@@ -30,7 +30,8 @@ created: 2026-06-05
 关键细节（3-5条）：[KEY_DETAILS]
 ```
 
-### 示例输入：
+### 示例输入
+
 ```
 核心话题：一次改变我的海外交换学年
 主题类别：Experience
@@ -243,28 +244,34 @@ created: 2026-06-05
 ## 预置的常用话题维度库
 
 ### 【旅行Experience】
+
 维度库：
-  - 地点审美（Place）
-  - 人物相遇（Person）
-  - 挑战克服（Challenge）
-  - 成长启发（Growth）
-  - 休闲放松（Relaxation）
+
+- 地点审美（Place）
+- 人物相遇（Person）
+- 挑战克服（Challenge）
+- 成长启发（Growth）
+- 休闲放松（Relaxation）
 
 ### 【人物Person】
+
 维度库：
-  - 专业能力（Professional）
-  - 品德特质（Character）
-  - 影响力（Influence）
-  - 故事背景（Background）
-  - 帮助行为（Help）
+
+- 专业能力（Professional）
+- 品德特质（Character）
+- 影响力（Influence）
+- 故事背景（Background）
+- 帮助行为（Help）
 
 ### 【物品Object】
+
 维度库：
-  - 审美价值（Aesthetic）
-  - 功能作用（Function）
-  - 情感联系（Sentiment）
-  - 来源故事（Origin）
-  - 使用体验（Experience）
+
+- 审美价值（Aesthetic）
+- 功能作用（Function）
+- 情感联系（Sentiment）
+- 来源故事（Origin）
+- 使用体验（Experience）
 
 ---
 
@@ -296,7 +303,8 @@ created: 2026-06-05
 
 ## 示例完整对话
 
-### 用户输入：
+### 用户输入
+
 ```
 /analyze 一次难忘的家族聚会
 
@@ -308,12 +316,14 @@ created: 2026-06-05
   - 一场即兴的才艺表演比赛
 ```
 
-### 系统输出：
+### 系统输出
 
 #### 【话题诊断】
+
 主类别：Experience + Family + Tradition
 
 #### 【五维度分解】
+
 ```
 维度1 [家族和谐] → "Describe a time you felt happy"
 维度2 [文化传承] → "Describe a tradition you enjoy"
@@ -323,6 +333,7 @@ created: 2026-06-05
 ```
 
 #### 【表述框架 - 维度1：家族和谐】
+
 【背景铺垫】
   何时：2023年春节，疫情后两年
   何地：家乡小镇，祖母的老宅
@@ -333,11 +344,11 @@ created: 2026-06-05
   1️⃣ 见面时刻：30多个家人抵达，祖母在门口迎接
      └─ 感官：祖母眼中闪烁的泪光，亲戚们的笑声
      └─ 词汇：overwhelming emotion / long-awaited reunion
-     
+
   2️⃣ 烹饪时光：三代人在厨房里，对比不同时代的菜谱做法
      └─ 细节：祖母的手工方式 vs 我们的"快速方案"
      └─ 词汇：intergenerational knowledge / culinary heritage
-     
+
   3️⃣ 才艺表演：一场即兴的家庭秀，从传统到现代
      └─ 笑点：祖父唱的老歌，小侄女的抖音舞蹈
      └─ 词汇：juxtaposition / playful atmosphere
@@ -347,15 +358,18 @@ created: 2026-06-05
   而在于那些共同的记忆和欢笑。
   
 #### 【高级词汇池】
+
 - poignant moment / bittersweet nostalgia
 - kinship / sense of belonging
 - gratitude / heartfelt connection
 - ephemeral but precious
 
 #### 【串题对标】
+
 ✓ 可直接串：Happy Time, Family Tradition, Interesting People
 ✓ 可变通串：Team Work (做菜的协作), Funny Experience (才艺秀)
 ⚠️ 需调整串：Learn Something (菜谱知识), Relax (其实是忙碌的快乐)
+
 ```
 
 ---
@@ -365,26 +379,29 @@ created: 2026-06-05
 ### ⚠️ 常见陷阱
 
 ```
+
 ❌ 陷阱1：过度复用相同词汇
    症状：每个话题都用"unforgettable"和"amazing"
    解决：为不同维度预设不同的高级词汇库
-   
+
 ❌ 陷阱2：生硬的话题转换
    症状：话题A讲完，突然跳到完全无关的故事
    解决：提前在【串题地图】中规划过渡点
-   
+
 ❌ 陷阱3：细节不足导致空洞感
    症状：用同一个故事讲多个话题，但每次都很笼统
    解决：为每个维度预设不同的细节重点
-   
+
 ❌ 陷阱4：时间超配
    症状：一个话题讲了3分钟，考官打断
    解决：用【时间管理】框架严格控制
+
 ```
 
 ### ✅ 最佳实践
 
 ```
+
 ✓ 实践1：建立个人话题库
   为自己的3-5个核心话题，分别列出所有可能的维度
   
@@ -399,7 +416,6 @@ created: 2026-06-05
   
 ✓ 实践5：定期审查
   每周更新词汇库，去掉重复使用过的短语，补充新的表达
-
 
 ---
 

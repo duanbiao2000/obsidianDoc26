@@ -30,32 +30,41 @@ related:
 ## 9 Key Techniques
 
 ### 1. Use Specifics Instead of Abstract
+
 - Weak: "It was a challenging time."
 - Strong: "I was answering emails at 2am and still felt behind."
 
 ### 2. Create Contrast (打破预期)
+
 - Use long setup + short punch.
 - Example: "Everyone told me it was a great idea. They were right. It just took five years to prove it."
 
 ### 3. Use "The First Time" Instead of "Often"
+
 - Specific moments are more powerful than general habits.
 
 ### 4. Give Numbers Weight
+
 - Add comparison or human impact.
 
 ### 5. End with Silence (留白)
+
 - Stop after a strong sentence. Let the listener fill the gap.
 
 ### 6. Use "You" Instead of "I"
+
 - Second person pulls the listener in.
 
 ### 7. Add Emotional Reaction
+
 - "I was completely drained." instead of "I was tired."
 
 ### 8. Use Light Metaphors
+
 - "It feels like building a muscle."
 
 ### 9. Use Precise Verbs
+
 - shape, push, remind, expose, force
 
 ---

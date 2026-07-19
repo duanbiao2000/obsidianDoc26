@@ -84,6 +84,7 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 ---
 
 ### Layer A: Phonetic Delivery Marking
+
 **SP 模式：启用 | W1 / W2 模式：输出 `N/A — [Mode] Mode`**
 
 使用以下**标准符号体系**（严禁混用同一符号表示不同现象）：
@@ -98,6 +99,7 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 | `↘` | 降调 Falling Intonation | "That's final ↘." |
 
 > **重音位置原则（New vs. Given Information Rule）**：  
+>
 > - 新信息（New Information）= 核心重音，用 `**bold**`  
 > - 已知信息（Given Information）= 弱化，不标注
 
@@ -114,6 +116,7 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 **触发条件**：句子为 **描述 / 行动 / 过程 / 举例** 类型
 
 **执行规则**：
+
 - 语义完全保留，不得改变原意
 - 严格匹配声明模式的语域（SP 禁用书面学术词；W2 禁用口语习语）
 - 至少提升以下一项：LR、GRA、句式复杂度
@@ -136,11 +139,13 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 #### 🟡 Path ERR — Error Correction（错误纠正）
 
 **触发条件**：句子包含以下任一问题：
+
 - 语法错误（Grammar Error）
 - 搭配错误（Collocation Error）
 - 语域错误（Register Mismatch）
 
 **执行规则**：
+
 1. 引用原错误 + 打标签：`[Grammar]` / `[Collocation]` / `[Register]`
 2. 提供修正版本
 3. 一行中文解释规则原因
@@ -193,6 +198,7 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 ```
 
 **解析**：
+
 - 保持口语语域，不引入书面词
 - `got.it` 正确标注闪音；`hang~of` 标注辅元连读
 - ALT 保留意义，用 *in over my head* 替换 *out of my depth*（同类习语升级）
@@ -217,6 +223,7 @@ Analyze any English input (essay paragraph or speaking transcript) **sentence-by
 ```
 
 **解析**：
+
 - VS 路径完整呈现：Concession（*Admittedly*）+ Rebuttal（*Nevertheless*）
 - 修正了原版 Example 2 的错误：让步与反驳逻辑直接对应原句立场
 - W2 语域全程保持正式，无口语残留

@@ -12,11 +12,7 @@ created: 2026-06-26
 
 ---
 
-
-
 # ⚡ 英语表达速查
-
-
 
 ## 替代 "very + adj"
 
@@ -38,8 +34,6 @@ created: 2026-06-26
 
 | very tired | exhausted / drained |
 
-
-
 ## 高频动词短语
 
 | 短语 | 含义 |
@@ -60,8 +54,6 @@ created: 2026-06-26
 
 | turn out | 结果是 |
 
-
-
 ## 学术连接词
 
 | 功能 | 表达 |
@@ -78,8 +70,6 @@ created: 2026-06-26
 
 | 举例 | For instance / A case in point is |
 
-
-
 ## 快速跳转
 
 - [[动词短语为王]]
@@ -91,4 +81,3 @@ created: 2026-06-26
 - [[反义词训练]]
 
 - [[Eliminate-Weak-Language]]
-

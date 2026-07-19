@@ -12,11 +12,7 @@ created: 2026-06-26
 
 ---
 
-
-
 # ⚡ 编程命令速查
-
-
 
 ## Tmux
 
@@ -42,11 +38,7 @@ created: 2026-06-26
 
 | 列出会话 | `tmux ls` |
 
-
-
 → [[Tmux操作]] | [[Tmux的display-popup]]
-
-
 
 ## Git
 
@@ -66,11 +58,7 @@ created: 2026-06-26
 
 | 挑选提交 | `git cherry-pick <hash>` |
 
-
-
 → [[Git-Best-Practices]]
-
-
 
 ## 搜索工具
 
@@ -84,15 +72,10 @@ created: 2026-06-26
 
 | `rg` (ripgrep) | 本地快速搜索 |
 
-
-
 → [[grep.app代码搜索引擎使用策略]] | [[Sourcegraph-代码搜索指南]]
-
-
 
 ## Neovim
 
 → [[LazyVim配置教学]]
 
 → [[My-2025-Neovim-+-Tmux-Workflow-As-A-DevOps-Engineer]]
-

@@ -10,6 +10,7 @@ tags:
 ---
 
 **user**: **9. Concept Pair (概念对): Sparring (对练/切磋) & Peer Feedback (同伴反馈)**
+
 - **Definition (定义):** Sparring is a form of training common to martial arts, involving interactive, constructive, and non-lethal combat. / 对练是武术中常见的训练形式，涉及互动性、建设性且非致命的对抗。
 - **Association (关联):** In cognitive environments, conceptual "sparring" through rigorous debate acts as a medium for real-time Peer Feedback and cognitive refinement. / 在认知环境中，通过严谨的辩论进行概念上的“对练”，是获取实时“同伴反馈”和认知精炼的媒介。
 

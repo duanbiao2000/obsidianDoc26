@@ -19,6 +19,7 @@ related:
 ## 核心子主题
 
 ### 求职与成长
+
 - [[Growth-Mindset-in-Job-Search]]
 - [[Feedback-Driven-Job-Search-System]]
 - [[Version-Number-Thinking-in-Career]]
@@ -27,6 +28,7 @@ related:
 - [[Resume-Version-Strategy]]
 
 ### 自我认知
+
 - [[Meta-Cognition-Through-Dialogue]]
 - [[Seven-Questions-Self-Awareness-Framework]]
 - [[External-Perspective-in-Self-Reflection]]

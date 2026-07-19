@@ -42,33 +42,40 @@ In the final analysis, AI will not so much replace human workers as **reconfigur
 **1. 让步前置 + 主句反转**
 
 > *The contention that... is one that, whilst intuitively plausible given..., ultimately oversimplifies...*
+
 - `whilst` 引导让步从句嵌入主语同位语从句中，形成三层嵌套结构。
 
 **2. 否定前置否定（Double Negative for Emphasis）**
 
 > *...not because AI lacks the capacity...—it demonstrably does—but because...*
+
 - `not because... but because` 结构中插入破折号强调语，增强论证节奏感。
 
 **3. 破折号插入说明语**
 
 > *...a surgeon, for instance, may benefit from..., yet the preoperative consultation...remain irreducibly human.*
+
 - 用破折号制造语流停顿，模拟即兴思考的"口头散文"风格，是 C2 写作的标志性手法。
 
 **4. 冒号 + 排比列举**
 
 > *...preoperative consultation, the ethical judgment call mid-operation, and the postoperative empathetic care...*
+
 - 三项排比形成修辞递进，从"术前→术中→术后"，逻辑线清晰。
 
 **5. What-从句作主语 + 动词短语核心**
 > *What proponents of the replacement thesis consistently overlook, however, is the distinction between...*
+
 - 经典 C2 句型，`What` 从句前置提升信息权重，`however` 插入制造转折节奏。
 
 **6. 不定式表评价的元语言**
 > *To suggest that... is to confuse computational power with comprehension.*
+
 - `To X is to Y` 结构将对立观点直接定性为"概念混淆"，不留反驳余地。
 
 **7. 短促收尾 + 隐喻**
 > *The dystopian narrative of universal human redundancy mistakes the tool for the craftsman—and history has consistently demonstrated that the craftsman endures.*
+
 - 破折号后紧跟短句收尾，制造"掷地有声"的结尾效果；`mistake X for Y` 隐喻精确而有力。
 
 ### 三、逻辑层次（Argumentative Architecture）

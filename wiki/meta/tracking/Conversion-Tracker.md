@@ -4,6 +4,7 @@
 **Rule**: Never re-process a file marked as `done`.
 
 **Status Legend**:
+
 - `pending` — Not yet processed
 - `in-progress` — Currently being converted
 - `done` — Successfully converted to wiki
@@ -49,6 +50,7 @@
 ## Instructions for Maintainers
 
 When ingesting a file:
+
 1. Check this table first.
 2. If status is `done`, skip.
 3. After successful conversion, add a new row with status `done`.

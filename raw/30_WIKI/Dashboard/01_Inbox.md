@@ -17,4 +17,3 @@ WHERE file.ext = "md"
 SORT file.mtime DESC
 LIMIT 20
 ```
-

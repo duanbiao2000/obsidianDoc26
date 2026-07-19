@@ -5,6 +5,7 @@ created: 2026-04-24
 
 To address your request, I'll identify a niche economics principle that graduate students would know but undergraduates would not, and then generate a realistic IELTS Speaking exam question for each part (Part 1, Part 2, and Part 3), along with model answers for each part. The principle I've chosen is the "Endowment Effect."
 [[最近在用的提示词-冷门经济学领域原则概念]]
+
 ### Topic Domain: Work & Career
 
 #### Part 1 — Conversational, natural, 2-3 sentence answer
@@ -32,4 +33,3 @@ To address your request, I'll identify a niche economics principle that graduate
 ### Explanation of the Endowment Effect
 
 The endowment effect is a cognitive bias where individuals ascribe more value to things merely because they own them. This principle is illustrated across the three parts of the IELTS Speaking exam. In Part 1, the speaker's reluctance to leave a familiar job despite the better offer demonstrates the endowment effect. Part 2 elaborates on this with a detailed story of the speaker's decision-making process, highlighting how the endowment effect influenced their initial hesitation. In Part 3, the answers directly address how cognitive biases, including the endowment effect, impact decision-making and suggest strategies to mitigate these effects. This principle subtly informs the answers, reflecting a nuanced understanding of economic behavior without explicitly naming the term.
-

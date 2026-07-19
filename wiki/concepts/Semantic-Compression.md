@@ -27,25 +27,31 @@ A rapid knowledge extraction method that reduces complex notes to their essentia
 ## Core Techniques
 
 ### 1. Three-Question Filtering
+
 Only retain content that meets **all three** criteria:
+
 - Is it a foundational building-block concept?
 - Can it connect to at least two other concepts?
 - Does it have cross-scenario transfer potential?
 
 ### 2. Minimalist Compression Structure
+
 Convert complex sentences into:
 > **Noun + Verb + Quantity/Result**
 
 Example:
+
 - Original: “免费发蚊帐→使用率30%；收费1美元→使用率60%”
 - Compressed: “蚊帐收费 → 使用率↑30%”
 
 ### 3. Symbolic Marking
+
 - ★ — Cornerstone concept
 - △ — Transferable insight
 - ❗ — Counter-intuitive / controversial point
 
 ### 4. Redundancy Removal & Context-Independent Abstraction
+
 - Merge semantically repeated expressions
 - Strip specific case backgrounds
 - Retain only causal chains, contrasts, and core conclusions

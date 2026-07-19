@@ -35,7 +35,6 @@ created: 2026-04-20
 
 **实际学习建议：** 优先攻克 **动词+名词** 和 **形容词+名词** 这两类，覆盖率最高，错误率也最高。
 
-
 ## 动词 + 名词（最重要）
 
 **make** make a decision / mistake / effort / progress / difference / money / sense / a point

@@ -36,6 +36,7 @@ if __name__ == "__main__":
     html_pages = asyncio.run(crawl(urls))
     print(len(html_pages), "pages fetched")
 ```
+
 这里 `fetch` 是协程，`asyncio.gather` 会把多个请求一起挂到事件循环里并发执行，而不是一个个阻塞等待。 [stackoverflow](https://stackoverflow.com/questions/35926917/asyncio-web-scraping-101-fetching-multiple-urls-with-aiohttp)
 
 ## 控制并发：Semaphore 防止打爆对方站点
@@ -124,6 +125,7 @@ if __name__ == "__main__":
 ```
 
 这里 asyncio 的几个典型用法都出现了：  
+
 - `asyncio.Queue` 做 URL 任务池（生产者/消费者模式）。 [andreygubarev](https://andreygubarev.com/web-crawler-with-python-asyncio.html)
 - 多个 worker 协程 `handle_url` 并发消费任务。 [andreygubarev](https://andreygubarev.com/web-crawler-with-python-asyncio.html)
 - `queue.join()` 等待所有任务处理完，再 `cancel` 掉 worker 做优雅退出。 [aosabook](https://aosabook.org/en/500L/a-web-crawler-with-asyncio-coroutines.html)

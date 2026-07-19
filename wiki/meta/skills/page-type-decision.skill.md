@@ -65,6 +65,7 @@ priority: critical
 ## Execution Rule
 
 When analyzing a note, **explicitly state**:
+
 - Primary type
 - Secondary type(s) (if any)
 - Reason for choosing each type
@@ -72,6 +73,7 @@ When analyzing a note, **explicitly state**:
 ## Knowledge Explosion Consideration
 
 Before finalizing types, evaluate:
+
 - Does this note contain multiple high-value dimensions worth splitting?
 - Can it generate at least 2 meaningful pages of different types?
 - Does it meet the criteria in `Knowledge-Explosion-Constraints.md`?

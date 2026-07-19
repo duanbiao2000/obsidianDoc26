@@ -29,6 +29,7 @@ Use a powerful "golden sentence" as a **thesis statement** in the middle of a na
 > "Both will mainly require you to deal with setbacks, tradeoffs, and compromise along the way."
 
 This sentence works across many high-frequency IELTS topics:
+
 - Facing challenges
 - Adapting to change
 - Achieving difficult goals

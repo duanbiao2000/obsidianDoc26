@@ -36,13 +36,16 @@ A Pareto-based filtering method that identifies high-information-density concept
 ## Process
 
 ### Step 1: High-Entropy Component Extraction
+
 Identify the **5 most decisive** concepts or logical nodes in the text.
 
 ### Step 2: Pareto Filtering
+
 - **Top 20% (Core)**: The single highest-entropy component — must be deeply mastered.
 - **Bottom 80% (Support)**: Remaining components — keep only if necessary for understanding the core.
 
 ### Step 3: Execution Strategy
+
 - **Core component**: Apply Feynman technique + Zettelkasten linking + spaced repetition
 - **Supporting components**: Focus on building connections to the core
 

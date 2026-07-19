@@ -15,6 +15,7 @@
 Andrej Karpathy's LLM Wiki treats notes as **source code** that an LLM **compiles** into a structured, queryable wiki (the "executable").
 
 ### Three-Layer Architecture
+
 1. **Raw Layer** (`raw/`) — Immutable ground truth.
 2. **Wiki Layer** (`wiki/`) — LLM-owned, synthesized, interlinked Markdown.
 3. **Schema Layer** (`SCHEMA.md`) — Real-time operational rules.
@@ -73,6 +74,7 @@ All type definitions and decision rules are in:
 | **J01**  | Journals & Templates         | Low      | Pending  | `wiki/sources/`       |
 
 **Execution Order**:
+
 1. P02
 2. E01
 3. S01 + S02

@@ -82,21 +82,21 @@ created: 2026-04-29
 
 ## 1. 从 vague 变 specific：别说空话，说细节
 
-### 普通表达：
+### 普通表达
 
 > It was good.
 > 很好。
 
-### 更 impressive：
+### 更 impressive
 
 > It was surprisingly refreshing. I walked out feeling lighter.
 > 它出乎意料地让人放松。我出来的时候整个人都轻了一点。
 
-### 普通表达：
+### 普通表达
 
 > The food was delicious.
 
-### 更 impressive：
+### 更 impressive
 
 > The noodles were chewy, the broth was rich, and it had just the right amount of spice.
 > 面很筋道，汤底很浓，而且辣度刚刚好。
@@ -109,20 +109,20 @@ created: 2026-04-29
 
 日常口语想有感染力，一定要让别人听到你的反应。
 
-### 普通表达：
+### 普通表达
 
 > I was tired.
 
-### 更 impressive：
+### 更 impressive
 
 > I was completely drained. I just wanted to collapse on my bed.
 > 我整个人都被榨干了，只想直接瘫在床上。
 
-### 普通表达：
+### 普通表达
 
 > I was nervous.
 
-### 更 impressive：
+### 更 impressive
 
 > My mind went blank for a second, but I tried to play it cool.
 > 我脑子空白了一秒，但还是尽量装得很淡定。
@@ -141,20 +141,20 @@ created: 2026-04-29
 
 有对比，表达就更有层次。
 
-### 普通表达：
+### 普通表达
 
 > I like living in a big city.
 
-### 更 impressive：
+### 更 impressive
 
 > Big cities can be exhausting, but I love the sense of possibility they give me.
 > 大城市确实让人疲惫，但我喜欢它给人的那种“什么都有可能”的感觉。
 
-### 普通表达：
+### 普通表达
 
 > I like studying alone.
 
-### 更 impressive：
+### 更 impressive
 
 > I enjoy studying with others sometimes, but when I really need to focus, nothing beats being alone.
 > 我有时也喜欢和别人一起学，但如果我真的需要专注，一个人学习是最有效的。
@@ -172,20 +172,20 @@ created: 2026-04-29
 
 不要用太文学化的比喻，日常口语里用简单自然的就好。
 
-### 普通表达：
+### 普通表达
 
 > My schedule is very busy.
 
-### 更 impressive：
+### 更 impressive
 
 > My schedule is packed. I feel like I’m constantly running from one thing to another.
 > 我的日程排得满满的，感觉一直在从一件事赶到另一件事。
 
-### 普通表达：
+### 普通表达
 
 > Learning English is difficult.
 
-### 更 impressive：
+### 更 impressive
 
 > Learning English feels like building a muscle. You don’t see progress every day, but it adds up.
 > 学英语就像练肌肉。你不是每天都能看到进步，但它会慢慢积累。
@@ -204,20 +204,20 @@ created: 2026-04-29
 
 Impressive 的表达通常不是客观描述，而是有个人视角。
 
-### 普通表达：
+### 普通表达
 
 > Technology is useful.
 
-### 更 impressive：
+### 更 impressive
 
 > For me, technology is useful not because it saves time, but because it gives me more control over my life.
 > 对我来说，科技有用不只是因为它节省时间，而是因为它让我对生活更有掌控感。
 
-### 普通表达：
+### 普通表达
 
 > Reading is important.
 
-### 更 impressive：
+### 更 impressive
 
 > To me, reading is less about collecting information and more about learning how other people think.
 > 对我来说，阅读与其说是收集信息，不如说是学习别人如何思考。
@@ -236,20 +236,20 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 日常口语最容易 impressive 的方法：**讲一个很小的故事**。
 
-### 普通表达：
+### 普通表达
 
 > I like coffee.
 
-### 更 impressive：
+### 更 impressive
 
 > I’m really into coffee. There’s something comforting about making a cup in the morning, especially when the whole room starts to smell like roasted beans.
 > 我很喜欢咖啡。早上冲一杯咖啡这件事本身就很治愈，尤其是整个房间开始有咖啡豆香味的时候。
 
-### 普通表达：
+### 普通表达
 
 > I don’t like crowded places.
 
-### 更 impressive：
+### 更 impressive
 
 > I’m not a big fan of crowded places. Last weekend I went to a shopping mall, and after ten minutes I already wanted to escape. It was too noisy and overwhelming.
 > 我不太喜欢人多的地方。上周末我去了商场，十分钟后我就想逃了。太吵，也太让人压迫了。
@@ -269,11 +269,11 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 很多人英语口语听起来平，是因为所有句子都一个长度。
 
-### 普通表达：
+### 普通表达
 
 > I was very tired because I had many things to do and I didn’t sleep well.
 
-### 更 natural & impressive：
+### 更 natural & impressive
 
 > I was exhausted. I had deadlines, messages to reply to, errands to run — and barely any sleep.
 > 我累坏了。要赶 deadline，要回消息，要处理杂事，而且几乎没怎么睡。
@@ -298,20 +298,20 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 不要一直用 be 动词。
 
-### 普通表达：
+### 普通表达
 
 > The movie was interesting.
 
-### 更 impressive：
+### 更 impressive
 
 > The movie kept me hooked from beginning to end.
 > 这部电影从头到尾都让我很投入。
 
-### 普通表达：
+### 普通表达
 
 > The teacher was helpful.
 
-### 更 impressive：
+### 更 impressive
 
 > The teacher pushed me to think more deeply.
 > 这个老师推动我更深入地思考。
@@ -555,21 +555,21 @@ Impressive:
 
 ## 1. 从 vague 变 specific：别说空话，说细节
 
-### 普通表达：
+### 普通表达
 
 > It was good.
 > 很好。
 
-### 更 impressive：
+### 更 impressive
 
 > It was surprisingly refreshing. I walked out feeling lighter.
 > 它出乎意料地让人放松。我出来的时候整个人都轻了一点。
 
-### 普通表达：
+### 普通表达
 
 > The food was delicious.
 
-### 更 impressive：
+### 更 impressive
 
 > The noodles were chewy, the broth was rich, and it had just the right amount of spice.
 > 面很筋道，汤底很浓，而且辣度刚刚好。
@@ -582,20 +582,20 @@ Impressive:
 
 日常口语想有感染力，一定要让别人听到你的反应。
 
-### 普通表达：
+### 普通表达
 
 > I was tired.
 
-### 更 impressive：
+### 更 impressive
 
 > I was completely drained. I just wanted to collapse on my bed.
 > 我整个人都被榨干了，只想直接瘫在床上。
 
-### 普通表达：
+### 普通表达
 
 > I was nervous.
 
-### 更 impressive：
+### 更 impressive
 
 > My mind went blank for a second, but I tried to play it cool.
 > 我脑子空白了一秒，但还是尽量装得很淡定。
@@ -614,20 +614,20 @@ Impressive:
 
 有对比，表达就更有层次。
 
-### 普通表达：
+### 普通表达
 
 > I like living in a big city.
 
-### 更 impressive：
+### 更 impressive
 
 > Big cities can be exhausting, but I love the sense of possibility they give me.
 > 大城市确实让人疲惫，但我喜欢它给人的那种“什么都有可能”的感觉。
 
-### 普通表达：
+### 普通表达
 
 > I like studying alone.
 
-### 更 impressive：
+### 更 impressive
 
 > I enjoy studying with others sometimes, but when I really need to focus, nothing beats being alone.
 > 我有时也喜欢和别人一起学，但如果我真的需要专注，一个人学习是最有效的。
@@ -645,20 +645,20 @@ Impressive:
 
 不要用太文学化的比喻，日常口语里用简单自然的就好。
 
-### 普通表达：
+### 普通表达
 
 > My schedule is very busy.
 
-### 更 impressive：
+### 更 impressive
 
 > My schedule is packed. I feel like I’m constantly running from one thing to another.
 > 我的日程排得满满的，感觉一直在从一件事赶到另一件事。
 
-### 普通表达：
+### 普通表达
 
 > Learning English is difficult.
 
-### 更 impressive：
+### 更 impressive
 
 > Learning English feels like building a muscle. You don’t see progress every day, but it adds up.
 > 学英语就像练肌肉。你不是每天都能看到进步，但它会慢慢积累。
@@ -677,20 +677,20 @@ Impressive:
 
 Impressive 的表达通常不是客观描述，而是有个人视角。
 
-### 普通表达：
+### 普通表达
 
 > Technology is useful.
 
-### 更 impressive：
+### 更 impressive
 
 > For me, technology is useful not because it saves time, but because it gives me more control over my life.
 > 对我来说，科技有用不只是因为它节省时间，而是因为它让我对生活更有掌控感。
 
-### 普通表达：
+### 普通表达
 
 > Reading is important.
 
-### 更 impressive：
+### 更 impressive
 
 > To me, reading is less about collecting information and more about learning how other people think.
 > 对我来说，阅读与其说是收集信息，不如说是学习别人如何思考。
@@ -709,20 +709,20 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 日常口语最容易 impressive 的方法：**讲一个很小的故事**。
 
-### 普通表达：
+### 普通表达
 
 > I like coffee.
 
-### 更 impressive：
+### 更 impressive
 
 > I’m really into coffee. There’s something comforting about making a cup in the morning, especially when the whole room starts to smell like roasted beans.
 > 我很喜欢咖啡。早上冲一杯咖啡这件事本身就很治愈，尤其是整个房间开始有咖啡豆香味的时候。
 
-### 普通表达：
+### 普通表达
 
 > I don’t like crowded places.
 
-### 更 impressive：
+### 更 impressive
 
 > I’m not a big fan of crowded places. Last weekend I went to a shopping mall, and after ten minutes I already wanted to escape. It was too noisy and overwhelming.
 > 我不太喜欢人多的地方。上周末我去了商场，十分钟后我就想逃了。太吵，也太让人压迫了。
@@ -742,11 +742,11 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 很多人英语口语听起来平，是因为所有句子都一个长度。
 
-### 普通表达：
+### 普通表达
 
 > I was very tired because I had many things to do and I didn’t sleep well.
 
-### 更 natural & impressive：
+### 更 natural & impressive
 
 > I was exhausted. I had deadlines, messages to reply to, errands to run — and barely any sleep.
 > 我累坏了。要赶 deadline，要回消息，要处理杂事，而且几乎没怎么睡。
@@ -771,20 +771,20 @@ Impressive 的表达通常不是客观描述，而是有个人视角。
 
 不要一直用 be 动词。
 
-### 普通表达：
+### 普通表达
 
 > The movie was interesting.
 
-### 更 impressive：
+### 更 impressive
 
 > The movie kept me hooked from beginning to end.
 > 这部电影从头到尾都让我很投入。
 
-### 普通表达：
+### 普通表达
 
 > The teacher was helpful.
 
-### 更 impressive：
+### 更 impressive
 
 > The teacher pushed me to think more deeply.
 > 这个老师推动我更深入地思考。
