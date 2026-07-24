@@ -14,7 +14,7 @@ excalidraw-plugin: parsed
 
 <https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s>
 
-**卡片：翁家翌访谈（WhynotTV #4）– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
+**卡片：翁家翌访谈（WhynotTV– 关键可模仿点** [youtube](https://www.youtube.com/watch?v=I0DrcsDf3Os&t=91s)
 
 ***
 

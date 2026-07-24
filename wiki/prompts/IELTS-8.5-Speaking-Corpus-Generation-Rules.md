@@ -1,12 +1,15 @@
 ---
-title: "IELTS-8.5-Speaking-Corpus-Generation-Rules"
+title: IELTS-8.5-Speaking-Corpus-Generation-Rules
 type: prompt
 created: 2026-06-29
 updated: 2026-06-29
 status: active
 sources:
   - "[[raw/20_Prompts/copilot/custom/雅思8.5口语语料生成规则.md]]"
-tags: [prompt, ielts, speaking, 8.5-band]
+tags:
+  - prompt
+  - ielts
+  - speaking
 confidence: high
 related:
   - "[[IELTS-Official-Speaking-Question-Set-Generator]]"

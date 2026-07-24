@@ -1,9 +1,4 @@
 ---
-tags: [prompt]
-created: 2026-05-29
----
-
----
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991

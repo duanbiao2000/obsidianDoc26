@@ -5,8 +5,8 @@ tags:
   - Shell/Bash
   - Automation
   - DevOps
-  - AI-Agent
   - Workflow
+  - AI
 aliases:
   - Bash自动化指南
   - Agent-Bash-Toolkit
