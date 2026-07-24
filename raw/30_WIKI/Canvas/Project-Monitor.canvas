@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "a1b2c3d4e5f60001",
+      "type": "text",
+      "x": -300,
+      "y": -320,
+      "width": 600,
+      "height": 140,
+      "text": "# 📊 Project Monitor\n\n> **Weekly check-in** — tracking new, modified, and updated `.md` files across the vault.\n> Runs every Sunday — powered by Dataview",
+      "color": "4"
+    },
+    {
+      "id": "a1b2c3d4e5f60002",
+      "type": "file",
+      "x": -600,
+      "y": -100,
+      "width": 500,
+      "height": 80,
+      "file": "30_WIKI/Dataview/Weekly-Monitor.md"
+    },
+    {
+      "id": "a1b2c3d4e5f60003",
+      "type": "text",
+      "x": -600,
+      "y": 40,
+      "width": 500,
+      "height": 200,
+      "text": "## 🔍 What's Tracked\n\n- **New `.md` files** created in the past week\n- **Modified `.md` files** updated in the past week\n- **Project areas** with the most activity\n- **Changes broken down** by folder"
+    },
+    {
+      "id": "a1b2c3d4e5f60004",
+      "type": "text",
+      "x": 100,
+      "y": -100,
+      "width": 500,
+      "height": 140,
+      "text": "## 📁 Quick Links\n\n- [[HOME|🏠 Home]]\n- [[30_WIKI/Dashboard/02_Recent|🕒 Recent Activity]]\n- [[30_WIKI/Dashboard/04_Projects|📂 Projects]]\n- [[30_WIKI/Dataview/Weekly-Monitor|📊 Weekly Monitor]]"
+    },
+    {
+      "id": "a1b2c3d4e5f60005",
+      "type": "text",
+      "x": 100,
+      "y": 100,
+      "width": 500,
+      "height": 140,
+      "text": "## 📅 Sunday Review\n\n1. Open this canvas\n2. Click the **Weekly Monitor** link\n3. Review new & changed notes\n4. Process inbox items\n5. Update project status",
+      "color": "3"
+    },
+    {
+      "id": "a1b2c3d4e5f60006",
+      "type": "text",
+      "x": -600,
+      "y": 300,
+      "width": 1200,
+      "height": 80,
+      "text": "**Scope:** All `.md` files under `raw/` — excluding `.obsidian`, `04_Archive`, `90_Attachments`",
+      "color": "2"
+    }
+  ],
+  "edges": [],
+  "metadata": {
+    "version": "1.0-1.0",
+    "frontmatter": {}
+  }
+}

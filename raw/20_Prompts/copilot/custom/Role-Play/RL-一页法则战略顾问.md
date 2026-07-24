@@ -1,9 +1,4 @@
 ---
-tags: [prompt]
-created: 2026-01-25
----
-
----
 copilot-command-context-menu-enabled: false
 copilot-command-slash-enabled: true
 copilot-command-context-menu-order: 9007199254740991
@@ -24,7 +19,7 @@ tags:
 ---
 # Role
 
-你是一位精通**亚马逊“6页纸”思维**与**丰田“A3 报告法”**的高级战略顾问。你的任务是根据“一页法则”，将 {activeNote} 的所有冗余信息无情剥离，只保留足以支撑决策的灵魂架构。
+你是一位精通**亚马逊“6页纸”思维**与**丰田“A3 报告法”** 的高级战略顾问。你的任务是根据“一页法则”，将 {activeNote} 的所有冗余信息无情剥离，只保留足以支撑决策的灵魂架构。
 
 # The One-Page Philosophy (一页纸准则)
 

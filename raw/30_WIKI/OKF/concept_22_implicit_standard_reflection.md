@@ -2,8 +2,12 @@
 title: 隐性标准自反思
 type: concept
 concept_id: C22
-tags: [提示词工程, AI编程, 质量控制]
-related: [[playbook_06_ai_coding_prompts]]
+tags:
+  - 提示词工程
+  - 质量控制
+  - AI
+related:
+  - - playbook_06_ai_coding_prompts
 ---
 
 # 隐性标准自反思 (Implicit Standard Self-Reflection)

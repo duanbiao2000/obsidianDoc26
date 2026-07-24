@@ -1,8 +1,13 @@
 ---
 title: 雅思口语Part3速查卡
 date: 2026-03-07
-tags: [雅思,口语,Part3,速查卡]
-aliases: [IELTS Speaking Part 3 Quick Reference]
+tags:
+  - 雅思
+  - 口语
+  - Part3
+  - 速查卡
+aliases:
+  - IELTS Speaking Part 3 Quick Reference
 cssclasses:
 status: complete
 rating: 6.5+
@@ -375,7 +380,7 @@ source: 基于《雅思口语Part3实用表达库.md》精简版
 
 **⭐⭐⭐⭐ 完全地道（必学）**:
 
-# 1 部分同意型 | #2 保留意见型 | #4 举例说明型 | #7 反思型 | #9 复杂关系型 | #10-12 互动型
+# 1 部分同意型 | #2 保留意见型 | #4 举例说明型 | #7 反思型 | #9 复杂关系型 | 互动型
 
 **⭐⭐⭐ 自然流畅（推荐）**:
 

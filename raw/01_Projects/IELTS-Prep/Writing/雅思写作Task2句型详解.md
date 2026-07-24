@@ -1,8 +1,13 @@
 ---
 title: 雅思写作Task2句型详解
 date: 2026-03-07
-tags: [雅思,写作,Task2,句型库]
-aliases: [IELTS Writing Task 2 Sentence Patterns Detailed]
+tags:
+  - 雅思
+  - 写作
+  - Task2
+  - 句型库
+aliases:
+  - IELTS Writing Task 2 Sentence Patterns Detailed
 cssclasses:
 status: complete
 rating: 7.0+
@@ -46,20 +51,20 @@ source: 基于《雅思写作Task2高级句型库.md》重构
 
 **Band 6.0-6.5目标**:
 
-- ✅ 掌握: #3, #9, #10（基础型）
+- ✅ 掌握: #3, #9,
 - ✅ 每篇文章使用: 2-3个句型
 - ✅ 重点: 确保语法正确，逻辑清晰
 
 **Band 7.0-7.5目标**:
 
-- ✅ 掌握: #1, #2, #4, #5, #6, #13（核心型）
+- ✅ 掌握: #1, #2, #4, #5, #6,
 - ✅ 每篇文章使用: 3-4个句型
 - ✅ 重点: 句型与论证内容匹配，有替换意识
 
 **Band 8.0+目标**:
 
 - ✅ 掌握: 全部15个句型
-- ✅ 熟练运用: #7, #8, #11, #12, #14, #15（顶级型）
+- ✅ 熟练运用: #7, #8, #11, #12, #14,
 - ✅ 重点: 自然融合，看不出刻意痕迹
 
 ---

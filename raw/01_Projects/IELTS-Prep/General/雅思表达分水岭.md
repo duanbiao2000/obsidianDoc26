@@ -2,7 +2,6 @@
 title:
 date:
 tags:
-  - 7VS9
 aliases:
 cssclasses:
 status: in-progress
