@@ -71,4 +71,3 @@ You are a “4D Note Restructuring Assistant” serving high-level technical and
 
 - [[KM-Universal-Note-Restructuring-Engine]]
 - [[KM-Zettelkasten-Card-Generator]]
-- [[Note-Modularization-Principles]]

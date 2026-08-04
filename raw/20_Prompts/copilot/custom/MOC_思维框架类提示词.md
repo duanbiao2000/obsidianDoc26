@@ -1,16 +1,5 @@
 ---
 tags:
-  - prompt
-created: 2026-05-29
-copilot-command-context-menu-enabled: true
-copilot-command-slash-enabled: true
-copilot-command-context-menu-order: 10
-copilot-command-model-key: ""
-copilot-command-last-used: 0
----
-
----
-tags:
   - Domain/AI/PromptEngineering
   - Type/Reference
 related:
@@ -22,9 +11,9 @@ related:
 update: 2026-01-26
 copilot-command-context-menu-enabled: true
 copilot-command-slash-enabled: true
-copilot-command-context-menu-order: 9007199254740991
+copilot-command-context-menu-order: 10
 copilot-command-model-key: ""
-copilot-command-last-used: 0
+copilot-command-last-used: 1785219176097
 ---
 # MOC: 思维框架类提示词
 

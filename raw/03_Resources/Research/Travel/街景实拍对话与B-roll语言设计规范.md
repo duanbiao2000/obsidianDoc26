@@ -1,10 +1,14 @@
 ---
-title: "街景实拍对话与B-roll语言设计规范"
-series: "环球旅行系列制作指南"
-category: "后期制作规范"
-tags: ["拍摄技巧", "后期制作", "对话设计", "B-roll规范"]
+title: 街景实拍对话与B-roll语言设计规范
+series: 环球旅行系列制作指南
+category: 后期制作规范
+tags:
+  - 拍摄技巧
+  - 后期制作
+  - 对话设计
+  - B-roll
 created: 2026-03-08
-status: "制作规范"
+status: completed
 ---
 
 # 街景实拍对话与B-roll语言设计规范
