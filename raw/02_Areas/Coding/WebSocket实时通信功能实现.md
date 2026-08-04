@@ -21,9 +21,6 @@ stakeholders:
   - qa-team
 estimated_hours: 40
 actual_hours: 52
-related_work:
-  - REST API重构
-  - 消息队列集成
 ---
 
 # WebSocket 实时通信功能实现

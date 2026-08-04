@@ -2,8 +2,14 @@
 title: 语域污染
 type: concept
 concept_id: C41
-tags: [错误模式, 语言测试, 雅思陷阱]
-related: [[concept_39_multidimensional_register], [concept_40_bibers_register_framework], [playbook_11_register_segregation]]
+tags:
+  - 错误模式
+  - 语言测试
+  - 雅思备考
+related:
+  - - concept_39_multidimensional_register
+  - - concept_40_bibers_register_framework
+  - - playbook_11_register_segregation
 ---
 
 # 语域污染 (Register Contamination)

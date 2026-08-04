@@ -1,10 +1,15 @@
 ---
 title: 雅思写作Task2速查卡
 date: 2026-03-07
-tags: [雅思,写作,Task2,速查卡]
-aliases: [IELTS Task 2 Quick Reference]
+tags:
+  - 雅思
+  - 写作
+  - Task2
+  - 速查卡
+aliases:
+  - IELTS Task 2 Quick Reference
 cssclasses:
-status: complete
+status: completed
 rating: 6.0-8.0+
 completed: true
 due:

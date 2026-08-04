@@ -14,7 +14,7 @@ aliases:
   - 极低启动成本系统
   - 设计防失败系统
 cssclasses:
-status: complete
+status: completed
 rating: 5
 due:
 source:

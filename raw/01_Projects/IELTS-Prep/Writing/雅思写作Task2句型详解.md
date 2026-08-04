@@ -9,7 +9,7 @@ tags:
 aliases:
   - IELTS Writing Task 2 Sentence Patterns Detailed
 cssclasses:
-status: complete
+status: completed
 rating: 7.0+
 completed: true
 due:

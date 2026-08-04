@@ -1,10 +1,15 @@
 ---
 title: 雅思写作Task2实战手册
 date: 2026-03-07
-tags: [雅思,写作,Task2,实战手册]
-aliases: [IELTS Writing Task 2 Practice Handbook]
+tags:
+  - 雅思
+  - 写作
+  - Task2
+  - 实战手册
+aliases:
+  - IELTS Writing Task 2 Practice Handbook
 cssclasses:
-status: complete
+status: completed
 rating: 7.0+
 completed: true
 due:

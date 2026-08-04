@@ -1,10 +1,10 @@
 ---
 title: AI时代优秀人员的素质
 date: 2026-07-11
-tags: #AI #能力 #未来工作 #人才 #思维方式
+tags:
 aliases: AI时代人才特质, AI Age Competencies, 人机协作
 cssclasses:
-status: complete
+status: completed
 rating:
 ---
 

@@ -10,8 +10,7 @@ aliases:
   - 认知负荷管理与迁移
 cssclasses:
 status:
-  - annotated
-  - active
+  - TODO
 rating: "5"
 completed: false
 due: 2026-06-06

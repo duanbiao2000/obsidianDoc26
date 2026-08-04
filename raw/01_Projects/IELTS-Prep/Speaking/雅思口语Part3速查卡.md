@@ -9,7 +9,7 @@ tags:
 aliases:
   - IELTS Speaking Part 3 Quick Reference
 cssclasses:
-status: complete
+status: completed
 rating: 6.5+
 completed: true
 due:
