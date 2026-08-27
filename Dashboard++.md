@@ -35,6 +35,7 @@ tags:
   - [[01_Projects/Anki-Cards/MOC-Anki|Anki MOC]]
   - [[01_Projects/Anki-Cards/IELTS-Super-Cards-The-Harvard-Edition|IELTS Super Cards]]
   - [[01_Projects/Anki-Cards/从LLM历史中提取高价值内容0530_雅思口语超级卡|雅思口语超级卡]]
+  - [[先Grill设计再细化需求]]
 - 💻 开发 / Codex
   - [[01_Projects/Software-Dev/MOC-Software-Dev|Software Dev]]
   - [[01_Projects/Codex/obsidianDoc26整体目录结构|Codex 结构]]
@@ -63,6 +64,7 @@ tags:
   - [[02_Areas/Philosophy/MOC-Philosophy|Philosophy MOC]]
   - [[02_Areas/Philosophy/提升思考深度的艺术]]
   - [[02_Areas/Philosophy/难而正确的事]]
+  - [[先Grill设计再细化需求]]
 - 🗂 PKM
   - [[02_Areas/PKM/MOC-PKM|PKM MOC]]
   - [[02_Areas/PKM/Obsidian-CLI]]
@@ -127,7 +129,7 @@ tags:
   - [[05_Journals/MOC-Journals|Journals MOC]]
   - [[30_WIKI/Dashboard/05_Journals|日志面板]]
 - 🪞 Reflection
-  - [[05_Journals/Reflection/2026-06-13|最近反思]]
+  - [[口语语料库|最近反思]]
   - [[05_Journals/Reflection/2026-06-05|过往反思]]
 
 # 模板 / 维护
