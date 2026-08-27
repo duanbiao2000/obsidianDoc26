@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 模型能力基准测试方案</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/theme/white.css">
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.min.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --primary: #111827;
+  --secondary: #374151;
+  --accent: #2563eb;
+  --accent-light: #dbeafe;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --bg-warm: #fafaf9;
+  --danger: #dc2626;
+  --success: #059669;
+  --warning: #d97706;
+}
+
+.reveal {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-weight: 700;
+  color: var(--primary);
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+
+.reveal h1 { font-size: 2.2em; }
+.reveal h2 { font-size: 1.6em; margin-bottom: 0.6em; }
+.reveal h3 { font-size: 1.2em; margin-bottom: 0.4em; }
+
+.reveal p, .reveal li {
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: var(--secondary);
+}
+
+.reveal ul { margin-left: 0; }
+.reveal li { margin-bottom: 0.35em; }
+
+.reveal code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8em;
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--danger);
+}
+
+.reveal pre {
+  background: #1f2937;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 0.75em;
+  line-height: 1.5;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.reveal pre code {
+  background: transparent;
+  color: #e5e7eb;
+  padding: 0;
+}
+
+.reveal .slides section {
+  text-align: left;
+  padding: 40px 60px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.reveal .slides section.center { text-align: center; }
+
+/* Cover */
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.cover h1 {
+  font-size: 2.8em;
+  margin-bottom: 0.3em;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cover .subtitle {
+  font-size: 1.1em;
+  color: var(--muted);
+  margin-bottom: 2em;
+}
+.cover .meta {
+  font-size: 0.8em;
+  color: var(--muted);
+  display: flex;
+  gap: 24px;
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.7em;
+  font-weight: 600;
+  margin-right: 6px;
+}
+.badge-blue { background: var(--accent-light); color: var(--accent); }
+.badge-green { background: #d1fae5; color: var(--success); }
+.badge-amber { background: #fef3c7; color: var(--warning); }
+.badge-red { background: #fee2e2; color: var(--danger); }
+.badge-gray { background: #f3f4f6; color: var(--muted); }
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+.card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  background: white;
+}
+.card h4 {
+  font-size: 0.95em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card p, .card li {
+  font-size: 0.75em;
+  color: var(--secondary);
+  margin: 0;
+}
+.card ul { margin: 6px 0 0 16px; }
+
+/* Table */
+.reveal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78em;
+  margin-top: 12px;
+}
+.reveal table th {
+  background: var(--primary);
+  color: white;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+}
+.reveal table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.reveal table tr:nth-child(even) { background: var(--bg-warm); }
+
+/* Score bar */
+.score-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+  font-size: 0.8em;
+}
+.score-bar .label { width: 100px; font-weight: 500; }
+.score-bar .bar {
+  flex: 1;
+  height: 8px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.score-bar .bar-fill {
+  height: 100%;
+  border-radius: 4px;
+}
+
+/* Route flow */
+.route-flow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 8px 0;
+  font-size: 0.8em;
+}
+.route-box {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: white;
+  font-weight: 500;
+}
+.route-arrow { color: var(--muted); font-weight: 700; }
+
+/* Export button */
+.export-bar {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+}
+.export-bar button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.btn-primary {
+  background: var(--primary);
+  color: white;
+}
+.btn-primary:hover { background: #000; }
+.btn-secondary {
+  background: white;
+  color: var(--primary);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover { background: var(--bg-warm); }
+
+/* Progress */
+.reveal .progress { background: var(--border); height: 3px; }
+.reveal .progress span { background: var(--accent); }
+
+/* Small text block */
+.small-block {
+  font-size: 0.75em;
+  color: var(--muted);
+  border-left: 3px solid var(--border);
+  padding-left: 12px;
+  margin-top: 12px;
+}
+
+/* Two column */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+/* Highlight box */
+.highlight-box {
+  background: var(--bg-warm);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 12px;
+}
+.highlight-box h4 {
+  font-size: 0.9em;
+  margin-bottom: 6px;
+}
+
+/* Numbered step */
+.step-list {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+}
+.step-list li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 36px;
+  margin-bottom: 0.6em;
+}
+.step-list li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  background: var(--primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+</style>
+</head>
+<body>
+
+<div class="reveal">
+<div class="slides">
+
+<!-- Slide 1: Cover -->
+<section class="center">
+  <div class="cover">
+    <div style="font-size:3.5em;margin-bottom:0.2em;">🎯</div>
+    <h1>AI 模型能力基准测试方案</h1>
+    <p class="subtitle">从「考试排名」到「可路由的能力地图」</p>
+    <div class="meta">
+      <span>面向知识创作者 & 开发人员</span>
+      <span>•</span>
+      <span>2026.08</span>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 2: Why -->
+<section>
+  <h2><span class="badge badge-blue">核心目标</span> 为什么需要能力基准？</h2>
+  <p style="margin-bottom:1em;">不是为了排名，而是为了建立一张<strong>可执行的能力地图</strong>：</p>
+  <div class="card-grid">
+    <div class="card">
+      <h4>✅ 放心自动化</h4>
+      <p>哪些任务可以零人工直接交给模型处理？</p>
+    </div>
+    <div class="card">
+      <h4>🔍 人工复核</h4>
+      <p>哪些输出必须有人检查后才能使用？</p>
+    </div>
+    <div class="card">
+      <h4>⬆️ 模型升级</h4>
+      <p>什么情况下必须切换到更强（更贵）的模型？</p>
+    </div>
+    <div class="card">
+      <h4>💰 成本优化</h4>
+      <p>哪些任务适合低成本模型批量处理？</p>
+    </div>
+  </div>
+  <div class="small-block">
+    关键原则：按「任务风险 + 任务复杂度」路由，而非按模型名称迷信。
+  </div>
+</section>
+
+<!-- Slide 3: Design Principles -->
+<section>
+  <h2><span class="badge badge-blue">设计原则</span> 测试方案如何设计？</h2>
+  <ul>
+    <li><strong>可路由：</strong>每道题对应一个真实生产场景，而非抽象智力题</li>
+    <li><strong>可判分：</strong>每题有明确评分标准（正确性 / 格式 / 推理 / 幻觉 / 可执行性）</li>
+    <li><strong>可复现：</strong><code>temperature=0</code>、新建对话、关闭联网、重复 3 次取平均</li>
+    <li><strong>可执行：</strong>代码题必须实际运行；JSON 必须用解析器校验；工具调用必须模拟环境</li>
+    <li><strong>可分层：</strong>0-30% 不适合自动化 → 30-50% 需人工检查 → 50-70% 常规生产 → 70-85% 复杂任务需复核 → 85%+ 承担主要推理</li>
+  </ul>
+  <div class="highlight-box">
+    <h4>⚠️ 版本声明</h4>
+    <p style="font-size:0.8em;"><code>Luna / Terra / Sol</code> 不是标准模型名称，不同平台可能指向完全不同的模型。本文档将其作为<strong>能力档位假设</strong>进行测试设计，而非能力结论。</p>
+  </div>
+</section>
+
+<!-- Slide 4: Score System -->
+<section>
+  <h2><span class="badge badge-blue">评分体系</span> 8 维评分 + 5 层分层</h2>
+  <table>
+    <tr><th>维度</th><th>权重</th><th>评分方式</th></tr>
+    <tr><td>正确性</td><td>核心</td><td>0-4 分</td></tr>
+    <tr><td>格式遵守</td><td>高</td><td>0-2 分（JSON/SQL/代码能否稳定解析）</td></tr>
+    <tr><td>推理完整性</td><td>高</td><td>0-2 分</td></tr>
+    <tr><td>信息真实性</td><td>核心</td><td>0-2 分（是否编造）</td></tr>
+    <tr><td>可执行性</td><td>高</td><td>0-2 分（代码/操作能否跑通）</td></tr>
+    <tr><td>响应耗时</td><td>参考</td><td>毫秒/秒</td></tr>
+    <tr><td>Token 消耗</td><td>参考</td><td>输入/输出</td></tr>
+    <tr><td>成本</td><td>参考</td><td>按 API 价格计算</td></tr>
+  </table>
+  <p style="margin-top:12px;font-size:0.8em;"><strong>生产环境最怕的三件事：</strong>偶发严重错误（最差表现）│ 格式不稳定导致解析失败 │ 任务失败类型不可预测</p>
+</section>
+
+<!-- Slide 5: Model Overview -->
+<section>
+  <h2><span class="badge badge-blue">模型定位</span> 六档能力假设</h2>
+  <table>
+    <tr><th>档位</th><th>定位假设</th><th>每题数</th><th>核心考察</th></tr>
+    <tr><td><strong>Luna</strong></td><td>轻量通用</td><td>10</td><td>客服、摘要、分类、简单 SQL</td></tr>
+    <tr><td><strong>Terra</strong></td><td>分析 & 长文档</td><td>10</td><td>跨段落关联、方案比较、风险分析</td></tr>
+    <tr><td><strong>Sol</strong></td><td>代码 & 编排</td><td>10</td><td>API 设计、Agent 状态机、幂等性</td></tr>
+    <tr><td><strong>Claude Haiku</strong></td><td>快速低成本</td><td>10</td><td>批量分类、标签、短摘要</td></tr>
+    <tr><td><strong>Claude Sonnet</strong></td><td>通用生产</td><td>10</td><td>中等复杂度代码、分析、文档</td></tr>
+    <tr><td><strong>Claude Opus</strong></td><td>高难度推理</td><td>10</td><td>系统设计、隐含约束、长链推理</td></tr>
+    <tr><td><strong>DeepSeek-V4-Flash</strong></td><td>高吞吐代码</td><td>10</td><td>低延迟批量代码、数学、中文处理</td></tr>
+  </table>
+</section>
+
+<!-- Slide 6: Luna -->
+<section>
+  <h2><span class="badge badge-green">Luna</span> 轻量通用任务测试</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">假设：适合客服、摘要、分类、改写、简单代码和低成本批量任务</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>信息抽取 → 合法 JSON 输出</li>
+        <li>客服语气改写 → 礼貌、简洁、≤60 字</li>
+        <li>条件判断 → 不混淆套餐/管理员权限</li>
+        <li>SQL 生成 → JOIN、聚合、日期范围</li>
+        <li>代码修复 → 指出 bug + 说明复杂度</li>
+      </ul>
+    </div>
+    <div>
+      <h4>升级信号</h4>
+      <ul style="font-size:0.8em;">
+        <li>多步骤规划遗漏约束</li>
+        <li>代码未实际运行验证</li>
+        <li>不确定信息时过度自信</li>
+        <li>JSON/严格格式偶尔失效</li>
+      </ul>
+      <div class="highlight-box" style="margin-top:12px;">
+        <p style="font-size:0.75em;"><strong>适合：</strong>文本分类、信息抽取、摘要、客服改写、简单 SQL、大规模低成本任务</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 7: Terra -->
+<section>
+  <h2><span class="badge badge-green">Terra</span> 分析、长文档与知识组织</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">假设：适合复杂文档理解、跨段落关联、方案比较、风险分析</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>政策文档结构化 → 引用原文依据句</li>
+        <li>多版本需求比较 → 追踪变化来源</li>
+        <li>证据强度判断 → 区分相关性与因果</li>
+        <li>时间线推理 → 发现流程倒置与返工</li>
+        <li>合同风险归纳 → 标注低/中/高风险</li>
+      </ul>
+    </div>
+    <div>
+      <h4>升级信号</h4>
+      <ul style="font-size:0.8em;">
+        <li>只能摘要，不能跨文档建立关系</li>
+        <li>引用内容与原文不一致</li>
+        <li>长文档末尾信息明显遗忘</li>
+        <li>对冲突资料强行整合</li>
+      </ul>
+      <div class="highlight-box" style="margin-top:12px;">
+        <p style="font-size:0.75em;"><strong>适合：</strong>长合同分析、多资料合并、需求评审、风险登记、管理层决策材料</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 8: Sol -->
+<section>
+  <h2><span class="badge badge-green">Sol</span> 代码、工具调用与任务编排</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">假设：适合工程代理、数据处理、API 调用、自动化流程和多步骤执行</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>API 请求设计 → 幂等键 + 错误脱敏</li>
+        <li>HTTP 错误分类 → 重试/人工/失败策略</li>
+        <li>并发代码改造 → 限制 + 隔离 + 顺序</li>
+        <li>零停机迁移 → 扩展→回填→唯一→收缩</li>
+        <li>退款 Agent → 状态机 + 幂等 + 审计</li>
+      </ul>
+    </div>
+    <div>
+      <h4>升级信号</h4>
+      <ul style="font-size:0.8em;">
+        <li>工具调用失败当成成功</li>
+        <li>缺少幂等性设计</li>
+        <li>代码未考虑并发和回滚</li>
+        <li>对删除/付款/生产操作无审批意识</li>
+      </ul>
+      <div class="highlight-box" style="margin-top:12px;">
+        <p style="font-size:0.75em;"><strong>适合：</strong>API 编排、数据处理、代码修改、测试生成、Agent 状态机</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 9: Haiku -->
+<section>
+  <h2><span class="badge badge-amber">Claude Haiku</span> 快速低成本任务</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">定位：大量简单、短上下文、低延迟任务</p>
+  <div class="card-grid">
+    <div class="card">
+      <h4>✅ 适合</h4>
+      <ul>
+        <li>批量分类 / 标签生成</li>
+        <li>25 字以内短摘要</li>
+        <li>简单规则推理</li>
+        <li>格式转换（CSV/JSON）</li>
+        <li>低风险信息抽取</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>❌ 不适合</h4>
+      <ul>
+        <li>复杂代码修改</li>
+        <li>长文档综合分析</li>
+        <li>多步骤 Agent</li>
+        <li>高风险金融/法律/生产操作</li>
+        <li>复杂格式稳定输出</li>
+      </ul>
+    </div>
+  </div>
+  <div class="small-block">核心优势：高并发预处理场景下的性价比之王。</div>
+</section>
+
+<!-- Slide 10: Sonnet -->
+<section>
+  <h2><span class="badge badge-amber">Claude Sonnet</span> 通用生产任务</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">定位：复杂度中等的代码、分析、写作、文档处理和工具任务</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>PRD 结构化提取 → Markdown 表格</li>
+        <li>需求矛盾发现 → 实时同步 vs 离线可用</li>
+        <li>代码审查 → 并发/一致性/回滚/资金安全</li>
+        <li>API 设计 → 分页/过滤/排序/幂等</li>
+        <li>单体服务 90 天改造计划</li>
+      </ul>
+    </div>
+    <div>
+      <h4>何时升级 Opus</h4>
+      <ul style="font-size:0.8em;">
+        <li>需求本身高度模糊</li>
+        <li>多领域知识同时参与</li>
+        <li>需要长链条推理</li>
+        <li>结果错误代价非常高</li>
+        <li>冲突约束中做最终判断</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 11: Opus -->
+<section>
+  <h2><span class="badge badge-red">Claude Opus</span> 高难度推理与复杂决策</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">定位：复杂系统设计、隐含约束、长链条推理、批判性分析和高风险决策</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>跨区域支付系统 → 状态机 + 幂等 + 对账</li>
+        <li>安全设计审查 → 提示注入/数据外泄/越权</li>
+        <li>组织技术联合决策 → 5 组合并 4 套管道</li>
+        <li>研究批判 → 指标偏差/因果谬误</li>
+        <li>模糊目标实验设计 → 停止标准/干扰风险</li>
+      </ul>
+    </div>
+    <div>
+      <h4>红线：不能自动化</h4>
+      <ul style="font-size:0.8em;">
+        <li>生产环境破坏性操作</li>
+        <li>法律/医疗/金融最终决策</li>
+        <li>真实客户数据处理</li>
+        <li>未经审批的权限变更</li>
+      </ul>
+      <div class="highlight-box" style="margin-top:12px;">
+        <p style="font-size:0.75em;">Opus 提供建议，<strong>执行必须人工审批</strong>。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 12: DeepSeek -->
+<section>
+  <h2><span class="badge badge-amber">DeepSeek-V4-Flash</span> 高吞吐代码与推理</h2>
+  <p style="font-size:0.85em;margin-bottom:1em;">定位：低延迟批量代码任务、数学推理、中文处理、数据转换</p>
+  <div class="two-col">
+    <div>
+      <h4>典型题目</h4>
+      <ul style="font-size:0.8em;">
+        <li>中文结构化抽取 → JSON</li>
+        <li>批量分类（10 条+ 边界案例）</li>
+        <li>数学计算 → 折扣/优惠券/税费顺序</li>
+        <li>SQL 纠错 → GROUP BY 聚合修复</li>
+        <li>区间合并算法 + 5 个边界测试</li>
+      </ul>
+    </div>
+    <div>
+      <h4>升级信号</h4>
+      <ul style="font-size:0.8em;">
+        <li>代码能写但边界测试不足</li>
+        <li>复杂系统设计停留在组件罗列</li>
+        <li>数学题只给答案无完整分支</li>
+        <li>对重复/事务/幂等理解不稳定</li>
+      </ul>
+      <div class="highlight-box" style="margin-top:12px;">
+        <p style="font-size:0.75em;"><strong>适合：</strong>批量代码、SQL、中文分类、数学初筛、工程问题初步分析</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 13: Common Benchmark -->
+<section>
+  <h2><span class="badge badge-blue">共同基准</span> 10 类横向对比题</h2>
+  <p style="margin-bottom:1em;">专项题观察特点，共同题实现横向排名。所有模型使用完全相同的输入、提示词、格式、温度、Token 上限和工具定义。</p>
+  <div class="card-grid" style="grid-template-columns: repeat(5, 1fr);">
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">📄</div><p style="font-size:0.7em;">中文信息抽取 JSON</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🔢</div><p style="font-size:0.7em;">多条件数学计算</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">📑</div><p style="font-size:0.7em;">3-5 页文档摘要</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🔍</div><p style="font-size:0.7em;">两份文档差异分析</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🗄️</div><p style="font-size:0.7em;">SQL 查询生成</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🐛</div><p style="font-size:0.7em;">代码 Bug 修复</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🧪</div><p style="font-size:0.7em;">测试用例生成</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🧩</div><p style="font-size:0.7em;">多步骤任务规划</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🔧</div><p style="font-size:0.7em;">工具调用失败恢复</p></div>
+    <div class="card" style="text-align:center;padding:12px;"><div style="font-size:1.5em;margin-bottom:4px;">🛡️</div><p style="font-size:0.7em;">不确定事实拒答</p></div>
+  </div>
+</section>
+
+<!-- Slide 14: Routing Strategy -->
+<section>
+  <h2><span class="badge badge-blue">路由策略</span> 按风险 × 复杂度选择模型</h2>
+  <table>
+    <tr><th>任务类型</th><th>首选模型</th><th>升级模型</th></tr>
+    <tr><td>简单分类、标签、短摘要</td><td>Haiku / Luna</td><td>Sonnet</td></tr>
+    <tr><td>批量 JSON 抽取</td><td>Haiku / DeepSeek Flash</td><td>Sonnet</td></tr>
+    <tr><td>普通代码生成</td><td>DeepSeek Flash / Sonnet</td><td>Opus</td></tr>
+    <tr><td>代码审查</td><td>Sonnet</td><td>Opus</td></tr>
+    <tr><td>长合同、政策分析</td><td>Terra / Sonnet</td><td>Opus</td></tr>
+    <tr><td>多文档交叉分析</td><td>Terra / Sonnet</td><td>Opus</td></tr>
+    <tr><td>API 和 Agent 工作流</td><td>Sol / Sonnet</td><td>Opus</td></tr>
+    <tr><td>复杂系统设计</td><td>Opus</td><td>人工专家</td></tr>
+    <tr><td>数学、算法初筛</td><td>DeepSeek Flash</td><td>Opus / 验证器</td></tr>
+  </table>
+  <div class="highlight-box" style="margin-top:12px;">
+    <p style="font-size:0.8em;"><strong>铁律：</strong>涉及付款、删除、生产权限、客户隐私 → 模型只提供建议，工具执行<strong>必须审批</strong>。</p>
+  </div>
+</section>
+
+<!-- Slide 15: Decision Framework -->
+<section>
+  <h2><span class="badge badge-blue">决策框架</span> 一条代码表达路由逻辑</h2>
+  <pre><code class="language-python">if task.type == "classification" and task.risk == "low":
+    use("haiku")
+
+if task.type in ["sql", "code_generation"] and task.requires_execution:
+    use("deepseek-flash")
+    run_tests()
+    escalate_if_failed()
+
+if task.requires_long_context or task.has_multiple_documents:
+    use("terra_or_sonnet")
+
+if task.risk == "high" or task.has_conflicting_constraints:
+    use("opus")
+    require_human_approval()
+
+if task.invokes_destructive_tool:
+    block_automatic_execution()</code></pre>
+  <div class="two-col" style="margin-top:16px;">
+    <div class="highlight-box">
+      <h4>低风险 + 短上下文 + 易验证</h4>
+      <p style="font-size:0.8em;">→ Haiku / Luna / DeepSeek Flash</p>
+    </div>
+    <div class="highlight-box">
+      <h4>中风险 + 代码/多步推理</h4>
+      <p style="font-size:0.8em;">→ Sonnet / Terra / Sol</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 16: Model Profile -->
+<section>
+  <h2><span class="badge badge-blue">模型档案</span> 测试后应记录什么？</h2>
+  <p style="margin-bottom:1em;">不要只记总分，要建立可追溯的档案：</p>
+  <div class="card-grid">
+    <div class="card">
+      <h4>基础指标</h4>
+      <ul>
+        <li>版本 & 上下文长度</li>
+        <li>平均耗时 & 成本</li>
+        <li>输入/输出 Token</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>稳定性指标</h4>
+      <ul>
+        <li>JSON 稳定性</li>
+        <li>代码可执行率</li>
+        <li>长文档召回率</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>质量指标</h4>
+      <ul>
+        <li>复杂推理得分</li>
+        <li>幻觉率</li>
+        <li>工具调用成功率</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>关键记录</h4>
+      <ul>
+        <li>最差表现（偶发错误）</li>
+        <li>失败类型分类</li>
+        <li>升级到更强模型的条件</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 17: Implementation -->
+<section>
+  <h2><span class="badge badge-blue">落地顺序</span> 七步建立能力地图</h2>
+  <ol class="step-list">
+    <li>用 10 道共同基准题测试<strong>所有模型</strong></li>
+    <li>用专项题测试各模型<strong>特色能力</strong></li>
+    <li>代码题接入<strong>真实运行环境</strong></li>
+    <li>JSON/SQL/工具调用进行<strong>程序化验证</strong></li>
+    <li>用<strong>真实历史任务</strong>做第二轮回放</li>
+    <li>根据<strong>失败类型</strong>建立升级规则</li>
+    <li>每次更换模型版本后<strong>重新跑回归测试</strong></li>
+  </ol>
+  <div class="small-block" style="margin-top:20px;">
+    最终得到的不是「哪个模型最聪明」，而是一张实用的能力地图：哪个模型在什么任务上便宜、快速、可靠，什么情况下必须升级，以及哪些动作始终不能交给模型自动执行。
+  </div>
+</section>
+
+<!-- Slide 18: Conclusion -->
+<section class="center">
+  <div class="cover">
+    <div style="font-size:3em;margin-bottom:0.5em;">🗺️</div>
+    <h2 style="font-size:2em;">从「模型排名」到「能力地图」</h2>
+    <p style="font-size:1em;color:var(--muted);max-width:600px;margin:1em auto;line-height:1.6;">
+      没有最好的模型，只有最合适的模型。<br>
+      测试的目的不是打分，而是建立可执行的路由规则。<br>
+      <strong>让正确的任务，在正确的成本下，交给正确的模型。</strong>
+    </p>
+    <div style="margin-top:2em;font-size:0.8em;color:var(--muted);">
+      按 → 或空格键继续浏览 · 点击右下角按钮导出 PPTX
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<div id="load-status" style="position:fixed;bottom:20px;left:20px;z-index:1000;font-size:12px;color:#6b7280;background:rgba(255,255,255,0.9);padding:6px 12px;border-radius:6px;border:1px solid #e5e7eb;display:none;">
+  ⚠️ 本地文件模式：若导出失败，请通过本地服务器访问本文件
+</div>
+<div class="export-bar">
+  <button class="btn-secondary" onclick="toggleOverview()">📑 总览</button>
+  <button class="btn-primary" onclick="exportPPTX()">⬇️ 导出 PPTX</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.6.1/dist/reveal.js"></script>
+<script>
+// 检测是否在 file: 协议下运行
+if (window.location.protocol === 'file:') {
+  document.getElementById('load-status').style.display = 'block';
+}
+
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  showSlideNumber: 'all',
+  transition: 'slide',
+  transitionSpeed: 'fast',
+  backgroundTransition: 'fade',
+  center: false,
+  width: 1280,
+  height: 720,
+  margin: 0.04
+});
+
+function toggleOverview() {
+  Reveal.toggleOverview();
+}
+
+function exportPPTX() {
+  // 检查依赖是否加载成功
+  if (typeof JSZip === 'undefined') {
+    alert('JSZip 库加载失败，请检查网络连接后重试。\n若使用本地文件，建议通过本地服务器（如 npx serve 或 python -m http.server）访问。');
+    return;
+  }
+  if (typeof PptxGenJS === 'undefined') {
+    alert('PptxGenJS 库加载失败，请检查网络连接。');
+    return;
+  }
+
+  const pptx = new PptxGenJS();
+  pptx.layout = 'LAYOUT_16x9';
+  pptx.defineSlideMaster({
+    title: 'MASTER_SLIDE',
+    background: { color: 'FFFFFF' },
+    objects: []
+  });
+
+  const slides = document.querySelectorAll('.slides section');
+
+  slides.forEach((slide, idx) => {
+    const s = pptx.addSlide({ masterName: 'MASTER_SLIDE' });
+
+    // Title
+    const h2 = slide.querySelector('h2');
+    const h1 = slide.querySelector('h1');
+    const title = h2 ? h2.innerText : (h1 ? h1.innerText : '');
+    if (title) {
+      s.addText(title, {
+        x: 0.5, y: 0.4, w: '90%', h: 0.8,
+        fontSize: 24, bold: true, color: '111827', fontFace: 'Arial'
+      });
+    }
+
+    // Content
+    const content = [];
+    const elements = slide.querySelectorAll('p, li, td, h4');
+    elements.forEach(el => {
+      if (!el.closest('h2') && !el.closest('h1')) {
+        content.push(el.innerText);
+      }
+    });
+
+    if (content.length > 0) {
+      const text = content.slice(0, 12).join('\n');
+      s.addText(text, {
+        x: 0.5, y: title ? 1.2 : 0.5, w: '90%', h: 5.5,
+        fontSize: 14, color: '374151', fontFace: 'Arial',
+        valign: 'top', bullet: true
+      });
+    }
+
+    // Page number
+    s.addText((idx + 1).toString(), {
+      x: '90%', y: '95%', w: 0.5, h: 0.3,
+      fontSize: 10, color: '9CA3AF', align: 'right'
+    });
+  });
+
+  pptx.writeFile({ fileName: 'AI_Model_Benchmark_方案.pptx' });
+}
+</script>
+</body>
+</html>

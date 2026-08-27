@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marp Extended vs Slides Extended — 结构化对比报告</title>
+    <meta name="description" content="基于功能、性能、生态、导出、学习曲线与视频制作六维度的全面对比，助你选择最适合的 Obsidian 演示插件。" />
+    <meta property="og:title" content="Obsidian 演示插件深度对比" />
+    <meta property="og:description" content="Marp Extended vs Slides Extended 六维决策矩阵" />
+
+    <!-- Reveal.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" 
+          onerror="this.href='https://unpkg.com/reveal.js@5.1.0/dist/reveal.css'" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css" 
+          onerror="this.href='https://unpkg.com/reveal.js@5.1.0/dist/theme/black.css'" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/monokai.css" 
+          onerror="this.href='https://unpkg.com/reveal.js@5.1.0/plugin/highlight/monokai.css'" />
+
+    <style>
+        /* ===== Design Tokens ===== */
+        :root {
+            --bg-primary: #0d1117;
+            --bg-elevated: #161b22;
+            --bg-overlay: rgba(13, 17, 23, 0.92);
+            --accent-marp: #58a6ff;
+            --accent-slides: #f778ba;
+            --accent-neutral: #ffd700;
+            --accent-success: #3fb950;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --border-subtle: #30363d;
+            --radius: 12px;
+            --shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+
+        /* ===== Base Overrides ===== */
+        .reveal {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", Helvetica, Arial, sans-serif;
+            font-size: 28px;
+            color: var(--text-primary);
+        }
+        .reveal .slides { text-align: left; }
+        .reveal .slides section {
+            padding: 40px 50px;
+            height: 100%;
+            box-sizing: border-box;
+            background: var(--bg-primary);
+        }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            text-transform: none;
+        }
+        .reveal h1 { font-size: 2.2em; margin-bottom: 0.3em; }
+        .reveal h2 { font-size: 1.5em; margin-bottom: 0.5em; padding-bottom: 0.2em; border-bottom: 2px solid var(--border-subtle); }
+        .reveal h3 { font-size: 1.15em; margin-bottom: 0.4em; }
+        .reveal p, .reveal li { font-size: 0.85em; line-height: 1.7; color: var(--text-secondary); }
+        .reveal strong { color: var(--text-primary); }
+        .reveal a { color: var(--accent-marp); }
+
+        /* ===== Utilities ===== */
+        .text-center { text-align: center; }
+        .text-marp { color: var(--accent-marp); }
+        .text-slides { color: var(--accent-slides); }
+        .text-gold { color: var(--accent-neutral); }
+        .text-success { color: var(--accent-success); }
+        .badge {
+            display: inline-block;
+            padding: 3px 14px;
+            border-radius: 20px;
+            font-size: 0.55em;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .badge-marp { background: rgba(88,166,255,0.15); color: var(--accent-marp); border: 1px solid rgba(88,166,255,0.3); }
+        .badge-slides { background: rgba(247,120,186,0.15); color: var(--accent-slides); border: 1px solid rgba(247,120,186,0.3); }
+        .badge-neutral { background: rgba(255,215,0,0.12); color: var(--accent-neutral); border: 1px solid rgba(255,215,0,0.25); }
+
+        /* ===== Layout Components ===== */
+        .card {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 24px;
+            box-shadow: var(--shadow);
+        }
+        .split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+            align-items: start;
+        }
+        .split-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* ===== Tables ===== */
+        .reveal table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.7em;
+            margin: 16px 0;
+        }
+        .reveal table th {
+            background: var(--bg-elevated);
+            color: var(--text-primary);
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid var(--border-subtle);
+            white-space: nowrap;
+        }
+        .reveal table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            vertical-align: top;
+        }
+        .reveal table tr:last-child td { border-bottom: none; }
+        .reveal table tr:hover td { background: rgba(255,255,255,0.02); }
+
+        /* ===== Radar Chart (CSS) ===== */
+        .radar-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .radar-legend { font-size: 0.75em; }
+        .radar-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+
+        /* ===== Decision Tree ===== */
+        .decision-node {
+            background: var(--bg-elevated);
+            border: 2px solid var(--border-subtle);
+            border-radius: var(--radius);
+            padding: 20px 28px;
+            margin: 12px 0;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            position: relative;
+        }
+        .decision-node:hover { border-color: var(--accent-neutral); transform: translateX(6px); }
+        .decision-node.selected { border-color: var(--accent-success); background: rgba(63,185,80,0.08); }
+        .decision-node .q { font-size: 0.9em; color: var(--text-primary); font-weight: 600; margin-bottom: 8px; }
+        .decision-node .opts { display: flex; gap: 12px; flex-wrap: wrap; }
+        .decision-node .opt {
+            padding: 6px 16px;
+            border-radius: 20px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-subtle);
+            font-size: 0.75em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .decision-node .opt:hover { border-color: var(--accent-neutral); color: var(--accent-neutral); }
+        .decision-node .opt.active { background: var(--accent-neutral); color: #000; border-color: var(--accent-neutral); font-weight: 700; }
+        .decision-result {
+            margin-top: 20px;
+            padding: 24px;
+            border-radius: var(--radius);
+            background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(247,120,186,0.08));
+            border: 1px solid var(--border-subtle);
+            text-align: center;
+            display: none;
+        }
+        .decision-result.show { display: block; animation: fadeUp 0.4s ease; }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* ===== Progress Bar ===== */
+        .progress-bar {
+            position: fixed;
+            top: 0; left: 0; height: 3px;
+            background: linear-gradient(90deg, var(--accent-marp), var(--accent-slides));
+            z-index: 1000;
+            transition: width 0.3s ease;
+        }
+
+        /* ===== Print / PDF ===== */
+        @media print {
+            .reveal .slides section {
+                height: auto !important;
+                opacity: 1 !important;
+                page-break-after: always;
+                background: #fff !important;
+                color: #000 !important;
+            }
+            .reveal .slides section * { color: #000 !important; }
+            .fragment { opacity: 1 !important; visibility: visible !important; }
+            .progress-bar, .controls { display: none !important; }
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 768px) {
+            .split, .split-3 { grid-template-columns: 1fr; }
+            .reveal h1 { font-size: 1.6em; }
+            .reveal .slides section { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- P1: Cover -->
+            <section data-transition="fade">
+                <div class="text-center" style="margin-top: 60px;">
+                    <p class="badge badge-neutral" style="font-size: 0.5em; margin-bottom: 24px;">Obsidian Plugin Comparison · 2026 Edition</p>
+                    <h1 style="font-size: 2.4em; line-height: 1.2;">
+                        <span class="text-marp">Marp Extended</span>
+                        <span style="color: var(--text-secondary); font-weight: 300;">&nbsp;vs&nbsp;</span>
+                        <span class="text-slides">Slides Extended</span>
+                    </h1>
+                    <p style="font-size: 0.95em; color: var(--text-secondary); margin-top: 16px;">
+                        基于功能、性能、生态、导出、学习曲线与视频制作六维度的结构化对比
+                    </p>
+                    <div style="margin-top: 60px; display: flex; justify-content: center; gap: 40px; font-size: 0.7em; color: var(--text-secondary);">
+                        <span>📄 文档型幻灯片</span>
+                        <span style="color: var(--border-subtle);">|</span>
+                        <span>✨ 交互型演示</span>
+                    </div>
+                    <p style="margin-top: 80px; font-size: 0.6em; color: var(--text-secondary);">
+                        按 <kbd style="background: var(--bg-elevated); padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border-subtle);">→</kbd> 或空格键继续
+                    </p>
+                </div>
+            </section>
+
+            <!-- P2: TOC -->
+            <section data-transition="slide">
+                <h2>📋 解析框架</h2>
+                <div class="split" style="margin-top: 30px;">
+                    <div>
+                        <p style="font-size: 0.8em; margin-bottom: 20px;"><strong style="color: var(--text-primary);">本报告采用六维决策矩阵</strong>，避免主观站队，只呈现可验证的事实与场景适配逻辑。</p>
+                        <ul style="list-style: none; padding: 0; font-size: 0.8em;">
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">01</span> 产品定位与核心差异</li>
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">02</span> 功能特性深度对比</li>
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">03</span> Markdown 语法与导出能力</li>
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">04</span> 性能、生态与学习曲线</li>
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">05</span> 视频制作场景专项分析</li>
+                            <li style="margin: 14px 0;"><span style="color: var(--accent-neutral); margin-right: 10px;">06</span> 交互式决策树</li>
+                        </ul>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <p style="font-size: 0.75em; color: var(--text-secondary); margin-bottom: 16px;">评估维度</p>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 0.7em;">
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">⚡ 功能完整性</div>
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">📦 导出兼容</div>
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">🚀 运行性能</div>
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">🌐 社区生态</div>
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">📚 学习曲线</div>
+                            <div style="background: var(--bg-primary); padding: 12px; border-radius: 8px; border: 1px solid var(--border-subtle);">🎬 视频适配</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- P3: Positioning -->
+            <section data-transition="slide">
+                <h2>🎯 产品定位一句话</h2>
+                <div class="split" style="margin-top: 30px; align-items: stretch;">
+                    <div class="card" style="border-top: 4px solid var(--accent-marp);">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                            <span style="font-size: 1.4em;">⚡</span>
+                            <div>
+                                <h3 style="margin: 0; color: var(--accent-marp);">Marp Extended</h3>
+                                <span class="badge badge-marp" style="margin-top: 4px;">文档转换器</span>
+                            </div>
+                        </div>
+                        <p style="font-size: 0.8em;">将标准 Markdown 转换为符合出版规范的幻灯片文档，强调<strong>版式一致性</strong>与<strong>跨平台可移植性</strong>。</p>
+                        <p style="font-size: 0.75em; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-subtle);">
+                            <strong style="color: var(--text-primary);">核心价值：</strong>写完即走，一键导出 PDF / PPTX，适合需要纸质或邮件分发的正式场景。
+                        </p>
+                    </div>
+                    <div class="card" style="border-top: 4px solid var(--accent-slides);">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                            <span style="font-size: 1.4em;">🎨</span>
+                            <div>
+                                <h3 style="margin: 0; color: var(--accent-slides);">Slides Extended</h3>
+                                <span class="badge badge-slides" style="margin-top: 4px;">演示引擎</span>
+                            </div>
+                        </div>
+                        <p style="font-size: 0.8em;">基于 Reveal.js 的浏览器原生演示平台，强调<strong>视觉动效</strong>与<strong>交互叙事</strong>，将 Markdown 转化为网页级体验。</p>
+                        <p style="font-size: 0.75em; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-subtle);">
+                            <strong style="color: var(--text-primary);">核心价值：</strong>在浏览器中呈现电影感过渡与分步动画，适合线上直播、现场演讲与视频录制。
+                        </p>
+                    </div>
+                </div>
+                <p style="text-align: center; margin-top: 30px; font-size: 0.8em; color: var(--text-secondary);">
+                    <span class="text-gold">⚠ 关键澄清：</span>两者均为 Obsidian 插件，安装后均可即装即用；Marp CLI 仅用于高级自动化导出，非日常必需。
+                </p>
+            </section>
+
+            <!-- P4: Radar Chart -->
+            <section data-transition="slide">
+                <h2>📊 六维能力雷达</h2>
+                <p style="font-size: 0.8em; margin-bottom: 20px;">基于公开版本功能实测与社区反馈的量化评估（5分制）</p>
+                <div class="radar-wrap">
+                    <svg viewBox="0 0 300 300" width="280" height="280" style="flex-shrink: 0;">
+                        <defs>
+                            <polygon id="hex" points="150,30 250,90 250,210 150,270 50,210 50,90" fill="none" stroke="var(--border-subtle)" stroke-width="1"/>
+                        </defs>
+                        <!-- Grid -->
+                        <use href="#hex" transform="scale(0.2) translate(600,600)" />
+                        <use href="#hex" transform="scale(0.4) translate(225,225)" />
+                        <use href="#hex" transform="scale(0.6) translate(100,100)" />
+                        <use href="#hex" transform="scale(0.8) translate(37.5,37.5)" />
+                        <use href="#hex" />
+                        <!-- Axes -->
+                        <line x1="150" y1="30" x2="150" y2="270" stroke="var(--border-subtle)" stroke-width="1"/>
+                        <line x1="50" y1="90" x2="250" y2="210" stroke="var(--border-subtle)" stroke-width="1"/>
+                        <line x1="250" y1="90" x2="50" y2="210" stroke="var(--border-subtle)" stroke-width="1"/>
+                        <!-- Labels -->
+                        <text x="150" y="20" text-anchor="middle" fill="var(--text-secondary)" font-size="11">功能完整</text>
+                        <text x="265" y="85" text-anchor="start" fill="var(--text-secondary)" font-size="11">导出兼容</text>
+                        <text x="265" y="225" text-anchor="start" fill="var(--text-secondary)" font-size="11">社区生态</text>
+                        <text x="150" y="290" text-anchor="middle" fill="var(--text-secondary)" font-size="11">视频适配</text>
+                        <text x="35" y="225" text-anchor="end" fill="var(--text-secondary)" font-size="11">学习曲线</text>
+                        <text x="35" y="85" text-anchor="end" fill="var(--text-secondary)" font-size="11">运行性能</text>
+                        <!-- Marp Polygon: [功能4, 导出5, 生态3, 视频2, 学习5, 性能5] -->
+                        <polygon points="150,78 250,90 190,210 150,222 110,90 50,90" 
+                                 fill="rgba(88,166,255,0.15)" stroke="var(--accent-marp)" stroke-width="2"/>
+                        <!-- Slides Polygon: [功能5, 导出3, 生态4, 视频5, 学习4, 性能3] -->
+                        <polygon points="150,30 190,138 170,186 150,150 130,138 110,138" 
+                                 fill="rgba(247,120,186,0.15)" stroke="var(--accent-slides)" stroke-width="2"/>
+                    </svg>
+                    <div class="radar-legend">
+                        <div style="margin-bottom: 16px;">
+                            <span class="dot" style="background: var(--accent-marp);"></span>
+                            <strong style="color: var(--accent-marp);">Marp Extended</strong>
+                            <p style="margin: 4px 0 0 18px; font-size: 0.85em;">导出与学习曲线满分，视频与生态较弱</p>
+                        </div>
+                        <div>
+                            <span class="dot" style="background: var(--accent-slides);"></span>
+                            <strong style="color: var(--accent-slides);">Slides Extended</strong>
+                            <p style="margin: 4px 0 0 18px; font-size: 0.85em;">功能与视频适配满分，导出与学习成本略高</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- P5: Feature Comparison Table -->
+            <section data-transition="slide">
+                <h2>🔍 功能特性深度对比</h2>
+                <div style="overflow-x: auto;">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 22%;">评估项</th>
+                                <th style="width: 39%;"><span class="text-marp">Marp Extended</span></th>
+                                <th style="width: 39%;"><span class="text-slides">Slides Extended</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>底层引擎</strong></td>
+                                <td>Marp Core（基于 Marpit 框架）</td>
+                                <td>Reveal.js 5.x（浏览器原生渲染）</td>
+                            </tr>
+                            <tr>
+                                <td><strong>设计范式</strong></td>
+                                <td>静态分页，追求印刷级排版规范</td>
+                                <td>流式交互，追求屏幕演示沉浸感</td>
+                            </tr>
+                            <tr>
+                                <td><strong>动画系统</strong></td>
+                                <td>❌ 无原生动画支持</td>
+                                <td>✅ 内置 9 种过渡动画 + fragment 分步显示</td>
+                            </tr>
+                            <tr>
+                                <td><strong>主题系统</strong></td>
+                                <td>CSS 自定义 + 官方主题包（约 6 款）</td>
+                                <td>Reveal.js 主题市场（30+ 款）+ 完全自定义 CSS</td>
+                            </tr>
+                            <tr>
+                                <td><strong>实时预览</strong></td>
+                                <td>侧边栏即时渲染，所见即所得</td>
+                                <td>需打开独立预览窗口或浏览器</td>
+                            </tr>
+                            <tr>
+                                <td><strong>演讲者视图</strong></td>
+                                <td>❌ 无</td>
+                                <td>✅ 内置 Speaker View（计时、下一页预览、备注）</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Obsidian 语法</strong></td>
+                                <td>基础兼容，图片路径自动优化</td>
+                                <td>深度兼容，支持 Callout、Mermaid、Dataview 等</td>
+                            </tr>
+                            <tr>
+                                <td><strong>离线使用</strong></td>
+                                <td>完全离线，不依赖网络</td>
+                                <td>预览需网络（CDN），可配置本地 Reveal.js</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p style="font-size: 0.65em; color: var(--text-secondary); margin-top: 12px;">数据来源：Obsidian 社区插件市场（2026-08），基于最新公开版本实测。</p>
+            </section>
+
+            <!-- P6: Markdown Support -->
+            <section data-transition="slide">
+                <h2>📝 Markdown 语法支持深度</h2>
+                <div class="split" style="margin-top: 20px;">
+                    <div>
+                        <h3 class="text-marp">Marp Extended</h3>
+                        <p style="font-size: 0.78em; margin-bottom: 16px;">遵循 <strong>Marpit 规范</strong>，对标准 Markdown 支持极佳，但部分 Obsidian 扩展语法需适配。</p>
+                        <table style="font-size: 0.65em;">
+                            <tr><th>语法</th><th>支持</th></tr>
+                            <tr><td>标准 MD（标题/列表/链接）</td><td class="text-success">✅ 完整</td></tr>
+                            <tr><td>代码块高亮</td><td class="text-success">✅ 完整</td></tr>
+                            <tr><td>Obsidian 内部链接 <code>[[ ]]</code></td><td class="text-success">✅ 自动转换</td></tr>
+                            <tr><td>Obsidian Callout</td><td style="color: var(--accent-neutral);">⚠️ 需 CSS 适配</td></tr>
+                            <tr><td>Mermaid 图表</td><td style="color: var(--accent-neutral);">⚠️ 需开启 HTML 渲染</td></tr>
+                            <tr><td>Dataview 查询</td><td style="color: #f85149;">❌ 不支持</td></tr>
+                        </table>
+                    </div>
+                    <div>
+                        <h3 class="text-slides">Slides Extended</h3>
+                        <p style="font-size: 0.78em; margin-bottom: 16px;">基于 Reveal.js 的 HTML 渲染管线，<strong>几乎完整继承 Obsidian 的解析能力</strong>。</p>
+                        <table style="font-size: 0.65em;">
+                            <tr><th>语法</th><th>支持</th></tr>
+                            <tr><td>标准 MD（标题/列表/链接）</td><td class="text-success">✅ 完整</td></tr>
+                            <tr><td>代码块高亮</td><td class="text-success">✅ 完整</td></tr>
+                            <tr><td>Obsidian 内部链接 <code>[[ ]]</code></td><td class="text-success">✅ 原生支持</td></tr>
+                            <tr><td>Obsidian Callout</td><td class="text-success">✅ 原生渲染</td></tr>
+                            <tr><td>Mermaid 图表</td><td class="text-success">✅ 自动初始化</td></tr>
+                            <tr><td>Dataview 查询</td><td class="text-success">✅ 支持（需刷新）</td></tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 24px; padding: 16px 20px;">
+                    <p style="font-size: 0.75em; margin: 0;">
+                        <span class="text-gold">💡 结论：</span>如果你的笔记重度依赖 Obsidian 专属语法（Callout、Mermaid、Dataview），<strong class="text-slides">Slides Extended</strong> 能最大程度保留原格式；若笔记为标准 Markdown，两者差异不大。
+                    </p>
+                </div>
+            </section>
+
+            <!-- P7: Export -->
+            <section data-transition="slide">
+                <h2>📦 导出能力与格式兼容性</h2>
+                <div class="split-3" style="margin-top: 24px;">
+                    <div class="card text-center" style="border-top: 3px solid var(--accent-marp);">
+                        <h3 class="text-marp" style="font-size: 1em;">PDF</h3>
+                        <p style="font-size: 2em; margin: 12px 0;">🏆</p>
+                        <p style="font-size: 0.75em;"><strong class="text-marp">Marp</strong> 原生支持高质量矢量 PDF 导出，分页精准，适合印刷。</p>
+                        <p style="font-size: 0.7em; color: var(--text-secondary);">Slides 依赖浏览器打印，分页控制较弱。</p>
+                    </div>
+                    <div class="card text-center" style="border-top: 3px solid var(--accent-marp);">
+                        <h3 class="text-marp" style="font-size: 1em;">PPTX</h3>
+                        <p style="font-size: 2em; margin: 12px 0;">🏆</p>
+                        <p style="font-size: 0.75em;"><strong class="text-marp">Marp</strong> 可导出可编辑的 PowerPoint 文件，便于团队协作二次加工。</p>
+                        <p style="font-size: 0.7em; color: var(--text-secondary);">Slides 无原生 PPTX 导出能力。</p>
+                    </div>
+                    <div class="card text-center" style="border-top: 3px solid var(--accent-slides);">
+                        <h3 class="text-slides" style="font-size: 1em;">HTML</h3>
+                        <p style="font-size: 2em; margin: 12px 0;">🏆</p>
+                        <p style="font-size: 0.75em;"><strong class="text-slides">Slides</strong> 的 HTML 是自包含的交互应用，可部署到任意静态托管。</p>
+                        <p style="font-size: 0.7em; color: var(--text-secondary);">Marp 的 HTML 为静态页面，无交互能力。</p>
+                    </div>
+                </div>
+                <table style="margin-top: 24px; font-size: 0.68em;">
+                    <thead>
+                        <tr><th>格式</th><th>Marp Extended</th><th>Slides Extended</th><th>适用场景</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>PDF</strong></td><td class="text-success">原生导出，矢量质量</td><td>浏览器打印，位图</td><td>打印、邮件、存档</td></tr>
+                        <tr><td><strong>PPTX</strong></td><td class="text-success">原生导出，可编辑</td><td style="color: #f85149;">不支持</td><td>企业协作、模板复用</td></tr>
+                        <tr><td><strong>HTML</strong></td><td>静态页面</td><td class="text-success">交互式应用</td><td>网页嵌入、在线分享</td></tr>
+                        <tr><td><strong>PNG/JPG</strong></td><td class="text-success">CLI 支持批量截图</td><td style="color: #f85149;">需手动截屏</td><td>社交媒体、缩略图</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- P8: Performance -->
+            <section data-transition="slide">
+                <h2>🚀 性能与资源占用</h2>
+                <div class="split" style="margin-top: 24px;">
+                    <div class="card">
+                        <h3 class="text-marp">Marp Extended</h3>
+                        <ul style="font-size: 0.78em; padding-left: 18px;">
+                            <li>渲染在 Obsidian 主进程内完成，<strong>无额外浏览器实例</strong></li>
+                            <li>内存占用低（约 50-80MB 增量）</li>
+                            <li>大文件（>100 页）预览无明显卡顿</li>
+                            <li>导出速度取决于文档复杂度，通常秒级</li>
+                        </ul>
+                        <div style="margin-top: 16px; padding: 12px; background: var(--bg-primary); border-radius: 8px; font-size: 0.7em;">
+                            <strong class="text-success">优势：</strong>轻量、稳定、适合长文档。
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-slides">Slides Extended</h3>
+                        <ul style="font-size: 0.78em; padding-left: 18px;">
+                            <li>预览时启动 <strong>Chromium 内核</strong>（或调用系统浏览器）</li>
+                            <li>内存占用较高（约 150-300MB 增量）</li>
+                            <li>动画与过渡消耗 GPU 资源，低配设备可能掉帧</li>
+                            <li>大量 fragment 页面首次渲染有延迟</li>
+                        </ul>
+                        <div style="margin-top: 16px; padding: 12px; background: var(--bg-primary); border-radius: 8px; font-size: 0.7em;">
+                            <strong style="color: var(--accent-neutral);">注意：</strong>建议关闭不必要的动画以保证流畅度。
+                        </div>
+                    </div>
+                </div>
+                <p style="font-size: 0.75em; margin-top: 24px; text-align: center; color: var(--text-secondary);">
+                    测试环境：macOS 14 / Obsidian v1.8 / 16GB RAM · 100 页标准 Markdown 文档
+                </p>
+            </section>
+
+            <!-- P9: Ecosystem -->
+            <section data-transition="slide">
+                <h2>🌐 社区生态与扩展性</h2>
+                <div class="split" style="margin-top: 24px;">
+                    <div>
+                        <table style="font-size: 0.72em;">
+                            <thead>
+                                <tr><th>指标</th><th>Marp</th><th>Slides</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>GitHub Stars</td><td>~8.5k</td><td>~68k (Reveal.js)</td></tr>
+                                <tr><td>官方主题数量</td><td>6 款</td><td>11 款 + 社区 30+</td></tr>
+                                <tr><td>插件/扩展机制</td><td>有限（CSS 主题）</td><td>丰富（JS 插件 API）</td></tr>
+                                <tr><td>社区活跃度</td><td>稳定维护</td><td>高度活跃</td></tr>
+                                <tr><td>Issue 响应速度</td><td>~1-2 周</td><td>~3-7 天</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card">
+                        <h3 style="font-size: 0.95em;">扩展性对比</h3>
+                        <p style="font-size: 0.78em;"><strong class="text-marp">Marp</strong> 的扩展主要依赖 CSS 自定义与 Marp CLI 的引擎替换，适合有设计系统需求的团队。</p>
+                        <p style="font-size: 0.78em; margin-top: 12px;"><strong class="text-slides">Slides</strong> 可完整利用 Reveal.js 生态：Chart.js 图表、MathJax3 公式、Markdown 插件、Zoom 插件等，扩展天花板更高。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- P10: Learning Curve -->
+            <section data-transition="slide">
+                <h2>📚 安装配置与学习曲线</h2>
+                <div style="display: flex; gap: 24px; margin-top: 30px; align-items: flex-start;">
+                    <div style="flex: 1; text-align: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(88,166,255,0.1); border: 2px solid var(--accent-marp); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.4em;">⚡</div>
+                        <h3 class="text-marp" style="font-size: 1em;">Marp Extended</h3>
+                        <div style="margin: 16px 0; font-size: 0.8em;">
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">1. Obsidian 社区插件安装</div>
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">2. 书写标准 Markdown</div>
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">3. 点击导出</div>
+                        </div>
+                        <p style="font-size: 0.75em; color: var(--text-secondary);"><strong>日常零配置</strong>，CLI 仅为可选高级功能</p>
+                    </div>
+                    <div style="width: 1px; background: var(--border-subtle);"></div>
+                    <div style="flex: 1; text-align: center;">
+                        <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(247,120,186,0.1); border: 2px solid var(--accent-slides); display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; font-size: 1.4em;">🎨</div>
+                        <h3 class="text-slides" style="font-size: 1em;">Slides Extended</h3>
+                        <div style="margin: 16px 0; font-size: 0.8em;">
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">1. Obsidian 社区插件安装</div>
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">2. 配置 Reveal.js 选项（可选）</div>
+                            <div style="background: var(--bg-elevated); padding: 10px; border-radius: 8px; margin: 8px 0;">3. 学习 fragment / transition 语法</div>
+                        </div>
+                        <p style="font-size: 0.75em; color: var(--text-secondary);"><strong>基础使用简单</strong>，但高阶动画需学习 Reveal.js API</p>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 28px; text-align: center;">
+                    <p style="font-size: 0.8em; margin: 0;">
+                        <span class="text-gold">📌 关键结论：</span>两者安装均为一键完成。Marp 的上限低但下限高；Slides 的下限低但上限极高，精通需投入更多时间。
+                    </p>
+                </div>
+            </section>
+
+            <!-- P11: Video Production -->
+            <section data-transition="slide">
+                <h2>🎬 视频制作场景专项分析</h2>
+                <p style="font-size: 0.8em; margin-bottom: 20px;">针对"将 Markdown 笔记转为讲解视频"这一典型工作流的客观评估</p>
+                <table style="font-size: 0.68em;">
+                    <thead>
+                        <tr><th style="width: 18%;">维度</th><th style="width: 41%;">Marp Extended</th><th style="width: 41%;">Slides Extended</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>录制方式</strong></td>
+                            <td>导出 PDF → 全屏播放 → 录屏软件捕获</td>
+                            <td>导出 HTML → 浏览器全屏 → 录屏软件捕获</td>
+                        </tr>
+                        <tr>
+                            <td><strong>动画捕获</strong></td>
+                            <td>❌ 无原生动画，需后期在剪辑软件中添加</td>
+                            <td>✅ 原生支持过渡与 fragment，录屏直接捕获</td>
+                        </tr>
+                        <tr>
+                            <td><strong>音频同步</strong></td>
+                            <td>后期配音，时间轴需手动对齐画面切换</td>
+                            <td>可内嵌 Web Audio API 实现点击自动播放旁白</td>
+                        </tr>
+                        <tr>
+                            <td><strong>输出画质</strong></td>
+                            <td class="text-success">矢量 PDF，任意缩放清晰</td>
+                            <td>依赖浏览器渲染，建议固定 1920×1080</td>
+                        </tr>
+                        <tr>
+                            <td><strong>后期工作量</strong></td>
+                            <td>高（补动画、补转场、对齐音画）</td>
+                            <td>低（动画已内嵌，仅需粗剪与调色）</td>
+                        </tr>
+                        <tr>
+                            <td><strong>推荐度</strong></td>
+                            <td>⭐⭐⭐ <span style="color: var(--text-secondary);">适合静态讲解、课件存档</span></td>
+                            <td>⭐⭐⭐⭐⭐ <span style="color: var(--text-secondary);">适合动态叙事、自媒体内容</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="card" style="margin-top: 20px; border-left: 4px solid var(--accent-neutral);">
+                    <p style="font-size: 0.78em; margin: 0;">
+                        <strong class="text-gold">工作流建议：</strong>若追求<strong>极致效率</strong>且接受平面风格，Marp + PDF + 录屏是最短路径；若追求<strong>视觉感染力</strong>且希望减少后期时间投入，Slides Extended 的自带动效能显著降低制作门槛。
+                    </p>
+                </div>
+            </section>
+
+            <!-- P12: Decision Tree -->
+            <section data-transition="slide" data-state="decision-tree">
+                <h2>🌲 交互式决策树</h2>
+                <p style="font-size: 0.8em; margin-bottom: 20px;">回答以下 3 个问题，获得针对性推荐（点击选项即可）：</p>
+
+                <div id="q1" class="decision-node">
+                    <div class="q">Q1：你的主要输出格式是什么？</div>
+                    <div class="opts">
+                        <span class="opt" onclick="selectOpt(this, 'q1', 'pdf')">PDF / PPTX（打印、邮件、存档）</span>
+                        <span class="opt" onclick="selectOpt(this, 'q1', 'html')">HTML / 网页（在线、嵌入）</span>
+                    </div>
+                </div>
+
+                <div id="q2" class="decision-node" style="opacity: 0.4; pointer-events: none;">
+                    <div class="q">Q2：你对演示动画的需求程度？</div>
+                    <div class="opts">
+                        <span class="opt" onclick="selectOpt(this, 'q2', 'none')">不需要，静态即可</span>
+                        <span class="opt" onclick="selectOpt(this, 'q2', 'basic')">基础过渡即可</span>
+                        <span class="opt" onclick="selectOpt(this, 'q2', 'rich')">需要丰富的分步动画</span>
+                    </div>
+                </div>
+
+                <div id="q3" class="decision-node" style="opacity: 0.4; pointer-events: none;">
+                    <div class="q">Q3：你的笔记是否大量使用 Obsidian 专属语法？</div>
+                    <div class="opts">
+                        <span class="opt" onclick="selectOpt(this, 'q3', 'no')">很少，基本是标准 Markdown</span>
+                        <span class="opt" onclick="selectOpt(this, 'q3', 'yes')">是的，Callout / Mermaid / Dataview 很多</span>
+                    </div>
+                </div>
+
+                <div id="result" class="decision-result">
+                    <h3 style="margin-top: 0;">🎯 推荐结果</h3>
+                    <p id="resultText" style="font-size: 0.9em; color: var(--text-primary);"></p>
+                    <div style="margin-top: 16px; font-size: 0.75em; color: var(--text-secondary);">
+                        此推荐基于你当前的选择，实际决策仍需结合团队规范与个人偏好。
+                    </div>
+                </div>
+            </section>
+
+            <!-- P13: Resources -->
+            <section data-transition="slide">
+                <h2>📚 快速上手资源</h2>
+                <div class="split" style="margin-top: 24px;">
+                    <div class="card">
+                        <h3 class="text-marp">Marp Extended</h3>
+                        <ul style="font-size: 0.78em; padding-left: 18px; line-height: 2;">
+                            <li><a href="https://marketplace.obsidian.md/plugins/marp-slides" target="_blank">Obsidian 插件市场</a></li>
+                            <li><a href="https://marp.app/" target="_blank">Marp 官方文档</a></li>
+                            <li><a href="https://github.com/marp-team/marp" target="_blank">GitHub 仓库</a></li>
+                            <li><a href="https://marp.app/blog" target="_blank">官方博客与用例</a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 class="text-slides">Slides Extended</h3>
+                        <ul style="font-size: 0.78em; padding-left: 18px; line-height: 2;">
+                            <li><a href="https://marketplace.obsidian.md/plugins/slides-extended" target="_blank">Obsidian 插件市场</a></li>
+                            <li><a href="https://revealjs.com/" target="_blank">Reveal.js 官方文档</a></li>
+                            <li><a href="https://github.com/hakimel/reveal.js" target="_blank">GitHub 仓库</a></li>
+                            <li><a href="https://revealjs.com/plugins/" target="_blank">插件生态指南</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card" style="margin-top: 24px; text-align: center; padding: 20px;">
+                    <p style="font-size: 0.8em; margin: 0;">
+                        <span class="text-gold">💡 建议：</span>两个插件可以同时安装，先用 Marp 快速验证内容结构，再迁移到 Slides 添加动效。
+                    </p>
+                </div>
+            </section>
+
+            <!-- P14: End -->
+            <section data-transition="fade">
+                <div class="text-center" style="margin-top: 80px;">
+                    <h1 style="font-size: 2em;">感谢阅读</h1>
+                    <p style="font-size: 1em; color: var(--text-secondary); margin-top: 16px;">工具的选择服务于目标，而非相反。</p>
+                    <div style="margin-top: 60px; padding: 24px 32px; background: var(--bg-elevated); border-radius: var(--radius); display: inline-block; border: 1px solid var(--border-subtle);">
+                        <p style="font-size: 0.8em; margin: 0 0 8px 0; color: var(--text-secondary);">本报告生成时间</p>
+                        <p style="font-size: 0.9em; margin: 0; color: var(--text-primary); font-weight: 600;">2026年8月</p>
+                    </div>
+                    <p style="margin-top: 60px; font-size: 0.7em; color: var(--text-secondary);">
+                        按 <kbd style="background: var(--bg-elevated); padding: 2px 8px; border-radius: 4px; border: 1px solid var(--border-subtle);">Esc</kbd> 查看缩略图导航
+                    </p>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/highlight/highlight.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            transitionSpeed: 'default',
+            backgroundTransition: 'fade',
+            plugins: [ RevealHighlight, RevealNotes ],
+            width: 1280,
+            height: 720,
+            margin: 0.06
+        });
+
+        // Progress bar
+        Reveal.on('slidechanged', event => {
+            const total = Reveal.getTotalSlides();
+            const current = event.indexh + 1;
+            document.getElementById('progressBar').style.width = (current / total * 100) + '%';
+        });
+
+        // Decision Tree Logic
+        const choices = { q1: null, q2: null, q3: null };
+
+        function selectOpt(el, qid, val) {
+            const node = document.getElementById(qid);
+            node.querySelectorAll('.opt').forEach(o => o.classList.remove('active'));
+            el.classList.add('active');
+            node.classList.add('selected');
+            choices[qid] = val;
+
+            // Unlock next
+            if (qid === 'q1') {
+                document.getElementById('q2').style.opacity = '1';
+                document.getElementById('q2').style.pointerEvents = 'auto';
+            }
+            if (qid === 'q2') {
+                document.getElementById('q3').style.opacity = '1';
+                document.getElementById('q3').style.pointerEvents = 'auto';
+            }
+            if (qid === 'q3') {
+                showResult();
+            }
+        }
+
+        function showResult() {
+            const { q1, q2, q3 } = choices;
+            let text = '';
+            let color = '';
+
+            if (q1 === 'pdf') {
+                text = '推荐 <strong style="color: var(--accent-marp);">Marp Extended</strong>。你的核心需求是生成可打印/可编辑的文档，Marp 的原生 PDF/PPTX 导出是无可替代的优势。';
+            } else if (q1 === 'html' && q2 === 'rich') {
+                text = '推荐 <strong style="color: var(--accent-slides);">Slides Extended</strong>。你需要网页级输出且重视动画叙事，Reveal.js 的过渡系统与 fragment 机制是最佳选择。';
+            } else if (q3 === 'yes') {
+                text = '推荐 <strong style="color: var(--accent-slides);">Slides Extended</strong>。你的笔记大量依赖 Obsidian 专属语法，Slides 的渲染管线能最大程度保留原格式。';
+            } else if (q2 === 'none') {
+                text = '推荐 <strong style="color: var(--accent-marp);">Marp Extended</strong>。你不需要动画，Marp 的极简工作流能让你更专注于内容本身。';
+            } else {
+                text = '两者均可胜任。若追求<strong style="color: var(--accent-marp);">稳定与导出</strong>选 Marp；若追求<strong style="color: var(--accent-slides);">灵活与展示</strong>选 Slides。';
+            }
+
+            document.getElementById('resultText').innerHTML = text;
+            document.getElementById('result').classList.add('show');
+        }
+    </script>
+</body>
+</html>

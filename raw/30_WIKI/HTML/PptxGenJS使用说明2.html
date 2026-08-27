@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>掌握 PptxGenJS - 交互式学习幻灯片</title>
+    <!-- Reveal.js 核心样式 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.css" />
+    <!-- 主题 (深色简约) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/theme/black.min.css" />
+    <!-- 代码高亮 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/monokai.min.css" />
+    <style>
+        .download-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+            transition: background 0.2s, transform 0.1s;
+        }
+        .download-btn:hover {
+            background: #45a049;
+        }
+        .download-btn:active {
+            transform: scale(0.95);
+        }
+        .download-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .footer-note {
+            position: fixed;
+            bottom: 10px;
+            left: 20px;
+            color: #888;
+            font-size: 12px;
+            z-index: 1000;
+        }
+        .reveal .slides section {
+            padding: 1rem;
+        }
+        .reveal pre code {
+            font-size: 0.75em;
+            max-height: 400px;
+        }
+        .reveal table {
+            font-size: 0.7em;
+        }
+        .reveal a {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <button class="download-btn" id="downloadBtn">⬇ 下载 PPTX</button>
+    <div class="footer-note">基于 PptxGenJS 生成 | 学习演示</div>
+
+    <div class="reveal">
+        <div class="slides">
+            <!-- 幻灯片 1：标题与概述 -->
+            <section data-background-color="#1a1a2e">
+                <h1 style="color: #e94560;">掌握 PptxGenJS</h1>
+                <p style="font-size: 1.8rem; color: #eee;">从零到一生成 PowerPoint</p>
+                <br />
+                <p style="font-size: 1.2rem; color: #aaa;">一个纯 JavaScript 库 · 跨平台 · 功能全面</p>
+                <p style="font-size: 0.9rem; color: #888;">浏览器 · Node.js · 任何前端框架</p>
+            </section>
+
+            <!-- 幻灯片 2：环境搭建与第一个程序 -->
+            <section>
+                <h2>⚡ 环境搭建与 Hello World</h2>
+                <pre><code class="javascript" data-trim data-line-numbers>
+                    const pptxgen = require('pptxgenjs');
+                    let pres = new pptxgen();
+                    pres.layout = 'LAYOUT_16x9';
+                    let slide = pres.addSlide();
+                    slide.addText('Hello World!', {
+                        x: 1, y: 1, fontSize: 36, color: '363636'
+                    });
+                    pres.writeFile({ fileName: 'MyFirst.pptx' });
+                </code></pre>
+                <p style="font-size: 0.8rem; color: #aaa;">坐标单位：英寸 · 原点在左上角</p>
+            </section>
+
+            <!-- 幻灯片 3：核心概念 -->
+            <section>
+                <h2>🧩 核心概念</h2>
+                <ul>
+                    <li><strong>演示文稿 (Pres)</strong>：整体容器</li>
+                    <li><strong>幻灯片 (Slide)</strong>：通过 <code>pres.addSlide()</code> 创建</li>
+                    <li><strong>元素 (Elements)</strong>：文本、形状、图片、表格、图表...</li>
+                    <li><strong>布局 (Layout)</strong>：<code>LAYOUT_16x9</code>、<code>LAYOUT_4x3</code></li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 4：开发环境与资源 -->
+            <section>
+                <h2>📚 开发环境与资源</h2>
+                <ul>
+                    <li><strong>安装</strong>：<code>npm install pptxgenjs</code> 或 CDN</li>
+                    <li><strong>官方文档</strong>：<a href="https://gitbrent.github.io/PptxGenJS/" target="_blank">gitbrent.github.io/PptxGenJS</a></li>
+                    <li><strong>在线示例</strong>：<a href="https://gitbrent.github.io/PptxGenJS/demos/" target="_blank">基础示例</a> · <a href="https://gitbrent.github.io/PptxGenJS/demo/browser/index.html" target="_blank">完整展示</a></li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 5：文本与格式 -->
+            <section>
+                <h2>✍️ 文本与格式</h2>
+                <ul>
+                    <li><code>addText('内容', { x, y, w, h, fontSize, color, bold, align })</code></li>
+                    <li>富文本：使用数组混合样式</li>
+                    <li>项目符号：<code>bullet: true</code> 或 <code>bullet: { type: 'number' }</code></li>
+                    <li>换行：<code>breakLine: true</code>，边距：<code>margin: 0</code></li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 6：形状与样式 -->
+            <section>
+                <h2>🔷 形状与样式</h2>
+                <ul>
+                    <li><code>addShape('rect', { x, y, w, h, fill, line })</code></li>
+                    <li>可用形状：<code>rect</code>, <code>oval</code>, <code>line</code>, <code>roundRect</code></li>
+                    <li>幻灯片背景：<code>pres.background = { fill: 'FF0000' }</code></li>
+                </ul>
+                <div style="display: flex; gap: 20px; margin-top: 20px; justify-content: center;">
+                    <div style="width: 80px; height: 80px; background: #e94560; border-radius: 10px;"></div>
+                    <div style="width: 80px; height: 80px; background: #0f3460; border-radius: 50%;"></div>
+                    <div style="width: 80px; height: 80px; background: #16213e; border: 3px solid #e94560;"></div>
+                </div>
+            </section>
+
+            <!-- 幻灯片 7：图片与图标 -->
+            <section>
+                <h2>🖼️ 图片与图标</h2>
+                <ul>
+                    <li><code>addImage({ path: 'path_or_url', x, y, w, h })</code></li>
+                    <li>裁剪模式：<code>sizing: { type: 'contain' }</code> 或 <code>'cover'</code></li>
+                    <li>图标管线：<code>react-icons</code> → <code>sharp</code> → base64 → 嵌入</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 8：表格 -->
+            <section>
+                <h2>📊 表格</h2>
+                <pre><code class="javascript" data-trim>
+                    slide.addTable([
+                        ['Header1', 'Header2'],
+                        ['Data1',   'Data2']
+                    ], {
+                        x: 1, y: 1, w: 8,
+                        colWidth: [4, 4],
+                        rowHeight: 0.8,
+                        border: { pt: 1, color: '888888' },
+                        fill: { color: 'F0F0F0' }
+                    });
+                </code></pre>
+            </section>
+
+            <!-- 幻灯片 9：图表 -->
+            <section>
+                <h2>📈 图表</h2>
+                <ul>
+                    <li>类型：<code>bar</code>, <code>line</code>, <code>pie</code>, <code>scatter</code></li>
+                    <li><code>addChart(pptxgen.ChartType.bar, data, options)</code></li>
+                    <li>建议：自定义颜色，隐藏图例，圆角</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 10：幻灯片母版 -->
+            <section>
+                <h2>🎨 幻灯片母版</h2>
+                <ul>
+                    <li>定义统一风格（Logo、背景、占位符）</li>
+                    <li><code>pres.defineSlideMaster()</code> → <code>addSlide()</code> 引用</li>
+                    <li>保证品牌一致性与效率</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 11：常见陷阱 -->
+            <section>
+                <h2>⚠️ 常见陷阱与规避</h2>
+                <ul>
+                    <li><strong>颜色</strong>：十六进制不要带 <code>#</code>，否则文件损坏</li>
+                    <li>透明度用 <code>opacity</code> 属性，而非颜色编码</li>
+                    <li><strong>选项对象</strong>：不要在多个 <code>add*</code> 调用间复用同一个对象</li>
+                    <li><strong>实例管理</strong>：每份演示文稿用新实例，避免状态污染</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 12：输出与集成 -->
+            <section>
+                <h2>📤 输出与集成</h2>
+                <ul>
+                    <li>导出方式：<code>writeFile</code>, <code>base64</code>, <code>Blob</code>, <code>Buffer</code>, 流</li>
+                    <li>与 AI 结合：AI 生成 JSON → PptxGenJS 渲染</li>
+                    <li>HTML 转 PPT：支持 HTML 表格一键转换</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 13：项目规划 -->
+            <section>
+                <h2>📝 实战项目：“我的学习笔记”</h2>
+                <ul>
+                    <li><strong>目标</strong>：创建一份 PptxGenJS 学习总结 PPT</li>
+                    <li><strong>结构</strong>：标题页 → 目录 → 核心 API → 总结</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 14：分步实现 -->
+            <section>
+                <h2>🔧 分步实现（代码构思）</h2>
+                <pre><code class="javascript" data-trim data-line-numbers>
+                    const pres = new pptxgen();
+                    pres.title = '我的学习笔记';
+                    pres.author = 'Your Name';
+                    const sections = ['标题页', '目录', '核心API', '总结'];
+                    sections.forEach(title => {
+                        const slide = pres.addSlide();
+                        slide.addText(title, { x: 1, y: 0.5, fontSize: 32 });
+                        // 添加内容...
+                    });
+                    pres.writeFile({ fileName: 'MyNotes.pptx' });
+                </code></pre>
+            </section>
+
+            <!-- 幻灯片 15：挑战与扩展 -->
+            <section>
+                <h2>🚀 挑战与扩展</h2>
+                <ul>
+                    <li><strong>挑战 1</strong>：添加自定义母版</li>
+                    <li><strong>挑战 2</strong>：用图表展示数据</li>
+                    <li><strong>挑战 3</strong>：封装成网页应用，交互生成</li>
+                </ul>
+            </section>
+
+            <!-- 幻灯片 16：总结与资源 -->
+            <section data-background-color="#1a1a2e">
+                <h2 style="color: #e94560;">🎯 总结与后续学习</h2>
+                <ul style="color: #eee;">
+                    <li><strong>核心工作流</strong>：创建实例 → 添加幻灯片 → 添加元素 → 导出</li>
+                    <li><strong>关键要点</strong>：坐标单位、布局、富文本、项目符号</li>
+                    <li><strong>后续方向</strong>：
+                        <ul>
+                            <li>高级特性（视频、动画）</li>
+                            <li>与 AI 深度集成</li>
+                            <li>查阅 <a href="https://gitbrent.github.io/PptxGenJS/" target="_blank" style="color: #4CAF50;">官方 API 文档</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <br />
+                <p style="color: #888;">—— 学习愉快！ ——</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/dist/reveal.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pptxgenjs@3.12.0/dist/pptxgen.bundle.js"></script>
+
+    <script>
+        Reveal.initialize({
+            plugins: [ RevealHighlight ],
+            slideNumber: true,
+            hash: true,
+            transition: 'slide',
+            backgroundTransition: 'fade'
+        });
+
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const btn = this;
+            btn.disabled = true;
+            btn.textContent = '⏳ 生成中...';
+            setTimeout(() => {
+                generatePPTX()
+                    .then(() => {
+                        btn.textContent = '✅ 下载成功';
+                        setTimeout(() => {
+                            btn.textContent = '⬇ 下载 PPTX';
+                            btn.disabled = false;
+                        }, 2000);
+                    })
+                    .catch(err => {
+                        console.error('生成失败:', err);
+                        alert('生成 PPTX 失败，请查看控制台错误。');
+                        btn.textContent = '⬇ 下载 PPTX';
+                        btn.disabled = false;
+                    });
+            }, 100);
+        });
+
+        function generatePPTX() {
+            return new Promise((resolve, reject) => {
+                try {
+                    const PptxGenJS = window.PptxGenJS;
+                    const pres = new PptxGenJS();
+                    pres.layout = 'LAYOUT_16x9';
+                    pres.title = 'PptxGenJS 学习笔记';
+                    pres.author = 'Your Name';
+                    pres.subject = 'PPT 生成教程';
+
+                    // 辅助函数：添加标题和列表
+                    function addTitleAndList(slide, title, listItems) {
+                        slide.addText(title, {
+                            x: 0.5, y: 0.4, w: 9, h: 1.2,
+                            fontSize: 32,
+                            color: '1a1a2e',
+                            bold: true,
+                            align: 'left'
+                        });
+                        let yPos = 1.8;
+                        listItems.forEach(item => {
+                            slide.addText(item, {
+                                x: 1.0, y: yPos, w: 8, h: 0.6,
+                                fontSize: 18,
+                                color: '333333',
+                                bullet: true,
+                                valign: 'middle'
+                            });
+                            yPos += 0.7;
+                        });
+                    }
+
+                    // ----- 幻灯片 1 -----
+                    let s1 = pres.addSlide();
+                    s1.background = { fill: '1a1a2e' };
+                    s1.addText('掌握 PptxGenJS', {
+                        x: 0.5, y: 1.0, w: 9, h: 1.5,
+                        fontSize: 44,
+                        color: 'e94560',
+                        bold: true,
+                        align: 'center'
+                    });
+                    s1.addText('从零到一生成 PowerPoint', {
+                        x: 0.5, y: 2.8, w: 9, h: 0.8,
+                        fontSize: 24,
+                        color: 'eeeeee',
+                        align: 'center'
+                    });
+                    s1.addText('纯 JavaScript · 跨平台 · 功能全面', {
+                        x: 0.5, y: 4.0, w: 9, h: 0.6,
+                        fontSize: 16,
+                        color: 'aaaaaa',
+                        align: 'center'
+                    });
+
+                    // ----- 幻灯片 2 -----
+                    let s2 = pres.addSlide();
+                    addTitleAndList(s2, '环境搭建与 Hello World', [
+                        '安装：npm install pptxgenjs --save',
+                        'const pres = new pptxgen();',
+                        'pres.layout = "LAYOUT_16x9";',
+                        'const slide = pres.addSlide();',
+                        'slide.addText("Hello World!", { x:1, y:1, fontSize:36 });',
+                        'pres.writeFile({ fileName: "MyFirst.pptx" });'
+                    ]);
+
+                    // ----- 幻灯片 3 -----
+                    let s3 = pres.addSlide();
+                    addTitleAndList(s3, '核心概念', [
+                        '演示文稿 (Pres) ：整体容器',
+                        '幻灯片 (Slide) ：pres.addSlide()',
+                        '元素 (Elements) ：文本、形状、图片、表格、图表',
+                        '布局 (Layout) ：LAYOUT_16x9 / LAYOUT_4x3'
+                    ]);
+
+                    // ----- 幻灯片 4 -----
+                    let s4 = pres.addSlide();
+                    addTitleAndList(s4, '开发环境与资源', [
+                        '安装：npm install pptxgenjs 或 CDN',
+                        '官方文档：gitbrent.github.io/PptxGenJS',
+                        '在线示例：基础 / 完整展示'
+                    ]);
+
+                    // ----- 幻灯片 5 -----
+                    let s5 = pres.addSlide();
+                    addTitleAndList(s5, '文本与格式', [
+                        'addText(内容, { x, y, w, h, fontSize, color, bold, align })',
+                        '富文本：使用数组混合样式',
+                        '项目符号：bullet: true 或 bullet: { type: "number" }',
+                        '换行：breakLine: true ，边距：margin: 0'
+                    ]);
+
+                    // ----- 幻灯片 6 (形状) -----
+                    let s6 = pres.addSlide();
+                    addTitleAndList(s6, '形状与样式', [
+                        'addShape("rect", { x, y, w, h, fill, line })',
+                        '可用形状：rect, oval, line, roundRect',
+                        '幻灯片背景：pres.background = { fill: "FF0000" }'
+                    ]);
+                    s6.addShape('rect', { x: 0.5, y: 4.2, w: 1.5, h: 0.8, fill: 'e94560', line: '000000' });
+                    s6.addShape('oval', { x: 2.3, y: 4.2, w: 1.5, h: 0.8, fill: '0f3460' });
+                    s6.addShape('roundRect', { x: 4.1, y: 4.2, w: 1.5, h: 0.8, fill: '16213e', line: 'e94560' });
+
+                    // ----- 幻灯片 7 -----
+                    let s7 = pres.addSlide();
+                    addTitleAndList(s7, '图片与图标', [
+                        'addImage({ path: "path_or_url", x, y, w, h })',
+                        '裁剪模式：sizing: { type: "contain" } 或 "cover"',
+                        '图标管线：react-icons → sharp → base64 → 嵌入'
+                    ]);
+
+                    // ----- 幻灯片 8 (表格) -----
+                    let s8 = pres.addSlide();
+                    s8.addText('表格', { x: 0.5, y: 0.4, w: 9, h: 1.0, fontSize: 32, bold: true, color: '1a1a2e' });
+                    s8.addTable([
+                        ['Header1', 'Header2'],
+                        ['Data1', 'Data2'],
+                        ['Data3', 'Data4']
+                    ], {
+                        x: 1.0, y: 1.8, w: 8,
+                        colWidth: [4, 4],
+                        rowHeight: 0.7,
+                        border: { pt: 1, color: '888888' },
+                        fill: { color: 'F0F0F0' },
+                        fontSize: 16,
+                        align: 'center'
+                    });
+
+                    // ----- 幻灯片 9 -----
+                    let s9 = pres.addSlide();
+                    addTitleAndList(s9, '图表', [
+                        '类型：bar, line, pie, scatter',
+                        'addChart(pptxgen.ChartType.bar, data, options)',
+                        '建议：自定义颜色 (chartColors)，隐藏图例，圆角'
+                    ]);
+
+                    // ----- 幻灯片 10 -----
+                    let s10 = pres.addSlide();
+                    addTitleAndList(s10, '幻灯片母版', [
+                        '定义统一风格（Logo、背景、占位符）',
+                        'pres.defineSlideMaster() → addSlide() 引用',
+                        '保证品牌一致性与效率'
+                    ]);
+
+                    // ----- 幻灯片 11 -----
+                    let s11 = pres.addSlide();
+                    addTitleAndList(s11, '常见陷阱与规避', [
+                        '颜色：十六进制不要带 # ，否则文件损坏',
+                        '透明度用 opacity 属性，而非颜色编码',
+                        '选项对象：不要在多个 add* 调用间复用',
+                        '实例管理：每份演示文稿用新实例'
+                    ]);
+
+                    // ----- 幻灯片 12 -----
+                    let s12 = pres.addSlide();
+                    addTitleAndList(s12, '输出与集成', [
+                        '导出方式：writeFile, base64, Blob, Buffer, 流',
+                        '与 AI 结合：AI 生成 JSON → PptxGenJS 渲染',
+                        'HTML 转 PPT：支持 HTML 表格一键转换'
+                    ]);
+
+                    // ----- 幻灯片 13 -----
+                    let s13 = pres.addSlide();
+                    addTitleAndList(s13, '实战项目：“我的学习笔记”', [
+                        '目标：创建一份 PptxGenJS 学习总结 PPT',
+                        '结构：标题页 → 目录 → 核心 API → 总结'
+                    ]);
+
+                    // ----- 幻灯片 14 -----
+                    let s14 = pres.addSlide();
+                    addTitleAndList(s14, '分步实现（代码构思）', [
+                        'const pres = new pptxgen(); pres.title = "我的学习笔记";',
+                        'const sections = ["标题页","目录","核心API","总结"];',
+                        'sections.forEach(title => { const slide = pres.addSlide(); ... });',
+                        'pres.writeFile({ fileName: "MyNotes.pptx" });'
+                    ]);
+
+                    // ----- 幻灯片 15 -----
+                    let s15 = pres.addSlide();
+                    addTitleAndList(s15, '挑战与扩展', [
+                        '挑战 1：添加自定义母版',
+                        '挑战 2：用图表展示数据',
+                        '挑战 3：封装成网页应用，交互生成'
+                    ]);
+
+                    // ----- 幻灯片 16 (总结) -----
+                    let s16 = pres.addSlide();
+                    s16.background = { fill: '1a1a2e' };
+                    s16.addText('总结与后续学习', {
+                        x: 0.5, y: 0.6, w: 9, h: 1.2,
+                        fontSize: 36,
+                        color: 'e94560',
+                        bold: true,
+                        align: 'center'
+                    });
+                    s16.addText(
+                        '核心工作流：创建实例 → 添加幻灯片 → 添加元素 → 导出\n' +
+                        '关键要点：坐标单位、布局、富文本、项目符号\n' +
+                        '后续：高级特性（视频、动画）、与 AI 深度集成、查阅官方 API',
+                        { x: 0.8, y: 2.2, w: 8.4, h: 2.5,
+                          fontSize: 18,
+                          color: 'eeeeee',
+                          valign: 'top',
+                          lineSpacing: 28 }
+                    );
+                    s16.addText('—— 学习愉快！ ——', {
+                        x: 0.5, y: 5.0, w: 9, h: 0.6,
+                        fontSize: 20,
+                        color: '888888',
+                        align: 'center'
+                    });
+
+                    // ---------- 下载：直接使用 writeFile，由浏览器接管下载 ----------
+                    // 不指定 type，浏览器会自动下载，Promise 在下载开始后 resolve
+                    pres.writeFile({ fileName: 'PptxGenJS_学习笔记.pptx' })
+                        .then(() => {
+                            resolve();  // 下载已触发，成功
+                        })
+                        .catch(err => {
+                            reject(err);
+                        });
+
+                } catch (err) {
+                    reject(err);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

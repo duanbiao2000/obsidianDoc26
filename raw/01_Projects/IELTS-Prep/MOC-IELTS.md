@@ -3,14 +3,11 @@ tags: []
 created: 2026-06-26
 updated: 2026-06-26
 ---
-
-#
-
-## /mnt/d/MyDocs/obsidianDoc26/01_Projects/IELTS-Prep/MOC-IELTS.md
+## IELTS-Prep
 
 ```dataview
 LIST
-FROM "/mnt/d/MyDocs/obsidianDoc26/01_Projects/IELTS-Prep/MOC-IELTS.md"
+FROM "raw/01_Projects/IELTS-Prep"
 SORT file.name ASC
 ```
 
