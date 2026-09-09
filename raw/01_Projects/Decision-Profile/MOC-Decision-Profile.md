@@ -7,12 +7,12 @@ updated: 2026-08-03
 
 # 🎯 Decision-Profile · 决策画像
 
-> 决策前读画像 → 决策后回写卡片 → 定期提炼画像。首次使用先读 [[README]]。
+> 决策前读画像 → 决策后回写卡片 → 定期提炼画像。首次使用先读 [[raw/01_Projects/Decision-Profile/README]]。
 
 ## 📥 入口
 
 - [[Profile|我的决策画像]]（决策前必读）
-- [[README|使用手册]]
+- [[raw/01_Projects/Decision-Profile/README|使用手册]]
 
 ## 🗂️ 决策卡
 

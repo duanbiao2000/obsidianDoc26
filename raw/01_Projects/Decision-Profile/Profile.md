@@ -9,7 +9,7 @@ status: active
 
 # 我的决策画像 v1
 
-> 铁律：只从 `Cards/` 归纳，不凭空写。每满 5 张卡或每季度升版一次。详见 [[README]]。
+> 铁律：只从 `Cards/` 归纳，不凭空写。每满 5 张卡或每季度升版一次。详见 [[raw/01_Projects/Decision-Profile/README]]。
 
 ## 变更日志
 

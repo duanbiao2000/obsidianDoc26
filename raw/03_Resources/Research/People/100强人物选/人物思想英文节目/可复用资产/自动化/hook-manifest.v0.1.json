@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "mode": "portable-command-hooks",
+  "purpose": "定义项目事件与只读校验命令的绑定。当前环境由 Agent 按 AGENT.md 手动调用；迁移到支持生命周期 Hook 的运行时后，可按本清单绑定同一命令。",
+  "events": [
+    {
+      "id": "session-start",
+      "runtime_event": "SessionStart",
+      "severity": "warning",
+      "command": "python3 可复用资产/自动化/check_session_start.py",
+      "when": "开始任何实质工作前",
+      "on_failure": "停止并修复缺失的项目入口文件。"
+    },
+    {
+      "id": "formal-people-list-changed",
+      "runtime_event": "PostWrite",
+      "severity": "blocking",
+      "command": "python3 可复用资产/自动化/check_people_list.py",
+      "when": "修改正式 100 人名单后",
+      "on_failure": "不得宣布名单更新完成，也不得更新交接状态为已完成。"
+    },
+    {
+      "id": "formal-version-or-path-changed",
+      "runtime_event": "PostWrite",
+      "severity": "blocking",
+      "command": "python3 可复用资产/自动化/check_project_links.py",
+      "when": "改动正式名单文件名、版本号、项目入口或目录索引后",
+      "on_failure": "修复所有过期引用后才能结束工作。"
+    },
+    {
+      "id": "before-full-script",
+      "runtime_event": "PreWrite",
+      "severity": "blocking",
+      "command": "python3 可复用资产/自动化/check_episode_gate.py --episode <EP目录名> --action full-script",
+      "when": "创建或实质修改 05-英文口播稿文件前",
+      "on_failure": "维持 ERP AMBER/RED；只允许继续研究、补 ERP 或改逻辑脊柱。"
+    },
+    {
+      "id": "session-close",
+      "runtime_event": "Stop",
+      "severity": "warning",
+      "command": "python3 可复用资产/自动化/check_session_close.py --expect-date <YYYY-MM-DD>",
+      "when": "每次有实质变更的工作结束前",
+      "on_failure": "补充实时交接文档、更新日志或下一步，然后重新检查。"
+    }
+  ]
+}

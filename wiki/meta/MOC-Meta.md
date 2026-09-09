@@ -79,7 +79,7 @@ related:
 
 ### Wiki 管理文档（孤岛处理 - P3）
 
-- [[README]]
+- [[wiki/meta/skills/README]]
 - [[SCHEMA]]
 - [[Area-Overview-Creation-Guide]]
 - [[Conversion-Workflow-Guide]]

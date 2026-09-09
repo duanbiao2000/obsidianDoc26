@@ -18,7 +18,7 @@ cssclasses: [dashboard]
 | 项目 | 领域 | 资源 |
 |------|------|------|
 | [[01_Projects/IELTS-Prep/MOC-IELTS\|🎯 IELTS]] | [[02_Areas/Coding/MOC-Coding\|⚙️ Coding]] | [[03_Resources/Research/People/MOC-People\|👤 People]] |
-| [[01_Projects/Anki-Cards/MOC-Anki\|🃏 Anki]] | [[02_Areas/English/MOC-English\|🗣️ English]] | [[03_Resources/Research/books/MOC-Books\|📖 Books]] |
+| [[01_Projects/Anki-Cards/MOC-Anki\|🃏 Anki]] | [[02_Areas/English/MOC-English\|🗣️ English]] | [[MOC-Books\|📖 Books]] |
 | [[01_Projects/Software-Dev/MOC-Software-Dev\|💻 Dev]] | [[02_Areas/Philosophy/MOC-Philosophy\|🧘 Philosophy]] | [[03_Resources/Research/Travel/MOC-Travel\|✈️ Travel]] |
 | [[01_Projects/道德经/MOC-道德经\|☯ 道德经]] | [[02_Areas/PKM/MOC-PKM\|📝 PKM]] | [[03_Resources/Tools/MOC-Tools\|🔧 Tools]] |
 | | [[02_Areas/Career/MOC-Career\|💼 Career]] | |
