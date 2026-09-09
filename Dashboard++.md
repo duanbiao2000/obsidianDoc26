@@ -1,16 +1,13 @@
 ---
+banner: "![[90_Attachments/home.jpg]]"
 cssclasses:
   - dashboard
-banner: "![[90_Attachments/home.jpg]]"
 banner_x: 0.5
 banner_y: 0.5
 excalidraw-plugin: parsed
 tags:
   - excalidraw
 ---
-
-<div class="title" style="color:white">HOME</div>
-
 # 控制台
 
 - 🏠 Home
@@ -73,9 +70,9 @@ tags:
 # 资源库
 
 - 📚 Books / Research
-  - [[03_Resources/Research/books/MOC-Books|Books MOC]]
-  - [[03_Resources/Research/books/Mind-Expanding-Books]]
-  - [[03_Resources/Research/books/The-Missing-README]]
+  - [[MOC-Books|Books MOC]]
+  - [[Mind-Expanding-Books]]
+  - [[The-Missing-README]]
 - 👤 People
   - [[03_Resources/Research/People/MOC-People|People MOC]]
   - [[03_Resources/Research/People/Amanda-Askell]]
@@ -89,9 +86,9 @@ tags:
   - [[03_Resources/Tools/Neovim---现代化可扩展编辑器]]
   - [[03_Resources/Tools/Claude-Code通过OpenRouter调用模型]]
 - ⏳ time-as-a-partner
-  - [[03_Resources/time-as-a-partner/README|项目主页]]
-  - [[03_Resources/time-as-a-partner/time-as-a-partner-vol-I/time-as-a-partner-vol-I|Vol I]]
-  - [[03_Resources/time-as-a-partner/time-as-a-partner-vol-VI/time-as-a-partner-vol-VI|Vol VI]]
+  - [[raw/03_Resources/Research/time-as-a-partner/README|项目主页]]
+  - [[time-as-a-partner-vol-I|Vol I]]
+  - [[time-as-a-partner-vol-VI|Vol VI]]
 
 # Prompt / AI 系统
 

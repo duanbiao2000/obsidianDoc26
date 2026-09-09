@@ -1,0 +1,59 @@
+{
+  "schema_version": "0.1",
+  "purpose": "供只读校验脚本执行的机器可读人物库约束；人物理由、章节和版本历史只保存在正式名单中。",
+  "canonical_formal_list": "人物库/100人候选名单-编排版-v1.4.md",
+  "expected_person_count": 100,
+  "expected_id_range": [1, 100],
+  "required_current_members": [
+    {"id": "Donald Knuth", "match_any": ["Donald Knuth"]},
+    {"id": "Brian Kernighan", "match_any": ["Brian Kernighan"]},
+    {"id": "Edsger W. Dijkstra", "match_any": ["Edsger W. Dijkstra"]},
+    {"id": "Bjarne Stroustrup", "match_any": ["Bjarne Stroustrup"]},
+    {"id": "Leslie Lamport", "match_any": ["Leslie Lamport"]},
+    {"id": "Rob Pike", "match_any": ["Rob Pike"]},
+    {"id": "Andrew S. Tanenbaum", "match_any": ["Andrew S. Tanenbaum"]},
+    {"id": "Martin Fowler", "match_any": ["Martin Fowler"]},
+    {"id": "Hans Zimmer", "match_any": ["Hans Zimmer"]},
+    {"id": "叶童", "match_any": ["叶童", "Cecilia Yip"]},
+    {"id": "Friedrich Nietzsche", "match_any": ["Friedrich Nietzsche", "尼采"]},
+    {"id": "金庸", "match_any": ["金庸", "Louis Cha", "查良镛"]},
+    {"id": "鲁迅", "match_any": ["鲁迅", "Lu Xun"]},
+    {"id": "周星驰", "match_any": ["周星驰"]},
+    {"id": "Stanley Kubrick", "match_any": ["Stanley Kubrick"]},
+    {"id": "Isaac Asimov", "match_any": ["Isaac Asimov"]},
+    {"id": "Jorge Luis Borges", "match_any": ["Jorge Luis Borges"]},
+    {"id": "Christian Bale", "match_any": ["Christian Bale"]},
+    {"id": "Lionel Messi", "match_any": ["Lionel Messi"]},
+    {"id": "Ronaldinho", "match_any": ["Ronaldinho"]},
+    {"id": "雷军", "match_any": ["雷军"]},
+    {"id": "成龙", "match_any": ["成龙"]},
+    {"id": "刘德华", "match_any": ["刘德华"]},
+    {"id": "范伟", "match_any": ["范伟"]},
+    {"id": "王宝强", "match_any": ["王宝强"]},
+    {"id": "马云", "match_any": ["马云"]},
+    {"id": "张朝阳", "match_any": ["张朝阳"]}
+  ],
+  "forbidden_members": [
+    {"id": "Bruce Schneier", "match_any": ["Bruce Schneier"]},
+    {"id": "Lisa Feldman Barrett", "match_any": ["Lisa Feldman Barrett"]},
+    {"id": "Viktor Frankl", "match_any": ["Viktor Frankl"]},
+    {"id": "Brené Brown", "match_any": ["Brené Brown", "Brene Brown"]},
+    {"id": "Angela Duckworth", "match_any": ["Angela Duckworth"]},
+    {"id": "Jonathan Haidt", "match_any": ["Jonathan Haidt"]},
+    {"id": "Fei-Fei Li", "match_any": ["Fei-Fei Li", "李飞飞"]},
+    {"id": "Austin Kleon", "match_any": ["Austin Kleon"]},
+    {"id": "Susan Cain", "match_any": ["Susan Cain"]},
+    {"id": "Virgil Abloh", "match_any": ["Virgil Abloh"]},
+    {"id": "Tim Berners-Lee", "match_any": ["Tim Berners-Lee"]},
+    {"id": "Timnit Gebru", "match_any": ["Timnit Gebru"]},
+    {"id": "Muhammad Yunus", "match_any": ["Muhammad Yunus"]},
+    {"id": "Indra Nooyi", "match_any": ["Indra Nooyi"]}
+  ],
+  "review_items": [
+    {
+      "id": "Eric S. Raymond interpretation",
+      "current_match": "Eric S. Raymond",
+      "note": "用户所说“雷蒙德”暂按 Eric S. Raymond 处理；若用户指另一人，需替换并重排相邻章节。"
+    }
+  ]
+}
