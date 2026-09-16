@@ -31,3 +31,12 @@ Desktop.ini
 
 # Ignore Smart Environment folder
 .smart-env
+
+# Local application state, caches, and generated workspaces
+.agent-state/
+.copilot/model-catalog-cache.json
+.makemd/
+.omo/
+.sisyphus/
+.space/
+.trash/
