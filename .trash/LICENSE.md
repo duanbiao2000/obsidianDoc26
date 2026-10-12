@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<<< HEAD:.trash/LICENSE.md
 Copyright (c) 2024 TfTHacker
+========
+Copyright (c) 2026 Steph Ango (@kepano)
+>>>>>>>> origin/main:.agents/skills/obsidian-cli/LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
