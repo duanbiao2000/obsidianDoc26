@@ -129,3 +129,118 @@ core_concepts:
 
 如果只新增三个书签，我的选择是：LibHunt、Star History、OpenAlternative。它们分别补上“同类发现”“增长验证”“需求导向”三种能力，比再添加三个类似的热榜更互补。 [libhunt](https://www.libhunt.com/)
 
+
+最值得先试的是 **Google Code Wiki**、GitSummarize 和 ExplainGitHub；GitDiagram 则适合作为架构可视化补充。 [codewiki](https://codewiki.google/faq)
+
+## 一、最接近 Zread、DeepWiki 的三个网站
+
+| 网站 | 与 Zread / DeepWiki 相似的能力 | 主要区别 |
+|---|---|---|
+| [Google Code Wiki](https://codewiki.google/) | 自动生成结构化 Wiki、架构图，并提供基于项目 Wiki 的 Gemini 问答。 [codewiki](https://codewiki.google/faq) | 最接近完整的“仓库知识库”；但项目覆盖不是无限的，不能假定任意小仓库都有现成 Wiki。 [codewiki](https://codewiki.google/faq) |
+| [GitSummarize](https://gitsummarize.com/) | 把 GitHub 仓库转成文档中心，提供系统架构、目录与文件摘要、业务逻辑说明和架构流程图。 [github](https://github.com/antarixxx/gitsummarize) | 更偏“把代码整理成可阅读的项目文档”，尤其适合先了解整体结构。 [github](https://github.com/antarixxx/gitsummarize) |
+| [ExplainGitHub](https://explaingithub.com/) | 浏览仓库、让 AI 解释代码、进行上下文问答，并结合 GitDiagram 查看结构。 [explaingithub](https://explaingithub.com/) | 更偏“边浏览代码边提问”，而不是只阅读一套生成好的 Wiki。 [explaingithub](https://explaingithub.com/) |
+
+### 1. Google Code Wiki：最像完整的 AI 项目百科
+
+地址：[https://codewiki.google/](https://codewiki.google/)
+
+Google 官方提供，基于 Gemini 分析代码，生成自然语言说明、交互式架构图和项目问答。问答功能主要使用生成的 Wiki 作为上下文。 [codewiki](https://codewiki.google/faq)
+
+值得注意的几点：
+
+- 公开开源仓库的 Code Wiki 免费访问。
+- 当前支持 GitHub。
+- 可以在首页搜索仓库，也可以使用下列地址格式直接查找。
+- Wiki 定期更新，但更新频率因项目而异；不是保证每次提交后立即同步。
+- 官方 FAQ 仍将私有代码的 Gemini CLI 扩展描述为计划推出的功能，不应把公共网站当成现成的私有仓库服务。 [codewiki](https://codewiki.google/faq)
+
+直接访问格式：
+
+```text
+https://codewiki.google/github.com/owner/repo
+```
+
+这个网站适合你在决定是否试用一个开源工具之前，先搞清楚它有哪些模块、如何组织、关键逻辑在哪里。不过，如果某个项目尚未被覆盖，就需要换其他入口。 [codewiki](https://codewiki.google/faq)
+
+### 2. GitSummarize：把仓库变成可读文档
+
+地址：[https://gitsummarize.com/](https://gitsummarize.com/)
+
+它的定位与 DeepWiki 很接近：把仓库转成完整的 AI 文档中心。项目官方说明列出的内容包括：
+
+- 系统级架构概览。
+- 目录和文件级摘要。
+- 用自然语言描述代码用途、流程与结构。
+- 业务逻辑与规则提取。
+- 架构图和流程图。 [github](https://github.com/antarixxx/gitsummarize)
+
+使用方式也很方便：把 GitHub 地址中的 `hub` 换成 `summarize`。 [gitsummarize](https://gitsummarize.com/)
+
+```text
+原仓库：
+https://github.com/owner/repo
+
+文档入口：
+https://gitsummarize.com/owner/repo
+```
+
+它也公开了自身源码：
+
+[antarixxx/gitsummarize](https://github.com/antarixxx/gitsummarize)。 [github](https://github.com/antarixxx/gitsummarize)
+
+如果你主要想“先看项目地图，再决定要不要读源码”，我会把它作为 Code Wiki 之外的第二个入口。此次核查确认了在线网站和项目说明，但没有核实到清晰的当前收费额度，因此不把它标为无限免费。
+
+### 3. ExplainGitHub：更偏交互式代码探索
+
+地址：[https://explaingithub.com/](https://explaingithub.com/)
+
+它提供代码浏览、搜索和上下文问答；官网说明，提问时 AI 会自动寻找相关文件，不需要每次手动选择上下文，并会保存聊天与近期访问仓库的历史。 [explaingithub](https://explaingithub.com/)
+
+与前两个网站相比，它更适合这一类问题：
+
+- “这个项目的入口在哪里？”
+- “这段功能是在哪些文件里实现的？”
+- “解释一下这个模块。”
+- “如果我要修改某个行为，应该从哪里开始？”
+
+这些是建议的使用方式；其官方能力包括仓库问答、智能文件上下文和代码导航。 [explaingithub](https://explaingithub.com/)
+
+它还支持 GitLab 的公开与私有仓库，并整合 GitDiagram 做可视化探索。官网目前写着“所有功能暂时免费”，注意这是阶段性说明，不是永久免费承诺。 [explaingithub](https://explaingithub.com/)
+
+## 二、相关但不完全同类：GitDiagram 和 Gitingest
+
+### 4. GitDiagram：直接看架构图，也能看项目讲解视频
+
+地址：[https://gitdiagram.com/](https://gitdiagram.com/)
+
+它将 GitHub 仓库转成互动图，当前首页还提供项目讲解视频入口。使用时可以把 GitHub 地址中的 `hub` 换成 `diagram`。 [gitdiagram](https://gitdiagram.com/)
+
+```text
+https://gitdiagram.com/owner/repo
+```
+
+它与 DeepWiki 的区别是：重点在“把项目结构可视化”，不是以完整的多章节 Wiki 为核心。适合你快速看模块关系，或把它当成阅读项目文档时的辅助地图。 [gitdiagram](https://gitdiagram.com/)
+
+### 5. Gitingest：不生成 Wiki，而是给你自己的 AI 准备仓库内容
+
+地址：[https://gitingest.com/](https://gitingest.com/)
+
+它将仓库整理为适合模型读取的文本，包括摘要、目录结构和文件内容。它本身不是 DeepWiki 那样的项目问答网站，而是“仓库 → AI 上下文”的转换工具。 [gitingest](https://gitingest.com/)
+
+```text
+https://gitingest.com/owner/repo
+```
+
+考虑到你经常使用 AI 辅助开发，这个方向很实用：可以将整理出的内容交给自己的模型，再按你的要求生成中文说明或项目分析，而不必完全依赖某个网站固定的文档结构。Gitingest 官方定位就是为模型提供代码库文本摘要。 [gitingest](https://gitingest.com/)
+
+## 三、怎么选最省时间
+
+| 你的目的 | 优先尝试 |
+|---|---|
+| 像 DeepWiki 一样阅读项目百科并提问 | Google Code Wiki。 [codewiki](https://codewiki.google/faq) |
+| 看架构、目录说明和业务逻辑文档 | GitSummarize。 [github](https://github.com/antarixxx/gitsummarize) |
+| 浏览具体代码，边看边问 | ExplainGitHub。 [explaingithub](https://explaingithub.com/) |
+| 快速理解模块关系，偏视觉化 | GitDiagram。 [gitdiagram](https://gitdiagram.com/) |
+| 用自己的 AI、提示词和分析格式 | Gitingest。 [gitingest](https://gitingest.com/) |
+
+就你原来的“发现 GitHub 项目”需求而言，还要区分两件事：这些站点首先是项目理解工具；部分首页提供热门或示例仓库，但不等于它们都有严格的实时趋势排序。GitSummarize 有 “Explore Popular Repositories”，ExplainGitHub 有热门仓库展示，适合顺手发现项目，但主要价值仍是帮助你看懂项目。 [gitsummarize](https://gitsummarize.com/)
