@@ -129,16 +129,13 @@ core_concepts:
 
 如果只新增三个书签，我的选择是：LibHunt、Star History、OpenAlternative。它们分别补上“同类发现”“增长验证”“需求导向”三种能力，比再添加三个类似的热榜更互补。 [libhunt](https://www.libhunt.com/)
 
-
-最值得先试的是 **Google Code Wiki**、GitSummarize 和 ExplainGitHub；GitDiagram 则适合作为架构可视化补充。 [codewiki](https://codewiki.google/faq)
-
 ## 一、最接近 Zread、DeepWiki 的三个网站
 
-| 网站 | 与 Zread / DeepWiki 相似的能力 | 主要区别 |
-|---|---|---|
-| [Google Code Wiki](https://codewiki.google/) | 自动生成结构化 Wiki、架构图，并提供基于项目 Wiki 的 Gemini 问答。 [codewiki](https://codewiki.google/faq) | 最接近完整的“仓库知识库”；但项目覆盖不是无限的，不能假定任意小仓库都有现成 Wiki。 [codewiki](https://codewiki.google/faq) |
-| [GitSummarize](https://gitsummarize.com/) | 把 GitHub 仓库转成文档中心，提供系统架构、目录与文件摘要、业务逻辑说明和架构流程图。 [github](https://github.com/antarixxx/gitsummarize) | 更偏“把代码整理成可阅读的项目文档”，尤其适合先了解整体结构。 [github](https://github.com/antarixxx/gitsummarize) |
-| [ExplainGitHub](https://explaingithub.com/) | 浏览仓库、让 AI 解释代码、进行上下文问答，并结合 GitDiagram 查看结构。 [explaingithub](https://explaingithub.com/) | 更偏“边浏览代码边提问”，而不是只阅读一套生成好的 Wiki。 [explaingithub](https://explaingithub.com/) |
+| 网站                                           | 与 Zread / DeepWiki 相似的能力                                                                           | 主要区别                                                                                 |
+| -------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Google Code Wiki](https://codewiki.google/) | 自动生成结构化 Wiki、架构图，并提供基于项目 Wiki 的 Gemini 问答。 [codewiki](https://codewiki.google/faq)                 | 最接近完整的“仓库知识库”；但项目覆盖不是无限的，不能假定任意小仓库都有现成 Wiki。 [codewiki](https://codewiki.google/faq) |
+| [GitSummarize](https://gitsummarize.com/)    | 把 GitHub 仓库转成文档中心，提供系统架构、目录与文件摘要、业务逻辑说明和架构流程图。 [github](https://github.com/antarixxx/gitsummarize) | 更偏“把代码整理成可阅读的项目文档”，尤其适合先了解整体结构。 [github](https://github.com/antarixxx/gitsummarize)  |
+| [ExplainGitHub](https://explaingithub.com/)  | 浏览仓库、让 AI 解释代码、进行上下文问答，并结合 GitDiagram 查看结构。 [explaingithub](https://explaingithub.com/)            | 更偏“边浏览代码边提问”，而不是只阅读一套生成好的 Wiki。 [explaingithub](https://explaingithub.com/)          |
 
 ### 1. Google Code Wiki：最像完整的 AI 项目百科
 
