@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 1 课 · 诊断：7.5 到底要求什么</title>
+<style>
+  :root { --ink:#1f2937; --muted:#6b7280; --brand:#0f6fde; --line:#e5e7eb; --ok:#15803d; --bad:#b91c1c; --bg:#f8fafc; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+         color:var(--ink); background:var(--bg); line-height:1.7; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .meta { color:var(--muted); font-size: 14px; margin-bottom: 24px; }
+  h2 { font-size: 19px; margin: 34px 0 12px; border-left: 4px solid var(--brand); padding-left: 10px; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { font-size: 15px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin:12px 0; }
+  table { width:100%; border-collapse: collapse; font-size: 14px; background:#fff; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#eef4fb; }
+  .tag { display:inline-block; font-size:12px; background:#eef4fb; color:var(--brand); border-radius:20px; padding:2px 10px; margin-right:6px; }
+  .check { background:#fff; border:1px solid var(--line); border-radius:10px; padding:12px 16px; margin:8px 0; }
+  .check label { cursor:pointer; display:flex; gap:10px; align-items:flex-start; font-size:14px; }
+  .check input { margin-top:4px; }
+  .quiz-q { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:14px 0; }
+  .quiz-q .q-title { font-weight:600; font-size:15px; margin-bottom:10px; }
+  .opt { display:block; margin:6px 0; font-size:14px; }
+  button { background:var(--brand); color:#fff; border:0; border-radius:8px; padding:8px 18px; font-size:14px; cursor:pointer; }
+  button:hover { opacity:.85; }
+  .fb { margin-top:8px; font-size:13px; padding:8px 10px; border-radius:8px; display:none; }
+  .fb.good { display:block; background:#f0fdf4; color:var(--ok); }
+  .fb.bad { display:block; background:#fef2f2; color:var(--bad); }
+  .hw { background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:14px 18px; margin-top:28px; }
+  .done { text-align:center; color:var(--ok); font-weight:600; display:none; margin-top:24px; }
+  footer { margin-top:40px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>第 1 课 · 诊断：7.5 到底要求什么</h1>
+  <div class="meta"><span class="tag">lesson 0001</span> 约 40 分钟 · 来源：IELTS 官方 Band Descriptors（见 RESOURCES.md） · 本课目标：学完后，你能准确说出自己在评分标准上的位置，并完成一次自我诊断。</div>
+
+  <h2>一、先校准目标：7.5 不是"更好一点"，是"另一套标准"</h2>
+  <p>从 6.5 到 7.5，不是把同一个动作做得更熟练，而是<strong>跨过评分标准中明确的档次线</strong>。
+     官方对每个分数档都有明确的能力描述（Band Descriptors），你不需要背下来，但需要知道
+     "7.5 那一栏写了什么"，因为它是接下来每一节课的标尺。</p>
+
+  <h3>口语 7.5 的关键特征（对照你现在的水平）</h3>
+  <table>
+    <tr><th style="width:130px">维度</th><th>7.5 档要求（要点）</th><th>6.5 档的典型表现（你现在的大致位置）</th></tr>
+    <tr><td>流利与连贯</td><td>能长时间表达，偶有迟疑/重复/自我纠正；衔接手段多样</td><td>能维持对话，但常在长句处卡顿，靠简单连接词</td></tr>
+    <tr><td>词汇</td><td>词汇运用灵活，能自如转述；有部分不常见搭配，偶有搭配/拼写错误</td><td>能覆盖话题，但表达依赖常见词，转述能力弱</td></tr>
+    <tr><td>语法</td><td>能使用多种复杂结构，偶有错误但不影响理解</td><td>简单句为主，复杂结构少或出错多</td></tr>
+    <tr><td>发音</td><td>能运用多种发音特征，整体清晰可懂，偶有偏差</td><td>基本可懂，但语调平淡、重音不准影响理解</td></tr>
+  </table>
+
+  <h3>听力 7.5 的关键特征</h3>
+  <p>能跟上较长的学术讲话与复杂论证，能抓住主旨与细节；能识别同义替换；
+     学术类原始分约需 <strong>32–34 / 40</strong>。注意：7.5 允许遗漏部分细节，
+     它考的是<strong>抓分效率</strong>，不是听懂每一个词。</p>
+
+  <h2>二、自我诊断：找出你的"卡点"</h2>
+  <p>对照下面的清单，如实勾选。这些勾选结果会写进 learning-records，决定下一课的 ZPD（最近发展区）。</p>
+
+  <div class="check"><label><input type="checkbox"> 口语时，我常常在说一句长话的中途卡住，需要停下来想词。</label></div>
+  <div class="check"><label><input type="checkbox"> 说 Part 2 时，我讲不到 1 分钟就没话了，或结构混乱。</label></div>
+  <div class="check"><label><input type="checkbox"> 我知道很多单词，但表达时只会用最常见的几个词，不会换说法。</label></div>
+  <div class="check"><label><input type="checkbox"> 我的句子基本是简单句，用复杂句时经常出错。</label></div>
+  <div class="check"><label><input type="checkbox"> 听力里，题目和录音说的不是同一套词，我经常反应不过来（同义替换）。</label></div>
+  <div class="check"><label><input type="checkbox"> 听力时，能看懂文本，但听的时候连读、弱读让我听不出词。</label></div>
+  <div class="check"><label><input type="checkbox"> 我做听力填空题时，拼写或单复数经常出错。</label></div>
+  <div class="check"><label><input type="checkbox"> 我很少录音回听自己的口语，也不确定自己哪里说得不好。</label></div>
+
+  <div class="card">诊断原则：<strong>勾选最多的前两项，就是下一阶段的主攻卡点</strong>。
+  不用全部解决——8 周内，把最影响分数的 2–3 个卡点解决掉，就能上一个台阶。</div>
+
+  <h2>三、随堂测验（做错没关系，这是检索练习，比直接看答案记得牢）</h2>
+
+  <div class="quiz-q">
+    <div class="q-title">1. 从 6.5 到 7.5，最核心的变化是？</div>
+    <label class="opt"><input type="radio" name="q1" value="a"> A. 把每个单词的发音都练到完美</label>
+    <label class="opt"><input type="radio" name="q1" value="b"> B. 从"能交流"升级到"符合官方 7.5 档评分描述"</label>
+    <label class="opt"><input type="radio" name="q1" value="c"> C. 把语速提到很快，减少停顿</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">2. 学术类听力要拿到 7.5，大约需要答对多少题？</div>
+    <label class="opt"><input type="radio" name="q2" value="a"> A. 约 24–26 / 40</label>
+    <label class="opt"><input type="radio" name="q2" value="b"> B. 约 32–34 / 40</label>
+    <label class="opt"><input type="radio" name="q2" value="c"> C. 必须全对 40 / 40</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">3. 关于雅思听力的"同义替换"，正确说法是？</div>
+    <label class="opt"><input type="radio" name="q3" value="a"> A. 题目和录音用不同措辞表达同一信息，需要预判</label>
+    <label class="opt"><input type="radio" name="q3" value="b"> B. 录音会把题目原词原样读出来，不用预判</label>
+    <label class="opt"><input type="radio" name="q3" value="c"> C. 同义替换只出现在口语里，听力不考</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">4. 关于口语"流利度"，理解正确的是？</div>
+    <label class="opt"><input type="radio" name="q4" value="a"> A. 流利 = 语速快，停顿越少越好</label>
+    <label class="opt"><input type="radio" name="q4" value="b"> B. 流利 = 连贯地表达，允许自然的迟疑和少量自我纠正</label>
+    <label class="opt"><input type="radio" name="q4" value="c"> C. 说错了必须立刻纠正，否则扣分</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">5. 本阶段（1–2 个月）你最该做的事是？</div>
+    <label class="opt"><input type="radio" name="q5" value="a"> A. 大量背生僻词，追求词汇量</label>
+    <label class="opt"><input type="radio" name="q5" value="b"> B. 集中攻克最影响分数的 2–3 个卡点，并用模考验证</label>
+    <label class="opt"><input type="radio" name="q5" value="c"> C. 每天泛听英文广播，不做针对性训练</label>
+    <div class="fb"></div>
+  </div>
+
+  <p><button id="checkQuiz">提交并查看反馈</button></p>
+
+  <div class="done" id="doneMsg">✔ 本课完成。请把诊断结果和作业反馈告诉 agent，它会写入 learning-records 并生成第 2 课。</div>
+
+  <h2>四、课后作业（必须完成，否则本课不算学会）</h2>
+  <div class="hw">
+    <p><strong>作业 A（口语输出）：</strong>用手机录音，回答 3 个雅思 Part 1 真题问题（如
+       "Do you like reading?" / "What do you do on weekends?" / "Is your city a good place to live?"）。
+       要求：每个问题至少答 3–4 句，尽量说长。</p>
+    <p><strong>作业 B（听力自测）：</strong>用剑桥真题做一套 Section 1 + Section 2，
+       记录答对题数，并把每道错题的错因写下来（听不懂 / 没跟上 / 拼写错误 / 审题错误）。</p>
+    <p><strong>作业 C（汇报）：</strong>把上面两项的结果、以及诊断清单里你勾的卡点，
+       在对话里告诉我。我会记录到 learning-records，并据此设计第 2 课。</p>
+  </div>
+
+  <footer>本课由 teach skill 工作区生成 · ielts-75/ · 下一课入口：在对话中说"下一课"。</footer>
+</div>
+
+<script>
+  const answers = { q1:'b', q2:'b', q3:'a', q4:'b', q5:'b' };
+  const explain = {
+    q1: '对。7.5 是官方评分描述上的档次跃迁，不是"更努力一点"。发音要练，但它不是唯一维度。',
+    q2: '对。学术类 7.5 约需 32–34/40，意味着基础题要尽量零失误，而不是追求听懂所有难题。',
+    q3: '对。同义替换是雅思听力的核心考点，预判题目的同义表达能显著提高抓分效率。',
+    q4: '对。流利是连贯与自然，不是语速；少量自我纠正是允许的，过度纠结反而拖累流利度。',
+    q5: '对。时间有限，把预算集中在最影响分数的卡点上，用模考验证是否真的涨分。'
+  };
+  document.getElementById('checkQuiz').addEventListener('click', function () {
+    let allRight = true;
+    const qs = ['q1','q2','q3','q4','q5'];
+    qs.forEach(function (n) {
+      const qEl = document.querySelector('[name="'+n+'"]').closest('.quiz-q');
+      const fb = qEl.querySelector('.fb');
+      const picked = qEl.querySelector('[name="'+n+'"]:checked');
+      if (!picked) { fb.className = 'fb bad'; fb.textContent = '⚠ 还没有选择。'; allRight = false; return; }
+      if (picked.value === answers[n]) { fb.className = 'fb good'; fb.textContent = '✔ 正确。' + explain[n]; }
+      else { fb.className = 'fb bad'; fb.textContent = '✘ 再想想：正确答案是 ' + answers[n].toUpperCase() + '。' + explain[n]; allRight = false; }
+    });
+    document.getElementById('doneMsg').style.display = allRight ? 'block' : 'none';
+  });
+</script>
+</body>
+</html>

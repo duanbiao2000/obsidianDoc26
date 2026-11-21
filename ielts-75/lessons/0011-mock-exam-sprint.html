@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>第 11 课 · 模考冲刺与错题归因（收官课）</title>
+<style>
+  :root { --ink:#1f2937; --muted:#6b7280; --brand:#0f6fde; --line:#e5e7eb; --ok:#15803d; --bad:#b91c1c; --bg:#f8fafc; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+         color:var(--ink); background:var(--bg); line-height:1.7; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .meta { color:var(--muted); font-size: 14px; margin-bottom: 24px; }
+  h2 { font-size: 19px; margin: 34px 0 12px; border-left: 4px solid var(--brand); padding-left: 10px; }
+  h3 { font-size: 16px; margin: 18px 0 8px; }
+  p, li { font-size: 15px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin:12px 0; }
+  table { width:100%; border-collapse: collapse; font-size: 14px; background:#fff; border:1px solid var(--line); border-radius:10px; overflow:hidden; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#eef4fb; }
+  .tag { display:inline-block; font-size:12px; background:#eef4fb; color:var(--brand); border-radius:20px; padding:2px 10px; margin-right:6px; }
+  .code { background:#0f172a; color:#e2e8f0; border-radius:8px; padding:10px 14px; font-family: ui-monospace, "SF Mono", Consolas, monospace; font-size:14px; overflow-x:auto; white-space:pre; }
+  .quiz-q { background:#fff; border:1px solid var(--line); border-radius:10px; padding:14px 16px; margin:14px 0; }
+  .quiz-q .q-title { font-weight:600; font-size:15px; margin-bottom:10px; }
+  .opt { display:block; margin:6px 0; font-size:14px; }
+  button { background:var(--brand); color:#fff; border:0; border-radius:8px; padding:8px 18px; font-size:14px; cursor:pointer; }
+  button:hover { opacity:.85; }
+  .fb { margin-top:8px; font-size:13px; padding:8px 10px; border-radius:8px; display:none; }
+  .fb.good { display:block; background:#f0fdf4; color:var(--ok); }
+  .fb.bad { display:block; background:#fef2f2; color:var(--bad); }
+  .hw { background:#fffbeb; border:1px solid #fde68a; border-radius:10px; padding:14px 18px; margin-top:28px; }
+  .done { text-align:center; color:var(--ok); font-weight:600; display:none; margin-top:24px; }
+  footer { margin-top:40px; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>第 11 课 · 模考冲刺与错题归因（收官课）</h1>
+  <div class="meta"><span class="tag">lesson 0011</span> 约 50 分钟 · 来源：IELTS 官方评分标准 + 剑桥真题（见 RESOURCES.md） · 本课目标：学完后，你掌握全真模考流程、错题归因方法与考前一周安排，能独立判断自己是否达到 7.5+ 的退出标准。</div>
+
+  <h2>一、为什么最后要"模考化"</h2>
+  <div class="card">知识学完不等于考场上拿分。模考的作用是<strong>暴露真实状态</strong>：
+  时间压力下的发挥、易错点的分布、节奏的稳定性。
+  从现在起，训练目标从"学会"切换为"稳定发挥"，所有练习都按考试标准执行。</div>
+
+  <h2>二、全真模考流程（听力）</h2>
+  <table>
+    <tr><th style="width:140px">环节</th><th>操作</th></tr>
+    <tr><td>环境</td><td>找安静环境，只用一套真题，全程不暂停、不回放、不查词</td></tr>
+    <tr><td>计时</td><td>严格按考试时间（约 30 分钟录音 + 誊写 10 分钟）</td></tr>
+    <tr><td>计分</td><td>对照答案计分，换算成 band（7.5 ≈ 32–34/40）</td></tr>
+    <tr><td>归因</td><td>每道错题按四类归因，填入归因表（见下）</td></tr>
+  </table>
+
+  <h2>三、错题归因四类（核心工具）</h2>
+  <table>
+    <tr><th style="width:150px">类别</th><th>表现</th><th>对策</th></tr>
+    <tr><td>① 知识缺失</td><td>单词不认识、搭配不会</td><td>加入 Anki，按间隔复习；回到对应课程补方法</td></tr>
+    <tr><td>② 语音听不懂</td><td>连读、弱读、语速导致漏听</td><td>回到第 2 课语音方法，精听该段并跟读</td></tr>
+    <tr><td>③ 粗心失误</td><td>拼写、单复数、审题、誊写错误</td><td>易错词表 + 誊写检查清单，考前过一遍</td></tr>
+    <tr><td>④ 时间与节奏</td><td>预读不够、某题卡住导致连环崩</td><td>回到第 8 课节奏管理，练"放弃一题保下一题"</td></tr>
+  </table>
+  <div class="card">原则：<strong>错题不归类，就等于白错</strong>。每次模考后，把归因表写进
+  learning-records，下一步训练直接瞄准占比最大的那一类。</div>
+
+  <h2>四、口语模考流程</h2>
+  <table>
+    <tr><th style="width:140px">环节</th><th>操作</th></tr>
+    <tr><td>完整三部分</td><td>Part 1（几问连答）+ Part 2（1 分钟准备 + 2 分钟讲述）+ Part 3（2–3 问论证）</td></tr>
+    <tr><td>录音</td><td>全程录音，模拟真实考场，不暂停</td></tr>
+    <tr><td>自评</td><td>按四维度回听打分：流利连贯 / 词汇 / 语法 / 发音，记录最弱项</td></tr>
+    <tr><td>反馈</td><td>把录音情况或文字回答发给 agent，按四维度逐题反馈</td></tr>
+  </table>
+
+  <h2>五、考前一周安排（冲刺期减量，保持手感）</h2>
+  <div class="code">倒数第 7–5 天：每天 1 套听力 Section + 1 次口语模拟，重点过归因表与易错词表
+倒数第 4–3 天：完整模考 1 次，口语录音请 agent 反馈，只补最弱的 1–2 项
+倒数第 2–1 天：不再大量做题；回顾 learning-records 里的卡点清单 + Anki 卡片；
+              保证睡眠，熟悉考试流程与物品清单</div>
+
+  <h2>六、退出标准（本课程的"毕业线"）</h2>
+  <table>
+    <tr><th>项目</th><th>标准</th></tr>
+    <tr><td>听力</td><td>连续两次全真模考，原始分稳定在 32–34/40（band 7.5）</td></tr>
+    <tr><td>口语</td><td>连续两次完整模考，Part 1/2/3 各维度表现达到 7.5 描述，无重大短板</td></tr>
+    <tr><td>未达标时</td><td>不新增内容，回到归因占比最大的类别做专项纠错，再模考</td></tr>
+  </table>
+
+  <h2>七、随堂测验（检索练习）</h2>
+
+  <div class="quiz-q">
+    <div class="q-title">1. 模考最重要的作用是？</div>
+    <label class="opt"><input type="radio" name="q1" value="a"> A. 检验知识点是否背熟</label>
+    <label class="opt"><input type="radio" name="q1" value="b"> B. 暴露真实状态下的时间压力、易错点与节奏问题</label>
+    <label class="opt"><input type="radio" name="q1" value="c"> C. 增加做题数量，保持手感即可</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">2. 错题"拼写、单复数、誊写错误"属于哪类归因？</div>
+    <label class="opt"><input type="radio" name="q2" value="a"> A. 知识缺失</label>
+    <label class="opt"><input type="radio" name="q2" value="b"> B. 语音听不懂</label>
+    <label class="opt"><input type="radio" name="q2" value="c"> C. 粗心失误</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">3. 错题归因后，下一步训练的依据是？</div>
+    <label class="opt"><input type="radio" name="q3" value="a"> A. 随机挑一类错题练</label>
+    <label class="opt"><input type="radio" name="q3" value="b"> B. 瞄准归因占比最大的那一类做专项纠错</label>
+    <label class="opt"><input type="radio" name="q3" value="c"> C. 不再训练，直接再考一次</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">4. 考前一周的正确策略是？</div>
+    <label class="opt"><input type="radio" name="q4" value="a"> A. 大量刷题，熬夜冲刺</label>
+    <label class="opt"><input type="radio" name="q4" value="b"> B. 减量保持手感，回顾错题归因与易错点，保证睡眠</label>
+    <label class="opt"><input type="radio" name="q4" value="c"> C. 彻底休息，不做任何练习</label>
+    <div class="fb"></div>
+  </div>
+
+  <div class="quiz-q">
+    <div class="q-title">5. 本课程的"毕业线"（退出标准）是？</div>
+    <label class="opt"><input type="radio" name="q5" value="a"> A. 做完全部课程</label>
+    <label class="opt"><input type="radio" name="q5" value="b"> B. 连续两次模考，听力 32–34/40 且口语各维度达 7.5 描述</label>
+    <label class="opt"><input type="radio" name="q5" value="c"> C. 背完所有课程的测验题</label>
+    <div class="fb"></div>
+  </div>
+
+  <p><button id="checkQuiz">提交并查看反馈</button></p>
+
+  <div class="done" id="doneMsg">✔ 本课（全套课程）完成。请完成下方作业——第一次全真模考是进入冲刺期的标志。</div>
+
+  <h2>八、课后作业（必须完成）</h2>
+  <div class="hw">
+    <p><strong>作业 A（首次全真模考）：</strong>完成一次完整模考——
+       听力一套（严格计时计分）+ 口语三部分（全程录音）。</p>
+    <p><strong>作业 B（归因表）：</strong>按四类归因整理全部错题与口语自评，
+       在对话里发给我（分数、错因分布、口语最弱项即可）。</p>
+    <p><strong>作业 C（汇报与规划）：</strong>我会把结果写入 learning-records，
+       按归因占比最大的类别，帮你制定冲刺期每日计划，直到达成退出标准。</p>
+  </div>
+
+  <footer>本课由 teach skill 工作区生成 · ielts-75/ · 全套 11 课已完成。</footer>
+</div>
+
+<script>
+  const answers = { q1:'b', q2:'c', q3:'b', q4:'b', q5:'b' };
+  const explain = {
+    q1: '对。模考暴露的是真实状态下的时间、易错与节奏问题，而非单纯的知识点记忆。',
+    q2: '对。拼写、单复数、誊写属于粗心失误，靠检查清单与易错词表解决。',
+    q3: '对。归因的意义就在于瞄准最大占比，做专项纠错而非盲目刷题。',
+    q4: '对。考前减量、回顾归因与易错点、保证睡眠，是稳定发挥的关键。',
+    q5: '对。连续两次模考达标，才是本课程的毕业标准。'
+  };
+  document.getElementById('checkQuiz').addEventListener('click', function () {
+    let allRight = true;
+    const qs = ['q1','q2','q3','q4','q5'];
+    qs.forEach(function (n) {
+      const qEl = document.querySelector('[name="'+n+'"]').closest('.quiz-q');
+      const fb = qEl.querySelector('.fb');
+      const picked = qEl.querySelector('[name="'+n+'"]:checked');
+      if (!picked) { fb.className = 'fb bad'; fb.textContent = '⚠ 还没有选择。'; allRight = false; return; }
+      if (picked.value === answers[n]) { fb.className = 'fb good'; fb.textContent = '✔ 正确。' + explain[n]; }
+      else { fb.className = 'fb bad'; fb.textContent = '✘ 再想想：正确答案是 ' + answers[n].toUpperCase() + '。' + explain[n]; allRight = false; }
+    });
+    document.getElementById('doneMsg').style.display = allRight ? 'block' : 'none';
+  });
+</script>
+</body>
+</html>
